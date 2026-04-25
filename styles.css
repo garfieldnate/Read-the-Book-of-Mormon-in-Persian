@@ -1,0 +1,259 @@
+/* Persian Book of Mormon study guide — shared stylesheet. */
+
+:root {
+  --text:            #1a1a1a;
+  --text-muted:      #40403c;
+  --accent:          #0b5a7a;
+  --bg:              #fbfaf4;
+  --rule:            #bfb7a0;
+
+  --persian-color:   #0a2540;
+  --translit-color:  #2e2e2e;
+  --example-bg:      #f1ecdc;
+  --example-border:  #8a6d3b;
+
+  --code-bg:         #e5dcc0;
+  --code-text:       #241a08;
+
+  --proper-bg:       rgba(107, 90, 32, 0.15);
+  --proper-color:    #5c4d1c;
+  --line-ref-bg:     rgba(11, 90, 122, 0.14);
+  --line-ref-color:  #084661;
+
+  --font-en:  "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-fa:  "Vazirmatn", "Iran Sans", "IRANSans", "Shabnam", "Nassim", Tahoma, "Geeza Pro", Arial, sans-serif;
+  --font-ui:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "DejaVu Sans Mono", monospace;
+}
+
+/* --------- page shell --------- */
+
+html { font-size: 17px; }
+
+body {
+  font-family: var(--font-en);
+  line-height: 1.58;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 52em;
+  margin: 2em auto 4em;
+  padding: 0 1.8em;
+}
+
+main { padding-bottom: 2em; }
+
+/* --------- headings --------- */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-ui);
+  color: var(--text);
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid var(--rule);
+  padding-bottom: 0.3em;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 1.55em;
+  margin: 2em 0 0.6em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.18em;
+  margin: 1.7em 0 0.4em;
+  color: var(--accent);
+}
+
+h4 { font-size: 1.05em; margin: 1.2em 0 0.4em; }
+
+p { margin: 0.8em 0; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2em 0;
+}
+
+/* --------- inline Persian & transliteration --------- */
+
+.persian {
+  font-family: var(--font-fa);
+  color: var(--persian-color);
+  font-size: 1.18em;
+  font-weight: 700;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+.translit {
+  font-style: italic;
+  color: var(--translit-color);
+}
+
+/* --------- vocab list --------- */
+
+.vocab {
+  list-style: none;
+  padding: 0;
+  margin: 0.4em 0 1.4em;
+}
+
+.vocab-entry {
+  font-size: 1.08em;
+  line-height: 1.8;
+  margin: 0.2em 0;
+  padding: 0.35em 0;
+  border-bottom: 1px solid #e3dcc6;
+}
+
+.vocab-entry:last-child { border-bottom: none; }
+
+.vocab-entry .persian {
+  margin-right: 0.25em;
+  font-size: 1.22em;   /* a touch larger than inline-elsewhere */
+}
+
+.vocab-entry .translit {
+  font-size: 1.02em;
+}
+
+/* --------- grammar example block --------- */
+
+.example {
+  margin: 1.3em 0;
+  padding: 0.85em 1.1em;
+  border-left: 4px solid var(--example-border);
+  background: var(--example-bg);
+  border-radius: 0 4px 4px 0;
+}
+
+.example-fa {
+  font-family: var(--font-fa);
+  font-size: 1.4em;
+  color: var(--persian-color);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.85;
+  margin: 0.15em 0 0.4em;
+  unicode-bidi: isolate;
+}
+
+.example-fa code {
+  /* Persian inside example-fa should look like flowing text, not code */
+  font-family: inherit;
+  font-size: inherit;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  font-weight: normal;
+}
+
+.example-tr {
+  font-style: italic;
+  color: var(--translit-color);
+  font-size: 1.08em;
+  line-height: 1.55;
+  margin: 0.25em 0;
+}
+
+.example-en {
+  color: var(--text);
+  font-size: 1.05em;
+  line-height: 1.55;
+  margin: 0.3em 0 0.1em;
+}
+
+/* --------- line reference citation --------- */
+
+.line-ref {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--line-ref-color);
+  background: var(--line-ref-bg);
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-inline-end: 0.55em;
+  vertical-align: middle;
+  direction: ltr;
+}
+
+/* --------- [proper] tag on proper nouns --------- */
+
+.proper {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  color: var(--proper-color);
+  background: var(--proper-bg);
+  padding: 1px 6px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-inline-start: 0.2em;
+}
+
+/* --------- inline code --------- */
+
+code {
+  font-family: var(--font-mono), var(--font-fa);
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
+/* Non-vocab bullet lists (e.g. intro, register markers) */
+ul:not(.vocab) {
+  padding-left: 1.5em;
+  margin: 0.8em 0;
+}
+
+ul:not(.vocab) li { margin: 0.25em 0; }
+
+/* --------- print --------- */
+
+@media print {
+  :root {
+    --bg: #ffffff;
+    --example-bg: #f0edde;
+    --code-bg: #ece5cc;
+    --line-ref-bg: #d8e4eb;
+    --proper-bg: #e6dfc3;
+  }
+  html { font-size: 11pt; }
+  body {
+    max-width: none;
+    margin: 0;
+    padding: 0.4in 0.5in;
+    background: white;
+  }
+  a { color: inherit; text-decoration: none; }
+  h1, h2, h3 { color: black; }
+  .accent, .line-ref { color: #084661; }
+  h2 { page-break-before: auto; }
+  h3 { page-break-after: avoid; }
+  .example { page-break-inside: avoid; }
+  .vocab-entry { page-break-inside: avoid; }
+}
+
+/* --------- narrow-viewport tweaks --------- */
+
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+  body { padding: 0 1em; margin: 1em auto 3em; }
+  .example { padding: 0.7em 0.8em; }
+  .example-fa { font-size: 1.25em; }
+  .persian { font-size: 1.12em; }
+  .vocab-entry { font-size: 1em; }
+}
