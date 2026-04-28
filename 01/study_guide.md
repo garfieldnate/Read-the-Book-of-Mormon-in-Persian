@@ -34,8 +34,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 1
 
 - **نخستین** — *noxostīn* — first, foremost
-  - *Etym*: نخست + -ین (ordinal/adjectival suffix).
-  - *Family*: نخست *noxost* "first" (used standalone as adverb "firstly").
+  - *Etym*: `نخست` + `-ین` (ordinal/adjectival suffix).
+  - *Family*: `نخست` *noxost* "first" (used standalone as adverb "firstly").
 - **کتاب** — *ketāb* — book
 - **نیفای** — *Nīfāy* [proper] — Nephi
   - *Etym*: transliteration of English *Nephi*, the Book of Mormon prophet's name. Sometimes connected to Egyptian *nfr* "good, fair" or to Hebrew, but Persian here just spells the English form phonetically.
@@ -43,8 +43,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 2
 
 - **فرمانروایی** — *farmān-ravāyī* — reign, rule
-  - *Etym*: فرمان + روا (← رفتن) + -ی → "having one's commands run/effected".
-  - *Family*: فرمان *farmān* "command, decree"; روا *ravā* "current, permitted" (also an entry in this chapter); فرمانروا *farmān-ravā* "ruler, sovereign".
+  - *Etym*: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
+  - *Family*: `فرمان` *farmān* "command, decree"; `روا` *ravā* "current, permitted" (also an entry in this chapter); `فرمانروا` *farmān-ravā* "ruler, sovereign".
   - *Forms*: collocation `فرمانروایی کردن` "to reign".
 - **و** — *o* (sometimes *va*) — and
 - **خدمت** — *xedmat* — service, ministry
@@ -55,7 +55,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **چهار** — *čahār* — four
 - **پسر** — *pesar* — son
-  - *Forms*: with suffix *پسرش pesar-aš* "his son(s)".
+  - *Forms*: with suffix *`پسرش` pesar-aš* "his son(s)".
 - **که** — *ke* — that, who, which (relative; also complementizer)
 - **شروع** — *šorūʿ* — beginning, start
   - *Etym*: from Arabic, root š-r-ʿ "to set out, undertake".
@@ -63,7 +63,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **از** — *az* — from, of, than
 - **ارشد** — *aršad* — senior, elder
   - *Etym*: from Arabic, comparative form of *rāšid* "rightly-guided", root r-š-d "to be on the right path".
-  - *Forms*: superlative *ارشدترین aršad-tarīn* "the eldest, most senior" (Arabic comparative + Persian superlative `-ترین`).
+  - *Forms*: superlative *`ارشدترین` aršad-tarīn* "the eldest, most senior" (Arabic comparative + Persian superlative `-ترین`).
 - **ترین** — *-tarīn* — superlative suffix ("most …, -est")
 - **لامان** — *Lāmān* [proper] — Laman (Lehi's eldest son)
   - *Etym*: Persian transliteration of English *Laman*, a Book of Mormon name.
@@ -71,13 +71,13 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 4
 
 - **سرگذشت** — *sargozašt* — account, life-story
-  - *Etym*: سر + گذشت (past stem of گذشتن) → "what has passed at one's head".
-  - *Family*: سر *sar* "head"; گذشتن *gozaštan* "to pass"; گذشت *gozašt* "past, bygone (n. or adj.)".
+  - *Etym*: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
+  - *Family*: `سر` *sar* "head"; `گذشتن` *gozaštan* "to pass"; `گذشت` *gozašt* "past, bygone (n. or adj.)".
 - **لیحای** — *Liḥāy* [proper] — Lehi (Nephi's father)
   - *Etym*: Persian transliteration of English *Lehi*; in Hebrew *Lḥy* means "jaw, cheek".
 - **همسر** — *hamsar* — spouse, husband/wife
-  - *Etym*: هم *ham* "same, together" + سر *sar* "head" → "having the same head/place".
-  - *Forms*: with suffix *همسرش hamsar-aš* "his wife"; abstract noun *همسری hamsar-ī* "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
+  - *Etym*: `هم` *ham* "same, together" + `سر` *sar* "head" → "having the same head/place".
+  - *Forms*: with suffix *`همسرش` hamsar-aš* "his wife"; abstract noun *`همسری` hamsar-ī* "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
 - **ثریا** — *Ṣariyā* [proper] — Sariah (Lehi's wife)
   - *Etym*: Persian transliteration of English *Sariah*; sometimes equated with Hebrew *Sāray*/*Sārā* "princess".
   - *Forms*: split in source as `ثری` + `ا،` across lines 4 + 3.
@@ -91,22 +91,22 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **خواندن** — *xāndan* (pres. *xān-*) — to read; to sing; to call (here passive: *خوانده می شدند* "they were called")
 - **می** — *mī-* — imperfective verbal prefix (present, past imperfect); see grammar §12
 - **شدن** — *šodan* (pres. *šav-*) — to become; passive auxiliary (see grammar §2)
-  - *Forms*: 3sg pres. *می شود mī-šavad* (lines 8, 23, 48); 3pl *می شوند mī-šavand* (line 10); subj. *شوند šavand* (lines 10, 104). Past *شد šod*; 1sg *شدم šodam*; 3pl *شدند šodand* (line 5: passive `خوانده می شدند` "were called"); pp. *شده šode*.
+  - *Forms*: 3sg pres. *`می` `شود` mī-šavad* (lines 8, 23, 48); 3pl *`می` `شوند` mī-šavand* (line 10); subj. *`شوند` šavand* (lines 10, 104). Past *`شد` šod*; 1sg *`شدم` šodam*; 3pl *`شدند` šodand* (line 5: passive `خوانده می شدند` "were called"); pp. *`شده` šode*.
 - **سرور** — *Sarvar* [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
-  - *Etym*: سر + -ور (suffix "having") → "having a head [over others]", i.e. "chief, master".
-  - *Family*: سر *sar* "head" (an entry in this chapter); -ور *-var* (productive suffix; cf. هنرور "skilled", کینه‌ور "vengeful").
-  - *Forms*: vocative *سرورا Sarvarā* "O Lord!" (line 98).
+  - *Etym*: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
+  - *Family*: `سر` *sar* "head" (an entry in this chapter); `-ور` *-var* (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
+  - *Forms*: vocative *`سرورا` Sarvarā* "O Lord!" (line 98).
 - **به** — *be* — to, toward, into
 - **هشدار** — *hošdār* — warning
-  - *Etym*: native Persian compound, traditionally analyzed as هش (← هوش) + دار (← داشتن) "alert-holding".
-  - *Family*: هوش *hūš* "consciousness, alertness, intelligence"; داشتن *dāštan* "to hold" (an entry in this chapter); هوشیار *hūšyār* "vigilant".
+  - *Etym*: native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) "alert-holding".
+  - *Family*: `هوش` *hūš* "consciousness, alertness, intelligence"; `داشتن` *dāštan* "to hold" (an entry in this chapter); `هوشیار` *hūšyār* "vigilant".
   - *Forms*: collocation `هشدار دادن` "to warn".
 - **دادن** — *dādan* (pres. *deh-*) — to give
-  - *Forms*: 3sg pres. *می دهد mī-dehad*, as in `هشدار می دهد` "warns / gives warning", line 5; pp. *داده dāde*. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
+  - *Forms*: 3sg pres. *`می` `دهد` mī-dehad*, as in `هشدار می دهد` "warns / gives warning", line 5; pp. *`داده` dāde*. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
 - **تا** — *tā* — until; so that; up to
 - **سرزمین** — *sarzamīn* — land, territory
-  - *Etym*: سر + زمین.
-  - *Family*: سر *sar* "head, top"; زمین *zamīn* "land, earth" (both also entries in this chapter).
+  - *Etym*: `سر` + `زمین`.
+  - *Family*: `سر` *sar* "head, top"; `زمین` *zamīn* "land, earth" (both also entries in this chapter).
 
 #### Line 6
 
@@ -115,24 +115,24 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **بیرون** — *bīrūn* — out, outside
   - *Forms*: collocations `بیرون رفتن` "to go out"; `بیرون انداختن` "to cast out".
 - **رفتن** — *raftan* (pres. *rav-*) — to go
-  - *Forms*: subj. 3sg *رود ravad* — note `rav-` + `-ad` collapses in spelling to `رود` — as in `بیرون رود` "may go out", line 6; past *رفت raft*, as in `پیش می رفت` "was going forth", line 50.
+  - *Forms*: subj. 3sg *`رود` ravad* — note `rav-` + `-ad` collapses in spelling to `رود` — as in `بیرون رود` "may go out", line 6; past *`رفت` raft*, as in `پیش می رفت` "was going forth", line 50.
 - **برای** — *barā-ye* — for, for the sake of
 - **اینکه** — *īnke* — that (clause-introducing conjunction)
-  - *Etym*: این *īn* "this" + که *ke* "that" → "the [fact] that".
+  - *Etym*: `این` *īn* "this" + `که` *ke* "that" → "the [fact] that".
   - *Forms*: collocation `برای اینکه` "because, in order that".
 - **بر** — *bar* — on, upon; against; over
 - **مردم** — *mardom* — people
-  - *Forms*: with suffix *مردمش mardom-aš* "his people".
+  - *Forms*: with suffix *`مردمش` mardom-aš* "his people".
 - **درباره** — *dar-bāre* — about, concerning
-  - *Etym*: در *dar* "in" + باره *bāre* "matter, regard" → "in the matter of".
-  - *Forms*: ezafe *دربارۀ dar-bāre-ye*.
+  - *Etym*: `در` *dar* "in" + `باره` *bāre* "matter, regard" → "in the matter of".
+  - *Forms*: ezafe *`دربارۀ` dar-bāre-ye*.
 - **نابکاری** — *nā-bekārī* — wickedness, iniquity
-  - *Etym*: نا- + بکار + -ی → "non-useful-ness, wickedness".
-  - *Family*: نا- *nā-* (privative prefix); کار *kār* "work" (an entry in this chapter); نابکار *nābekār* "wicked, useless" (the underlying adjective).
+  - *Etym*: `نا-` + `بکار` + `-ی` → "non-useful-ness, wickedness".
+  - *Family*: `نا-` *nā-* (privative prefix); `کار` *kār* "work" (an entry in this chapter); `نابکار` *nābekār* "wicked, useless" (the underlying adjective).
 - **ها** — *-hā* — plural marker (clitic); *های -hā-ye* = plural + ezafe
 - **شان** — *-šān* — 3pl possessive suffix ("their")
 - **نبوّت** — *nabovvat* — prophecy
-  - *Etym*: from Arabic *nubuwwa*, root n-b-ʾ "to be a prophet"; cognate with نبی *nabī* "prophet".
+  - *Etym*: from Arabic *nubuwwa*, root n-b-ʾ "to be a prophet"; cognate with `نبی` *nabī* "prophet".
   - *Forms*: collocation `نبوّت کردن` "to prophesy".
 - **کردن** — *kardan* (pres. *kon-*) — to do, make [the most common compound-verb auxiliary]
 - **در** — *dar* — in, into, at
@@ -143,65 +143,65 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **دنبال** — *donbāl* — behind, after
   - *Forms*: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
 - **نابودی** — *nābūdī* — destruction
-  - *Etym*: نا- + بود (past stem of بودن) + -ی → "non-being-ness".
-  - *Family*: نا- *nā-* (privative prefix; cf. نابود below, نابکار "wicked"); نابود *nābūd* "destroyed" (also an entry in this chapter); بودن *būdan* "to be".
+  - *Etym*: `نا-` + `بود` (past stem of `بودن`) + `-ی` → "non-being-ness".
+  - *Family*: `نا-` *nā-* (privative prefix; cf. `نابود` below, `نابکار` "wicked"); `نابود` *nābūd* "destroyed" (also an entry in this chapter); `بودن` *būdan* "to be".
 - **زندگی** — *zendegī* — life
-  - *Etym*: زنده + -گی (abstract suffix used after *-e*-final stems) → "the state of being alive".
-  - *Family*: زنده *zende* "alive"; زیستن *zīstan* "to live"; زندگانی *zendegānī* "life" (synonym, same root).
+  - *Etym*: `زنده` + `-گی` (abstract suffix used after *-e*-final stems) → "the state of being alive".
+  - *Family*: `زنده` *zende* "alive"; `زیستن` *zīstan* "to live"; `زندگانی` *zendegānī* "life" (synonym, same root).
 - **بودن** — *būdan* (pres. *hast-* / *bāš-*) — to be (3pl *هستند hastand*; past *بود būd*; pp. *بوده būde*; copula *است ast*)
 - **با** — *bā* — with
 - **خانواده** — *xānevāde* — family
-  - *Etym*: traditionally analyzed as خان (← خانه "house") + واده "extension" — i.e. "household".
-  - *Family*: خانه *xāne* "house" (also an entry in this chapter).
+  - *Etym*: traditionally analyzed as `خان` (← `خانه` "house") + `واده` "extension" — i.e. "household".
+  - *Family*: `خانه` *xāne* "house" (also an entry in this chapter).
 - **اش** — *-aš* — 3sg possessive suffix ("his/her/its")
 - **راهی** — *rāhī* — setting-out, departing
-  - *Etym*: راه *rāh* "road, way" + -ی *-ī* (relational suffix) → "of the road, on one's way".
+  - *Etym*: `راه` *rāh* "road, way" + `-ی` *-ī* (relational suffix) → "of the road, on one's way".
   - *Forms*: collocation `راهی شدن` "to set out, to be on one's way".
 - **سفر** — *safar* — journey, trip
   - *Etym*: from Arabic, root s-f-r "to travel".
-  - *Forms*: with indef. *-ī*: *سفری safar-ī* "a journey".
+  - *Forms*: with indef. *-ī*: *`سفری` safar-ī* "a journey".
 - **سه** — *se* — three
 - **روزه** — *rūze* — day-long, day's
-  - *Etym*: روز + -ه (adjective-forming suffix indicating duration/quantity).
-  - *Family*: روز *rūz* "day". (Note: روزه also = "fast / fasting" in religious contexts; same form, different sense.)
+  - *Etym*: `روز` + `-ه` (adjective-forming suffix indicating duration/quantity).
+  - *Family*: `روز` *rūz* "day". (Note: `روزه` also = "fast / fasting" in religious contexts; same form, different sense.)
   - *Forms*: collocation `سه روزه` "three-day".
 
 #### Line 8
 
 - **بیابان** — *bīyābān* — wilderness, desert
 - **برادر** — *barādar* — brother
-  - *Forms*: pl. *برادران barādarān*; with suffix *برادرانش barādarān-aš* "his brothers".
+  - *Forms*: pl. *`برادران` barādarān*; with suffix *`برادرانش` barādarān-aš* "his brothers".
 - **را** — *-rā* — direct-object marker (post-nominal clitic; see grammar §7)
 - **برداشتن** — *bar-dāštan* (pres. *bar-dār-*) — to take up, pick up, bring along
-  - *Etym*: prefix `بر-` *bar* "up, on" + داشتن *dāštan* "to hold".
-  - *Forms*: the `می-` slots **between** the prefix and داشتن (reversing داشتن's no-`می-` quirk). 3sg pres. *برمی دارد bar-mī-dārad* (line 8); 3pl *برمی دارند bar-mī-dārand* (line 10).
+  - *Etym*: prefix `بر-` *bar* "up, on" + `داشتن` *dāštan* "to hold".
+  - *Forms*: the `می-` slots **between** the prefix and `داشتن` (reversing `داشتن`'s no-`می-` quirk). 3sg pres. *`برمی` `دارد` bar-mī-dārad* (line 8); 3pl *`برمی` `دارند` bar-mī-dārand* (line 10).
 - **داشتن** — *dāštan* (pres. *dār-*) — to have, to hold
-  - *Forms*: in modern Persian the present indicative of داشتن **drops** `می-`, so 3sg is just *دارد dārad* "has" (line 8), 3pl *دارند dārand* (line 10) — never `می‌دارد`. Past *داشت dāšt* (line 102: `روا نخواهی داشت`); pp. *داشته dāšte*.
+  - *Forms*: in modern Persian the present indicative of `داشتن` **drops** `می-`, so 3sg is just *`دارد` dārad* "has" (line 8), 3pl *`دارند` dārand* (line 10) — never `می‌دارد`. Past *`داشت` dāšt* (line 102: `روا نخواهی داشت`); pp. *`داشته` dāšte*.
 - **پی** — *pey* — trace, track
   - *Forms*: collocation `در پی` "in pursuit of, in quest of".
 - **نگاشتن** — *negāštan* (pres. *negār-*) — to write, inscribe [literary; = نوشتن; pp. and noun *نگاشته negāšte* "writing, inscription"]
 - **یهودیان** — *Yahūdiyān* [proper] — the Jews
-  - *Etym*: یهود + -یان (Persian gentilic plural).
-  - *Family*: یهود *Yahūd* "Jew(s)" (Arabic, ← Hebrew *Yəhūdī* "Judahite"); -یان *-iyān* (productive plural for ethnic groups: ایرانیان "Iranians", مصریان "Egyptians" in this chapter).
+  - *Etym*: `یهود` + `-یان` (Persian gentilic plural).
+  - *Family*: `یهود` *Yahūd* "Jew(s)" (Arabic, ← Hebrew *Yəhūdī* "Judahite"); `-یان` *-iyān* (productive plural for ethnic groups: `ایرانیان` "Iranians", `مصریان` "Egyptians" in this chapter).
 
 #### Line 9
 
 - **باز** — *bāz* — back, again
-  - *Forms*: collocation `باز گشتن` "to return" (→ بازگشتن as a single verb).
+  - *Forms*: collocation `باز گشتن` "to return" (→ `بازگشتن` as a single verb).
 - **گشتن** — *gaštan* (pres. *gard-*) — to become, turn [literary equivalent of شدن]; also "to return" in `باز گشتن`
-  - *Forms*: 3sg pres. *می گردد mī-gardad*, as in `باز می گردد` "returns", line 9; past *گشت gašt*, as in `آکنده گشت` "became filled", line 86.
+  - *Forms*: 3sg pres. *`می` `گردد` mī-gardad*, as in `باز می گردد` "returns", line 9; past *`گشت` gašt*, as in `آکنده گشت` "became filled", line 86.
 - **زجر** — *zajr* — torment, distress
   - *Etym*: from Arabic, root z-j-r "to drive away, rebuke".
-  - *Forms*: pl. *زجرها zajr-hā*.
+  - *Forms*: pl. *`زجرها` zajr-hā*.
 - **دختر** — *doxtar* — daughter
-  - *Forms*: pl. *دختران doxtarān*.
+  - *Forms*: pl. *`دختران` doxtarān*.
 - **اسماعیل** — *Esmāʿīl* [proper] — Ishmael
   - *Etym*: from Hebrew *Yišmāʿēʾl* (יִשְׁמָעֵאל) "God hears", via Arabic *Ismāʿīl*.
 
 #### Line 10
 
 - **گرفتن** — *gereftan* (pres. *gīr-*) — to take, seize
-  - *Forms*: subj. 3pl *گیرند gīrand* (line 10) / *بگیرند begīrand* (line 149); past *گرفت gereft* / 3pl *گرفتند gereftand* (line 144); pp. *گرفته gerefte* (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
+  - *Forms*: subj. 3pl *`گیرند` gīrand* (line 10) / *`بگیرند` begīrand* (line 149); past *`گرفت` gereft* / 3pl *`گرفتند` gereftand* (line 144); pp. *`گرفته` gerefte* (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
 
 #### Line 11
 
@@ -212,8 +212,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - *Etym*: from Arabic, root s-f-r "to travel"; verbal-noun pattern *mufāʿalat*.
 - **آب** — *āb* — water
 - **پهناور** — *pahnāvar* — vast, wide
-  - *Etym*: پهن + -اور (suffix "having, bringing").
-  - *Family*: پهن *pahn* "broad, wide"; پهنا *pahnā* "breadth"; -آور (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
+  - *Etym*: `پهن` + `-اور` (suffix "having, bringing").
+  - *Family*: `پهن` *pahn* "broad, wide"; `پهنا` *pahnā* "breadth"; `-آور` (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
   - *Forms*: collocation `آبهای پهناور` "the great waters" (i.e. the ocean).
 
 #### Line 12
@@ -222,8 +222,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **علیه** — *ʿalayhi* — against
   - *Etym*: from Arabic, originally a prepositional phrase *ʿalay-hi* "upon him".
 - **شورش** — *šūreš* — rebellion, uprising
-  - *Etym*: شور + -ش (deverbal nominalizer).
-  - *Family*: شور *šūr* "agitation, fervor, passion"; شوریدن *šūrīdan* "to revolt, be in turmoil".
+  - *Etym*: `شور` + `-ش` (deverbal nominalizer).
+  - *Family*: `شور` *šūr* "agitation, fervor, passion"; `شوریدن` *šūrīdan* "to revolt, be in turmoil".
   - *Forms*: collocation `شورش کردن` "to rebel".
 - **مجاب** — *mojāb* — convinced, persuaded
   - *Etym*: from Arabic, passive participle of *ʾajāba* "to answer", root j-w-b → "answered, satisfied".
@@ -234,8 +234,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 13
 
 - **خرّمساران** — *Xorram-sārān* [proper] — "Bountiful" (the place where Lehi's family builds the ship)
-  - *Etym*: native Persian coinage, خرّم + سار (place-of suffix) + plural -ان → "lands of abundance".
-  - *Family*: خرّم *xorram* "verdant, flourishing, joyful"; -سار *-sār* (place-of suffix, also seen in this chapter as سنگسار "stoning", کوهسار "mountainous land").
+  - *Etym*: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
+  - *Family*: `خرّم` *xorram* "verdant, flourishing, joyful"; `-سار` *-sār* (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
   - *Forms*: split across lines 13–14 in source as `ّمساران` + `خر`.
 - **سوی** — *sūy* — direction, side
   - *Forms*: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
@@ -243,7 +243,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 14
 
 - **ساختن** — *sāxtan* (pres. *sāz-*) — to make, build
-  - *Forms*: 3sg pres. *می سازد mī-sāzad* (line 14); subj. *سازد sāzad* with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
+  - *Forms*: 3sg pres. *`می` `سازد` mī-sāzad* (line 14); subj. *`سازد` sāzad* with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
 - **نام** — *nām* — name
   - *Etym*: native Persian; cognate with English *name*, Latin *nomen* (Indo-European).
   - *Forms*: idiom `نام چیزی را X خواندن` "to call something X".
@@ -257,12 +257,12 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **گذشتن** — *gozaštan* (pres. *gozar-*) — to pass; to cross (`چنین گذشت` = "it came to pass"; see grammar §1)
 - **ادامه** — *edāme* — continuation
   - *Etym*: from Arabic, root d-w-m "to last, continue".
-  - *Forms*: ezafe *ادامۀ edāme-ye*.
+  - *Forms*: ezafe *`ادامۀ` edāme-ye*.
 - **آن** — *ān* — that; it (demonstrative / 3sg pron.)
 - **این** — *īn* — this
 - **پایه** — *pāye* — base, foundation
-  - *Family*: پا *pā* "foot, leg"; پایان *pāyān* "end" (literary "foothold").
-  - *Forms*: ezafe *پایۀ pāye-ye*; collocation `بر پایۀ X` "on the basis of X".
+  - *Family*: `پا` *pā* "foot, leg"; `پایان` *pāyān* "end" (literary "foothold").
+  - *Forms*: ezafe *`پایۀ` pāye-ye*; collocation `بر پایۀ X` "on the basis of X".
 - **یا** — *yā* — or
 - **بیان** — *bayān* — statement, expression
   - *Etym*: from Arabic, root b-y-n "to be clear, make plain".
@@ -286,42 +286,42 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 18
 
 - **نمودن** — *nemūdan* (pres. *namāy-*) — to do; to show; to appear [literary alternative to کردن]
-  - *Forms*: 3sg pres. *می نماید mī-namāyad*, as in `شروع می نماید` "begins", line 18; past *نمود namūd*, as in `شروع نمود` "began", line 131.
+  - *Forms*: 3sg pres. *`می` `نماید` mī-namāyad*, as in `شروع می نماید` "begins", line 18; past *`نمود` namūd*, as in `شروع نمود` "began", line 131.
 
 #### Line 19
 
 - **رؤیا** — *roʾyā* — vision
 - **ستون** — *sotūn* — pillar, column
-  - *Forms*: with indef. *-ī*: *ستونی sotūn-ī* "a pillar".
+  - *Forms*: with indef. *-ī*: *`ستونی` sotūn-ī* "a pillar".
 - **آتش** — *ātaš* — fire
 - **دیدن** — *dīdan* (pres. *bīn-*) — to see
-  - *Forms*: pres stem `bīn-` is unrelated to the infinitive's `dīd-`. 3sg pres. *می بیند mī-bīnad* (line 19: `ستونی از آتش می بیند` "sees a pillar of fire"). Past *دید dīd* (line 57+); 1sg perfect *دیده ام dīde-am* "I have seen" (line 89); pp. *دیده dīde*.
+  - *Forms*: pres stem `bīn-` is unrelated to the infinitive's `dīd-`. 3sg pres. *`می` `بیند` mī-bīnad* (line 19: `ستونی از آتش می بیند` "sees a pillar of fire"). Past *`دید` dīd* (line 57+); 1sg perfect *`دیده` `ام` dīde-am* "I have seen" (line 89); pp. *`دیده` dīde*.
 
 #### Line 20
 
 - **خدا** — *xodā* — God
   - *Etym*: native Persian; from Old Persian *xvadāta-* "lord, self-existing".
-  - *Forms*: ezafe *خدای xodā-ye*; with suffix *خدایش xodā-yaš* "his God", *خدایشان xodā-yešān* "their God".
+  - *Forms*: ezafe *`خدای` xodā-ye*; with suffix *`خدایش` xodā-yaš* "his God", *`خدایشان` xodā-yešān* "their God".
 - **ستایش** — *setāyeš* — praise
-  - *Etym*: ستای- (pres. stem of ستودن) + -ش (nominalizer).
-  - *Family*: ستودن *setūdan* "to praise" (verb).
+  - *Etym*: `ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer).
+  - *Family*: `ستودن` *setūdan* "to praise" (verb).
   - *Forms*: collocation `ستایش کردن` "to praise".
 
 #### Line 21
 
 - **آمدن** — *āmadan* (pres. *ā-*) — to come
-  - *Forms*: pres stem `ā-` takes an epenthetic `-y-` before vowel-initial endings: 3sg pres. *می آید mī-āyad* (line 75: `فرود می آید` "descends"); 3pl *می آیند mī-āyand* (line 103). Past *آمد āmad*; 3pl past imperfect *می آمدند mī-āmadand* (line 78); 3pl past *آمدند āmadand* (line 81).
+  - *Forms*: pres stem `ā-` takes an epenthetic `-y-` before vowel-initial endings: 3sg pres. *`می` `آید` mī-āyad* (line 75: `فرود می آید` "descends"); 3pl *`می` `آیند` mī-āyand* (line 103). Past *`آمد` āmad*; 3pl past imperfect *`می` `آمدند` mī-āmadand* (line 78); 3pl past *`آمدند` āmadand* (line 81).
 - **مسیح** — *Masīḥ* [proper] — the Messiah, Christ
   - *Etym*: from Arabic *al-Masīḥ*, ultimately Hebrew *māšīaḥ* (מָשִׁיחַ) "anointed one", root m-š-ḥ.
 - **پیشگویی** — *pīšgūyī* — prediction, prophecy
-  - *Etym*: پیش "before" + گویی (← گفتن) "saying" → "fore-telling".
-  - *Family*: پیش *pīš* "before, ahead"; گفتن *goftan* "to say"; پیشگو *pīšgū* "foreteller, soothsayer".
+  - *Etym*: `پیش` "before" + `گویی` (← `گفتن`) "saying" → "fore-telling".
+  - *Family*: `پیش` *pīš* "before, ahead"; `گفتن` *goftan* "to say"; `پیشگو` *pīšgū* "foreteller, soothsayer".
   - *Forms*: collocation `پیشگویی کردن` "to foretell".
 
 #### Line 23
 
 - **آزار** — *āzār* — harm, persecution, torment
-  - *Etym*: native Persian; related to آزردن *āzordan* "to grieve, hurt".
+  - *Etym*: native Persian; related to `آزردن` *āzordan* "to grieve, hurt".
   - *Forms*: collocation `آزار دادن` "to persecute, to torment".
 - **نزدیک** — *nazdīk* — near
 
@@ -340,38 +340,38 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 25
 
 - **پدر** — *pedar* — father
-  - *Forms*: with suffix *پدرم pedar-am* "my father".
+  - *Forms*: with suffix *`پدرم` pedar-am* "my father".
 - **مادر** — *mādar* — mother
 - **خوب** — *xūb* — good
-  - *Family*: خوبی *xūbī* "goodness, virtue"; خوش *xoš* "happy, pleasant" (related root).
-  - *Forms*: with indef. *-ī*: *خوبی xūb-ī* "a good [one]" (or "goodness" as abstract noun).
+  - *Family*: `خوبی` *xūbī* "goodness, virtue"; `خوش` *xoš* "happy, pleasant" (related root).
+  - *Forms*: with indef. *-ī*: *`خوبی` xūb-ī* "a good [one]" (or "goodness" as abstract noun).
 
 #### Line 26
 
 - **زادن** — *zādan* (pres. *zā-*) — to give birth (pp. *زاده zāde* "born")
 - **بنابراین** — *banābarīn* — therefore
-  - *Etym*: بنا + بر + این → "based on this".
-  - *Family*: بنا *banā* "foundation, basis" (Arabic, root b-n-y); also seen in `بر پایۀ` "on the basis of" (synonymous).
+  - *Etym*: `بنا` + `بر` + `این` → "based on this".
+  - *Family*: `بنا` *banā* "foundation, basis" (Arabic, root b-n-y); also seen in `بر پایۀ` "on the basis of" (synonymous).
 - **اندک** — *andak* — little
-  - *Forms*: with indef. *-ī*: *اندکی andak-ī* "a little".
+  - *Forms*: with indef. *-ī*: *`اندکی` andak-ī* "a little".
 - **همه** — *hame* — all, every
-  - *Forms*: ezafe *همۀ hame-ye*.
+  - *Forms*: ezafe *`همۀ` hame-ye*.
 
 #### Line 27
 
 - **آموختن** — *āmūxtan* (pres. *āmūz-*) — to learn, teach (pp. *آموخته āmūxte* = "learning, thing learned")
 - **آموزش** — *āmūzeš* — teaching, instruction
-  - *Etym*: آموز- (pres. stem of آموختن "to teach/learn") + -ش (nominalizer).
-  - *Family*: آموختن *āmūxtan* "to teach, to learn" (verb); آموخته *āmūxte* "learning" (pp).
+  - *Etym*: `آموز-` (pres. stem of `آموختن` "to teach/learn") + `-ش` (nominalizer).
+  - *Family*: `آموختن` *āmūxtan* "to teach, to learn" (verb); `آموخته` *āmūxte* "learning" (pp).
 
 #### Line 28
 
 - **دوره** — *dowre* — period, era
   - *Etym*: from Arabic *dawra* "circle, cycle", root d-w-r.
-  - *Forms*: ezafe *دورۀ dowre-ye*.
+  - *Forms*: ezafe *`دورۀ` dowre-ye*.
 - **روزگار** — *rūzgār* — time, days, era
-  - *Etym*: روز + -گار (suffix forming nouns of duration/period) → "the days [of life]".
-  - *Family*: روز *rūz* "day"; -گار *-gār* (productive in آموزگار "teacher", کردگار "creator", پروردگار "Lord").
+  - *Etym*: `روز` + `-گار` (suffix forming nouns of duration/period) → "the days [of life]".
+  - *Family*: `روز` *rūz* "day"; `-گار` *-gār* (productive in `آموزگار` "teacher", `کردگار` "creator", `پروردگار` "Lord").
 - **بسیار** — *besyār* — much, very; *بسیاری besyār-ī* = many
 
 #### Line 29
@@ -389,27 +389,27 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **لطف** — *loṭf* — grace, favor, kindness
   - *Etym*: from Arabic, root l-ṭ-f "to be kind, gentle".
 - **والا** — *vālā* — exalted, lofty
-  - *Etym*: native Persian, from older *abālā* / *ablā* "above"; cognate with بالا *bālā* "up".
-  - *Forms*: ezafe *والای vālā-ye*.
+  - *Etym*: native Persian, from older *abālā* / *ablā* "above"; cognate with `بالا` *bālā* "up".
+  - *Forms*: ezafe *`والای` vālā-ye*.
 - **آری** — *ārī* — yea, indeed [archaic/biblical register; very frequent here]
-  - *Etym*: native Persian; literary equivalent of modern *بله balē*.
+  - *Etym*: native Persian; literary equivalent of modern *`بله` balē*.
 
 #### Line 31
 
 - **نیکی** — *nīkī* — goodness
-  - *Etym*: نیک + -ی (abstract).
-  - *Family*: نیک *nīk* "good, virtuous"; نیکو *nīkū* "fine, excellent" (literary variant).
+  - *Etym*: `نیک` + `-ی` (abstract).
+  - *Family*: `نیک` *nīk* "good, virtuous"; `نیکو` *nīkū* "fine, excellent" (literary variant).
 - **راز** — *rāz* — secret, mystery
 - **دانش** — *dāneš* — knowledge
-  - *Etym*: دان- (pres. stem of دانستن "to know") + -ش (nominalizer).
-  - *Family*: دانستن *dānestan* "to know" (an entry in this chapter); دانا *dānā* "wise"; دانشمند *dānešmand* "scholar".
+  - *Etym*: `دان-` (pres. stem of `دانستن` "to know") + `-ش` (nominalizer).
+  - *Family*: `دانستن` *dānestan* "to know" (an entry in this chapter); `دانا` *dānā* "wise"; `دانشمند` *dānešmand* "scholar".
 - **زیاد** — *zīyād* — much, many
-  - *Forms*: with indef. *-ī*: *زیادی zīyād-ī*.
+  - *Forms*: with indef. *-ī*: *`زیادی` zīyād-ī*.
 
 #### Line 32
 
 - **کار** — *kār* — work, deed
-  - *Forms*: with suffix *کارهایم kārhā-yam* "my works" (pl. + 1sg poss.).
+  - *Forms*: with suffix *`کارهایم` kārhā-yam* "my works" (pl. + 1sg poss.).
 
 ### Verse 2 (lines 34–36)
 
@@ -419,8 +419,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **زبان** — *zabān* — tongue, language
 - **پدری** — *pedar-ī* — paternal
-  - *Etym*: پدر + -ی (relational adjective suffix).
-  - *Family*: پدر *pedar* "father" (an entry in this chapter); -ی *-ī* (productive: ایرانی "Iranian", شهری "urban").
+  - *Etym*: `پدر` + `-ی` (relational adjective suffix).
+  - *Family*: `پدر` *pedar* "father" (an entry in this chapter); `-ی` *-ī* (productive: `ایرانی` "Iranian", `شهری` "urban").
 
 #### Line 35
 
@@ -430,8 +430,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 36
 
 - **مصریان** — *Meṣriyān* [proper] — Egyptians
-  - *Etym*: مصر + -یان (Persian gentilic plural).
-  - *Family*: مصر *Meṣr* "Egypt" (Arabic, ← Hebrew *Miṣrayim*); -یان *-iyān* (cf. یهودیان in this chapter).
+  - *Etym*: `مصر` + `-یان` (Persian gentilic plural).
+  - *Family*: `مصر` *Meṣr* "Egypt" (Arabic, ← Hebrew *Miṣrayim*); `-یان` *-iyān* (cf. `یهودیان` in this chapter).
 
 ### Verse 3 (lines 37–40)
 
@@ -440,7 +440,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 37
 
 - **دانستن** — *dānestan* (pres. *dān-*) — to know
-  - *Forms*: 1sg pres. *می دانم mī-dānam*, as in `من می دانم` "I know", line 37; subj. 2pl *بدانید bedānīd* "[that] you may know", line 126 — note `بـ-` for the subjunctive.
+  - *Forms*: 1sg pres. *`می` `دانم` mī-dānam*, as in `من می دانم` "I know", line 37; subj. 2pl *`بدانید` bedānīd* "[that] you may know", line 126 — note `بـ-` for the subjunctive.
 
 #### Line 38
 
@@ -449,9 +449,9 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 39
 
 - **دست** — *dast* — hand
-  - *Forms*: pl. *دستها dasthā*.
+  - *Forms*: pl. *`دستها` dasthā*.
 - **خود** — *xod* — self; own
-  - *Forms*: with suffixes: *خودم xod-am* "my own".
+  - *Forms*: with suffixes: *`خودم` xod-am* "my own".
 
 ### Verse 4 (lines 41–48)
 
@@ -462,7 +462,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **زیرا** — *zīrā* — because, for
   - *Etym*: native Persian; from earlier *zī rā* "for the sake of which".
 - **چنین** — *čonīn* — such, thus
-  - *Etym*: چو *čo* (variant of چون "as, like") + این *īn* "this" → "like this, in this manner".
+  - *Etym*: `چو` *čo* (variant of `چون` "as, like") + `این` *īn* "this" → "like this, in this manner".
   - *Forms*: idiom `چنین گذشت` "it came to pass" (see grammar §1).
 - **آغاز** — *āqāz* — beginning
 
@@ -472,7 +472,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **صدقیا** — *Ṣedqiyā* [proper] — Zedekiah (last king of Judah)
   - *Etym*: from Hebrew *Ṣidqīyāhū* (צִדְקִיָּהוּ) "YHWH is my righteousness", via Arabic.
 - **پادشاه** — *pādšāh* — king
-  - *Etym*: پاد *pād* "protector, lord" + شاه *šāh* "king" → "lord-king, sovereign". From Old Persian *pati-xšāyathiya*.
+  - *Etym*: `پاد` *pād* "protector, lord" + `شاه` *šāh* "king" → "lord-king, sovereign". From Old Persian *pati-xšāyathiya*.
 - **یهودا** — *Yahūdā* [proper] — Judah
   - *Etym*: from Hebrew *Yəhūdā* (יְהוּדָה) "praised", via Arabic.
 
@@ -480,16 +480,16 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **ساکن** — *sāken* — resident, dwelling
   - *Etym*: from Arabic, active participle of *sakana* "to dwell, be still", root s-k-n.
-  - *Forms*: pl. *ساکنان sākenān* "inhabitants".
+  - *Forms*: pl. *`ساکنان` sākenān* "inhabitants".
 - **همان** — *hamān* — that same
-  - *Etym*: هم *ham* (same, identical) + آن *ān* (that).
+  - *Etym*: `هم` *ham* (same, identical) + `آن` *ān* (that).
 
 #### Line 46
 
 - **پیامبر** — *payāmbar* — prophet
-  - *Etym*: پیام + بر (pres. stem of بردن) → "message-carrier". A wholly Persian formation, used in place of the Arabic loan نبی.
-  - *Family*: پیام *payām* "message"; بردن *bordan* "to carry, take"; پیغام *payqām* "message" (variant).
-  - *Forms*: pl. *پیامبران payāmbarān*.
+  - *Etym*: `پیام` + `بر` (pres. stem of `بردن`) → "message-carrier". A wholly Persian formation, used in place of the Arabic loan `نبی`.
+  - *Family*: `پیام` *payām* "message"; `بردن` *bordan* "to carry, take"; `پیغام` *payqām* "message" (variant).
+  - *Forms*: pl. *`پیامبران` payāmbarān*.
 
 #### Line 47
 
@@ -504,7 +504,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **عظیم** — *ʿaẓīm* — great, mighty
   - *Etym*: from Arabic, root ʿ-ẓ-m "to be great"; pattern *faʿīl* (intensive adjective).
 - **نابود** — *nābūd* — destroyed
-  - *Etym*: نا- *nā-* "non-, un-" + بود *būd* (past stem of بودن "to be") → "non-existent".
+  - *Etym*: `نا-` *nā-* "non-, un-" + `بود` *būd* (past stem of `بودن` "to be") → "non-existent".
   - *Forms*: collocation `نابود شدن` "to be destroyed".
 
 ### Verse 5 (lines 49–53)
@@ -519,7 +519,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 50
 
 - **همچنان** — *hamčonān* — just as, while; likewise
-  - *Etym*: هم *ham* "same, also" + چنان *čonān* "such, in that way" → "in the same way, while".
+  - *Etym*: `هم` *ham* "same, also" + `چنان` *čonān* "such, in that way" → "in the same way, while".
 
 #### Line 51
 
@@ -530,14 +530,14 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 52
 
 - **نیایش** — *niyāyeš* — supplication, prayer
-  - *Etym*: from نیایستن "to supplicate" + -ش (nominalizer); native Persian, deeply rooted (cf. Avestan *niyāy-*).
-  - *Family*: نیایشگاه *niyāyešgāh* "place of worship".
+  - *Etym*: from `نیایستن` "to supplicate" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan *niyāy-*).
+  - *Family*: `نیایشگاه` *niyāyešgāh* "place of worship".
   - *Forms*: collocation `نیایش کردن` "to pray".
 
 #### Line 53
 
 - **دل** — *del* — heart
-  - *Forms*: with suffix *دلش del-aš* "his heart".
+  - *Forms*: with suffix *`دلش` del-aš* "his heart".
 
 ### Verse 6 (lines 54–59)
 
@@ -546,7 +546,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 56
 
 - **صخره** — *ṣaxre* — rock, cliff
-  - *Etym*: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with صخرة *ṣaxra*.
+  - *Etym*: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` *ṣaxra*.
 - **برابر** — *barābar* — opposite, in front of; equal
 
 #### Line 57
@@ -560,7 +560,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - *Etym*: from Arabic, root s-b-b "to cause, occasion".
   - *Forms*: collocation `به سبب` "because of".
 - **چیز** — *čīz* — thing
-  - *Forms*: pl. *چیزها čīzhā*; with rel. construction *چیزهایی čīzhā-yī* "things which" (pl. + indef. + relative).
+  - *Forms*: pl. *`چیزها` čīzhā*; with rel. construction *`چیزهایی` čīzhā-yī* "things which" (pl. + indef. + relative).
 - **بی** — *bī* — without (prefix/particle)
 
 #### Line 59
@@ -579,7 +579,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 60
 
 - **خانه** — *xāne* — house
-  - *Forms*: ezafe *خانۀ xāne-ye*.
+  - *Forms*: ezafe *`خانۀ` xāne-ye*.
 
 #### Line 61
 
@@ -597,8 +597,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 63
 
 - **بستر** — *bestar* — bed
-  - *Family*: گستردن *gostardan* "to spread out" (the verb بستر derives from); بستری *bestarī* "bedridden, hospitalized".
-  - *Forms*: with suffix *بسترش bestar-aš* "his bed".
+  - *Family*: `گستردن` *gostardan* "to spread out" (the verb `بستر` derives from); `بستری` *bestarī* "bedridden, hospitalized".
+  - *Forms*: with suffix *`بسترش` bestar-aš* "his bed".
 - **انداختن** — *andāxtan* (pres. *andāz-*) — to throw, cast (`بیرون انداختن` = to cast out)
 
 ### Verse 8 (lines 64–73)
@@ -608,7 +608,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 64
 
 - **بدین** — *bedīn* — in/by this
-  - *Etym*: contraction of به *be* "to, by" + این *īn* "this".
+  - *Etym*: contraction of `به` *be* "to, by" + `این` *īn* "this".
   - *Forms*: collocation `بدین گونه` "in this manner".
 - **گونه** — *gūne* — kind, manner
   - *Forms*: collocation `بدین گونه` "in this manner".
@@ -621,15 +621,15 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **آسمان** — *āsmān* — sky, heaven
   - *Etym*: native Persian; from Avestan *asman-* "sky, stone" — originally "stony vault".
-  - *Family*: آسمانی *āsmānī* "heavenly, celestial".
-  - *Forms*: pl. *آسمانها āsmānhā*.
+  - *Family*: `آسمانی` *āsmānī* "heavenly, celestial".
+  - *Forms*: pl. *`آسمانها` āsmānhā*.
 - **گشودن** — *gošūdan* (pres. *gošāy-*) — to open (pp. *گشوده gošūde*)
 
 #### Line 69
 
 - **پنداشتن** — *pendāštan* (pres. *pendār-*) — to think, suppose, imagine
 - **تخت** — *taxt* — throne
-  - *Forms*: with suffix *تختش taxt-aš* "his throne".
+  - *Forms*: with suffix *`تختش` taxt-aš* "his throne".
 
 #### Line 70
 
@@ -646,12 +646,12 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 72
 
 - **بیشمار** — *bī-šomār* — countless
-  - *Etym*: بی- + شمار.
-  - *Family*: بی- *bī-* (privative prefix "without"); شمار *šomār* "count, number"; شمردن *šomordan* "to count"; شماره *šomāre* "number".
-  - *Forms*: with indef. *-ī*: *بیشماری bī-šomār-ī* "a numerous [company]".
+  - *Etym*: `بی-` + `شمار`.
+  - *Family*: `بی-` *bī-* (privative prefix "without"); `شمار` *šomār* "count, number"; `شمردن` *šomordan* "to count"; `شماره` *šomāre* "number".
+  - *Forms*: with indef. *-ī*: *`بیشماری` bī-šomār-ī* "a numerous [company]".
 - **فرشته** — *farešte* — angel
-  - *Etym*: from Middle Persian *frēstag* "messenger, envoy", from فرستادن "to send"; native Persian rendering of "messenger of God".
-  - *Forms*: pl. *فرشتگان fereštegān*.
+  - *Etym*: from Middle Persian *frēstag* "messenger, envoy", from `فرستادن` "to send"; native Persian rendering of "messenger of God".
+  - *Forms*: pl. *`فرشتگان` fereštegān*.
 - **حال** — *ḥāl* — state, condition
   - *Etym*: from Arabic, root ḥ-w-l "to change, turn".
   - *Forms*: collocation `در حال` "in the act of, while".
@@ -666,7 +666,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 74
 
 - **یکی** — *yek-ī* — one (of)
-  - *Etym*: یک *yek* "one" + indefinite *-ī* → "one [of them]".
+  - *Etym*: `یک` *yek* "one" + indefinite *-ī* → "one [of them]".
 
 #### Line 75
 
@@ -679,13 +679,13 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 76
 
 - **پرتو** — *partow* — ray, beam
-  - *Forms*: with suffix *پرتوش partow-aš* "his light".
+  - *Forms*: with suffix *`پرتوش` partow-aš* "his light".
 - **فراتر** — *farātar* — further, beyond
-  - *Etym*: فرا *farā* "beyond" + comparative suffix *-تر -tar*.
+  - *Etym*: `فرا` *farā* "beyond" + comparative suffix *`-تر` -tar*.
 - **خورشید** — *xoršīd* — sun
   - *Etym*: native Persian; from older *huar-xšaita-* "shining sun" (Avestan).
 - **نیمروز** — *nīmrūz* — noon, midday
-  - *Etym*: نیم *nīm* "half" + روز *rūz* "day" → "half-day, mid-day".
+  - *Etym*: `نیم` *nīm* "half" + `روز` *rūz* "day" → "half-day, mid-day".
 
 ### Verse 10 (lines 77–80)
 
@@ -694,7 +694,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 77
 
 - **همچنین** — *hamčonīn* — also, likewise
-  - *Etym*: هم *ham* "same" + چنین *čonīn* "such" → "in the same such [way]".
+  - *Etym*: `هم` *ham* "same" + `چنین` *čonīn* "such" → "in the same such [way]".
 - **دوازده** — *davāzdah* — twelve
 - **تای** — *tā-ye* — counter/classifier
   - *Forms*: in cardinals: `دوازده تای دیگر` "twelve others".
@@ -702,17 +702,17 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 78
 
 - **درخشش** — *deraxšeš* — shining, radiance, brilliance
-  - *Etym*: درخش- (pres. stem of درخشیدن "to shine") + -ش (nominalizer).
-  - *Family*: درخشیدن *deraxšīdan* "to shine"; درخشان *deraxšān* "shining, brilliant".
+  - *Etym*: `درخش-` (pres. stem of `درخشیدن` "to shine") + `-ش` (nominalizer).
+  - *Family*: `درخشیدن` *deraxšīdan* "to shine"; `درخشان` *deraxšān* "shining, brilliant".
 
 #### Line 79
 
 - **تابش** — *tābeš* — shining, radiance
-  - *Etym*: تاب- (pres. stem of تابیدن "to shine") + -ش (nominalizer).
-  - *Family*: تابیدن *tābīdan* "to shine, radiate"; آفتاب *āftāb* "sunshine" (آف "shining" + تاب).
+  - *Etym*: `تاب-` (pres. stem of `تابیدن` "to shine") + `-ش` (nominalizer).
+  - *Family*: `تابیدن` *tābīdan* "to shine, radiate"; `آفتاب` *āftāb* "sunshine" (`آف` "shining" + `تاب`).
 - **ستارگان** — *setāregān* — stars
-  - *Etym*: ستاره + -گان (plural form used after *-e*-final stems, where *-e* drops).
-  - *Family*: ستاره *setāre* "star" (singular).
+  - *Etym*: `ستاره` + `-گان` (plural form used after *-e*-final stems, where *-e* drops).
+  - *Family*: `ستاره` *setāre* "star" (singular).
 - **گنبد** — *gombad* — dome, vault
   - *Forms*: collocation `گنبد آسمان` "the firmament" (lit. "dome of the sky").
 
@@ -737,7 +737,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 84
 
 - **خواستن** — *xāstan* (pres. *xāh-*) — to want; auxiliary for future tense (see grammar §3)
-  - *Forms*: as main verb, 3sg past *خواست xāst* "wanted, asked" (line 84). As future auxiliary: 1sg *خواهم xāham*, 3sg *خواهد xāhad*, 3pl *خواهند xāhand* (lines 91–93); neg. 1sg *نخواهم naxāham* (line 118), neg. 2sg *نخواهی naxāhī* (line 102).
+  - *Forms*: as main verb, 3sg past *`خواست` xāst* "wanted, asked" (line 84). As future auxiliary: 1sg *`خواهم` xāham*, 3sg *`خواهد` xāhad*, 3pl *`خواهند` xāhand* (lines 91–93); neg. 1sg *`نخواهم` naxāham* (line 118), neg. 2sg *`نخواهی` naxāhī* (line 102).
 
 ### Verse 12 (lines 85–86)
 
@@ -784,8 +784,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 94
 
 - **هنگام** — *hengām* — time, occasion
-  - *Family*: هنگامه *hengāme* "uproar, scene"; به هنگام *be hengām* "in due time".
-  - *Forms*: *هنگامی که hengām-ī ke* "when, at the time that".
+  - *Family*: `هنگامه` *hengāme* "uproar, scene"; `به` `هنگام` *be hengām* "in due time".
+  - *Forms*: *`هنگامی` `که` hengām-ī ke* "when, at the time that".
 
 #### Line 95
 
@@ -796,8 +796,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 96
 
 - **انگیز** — *angīz* — arousing, stirring [bound morpheme]
-  - *Etym*: pres. stem of انگیختن *angīxtan* "to incite, arouse" — used as the second element of compound adjectives.
-  - *Family*: انگیختن *angīxtan* "to incite, arouse"; common compounds: `شگفت‌انگیز` "astonishing", `هیجان‌انگیز` "exciting", `دل‌انگیز` "delightful".
+  - *Etym*: pres. stem of `انگیختن` *angīxtan* "to incite, arouse" — used as the second element of compound adjectives.
+  - *Family*: `انگیختن` *angīxtan* "to incite, arouse"; common compounds: `شگفت‌انگیز` "astonishing", `هیجان‌انگیز` "exciting", `دل‌انگیز` "delightful".
 
 #### Line 97
 
@@ -814,7 +814,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **مطلق** — *moṭlaq* — absolute
   - *Etym*: from Arabic, passive participle of *ʾaṭlaqa* "to set free, make absolute", root ṭ-l-q.
 - **بالا** — *bālā* — up, above, high
-  - *Etym*: native Persian; cognate with والا *vālā* "exalted".
+  - *Etym*: native Persian; cognate with `والا` *vālā* "exalted".
 
 #### Line 100
 
@@ -826,18 +826,18 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 102
 
 - **مهربان** — *mehrabān* — kind
-  - *Etym*: مهر + -بان "guardian, keeper" (cf. باغبان "gardener") → "love-keeper".
-  - *Family*: مهر *mehr* "love, kindness"; -بان *-bān* "keeper" (productive suffix: باغبان "gardener", دروازه‌بان "gatekeeper").
-  - *Forms*: abstract noun *مهربانی mehrabānī* "kindness"; with copula it can also read "thou art kind".
+  - *Etym*: `مهر` + `-بان` "guardian, keeper" (cf. `باغبان` "gardener") → "love-keeper".
+  - *Family*: `مهر` *mehr* "love, kindness"; `-بان` *-bān* "keeper" (productive suffix: `باغبان` "gardener", `دروازه‌بان` "gatekeeper").
+  - *Forms*: abstract noun *`مهربانی` mehrabānī* "kindness"; with copula it can also read "thou art kind".
 - **روا** — *ravā* — permissible, lawful
-  - *Etym*: native Persian, from رفتن "to go" — "what goes, is current".
+  - *Etym*: native Persian, from `رفتن` "to go" — "what goes, is current".
   - *Forms*: collocation `روا داشتن` "to allow, to suffer to happen".
 
 #### Line 103
 
 - **کسان** — *kesān* — persons
-  - *Etym*: کس *kes* "person, someone" + plural *-ان -ān*.
-  - *Forms*: with relative clause: *کسانی که kesānī ke* "those who".
+  - *Etym*: `کس` *kes* "person, someone" + plural *`-ان` -ān*.
+  - *Forms*: with relative clause: *`کسانی` `که` kesānī ke* "those who".
 
 ### Verse 15 (lines 105–110)
 
@@ -851,24 +851,24 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 106
 
 - **روان** — *ravān* — soul, spirit
-  - *Etym*: native Persian; literally "flowing" (← روان "flowing", from رفتن).
-  - *Forms*: with suffix *روانش ravān-aš* "his soul".
+  - *Etym*: native Persian; literally "flowing" (← `روان` "flowing", from `رفتن`).
+  - *Forms*: with suffix *`روانش` ravān-aš* "his soul".
 - **شادمانی** — *šādmānī* — joy, gladness
-  - *Etym*: شاد *šād* + -مان *-mān* (adjectival) + -ی *-ī* (abstract).
-  - *Family*: شاد *šād* "happy"; شادمان *šādmān* "joyful, cheerful".
+  - *Etym*: `شاد` *šād* + `-مان` *-mān* (adjectival) + `-ی` *-ī* (abstract).
+  - *Family*: `شاد` *šād* "happy"; `شادمان` *šādmān* "joyful, cheerful".
   - *Forms*: collocation `شادمانی کردن` "to rejoice".
 
 #### Line 108
 
 - **تمامی** — *tamāmī* — entirety, all of
-  - *Etym*: تمام (Arabic) + -ی (abstract).
-  - *Family*: تمام *tamām* "complete, all" (also used standalone, common in modern Persian).
+  - *Etym*: `تمام` (Arabic) + `-ی` (abstract).
+  - *Family*: `تمام` *tamām* "complete, all" (also used standalone, common in modern Persian).
 
 #### Line 109
 
 - **آنچه** — *ānče* — that which
-  - *Etym*: آن + چه → fused relative pronoun.
-  - *Family*: آن *ān* "that"; چه *če* "what?" (also "how!").
+  - *Etym*: `آن` + `چه` → fused relative pronoun.
+  - *Family*: `آن` *ān* "that"; `چه` *če* "what?" (also "how!").
 
 #### Line 110
 
@@ -882,14 +882,14 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 111
 
 - **اینک** — *īnak* — now; behold
-  - *Etym*: این + -ـَک (deictic suffix) → "this very [moment]".
-  - *Family*: این *īn* "this" (an entry in this chapter); cf. اکنون *aknūn* "now".
+  - *Etym*: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
+  - *Family*: `این` *īn* "this" (an entry in this chapter); cf. `اکنون` *aknūn* "now".
 
 #### Line 112
 
 - **کامل** — *kāmel* — complete, full
   - *Etym*: from Arabic, active participle of *kamala* "to be complete", root k-m-l.
-  - *Forms*: with indef. *-ī*: *کاملی kāmel-ī* "a full [account]".
+  - *Forms*: with indef. *-ī*: *`کاملی` kāmel-ī* "a full [account]".
 
 #### Line 113
 
@@ -898,12 +898,12 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 114
 
 - **خواب** — *xāb* — sleep, dream
-  - *Forms*: pl. *خوابها xābhā*.
+  - *Forms*: pl. *`خوابها` xābhā*.
 
 #### Line 116
 
 - **فرزند** — *farzand* — child, offspring
-  - *Forms*: pl. *فرزندان farzandān*; with suffix *فرزندانش farzandān-aš* "his children".
+  - *Forms*: pl. *`فرزندان` farzandān*; with suffix *`فرزندانش` farzandān-aš* "his children".
 - **سخن** — *soxan* — speech, word
   - *Forms*: collocation `سخن گفتن` "to speak".
 - **نیز** — *nīz* — also, too
@@ -922,7 +922,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 120
 
 - **بنگریستن** — *benegerīstan* (pres. *benegar-*) — to look, behold
-  - *Family*: نگریستن *negerīstan* "to look, observe" (the bare verb); نگاه *negāh* "look, gaze".
+  - *Family*: `نگریستن` *negerīstan* "to look, observe" (the bare verb); `نگاه` *negāh* "look, gaze".
   - *Forms*: imperative `بنگرید benegarīd` "behold!".
 - **خلاصه** — *xolāṣe* — summary, abstract
   - *Etym*: from Arabic, root x-l-ṣ "to be pure, free of admixture".
@@ -932,7 +932,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **ورقه** — *varaqe* — leaf, page, plate
   - *Etym*: from Arabic *waraqa* "leaf", root w-r-q.
-  - *Forms*: pl. *ورقه‌ها varaqe-hā*.
+  - *Forms*: pl. *`ورقه‌ها` varaqe-hā*.
 
 #### Line 122
 
@@ -942,7 +942,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 123
 
 - **پس** — *pas* — so, therefore; after
-  - *Family*: سپس *sepas* "then, afterwards"; پسین *pasīn* "later, last".
+  - *Family*: `سپس` *sepas* "then, afterwards"; `پسین` *pasīn* "later, last".
   - *Forms*: collocation `پس از` "after".
 
 #### Line 124
@@ -975,8 +975,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 135
 
 - **گواهی** — *govāhī* — testimony
-  - *Etym*: گواه + -ی (abstract).
-  - *Family*: گواه *govāh* "witness".
+  - *Etym*: `گواه` + `-ی` (abstract).
+  - *Family*: `گواه` *govāh* "witness".
   - *Forms*: collocation `گواهی دادن` "to testify".
 
 #### Line 136
@@ -985,26 +985,26 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - *Etym*: from Arabic *masxara*, root s-x-r "to scoff, deride".
   - *Forms*: collocation `مسخره کردن` "to mock, ridicule".
 - **براستی** — *be-rāstī* — truly, in truth
-  - *Etym*: به + راستی (← راست + -ی).
-  - *Family*: راست *rāst* "right, true, straight"; راستی *rāstī* "truth, rightness".
+  - *Etym*: `به` + `راستی` (← `راست` + `-ی`).
+  - *Family*: `راست` *rāst* "right, true, straight"; `راستی` *rāstī* "truth, rightness".
 
 #### Line 141
 
 - **بازخرید** — *bāzxarīd* — redemption, buying-back
-  - *Etym*: باز + خرید (past stem of خریدن).
-  - *Family*: باز *bāz* "back, again"; خریدن *xarīdan* "to buy"; خرید *xarīd* "purchase".
+  - *Etym*: `باز` + `خرید` (past stem of `خریدن`).
+  - *Family*: `باز` *bāz* "back, again"; `خریدن` *xarīdan* "to buy"; `خرید` *xarīd* "purchase".
   - *Forms*: collocation `بازخرید شدن` "to be redeemed".
 
 #### Line 142
 
 - **جهان** — *jahān* — world
 - **سادگی** — *sādegī* — simplicity
-  - *Etym*: ساده + -گی (abstract suffix used after *-e*-final stems).
-  - *Family*: ساده *sāde* "simple, plain".
+  - *Etym*: `ساده` + `-گی` (abstract suffix used after *-e*-final stems).
+  - *Family*: `ساده` *sāde* "simple, plain".
   - *Forms*: collocation `به سادگی` "plainly, simply".
 - **پدیدار** — *padīdār* — apparent, manifest, visible
-  - *Etym*: پدید + -ار (intensifier suffix).
-  - *Family*: پدید *padīd* "evident, manifest"; پدیده *padīde* "phenomenon".
+  - *Etym*: `پدید` + `-ار` (intensifier suffix).
+  - *Family*: `پدید` *padīd* "evident, manifest"; `پدیده` *padīde* "phenomenon".
   - *Forms*: collocation `پدیدار کردن` "to make manifest".
 
 ### Verse 20 (lines 143–155)
@@ -1019,16 +1019,16 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Line 145
 
 - **آنچنان** — *ānčonān* — in such a way
-  - *Etym*: آن *ān* "that" + چنان *čonān* "such, in that way".
+  - *Etym*: `آن` *ān* "that" + `چنان` *čonān* "such, in that way".
   - *Forms*: collocation `آنچنان که` "just as".
 - **پیشین** — *pīšīn* — former, previous
-  - *Etym*: پیش *pīš* "before" + -ین *-īn* (adjectival suffix).
+  - *Etym*: `پیش` *pīš* "before" + `-ین` *-īn* (adjectival suffix).
 
 #### Line 147
 
 - **سنگسار** — *sangsār* — stoning
-  - *Etym*: سنگ + -سار (place-of / abundance suffix).
-  - *Family*: سنگ *sang* "stone"; -سار *-sār* (suffix; cf. کوهسار "mountainous land", خرّمساران "Bountiful" in this chapter).
+  - *Etym*: `سنگ` + `-سار` (place-of / abundance suffix).
+  - *Family*: `سنگ` *sang* "stone"; `-سار` *-sār* (suffix; cf. `کوهسار` "mountainous land", `خرّمساران` "Bountiful" in this chapter).
   - *Forms*: collocation `سنگسار کردن` "to stone".
 
 #### Line 148
@@ -1041,13 +1041,13 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **توانستن** — *tavānestan* (pres. *tavān-*) — to be able (subj. *بتوانند betavānand*)
 - **جان** — *jān* — life, soul
   - *Etym*: native Persian; from Avestan *jiyāti-* "life"; cognate with English *vital*, Latin *vita*.
-  - *Forms*: with suffix *جانش jān-aš* "his life".
+  - *Forms*: with suffix *`جانش` jān-aš* "his life".
 
 #### Line 151
 
 - **مهرآمیز** — *mehr-āmīz* — loving, tender
-  - *Etym*: مهر + آمیز (pres. stem of آمیختن).
-  - *Family*: مهر *mehr* "love"; آمیختن *āmīxtan* "to mix, blend"; آمیزه *āmīze* "mixture" (also an entry in this chapter).
+  - *Etym*: `مهر` + `آمیز` (pres. stem of `آمیختن`).
+  - *Family*: `مهر` *mehr* "love"; `آمیختن` *āmīxtan* "to mix, blend"; `آمیزه` *āmīze* "mixture" (also an entry in this chapter).
 
 #### Line 152
 
@@ -1058,17 +1058,17 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **ایمان** — *īmān* — faith, belief
   - *Etym*: from Arabic, root ʾ-m-n "to be safe, trust"; verbal noun (form IV) "to make faithful".
-  - *Forms*: with suffix *ایمانشان īmān-ešān* "their faith".
+  - *Forms*: with suffix *`ایمانشان` īmān-ešān* "their faith".
 - **برگزیدن** — *bargozīdan* (pres. *bargozīn-*) — to choose (pp. *برگزیده bargozīde*)
 
 #### Line 154
 
 - **رهایی** — *rahāyī* — deliverance, release
-  - *Etym*: رها + -ی (abstract).
-  - *Family*: رها *rahā* "free, released"; `رها کردن rahā kardan` "to release"; رهانیدن *rahānīdan* "to deliver".
+  - *Etym*: `رها` + `-ی` (abstract).
+  - *Family*: `رها` *rahā* "free, released"; `رها کردن rahā kardan` "to release"; `رهانیدن` *rahānīdan* "to deliver".
 - **توانا** — *tavānā* — able, capable
-  - *Etym*: توان + -ا (adjectival suffix).
-  - *Family*: توان *tavān* "power, ability"; توانستن *tavānestan* "to be able"; توانایی *tavānāyī* "ability".
+  - *Etym*: `توان` + `-ا` (adjectival suffix).
+  - *Family*: `توان` *tavān* "power, ability"; `توانستن` *tavānestan* "to be able"; `توانایی` *tavānāyī* "ability".
   - *Forms*: collocation `توانا ساختن` "to enable".
 
 ### Function-word gloss (short list you'll see on every page)

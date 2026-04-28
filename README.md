@@ -109,27 +109,29 @@ Long vowels always get macrons; short vowels never do. Write clitics with a hyph
 
   ```markdown
   - **شادمانی** — *šādmānī* — joy, gladness
-    - *Etym*: شاد *šād* + -مان *-mān* (adjectival) + -ی *-ī* (abstract).
-    - *Family*: شاد *šād* "happy"; شادمان *šādmān* "joyful, cheerful".
+    - *Etym*: `شاد` + `-مان` (adjectival) + `-ی` (abstract).
+    - *Family*: `شاد` *šād* "happy"; `شادمان` *šādmān* "joyful, cheerful".
     - *Forms*: collocation `شادمانی کردن` "to rejoice".
   ```
 
   Each italic label (`*Etym*`, `*Forms*`, `*Family*`) at the start of a sub-bullet is recognized by `render.py` and rendered as a small chip-style tag in HTML. All labels are optional — include each one only if it actually has content. Indent sub-bullets with **two spaces**.
 
+  **Inline Persian in meta sub-bullets always uses backticks.** Every Persian word or morpheme fragment (including prefix/suffix notation like `` `-ی` `` and `` `نا-` ``) must be wrapped in backtick code spans. This applies to all three label types equally — `*Forms*` was already consistent; `*Etym*` and `*Family*` must follow the same rule. The backtick styling gives Persian text a legible size and a distinct background that makes it easy to pick out from the surrounding Latin transcription and English gloss. The headword in the vocab entry headline (`**Persian**`) is exempt — it gets its own larger `.persian` styling instead.
+
 - **When to add `*Etym*`** (etymology / morpheme breakdown — included only when the answer is interesting):
 
   - **Arabic loanwords** — common in religious/literary register. Note the source language and, when easy to identify, the triliteral root. Example: `*Etym*: from Arabic, root r-ḥ-m "compassion"`.
-  - **Compounds with meaningful morphemes** — break down the parts. Example: `*Etym*: سر *sar* "head" + گذشت *gozašt* "past" (← گذشتن "to pass"); literally "what passed at one's head"`.
+  - **Compounds with meaningful morphemes** — break down the parts. Example: ``*Etym*: `سر` *sar* "head" + `گذشت` *gozašt* "past" (← `گذشتن` "to pass"); literally "what passed at one's head".``
   - **Proper nouns of foreign origin** — Hebrew (most BoM names via Arabic / English transliteration), or English (BoM-coined). Example: `*Etym*: Hebrew יהודה *Yəhūdā* "praised", via Arabic`.
   - **Native, non-compound Persian words** — *do not* add `*Etym*`. Don't write "native Persian"; absence is the signal.
 
 - **When to add `*Family*`** (related words to memorize alongside this entry — different from `*Etym*`, which is the linguistic breakdown):
 
   - When the entry's stem is **a useful Persian word in its own right** that doesn't otherwise appear in the chapter. Example: `شادمانی` is in the chapter, but seeing `شاد` "happy" and `شادمان` "joyful" listed alongside lets the reader pick up three vocabulary items for the price of one.
-  - When the entry has **derivational siblings** the reader will meet later (e.g., `شورش` "rebellion" → list شور "fervor" and شوریدن "to revolt"; `ستایش` "praise" → list the source verb ستودن).
-  - For **compounds** whose components are themselves vocabulary worth memorizing (e.g., `سرگذشت` → سر "head" + گذشتن "to pass"; both are headwords elsewhere in this chapter, but the Family note re-lists them with brief glosses for quick reference).
+  - When the entry has **derivational siblings** the reader will meet later (e.g., `شورش` "rebellion" → list `شور` "fervor" and `شوریدن` "to revolt"; `ستایش` "praise" → list the source verb `ستودن`).
+  - For **compounds** whose components are themselves vocabulary worth memorizing (e.g., `سرگذشت` → `سر` "head" + `گذشتن` "to pass"; both are headwords elsewhere in this chapter, but the Family note re-lists them with brief glosses for quick reference).
 
-  Format: short list with each related form's translit and a one-or-two-word gloss, separated by `;`. Example: `*Family*: شاد *šād* "happy"; شادمان *šādmān* "joyful"`. Don't repeat the entry's headword; don't repeat detail already in `*Etym*`.
+  Format: short list with each related form's translit and a one-or-two-word gloss, separated by `;`. Example: ``*Family*: `شاد` *šād* "happy"; `شادمان` *šādmān* "joyful".`` Don't repeat the entry's headword; don't repeat detail already in `*Etym*`.
 
 - **When to add `*Forms*`** (morphology, conjugation, common collocations):
 
