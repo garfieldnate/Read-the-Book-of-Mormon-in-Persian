@@ -11,20 +11,25 @@ Usage:
     python3 render.py <input.md> <output.html>
 
 Class taxonomy (see README § HTML rendering for details):
-    .vocab          <ul> of vocabulary entries
-    .vocab-entry    <li> for one vocabulary lemma
-    .persian        inline Persian text (RTL, Persian font) — used on the
-                    <strong> that opens a vocab entry and on Persian lines
-                    in examples
-    .translit       transliteration (italic) — used on the <em> that
-                    follows the Persian in a vocab entry
-    .example        <div> wrapping a grammar example (replaces <blockquote>)
-    .example-fa     Persian line inside an example
-    .example-tr     transliteration line inside an example
-    .example-en     English translation line inside an example
-    .line-ref       "Line N:" / "Lines N–M:" citation at the start of an
-                    example's Persian line
-    .proper         the "[proper]" tag following a proper-noun entry
+    .vocab           <ul> of vocabulary entries
+    .vocab-entry     <li> for one vocabulary lemma
+    .vocab-meta      <ul> nested inside a .vocab-entry; metadata sub-bullets
+    .vocab-etym      <li> in .vocab-meta whose label is *Etym* / *Etymology*
+    .vocab-forms     <li> in .vocab-meta whose label is *Forms* / *Form*
+    .vocab-family    <li> in .vocab-meta whose label is *Family* — related words
+    .vocab-meta-other  fallback for an unrecognized meta label
+    .meta-label      the leading "Etym" / "Forms" chip of a meta sub-bullet
+    .persian         inline Persian text (RTL, Persian font) — used on the
+                     <strong> that opens a vocab entry
+    .translit        transliteration (italic) — used on the <em> that
+                     follows the Persian in a vocab entry
+    .example         <div> wrapping a grammar example (replaces <blockquote>)
+    .example-fa      Persian line inside an example
+    .example-tr      transliteration line inside an example
+    .example-en      English translation line inside an example
+    .line-ref        "Line N:" / "Lines N–M:" citation at the start of an
+                     example's Persian line
+    .proper          the "[proper]" tag following a proper-noun entry
 
 No dependencies beyond the Python 3.10+ standard library.
 """
@@ -142,23 +147,74 @@ def _build_tree(
     return nodes, i
 
 
+META_LABEL_RE = re.compile(r"^<em>([^<]+?)</em>")
+KNOWN_META_LABELS = {
+    "etym": "vocab-etym",
+    "etymology": "vocab-etym",
+    "form": "vocab-forms",
+    "forms": "vocab-forms",
+    "family": "vocab-family",
+    "kin": "vocab-family",
+}
+
+
+def _detect_meta_class(content: str) -> str:
+    """Inspect a vocab-meta sub-bullet and return its CSS class."""
+    m = META_LABEL_RE.match(content)
+    if m:
+        label = m.group(1).strip().lower().rstrip(":").rstrip()
+        if label in KNOWN_META_LABELS:
+            return KNOWN_META_LABELS[label]
+    return "vocab-meta-other"
+
+
+def _wrap_meta_label(content: str) -> str:
+    """Promote the leading <em>Label</em> chip to <span class="meta-label">."""
+    return META_LABEL_RE.sub(
+        lambda m: f'<span class="meta-label">{m.group(1).rstrip(":").strip()}</span>',
+        content,
+        count=1,
+    )
+
+
 def _emit_tree(
-    nodes: list[tuple[str, list]], depth: int = 0, is_vocab: bool = False
+    nodes: list[tuple[str, list]], depth: int = 0, mode: str = "plain"
 ) -> str:
-    """Emit properly-nested HTML from a tree of nodes."""
+    """Emit properly-nested HTML from a tree of nodes.
+
+    `mode` is one of:
+      - "plain": ordinary list (default)
+      - "vocab": top-level vocab list; items get .vocab-entry, children render as "meta"
+      - "meta":  metadata sub-list under a vocab entry; items get
+                 .vocab-etym / .vocab-forms / .vocab-meta-other based on label
+    """
     sp = "  " * depth
-    ul_attr = ' class="vocab"' if is_vocab else ""
+    if mode == "vocab":
+        ul_attr = ' class="vocab"'
+    elif mode == "meta":
+        ul_attr = ' class="vocab-meta"'
+    else:
+        ul_attr = ""
+
     out: list[str] = [f"{sp}<ul{ul_attr}>"]
     for content, children in nodes:
-        if is_vocab:
+        if mode == "vocab":
             li_open = '<li class="vocab-entry">'
             li_content = _wrap_vocab_entry(content)
+            child_mode = "meta"
+        elif mode == "meta":
+            cls = _detect_meta_class(content)
+            li_open = f'<li class="{cls}">'
+            li_content = _wrap_meta_label(content)
+            child_mode = "plain"
         else:
             li_open = "<li>"
             li_content = content
+            child_mode = "plain"
+
         if children:
             out.append(f"{sp}  {li_open}{li_content}")
-            out.append(_emit_tree(children, depth + 2, is_vocab=False))
+            out.append(_emit_tree(children, depth + 2, mode=child_mode))
             out.append(f"{sp}  </li>")
         else:
             out.append(f"{sp}  {li_open}{li_content}</li>")
@@ -170,14 +226,16 @@ def _emit_list(items: list[tuple[int, str]]) -> str:
     """Render a flat list of (indent_level, html) into nested <ul>/<li>.
 
     A top-level list whose items all start with <strong> is tagged class="vocab"
-    and its items get class="vocab-entry"; sub-lists are always plain.
+    (vocab list); each item gets class="vocab-entry" and its sub-list (if any)
+    becomes a class="vocab-meta" block whose items are tagged .vocab-etym /
+    .vocab-forms / .vocab-meta-other based on their leading *italic label*.
     """
     top_items_content = [c for indent, c in items if indent == 0]
     top_is_vocab = bool(top_items_content) and all(
         c.startswith("<strong>") for c in top_items_content
     )
     tree, _ = _build_tree(items, 0, 0)
-    return _emit_tree(tree, depth=0, is_vocab=top_is_vocab)
+    return _emit_tree(tree, depth=0, mode="vocab" if top_is_vocab else "plain")
 
 
 def _render_body(md: str) -> str:

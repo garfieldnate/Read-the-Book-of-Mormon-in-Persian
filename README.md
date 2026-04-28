@@ -80,7 +80,10 @@ Long vowels always get macrons; short vowels never do. Write clitics with a hyph
 
 ### Vocabulary section
 
-- **Order of first appearance, grouped by verse**. A word appears once, in the verse where the reader first encounters it. Start with a `### Chapter summary (lines …)` subsection for the pre-verse-1 heading text, then `### Verse 1 (lines …)`, `### Verse 2 (lines …)`, … each with the new lemmas introduced in that verse. Cite line numbers from `NN/normalized.txt` in the subsection heading.
+- **Order of first appearance, grouped by verse, sub-grouped by source line**. A word appears once, in the verse where the reader first encounters it. Use:
+  - `### Verse N (lines X–Y)` (h3) — one per verse / per heading section. Renders with a prominent solid top rule.
+  - `#### Line N` (h4) — within each section, sub-divide into per-source-line groups. Renders as a small uppercase chip with a dashed rule above. Skip lines that introduce no new lemmas (don't emit an empty `Line 22` block — go straight from `Line 21` to `Line 23`).
+  - Source line numbers refer to `NN/normalized.txt`. Skip page-header artifact lines (`۱یافین …`).
 - **Lemmatize**: one entry per lemma (infinitive for verbs, singular citation form for nouns). Do **not** re-list a later inflected form (e.g. a new past-tense) as a fresh entry — forms are handled by the present-stem / past-participle notes on the original entry.
 - **Scope**: every distinct lemma in the chapter, including function words.
 - **Proper nouns**: mix inline where they first appear, tagged with `[proper]`.
@@ -102,20 +105,43 @@ Long vowels always get macrons; short vowels never do. Write clitics with a hyph
   **را** — *-rā* — direct-object marker (post-nominal clitic)
   ```
 
-- **Verb surface-form anchors**: the bare "(pres. *X-*)" notation is fine when the actual conjugated forms appearing in the chapter are transparently derivable from the lemma + present stem (e.g. `زادن` → past `زاد`, pp `زاده`). It is **not** fine when the surface form would surprise a learner. In those cases, explicitly anchor each surface form to its line number in `NN/normalized.txt`. The cases that always need anchors:
+- **Metadata sub-bullets** (the `*Etym*`, `*Forms*`, and `*Family*` lines under a vocab entry). Keep the headline of an entry **clean** — just `**Persian** — *translit* — meaning [maybe a one-word register tag like "literary"]`. Anything more goes in nested bullets directly underneath:
 
-  1. **Suppletive present stems** — the pres stem shares no consonants with the infinitive's past stem. Examples: `دیدن` (pres. `bīn-` → *می بیند*), `آمدن` (pres. `ā-` → *می آید*, with epenthetic `-y-`), `دادن` (pres. `deh-` → *می دهد*), `رفتن` (pres. `rav-` → *رود*, where `rav-` + `-ad` collapses in spelling).
-  2. **Conjugation quirks** — call out anything irregular about how `می-` / `بـ-` attach. The headline cases:
-     - **داشتن** drops `می-` in the present indicative entirely — *دارد* / *دارند*, never `می‌دارد`.
-     - **Prefixed compounds of داشتن** (`برداشتن`, `نگاه داشتن`, `بازداشتن`, …) reverse this: `می-` slots **between** the prefix and داشتن: *برمی دارد*, *برمی دارند*.
-     - **Compound-verb subjunctives** routinely drop the `بـ-`: `توانا سازد` ≈ `توانا بسازد`, `هشدار دهد` ≈ `هشدار بدهد`.
-     - **بودن** has multiple suppletive paradigms (*است*, *هست-*, *باش-*, *بود*); list the forms that actually appear.
-  3. **Auxiliary uses** — when a verb shows up as a tense or voice helper rather than a content verb, list the auxiliary forms together. `خواستن` as future auxiliary (*خواهم نگاشت*, *نخواهی داشت*, …); `شدن` as passive auxiliary (*خوانده می شدند*, *برده خواهند شد*, …).
-  4. **High-frequency verbs the reader will see in many forms** — for `بودن`, `شدن`, `کردن`, `داشتن`, `دادن`, summarize the paradigm visible in this chapter (3sg, 3pl, past, pp) rather than just the lemma.
+  ```markdown
+  - **شادمانی** — *šādmānī* — joy, gladness
+    - *Etym*: شاد *šād* + -مان *-mān* (adjectival) + -ی *-ī* (abstract).
+    - *Family*: شاد *šād* "happy"; شادمان *šādmān* "joyful, cheerful".
+    - *Forms*: collocation `شادمانی کردن` "to rejoice".
+  ```
 
-  Anchor format inside the entry, in parens after the gloss: `(3sg pres. *surface translit*, as in \`phrase\` "English", line N; past *...* ...)`. Cite verbatim Persian from `NN/normalized.txt` and a line number — that's the contract that makes the anchor checkable.
+  Each italic label (`*Etym*`, `*Forms*`, `*Family*`) at the start of a sub-bullet is recognized by `render.py` and rendered as a small chip-style tag in HTML. All labels are optional — include each one only if it actually has content. Indent sub-bullets with **two spaces**.
 
-  Verbs that don't need anchors (regular past stem matches infinitive, conjugation transparent, only past forms appear in the chapter): leave them in the bare lemma + present-stem format. Don't pad entries that don't need padding.
+- **When to add `*Etym*`** (etymology / morpheme breakdown — included only when the answer is interesting):
+
+  - **Arabic loanwords** — common in religious/literary register. Note the source language and, when easy to identify, the triliteral root. Example: `*Etym*: from Arabic, root r-ḥ-m "compassion"`.
+  - **Compounds with meaningful morphemes** — break down the parts. Example: `*Etym*: سر *sar* "head" + گذشت *gozašt* "past" (← گذشتن "to pass"); literally "what passed at one's head"`.
+  - **Proper nouns of foreign origin** — Hebrew (most BoM names via Arabic / English transliteration), or English (BoM-coined). Example: `*Etym*: Hebrew יהודה *Yəhūdā* "praised", via Arabic`.
+  - **Native, non-compound Persian words** — *do not* add `*Etym*`. Don't write "native Persian"; absence is the signal.
+
+- **When to add `*Family*`** (related words to memorize alongside this entry — different from `*Etym*`, which is the linguistic breakdown):
+
+  - When the entry's stem is **a useful Persian word in its own right** that doesn't otherwise appear in the chapter. Example: `شادمانی` is in the chapter, but seeing `شاد` "happy" and `شادمان` "joyful" listed alongside lets the reader pick up three vocabulary items for the price of one.
+  - When the entry has **derivational siblings** the reader will meet later (e.g., `شورش` "rebellion" → list شور "fervor" and شوریدن "to revolt"; `ستایش` "praise" → list the source verb ستودن).
+  - For **compounds** whose components are themselves vocabulary worth memorizing (e.g., `سرگذشت` → سر "head" + گذشتن "to pass"; both are headwords elsewhere in this chapter, but the Family note re-lists them with brief glosses for quick reference).
+
+  Format: short list with each related form's translit and a one-or-two-word gloss, separated by `;`. Example: `*Family*: شاد *šād* "happy"; شادمان *šādmān* "joyful"`. Don't repeat the entry's headword; don't repeat detail already in `*Etym*`.
+
+- **When to add `*Forms*`** (morphology, conjugation, common collocations):
+
+  1. **Verbs whose surface forms in the chapter would surprise a learner**. Always include `*Forms*` for:
+     - **Suppletive present stems** (no shared consonants with infinitive): `دیدن` (pres. `bīn-` → *می بیند*), `آمدن` (pres. `ā-` → *می آید*, with epenthetic `-y-`), `دادن` (pres. `deh-` → *می دهد*), `رفتن` (pres. `rav-` → *رود*, where `rav-` + `-ad` collapses in spelling).
+     - **Conjugation quirks**: `داشتن` drops `می-` in the present indicative (*دارد* / *دارند*, never `می‌دارد`). Prefixed compounds of داشتن reverse this: `می-` slots **between** the prefix and داشتن (*برمی دارد*). Compound-verb subjunctives routinely drop the `بـ-` (`توانا سازد` ≈ `توانا بسازد`).
+     - **Auxiliary uses**: `خواستن` as future auxiliary (*خواهم نگاشت*, …); `شدن` as passive auxiliary (*خوانده می شدند*, …).
+     - **High-frequency verbs that show up in many shapes** (`بودن`, `شدن`, `کردن`, `داشتن`, `دادن`): summarize the paradigm visible in this chapter (3sg, 3pl, past, pp).
+  2. **Common collocations or related compound forms** of any lemma — what would have been an inline parenthetical (e.g., on `دنبال`, the pair `به دنبال` / `بدنبال`; on `خشم`, the verb `خشم گرفتن`). Move these to `*Forms*:` instead of the headline.
+  3. **Regular verbs** whose past stem matches the infinitive transparently (`زادن` → `زاد`/`زاده`, `شنیدن` → `شنید`/`شنیده`, etc.) — *do not* add `*Forms*`. The bare `(pres. *stem-*)` annotation in the headline is enough.
+
+  Inside `*Forms*`, cite **verbatim Persian from `NN/normalized.txt` plus a line number** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", line N; past *…*; pp. *…*.`
 
 ### Grammar section
 
@@ -156,7 +182,13 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 |---|---|---|
 | `.vocab` | `<ul>` | Any bullet list whose items all begin with `**bold**` (treated as a vocab list). |
 | `.vocab-entry` | `<li>` | Each item inside a `.vocab` list. |
-| `.persian` | `<strong>` / inline | The bolded Persian headword at the start of a vocab entry. Also applied to Persian-containing spans elsewhere via the stylesheet's font fallback on `<code>`. |
+| `.vocab-meta` | `<ul>` | Sub-list directly inside a `.vocab-entry` (the `Etym` / `Forms` block). |
+| `.vocab-etym` | `<li>` | Item in `.vocab-meta` whose label is `*Etym*` or `*Etymology*`. |
+| `.vocab-forms` | `<li>` | Item in `.vocab-meta` whose label is `*Forms*` or `*Form*`. |
+| `.vocab-family` | `<li>` | Item in `.vocab-meta` whose label is `*Family*` or `*Kin*`. |
+| `.vocab-meta-other` | `<li>` | Fallback class on a `.vocab-meta` item with an unrecognized leading label. |
+| `.meta-label` | `<span>` | The `Etym` / `Forms` chip at the start of a meta sub-bullet (rendered as a small uppercase tag). |
+| `.persian` | `<strong>` | The bolded Persian headword at the start of a vocab entry. |
 | `.translit` | `<em>` | The first italic span in a vocab entry (the transliteration after the headword). |
 | `.proper` | `<span>` | The literal text `[proper]` inside a vocab entry (tag for proper nouns). |
 | `.example` | `<div>` | Replaces `<blockquote>`. Any Markdown blockquote is treated as a three-line grammar example. |
@@ -164,6 +196,8 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.example-tr` | `<div>` | Second line of an example — italic transliteration. |
 | `.example-en` | `<div>` | Third line of an example — English translation. |
 | `.line-ref` | `<span>` | The `Lines N–M:` prefix at the start of `.example-fa`. |
+| `<h3>` | (element) | Section heading (`### Verse 1 (lines 25–33)`); styled with a solid top border to mark section boundaries. |
+| `<h4>` | (element) | Source-line marker (`#### Line 25`); styled small/uppercase with a dashed top rule for in-section line groups. |
 
 The parser is deliberately narrow: it handles headings, paragraphs, bold/italic/inline-code, nested `- ` bullet lists, and `> ` blockquotes. It does not handle tables, code fences, or links. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
 

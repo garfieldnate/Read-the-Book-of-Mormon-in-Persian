@@ -20,6 +20,15 @@
   --line-ref-bg:     rgba(11, 90, 122, 0.14);
   --line-ref-color:  #084661;
 
+  --etym-bg:         rgba(120, 60, 110, 0.14);
+  --etym-color:      #6b2a64;
+  --forms-bg:        rgba(40, 100, 70, 0.14);
+  --forms-color:     #1f5a44;
+  --family-bg:       rgba(170, 95, 20, 0.14);
+  --family-color:    #8a4a10;
+  --meta-bg:         #f6f1df;
+  --meta-text:       #383530;
+
   --font-en:  "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --font-fa:  "Vazirmatn", "Iran Sans", "IRANSans", "Shabnam", "Nassim", Tahoma, "Geeza Pro", Arial, sans-serif;
   --font-ui:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -67,11 +76,25 @@ h2 {
 
 h3 {
   font-size: 1.18em;
-  margin: 1.7em 0 0.4em;
+  margin: 2.4em 0 0.5em;
+  padding-top: 0.7em;
+  border-top: 2px solid var(--rule);
   color: var(--accent);
 }
 
-h4 { font-size: 1.05em; margin: 1.2em 0 0.4em; }
+/* Source-line markers within a vocab section: small uppercase muted label
+   with a subtle dashed rule above. Visible enough to track which line you're on
+   in the PDF, quiet enough not to compete with verse/section headings. */
+h4 {
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.5em 0 0.4em;
+  padding-top: 0.5em;
+  border-top: 1px dashed var(--rule);
+}
 
 p { margin: 0.8em 0; }
 
@@ -102,7 +125,10 @@ hr {
 .vocab {
   list-style: none;
   padding: 0;
-  margin: 0.4em 0 1.4em;
+  margin: 0.3em 0 1em;
+  /* Section boundaries (Book summary → Chapter summary → Verse 1 → …) are
+     marked by the next <h3>'s top border. Per-source-line groups within a
+     section are marked by <h4> "Line N" markers with a dashed top rule. */
 }
 
 .vocab-entry {
@@ -122,6 +148,65 @@ hr {
 
 .vocab-entry .translit {
   font-size: 1.02em;
+}
+
+/* --------- vocab metadata sub-bullets (Etym / Forms) --------- */
+
+.vocab-meta {
+  list-style: none;
+  padding: 0.4em 0.8em;
+  margin: 0.4em 0 0.2em 0;
+  background: var(--meta-bg);
+  border-radius: 4px;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.vocab-meta > li {
+  margin: 0.2em 0;
+  padding: 0.1em 0;
+  color: var(--meta-text);
+  display: list-item;
+  list-style: none;
+}
+
+.vocab-meta > li + li {
+  border-top: 1px dashed #d8cfb5;
+  padding-top: 0.3em;
+  margin-top: 0.3em;
+}
+
+.meta-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-inline-end: 0.55em;
+  vertical-align: 1px;
+}
+
+.vocab-etym .meta-label {
+  background: var(--etym-bg);
+  color: var(--etym-color);
+}
+
+.vocab-forms .meta-label {
+  background: var(--forms-bg);
+  color: var(--forms-color);
+}
+
+.vocab-family .meta-label {
+  background: var(--family-bg);
+  color: var(--family-color);
+}
+
+.vocab-meta-other .meta-label {
+  background: rgba(80, 80, 80, 0.12);
+  color: #404040;
 }
 
 /* --------- grammar example block --------- */
@@ -211,6 +296,9 @@ code {
   padding: 1px 6px;
   border-radius: 3px;
   font-size: 0.95em;
+  /* Auto-detect direction from the first strong character so short Persian
+     fragments like `ب-` render RTL even when embedded in an English paragraph. */
+  unicode-bidi: plaintext;
 }
 
 /* Non-vocab bullet lists (e.g. intro, register markers) */
@@ -230,6 +318,10 @@ ul:not(.vocab) li { margin: 0.25em 0; }
     --code-bg: #ece5cc;
     --line-ref-bg: #d8e4eb;
     --proper-bg: #e6dfc3;
+    --meta-bg: #f1eccf;
+    --etym-bg: #ead4e6;
+    --forms-bg: #d6e8dc;
+    --family-bg: #f0dccc;
   }
   html { font-size: 11pt; }
   body {
