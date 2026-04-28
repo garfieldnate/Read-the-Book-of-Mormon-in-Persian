@@ -54,6 +54,7 @@ def _inline(text: str) -> str:
     # Bold before italic so **x** doesn't get eaten by *x*
     text = re.sub(r"\*\*([^*]+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", text)
+    text = re.sub(r"(?<!_)_([^_]+?)_(?!_)", r"<em>\1</em>", text)
     return text
 
 

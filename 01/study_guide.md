@@ -8,12 +8,12 @@ Read the cleaned source at `01/normalized.txt` while working through this guide.
 
 - Stray combining marks (`ّ ُ ِ`) sometimes appear alone on a line — these are drifted diacritics from PDF extraction; ignore them.
 - The book-summary block has unusual PDF column flow: some words wrap across lines in ways that look wrong until you reassemble them. In particular:
-  - Lines 4 + 3: `ثری` + `ا،` = `ثریا،` (*Ṣariyā*, Sariah — Lehi's wife).
+  - Lines 4 + 3: `ثری` + `ا،` = `ثریا،` (_Ṣariyā_, Sariah — Lehi's wife).
   - Lines 14 + 13: `خر` + `ّمساران` = `خرّمساران` (the translator's rendering of "Bountiful" — the coastal place where Nephi builds the ship).
 - Chapter-1 body has similar splits at line breaks:
-  - Lines 51–52 / 65–66 / 145–146: `حت` + `ّی` = `حتّی` (*ḥattā*, "even").
-  - Lines 66–67: `ُرده شد` + `ب` = `بُرده شد` (*borde šod*, "was carried").
-  - Lines 70–71: `ّت های` + `جمعی` = `جمعیّت‌های` (*jamʿiyyat-hā-ye*, "multitudes of").
+  - Lines 51–52 / 65–66 / 145–146: `حت` + `ّی` = `حتّی` (_ḥattā_, "even").
+  - Lines 66–67: `ُرده شد` + `ب` = `بُرده شد` (_borde šod_, "was carried").
+  - Lines 70–71: `ّت های` + `جمعی` = `جمعیّت‌های` (_jamʿiyyat-hā-ye_, "multitudes of").
 - Lines 42 and 107 are page-header artifacts (`۱یافین ۱:…`) with the chapter name reversed. Skip them.
 
 ## Transcription key
@@ -28,1063 +28,1022 @@ Organized in **order of first appearance**, grouped by verse. A word appears in 
 
 ### Book summary (lines 1–16)
 
-
 The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas preview vocabulary for later chapters (ship, wilderness, brothers, promised land).
 
 #### Line 1
 
-- **نخستین** — *noxostīn* — first, foremost
-  - *Etym*: `نخست` + `-ین` (ordinal/adjectival suffix).
-  - *Family*: `نخست` *noxost* "first" (used standalone as adverb "firstly").
-- **کتاب** — *ketāb* — book
-- **نیفای** — *Nīfāy* [proper] — Nephi
-  - *Etym*: transliteration of English *Nephi*, the Book of Mormon prophet's name. Sometimes connected to Egyptian *nfr* "good, fair" or to Hebrew, but Persian here just spells the English form phonetically.
+- **نخستین** — _noxostīn_ — first, foremost
+  - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
+  - _Family_: `نخست` _noxost_ "first" (used standalone as adverb "firstly").
+- **کتاب** — _ketāb_ — book
+- **نیفای** — _Nīfāy_ [proper] — Nephi
+  - _Etym_: transliteration of English _Nephi_, the Book of Mormon prophet's name. Sometimes connected to Egyptian _nfr_ "good, fair" or to Hebrew, but Persian here just spells the English form phonetically.
 
 #### Line 2
 
-- **فرمانروایی** — *farmān-ravāyī* — reign, rule
-  - *Etym*: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
-  - *Family*: `فرمان` *farmān* "command, decree"; `روا` *ravā* "current, permitted" (also an entry in this chapter); `فرمانروا` *farmān-ravā* "ruler, sovereign".
-  - *Forms*: collocation `فرمانروایی کردن` "to reign".
-- **و** — *o* (sometimes *va*) — and
-- **خدمت** — *xedmat* — service, ministry
-  - *Etym*: from Arabic, root x-d-m "to serve".
-- **او** — *ū* — he, she, it (3sg)
+- **فرمانروایی** — _farmān-ravāyī_ — reign, rule
+  - _Etym_: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
+  - _Family_: `فرمان` _farmān_ "command, decree"; `روا` _ravā_ "current, permitted" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ "ruler, sovereign".
+  - _Forms_: collocation `فرمانروایی کردن` "to reign".
+- **و** — _o_ (sometimes _va_) — and
+- **خدمت** — _xedmat_ — service, ministry
+  - _Etym_: from Arabic, root x-d-m "to serve".
+- **او** — _ū_ — he, she, it (3sg)
 
 #### Line 3
 
-- **چهار** — *čahār* — four
-- **پسر** — *pesar* — son
-  - *Forms*: with suffix *`پسرش` pesar-aš* "his son(s)".
-- **که** — *ke* — that, who, which (relative; also complementizer)
-- **شروع** — *šorūʿ* — beginning, start
-  - *Etym*: from Arabic, root š-r-ʿ "to set out, undertake".
-  - *Forms*: collocations `شروع کردن` / `شروع نمودن` "to begin".
-- **از** — *az* — from, of, than
-- **ارشد** — *aršad* — senior, elder
-  - *Etym*: from Arabic, comparative form of *rāšid* "rightly-guided", root r-š-d "to be on the right path".
-  - *Forms*: superlative *`ارشدترین` aršad-tarīn* "the eldest, most senior" (Arabic comparative + Persian superlative `-ترین`).
-- **ترین** — *-tarīn* — superlative suffix ("most …, -est")
-- **لامان** — *Lāmān* [proper] — Laman (Lehi's eldest son)
-  - *Etym*: Persian transliteration of English *Laman*, a Book of Mormon name.
+- **چهار** — _čahār_ — four
+- **پسر** — _pesar_ — son
+  - _Forms_: with suffix _`پسرش` pesar-aš_ "his son(s)".
+- **که** — _ke_ — that, who, which (relative; also complementizer)
+- **شروع** — _šorūʿ_ — beginning, start
+  - _Etym_: from Arabic, root š-r-ʿ "to set out, undertake".
+  - _Forms_: collocations `شروع کردن` / `شروع نمودن` "to begin".
+- **از** — _az_ — from, of, than
+- **ارشد** — _aršad_ — senior, elder
+  - _Etym_: from Arabic, comparative form of _rāšid_ "rightly-guided", root r-š-d "to be on the right path".
+  - _Forms_: superlative _`ارشدترین` aršad-tarīn_ "the eldest, most senior" (Arabic comparative + Persian superlative `-ترین`).
+- **ترین** — _-tarīn_ — superlative suffix ("most …, -est")
+- **لامان** — _Lāmān_ [proper] — Laman (Lehi's eldest son)
+  - _Etym_: Persian transliteration of English _Laman_, a Book of Mormon name.
 
 #### Line 4
 
-- **سرگذشت** — *sargozašt* — account, life-story
-  - *Etym*: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
-  - *Family*: `سر` *sar* "head"; `گذشتن` *gozaštan* "to pass"; `گذشت` *gozašt* "past, bygone (n. or adj.)".
-- **لیحای** — *Liḥāy* [proper] — Lehi (Nephi's father)
-  - *Etym*: Persian transliteration of English *Lehi*; in Hebrew *Lḥy* means "jaw, cheek".
-- **همسر** — *hamsar* — spouse, husband/wife
-  - *Etym*: `هم` *ham* "same, together" + `سر` *sar* "head" → "having the same head/place".
-  - *Forms*: with suffix *`همسرش` hamsar-aš* "his wife"; abstract noun *`همسری` hamsar-ī* "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
-- **ثریا** — *Ṣariyā* [proper] — Sariah (Lehi's wife)
-  - *Etym*: Persian transliteration of English *Sariah*; sometimes equated with Hebrew *Sāray*/*Sārā* "princess".
-  - *Forms*: split in source as `ثری` + `ا،` across lines 4 + 3.
+- **سرگذشت** — _sargozašt_ — account, life-story
+  - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
+  - _Family_: `سر` _sar_ "head"; `گذشتن` _gozaštan_ "to pass"; `گذشت` _gozašt_ "past, bygone (n. or adj.)".
+- **لیحای** — _Liḥāy_ [proper] — Lehi (Nephi's father)
+  - _Etym_: Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ means "jaw, cheek".
+- **همسر** — _hamsar_ — spouse, husband/wife
+  - _Etym_: `هم` _ham_ "same, together" + `سر` _sar_ "head" → "having the same head/place".
+  - _Forms_: with suffix _`همسرش` hamsar-aš_ "his wife"; abstract noun _`همسری` hamsar-ī_ "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
+- **ثریا** — _Ṣariyā_ [proper] — Sariah (Lehi's wife)
+  - _Etym_: Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ "princess".
+  - _Forms_: split in source as `ثری` + `ا،` across lines 4 + 3.
 
 #### Line 5
 
-- **لموئیل** — *Lamūʾīl* [proper] — Lemuel (second son)
-  - *Etym*: from Hebrew *Ləmūʾēl* "belonging to God" (לְמוּאֵל), via English *Lemuel*.
-- **سام** — *Sām* [proper] — Sam (third son; Book of Mormon figure, distinct from Noah's son Shem)
-  - *Etym*: Persian transliteration of English *Sam*. Coincides in spelling with Persian *Sām*, a hero of the Šāhnāmeh — but here it's the BoM name.
-- **خواندن** — *xāndan* (pres. *xān-*) — to read; to sing; to call (here passive: *خوانده می شدند* "they were called")
-- **می** — *mī-* — imperfective verbal prefix (present, past imperfect); see grammar §12
-- **شدن** — *šodan* (pres. *šav-*) — to become; passive auxiliary (see grammar §2)
-  - *Forms*: 3sg pres. *`می` `شود` mī-šavad* (lines 8, 23, 48); 3pl *`می` `شوند` mī-šavand* (line 10); subj. *`شوند` šavand* (lines 10, 104). Past *`شد` šod*; 1sg *`شدم` šodam*; 3pl *`شدند` šodand* (line 5: passive `خوانده می شدند` "were called"); pp. *`شده` šode*.
-- **سرور** — *Sarvar* [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
-  - *Etym*: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
-  - *Family*: `سر` *sar* "head" (an entry in this chapter); `-ور` *-var* (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
-  - *Forms*: vocative *`سرورا` Sarvarā* "O Lord!" (line 98).
-- **به** — *be* — to, toward, into
-- **هشدار** — *hošdār* — warning
-  - *Etym*: native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) "alert-holding".
-  - *Family*: `هوش` *hūš* "consciousness, alertness, intelligence"; `داشتن` *dāštan* "to hold" (an entry in this chapter); `هوشیار` *hūšyār* "vigilant".
-  - *Forms*: collocation `هشدار دادن` "to warn".
-- **دادن** — *dādan* (pres. *deh-*) — to give
-  - *Forms*: 3sg pres. *`می` `دهد` mī-dehad*, as in `هشدار می دهد` "warns / gives warning", line 5; pp. *`داده` dāde*. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
-- **تا** — *tā* — until; so that; up to
-- **سرزمین** — *sarzamīn* — land, territory
-  - *Etym*: `سر` + `زمین`.
-  - *Family*: `سر` *sar* "head, top"; `زمین` *zamīn* "land, earth" (both also entries in this chapter).
+- **لموئیل** — _Lamūʾīl_ [proper] — Lemuel (second son)
+  - _Etym_: from Hebrew _Ləmūʾēl_ "belonging to God" (לְמוּאֵל), via English _Lemuel_.
+- **سام** — _Sām_ [proper] — Sam (third son; Book of Mormon figure, distinct from Noah's son Shem)
+  - _Etym_: Persian transliteration of English _Sam_. Coincides in spelling with Persian _Sām_, a hero of the Šāhnāmeh — but here it's the BoM name.
+- **خواندن** — _xāndan_ (pres. _xān-_) — to read; to sing; to call (here passive: _خوانده می شدند_ "they were called")
+- **می** — _mī-_ — imperfective verbal prefix (present, past imperfect); see grammar §12
+- **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary (see grammar §2)
+  - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ (lines 8, 23, 48); 3pl _`می` `شوند` mī-šavand_ (line 10); subj. _`شوند` šavand_ (lines 10, 104). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ (line 5: passive `خوانده می شدند` "were called"); pp. _`شده` šode_.
+- **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
+  - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
+  - _Family_: `سر` _sar_ "head" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
+  - _Forms_: vocative _`سرورا` Sarvarā_ "O Lord!" (line 98).
+- **به** — _be_ — to, toward, into
+- **هشدار** — _hošdār_ — warning
+  - _Etym_: native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) "alert-holding".
+  - _Family_: `هوش` _hūš_ "consciousness, alertness, intelligence"; `داشتن` _dāštan_ "to hold" (an entry in this chapter); `هوشیار` _hūšyār_ "vigilant".
+  - _Forms_: collocation `هشدار دادن` "to warn".
+- **دادن** — _dādan_ (pres. _deh-_) — to give
+  - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning", line 5; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
+- **تا** — _tā_ — until; so that; up to
+- **سرزمین** — _sarzamīn_ — land, territory
+  - _Etym_: `سر` + `زمین`.
+  - _Family_: `سر` _sar_ "head, top"; `زمین` _zamīn_ "land, earth" (both also entries in this chapter).
 
 #### Line 6
 
-- **اورشلیم** — *Uršalīm* [proper] — Jerusalem
-  - *Etym*: from Hebrew *Yərūšālayim* (יְרוּשָׁלַיִם) "foundation of peace", via Arabic *Ūrušalīm*.
-- **بیرون** — *bīrūn* — out, outside
-  - *Forms*: collocations `بیرون رفتن` "to go out"; `بیرون انداختن` "to cast out".
-- **رفتن** — *raftan* (pres. *rav-*) — to go
-  - *Forms*: subj. 3sg *`رود` ravad* — note `rav-` + `-ad` collapses in spelling to `رود` — as in `بیرون رود` "may go out", line 6; past *`رفت` raft*, as in `پیش می رفت` "was going forth", line 50.
-- **برای** — *barā-ye* — for, for the sake of
-- **اینکه** — *īnke* — that (clause-introducing conjunction)
-  - *Etym*: `این` *īn* "this" + `که` *ke* "that" → "the [fact] that".
-  - *Forms*: collocation `برای اینکه` "because, in order that".
-- **بر** — *bar* — on, upon; against; over
-- **مردم** — *mardom* — people
-  - *Forms*: with suffix *`مردمش` mardom-aš* "his people".
-- **درباره** — *dar-bāre* — about, concerning
-  - *Etym*: `در` *dar* "in" + `باره` *bāre* "matter, regard" → "in the matter of".
-  - *Forms*: ezafe *`دربارۀ` dar-bāre-ye*.
-- **نابکاری** — *nā-bekārī* — wickedness, iniquity
-  - *Etym*: `نا-` + `بکار` + `-ی` → "non-useful-ness, wickedness".
-  - *Family*: `نا-` *nā-* (privative prefix); `کار` *kār* "work" (an entry in this chapter); `نابکار` *nābekār* "wicked, useless" (the underlying adjective).
-- **ها** — *-hā* — plural marker (clitic); *های -hā-ye* = plural + ezafe
-- **شان** — *-šān* — 3pl possessive suffix ("their")
-- **نبوّت** — *nabovvat* — prophecy
-  - *Etym*: from Arabic *nubuwwa*, root n-b-ʾ "to be a prophet"; cognate with `نبی` *nabī* "prophet".
-  - *Forms*: collocation `نبوّت کردن` "to prophesy".
-- **کردن** — *kardan* (pres. *kon-*) — to do, make [the most common compound-verb auxiliary]
-- **در** — *dar* — in, into, at
+- **اورشلیم** — _Uršalīm_ [proper] — Jerusalem
+  - _Etym_: from Hebrew _Yərūšālayim_ (יְרוּשָׁלַיִם) "foundation of peace", via Arabic _Ūrušalīm_.
+- **بیرون** — _bīrūn_ — out, outside
+  - _Forms_: collocations `بیرون رفتن` "to go out"; `بیرون انداختن` "to cast out".
+- **رفتن** — _raftan_ (pres. _rav-_) — to go
+  - _Forms_: subj. 3sg _`رود` ravad_ — note `rav-` + `-ad` collapses in spelling to `رود` — as in `بیرون رود` "may go out", line 6; past _`رفت` raft_, as in `پیش می رفت` "was going forth", line 50.
+- **برای** — _barā-ye_ — for, for the sake of
+- **اینکه** — _īnke_ — that (clause-introducing conjunction)
+  - _Etym_: `این` _īn_ "this" + `که` _ke_ "that" → "the [fact] that".
+  - _Forms_: collocation `برای اینکه` "because, in order that".
+- **بر** — _bar_ — on, upon; against; over
+- **مردم** — _mardom_ — people
+  - _Forms_: with suffix _`مردمش` mardom-aš_ "his people".
+- **درباره** — _dar-bāre_ — about, concerning
+  - _Etym_: `در` _dar_ "in" + `باره` _bāre_ "matter, regard" → "in the matter of".
+  - _Forms_: ezafe _`دربارۀ` dar-bāre-ye_.
+- **نابکاری** — _nā-bekārī_ — wickedness, iniquity
+  - _Etym_: `نا-` + `بکار` + `-ی` → "non-useful-ness, wickedness".
+  - _Family_: `نا-` _nā-_ (privative prefix); `کار` _kār_ "work" (an entry in this chapter); `نابکار` _nābekār_ "wicked, useless" (the underlying adjective).
+- **ها** — _-hā_ — plural marker (clitic); _های -hā-ye_ = plural + ezafe
+- **شان** — _-šān_ — 3pl possessive suffix ("their")
+- **نبوّت** — _nabovvat_ — prophecy
+  - _Etym_: from Arabic _nubuwwa_, root n-b-ʾ "to be a prophet"; cognate with `نبی` _nabī_ "prophet".
+  - _Forms_: collocation `نبوّت کردن` "to prophesy".
+- **کردن** — _kardan_ (pres. _kon-_) — to do, make [the most common compound-verb auxiliary]
+- **در** — _dar_ — in, into, at
 
 #### Line 7
 
-- **آنها** — *ānhā* — they, those
-- **دنبال** — *donbāl* — behind, after
-  - *Forms*: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
-- **نابودی** — *nābūdī* — destruction
-  - *Etym*: `نا-` + `بود` (past stem of `بودن`) + `-ی` → "non-being-ness".
-  - *Family*: `نا-` *nā-* (privative prefix; cf. `نابود` below, `نابکار` "wicked"); `نابود` *nābūd* "destroyed" (also an entry in this chapter); `بودن` *būdan* "to be".
-- **زندگی** — *zendegī* — life
-  - *Etym*: `زنده` + `-گی` (abstract suffix used after *-e*-final stems) → "the state of being alive".
-  - *Family*: `زنده` *zende* "alive"; `زیستن` *zīstan* "to live"; `زندگانی` *zendegānī* "life" (synonym, same root).
-- **بودن** — *būdan* (pres. *hast-* / *bāš-*) — to be (3pl *هستند hastand*; past *بود būd*; pp. *بوده būde*; copula *است ast*)
-- **با** — *bā* — with
-- **خانواده** — *xānevāde* — family
-  - *Etym*: traditionally analyzed as `خان` (← `خانه` "house") + `واده` "extension" — i.e. "household".
-  - *Family*: `خانه` *xāne* "house" (also an entry in this chapter).
-- **اش** — *-aš* — 3sg possessive suffix ("his/her/its")
-- **راهی** — *rāhī* — setting-out, departing
-  - *Etym*: `راه` *rāh* "road, way" + `-ی` *-ī* (relational suffix) → "of the road, on one's way".
-  - *Forms*: collocation `راهی شدن` "to set out, to be on one's way".
-- **سفر** — *safar* — journey, trip
-  - *Etym*: from Arabic, root s-f-r "to travel".
-  - *Forms*: with indef. *-ī*: *`سفری` safar-ī* "a journey".
-- **سه** — *se* — three
-- **روزه** — *rūze* — day-long, day's
-  - *Etym*: `روز` + `-ه` (adjective-forming suffix indicating duration/quantity).
-  - *Family*: `روز` *rūz* "day". (Note: `روزه` also = "fast / fasting" in religious contexts; same form, different sense.)
-  - *Forms*: collocation `سه روزه` "three-day".
+- **آنها** — _ānhā_ — they, those
+- **دنبال** — _donbāl_ — behind, after
+  - _Forms_: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
+- **نابودی** — _nābūdī_ — destruction
+  - _Etym_: `نا-` + `بود` (past stem of `بودن`) + `-ی` → "non-being-ness".
+  - _Family_: `نا-` _nā-_ (privative prefix; cf. `نابود` below, `نابکار` "wicked"); `نابود` _nābūd_ "destroyed" (also an entry in this chapter); `بودن` _būdan_ "to be".
+- **زندگی** — _zendegī_ — life
+  - _Etym_: `زنده` + `-گی` (abstract suffix used after _-e_-final stems) → "the state of being alive".
+  - _Family_: `زنده` _zende_ "alive"; `زیستن` _zīstan_ "to live"; `زندگانی` _zendegānī_ "life" (synonym, same root).
+- **بودن** — _būdan_ (pres. _hast-_ / _bāš-_) — to be (3pl _هستند hastand_; past _بود būd_; pp. _بوده būde_; copula _است ast_)
+- **با** — _bā_ — with
+- **خانواده** — _xānevāde_ — family
+  - _Etym_: traditionally analyzed as `خان` (← `خانه` "house") + `واده` "extension" — i.e. "household".
+  - _Family_: `خانه` _xāne_ "house" (also an entry in this chapter).
+- **اش** — _-aš_ — 3sg possessive suffix ("his/her/its")
+- **راهی** — _rāhī_ — setting-out, departing
+  - _Etym_: `راه` _rāh_ "road, way" + `-ی` _-ī_ (relational suffix) → "of the road, on one's way".
+  - _Forms_: collocation `راهی شدن` "to set out, to be on one's way".
+- **سفر** — _safar_ — journey, trip
+  - _Etym_: from Arabic, root s-f-r "to travel".
+  - _Forms_: with indef. _-ī_: _`سفری` safar-ī_ "a journey".
+- **سه** — _se_ — three
+- **روزه** — _rūze_ — day-long, day's
+  - _Etym_: `روز` + `-ه` (adjective-forming suffix indicating duration/quantity).
+  - _Family_: `روز` _rūz_ "day". (Note: `روزه` also = "fast / fasting" in religious contexts; same form, different sense.)
+  - _Forms_: collocation `سه روزه` "three-day".
 
 #### Line 8
 
-- **بیابان** — *bīyābān* — wilderness, desert
-- **برادر** — *barādar* — brother
-  - *Forms*: pl. *`برادران` barādarān*; with suffix *`برادرانش` barādarān-aš* "his brothers".
-- **را** — *-rā* — direct-object marker (post-nominal clitic; see grammar §7)
-- **برداشتن** — *bar-dāštan* (pres. *bar-dār-*) — to take up, pick up, bring along
-  - *Etym*: prefix `بر-` *bar* "up, on" + `داشتن` *dāštan* "to hold".
-  - *Forms*: the `می-` slots **between** the prefix and `داشتن` (reversing `داشتن`'s no-`می-` quirk). 3sg pres. *`برمی` `دارد` bar-mī-dārad* (line 8); 3pl *`برمی` `دارند` bar-mī-dārand* (line 10).
-- **داشتن** — *dāštan* (pres. *dār-*) — to have, to hold
-  - *Forms*: in modern Persian the present indicative of `داشتن` **drops** `می-`, so 3sg is just *`دارد` dārad* "has" (line 8), 3pl *`دارند` dārand* (line 10) — never `می‌دارد`. Past *`داشت` dāšt* (line 102: `روا نخواهی داشت`); pp. *`داشته` dāšte*.
-- **پی** — *pey* — trace, track
-  - *Forms*: collocation `در پی` "in pursuit of, in quest of".
-- **نگاشتن** — *negāštan* (pres. *negār-*) — to write, inscribe [literary; = نوشتن; pp. and noun *نگاشته negāšte* "writing, inscription"]
-- **یهودیان** — *Yahūdiyān* [proper] — the Jews
-  - *Etym*: `یهود` + `-یان` (Persian gentilic plural).
-  - *Family*: `یهود` *Yahūd* "Jew(s)" (Arabic, ← Hebrew *Yəhūdī* "Judahite"); `-یان` *-iyān* (productive plural for ethnic groups: `ایرانیان` "Iranians", `مصریان` "Egyptians" in this chapter).
+- **بیابان** — _bīyābān_ — wilderness, desert
+- **برادر** — _barādar_ — brother
+  - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
+- **را** — _-rā_ — direct-object marker (post-nominal clitic; see grammar §7)
+- **برداشتن** — _bar-dāštan_ (pres. _bar-dār-_) — to take up, pick up, bring along
+  - _Etym_: prefix `بر-` _bar_ "up, on" + `داشتن` _dāštan_ "to hold".
+  - _Forms_: the `می-` slots **between** the prefix and `داشتن` (reversing `داشتن`'s no-`می-` quirk). 3sg pres. _`برمی` `دارد` bar-mī-dārad_ (line 8); 3pl _`برمی` `دارند` bar-mī-dārand_ (line 10).
+- **داشتن** — _dāštan_ (pres. _dār-_) — to have, to hold
+  - _Forms_: in modern Persian the present indicative of `داشتن` **drops** `می-`, so 3sg is just _`دارد` dārad_ "has" (line 8), 3pl _`دارند` dārand_ (line 10) — never `می‌دارد`. Past _`داشت` dāšt_ (line 102: `روا نخواهی داشت`); pp. _`داشته` dāšte_.
+- **پی** — _pey_ — trace, track
+  - _Forms_: collocation `در پی` "in pursuit of, in quest of".
+- **نگاشتن** — _negāštan_ (pres. _negār-_) — to write, inscribe [literary; = نوشتن; pp. and noun *نگاشته negāšte* "writing, inscription"]
+- **یهودیان** — _Yahūdiyān_ [proper] — the Jews
+  - _Etym_: `یهود` + `-یان` (Persian gentilic plural).
+  - _Family_: `یهود` _Yahūd_ "Jew(s)" (Arabic, ← Hebrew _Yəhūdī_ "Judahite"); `-یان` _-iyān_ (productive plural for ethnic groups: `ایرانیان` "Iranians", `مصریان` "Egyptians" in this chapter).
 
 #### Line 9
 
-- **باز** — *bāz* — back, again
-  - *Forms*: collocation `باز گشتن` "to return" (→ `بازگشتن` as a single verb).
-- **گشتن** — *gaštan* (pres. *gard-*) — to become, turn [literary equivalent of شدن]; also "to return" in `باز گشتن`
-  - *Forms*: 3sg pres. *`می` `گردد` mī-gardad*, as in `باز می گردد` "returns", line 9; past *`گشت` gašt*, as in `آکنده گشت` "became filled", line 86.
-- **زجر** — *zajr* — torment, distress
-  - *Etym*: from Arabic, root z-j-r "to drive away, rebuke".
-  - *Forms*: pl. *`زجرها` zajr-hā*.
-- **دختر** — *doxtar* — daughter
-  - *Forms*: pl. *`دختران` doxtarān*.
-- **اسماعیل** — *Esmāʿīl* [proper] — Ishmael
-  - *Etym*: from Hebrew *Yišmāʿēʾl* (יִשְׁמָעֵאל) "God hears", via Arabic *Ismāʿīl*.
+- **باز** — _bāz_ — back, again
+  - _Forms_: collocation `باز گشتن` "to return" (→ `بازگشتن` as a single verb).
+- **گشتن** — _gaštan_ (pres. _gard-_) — to become, turn [literary equivalent of شدن]; also "to return" in `باز گشتن`
+  - _Forms_: 3sg pres. _`می` `گردد` mī-gardad_, as in `باز می گردد` "returns", line 9; past _`گشت` gašt_, as in `آکنده گشت` "became filled", line 86.
+- **زجر** — _zajr_ — torment, distress
+  - _Etym_: from Arabic, root z-j-r "to drive away, rebuke".
+  - _Forms_: pl. _`زجرها` zajr-hā_.
+- **دختر** — _doxtar_ — daughter
+  - _Forms_: pl. _`دختران` doxtarān_.
+- **اسماعیل** — _Esmāʿīl_ [proper] — Ishmael
+  - _Etym_: from Hebrew _Yišmāʿēʾl_ (יִשְׁמָעֵאל) "God hears", via Arabic _Ismāʿīl_.
 
 #### Line 10
 
-- **گرفتن** — *gereftan* (pres. *gīr-*) — to take, seize
-  - *Forms*: subj. 3pl *`گیرند` gīrand* (line 10) / *`بگیرند` begīrand* (line 149); past *`گرفت` gereft* / 3pl *`گرفتند` gereftand* (line 144); pp. *`گرفته` gerefte* (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
+- **گرفتن** — _gereftan_ (pres. _gīr-_) — to take, seize
+  - _Forms_: subj. 3pl _`گیرند` gīrand_ (line 10) / _`بگیرند` begīrand_ (line 149); past _`گرفت` gereft_ / 3pl _`گرفتند` gereftand_ (line 144); pp. _`گرفته` gerefte_ (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
 
 #### Line 11
 
-- **رنج** — *ranj* — suffering, pain
-- **آنان** — *ānān* — they (literary variant of آنها)
-- **راه** — *rāh* — way, road
-- **مسافرت** — *mosāferat* — travel, journey
-  - *Etym*: from Arabic, root s-f-r "to travel"; verbal-noun pattern *mufāʿalat*.
-- **آب** — *āb* — water
-- **پهناور** — *pahnāvar* — vast, wide
-  - *Etym*: `پهن` + `-اور` (suffix "having, bringing").
-  - *Family*: `پهن` *pahn* "broad, wide"; `پهنا` *pahnā* "breadth"; `-آور` (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
-  - *Forms*: collocation `آبهای پهناور` "the great waters" (i.e. the ocean).
+- **رنج** — _ranj_ — suffering, pain
+- **آنان** — _ānān_ — they (literary variant of آنها)
+- **راه** — _rāh_ — way, road
+- **مسافرت** — _mosāferat_ — travel, journey
+  - _Etym_: from Arabic, root s-f-r "to travel"; verbal-noun pattern _mufāʿalat_.
+- **آب** — _āb_ — water
+- **پهناور** — _pahnāvar_ — vast, wide
+  - _Etym_: `پهن` + `-اور` (suffix "having, bringing").
+  - _Family_: `پهن` _pahn_ "broad, wide"; `پهنا` _pahnā_ "breadth"; `-آور` (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
+  - _Forms_: collocation `آبهای پهناور` "the great waters" (i.e. the ocean).
 
 #### Line 12
 
-- **رسیدن** — *rasīdan* (pres. *ras-*) — to arrive, to reach (3pl pres. *می رسند mī-rasand*)
-- **علیه** — *ʿalayhi* — against
-  - *Etym*: from Arabic, originally a prepositional phrase *ʿalay-hi* "upon him".
-- **شورش** — *šūreš* — rebellion, uprising
-  - *Etym*: `شور` + `-ش` (deverbal nominalizer).
-  - *Family*: `شور` *šūr* "agitation, fervor, passion"; `شوریدن` *šūrīdan* "to revolt, be in turmoil".
-  - *Forms*: collocation `شورش کردن` "to rebel".
-- **مجاب** — *mojāb* — convinced, persuaded
-  - *Etym*: from Arabic, passive participle of *ʾajāba* "to answer", root j-w-b → "answered, satisfied".
-  - *Forms*: collocation `مجاب کردن` "to convince".
-- **یک** — *yek* — one, a
-- **کشتی** — *kaštī* — ship, vessel
+- **رسیدن** — _rasīdan_ (pres. _ras-_) — to arrive, to reach (3pl pres. _می رسند mī-rasand_)
+- **علیه** — _ʿalayhi_ — against
+  - ⚠️ _Diphthong -ay- written as `ی_`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
+  - _Etym_: from Arabic, originally a prepositional phrase _ʿalay-hi_ "upon him".
+- **شورش** — _šūreš_ — rebellion, uprising
+  - _Etym_: `شور` + `-ش` (deverbal nominalizer).
+  - _Family_: `شور` _šūr_ "agitation, fervor, passion"; `شوریدن` _šūrīdan_ "to revolt, be in turmoil".
+  - _Forms_: collocation `شورش کردن` "to rebel".
+- **مجاب** — _mojāb_ — convinced, persuaded
+  - _Etym_: from Arabic, passive participle of _ʾajāba_ "to answer", root j-w-b → "answered, satisfied".
+  - _Forms_: collocation `مجاب کردن` "to convince".
+- **یک** — _yek_ — one, a
+- **کشتی** — _kaštī_ — ship, vessel
 
 #### Line 13
 
-- **خرّمساران** — *Xorram-sārān* [proper] — "Bountiful" (the place where Lehi's family builds the ship)
-  - *Etym*: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
-  - *Family*: `خرّم` *xorram* "verdant, flourishing, joyful"; `-سار` *-sār* (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
-  - *Forms*: split across lines 13–14 in source as `ّمساران` + `خر`.
-- **سوی** — *sūy* — direction, side
-  - *Forms*: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
+- **خرّمساران** — _Xorram-sārān_ [proper] — "Bountiful" (the place where Lehi's family builds the ship)
+  - _Etym_: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
+  - _Family_: `خرّم` _xorram_ "verdant, flourishing, joyful"; `-سار` _-sār_ (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
+  - _Forms_: split across lines 13–14 in source as `ّمساران` + `خر`.
+- **سوی** — _sūy_ — direction, side
+  - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
 
 #### Line 14
 
-- **ساختن** — *sāxtan* (pres. *sāz-*) — to make, build
-  - *Forms*: 3sg pres. *`می` `سازد` mī-sāzad* (line 14); subj. *`سازد` sāzad* with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
-- **نام** — *nām* — name
-  - *Etym*: native Persian; cognate with English *name*, Latin *nomen* (Indo-European).
-  - *Forms*: idiom `نام چیزی را X خواندن` "to call something X".
-- **آنجا** — *ānjā* — there
+- **ساختن** — _sāxtan_ (pres. _sāz-_) — to make, build
+  - _Forms_: 3sg pres. _`می` `سازد` mī-sāzad_ (line 14); subj. _`سازد` sāzad_ with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
+- **نام** — _nām_ — name
+  - _Etym_: native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).
+  - _Forms_: idiom `نام چیزی را X خواندن` "to call something X".
+- **آنجا** — _ānjā_ — there
 
 #### Line 15
 
-- **موعود** — *mowʿūd* — promised
-  - *Etym*: from Arabic, passive participle of *waʿada* "to promise", root w-ʿ-d.
-  - *Forms*: collocation `سرزمین موعود` "the Promised Land".
-- **گذشتن** — *gozaštan* (pres. *gozar-*) — to pass; to cross (`چنین گذشت` = "it came to pass"; see grammar §1)
-- **ادامه** — *edāme* — continuation
-  - *Etym*: from Arabic, root d-w-m "to last, continue".
-  - *Forms*: ezafe *`ادامۀ` edāme-ye*.
-- **آن** — *ān* — that; it (demonstrative / 3sg pron.)
-- **این** — *īn* — this
-- **پایه** — *pāye* — base, foundation
-  - *Family*: `پا` *pā* "foot, leg"; `پایان` *pāyān* "end" (literary "foothold").
-  - *Forms*: ezafe *`پایۀ` pāye-ye*; collocation `بر پایۀ X` "on the basis of X".
-- **یا** — *yā* — or
-- **بیان** — *bayān* — statement, expression
-  - *Etym*: from Arabic, root b-y-n "to be clear, make plain".
-  - *Forms*: collocation `به بیان دیگر` "in other words".
+- **موعود** — _mowʿūd_ — promised
+  - _Etym_: from Arabic, passive participle of _waʿada_ "to promise", root w-ʿ-d.
+  - _Forms_: collocation `سرزمین موعود` "the Promised Land".
+- **گذشتن** — _gozaštan_ (pres. _gozar-_) — to pass; to cross (`چنین گذشت` = "it came to pass"; see grammar §1)
+- **ادامه** — _edāme_ — continuation
+  - _Etym_: from Arabic, root d-w-m "to last, continue".
+  - _Forms_: ezafe _`ادامۀ` edāme-ye_.
+- **آن** — _ān_ — that; it (demonstrative / 3sg pron.)
+- **این** — _īn_ — this
+- **پایه** — _pāye_ — base, foundation
+  - _Family_: `پا` _pā_ "foot, leg"; `پایان` _pāyān_ "end" (literary "foothold").
+  - _Forms_: ezafe _`پایۀ` pāye-ye_; collocation `بر پایۀ X` "on the basis of X".
+- **یا** — _yā_ — or
+- **بیان** — _bayān_ — statement, expression
+  - _Etym_: from Arabic, root b-y-n "to be clear, make plain".
+  - _Forms_: collocation `به بیان دیگر` "in other words".
 
 #### Line 16
 
-- **دیگر** — *dīgar* — other, another
-- **من** — *man* — I, me
-- **نوشتن** — *neveštan* (pres. *nevīs-*) — to write (past 1sg *نوشتم neveštam*; pp. *نوشته nevešte*)
+- **دیگر** — _dīgar_ — other, another
+- **من** — _man_ — I, me
+- **نوشتن** — _neveštan_ (pres. _nevīs-_) — to write (past 1sg _نوشتم neveštam_; pp. _نوشته nevešte_)
 
 ### Chapter summary (lines 17–24)
 
-
-
 #### Line 17
 
-- **فصل** — *faṣl* — chapter, section; season
-  - *Etym*: from Arabic, root f-ṣ-l "to separate, divide".
+- **فصل** — _faṣl_ — chapter, section; season
+  - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
 
 #### Line 18
 
-- **نمودن** — *nemūdan* (pres. *namāy-*) — to do; to show; to appear [literary alternative to کردن]
-  - *Forms*: 3sg pres. *`می` `نماید` mī-namāyad*, as in `شروع می نماید` "begins", line 18; past *`نمود` namūd*, as in `شروع نمود` "began", line 131.
+- **نمودن** — _nemūdan_ (pres. _namāy-_) — to do; to show; to appear [literary alternative to کردن]
+  - _Forms_: 3sg pres. _`می` `نماید` mī-namāyad_, as in `شروع می نماید` "begins", line 18; past _`نمود` namūd_, as in `شروع نمود` "began", line 131.
 
 #### Line 19
 
-- **رؤیا** — *roʾyā* — vision
-- **ستون** — *sotūn* — pillar, column
-  - *Forms*: with indef. *-ī*: *`ستونی` sotūn-ī* "a pillar".
-- **آتش** — *ātaš* — fire
-- **دیدن** — *dīdan* (pres. *bīn-*) — to see
-  - *Forms*: pres stem `bīn-` is unrelated to the infinitive's `dīd-`. 3sg pres. *`می` `بیند` mī-bīnad* (line 19: `ستونی از آتش می بیند` "sees a pillar of fire"). Past *`دید` dīd* (line 57+); 1sg perfect *`دیده` `ام` dīde-am* "I have seen" (line 89); pp. *`دیده` dīde*.
+- **رؤیا** — _roʾyā_ — vision
+- **ستون** — _sotūn_ — pillar, column
+  - _Forms_: with indef. _-ī_: _`ستونی` sotūn-ī_ "a pillar".
+- **آتش** — _ātaš_ — fire
+- **دیدن** — _dīdan_ (pres. _bīn-_) — to see
+  - _Forms_: pres stem `bīn-` is unrelated to the infinitive's `dīd-`. 3sg pres. _`می` `بیند` mī-bīnad_ (line 19: `ستونی از آتش می بیند` "sees a pillar of fire"). Past _`دید` dīd_ (line 57+); 1sg perfect _`دیده` `ام` dīde-am_ "I have seen" (line 89); pp. _`دیده` dīde_.
 
 #### Line 20
 
-- **خدا** — *xodā* — God
-  - *Etym*: native Persian; from Old Persian *xvadāta-* "lord, self-existing".
-  - *Forms*: ezafe *`خدای` xodā-ye*; with suffix *`خدایش` xodā-yaš* "his God", *`خدایشان` xodā-yešān* "their God".
-- **ستایش** — *setāyeš* — praise
-  - *Etym*: `ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer).
-  - *Family*: `ستودن` *setūdan* "to praise" (verb).
-  - *Forms*: collocation `ستایش کردن` "to praise".
+- **خدا** — _xodā_ — God
+  - _Etym_: native Persian; from Old Persian _xvadāta-_ "lord, self-existing".
+  - _Forms_: ezafe _`خدای` xodā-ye_; with suffix _`خدایش` xodā-yaš_ "his God", _`خدایشان` xodā-yešān_ "their God".
+- **ستایش** — _setāyeš_ — praise
+  - _Etym_: `ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer).
+  - _Family_: `ستودن` _setūdan_ "to praise" (verb).
+  - _Forms_: collocation `ستایش کردن` "to praise".
 
 #### Line 21
 
-- **آمدن** — *āmadan* (pres. *ā-*) — to come
-  - *Forms*: pres stem `ā-` takes an epenthetic `-y-` before vowel-initial endings: 3sg pres. *`می` `آید` mī-āyad* (line 75: `فرود می آید` "descends"); 3pl *`می` `آیند` mī-āyand* (line 103). Past *`آمد` āmad*; 3pl past imperfect *`می` `آمدند` mī-āmadand* (line 78); 3pl past *`آمدند` āmadand* (line 81).
-- **مسیح** — *Masīḥ* [proper] — the Messiah, Christ
-  - *Etym*: from Arabic *al-Masīḥ*, ultimately Hebrew *māšīaḥ* (מָשִׁיחַ) "anointed one", root m-š-ḥ.
-- **پیشگویی** — *pīšgūyī* — prediction, prophecy
-  - *Etym*: `پیش` "before" + `گویی` (← `گفتن`) "saying" → "fore-telling".
-  - *Family*: `پیش` *pīš* "before, ahead"; `گفتن` *goftan* "to say"; `پیشگو` *pīšgū* "foreteller, soothsayer".
-  - *Forms*: collocation `پیشگویی کردن` "to foretell".
+- **آمدن** — _āmadan_ (pres. _ā-_) — to come
+  - _Forms_: pres stem `ā-` takes an epenthetic `-y-` before vowel-initial endings: 3sg pres. _`می` `آید` mī-āyad_ (line 75: `فرود می آید` "descends"); 3pl _`می` `آیند` mī-āyand_ (line 103). Past _`آمد` āmad_; 3pl past imperfect _`می` `آمدند` mī-āmadand_ (line 78); 3pl past _`آمدند` āmadand_ (line 81).
+- **مسیح** — _Masīḥ_ [proper] — the Messiah, Christ
+  - _Etym_: from Arabic _al-Masīḥ_, ultimately Hebrew _māšīaḥ_ (מָשִׁיחַ) "anointed one", root m-š-ḥ.
+- **پیشگویی** — _pīšgūyī_ — prediction, prophecy
+  - _Etym_: `پیش` "before" + `گویی` (← `گفتن`) "saying" → "fore-telling".
+  - _Family_: `پیش` _pīš_ "before, ahead"; `گفتن` _goftan_ "to say"; `پیشگو` _pīšgū_ "foreteller, soothsayer".
+  - _Forms_: collocation `پیشگویی کردن` "to foretell".
 
 #### Line 23
 
-- **آزار** — *āzār* — harm, persecution, torment
-  - *Etym*: native Persian; related to `آزردن` *āzordan* "to grieve, hurt".
-  - *Forms*: collocation `آزار دادن` "to persecute, to torment".
-- **نزدیک** — *nazdīk* — near
+- **آزار** — _āzār_ — harm, persecution, torment
+  - _Etym_: native Persian; related to `آزردن` _āzordan_ "to grieve, hurt".
+  - _Forms_: collocation `آزار دادن` "to persecute, to torment".
+- **نزدیک** — _nazdīk_ — near
 
 #### Line 24
 
-- **پیش** — *pīš* — before, ahead, forward
-  - *Forms*: collocation `پیش رفتن` "to go forth".
-- **میلاد** — *mīlād* — birth (specifically the birth of Christ in dating contexts)
-  - *Etym*: from Arabic, root w-l-d "to give birth"; verbal noun pattern *mifʿāl*.
-  - *Forms*: collocation `پیش از میلاد` "B.C.".
+- **پیش** — _pīš_ — before, ahead, forward
+  - _Forms_: collocation `پیش رفتن` "to go forth".
+- **میلاد** — _mīlād_ — birth (specifically the birth of Christ in dating contexts)
+  - _Etym_: from Arabic, root w-l-d "to give birth"; verbal noun pattern _mifʿāl_.
+  - _Forms_: collocation `پیش از میلاد` "B.C.".
 
 ### Verse 1 (lines 25–33)
 
-
-
 #### Line 25
 
-- **پدر** — *pedar* — father
-  - *Forms*: with suffix *`پدرم` pedar-am* "my father".
-- **مادر** — *mādar* — mother
-- **خوب** — *xūb* — good
-  - *Family*: `خوبی` *xūbī* "goodness, virtue"; `خوش` *xoš* "happy, pleasant" (related root).
-  - *Forms*: with indef. *-ī*: *`خوبی` xūb-ī* "a good [one]" (or "goodness" as abstract noun).
+- **پدر** — _pedar_ — father
+  - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
+- **مادر** — _mādar_ — mother
+- **خوب** — _xūb_ — good
+  - _Family_: `خوبی` _xūbī_ "goodness, virtue"; `خوش` _xoš_ "happy, pleasant" (related root).
+  - _Forms_: with indef. _-ī_: _`خوبی` xūb-ī_ "a good [one]" (or "goodness" as abstract noun).
 
 #### Line 26
 
-- **زادن** — *zādan* (pres. *zā-*) — to give birth (pp. *زاده zāde* "born")
-- **بنابراین** — *banābarīn* — therefore
-  - *Etym*: `بنا` + `بر` + `این` → "based on this".
-  - *Family*: `بنا` *banā* "foundation, basis" (Arabic, root b-n-y); also seen in `بر پایۀ` "on the basis of" (synonymous).
-- **اندک** — *andak* — little
-  - *Forms*: with indef. *-ī*: *`اندکی` andak-ī* "a little".
-- **همه** — *hame* — all, every
-  - *Forms*: ezafe *`همۀ` hame-ye*.
+- **زادن** — _zādan_ (pres. _zā-_) — to give birth (pp. _زاده zāde_ "born")
+- **بنابراین** — _banābarīn_ — therefore
+  - _Etym_: `بنا` + `بر` + `این` → "based on this".
+  - _Family_: `بنا` _banā_ "foundation, basis" (Arabic, root b-n-y); also seen in `بر پایۀ` "on the basis of" (synonymous).
+- **اندک** — _andak_ — little
+  - _Forms_: with indef. _-ī_: _`اندکی` andak-ī_ "a little".
+- **همه** — _hame_ — all, every
+  - _Forms_: ezafe _`همۀ` hame-ye_.
 
 #### Line 27
 
-- **آموختن** — *āmūxtan* (pres. *āmūz-*) — to learn, teach (pp. *آموخته āmūxte* = "learning, thing learned")
-- **آموزش** — *āmūzeš* — teaching, instruction
-  - *Etym*: `آموز-` (pres. stem of `آموختن` "to teach/learn") + `-ش` (nominalizer).
-  - *Family*: `آموختن` *āmūxtan* "to teach, to learn" (verb); `آموخته` *āmūxte* "learning" (pp).
+- **آموختن** — _āmūxtan_ (pres. _āmūz-_) — to learn, teach (pp. _آموخته āmūxte_ = "learning, thing learned")
+- **آموزش** — _āmūzeš_ — teaching, instruction
+  - _Etym_: `آموز-` (pres. stem of `آموختن` "to teach/learn") + `-ش` (nominalizer).
+  - _Family_: `آموختن` _āmūxtan_ "to teach, to learn" (verb); `آموخته` _āmūxte_ "learning" (pp).
 
 #### Line 28
 
-- **دوره** — *dowre* — period, era
-  - *Etym*: from Arabic *dawra* "circle, cycle", root d-w-r.
-  - *Forms*: ezafe *`دورۀ` dowre-ye*.
-- **روزگار** — *rūzgār* — time, days, era
-  - *Etym*: `روز` + `-گار` (suffix forming nouns of duration/period) → "the days [of life]".
-  - *Family*: `روز` *rūz* "day"; `-گار` *-gār* (productive in `آموزگار` "teacher", `کردگار` "creator", `پروردگار` "Lord").
-- **بسیار** — *besyār* — much, very; *بسیاری besyār-ī* = many
+- **دوره** — _dowre_ — period, era
+  - _Etym_: from Arabic _dawra_ "circle, cycle", root d-w-r.
+  - _Forms_: ezafe _`دورۀ` dowre-ye_.
+- **روزگار** — _rūzgār_ — time, days, era
+  - _Etym_: `روز` + `-گار` (suffix forming nouns of duration/period) → "the days [of life]".
+  - _Family_: `روز` _rūz_ "day"; `-گار` _-gār_ (productive in `آموزگار` "teacher", `کردگار` "creator", `پروردگار` "Lord").
+- **بسیار** — _besyār_ — much, very; _بسیاری besyār-ī_ = many
 
 #### Line 29
 
-- **وجود** — *vojūd* — existence
-  - *Etym*: from Arabic, root w-j-d "to find, exist".
-  - *Forms*: collocation `با این وجود` "nevertheless, withal" (lit. "with this existence").
-- **ای** — *-ī* — indefinite marker ("a, one, some")
+- **وجود** — _vojūd_ — existence
+  - _Etym_: from Arabic, root w-j-d "to find, exist".
+  - _Forms_: collocation `با این وجود` "nevertheless, withal" (lit. "with this existence").
+- **ای** — _-ī_ — indefinite marker ("a, one, some")
 
 #### Line 30
 
-- **مورد** — *mowred* — case, object, instance
-  - *Etym*: from Arabic *mawrid*, root w-r-d "to come, arrive at"; pattern *mafʿil* "place of arriving".
-  - *Forms*: collocations `مورد … بودن` "to be the object of"; `در مورد` "regarding".
-- **لطف** — *loṭf* — grace, favor, kindness
-  - *Etym*: from Arabic, root l-ṭ-f "to be kind, gentle".
-- **والا** — *vālā* — exalted, lofty
-  - *Etym*: native Persian, from older *abālā* / *ablā* "above"; cognate with `بالا` *bālā* "up".
-  - *Forms*: ezafe *`والای` vālā-ye*.
-- **آری** — *ārī* — yea, indeed [archaic/biblical register; very frequent here]
-  - *Etym*: native Persian; literary equivalent of modern *`بله` balē*.
+- **مورد** — _mowred_ — case, object, instance
+  - _Etym_: from Arabic _mawrid_, root w-r-d "to come, arrive at"; pattern _mafʿil_ "place of arriving".
+  - _Forms_: collocations `مورد … بودن` "to be the object of"; `در مورد` "regarding".
+- **لطف** — _loṭf_ — grace, favor, kindness
+  - _Etym_: from Arabic, root l-ṭ-f "to be kind, gentle".
+- **والا** — _vālā_ — exalted, lofty
+  - _Etym_: native Persian, from older _abālā_ / _ablā_ "above"; cognate with `بالا` _bālā_ "up".
+  - _Forms_: ezafe _`والای` vālā-ye_.
+- **آری** — _ārī_ — yea, indeed [archaic/biblical register; very frequent here]
+  - _Etym_: native Persian; literary equivalent of modern _`بله` balē_.
 
 #### Line 31
 
-- **نیکی** — *nīkī* — goodness
-  - *Etym*: `نیک` + `-ی` (abstract).
-  - *Family*: `نیک` *nīk* "good, virtuous"; `نیکو` *nīkū* "fine, excellent" (literary variant).
-- **راز** — *rāz* — secret, mystery
-- **دانش** — *dāneš* — knowledge
-  - *Etym*: `دان-` (pres. stem of `دانستن` "to know") + `-ش` (nominalizer).
-  - *Family*: `دانستن` *dānestan* "to know" (an entry in this chapter); `دانا` *dānā* "wise"; `دانشمند` *dānešmand* "scholar".
-- **زیاد** — *zīyād* — much, many
-  - *Forms*: with indef. *-ī*: *`زیادی` zīyād-ī*.
+- **نیکی** — _nīkī_ — goodness
+  - _Etym_: `نیک` + `-ی` (abstract).
+  - _Family_: `نیک` _nīk_ "good, virtuous"; `نیکو` _nīkū_ "fine, excellent" (literary variant).
+- **راز** — _rāz_ — secret, mystery
+- **دانش** — _dāneš_ — knowledge
+  - _Etym_: `دان-` (pres. stem of `دانستن` "to know") + `-ش` (nominalizer).
+  - _Family_: `دانستن` _dānestan_ "to know" (an entry in this chapter); `دانا` _dānā_ "wise"; `دانشمند` _dānešmand_ "scholar".
+- **زیاد** — _zīyād_ — much, many
+  - _Forms_: with indef. _-ī_: _`زیادی` zīyād-ī_.
 
 #### Line 32
 
-- **کار** — *kār* — work, deed
-  - *Forms*: with suffix *`کارهایم` kārhā-yam* "my works" (pl. + 1sg poss.).
+- **کار** — _kār_ — work, deed
+  - _Forms_: with suffix _`کارهایم` kārhā-yam_ "my works" (pl. + 1sg poss.).
 
 ### Verse 2 (lines 34–36)
 
-
-
 #### Line 34
 
-- **زبان** — *zabān* — tongue, language
-- **پدری** — *pedar-ī* — paternal
-  - *Etym*: `پدر` + `-ی` (relational adjective suffix).
-  - *Family*: `پدر` *pedar* "father" (an entry in this chapter); `-ی` *-ī* (productive: `ایرانی` "Iranian", `شهری` "urban").
+- **زبان** — _zabān_ — tongue, language
+- **پدری** — _pedar-ī_ — paternal
+  - _Etym_: `پدر` + `-ی` (relational adjective suffix).
+  - _Family_: `پدر` _pedar_ "father" (an entry in this chapter); `-ی` _-ī_ (productive: `ایرانی` "Iranian", `شهری` "urban").
 
 #### Line 35
 
-- **ام** — *-am* — 1sg possessive / copula clitic ("my"; "I am")
-- **آمیزه** — *āmīze* — mixture, blend
+- **ام** — _-am_ — 1sg possessive / copula clitic ("my"; "I am")
+- **آمیزه** — _āmīze_ — mixture, blend
 
 #### Line 36
 
-- **مصریان** — *Meṣriyān* [proper] — Egyptians
-  - *Etym*: `مصر` + `-یان` (Persian gentilic plural).
-  - *Family*: `مصر` *Meṣr* "Egypt" (Arabic, ← Hebrew *Miṣrayim*); `-یان` *-iyān* (cf. `یهودیان` in this chapter).
+- **مصریان** — _Meṣriyān_ [proper] — Egyptians
+  - _Etym_: `مصر` + `-یان` (Persian gentilic plural).
+  - _Family_: `مصر` _Meṣr_ "Egypt" (Arabic, ← Hebrew _Miṣrayim_); `-یان` _-iyān_ (cf. `یهودیان` in this chapter).
 
 ### Verse 3 (lines 37–40)
 
-
-
 #### Line 37
 
-- **دانستن** — *dānestan* (pres. *dān-*) — to know
-  - *Forms*: 1sg pres. *`می` `دانم` mī-dānam*, as in `من می دانم` "I know", line 37; subj. 2pl *`بدانید` bedānīd* "[that] you may know", line 126 — note `بـ-` for the subjunctive.
+- **دانستن** — _dānestan_ (pres. _dān-_) — to know
+  - _Forms_: 1sg pres. _`می` `دانم` mī-dānam_, as in `من می دانم` "I know", line 37; subj. 2pl _`بدانید` bedānīd_ "[that] you may know", line 126 — note `بـ-` for the subjunctive.
 
 #### Line 38
 
-- **راست** — *rāst* — right, true
+- **راست** — _rāst_ — right, true
 
 #### Line 39
 
-- **دست** — *dast* — hand
-  - *Forms*: pl. *`دستها` dasthā*.
-- **خود** — *xod* — self; own
-  - *Forms*: with suffixes: *`خودم` xod-am* "my own".
+- **دست** — _dast_ — hand
+  - _Forms_: pl. _`دستها` dasthā_.
+- **خود** — _xod_ — self; own
+  - _Forms_: with suffixes: _`خودم` xod-am_ "my own".
 
 ### Verse 4 (lines 41–48)
 
-
-
 #### Line 41
 
-- **زیرا** — *zīrā* — because, for
-  - *Etym*: native Persian; from earlier *zī rā* "for the sake of which".
-- **چنین** — *čonīn* — such, thus
-  - *Etym*: `چو` *čo* (variant of `چون` "as, like") + `این` *īn* "this" → "like this, in this manner".
-  - *Forms*: idiom `چنین گذشت` "it came to pass" (see grammar §1).
-- **آغاز** — *āqāz* — beginning
+- **زیرا** — _zīrā_ — because, for
+  - _Etym_: native Persian; from earlier _zī rā_ "for the sake of which".
+- **چنین** — _čonīn_ — such, thus
+  - _Etym_: `چو` _čo_ (variant of `چون` "as, like") + `این` _īn_ "this" → "like this, in this manner".
+  - _Forms_: idiom `چنین گذشت` "it came to pass" (see grammar §1).
+- **آغاز** — _āqāz_ — beginning
 
 #### Line 43
 
-- **سال** — *sāl* — year
-- **صدقیا** — *Ṣedqiyā* [proper] — Zedekiah (last king of Judah)
-  - *Etym*: from Hebrew *Ṣidqīyāhū* (צִדְקִיָּהוּ) "YHWH is my righteousness", via Arabic.
-- **پادشاه** — *pādšāh* — king
-  - *Etym*: `پاد` *pād* "protector, lord" + `شاه` *šāh* "king" → "lord-king, sovereign". From Old Persian *pati-xšāyathiya*.
-- **یهودا** — *Yahūdā* [proper] — Judah
-  - *Etym*: from Hebrew *Yəhūdā* (יְהוּדָה) "praised", via Arabic.
+- **سال** — _sāl_ — year
+- **صدقیا** — _Ṣedqiyā_ [proper] — Zedekiah (last king of Judah)
+  - _Etym_: from Hebrew _Ṣidqīyāhū_ (צִדְקִיָּהוּ) "YHWH is my righteousness", via Arabic.
+- **پادشاه** — _pādšāh_ — king
+  - _Etym_: `پاد` _pād_ "protector, lord" + `شاه` _šāh_ "king" → "lord-king, sovereign". From Old Persian _pati-xšāyathiya_.
+- **یهودا** — _Yahūdā_ [proper] — Judah
+  - _Etym_: from Hebrew _Yəhūdā_ (יְהוּדָה) "praised", via Arabic.
 
 #### Line 45
 
-- **ساکن** — *sāken* — resident, dwelling
-  - *Etym*: from Arabic, active participle of *sakana* "to dwell, be still", root s-k-n.
-  - *Forms*: pl. *`ساکنان` sākenān* "inhabitants".
-- **همان** — *hamān* — that same
-  - *Etym*: `هم` *ham* (same, identical) + `آن` *ān* (that).
+- **ساکن** — _sāken_ — resident, dwelling
+  - _Etym_: from Arabic, active participle of _sakana_ "to dwell, be still", root s-k-n.
+  - _Forms_: pl. _`ساکنان` sākenān_ "inhabitants".
+- **همان** — _hamān_ — that same
+  - _Etym_: `هم` _ham_ (same, identical) + `آن` _ān_ (that).
 
 #### Line 46
 
-- **پیامبر** — *payāmbar* — prophet
-  - *Etym*: `پیام` + `بر` (pres. stem of `بردن`) → "message-carrier". A wholly Persian formation, used in place of the Arabic loan `نبی`.
-  - *Family*: `پیام` *payām* "message"; `بردن` *bordan* "to carry, take"; `پیغام` *payqām* "message" (variant).
-  - *Forms*: pl. *`پیامبران` payāmbarān*.
+- **پیامبر** — _payāmbar_ — prophet
+  - _Etym_: `پیام` + `بر` (pres. stem of `بردن`) → "message-carrier". A wholly Persian formation, used in place of the Arabic loan `نبی`.
+  - _Family_: `پیام` _payām_ "message"; `بردن` _bordan_ "to carry, take"; `پیغام` _payqām_ "message" (variant).
+  - _Forms_: pl. _`پیامبران` payāmbarān_.
 
 #### Line 47
 
-- **باید** — *bāyad* — must, ought [modal; indeclinable]
-- **توبه** — *towbe* — repentance
-  - *Etym*: from Arabic, root t-w-b "to turn back, repent".
-  - *Forms*: collocation `توبه کردن` "to repent".
-- **شهر** — *šahr* — city
+- **باید** — _bāyad_ — must, ought [modal; indeclinable]
+- **توبه** — _towbe_ — repentance
+  - _Etym_: from Arabic, root t-w-b "to turn back, repent".
+  - _Forms_: collocation `توبه کردن` "to repent".
+- **شهر** — _šahr_ — city
 
 #### Line 48
 
-- **عظیم** — *ʿaẓīm* — great, mighty
-  - *Etym*: from Arabic, root ʿ-ẓ-m "to be great"; pattern *faʿīl* (intensive adjective).
-- **نابود** — *nābūd* — destroyed
-  - *Etym*: `نا-` *nā-* "non-, un-" + `بود` *būd* (past stem of `بودن` "to be") → "non-existent".
-  - *Forms*: collocation `نابود شدن` "to be destroyed".
+- **عظیم** — _ʿaẓīm_ — great, mighty
+  - _Etym_: from Arabic, root ʿ-ẓ-m "to be great"; pattern _faʿīl_ (intensive adjective).
+- **نابود** — _nābūd_ — destroyed
+  - _Etym_: `نا-` _nā-_ "non-, un-" + `بود` _būd_ (past stem of `بودن` "to be") → "non-existent".
+  - _Forms_: collocation `نابود شدن` "to be destroyed".
 
 ### Verse 5 (lines 49–53)
 
-
-
 #### Line 49
 
-- **رو** — *rū* — face, side
-  - *Forms*: collocation `از این رو` "for this reason, therefore".
+- **رو** — _rū_ — face, side
+  - _Forms_: collocation `از این رو` "for this reason, therefore".
 
 #### Line 50
 
-- **همچنان** — *hamčonān* — just as, while; likewise
-  - *Etym*: `هم` *ham* "same, also" + `چنان` *čonān* "such, in that way" → "in the same way, while".
+- **همچنان** — _hamčonān_ — just as, while; likewise
+  - _Etym_: `هم` _ham_ "same, also" + `چنان` _čonān_ "such, in that way" → "in the same way, while".
 
 #### Line 51
 
-- **حتّی** — *ḥattā* — even
-  - *Etym*: from Arabic *ḥattā*, originally a preposition "until, up to".
-  - *Forms*: split as `حت…ّی` across lines in the source.
+- **حتّی** — _ḥattā_ — even
+  - ⚠️ _Alif maqṣūra_: the final `ی` represents Arabic _alif maqṣūra_ (`الألف المقصورة`) — a long -ā vowel written `ى` at the end of certain Arabic words. Learners may accidentally read it as _\*ḥattī_.
+  - _Etym_: from Arabic _ḥattā_, originally a preposition "until, up to".
+  - _Forms_: split as `حت…ّی` across lines in the source.
 
 #### Line 52
 
-- **نیایش** — *niyāyeš* — supplication, prayer
-  - *Etym*: from `نیایستن` "to supplicate" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan *niyāy-*).
-  - *Family*: `نیایشگاه` *niyāyešgāh* "place of worship".
-  - *Forms*: collocation `نیایش کردن` "to pray".
+- **نیایش** — _niyāyeš_ — supplication, prayer
+  - _Etym_: from `نیایستن` "to supplicate" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_).
+  - _Family_: `نیایشگاه` _niyāyešgāh_ "place of worship".
+  - _Forms_: collocation `نیایش کردن` "to pray".
 
 #### Line 53
 
-- **دل** — *del* — heart
-  - *Forms*: with suffix *`دلش` del-aš* "his heart".
+- **دل** — _del_ — heart
+  - _Forms_: with suffix _`دلش` del-aš_ "his heart".
 
 ### Verse 6 (lines 54–59)
 
-
-
 #### Line 56
 
-- **صخره** — *ṣaxre* — rock, cliff
-  - *Etym*: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` *ṣaxra*.
-- **برابر** — *barābar* — opposite, in front of; equal
+- **صخره** — _ṣaxre_ — rock, cliff
+  - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
+- **برابر** — _barābar_ — opposite, in front of; equal
 
 #### Line 57
 
-- **نشستن** — *nešastan* (pres. *nešīn-*) — to sit (past *nešast*, pp. *nešaste*)
-- **شنیدن** — *šenīdan* (pres. *šenav-*) — to hear
+- **نشستن** — _nešastan_ (pres. _nešīn-_) — to sit (past _nešast_, pp. _nešaste_)
+- **شنیدن** — _šenīdan_ (pres. _šenav-_) — to hear
 
 #### Line 58
 
-- **سبب** — *sabab* — cause, reason
-  - *Etym*: from Arabic, root s-b-b "to cause, occasion".
-  - *Forms*: collocation `به سبب` "because of".
-- **چیز** — *čīz* — thing
-  - *Forms*: pl. *`چیزها` čīzhā*; with rel. construction *`چیزهایی` čīzhā-yī* "things which" (pl. + indef. + relative).
-- **بی** — *bī* — without (prefix/particle)
+- **سبب** — _sabab_ — cause, reason
+  - _Etym_: from Arabic, root s-b-b "to cause, occasion".
+  - _Forms_: collocation `به سبب` "because of".
+- **چیز** — _čīz_ — thing
+  - _Forms_: pl. _`چیزها` čīzhā_; with rel. construction _`چیزهایی` čīzhā-yī_ "things which" (pl. + indef. + relative).
+- **بی** — _bī_ — without (prefix/particle)
 
 #### Line 59
 
-- **اندازه** — *andāze* — extent, measure
-  - *Forms*: collocation `بی اندازه` "extremely" (lit. "without measure").
-- **تکان** — *tekān* — shake, tremor
-  - *Forms*: collocation `تکان خوردن` "to be shaken" (lit. "to take a shake").
-- **خوردن** — *xordan* (pres. *xor-*) — to eat; to encounter (`تکان خوردن` = to be shaken)
-- **لرزیدن** — *larzīdan* (pres. *larz-*) — to tremble
+- **اندازه** — _andāze_ — extent, measure
+  - _Forms_: collocation `بی اندازه` "extremely" (lit. "without measure").
+- **تکان** — _tekān_ — shake, tremor
+  - _Forms_: collocation `تکان خوردن` "to be shaken" (lit. "to take a shake").
+- **خوردن** — _xordan_ (pres. _xor-_) — to eat; to encounter (`تکان خوردن` = to be shaken)
+- **لرزیدن** — _larzīdan_ (pres. _larz-_) — to tremble
 
 ### Verse 7 (lines 60–63)
 
-
-
 #### Line 60
 
-- **خانه** — *xāne* — house
-  - *Forms*: ezafe *`خانۀ` xāne-ye*.
+- **خانه** — _xāne_ — house
+  - _Forms_: ezafe _`خانۀ` xāne-ye_.
 
 #### Line 61
 
-- **چیره** — *čīre* — dominated, overcome
-  - *Forms*: collocation `چیره شدن` "to be overcome, seized by".
+- **چیره** — _čīre_ — dominated, overcome
+  - _Forms_: collocation `چیره شدن` "to be overcome, seized by".
 
 #### Line 62
 
-- **روح** — *rūḥ* — spirit
-  - *Etym*: from Arabic, root r-w-ḥ; cognate with Hebrew *ruaḥ*.
-  - *Forms*: collocation `روح مقدّس` "the Holy Ghost".
-- **مقدّس** — *moqaddas* — holy
-  - *Etym*: from Arabic, passive participle of *qaddasa* "to sanctify", root q-d-s; pattern *mufaʿʿal*.
+- **روح** — _rūḥ_ — spirit
+  - _Etym_: from Arabic, root r-w-ḥ; cognate with Hebrew _ruaḥ_.
+  - _Forms_: collocation `روح مقدّس` "the Holy Ghost".
+- **مقدّس** — _moqaddas_ — holy
+  - _Etym_: from Arabic, passive participle of _qaddasa_ "to sanctify", root q-d-s; pattern _mufaʿʿal_.
 
 #### Line 63
 
-- **بستر** — *bestar* — bed
-  - *Family*: `گستردن` *gostardan* "to spread out" (the verb `بستر` derives from); `بستری` *bestarī* "bedridden, hospitalized".
-  - *Forms*: with suffix *`بسترش` bestar-aš* "his bed".
-- **انداختن** — *andāxtan* (pres. *andāz-*) — to throw, cast (`بیرون انداختن` = to cast out)
+- **بستر** — _bestar_ — bed
+  - _Family_: `گستردن` _gostardan_ "to spread out" (the verb `بستر` derives from); `بستری` _bestarī_ "bedridden, hospitalized".
+  - _Forms_: with suffix _`بسترش` bestar-aš_ "his bed".
+- **انداختن** — _andāxtan_ (pres. _andāz-_) — to throw, cast (`بیرون انداختن` = to cast out)
 
 ### Verse 8 (lines 64–73)
 
-
-
 #### Line 64
 
-- **بدین** — *bedīn* — in/by this
-  - *Etym*: contraction of `به` *be* "to, by" + `این` *īn* "this".
-  - *Forms*: collocation `بدین گونه` "in this manner".
-- **گونه** — *gūne* — kind, manner
-  - *Forms*: collocation `بدین گونه` "in this manner".
+- **بدین** — _bedīn_ — in/by this
+  - _Etym_: contraction of `به` _be_ "to, by" + `این` _īn_ "this".
+  - _Forms_: collocation `بدین گونه` "in this manner".
+- **گونه** — _gūne_ — kind, manner
+  - _Forms_: collocation `بدین گونه` "in this manner".
 
 #### Line 66
 
-- **بردن** — *bordan* (pres. *bar-*) — to carry, take (pp. *برده borde*; note: source splits *بُرده شد* across lines 66–67)
+- **بردن** — _bordan_ (pres. _bar-_) — to carry, take (pp. _برده borde_; note: source splits _بُرده شد_ across lines 66–67)
 
 #### Line 68
 
-- **آسمان** — *āsmān* — sky, heaven
-  - *Etym*: native Persian; from Avestan *asman-* "sky, stone" — originally "stony vault".
-  - *Family*: `آسمانی` *āsmānī* "heavenly, celestial".
-  - *Forms*: pl. *`آسمانها` āsmānhā*.
-- **گشودن** — *gošūdan* (pres. *gošāy-*) — to open (pp. *گشوده gošūde*)
+- **آسمان** — _āsmān_ — sky, heaven
+  - _Etym_: native Persian; from Avestan _asman-_ "sky, stone" — originally "stony vault".
+  - _Family_: `آسمانی` _āsmānī_ "heavenly, celestial".
+  - _Forms_: pl. _`آسمانها` āsmānhā_.
+- **گشودن** — _gošūdan_ (pres. _gošāy-_) — to open (pp. _گشوده gošūde_)
 
 #### Line 69
 
-- **پنداشتن** — *pendāštan* (pres. *pendār-*) — to think, suppose, imagine
-- **تخت** — *taxt* — throne
-  - *Forms*: with suffix *`تختش` taxt-aš* "his throne".
+- **پنداشتن** — _pendāštan_ (pres. _pendār-_) — to think, suppose, imagine
+- **تخت** — _taxt_ — throne
+  - _Forms_: with suffix _`تختش` taxt-aš_ "his throne".
 
 #### Line 70
 
-- **جمعیّت** — *jamʿiyyat* — multitude, assembly
-  - *Etym*: from Arabic, root j-m-ʿ "to gather"; abstract-noun pattern *faʿʿiyya*.
-  - *Forms*: split across lines 70–71 in source as `ّت های` + `جمعی`.
+- **جمعیّت** — _jamʿiyyat_ — multitude, assembly
+  - _Etym_: from Arabic, root j-m-ʿ "to gather"; abstract-noun pattern _faʿʿiyya_.
+  - _Forms_: split across lines 70–71 in source as `ّت های` + `جمعی`.
 
 #### Line 71
 
-- **فرا** — *farā* — over, encompassing
-  - *Etym*: native Persian preverb meaning "across, beyond"; cognate with Latin *prae-*, English *fore-*.
-  - *Forms*: collocation `فرا گرفتن` "to encompass, seize".
+- **فرا** — _farā_ — over, encompassing
+  - _Etym_: native Persian preverb meaning "across, beyond"; cognate with Latin _prae-_, English _fore-_.
+  - _Forms_: collocation `فرا گرفتن` "to encompass, seize".
 
 #### Line 72
 
-- **بیشمار** — *bī-šomār* — countless
-  - *Etym*: `بی-` + `شمار`.
-  - *Family*: `بی-` *bī-* (privative prefix "without"); `شمار` *šomār* "count, number"; `شمردن` *šomordan* "to count"; `شماره` *šomāre* "number".
-  - *Forms*: with indef. *-ī*: *`بیشماری` bī-šomār-ī* "a numerous [company]".
-- **فرشته** — *farešte* — angel
-  - *Etym*: from Middle Persian *frēstag* "messenger, envoy", from `فرستادن` "to send"; native Persian rendering of "messenger of God".
-  - *Forms*: pl. *`فرشتگان` fereštegān*.
-- **حال** — *ḥāl* — state, condition
-  - *Etym*: from Arabic, root ḥ-w-l "to change, turn".
-  - *Forms*: collocation `در حال` "in the act of, while".
-- **سرود** — *sorūd* — song, hymn
-  - *Etym*: native Persian; from older *srūd-* "to sing, recite".
-  - *Forms*: collocation `سرود خواندن` "to sing".
+- **بیشمار** — _bī-šomār_ — countless
+  - _Etym_: `بی-` + `شمار`.
+  - _Family_: `بی-` _bī-_ (privative prefix "without"); `شمار` _šomār_ "count, number"; `شمردن` _šomordan_ "to count"; `شماره` _šomāre_ "number".
+  - _Forms_: with indef. _-ī_: _`بیشماری` bī-šomār-ī_ "a numerous [company]".
+- **فرشته** — _farešte_ — angel
+  - _Etym_: from Middle Persian _frēstag_ "messenger, envoy", from `فرستادن` "to send"; native Persian rendering of "messenger of God".
+  - _Forms_: pl. _`فرشتگان` fereštegān_.
+- **حال** — _ḥāl_ — state, condition
+  - _Etym_: from Arabic, root ḥ-w-l "to change, turn".
+  - _Forms_: collocation `در حال` "in the act of, while".
+- **سرود** — _sorūd_ — song, hymn
+  - _Etym_: native Persian; from older _srūd-_ "to sing, recite".
+  - _Forms_: collocation `سرود خواندن` "to sing".
 
 ### Verse 9 (lines 74–76)
 
-
-
 #### Line 74
 
-- **یکی** — *yek-ī* — one (of)
-  - *Etym*: `یک` *yek* "one" + indefinite *-ī* → "one [of them]".
+- **یکی** — _yek-ī_ — one (of)
+  - _Etym_: `یک` _yek_ "one" + indefinite _-ī_ → "one [of them]".
 
 #### Line 75
 
-- **میان** — *mīyān* — among; middle
-  - *Forms*: collocation `از میان` "from among".
-- **فرود** — *forūd* — down, downward
-  - *Etym*: native Persian; from older *fra-rūd-* "down-flow".
-  - *Forms*: collocation `فرود آمدن` "to descend".
+- **میان** — _mīyān_ — among; middle
+  - _Forms_: collocation `از میان` "from among".
+- **فرود** — _forūd_ — down, downward
+  - _Etym_: native Persian; from older _fra-rūd-_ "down-flow".
+  - _Forms_: collocation `فرود آمدن` "to descend".
 
 #### Line 76
 
-- **پرتو** — *partow* — ray, beam
-  - *Forms*: with suffix *`پرتوش` partow-aš* "his light".
-- **فراتر** — *farātar* — further, beyond
-  - *Etym*: `فرا` *farā* "beyond" + comparative suffix *`-تر` -tar*.
-- **خورشید** — *xoršīd* — sun
-  - *Etym*: native Persian; from older *huar-xšaita-* "shining sun" (Avestan).
-- **نیمروز** — *nīmrūz* — noon, midday
-  - *Etym*: `نیم` *nīm* "half" + `روز` *rūz* "day" → "half-day, mid-day".
+- **پرتو** — _partow_ — ray, beam
+  - _Forms_: with suffix _`پرتوش` partow-aš_ "his light".
+- **فراتر** — _farātar_ — further, beyond
+  - _Etym_: `فرا` _farā_ "beyond" + comparative suffix _`-تر` -tar_.
+- **خورشید** — _xoršīd_ — sun
+  - _Etym_: native Persian; from older _huar-xšaita-_ "shining sun" (Avestan).
+- **نیمروز** — _nīmrūz_ — noon, midday
+  - _Etym_: `نیم` _nīm_ "half" + `روز` _rūz_ "day" → "half-day, mid-day".
 
 ### Verse 10 (lines 77–80)
 
-
-
 #### Line 77
 
-- **همچنین** — *hamčonīn* — also, likewise
-  - *Etym*: `هم` *ham* "same" + `چنین` *čonīn* "such" → "in the same such [way]".
-- **دوازده** — *davāzdah* — twelve
-- **تای** — *tā-ye* — counter/classifier
-  - *Forms*: in cardinals: `دوازده تای دیگر` "twelve others".
+- **همچنین** — _hamčonīn_ — also, likewise
+  - _Etym_: `هم` _ham_ "same" + `چنین` _čonīn_ "such" → "in the same such [way]".
+- **دوازده** — _davāzdah_ — twelve
+- **تای** — _tā-ye_ — counter/classifier
+  - _Forms_: in cardinals: `دوازده تای دیگر` "twelve others".
 
 #### Line 78
 
-- **درخشش** — *deraxšeš* — shining, radiance, brilliance
-  - *Etym*: `درخش-` (pres. stem of `درخشیدن` "to shine") + `-ش` (nominalizer).
-  - *Family*: `درخشیدن` *deraxšīdan* "to shine"; `درخشان` *deraxšān* "shining, brilliant".
+- **درخشش** — _deraxšeš_ — shining, radiance, brilliance
+  - _Etym_: `درخش-` (pres. stem of `درخشیدن` "to shine") + `-ش` (nominalizer).
+  - _Family_: `درخشیدن` _deraxšīdan_ "to shine"; `درخشان` _deraxšān_ "shining, brilliant".
 
 #### Line 79
 
-- **تابش** — *tābeš* — shining, radiance
-  - *Etym*: `تاب-` (pres. stem of `تابیدن` "to shine") + `-ش` (nominalizer).
-  - *Family*: `تابیدن` *tābīdan* "to shine, radiate"; `آفتاب` *āftāb* "sunshine" (`آف` "shining" + `تاب`).
-- **ستارگان** — *setāregān* — stars
-  - *Etym*: `ستاره` + `-گان` (plural form used after *-e*-final stems, where *-e* drops).
-  - *Family*: `ستاره` *setāre* "star" (singular).
-- **گنبد** — *gombad* — dome, vault
-  - *Forms*: collocation `گنبد آسمان` "the firmament" (lit. "dome of the sky").
+- **تابش** — _tābeš_ — shining, radiance
+  - _Etym_: `تاب-` (pres. stem of `تابیدن` "to shine") + `-ش` (nominalizer).
+  - _Family_: `تابیدن` _tābīdan_ "to shine, radiate"; `آفتاب` _āftāb_ "sunshine" (`آف` "shining" + `تاب`).
+- **ستارگان** — _setāregān_ — stars
+  - _Etym_: `ستاره` + `-گان` (plural form used after _-e_-final stems, where _-e_ drops).
+  - _Family_: `ستاره` _setāre_ "star" (singular).
+- **گنبد** — _gombad_ — dome, vault
+  - _Forms_: collocation `گنبد آسمان` "the firmament" (lit. "dome of the sky").
 
 ### Verse 11 (lines 81–84)
 
-
-
 #### Line 81
 
-- **پایین** — *pāyīn* — down, below
-- **روی** — *rū-ye* — on, upon
-  - *Forms*: collocation `بر روی زمین` "upon the earth".
+- **پایین** — _pāyīn_ — down, below
+- **روی** — _rū-ye_ — on, upon
+  - _Forms_: collocation `بر روی زمین` "upon the earth".
 
 #### Line 82
 
-- **زمین** — *zamīn* — earth, land
+- **زمین** — _zamīn_ — earth, land
 
 #### Line 83
 
-- **ایستادن** — *istādan* (pres. *ist-*) — to stand
+- **ایستادن** — _istādan_ (pres. _ist-_) — to stand
 
 #### Line 84
 
-- **خواستن** — *xāstan* (pres. *xāh-*) — to want; auxiliary for future tense (see grammar §3)
-  - *Forms*: as main verb, 3sg past *`خواست` xāst* "wanted, asked" (line 84). As future auxiliary: 1sg *`خواهم` xāham*, 3sg *`خواهد` xāhad*, 3pl *`خواهند` xāhand* (lines 91–93); neg. 1sg *`نخواهم` naxāham* (line 118), neg. 2sg *`نخواهی` naxāhī* (line 102).
+- **خواستن** — _xāstan_ (pres. _xāh-_) — to want; auxiliary for future tense (see grammar §3)
+  - _Forms_: as main verb, 3sg past _`خواست` xāst_ "wanted, asked" (line 84). As future auxiliary: 1sg _`خواهم` xāham_, 3sg _`خواهد` xāhad_, 3pl _`خواهند` xāhand_ (lines 91–93); neg. 1sg _`نخواهم` naxāham_ (line 118), neg. 2sg _`نخواهی` naxāhī_ (line 102).
 
 ### Verse 12 (lines 85–86)
 
-
-
 #### Line 86
 
-- **آکنده** — *ākande* — filled, full
-  - *Forms*: collocation `آکنده شدن` "to be filled".
+- **آکنده** — _ākande_ — filled, full
+  - _Forms_: collocation `آکنده شدن` "to be filled".
 
 ### Verse 13 (lines 87–93)
 
-
-
 #### Line 87
 
-- **گفتن** — *goftan* (pres. *gūy-* / *gū-*) — to say (past *گفت goft*; archaic narrative *گفتا goftā*, see §10)
-- **وای** — *vāy* — woe! alas!
-  - *Forms*: collocation `وای بر` "woe unto".
+- **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
+- **وای** — _vāy_ — woe! alas!
+  - _Forms_: collocation `وای بر` "woe unto".
 
 #### Line 88
 
-- **پلید** — *palīd* — filthy, wicked
-- **تو** — *to* — thou, you (sg.)
+- **پلید** — _palīd_ — filthy, wicked
+- **تو** — _to_ — thou, you (sg.)
 
 #### Line 92
 
-- **شمشیر** — *šamšīr* — sword
-- **هلاک** — *halāk* — perishing, destruction
-  - *Etym*: from Arabic, root h-l-k "to perish".
-  - *Forms*: collocation `هلاک شدن` "to perish".
+- **شمشیر** — _šamšīr_ — sword
+- **هلاک** — _halāk_ — perishing, destruction
+  - _Etym_: from Arabic, root h-l-k "to perish".
+  - _Forms_: collocation `هلاک شدن` "to perish".
 
 #### Line 93
 
-- **اسارت** — *asārat* — captivity
-  - *Etym*: from Arabic, root ʾ-s-r "to bind, capture"; abstract-noun pattern *fiʿāla*.
-- **بابل** — *Bābel* [proper] — Babylon
-  - *Etym*: from Hebrew *Bāḇel* (בָּבֶל), ultimately Akkadian *Bābilim* "gate of the god".
+- **اسارت** — _asārat_ — captivity
+  - _Etym_: from Arabic, root ʾ-s-r "to bind, capture"; abstract-noun pattern _fiʿāla_.
+- **بابل** — _Bābel_ [proper] — Babylon
+  - _Etym_: from Hebrew _Bāḇel_ (בָּבֶל), ultimately Akkadian _Bābilim_ "gate of the god".
 
 ### Verse 14 (lines 94–104)
 
-
-
 #### Line 94
 
-- **هنگام** — *hengām* — time, occasion
-  - *Family*: `هنگامه` *hengāme* "uproar, scene"; `به` `هنگام` *be hengām* "in due time".
-  - *Forms*: *`هنگامی` `که` hengām-ī ke* "when, at the time that".
+- **هنگام** — _hengām_ — time, occasion
+  - _Family_: `هنگامه` _hengāme_ "uproar, scene"; `به` `هنگام` _be hengām_ "in due time".
+  - _Forms_: _`هنگامی` `که` hengām-ī ke_ "when, at the time that".
 
 #### Line 95
 
-- **بزرگ** — *bozorg* — great, big
-- **شگفت** — *šegeft* — wonder; wondrous
-  - *Forms*: collocation `شگفت‌انگیز šegeft-angīz` "astonishing" (lit. "wonder-arousing").
+- **بزرگ** — _bozorg_ — great, big
+- **شگفت** — _šegeft_ — wonder; wondrous
+  - _Forms_: collocation `شگفت‌انگیز šegeft-angīz` "astonishing" (lit. "wonder-arousing").
 
 #### Line 96
 
-- **انگیز** — *angīz* — arousing, stirring [bound morpheme]
-  - *Etym*: pres. stem of `انگیختن` *angīxtan* "to incite, arouse" — used as the second element of compound adjectives.
-  - *Family*: `انگیختن` *angīxtan* "to incite, arouse"; common compounds: `شگفت‌انگیز` "astonishing", `هیجان‌انگیز` "exciting", `دل‌انگیز` "delightful".
+- **انگیز** — _angīz_ — arousing, stirring [bound morpheme]
+  - _Etym_: pres. stem of `انگیختن` _angīxtan_ "to incite, arouse" — used as the second element of compound adjectives.
+  - _Family_: `انگیختن` _angīxtan_ "to incite, arouse"; common compounds: `شگفت‌انگیز` "astonishing", `هیجان‌انگیز` "exciting", `دل‌انگیز` "delightful".
 
 #### Line 97
 
-- **بانگ** — *bāng* — cry, shout, call
-  - *Forms*: collocation `بانگ برآوردن` "to cry out, raise a cry".
-- **برآوردن** — *barāvardan* — to lift up, raise
-- **مانند** — *mānand* — like, such as
+- **بانگ** — _bāng_ — cry, shout, call
+  - _Forms_: collocation `بانگ برآوردن` "to cry out, raise a cry".
+- **برآوردن** — _barāvardan_ — to lift up, raise
+- **مانند** — _mānand_ — like, such as
 
 #### Line 99
 
-- **قادر** — *qāder* — powerful, able
-  - *Etym*: from Arabic, active participle of *qadara* "to be able", root q-d-r.
-  - *Forms*: collocation `قادر مطلق` "the Almighty" (lit. "absolute Powerful").
-- **مطلق** — *moṭlaq* — absolute
-  - *Etym*: from Arabic, passive participle of *ʾaṭlaqa* "to set free, make absolute", root ṭ-l-q.
-- **بالا** — *bālā* — up, above, high
-  - *Etym*: native Persian; cognate with `والا` *vālā* "exalted".
+- **قادر** — _qāder_ — powerful, able
+  - _Etym_: from Arabic, active participle of _qadara_ "to be able", root q-d-r.
+  - _Forms_: collocation `قادر مطلق` "the Almighty" (lit. "absolute Powerful").
+- **مطلق** — _moṭlaq_ — absolute
+  - _Etym_: from Arabic, passive participle of _ʾaṭlaqa_ "to set free, make absolute", root ṭ-l-q.
+- **بالا** — _bālā_ — up, above, high
+  - _Etym_: native Persian; cognate with `والا` _vālā_ "exalted".
 
 #### Line 100
 
-- **قدرت** — *qodrat* — power
-  - *Etym*: from Arabic, root q-d-r "to be able, have power"; abstract-noun pattern *fuʿla*.
-- **رحمت** — *raḥmat* — mercy
-  - *Etym*: from Arabic, root r-ḥ-m "to be merciful"; cognate with Hebrew *raḥamim*.
+- **قدرت** — _qodrat_ — power
+  - _Etym_: from Arabic, root q-d-r "to be able, have power"; abstract-noun pattern _fuʿla_.
+- **رحمت** — _raḥmat_ — mercy
+  - _Etym_: from Arabic, root r-ḥ-m "to be merciful"; cognate with Hebrew _raḥamim_.
 
 #### Line 102
 
-- **مهربان** — *mehrabān* — kind
-  - *Etym*: `مهر` + `-بان` "guardian, keeper" (cf. `باغبان` "gardener") → "love-keeper".
-  - *Family*: `مهر` *mehr* "love, kindness"; `-بان` *-bān* "keeper" (productive suffix: `باغبان` "gardener", `دروازه‌بان` "gatekeeper").
-  - *Forms*: abstract noun *`مهربانی` mehrabānī* "kindness"; with copula it can also read "thou art kind".
-- **روا** — *ravā* — permissible, lawful
-  - *Etym*: native Persian, from `رفتن` "to go" — "what goes, is current".
-  - *Forms*: collocation `روا داشتن` "to allow, to suffer to happen".
+- **مهربان** — _mehrabān_ — kind
+  - _Etym_: `مهر` + `-بان` "guardian, keeper" (cf. `باغبان` "gardener") → "love-keeper".
+  - _Family_: `مهر` _mehr_ "love, kindness"; `-بان` _-bān_ "keeper" (productive suffix: `باغبان` "gardener", `دروازه‌بان` "gatekeeper").
+  - _Forms_: abstract noun _`مهربانی` mehrabānī_ "kindness"; with copula it can also read "thou art kind".
+- **روا** — _ravā_ — permissible, lawful
+  - _Etym_: native Persian, from `رفتن` "to go" — "what goes, is current".
+  - _Forms_: collocation `روا داشتن` "to allow, to suffer to happen".
 
 #### Line 103
 
-- **کسان** — *kesān* — persons
-  - *Etym*: `کس` *kes* "person, someone" + plural *`-ان` -ān*.
-  - *Forms*: with relative clause: *`کسانی` `که` kesānī ke* "those who".
+- **کسان** — _kesān_ — persons
+  - _Etym_: `کس` _kes_ "person, someone" + plural _`-ان` -ān_.
+  - _Forms_: with relative clause: _`کسانی` `که` kesānī ke_ "those who".
 
 ### Verse 15 (lines 105–110)
 
-
-
 #### Line 105
 
-- **شیوه** — *šīve* — manner, way, style
-  - *Forms*: collocation `به این شیوه` "in this manner".
+- **شیوه** — _šīve_ — manner, way, style
+  - _Forms_: collocation `به این شیوه` "in this manner".
 
 #### Line 106
 
-- **روان** — *ravān* — soul, spirit
-  - *Etym*: native Persian; literally "flowing" (← `روان` "flowing", from `رفتن`).
-  - *Forms*: with suffix *`روانش` ravān-aš* "his soul".
-- **شادمانی** — *šādmānī* — joy, gladness
-  - *Etym*: `شاد` *šād* + `-مان` *-mān* (adjectival) + `-ی` *-ī* (abstract).
-  - *Family*: `شاد` *šād* "happy"; `شادمان` *šādmān* "joyful, cheerful".
-  - *Forms*: collocation `شادمانی کردن` "to rejoice".
+- **روان** — _ravān_ — soul, spirit
+  - _Etym_: native Persian; literally "flowing" (← `روان` "flowing", from `رفتن`).
+  - _Forms_: with suffix _`روانش` ravān-aš_ "his soul".
+- **شادمانی** — _šādmānī_ — joy, gladness
+  - _Etym_: `شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ (abstract).
+  - _Family_: `شاد` _šād_ "happy"; `شادمان` _šādmān_ "joyful, cheerful".
+  - _Forms_: collocation `شادمانی کردن` "to rejoice".
 
 #### Line 108
 
-- **تمامی** — *tamāmī* — entirety, all of
-  - *Etym*: `تمام` (Arabic) + `-ی` (abstract).
-  - *Family*: `تمام` *tamām* "complete, all" (also used standalone, common in modern Persian).
+- **تمامی** — _tamāmī_ — entirety, all of
+  - _Etym_: `تمام` (Arabic) + `-ی` (abstract).
+  - _Family_: `تمام` _tamām_ "complete, all" (also used standalone, common in modern Persian).
 
 #### Line 109
 
-- **آنچه** — *ānče* — that which
-  - *Etym*: `آن` + `چه` → fused relative pronoun.
-  - *Family*: `آن` *ān* "that"; `چه` *če* "what?" (also "how!").
+- **آنچه** — _ānče_ — that which
+  - _Etym_: `آن` + `چه` → fused relative pronoun.
+  - _Family_: `آن` _ān_ "that"; `چه` _če_ "what?" (also "how!").
 
 #### Line 110
 
-- **نشان** — *nešān* — sign, mark
-  - *Forms*: collocation `نشان دادن` "to show".
+- **نشان** — _nešān_ — sign, mark
+  - _Forms_: collocation `نشان دادن` "to show".
 
 ### Verse 16 (lines 111–118)
 
-
-
 #### Line 111
 
-- **اینک** — *īnak* — now; behold
-  - *Etym*: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
-  - *Family*: `این` *īn* "this" (an entry in this chapter); cf. `اکنون` *aknūn* "now".
+- **اینک** — _īnak_ — now; behold
+  - _Etym_: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
+  - _Family_: `این` _īn_ "this" (an entry in this chapter); cf. `اکنون` _aknūn_ "now".
 
 #### Line 112
 
-- **کامل** — *kāmel* — complete, full
-  - *Etym*: from Arabic, active participle of *kamala* "to be complete", root k-m-l.
-  - *Forms*: with indef. *-ī*: *`کاملی` kāmel-ī* "a full [account]".
+- **کامل** — _kāmel_ — complete, full
+  - _Etym_: from Arabic, active participle of _kamala_ "to be complete", root k-m-l.
+  - _Forms_: with indef. _-ī_: _`کاملی` kāmel-ī_ "a full [account]".
 
 #### Line 113
 
-- **نمی** — *nemī-* — negative imperfective prefix
+- **نمی** — _nemī-_ — negative imperfective prefix
 
 #### Line 114
 
-- **خواب** — *xāb* — sleep, dream
-  - *Forms*: pl. *`خوابها` xābhā*.
+- **خواب** — _xāb_ — sleep, dream
+  - _Forms_: pl. _`خوابها` xābhā_.
 
 #### Line 116
 
-- **فرزند** — *farzand* — child, offspring
-  - *Forms*: pl. *`فرزندان` farzandān*; with suffix *`فرزندانش` farzandān-aš* "his children".
-- **سخن** — *soxan* — speech, word
-  - *Forms*: collocation `سخن گفتن` "to speak".
-- **نیز** — *nīz* — also, too
+- **فرزند** — _farzand_ — child, offspring
+  - _Forms_: pl. _`فرزندان` farzandān_; with suffix _`فرزندانش` farzandān-aš_ "his children".
+- **سخن** — _soxan_ — speech, word
+  - _Forms_: collocation `سخن گفتن` "to speak".
+- **نیز** — _nīz_ — also, too
 
 ### Verse 17 (lines 119–125)
 
-
-
 #### Line 119
 
-- **ولی** — *valī* — but, however
-  - *Etym*: from Arabic, originally "guardian, friend"; in Persian shifted to a contrastive conjunction.
-- **شرح** — *šarḥ* — description, account, exposition
-  - *Etym*: from Arabic, root š-r-ḥ "to expound, explain".
+- **ولی** — _valī_ — but, however
+  - _Etym_: from Arabic, originally "guardian, friend"; in Persian shifted to a contrastive conjunction.
+- **شرح** — _šarḥ_ — description, account, exposition
+  - _Etym_: from Arabic, root š-r-ḥ "to expound, explain".
 
 #### Line 120
 
-- **بنگریستن** — *benegerīstan* (pres. *benegar-*) — to look, behold
-  - *Family*: `نگریستن` *negerīstan* "to look, observe" (the bare verb); `نگاه` *negāh* "look, gaze".
-  - *Forms*: imperative `بنگرید benegarīd` "behold!".
-- **خلاصه** — *xolāṣe* — summary, abstract
-  - *Etym*: from Arabic, root x-l-ṣ "to be pure, free of admixture".
-  - *Forms*: collocation `خلاصه کردن` "to summarize".
+- **بنگریستن** — _benegerīstan_ (pres. _benegar-_) — to look, behold
+  - _Family_: `نگریستن` _negerīstan_ "to look, observe" (the bare verb); `نگاه` _negāh_ "look, gaze".
+  - _Forms_: imperative `بنگرید benegarīd` "behold!".
+- **خلاصه** — _xolāṣe_ — summary, abstract
+  - _Etym_: from Arabic, root x-l-ṣ "to be pure, free of admixture".
+  - _Forms_: collocation `خلاصه کردن` "to summarize".
 
 #### Line 121
 
-- **ورقه** — *varaqe* — leaf, page, plate
-  - *Etym*: from Arabic *waraqa* "leaf", root w-r-q.
-  - *Forms*: pl. *`ورقه‌ها` varaqe-hā*.
+- **ورقه** — _varaqe_ — leaf, page, plate
+  - _Etym_: from Arabic _waraqa_ "leaf", root w-r-q.
+  - _Forms_: pl. _`ورقه‌ها` varaqe-hā_.
 
 #### Line 122
 
-- **درست** — *dorost* — right, correct, true
-  - *Forms*: collocation `درست کردن` "to make, fashion".
+- **درست** — _dorost_ — right, correct, true
+  - _Forms_: collocation `درست کردن` "to make, fashion".
 
 #### Line 123
 
-- **پس** — *pas* — so, therefore; after
-  - *Family*: `سپس` *sepas* "then, afterwards"; `پسین` *pasīn* "later, last".
-  - *Forms*: collocation `پس از` "after".
+- **پس** — _pas_ — so, therefore; after
+  - _Family_: `سپس` _sepas_ "then, afterwards"; `پسین` _pasīn_ "later, last".
+  - _Forms_: collocation `پس از` "after".
 
 #### Line 124
 
-- **آنگاه** — *āngāh* — then, thereupon
+- **آنگاه** — _āngāh_ — then, thereupon
 
 ### Verse 18 (lines 126–133)
 
-
-
 #### Line 126
 
-- **شما** — *šomā* — you (pl. / formal)
+- **شما** — _šomā_ — you (pl. / formal)
 
 #### Line 132
 
-- **اعلام** — *eʿlām* — announcement, declaration
-  - *Etym*: from Arabic, verbal noun (form IV) of *ʿalima* "to know", root ʿ-l-m → "making [it] known".
-  - *Forms*: collocation `اعلام کردن` "to announce".
+- **اعلام** — _eʿlām_ — announcement, declaration
+  - _Etym_: from Arabic, verbal noun (form IV) of _ʿalima_ "to know", root ʿ-l-m → "making [it] known".
+  - _Forms_: collocation `اعلام کردن` "to announce".
 
 #### Line 133
 
-- **هم** — *ham* — also; both
-  - *Forms*: correlative `هم … هم …` "both … and …".
+- **هم** — _ham_ — also; both
+  - _Forms_: correlative `هم … هم …` "both … and …".
 
 ### Verse 19 (lines 134–142)
 
-
-
 #### Line 135
 
-- **گواهی** — *govāhī* — testimony
-  - *Etym*: `گواه` + `-ی` (abstract).
-  - *Family*: `گواه` *govāh* "witness".
-  - *Forms*: collocation `گواهی دادن` "to testify".
+- **گواهی** — _govāhī_ — testimony
+  - _Etym_: `گواه` + `-ی` (abstract).
+  - _Family_: `گواه` _govāh_ "witness".
+  - _Forms_: collocation `گواهی دادن` "to testify".
 
 #### Line 136
 
-- **مسخره** — *masxare* — mockery
-  - *Etym*: from Arabic *masxara*, root s-x-r "to scoff, deride".
-  - *Forms*: collocation `مسخره کردن` "to mock, ridicule".
-- **براستی** — *be-rāstī* — truly, in truth
-  - *Etym*: `به` + `راستی` (← `راست` + `-ی`).
-  - *Family*: `راست` *rāst* "right, true, straight"; `راستی` *rāstī* "truth, rightness".
+- **مسخره** — _masxare_ — mockery
+  - _Etym_: from Arabic _masxara_, root s-x-r "to scoff, deride".
+  - _Forms_: collocation `مسخره کردن` "to mock, ridicule".
+- **براستی** — _be-rāstī_ — truly, in truth
+  - _Etym_: `به` + `راستی` (← `راست` + `-ی`).
+  - _Family_: `راست` _rāst_ "right, true, straight"; `راستی` _rāstī_ "truth, rightness".
 
 #### Line 141
 
-- **بازخرید** — *bāzxarīd* — redemption, buying-back
-  - *Etym*: `باز` + `خرید` (past stem of `خریدن`).
-  - *Family*: `باز` *bāz* "back, again"; `خریدن` *xarīdan* "to buy"; `خرید` *xarīd* "purchase".
-  - *Forms*: collocation `بازخرید شدن` "to be redeemed".
+- **بازخرید** — _bāzxarīd_ — redemption, buying-back
+  - _Etym_: `باز` + `خرید` (past stem of `خریدن`).
+  - _Family_: `باز` _bāz_ "back, again"; `خریدن` _xarīdan_ "to buy"; `خرید` _xarīd_ "purchase".
+  - _Forms_: collocation `بازخرید شدن` "to be redeemed".
 
 #### Line 142
 
-- **جهان** — *jahān* — world
-- **سادگی** — *sādegī* — simplicity
-  - *Etym*: `ساده` + `-گی` (abstract suffix used after *-e*-final stems).
-  - *Family*: `ساده` *sāde* "simple, plain".
-  - *Forms*: collocation `به سادگی` "plainly, simply".
-- **پدیدار** — *padīdār* — apparent, manifest, visible
-  - *Etym*: `پدید` + `-ار` (intensifier suffix).
-  - *Family*: `پدید` *padīd* "evident, manifest"; `پدیده` *padīde* "phenomenon".
-  - *Forms*: collocation `پدیدار کردن` "to make manifest".
+- **جهان** — _jahān_ — world
+- **سادگی** — _sādegī_ — simplicity
+  - _Etym_: `ساده` + `-گی` (abstract suffix used after _-e_-final stems).
+  - _Family_: `ساده` _sāde_ "simple, plain".
+  - _Forms_: collocation `به سادگی` "plainly, simply".
+- **پدیدار** — _padīdār_ — apparent, manifest, visible
+  - _Etym_: `پدید` + `-ار` (intensifier suffix).
+  - _Family_: `پدید` _padīd_ "evident, manifest"; `پدیده` _padīde_ "phenomenon".
+  - _Forms_: collocation `پدیدار کردن` "to make manifest".
 
 ### Verse 20 (lines 143–155)
 
-
-
 #### Line 144
 
-- **خشم** — *xašm* — wrath, anger
-  - *Forms*: collocation `خشم گرفتن` "to become wrathful".
+- **خشم** — _xašm_ — wrath, anger
+  - _Forms_: collocation `خشم گرفتن` "to become wrathful".
 
 #### Line 145
 
-- **آنچنان** — *ānčonān* — in such a way
-  - *Etym*: `آن` *ān* "that" + `چنان` *čonān* "such, in that way".
-  - *Forms*: collocation `آنچنان که` "just as".
-- **پیشین** — *pīšīn* — former, previous
-  - *Etym*: `پیش` *pīš* "before" + `-ین` *-īn* (adjectival suffix).
+- **آنچنان** — _ānčonān_ — in such a way
+  - _Etym_: `آن` _ān_ "that" + `چنان` _čonān_ "such, in that way".
+  - _Forms_: collocation `آنچنان که` "just as".
+- **پیشین** — _pīšīn_ — former, previous
+  - _Etym_: `پیش` _pīš_ "before" + `-ین` _-īn_ (adjectival suffix).
 
 #### Line 147
 
-- **سنگسار** — *sangsār* — stoning
-  - *Etym*: `سنگ` + `-سار` (place-of / abundance suffix).
-  - *Family*: `سنگ` *sang* "stone"; `-سار` *-sār* (suffix; cf. `کوهسار` "mountainous land", `خرّمساران` "Bountiful" in this chapter).
-  - *Forms*: collocation `سنگسار کردن` "to stone".
+- **سنگسار** — _sangsār_ — stoning
+  - _Etym_: `سنگ` + `-سار` (place-of / abundance suffix).
+  - _Family_: `سنگ` _sang_ "stone"; `-سار` _-sār_ (suffix; cf. `کوهسار` "mountainous land", `خرّمساران` "Bountiful" in this chapter).
+  - _Forms_: collocation `سنگسار کردن` "to stone".
 
 #### Line 148
 
-- **کشتن** — *koštan* (pres. *koš-*) — to kill (pp. *کشته košte*)
+- **کشتن** — _koštan_ (pres. _koš-_) — to kill (pp. _کشته košte_)
 
 #### Line 149
 
-- **برآمدن** — *barāmadan* — to rise up, come forth
-- **توانستن** — *tavānestan* (pres. *tavān-*) — to be able (subj. *بتوانند betavānand*)
-- **جان** — *jān* — life, soul
-  - *Etym*: native Persian; from Avestan *jiyāti-* "life"; cognate with English *vital*, Latin *vita*.
-  - *Forms*: with suffix *`جانش` jān-aš* "his life".
+- **برآمدن** — _barāmadan_ — to rise up, come forth
+- **توانستن** — _tavānestan_ (pres. _tavān-_) — to be able (subj. _بتوانند betavānand_)
+- **جان** — _jān_ — life, soul
+  - _Etym_: native Persian; from Avestan _jiyāti-_ "life"; cognate with English _vital_, Latin _vita_.
+  - _Forms_: with suffix _`جانش` jān-aš_ "his life".
 
 #### Line 151
 
-- **مهرآمیز** — *mehr-āmīz* — loving, tender
-  - *Etym*: `مهر` + `آمیز` (pres. stem of `آمیختن`).
-  - *Family*: `مهر` *mehr* "love"; `آمیختن` *āmīxtan* "to mix, blend"; `آمیزه` *āmīze* "mixture" (also an entry in this chapter).
+- **مهرآمیز** — _mehr-āmīz_ — loving, tender
+  - _Etym_: `مهر` + `آمیز` (pres. stem of `آمیختن`).
+  - _Family_: `مهر` _mehr_ "love"; `آمیختن` _āmīxtan_ "to mix, blend"; `آمیزه` _āmīze_ "mixture" (also an entry in this chapter).
 
 #### Line 152
 
-- **سر** — *sar* — head
-  - *Forms*: collocation `بر سر` "upon the head of, over".
+- **سر** — _sar_ — head
+  - _Forms_: collocation `بر سر` "upon the head of, over".
 
 #### Line 153
 
-- **ایمان** — *īmān* — faith, belief
-  - *Etym*: from Arabic, root ʾ-m-n "to be safe, trust"; verbal noun (form IV) "to make faithful".
-  - *Forms*: with suffix *`ایمانشان` īmān-ešān* "their faith".
-- **برگزیدن** — *bargozīdan* (pres. *bargozīn-*) — to choose (pp. *برگزیده bargozīde*)
+- **ایمان** — _īmān_ — faith, belief
+  - _Etym_: from Arabic, root ʾ-m-n "to be safe, trust"; verbal noun (form IV) "to make faithful".
+  - _Forms_: with suffix _`ایمانشان` īmān-ešān_ "their faith".
+- **برگزیدن** — _bargozīdan_ (pres. _bargozīn-_) — to choose (pp. _برگزیده bargozīde_)
 
 #### Line 154
 
-- **رهایی** — *rahāyī* — deliverance, release
-  - *Etym*: `رها` + `-ی` (abstract).
-  - *Family*: `رها` *rahā* "free, released"; `رها کردن rahā kardan` "to release"; `رهانیدن` *rahānīdan* "to deliver".
-- **توانا** — *tavānā* — able, capable
-  - *Etym*: `توان` + `-ا` (adjectival suffix).
-  - *Family*: `توان` *tavān* "power, ability"; `توانستن` *tavānestan* "to be able"; `توانایی` *tavānāyī* "ability".
-  - *Forms*: collocation `توانا ساختن` "to enable".
+- **رهایی** — _rahāyī_ — deliverance, release
+  - _Etym_: `رها` + `-ی` (abstract).
+  - _Family_: `رها` _rahā_ "free, released"; `رها کردن rahā kardan` "to release"; `رهانیدن` _rahānīdan_ "to deliver".
+- **توانا** — _tavānā_ — able, capable
+  - _Etym_: `توان` + `-ا` (adjectival suffix).
+  - _Family_: `توان` _tavān_ "power, ability"; `توانستن` _tavānestan_ "to be able"; `توانایی` _tavānāyī_ "ability".
+  - _Forms_: collocation `توانا ساختن` "to enable".
 
 ### Function-word gloss (short list you'll see on every page)
 
-- **از** *az* — from/of/than
-- **با** *bā* — with
-- **بر** *bar* — on/upon
-- **به** *be* — to/into
-- **را** *-rā* — object marker
-- **که** *ke* — relative/complementizer
-- **و** *o* — and
-- **یا** *yā* — or
-- **این / آن** *īn / ān* — this / that
-- **من / تو / او / ما / شما / آنها** *man / to / ū / mā / šomā / ānhā* — I/thou/he/we/you-pl/they
-- **می-** *mī-* — imperfective prefix
-- **نمی-** *nemī-* — negative imperfective prefix
+- **از** _az_ — from/of/than
+- **با** _bā_ — with
+- **بر** _bar_ — on/upon
+- **به** _be_ — to/into
+- **را** _-rā_ — object marker
+- **که** _ke_ — relative/complementizer
+- **و** _o_ — and
+- **یا** _yā_ — or
+- **این / آن** _īn / ān_ — this / that
+- **من / تو / او / ما / شما / آنها** _man / to / ū / mā / šomā / ānhā_ — I/thou/he/we/you-pl/they
+- **می-** _mī-_ — imperfective prefix
+- **نمی-** _nemī-_ — negative imperfective prefix
 
 ---
 
@@ -1097,7 +1056,7 @@ Twelve points. Every example is taken verbatim from `01/normalized.txt` (line nu
 A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("thus") + past of `gozaštan` ("to pass"). Treat it as a fixed idiom; don't try to unpack "thus passed" mechanically.
 
 > Lines 41–43: `زیرا چنین گذشت در آغاز نخستین سال فرمانروایی صدقیا، پادشاه یهودا`
-> *zīrā čonīn gozašt dar āqāz-e noxostīn sāl-e farmān-ravāyī-ye Ṣedqiyā, pādšāh-e Yahūdā*
+> _zīrā čonīn gozašt dar āqāz-e noxostīn sāl-e farmān-ravāyī-ye Ṣedqiyā, pādšāh-e Yahūdā_
 > For it came to pass in the beginning of the first year of the reign of Zedekiah, king of Judah.
 
 ### 2. Passive voice with `شدن`
@@ -1105,17 +1064,17 @@ A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("t
 Persian forms the passive with `[past participle] + شدن` (conjugated). The agent, if named, is introduced with `از سوی` ("by the hand of") — there's a classic example in verse 7.
 
 > Line 23: `از سوی یهودیان آزار داده می‌شود`
-> *az sūy-e Yahūdiyān āzār dāde mī-šavad*
+> _az sūy-e Yahūdiyān āzār dāde mī-šavad_
 > He is persecuted by the Jews.
 
 Another (future passive): lines 91–93 `ساکنان آن نابود خواهند شد ... بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد` — the inhabitants will be destroyed, many will perish by the sword, and many will be carried captive to Babylon.
 
 ### 3. Future tense: `خواه- + short infinitive`
 
-Formed with the present of `خواستن` (*xāh-am, xāh-ī, xāh-ad, xāh-īm, xāh-īd, xāh-and*) plus the **short infinitive** (past stem; `نگاشتن → نگاشت`, `شدن → شد`, `بردن → برد`). Negation: `نخواهم نگاشت` etc. Note the short infinitive does **not** take endings — all person/number marking is on the auxiliary.
+Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm, xāh-īd, xāh-and_) plus the **short infinitive** (past stem; `نگاشتن → نگاشت`, `شدن → شد`, `بردن → برد`). Negation: `نخواهم نگاشت` etc. Note the short infinitive does **not** take endings — all person/number marking is on the auxiliary.
 
 > Lines 119–120: `ولی من شرح کارهایم در روزگارم را خواهم نگاشت.`
-> *valī man šarḥ-e kārhā-yam dar rūzgār-am-rā xāham negāšt.*
+> _valī man šarḥ-e kārhā-yam dar rūzgār-am-rā xāham negāšt._
 > But I will write an account of my works in my days.
 
 ### 4. Subjunctive after `تا`
@@ -1123,35 +1082,35 @@ Formed with the present of `خواستن` (*xāh-am, xāh-ī, xāh-ad, xāh-īm,
 `تا` + subjunctive marks purpose ("so that"). The subjunctive is formed with the present stem + personal endings, usually with the be- prefix (for simple verbs) or without (for compound verbs).
 
 > Line 84: `از او خواست تا آن را بخواند`
-> *az ū xāst tā ān-rā bexānad*
+> _az ū xāst tā ān-rā bexānad_
 > He asked him to read it ("so that he might read it").
 
 > Lines 153–155: `تا آنها را ... به قدرت رهایی توانا سازد`
-> *tā ānhā-rā … be qodrat-e rahāyī tavānā sāzad*
+> _tā ānhā-rā … be qodrat-e rahāyī tavānā sāzad_
 > that he may enable them … by the power of deliverance.
 
 ### 5. Ezafe chains
 
-The unstressed suffix *-e* (or *-ye* after vowels) links head noun to modifiers in sequence. Long chains stack as **head – modifier – modifier – modifier**. Written text usually leaves the ezafe unwritten except on words ending in silent `ه` (→ `ۀ`) or `ی` (→ `یِ`).
+The unstressed suffix _-e_ (or _-ye_ after vowels) links head noun to modifiers in sequence. Long chains stack as **head – modifier – modifier – modifier**. Written text usually leaves the ezafe unwritten except on words ending in silent `ه` (→ `ۀ`) or `ی` (→ `یِ`).
 
 > Lines 151–152: `رحمت‌های مهرآمیز سرور`
-> *raḥmat-hā-ye mehr-āmīz-e Sarvar*
+> _raḥmat-hā-ye mehr-āmīz-e Sarvar_
 > the tender mercies of the Lord.
 
 > Line 19: `ستونی از آتش`
-> *sotūn-ī az ātaš*
+> _sotūn-ī az ātaš_
 > a pillar of fire. [here `az` introduces the material, not ezafe — contrast with ezafe-linked modifiers]
 
 ### 6. Indefinite `-ī`
 
-The suffix *-ī* attached to a noun marks "a, a certain, one" (similar to English *a/an*). Don't confuse it with the *-ī* that makes adjectives abstract-nouns (`خوب` "good" → `خوبی` "goodness") — context usually disambiguates.
+The suffix _-ī_ attached to a noun marks "a, a certain, one" (similar to English _a/an_). Don't confuse it with the _-ī_ that makes adjectives abstract-nouns (`خوب` "good" → `خوبی` "goodness") — context usually disambiguates.
 
 > Line 83: `به او کتابی داد`
-> *be ū ketāb-ī dād*
+> _be ū ketāb-ī dād_
 > He gave him a book.
 
 > Lines 25–26: `از پدر و مادر خوبی زاده شده`
-> *az pedar o mādar-e xūb-ī zāde šode*
+> _az pedar o mādar-e xūb-ī zāde šode_
 > born of goodly parents. [here `خوبی` modifies the ezafe-chain `پدر و مادر` and carries the indef. *-ī*]
 
 ### 7. Direct-object marker `را`
@@ -1159,7 +1118,7 @@ The suffix *-ī* attached to a noun marks "a, a certain, one" (similar to Englis
 `را` clitic marks a **specific/definite** direct object. It attaches to the **end of the whole object phrase**, not to the head noun — so it often sits after relative clauses, adjectives, or even coordinated phrases.
 
 > Line 18: `نیفای نگاشتۀ مردمش را شروع می‌نماید`
-> *Nīfāy negāšte-ye mardom-aš-rā šorūʿ mī-namāyad*
+> _Nīfāy negāšte-ye mardom-aš-rā šorūʿ mī-namāyad_
 > Nephi begins the account of his people. [`-rā` marks the whole phrase `نگاشتۀ مردمش`]
 
 Also compare lines 37–38 `این نگاشته ای که می‌نگارم راست است` (no `را`, because it's a predicate) with lines 38–39 `من آن را با دست خودم می‌نگارم` (`را` marks the definite direct object `آن`).
@@ -1169,57 +1128,57 @@ Also compare lines 37–38 `این نگاشته ای که می‌نگارم را
 Persian builds most of its verbs as **noun/adjective + کردن / شدن / زدن / دادن / …**. The "meaning" lives in the non-verbal element; the light verb handles inflection. Examples from this chapter: `نبوّت کردن` (to prophesy), `ستایش کردن` (to praise), `توبه کردن` (to repent), `نیایش کردن` (to pray), `گواهی دادن` (to testify), `نشان دادن` (to show), `نابود شدن` (to be destroyed), `چیره شدن` (to be overcome), `پیش رفتن` (to go forth), `تکان خوردن` (to be shaken), `بانگ برآوردن` (to raise a cry).
 
 > Line 21: `آمدن مسیح را پیشگویی می‌کند`
-> *āmadan-e Masīḥ-rā pīšgūyī mī-konad*
+> _āmadan-e Masīḥ-rā pīšgūyī mī-konad_
 > He foretells the coming of Christ.
 
 ### 9. Possessive / pronominal suffixes
 
-Attached directly to nouns: *-am* (my), *-at* (thy), *-aš* (his/her/its), *-mān* (our), *-tān* (your), *-šān* (their). Persian usually prefers these clitics to the full-pronoun + ezafe construction (`کتاب من` "my book" → `کتابم`).
+Attached directly to nouns: _-am_ (my), _-at_ (thy), _-aš_ (his/her/its), _-mān_ (our), _-tān_ (your), _-šān_ (their). Persian usually prefers these clitics to the full-pronoun + ezafe construction (`کتاب من` "my book" → `کتابم`).
 
 > Lines 25–26: `من، نیفای، از پدر و مادر خوبی زاده شده`
-> *man, Nīfāy, az pedar o mādar-e xūb-ī zāde šode*
+> _man, Nīfāy, az pedar o mādar-e xūb-ī zāde šode_
 
 > Lines 32–33: `نگاشته ای از کارهایم در روزگارم را می‌نگارم`
-> *negāšte-ī az kārhā-yam dar rūzgār-am-rā mī-negāram*
+> _negāšte-ī az kārhā-yam dar rūzgār-am-rā mī-negāram_
 > I write an account of my works in my days. [`-am` on `kārhā` and on `rūzgār`; `-rā` marks the whole phrase as direct object of `می‌نگارم`]
 
-Watch especially for *-aš* in third-person narrative: *پدرش pedar-aš*, *روزگارش rūzgār-aš*, *جانش jān-aš*, *دلش del-aš*, *روانش ravān-aš*, *مردمش mardom-aš*.
+Watch especially for _-aš_ in third-person narrative: _پدرش pedar-aš_, _روزگارش rūzgār-aš_, _جانش jān-aš_, _دلش del-aš_, _روانش ravān-aš_, _مردمش mardom-aš_.
 
 ### 10. Archaic / biblical register
 
 The translation deliberately uses a high-register Persian that mirrors the KJV-style English of the original. Things to recognize:
 
-- `گفتا` (*goftā*) — archaic narrative past of `گفتن`, roughly "said he" (the `-ā` is a narrative ending in classical Persian).
-- `آری` (*ārī*) — "yea, indeed," peppered throughout; literary equivalent of `بله`.
-- `بنگرید` (*benegarīd*) — "behold!" (2pl imperative of `نگریستن`).
-- `سرور` (*Sarvar*) — the translator's word for "the Lord"; in ordinary Persian it means "master, chief." Vocative `سرورا` (line 98, "O Lord!") uses the classical `-ā` vocative.
+- `گفتا` (_goftā_) — archaic narrative past of `گفتن`, roughly "said he" (the `-ā` is a narrative ending in classical Persian).
+- `آری` (_ārī_) — "yea, indeed," peppered throughout; literary equivalent of `بله`.
+- `بنگرید` (_benegarīd_) — "behold!" (2pl imperative of `نگریستن`).
+- `سرور` (_Sarvar_) — the translator's word for "the Lord"; in ordinary Persian it means "master, chief." Vocative `سرورا` (line 98, "O Lord!") uses the classical `-ā` vocative.
 - Bookish verbs chosen over everyday equivalents: `نگاشتن` for `نوشتن` (write), `نیایش کردن` for `دعا کردن` (pray), `بانگ برآوردن` for `فریاد زدن` (cry out), `نمودن` for `کردن`/`نشان دادن`.
 
 > Line 87: `او خواند، گفتا: وای، وای بر اورشلیم`
-> *ū xānd, goftā: vāy, vāy bar Uršalīm*
+> _ū xānd, goftā: vāy, vāy bar Uršalīm_
 > And he read, saying: Woe, woe unto Jerusalem.
 
 ### 11. Relative clauses with `که`
 
-`که` introduces both complement clauses ("that he …") and relative clauses ("who, which, that"). For relatives the head noun usually carries indefinite *-ī*, i.e. `X-ī ke …` = "an X which …". The verb inside the relative clause is in whatever tense fits the sense.
+`که` introduces both complement clauses ("that he …") and relative clauses ("who, which, that"). For relatives the head noun usually carries indefinite _-ī_, i.e. `X-ī ke …` = "an X which …". The verb inside the relative clause is in whatever tense fits the sense.
 
 > Line 58: `به سبب چیزهایی که دید و شنید`
-> *be sabab-e čīzhā-yī ke dīd o šenīd*
+> _be sabab-e čīzhā-yī ke dīd o šenīd_
 > because of the things which he had seen and heard.
 
 Note how `چیز + ها + ی + ی` stacks: plural `-hā` + ezafe `-ye` (invisible in writing) + indefinite `-ī` → `čīzhā-yī`, then `که` introduces the relative.
 
 ### 12. Imperfective `می-` and its negation `نمی-`
 
-The prefix *mī-* marks non-perfective aspect — present-tense, habitual, or past-progressive readings depending on the stem:
+The prefix _mī-_ marks non-perfective aspect — present-tense, habitual, or past-progressive readings depending on the stem:
 
-- Present stem + *mī-* + endings → present (`می‌نگارم` = "I write / I am writing").
-- Past stem + *mī-* + endings → past habitual/continuous (`می‌کرد` = "he used to do / was doing").
+- Present stem + _mī-_ + endings → present (`می‌نگارم` = "I write / I am writing").
+- Past stem + _mī-_ + endings → past habitual/continuous (`می‌کرد` = "he used to do / was doing").
 
-Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he was not doing"). Watch out: in compound verbs the *mī-* attaches only to the auxiliary: `نبوّت می‌کند`, `گواهی می‌داد`.
+Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he was not doing"). Watch out: in compound verbs the _mī-_ attaches only to the auxiliary: `نبوّت می‌کند`, `گواهی می‌داد`.
 
 > Lines 111–113: `و اینک من، نیفای، سرگذشت کاملی از چیزهایی که پدرم نوشته است نمی‌نگارم`
-> *va īnak man, Nīfāy, sargozašt-e kāmel-ī az čīzhā-yī ke pedar-am nevešte ast nemī-negāram*
+> _va īnak man, Nīfāy, sargozašt-e kāmel-ī az čīzhā-yī ke pedar-am nevešte ast nemī-negāram_
 > And now I, Nephi, do not write a full account of the things which my father has written.
 
 ---

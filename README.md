@@ -145,6 +145,27 @@ Long vowels always get macrons; short vowels never do. Write clitics with a hyph
 
   Inside `*Forms*`, cite **verbatim Persian from `NN/normalized.txt` plus a line number** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", line N; past *…*; pp. *…*.`
 
+- **Irregular reading warnings (⚠️)**: flag Arabic loanwords whose Persian spelling would mislead a learner into a wrong pronunciation. Place the ⚠️ sub-bullet **first** under the headword, before any `*Etym*` line — and only on the sub-bullet, never on the headword line itself:
+
+  ```markdown
+  - **حتّی** — *ḥattā* — even
+    - ⚠️ _Alif maqṣūra_: the final `ی` represents Arabic _alif maqṣūra_ (`الألف المقصورة`) — a long -ā vowel written `ى` at the end of certain Arabic words. Learners may accidentally read it as _\*ḥattī_.
+    - *Etym*: from Arabic *ḥattā*, originally a preposition "until, up to".
+  ```
+
+  Rules:
+  - One ⚠️ only — on the sub-bullet. No ⚠️ on the headword line.
+  - The italic label names the specific phenomenon. Keep the explanation to one sentence; end with `Learners may accidentally read it as _\*wrongform_.` (the `\*` is the standard linguistic convention for an incorrect form; it renders as a literal asterisk in HTML).
+  - Persian in backticks; transcriptions in italic underscores.
+  - In HTML, render.py assigns these bullets `.vocab-meta-other` (the ⚠️ precedes any italic label, so the label-detection regex does not match).
+
+  Common categories:
+
+  | Label | When to use |
+  |---|---|
+  | `_Alif maqṣūra_` | Arabic final ى — written ی in Persian — is read -ā, not -ī (e.g. `حتّی` *ḥattā* "even"). |
+  | `_Diphthong -ay- written as ی_` | Arabic *-ay-* diphthong where learners expect Persian long *-ī-* (e.g. `علیه` *ʿalayhi* "against"). |
+
 ### Grammar section
 
 10–12 tricky grammar points per chapter. For each point:
