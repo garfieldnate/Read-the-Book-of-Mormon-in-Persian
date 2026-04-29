@@ -238,7 +238,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 `برادران نیفای علیه او شورش می کنند.`
 
 - **علیه** — _ʿalayhi_ — against
-  - ⚠️ _Diphthong -ay- written as `ی_`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
+  - ⚠️ _Diphthong -ay- written as_ `ی`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
   - _Etym_: from Arabic, originally a prepositional phrase _ʿalay-hi_ "upon him".
 - **شورش** — _šūreš_ — rebellion, uprising
   - _Etym_: `شور` + `-ش` (deverbal nominalizer).

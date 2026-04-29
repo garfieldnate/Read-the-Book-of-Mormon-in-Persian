@@ -43,11 +43,28 @@ from pathlib import Path
 
 # ---------- inline formatting ----------
 
+_ESCAPABLE = "*_`\\"
+
+
 def _inline(text: str) -> str:
-    """Apply markdown inline formatting (**bold**, *italic*, `code`)."""
+    """Apply markdown inline formatting (**bold**, *italic*, `code`).
+
+    Honours CommonMark-style backslash escapes for the formatting specials
+    (`\\*`, `\\_`, `` \\` ``, `\\\\`) — the escaped char is converted to its
+    numeric HTML entity *before* the formatting regexes run, so it can't be
+    consumed as the start/end of an emphasis run. The browser still
+    displays the entity as the literal character.
+    """
     # Escape HTML-special chars first, except we want to preserve backticks
     # and asterisks as-is for the next step.
     text = html_lib.escape(text, quote=False)
+    # Backslash-escaped markdown specials → numeric entity, so the
+    # subsequent regex passes don't treat them as emphasis delimiters.
+    text = re.sub(
+        r"\\([" + re.escape(_ESCAPABLE) + r"])",
+        lambda m: f"&#{ord(m.group(1))};",
+        text,
+    )
     # Backtick code — process first so content inside backticks isn't
     # mis-treated as italic.
     text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
