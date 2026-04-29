@@ -306,6 +306,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 - **فصل** — _faṣl_ — chapter, section; season
   - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
+- **۱** — _yek_ — Persian numeral 1 (`یک`)
+  - _Forms_: Persian uses Indo-Persian digits `۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`. Each digit's pronunciation is introduced where it first appears in the chapter; the cardinals 10, 11, … 20 are unique words (not "one-zero", "one-one") — those are introduced at the verse where each first appears.
 - **نمودن** — _nemūdan_ (pres. _namāy-_) — to do; to show; to appear [literary alternative to کردن]
   - _Forms_: 3sg pres. _`می` `نماید` mī-namāyad_, as in `شروع می نماید` "begins", line 18; past _`نمود` namūd_, as in `شروع نمود` "began", line 131.
 - **رؤیا** — _roʾyā_ — vision
@@ -333,6 +335,9 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: native Persian; related to `آزردن` _āzordan_ "to grieve, hurt".
   - _Forms_: collocation `آزار دادن` "to persecute, to torment".
 - **نزدیک** — _nazdīk_ — near
+- **۶** — _šeš_ — Persian numeral 6 (`شش`)
+- **۶۰۰** — _šešṣad_ — Persian numeral 600 (`ششصد`)
+  - _Etym_: `شش` _šeš_ "six" + `صد` _ṣad_ "hundred".
 - **پیش** — _pīš_ — before, ahead, forward
   - _Forms_: collocation `پیش رفتن` "to go forth".
 - **میلاد** — _mīlād_ — birth (specifically the birth of Christ in dating contexts)
@@ -398,6 +403,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۲ آری، من نگاشته ای به زبان پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان مصریان است.`
 
+- **۲** — _do_ — Persian numeral 2 (`دو`)
 - **زبان** — _zabān_ — tongue, language
 - **پدری** — _pedar-ī_ — paternal
   - _Etym_: `پدر` + `-ی` (relational adjective suffix).
@@ -412,6 +418,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست خودم می نگارم؛ و من آن را بر پایۀ دانش خود می نگارم.`
 
+- **۳** — _se_ — Persian numeral 3 (`سه`)
 - **دانستن** — _dānestan_ (pres. _dān-_) — to know
   - _Forms_: 1sg pres. _`می` `دانم` mī-dānam_, as in `من می دانم` "I know", line 37; subj. 2pl _`بدانید` bedānīd_ "[that] you may know", line 126 — note `بـ-` for the subjunctive.
 - **راست** — _rāst_ — right, true
@@ -424,6 +431,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۴ زیرا چنین گذشت در آغاز نخستین سال فرمانروایی صدقیا، پادشاه یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر عظیم اورشلیم نابود می شود.`
 
+- **۴** — _čahār_ — Persian numeral 4 (`چهار`)
 - **زیرا** — _zīrā_ — because, for
   - _Etym_: native Persian; from earlier _zī rā_ "for the sake of which".
 - **چنین** — _čonīn_ — such, thus
@@ -461,6 +469,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۵ از این رو چنین گذشت که پدرم، لیحای، همچنان که پیش می رفت به سرور نیایش می کرد، آری، حتّی با همۀ دلش، برای مردمش.`
 
+- **۵** — _panj_ — Persian numeral 5 (`پنج`)
 - **رو** — _rū_ — face, side
   - _Forms_: collocation `از این رو` "for this reason, therefore".
 - **همچنان** — _hamčonān_ — just as, while; likewise
@@ -501,6 +510,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
 
+- **۷** — _haft_ — Persian numeral 7 (`هفت`)
 - **خانه** — _xāne_ — house
   - _Forms_: ezafe _`خانۀ` xāne-ye_.
 - **چیره** — _čīre_ — dominated, overcome
@@ -519,6 +529,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۸ و بدین گونه چیره شده با روح مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال سرود خواندن و ستایش خدایشان.`
 
+- **۸** — _hašt_ — Persian numeral 8 (`هشت`)
 - **بدین** — _bedīn_ — in/by this
   - _Etym_: contraction of `به` _be_ "to, by" + `این` _īn_ "this".
   - _Forms_: collocation `بدین گونه` "in this manner".
@@ -556,6 +567,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۹ و چنین گذشت که او یکی را دید از میان آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید نیمروز بود.`
 
+- **۹** — _noh_ — Persian numeral 9 (`نه`)
 - **یکی** — _yek-ī_ — one (of)
   - _Etym_: `یک` _yek_ "one" + indefinite _-ī_ → "one [of them]".
 - **میان** — _mīyān_ — among; middle
@@ -576,6 +588,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۰ و او همچنین دید دوازده تای دیگر به دنبال او می آمدند و درخشش آنها از تابش ستارگان در گنبد آسمان فراتر بود.`
 
+- **۱۰** — _dah_ — Persian numeral 10 (`ده` — a single word, not "one-zero")
 - **همچنین** — _hamčonīn_ — also, likewise
   - _Etym_: `هم` _ham_ "same" + `چنین` _čonīn_ "such" → "in the same such [way]".
 - **دوازده** — _davāzdah_ — twelve
@@ -597,6 +610,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
 
+- **۱۱** — _yāzdah_ — Persian numeral 11 (`یازده`)
 - **پایین** — _pāyīn_ — down, below
 - **روی** — _rū-ye_ — on, upon
   - _Forms_: collocation `بر روی زمین` "upon the earth".
@@ -609,6 +623,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح سرور گشت.`
 
+- **۱۲** — _davāzdah_ — Persian numeral 12 (`دوازده`)
 - **آکنده** — _ākande_ — filled, full
   - _Forms_: collocation `آکنده شدن` "to be filled".
 
@@ -616,6 +631,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
 
+- **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
 - **وای** — _vāy_ — woe! alas!
   - _Forms_: collocation `وای بر` "woe unto".
@@ -634,6 +650,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر مطلق! تخت تو بالا در آسمانهاست و قدرت و نیکی و رحمت تو بر همۀ ساکنان زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی تو می آیند هلاک شوند!`
 
+- **۱۴** — _čahārdah_ — Persian numeral 14 (`چهارده`)
 - **هنگام** — _hengām_ — time, occasion
   - _Family_: `هنگامه` _hengāme_ "uproar, scene"; `به` `هنگام` _be hengām_ "in due time".
   - _Forms_: _`هنگامی` `که` hengām-ī ke_ "when, at the time that".
@@ -673,6 +690,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۵ و به این شیوه بود زبان پدرم در ستایش خدایش؛ زیرا روانش شادمانی می کرد و تمامی دلش، به سبب چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
 
+- **۱۵** — _pānzdah_ — Persian numeral 15 (`پانزده`)
 - **شیوه** — _šīve_ — manner, way, style
   - _Forms_: collocation `به این شیوه` "in this manner".
 - **روان** — _ravān_ — soul, spirit
@@ -695,6 +713,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۶ و اینک من، نیفای، سرگذشت کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت کاملی نخواهم نگاشت.`
 
+- **۱۶** — _šānzdah_ — Persian numeral 16 (`شانزده`)
 - **اینک** — _īnak_ — now; behold
   - _Etym_: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
   - _Family_: `این` _īn_ "this" (an entry in this chapter); cf. `اکنون` _aknūn_ "now".
@@ -714,6 +733,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۷ ولی من شرح کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت زندگی خودم را خواهم نگاشت.`
 
+- **۱۷** — _hefdah_ — Persian numeral 17 (`هفده`)
 - **ولی** — _valī_ — but, however
   - _Etym_: from Arabic, originally "guardian, friend"; in Persian shifted to a contrastive conjunction.
 - **شرح** — _šarḥ_ — description, account, exposition
@@ -738,6 +758,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد نابودی اورشلیم، بنگرید او به میان مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
 
+- **۱۸** — _hejdah_ — Persian numeral 18 (`هجده`)
 - **شما** — _šomā_ — you (pl. / formal)
 - **اعلام** — _eʿlām_ — announcement, declaration
   - _Etym_: from Arabic, verbal noun (form IV) of _ʿalima_ "to know", root ʿ-l-m → "making [it] known".
@@ -749,6 +770,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۹ و چنین گذشت که یهودیان او را به سبب چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن یک مسیح و همچنین بازخرید شدن جهان را به سادگی پدیدار می کرد.`
 
+- **۱۹** — _nūzdah_ — Persian numeral 19 (`نوزده`)
 - **گواهی** — _govāhī_ — testimony
   - _Etym_: `گواه` + `-ی` (abstract).
   - _Family_: `گواه` _govāh_ "witness".
@@ -777,6 +799,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز سرور بر سر همۀ کسانی است که او به سبب ایمانشان برگزیده است، تا آنها را به قدرت رهایی توانا سازد.`
 
+- **۲۰** — _bist_ — Persian numeral 20 (`بیست` — a separate word, not "two-zero")
 - **خشم** — _xašm_ — wrath, anger
   - _Forms_: collocation `خشم گرفتن` "to become wrathful".
 - **آنچنان** — _ānčonān_ — in such a way

@@ -149,6 +149,21 @@ Two further conventions:
 - **Lemmatize**: one entry per lemma (infinitive for verbs, singular citation form for nouns). Do **not** re-list a later inflected form (e.g. a new past-tense) as a fresh entry — forms are handled by the present-stem / past-participle notes on the original entry.
 - **Scope**: every distinct lemma in the chapter, including function words.
 - **Proper nouns**: mix inline where they first appear, tagged with `[proper]`.
+- **Persian numerals** (`۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹`): give every numeral that appears in the chapter its own vocab entry, in order of first appearance, with the digit form as the **headword**, the cardinal pronunciation as the transliteration, and the spelled-out Persian word in backticks. Format:
+
+  ```
+  **۲** — *do* — Persian numeral 2 (`دو`)
+  **۱۲** — *davāzdah* — Persian numeral 12 (`دوازده`)
+  **۶۰۰** — *šešṣad* — Persian numeral 600 (`ششصد`)
+    - *Etym*: `شش` *šeš* "six" + `صد` *ṣad* "hundred".
+  ```
+
+  Every numeral gets its spelled-out form in `(backticks)` after the gloss — that's how the reader practices reading the digit. Do **not** cross-reference cardinal-word entries that happen to be elsewhere in the vocabulary (e.g. don't write "digit form of `سه`, an entry in the book summary"); the spelled form in the parenthetical is enough on its own. Conventions:
+  - Single digits get the bare cardinal pronunciation; no `*Etym*` (native Persian).
+  - **Teens 10–19 are unique words**, not "one-zero", "one-one", etc. — flag this on `۱۰` (e.g. ``Persian numeral 10 (`ده` — a single word, not "one-zero")``).
+  - **Multiples of ten** likewise have unique forms — flag on `۲۰` (``Persian numeral 20 (`بیست` — a separate word, not "two-zero")``).
+  - **Hundreds and beyond** are compound — give the morpheme breakdown in `*Etym*` (e.g. for `۶۰۰`, `\`شش\` + \`صد\` "hundred"`).
+  - Verse numbers count as appearances, so each verse opens its vocab list with its own number's entry (the digit at the start of the inline source text).
 - **Entry format**:
 
   ```
