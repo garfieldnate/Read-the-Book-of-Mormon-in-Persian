@@ -1,0 +1,4 @@
+.claude/
+__pycache__/
+*.pdf
+study_guide.html
