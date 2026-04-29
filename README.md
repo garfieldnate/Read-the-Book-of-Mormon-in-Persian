@@ -1,28 +1,41 @@
 # Persian Book of Mormon Study Guides
 
-A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in its own numbered directory (`01/`, `02/`, …) with a raw source, a cleaned source, and a markdown study guide.
+A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in a per-book directory (`01_nephi/`, `02_nephi/`, …) with a raw source, a cleaned source, and one or more markdown study guides — `chN.md` per chapter of the book.
 
 ```
 .
-├── README.md             # this file — conventions and workflow
-├── normalize.py          # PDF-corruption normalizer
-├── corruptions.json      # editable {corrupt: correct} word-pair lookup table
-├── render.py             # Markdown → semantic HTML converter
-├── styles.css            # shared stylesheet for all chapters' HTML
-└── NN/                   # one directory per chapter (01, 02, …)
-    ├── source.txt        # raw text pasted/extracted from the PDF
-    ├── normalized.txt    # output of normalize.py
-    ├── study_guide.md    # authored study guide (source of truth)
-    └── study_guide.html  # rendered output; links to ../styles.css
+├── README.md                 # this file — conventions and workflow
+├── normalize.py              # PDF-corruption normalizer
+├── corruptions.json          # editable {corrupt: correct} word-pair lookup table
+├── render.py                 # Markdown → semantic HTML converter
+├── build_site.py             # walks every NN_*/chN.md and builds _site/
+├── styles.css                # shared stylesheet for all chapters' HTML
+├── .github/workflows/
+│   └── pages.yml             # CI: runs build_site.py and deploys to GitHub Pages
+└── NN_book/                  # one directory per book (01_nephi, 02_nephi, 03_jacob, …)
+    ├── source.txt            # raw text pasted/extracted from the PDF
+    ├── normalized.txt        # output of normalize.py
+    ├── ch1.md                # study guide for chapter 1 (source of truth)
+    ├── ch2.md                # study guide for chapter 2 (etc.)
+    └── …
+```
+
+The directory prefix is the **book index** (01–15 in publication order: 1 Nephi, 2 Nephi, Jacob, Enos, …); the slug after the underscore is the book's English name (lowercased, words separated with `_`). The first H1 of each `chN.md` is the canonical display title (e.g. `# 1 Nephi 1 — Persian Study Guide`); `build_site.py` reads it for the index page.
+
+Rendered HTML is **not committed**. `build_site.py` produces `_site/` containing one HTML page per chapter plus `index.html` and `styles.css`; GitHub Actions runs the build on every push to `main`/`master` and publishes `_site/` to GitHub Pages. To preview locally:
+
+```bash
+python3 build_site.py
+open _site/index.html        # or: python3 -m http.server -d _site
 ```
 
 ## Per-chapter workflow
 
-1. Extract the chapter's text from the PDF and save as `NN/source.txt`.
-2. Run `python3 normalize.py NN/source.txt NN/normalized.txt`. Review the replacement summary printed to stderr.
-3. Skim `NN/normalized.txt`. If any words still look wrong, determine the intended form, add the pair to `corruptions.json`, and re-run. (See "Source text corruption" below.)
-4. Produce `NN/study_guide.md` from the normalized text following the conventions in "Study guide conventions."
-5. Run `python3 render.py NN/study_guide.md NN/study_guide.html` to produce the HTML rendering. Open in a browser (or print to PDF) for a formatted reading copy.
+1. Extract the chapter's text from the PDF and save as `NN_book/source.txt` (one source file per book; later chapters append to it as you transcribe them).
+2. Run `python3 normalize.py NN_book/source.txt NN_book/normalized.txt`. Review the replacement summary printed to stderr.
+3. Skim `NN_book/normalized.txt`. If any words still look wrong, determine the intended form, add the pair to `corruptions.json`, and re-run. (See "Source text corruption" below.)
+4. Produce `NN_book/chN.md` from the normalized text following the conventions in "Study guide conventions."
+5. Run `python3 build_site.py` to render every chapter into `_site/`. Open `_site/index.html` in a browser to read the formatted output. (For a single-file render outside the site: `python3 render.py NN_book/chN.md /tmp/preview.html`.)
 
 ## Source text corruption
 
@@ -64,13 +77,16 @@ Each `NN/study_guide.md` has three top-level sections in this order: **Intro**, 
 |---|---|
 | Long vowels | `ā ī ū` |
 | Short vowels | `a e o` |
+| Diphthongs | `ow` `ay` `ey` |
 | ش | `š` |
 | ژ | `ž` |
 | خ | `x` |
-| ع | `ʿ` |
-| ء / hamza | `ʾ` |
 | چ | `č` |
 | ج | `j` |
+| ع | `ʿ` |
+| ء / hamza | `ʾ` |
+| ق | `q` |
+| Arabic emphatics | `ṣ ẓ ḥ ṭ` (see below) |
 | Ezafe | `-e` after consonant, `-ye` after vowel |
 | Object marker | `-rā` |
 | Indefinite | `-ī` |
@@ -78,12 +94,33 @@ Each `NN/study_guide.md` has three top-level sections in this order: **Intro**, 
 
 Long vowels always get macrons; short vowels never do. Write clitics with a hyphen. Capitalize proper nouns.
 
+**Dotted-below consonants** (`ṣ ẓ ḥ ṭ`) are how academic transliteration spells the Arabic emphatic letters borrowed into Persian. The dot preserves the spelling distinction (so you can recognize that the word is an Arabic loan written with the dotted letter), but in modern Persian pronunciation each one collapses onto its non-emphatic counterpart:
+
+- `ṣ` (ص) is pronounced like `s` (س) — e.g. *ṣaxre* "rock", *Ṣedqiyā* "Zedekiah".
+- `ẓ` (ظ; also ض) is pronounced like `z` (ز) — e.g. *ʿaẓīm* "great".
+- `ḥ` (ح) is pronounced like `h` (ه) — e.g. *ḥattā* "even", *rūḥ* "spirit".
+- `ṭ` (ط) is pronounced like `t` (ت) — e.g. *loṭf* "grace", *moṭlaq* "absolute".
+
+Two further conventions:
+
+- `q` (ق) is uvular in classical/Arabic. Iranian Persian usually merges it with غ as a voiced uvular [ɢ] / [ɣ]; transliteration keeps the `q` spelling regardless. E.g. *qodrat* "power", *qāder* "able".
+- `ʿ` (ع, *ʿayn*) is an Arabic pharyngeal in the source. In Persian it usually surfaces as a glottal stop / syllable break, often silent. E.g. *ʿaẓīm*, *šorūʿ*.
+
+**Diphthongs** — all *falling* (vowel + glide), never rising:
+
+- `ow` — `o` followed by a final `w`-glide. Closest English match: "mow", "row", "stowed". So `مورد` *mowred* "case" rhymes with English "stowed", **not** with "mouth"; cf. *mowʿūd* "promised", *towbe* "repentance", *partow* "ray", *dowre* "period".
+- `ay` — `a` followed by a final `y`-glide. Closest English match: "eye", "high". E.g. `علیه` *ʿalayhi* "against".
+- `ey` — `e` followed by a final `y`-glide. Closest English match: "say", "hey". E.g. `پی` *pey* "track".
+
 ### Vocabulary section
 
-- **Order of first appearance, grouped by verse, sub-grouped by source line**. A word appears once, in the verse where the reader first encounters it. Use:
-  - `### Verse N (lines X–Y)` (h3) — one per verse / per heading section. Renders with a prominent solid top rule.
-  - `#### Line N` (h4) — within each section, sub-divide into per-source-line groups. Renders as a small uppercase chip with a dashed rule above. Skip lines that introduce no new lemmas (don't emit an empty `Line 22` block — go straight from `Line 21` to `Line 23`).
-  - Source line numbers refer to `NN/normalized.txt`. Skip page-header artifact lines (`۱یافین …`).
+- **Each section opens with the source text, immediately followed by the vocab for that section.** The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
+  - **Book summary** — line-by-line. Use a `#### Line N` (h4) heading for each source line, immediately followed by that one line of Persian wrapped in backticks, then the vocab introduced on that line. This is the only section that keeps per-source-line subdivisions, because the book summary previews vocab the reader won't meet again for many chapters and the line anchor helps with cross-reference.
+  - **Chapter summary** — `### Chapter summary (lines X–Y)` (h3) followed by the entire summary text on a single line wrapped in backticks (no internal line breaks), then a single flat vocab list for the whole summary.
+  - **Each verse** — `### Verse N (lines X–Y)` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse. **Do not** sub-divide a verse with `#### Line N` headings; the source-line anchors live inside `*Forms*` citations on individual entries instead.
+  - Source line numbers refer to `NN_book/normalized.txt`. Skip page-header artifact lines (e.g. `۱یافین …`) when transcribing the text inline; cite the surrounding line numbers in the `(lines X–Y)` heading.
+  - When the source PDF's column flow split a token across lines (e.g. `حت` + `ّی` = `حتّی`), reassemble it in the inline text — the displayed Persian should read continuously.
+- **Order of first appearance**. A word appears once, in the verse where the reader first encounters it.
 - **Lemmatize**: one entry per lemma (infinitive for verbs, singular citation form for nouns). Do **not** re-list a later inflected form (e.g. a new past-tense) as a fresh entry — forms are handled by the present-stem / past-participle notes on the original entry.
 - **Scope**: every distinct lemma in the chapter, including function words.
 - **Proper nouns**: mix inline where they first appear, tagged with `[proper]`.
@@ -143,7 +180,7 @@ Long vowels always get macrons; short vowels never do. Write clitics with a hyph
   2. **Common collocations or related compound forms** of any lemma — what would have been an inline parenthetical (e.g., on `دنبال`, the pair `به دنبال` / `بدنبال`; on `خشم`, the verb `خشم گرفتن`). Move these to `*Forms*:` instead of the headline.
   3. **Regular verbs** whose past stem matches the infinitive transparently (`زادن` → `زاد`/`زاده`, `شنیدن` → `شنید`/`شنیده`, etc.) — *do not* add `*Forms*`. The bare `(pres. *stem-*)` annotation in the headline is enough.
 
-  Inside `*Forms*`, cite **verbatim Persian from `NN/normalized.txt` plus a line number** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", line N; past *…*; pp. *…*.`
+  Inside `*Forms*`, cite **verbatim Persian from `NN_book/normalized.txt` plus a line number** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", line N; past *…*; pp. *…*.`
 
 - **Irregular reading warnings (⚠️)**: flag Arabic loanwords whose Persian spelling would mislead a learner into a wrong pronunciation. Place the ⚠️ sub-bullet **first** under the headword, before any `*Etym*` line — and only on the sub-bullet, never on the headword line itself:
 
@@ -193,10 +230,11 @@ Don't force the full list into every chapter — only cover points the chapter a
 
 ## HTML rendering
 
-`render.py` converts a chapter's Markdown study guide into semantic HTML and links it to `styles.css` at the project root. The goal is a readable on-screen reading copy that also prints to PDF cleanly, with Persian text set in a proper Persian font at a legible size and code/example blocks high-contrast.
+`render.py` converts a chapter's Markdown study guide into semantic HTML and links it to `styles.css`. The goal is a readable on-screen reading copy that also prints to PDF cleanly, with Persian text set in a proper Persian font at a legible size and code/example blocks high-contrast. `build_site.py` invokes `render()` for every `NN_book/chN.md` it finds, drops the result under `_site/NN_book/chN.html`, and emits a top-level `_site/index.html` that lists all chapters and gives the source publication's original title and copyright.
 
 ```bash
-python3 render.py NN/study_guide.md NN/study_guide.html
+python3 build_site.py                     # full site → _site/
+python3 render.py NN_book/chN.md /tmp/x.html  # one-off single-file render
 ```
 
 The HTML document structure is standard: `<main>` wraps the body; headings are `<h1>/<h2>/<h3>`; paragraphs are `<p>`; nested lists are rendered as properly-nested `<ul>/<li>`. The semantic elements unique to this project get classes from a small fixed taxonomy:
@@ -231,9 +269,9 @@ The parser is deliberately narrow: it handles headings, paragraphs, bold/italic/
 ## Running the toolchain
 
 ```bash
-# From the project root, for chapter NN:
-python3 normalize.py NN/source.txt NN/normalized.txt   # clean PDF corruption
-python3 render.py NN/study_guide.md NN/study_guide.html  # Markdown → HTML
+# From the project root, for book directory NN_book/:
+python3 normalize.py NN_book/source.txt NN_book/normalized.txt   # clean PDF corruption
+python3 build_site.py                                              # render every chN.md → _site/
 ```
 
-No dependencies beyond the Python 3.10+ standard library.
+No dependencies beyond the Python 3.10+ standard library. CI runs `python3 build_site.py` and publishes `_site/` to GitHub Pages on every push to `main`/`master`; see `.github/workflows/pages.yml`.

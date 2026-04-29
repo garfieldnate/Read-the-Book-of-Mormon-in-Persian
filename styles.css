@@ -301,6 +301,29 @@ code {
   unicode-bidi: plaintext;
 }
 
+/* --------- inline source-text block (the Persian text quoted under each
+   verse / chapter-summary / book-summary line). A `<p>` whose only child is a
+   `<code>` is treated as a block-level Persian quotation. */
+
+p > code:only-child {
+  display: block;
+  font-family: var(--font-fa);
+  font-size: 1.32em;
+  font-weight: normal;
+  color: var(--persian-color);
+  background: var(--example-bg);
+  border-left: 4px solid var(--example-border);
+  border-radius: 0 4px 4px 0;
+  padding: 0.8em 1.05em;
+  margin: 0.4em 0 0.6em;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  unicode-bidi: isolate;
+}
+
+p:has(> code:only-child) { margin: 0.4em 0 0.6em; }
+
 /* Non-vocab bullet lists (e.g. intro, register markers) */
 ul:not(.vocab) {
   padding-left: 1.5em;
