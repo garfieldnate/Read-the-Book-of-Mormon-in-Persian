@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Build the static GitHub Pages site for the Persian Book of Mormon study guides.
 
-Walks every chapter directory matching `NN_*/chN.md`, renders each Markdown
-study guide to HTML using `render.py`, copies `styles.css` next to the
+Walks every chapter directory matching `study_guide/NN_*/chN.md`, renders each
+Markdown study guide to HTML using `render.py`, copies `styles.css` next to the
 rendered files, and emits a top-level `index.html` linking to each chapter
 along with the original publication's title and copyright.
+
+Also renders `study_guide/transcription.md` as a standalone reference page
+linked from the index.
 
 Output goes to `./_site/`. Existing contents of `_site/` are wiped first so a
 re-run is reproducible.
@@ -55,8 +58,11 @@ def extract_title(md_text: str, fallback: str) -> str:
 
 def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
     """Return (chapter_number, display_title, source_dir, markdown_path) for each chapter."""
+    study_guide = root / "study_guide"
     chapters: list[tuple[int, str, Path, Path]] = []
-    for entry in sorted(root.iterdir()):
+    if not study_guide.is_dir():
+        return chapters
+    for entry in sorted(study_guide.iterdir()):
         if not entry.is_dir():
             continue
         m = CHAPTER_DIR_RE.match(entry.name)
@@ -74,15 +80,24 @@ def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
     return chapters
 
 
-def build_index(chapters: list[tuple[int, str, Path, Path]]) -> str:
+def build_index(chapters: list[tuple[int, str, Path, Path]], has_transcription: bool = False) -> str:
     """Render the top-level index.html linking each chapter."""
     items: list[str] = []
     for ch_num, title, src_dir, md_path in chapters:
-        href = f"{src_dir.name}/{md_path.stem}.html"
+        href = f"study_guide/{src_dir.name}/{md_path.stem}.html"
         items.append(
             f'    <li><a href="{href}">{title}</a></li>'
         )
     items_html = "\n".join(items) if items else "    <li><em>No chapters yet.</em></li>"
+
+    transcription_section = ""
+    if has_transcription:
+        transcription_section = """
+<h2>Reference</h2>
+<ul class="chapter-list">
+    <li><a href="study_guide/transcription.html">Persian Transliteration Scheme</a></li>
+</ul>
+"""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -138,7 +153,7 @@ examples).</p>
 <ul class="chapter-list">
 {items_html}
 </ul>
-
+{transcription_section}
 <h2>Source publication</h2>
 <div class="source-credit">
   <span class="fa">{SOURCE_TITLE_FA}</span>
@@ -175,20 +190,31 @@ def main() -> int:
 
     chapters = discover_chapters(ROOT)
     if not chapters:
-        print("warning: no chapters found (looking for NN_*/chN.md)", file=sys.stderr)
+        print("warning: no chapters found (looking for study_guide/NN_*/chN.md)", file=sys.stderr)
 
     for ch_num, slug, src_dir, md_path in chapters:
-        ch_out_dir = out_dir / src_dir.name
-        ch_out_dir.mkdir(exist_ok=True)
+        ch_out_dir = out_dir / "study_guide" / src_dir.name
+        ch_out_dir.mkdir(parents=True, exist_ok=True)
         md_text = md_path.read_text(encoding="utf-8")
-        # Chapter pages live one level down; link up to the shared stylesheet.
-        html = render(md_text, css_href="../styles.css")
+        # Chapter pages live two levels down (study_guide/NN_book/); link up to the shared stylesheet.
+        html = render(md_text, css_href="../../styles.css")
         html_path = ch_out_dir / (md_path.stem + ".html")
         html_path.write_text(html, encoding="utf-8")
         print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
 
+    # Render the standalone transcription reference page.
+    transcription_md = ROOT / "study_guide" / "transcription.md"
+    has_transcription = transcription_md.exists()
+    if has_transcription:
+        sg_out_dir = out_dir / "study_guide"
+        sg_out_dir.mkdir(exist_ok=True)
+        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="../styles.css")
+        tr_path = sg_out_dir / "transcription.html"
+        tr_path.write_text(tr_html, encoding="utf-8")
+        print(f"  study_guide/transcription.md → {tr_path.relative_to(ROOT)}", file=sys.stderr)
+
     index_path = out_dir / "index.html"
-    index_path.write_text(build_index(chapters), encoding="utf-8")
+    index_path.write_text(build_index(chapters, has_transcription=has_transcription), encoding="utf-8")
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)
 
     return 0

@@ -4,11 +4,7 @@
 
 The source text has three layers: (1) a **book-level summary** of all of 1 Nephi (lines 1–16), which previews Lehi's whole story — Sariah, the four sons, the journey into the wilderness, Ishmael's daughters, the ship, the promised land — and is therefore full of vocabulary you won't meet again for many chapters; (2) a short **chapter heading** summarizing chapter 1 itself (lines 17–24); and (3) the **20 verses** of chapter 1 proper (lines 25–155). Content-wise, chapter 1 is Nephi introducing himself, describing his father Lehi's vision of a pillar of fire and book of prophecy, Jerusalem's coming destruction, and the Jews' mockery and threats; Nephi closes by saying the Lord (Sarvar) delivers those with faith.
 
-Each section below opens with the Persian text from the source, immediately followed by the vocabulary it introduces. The **book summary** is taken from the publisher's clean web edition (`python3 fetch_chapter.py <url>` pulls one cleanly) and is broken out **sentence-by-sentence**, since the web version presents it as one continuous paragraph rather than the wrapped-and-mangled lines the PDF extractor produced. The **chapter summary** and the **twenty verses** are each shown as a single continuous block, sourced from `01_nephi/normalized.txt`. PDF column-flow splits in the chapter body (e.g. `حت` + `ّی` → `حتّی` across lines 51–52, 65–66, 145–146; `ُرده شد` + `ب` → `بُرده شد` across 66–67) are reassembled in the inline text, and page-header artifacts on lines 42 and 107 are dropped. Stray combining marks that drift onto their own lines in `normalized.txt` are silently re-attached or dropped here. If you want to cross-reference the raw extraction, `01_nephi/normalized.txt` is the line-numbered original — but note the sentence-numbered book summary in this guide does **not** correspond to lines in that file.
-
-## Transcription key
-
-Long vowels `ā ī ū`, short `a e o`. Diphthongs `ow ay ey` (all falling — see the README for pronunciation). Consonants: `š ž x č j ʿ ʾ q ṣ ẓ ḥ ṭ` (the dotted set are Arabic emphatics, pronounced `s z h t` in modern Persian). Ezafe `-e` / `-ye`. Object marker `-rā`. Indefinite `-ī`. Possessive suffixes `-am -at -aš -mān -tān -šān`.
+Each section below opens with the Persian text from the source, immediately followed by the vocabulary it introduces. The **book summary** is broken out **sentence-by-sentence**, while the **chapter summary** and the **verses** each have their own vocab section.
 
 ---
 
