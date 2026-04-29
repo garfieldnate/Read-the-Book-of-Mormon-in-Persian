@@ -1,5 +1,11 @@
 # Persian Book of Mormon Study Guides
 
+Just want to study? View the study guide [here](https://nateglenn.com/Read-the-Book-of-Mormon-in-Persian/).
+
+> This project is largely LLM-generated for my own study purposes. The README is mostly intended as instructions to an LLM for generating further study guides for the next chapters.
+
+> I am just learning Persian myself, so if you see any errors or have suggestions for improvement, please open an issue or submit a PR!
+
 A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in `study_guide/NN_book/` — one directory per book — with one or more markdown study guides (`chN.md` per chapter).
 
 ```
