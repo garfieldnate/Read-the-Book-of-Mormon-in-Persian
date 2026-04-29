@@ -7,6 +7,7 @@ A reusable setup for producing learner-oriented English study guides from a Pers
 ├── README.md                 # this file — conventions and workflow
 ├── normalize.py              # PDF-corruption normalizer
 ├── corruptions.json          # editable {corrupt: correct} word-pair lookup table
+├── fetch_chapter.py          # download a chapter's clean text from churchofjesuschrist.org
 ├── render.py                 # Markdown → semantic HTML converter
 ├── build_site.py             # walks every NN_*/chN.md and builds _site/
 ├── styles.css                # shared stylesheet for all chapters' HTML
@@ -31,11 +32,35 @@ open _site/index.html        # or: python3 -m http.server -d _site
 
 ## Per-chapter workflow
 
-1. Extract the chapter's text from the PDF and save as `NN_book/source.txt` (one source file per book; later chapters append to it as you transcribe them).
-2. Run `python3 normalize.py NN_book/source.txt NN_book/normalized.txt`. Review the replacement summary printed to stderr.
-3. Skim `NN_book/normalized.txt`. If any words still look wrong, determine the intended form, add the pair to `corruptions.json`, and re-run. (See "Source text corruption" below.)
-4. Produce `NN_book/chN.md` from the normalized text following the conventions in "Study guide conventions."
-5. Run `python3 build_site.py` to render every chapter into `_site/`. Open `_site/index.html` in a browser to read the formatted output. (For a single-file render outside the site: `python3 render.py NN_book/chN.md /tmp/preview.html`.)
+There are two ways to acquire a chapter's source text:
+
+- **Web (preferred for new chapters)** — `python3 fetch_chapter.py <url>` downloads
+  the chapter from `churchofjesuschrist.org` (Persian edition) and prints
+  structured plain text grouped by element class: `# title`, `# subtitle`,
+  `# intro` (book-level summary, only on chapter 1 of each book),
+  `# chapter`, `# study-summary` (chapter heading paragraph), `# verse 1`
+  … `# verse N`. Pipe with `-o NN_book/web.txt` to save. The web edition
+  is already clean; no normalisation step needed.
+- **PDF (legacy)** — copy the chapter's text out of `book-of-mormon-59010-pes.pdf`
+  into `NN_book/source.txt`, then run `python3 normalize.py NN_book/source.txt
+  NN_book/normalized.txt` to apply the dictionary-based corruption fixes.
+  Skim the result; if any words still look wrong, add a pair to
+  `corruptions.json` and re-run (see "Source text corruption" below).
+
+For chapter 1 of 1 Nephi, the chapter body in `01_nephi/normalized.txt`
+came from the PDF; the **book summary** in `01_nephi/ch1.md` was later
+re-sourced from the web edition (since the PDF wraps the summary across
+column boundaries that split words mid-token). New chapters should prefer
+the web fetcher for everything.
+
+Once the source text is in hand:
+
+1. Produce `NN_book/chN.md` from the source text, following the conventions
+   in "Study guide conventions" below.
+2. Run `python3 build_site.py` to render every chapter into `_site/`. Open
+   `_site/index.html` in a browser to read the formatted output. (For a
+   single-file render outside the site: `python3 render.py NN_book/chN.md
+   /tmp/preview.html`.)
 
 ## Source text corruption
 
@@ -115,7 +140,7 @@ Two further conventions:
 ### Vocabulary section
 
 - **Each section opens with the source text, immediately followed by the vocab for that section.** The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
-  - **Book summary** — line-by-line. Use a `#### Line N` (h4) heading for each source line, immediately followed by that one line of Persian wrapped in backticks, then the vocab introduced on that line. This is the only section that keeps per-source-line subdivisions, because the book summary previews vocab the reader won't meet again for many chapters and the line anchor helps with cross-reference.
+  - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence followed by the vocab it introduces. Sub-block numbering does **not** correspond to line numbers in `normalized.txt` — the book summary is a single paragraph on the web edition, and the PDF's typographic line wraps split words mid-token (e.g. `ثریّا`, `خرّمساران`), so we don't honor them. If a sentence introduces no new lemmas, emit the heading and the backtick'd Persian followed by an italic `*(No new lemmas — every word in this sentence has already been introduced.)*` note in place of a vocab list.
   - **Chapter summary** — `### Chapter summary (lines X–Y)` (h3) followed by the entire summary text on a single line wrapped in backticks (no internal line breaks), then a single flat vocab list for the whole summary.
   - **Each verse** — `### Verse N (lines X–Y)` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse. **Do not** sub-divide a verse with `#### Line N` headings; the source-line anchors live inside `*Forms*` citations on individual entries instead.
   - Source line numbers refer to `NN_book/normalized.txt`. Skip page-header artifact lines (e.g. `۱یافین …`) when transcribing the text inline; cite the surrounding line numbers in the `(lines X–Y)` heading.
@@ -258,7 +283,7 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.example-en` | `<div>` | Third line of an example — English translation. |
 | `.line-ref` | `<span>` | The `Lines N–M:` prefix at the start of `.example-fa`. |
 | `<h3>` | (element) | Section heading (`### Verse 1 (lines 25–33)`); styled with a solid top border to mark section boundaries. |
-| `<h4>` | (element) | Source-line marker (`#### Line 25`); styled small/uppercase with a dashed top rule for in-section line groups. |
+| `<h4>` | (element) | Sentence / line marker (`#### Sentence 3`, `#### Title`); styled small/uppercase with a dashed top rule for sub-blocks under a section. |
 
 The parser is deliberately narrow: it handles headings, paragraphs, bold/italic/inline-code, nested `- ` bullet lists, and `> ` blockquotes. It does not handle tables, code fences, or links. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
 
@@ -270,7 +295,8 @@ The parser is deliberately narrow: it handles headings, paragraphs, bold/italic/
 
 ```bash
 # From the project root, for book directory NN_book/:
-python3 normalize.py NN_book/source.txt NN_book/normalized.txt   # clean PDF corruption
+python3 fetch_chapter.py <url> -o NN_book/web.txt                # pull a chapter cleanly from the web (preferred)
+python3 normalize.py NN_book/source.txt NN_book/normalized.txt   # legacy: clean PDF-extraction corruption
 python3 build_site.py                                              # render every chN.md → _site/
 ```
 

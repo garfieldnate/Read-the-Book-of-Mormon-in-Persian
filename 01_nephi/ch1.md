@@ -4,7 +4,7 @@
 
 The source text has three layers: (1) a **book-level summary** of all of 1 Nephi (lines 1–16), which previews Lehi's whole story — Sariah, the four sons, the journey into the wilderness, Ishmael's daughters, the ship, the promised land — and is therefore full of vocabulary you won't meet again for many chapters; (2) a short **chapter heading** summarizing chapter 1 itself (lines 17–24); and (3) the **20 verses** of chapter 1 proper (lines 25–155). Content-wise, chapter 1 is Nephi introducing himself, describing his father Lehi's vision of a pillar of fire and book of prophecy, Jerusalem's coming destruction, and the Jews' mockery and threats; Nephi closes by saying the Lord (Sarvar) delivers those with faith.
 
-Each section below opens with the Persian text from the source, immediately followed by the vocabulary it introduces. The book summary is broken out line-by-line (each `Line N` heading corresponds to the same line in `01_nephi/normalized.txt`); the chapter summary and the twenty verses are shown each as a single continuous block. PDF column-flow splits (e.g. `حت` + `ّی` → `حتّی` across lines 51–52, 65–66, 145–146; `ُرده شد` + `ب` → `بُرده شد` across 66–67) are reassembled in the inline text, and page-header artifacts on lines 42 and 107 are dropped. Stray combining marks that drift onto their own lines in `normalized.txt` are silently re-attached or dropped here. If you want to cross-reference the raw extraction, `01_nephi/normalized.txt` is the line-numbered original.
+Each section below opens with the Persian text from the source, immediately followed by the vocabulary it introduces. The **book summary** is taken from the publisher's clean web edition (`python3 fetch_chapter.py <url>` pulls one cleanly) and is broken out **sentence-by-sentence**, since the web version presents it as one continuous paragraph rather than the wrapped-and-mangled lines the PDF extractor produced. The **chapter summary** and the **twenty verses** are each shown as a single continuous block, sourced from `01_nephi/normalized.txt`. PDF column-flow splits in the chapter body (e.g. `حت` + `ّی` → `حتّی` across lines 51–52, 65–66, 145–146; `ُرده شد` + `ب` → `بُرده شد` across 66–67) are reassembled in the inline text, and page-header artifacts on lines 42 and 107 are dropped. Stray combining marks that drift onto their own lines in `normalized.txt` are silently re-attached or dropped here. If you want to cross-reference the raw extraction, `01_nephi/normalized.txt` is the line-numbered original — but note the sentence-numbered book summary in this guide does **not** correspond to lines in that file.
 
 ## Transcription key
 
@@ -16,13 +16,14 @@ Long vowels `ā ī ū`, short `a e o`. Diphthongs `ow ay ey` (all falling — se
 
 Organized in **order of first appearance**, grouped by verse. A word appears in the verse where you first encounter it; inflected forms of a verb already introduced (e.g. a new past-tense of a verb you saw earlier) are not re-listed. Proper nouns are mixed in where they first appear, tagged `[proper]`. Verbs include infinitive and present stem. Line numbers reference `01_nephi/normalized.txt`.
 
-### Book summary (lines 1–16)
+### Book summary
 
-The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas preview vocabulary for later chapters (ship, wilderness, brothers, promised land).
+The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas preview vocabulary for later chapters (ship, wilderness, brothers, promised land). The Persian text is the publisher's web edition (one continuous paragraph), split here into one sub-block per sentence so the vocabulary stays manageable; sub-block numbering does **not** correspond to line numbers in `01_nephi/normalized.txt`.
 
-#### Line 1
+#### Title
 
 `نخستین کتاب نیفای`
+
 - **نخستین** — _noxostīn_ — first, foremost
   - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
   - _Family_: `نخست` _noxost_ "first" (used standalone as adverb "firstly").
@@ -30,9 +31,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **نیفای** — _Nīfāy_ [proper] — Nephi
   - _Etym_: transliteration of English _Nephi_, the Book of Mormon prophet's name. Sometimes connected to Egyptian _nfr_ "good, fair" or to Hebrew, but Persian here just spells the English form phonetically.
 
-#### Line 2
+#### Subtitle
 
 `فرمانروایی و خدمت او`
+
 - **فرمانروایی** — _farmān-ravāyī_ — reign, rule
   - _Etym_: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
   - _Family_: `فرمان` _farmān_ "command, decree"; `روا` _ravā_ "current, permitted" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ "ruler, sovereign".
@@ -42,9 +44,20 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: from Arabic, root x-d-m "to serve".
 - **او** — _ū_ — he, she, it (3sg)
 
-#### Line 3
+#### Sentence 1
 
-`ّا، و چهار پسرش که، )شروع از ارشدترین(، لامان،`
+`سرگذشت لیحای و همسرش ثریّا، و چهار پسرش که، (شروع از ارشدترین)، لامان، لموئیل، سام، و نیفای خوانده می شدند.`
+
+- **سرگذشت** — _sargozašt_ — account, life-story
+  - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
+  - _Family_: `سر` _sar_ "head"; `گذشتن` _gozaštan_ "to pass"; `گذشت` _gozašt_ "past, bygone (n. or adj.)".
+- **لیحای** — _Liḥāy_ [proper] — Lehi (Nephi's father)
+  - _Etym_: Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ means "jaw, cheek".
+- **همسر** — _hamsar_ — spouse, husband/wife
+  - _Etym_: `هم` _ham_ "same, together" + `سر` _sar_ "head" → "having the same head/place".
+  - _Forms_: with suffix _`همسرش` hamsar-aš_ "his wife"; abstract noun _`همسری` hamsar-ī_ "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
+- **ثریا** — _Ṣariyā_ [proper] — Sariah (Lehi's wife)
+  - _Etym_: Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ "princess".
 - **چهار** — _čahār_ — four
 - **پسر** — _pesar_ — son
   - _Forms_: with suffix _`پسرش` pesar-aš_ "his son(s)".
@@ -59,25 +72,6 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **ترین** — _-tarīn_ — superlative suffix ("most …, -est")
 - **لامان** — _Lāmān_ [proper] — Laman (Lehi's eldest son)
   - _Etym_: Persian transliteration of English _Laman_, a Book of Mormon name.
-
-#### Line 4
-
-`سرگذشت لیحای و همسرش ثری`
-- **سرگذشت** — _sargozašt_ — account, life-story
-  - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
-  - _Family_: `سر` _sar_ "head"; `گذشتن` _gozaštan_ "to pass"; `گذشت` _gozašt_ "past, bygone (n. or adj.)".
-- **لیحای** — _Liḥāy_ [proper] — Lehi (Nephi's father)
-  - _Etym_: Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ means "jaw, cheek".
-- **همسر** — _hamsar_ — spouse, husband/wife
-  - _Etym_: `هم` _ham_ "same, together" + `سر` _sar_ "head" → "having the same head/place".
-  - _Forms_: with suffix _`همسرش` hamsar-aš_ "his wife"; abstract noun _`همسری` hamsar-ī_ "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
-- **ثریا** — _Ṣariyā_ [proper] — Sariah (Lehi's wife)
-  - _Etym_: Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ "princess".
-  - _Forms_: split in source as `ثری` + `ا،` across lines 4 + 3.
-
-#### Line 5
-
-`ملوئیل، سام، و نیفای خوانده می شدند. سرور به لیحای هشدار می دهد تا از سرزمین`
 - **لموئیل** — _Lamūʾīl_ [proper] — Lemuel (second son)
   - _Etym_: from Hebrew _Ləmūʾēl_ "belonging to God" (לְמוּאֵל), via English _Lemuel_.
 - **سام** — _Sām_ [proper] — Sam (third son; Book of Mormon figure, distinct from Noah's son Shem)
@@ -86,25 +80,26 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **می** — _mī-_ — imperfective verbal prefix (present, past imperfect); see grammar §12
 - **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary (see grammar §2)
   - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ (lines 8, 23, 48); 3pl _`می` `شوند` mī-šavand_ (line 10); subj. _`شوند` šavand_ (lines 10, 104). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ (line 5: passive `خوانده می شدند` "were called"); pp. _`شده` šode_.
+
+#### Sentence 2
+
+`سَروَر به لیحای هشدار می دهد تا از سرزمین اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوّت می کند، و آنها بدنبال نابودی زندگی او هستند.`
+
 - **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
   - _Family_: `سر` _sar_ "head" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
-  - _Forms_: vocative _`سرورا` Sarvarā_ "O Lord!" (line 98).
+  - _Forms_: vocative _`سرورا` Sarvarā_ "O Lord!" (line 98). The web edition writes the lemma with both fathas (`سَروَر`); the unmarked spelling `سرور` is the citation form.
 - **به** — _be_ — to, toward, into
 - **هشدار** — _hošdār_ — warning
   - _Etym_: native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) "alert-holding".
   - _Family_: `هوش` _hūš_ "consciousness, alertness, intelligence"; `داشتن` _dāštan_ "to hold" (an entry in this chapter); `هوشیار` _hūšyār_ "vigilant".
   - _Forms_: collocation `هشدار دادن` "to warn".
 - **دادن** — _dādan_ (pres. _deh-_) — to give
-  - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning", line 5; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
+  - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning"; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
 - **تا** — _tā_ — until; so that; up to
 - **سرزمین** — _sarzamīn_ — land, territory
   - _Etym_: `سر` + `زمین`.
   - _Family_: `سر` _sar_ "head, top"; `زمین` _zamīn_ "land, earth" (both also entries in this chapter).
-
-#### Line 6
-
-`ّ اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوت می کند،`
 - **اورشلیم** — _Uršalīm_ [proper] — Jerusalem
   - _Etym_: from Hebrew _Yərūšālayim_ (יְרוּשָׁלַיִם) "foundation of peace", via Arabic _Ūrušalīm_.
 - **بیرون** — _bīrūn_ — out, outside
@@ -130,11 +125,6 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: from Arabic _nubuwwa_, root n-b-ʾ "to be a prophet"; cognate with `نبی` _nabī_ "prophet".
   - _Forms_: collocation `نبوّت کردن` "to prophesy".
 - **کردن** — _kardan_ (pres. _kon-_) — to do, make [the most common compound-verb auxiliary]
-- **در** — _dar_ — in, into, at
-
-#### Line 7
-
-`و آنها بدنبال نابودی زندگی او هستند. او با خانواده اش راهی سفری سه روزه در`
 - **آنها** — _ānhā_ — they, those
 - **دنبال** — _donbāl_ — behind, after
   - _Forms_: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
@@ -145,6 +135,11 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `زنده` + `-گی` (abstract suffix used after _-e_-final stems) → "the state of being alive".
   - _Family_: `زنده` _zende_ "alive"; `زیستن` _zīstan_ "to live"; `زندگانی` _zendegānī_ "life" (synonym, same root).
 - **بودن** — _būdan_ (pres. _hast-_ / _bāš-_) — to be (3pl _هستند hastand_; past _بود būd_; pp. _بوده būde_; copula _است ast_)
+
+#### Sentence 3
+
+`او با خانواده اش راهی سفری سه روزه در بیابان می شود.`
+
 - **با** — _bā_ — with
 - **خانواده** — _xānevāde_ — family
   - _Etym_: traditionally analyzed as `خان` (← `خانه` "house") + `واده` "extension" — i.e. "household".
@@ -161,11 +156,13 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `روز` + `-ه` (adjective-forming suffix indicating duration/quantity).
   - _Family_: `روز` _rūz_ "day". (Note: `روزه` also = "fast / fasting" in religious contexts; same form, different sense.)
   - _Forms_: collocation `سه روزه` "three-day".
-
-#### Line 8
-
-`بیابان می شود. نیفای برادرانش را برمی دارد و در پی نگاشته های یهودیان به`
+- **در** — _dar_ — in, into, at
 - **بیابان** — _bīyābān_ — wilderness, desert
+
+#### Sentence 4
+
+`نیفای برادرانش را برمی دارد و در پی نگاشته های یهودیان به سرزمین اورشلیم باز می گردد.`
+
 - **برادر** — _barādar_ — brother
   - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
 - **را** — _-rā_ — direct-object marker (post-nominal clitic; see grammar §7)
@@ -180,46 +177,66 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **یهودیان** — _Yahūdiyān_ [proper] — the Jews
   - _Etym_: `یهود` + `-یان` (Persian gentilic plural).
   - _Family_: `یهود` _Yahūd_ "Jew(s)" (Arabic, ← Hebrew _Yəhūdī_ "Judahite"); `-یان` _-iyān_ (productive plural for ethnic groups: `ایرانیان` "Iranians", `مصریان` "Egyptians" in this chapter).
-
-#### Line 9
-
-`سرزمین اورشلیم باز می گردد. سرگذشت زجرهایشان. آنها دختران اسماعیل را به`
 - **باز** — _bāz_ — back, again
   - _Forms_: collocation `باز گشتن` "to return" (→ `بازگشتن` as a single verb).
 - **گشتن** — _gaštan_ (pres. _gard-_) — to become, turn [literary equivalent of شدن]; also "to return" in `باز گشتن`
-  - _Forms_: 3sg pres. _`می` `گردد` mī-gardad_, as in `باز می گردد` "returns", line 9; past _`گشت` gašt_, as in `آکنده گشت` "became filled", line 86.
+  - _Forms_: 3sg pres. _`می` `گردد` mī-gardad_, as in `باز می گردد` "returns"; past _`گشت` gašt_, as in `آکنده گشت` "became filled", line 86.
+
+#### Sentence 5
+
+`سرگذشت زجرهایشان.`
+
 - **زجر** — _zajr_ — torment, distress
   - _Etym_: from Arabic, root z-j-r "to drive away, rebuke".
   - _Forms_: pl. _`زجرها` zajr-hā_.
+
+#### Sentence 6
+
+`آنها دختران اسماعیل را به همسری می گیرند.`
+
 - **دختر** — _doxtar_ — daughter
   - _Forms_: pl. _`دختران` doxtarān_.
 - **اسماعیل** — _Esmāʿīl_ [proper] — Ishmael
   - _Etym_: from Hebrew _Yišmāʿēʾl_ (יִשְׁמָעֵאל) "God hears", via Arabic _Ismāʿīl_.
-
-#### Line 10
-
-`همسری می گیرند. آنها خانواده هایشان را برمی دارند و راهی بیابان می شوند.`
 - **گرفتن** — _gereftan_ (pres. _gīr-_) — to take, seize
-  - _Forms_: subj. 3pl _`گیرند` gīrand_ (line 10) / _`بگیرند` begīrand_ (line 149); past _`گرفت` gereft_ / 3pl _`گرفتند` gereftand_ (line 144); pp. _`گرفته` gerefte_ (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
+  - _Forms_: subj. 3pl _`گیرند` gīrand_ / _`بگیرند` begīrand_ (line 149); past _`گرفت` gereft_ / 3pl _`گرفتند` gereftand_ (line 144); pp. _`گرفته` gerefte_ (line 71). Common collocations: `به همسری گرفتن` "to take in marriage"; `خشم گرفتن` "to become wrathful".
 
-#### Line 11
+#### Sentence 7
 
-`زجرها و رنج های آنان در بیابان. راه مسافرت هایشان. آنها به آب های پهناور می`
+`آنها خانواده هایشان را برمی دارند و راهی بیابان می شوند.`
+
+_(No new lemmas — every word in this sentence has already been introduced.)_
+
+#### Sentence 8
+
+`زجرها و رنج های آنان در بیابان.`
+
 - **رنج** — _ranj_ — suffering, pain
 - **آنان** — _ānān_ — they (literary variant of آنها)
+
+#### Sentence 9
+
+`راه مسافرت هایشان.`
+
 - **راه** — _rāh_ — way, road
 - **مسافرت** — _mosāferat_ — travel, journey
   - _Etym_: from Arabic, root s-f-r "to travel"; verbal-noun pattern _mufāʿalat_.
+
+#### Sentence 10
+
+`آنها به آب های پهناور می رسند.`
+
 - **آب** — _āb_ — water
 - **پهناور** — _pahnāvar_ — vast, wide
   - _Etym_: `پهن` + `-اور` (suffix "having, bringing").
   - _Family_: `پهن` _pahn_ "broad, wide"; `پهنا` _pahnā_ "breadth"; `-آور` (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
   - _Forms_: collocation `آبهای پهناور` "the great waters" (i.e. the ocean).
-
-#### Line 12
-
-`ُ رسند. برادران نیفای علیه او شورش می کنند. او آنان را مجاب می کند و یک کشتی`
 - **رسیدن** — _rasīdan_ (pres. _ras-_) — to arrive, to reach (3pl pres. _می رسند mī-rasand_)
+
+#### Sentence 11
+
+`برادران نیفای علیه او شورش می کنند.`
+
 - **علیه** — _ʿalayhi_ — against
   - ⚠️ _Diphthong -ay- written as `ی_`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
   - _Etym_: from Arabic, originally a prepositional phrase _ʿalay-hi_ "upon him".
@@ -227,35 +244,37 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `شور` + `-ش` (deverbal nominalizer).
   - _Family_: `شور` _šūr_ "agitation, fervor, passion"; `شوریدن` _šūrīdan_ "to revolt, be in turmoil".
   - _Forms_: collocation `شورش کردن` "to rebel".
+
+#### Sentence 12
+
+`او آنان را مُجاب می کند و یک کشتی می سازد.`
+
 - **مجاب** — _mojāb_ — convinced, persuaded
   - _Etym_: from Arabic, passive participle of _ʾajāba_ "to answer", root j-w-b → "answered, satisfied".
   - _Forms_: collocation `مجاب کردن` "to convince".
 - **یک** — _yek_ — one, a
 - **کشتی** — _kaštī_ — ship, vessel
-
-#### Line 13
-
-`ّمساران می خوانند. آنها از آب های پهناور به سوی`
-- **خرّمساران** — _Xorram-sārān_ [proper] — "Bountiful" (the place where Lehi's family builds the ship)
-  - _Etym_: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
-  - _Family_: `خرّم` _xorram_ "verdant, flourishing, joyful"; `-سار` _-sār_ (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
-  - _Forms_: split across lines 13–14 in source as `ّمساران` + `خر`.
-- **سوی** — _sūy_ — direction, side
-  - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
-
-#### Line 14
-
-`ُ می سازد. آنها نام آنجا را خر`
 - **ساختن** — _sāxtan_ (pres. _sāz-_) — to make, build
-  - _Forms_: 3sg pres. _`می` `سازد` mī-sāzad_ (line 14); subj. _`سازد` sāzad_ with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
+  - _Forms_: 3sg pres. _`می` `سازد` mī-sāzad_; subj. _`سازد` sāzad_ with `بـ-` dropped in compound verbs (line 154: `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
+
+#### Sentence 13
+
+`آنها نام آنجا را خُرّمساران می خوانند.`
+
 - **نام** — _nām_ — name
   - _Etym_: native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).
   - _Forms_: idiom `نام چیزی را X خواندن` "to call something X".
 - **آنجا** — _ānjā_ — there
+- **خرّمساران** — _Xorram-sārān_ [proper] — "Bountiful" (the place where Lehi's family builds the ship)
+  - _Etym_: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
+  - _Family_: `خرّم` _xorram_ "verdant, flourishing, joyful"; `-سار` _-sār_ (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
 
-#### Line 15
+#### Sentence 14
 
-`سرزمین موعود می گذرند، و ادامۀ آن. این بر پایۀ سرگذشت نیفای است، یا به بیان`
+`آنها از آب های پهناور به سوی سرزمین موعود می گذرند، و ادامۀ آن.`
+
+- **سوی** — _sūy_ — direction, side
+  - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
 - **موعود** — _mowʿūd_ — promised
   - _Etym_: from Arabic, passive participle of _waʿada_ "to promise", root w-ʿ-d.
   - _Forms_: collocation `سرزمین موعود` "the Promised Land".
@@ -264,6 +283,11 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: from Arabic, root d-w-m "to last, continue".
   - _Forms_: ezafe _`ادامۀ` edāme-ye_.
 - **آن** — _ān_ — that; it (demonstrative / 3sg pron.)
+
+#### Sentence 15
+
+`این بر پایۀ سرگذشت نیفای است، یا به بیان دیگر، من، نیفای، این نگاشته را نوشتم.`
+
 - **این** — _īn_ — this
 - **پایه** — _pāye_ — base, foundation
   - _Family_: `پا` _pā_ "foot, leg"; `پایان` _pāyān_ "end" (literary "foothold").
@@ -272,10 +296,6 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **بیان** — _bayān_ — statement, expression
   - _Etym_: from Arabic, root b-y-n "to be clear, make plain".
   - _Forms_: collocation `به بیان دیگر` "in other words".
-
-#### Line 16
-
-`دیگر، من، نیفای، این نگاشته را نوشتم.`
 - **دیگر** — _dīgar_ — other, another
 - **من** — _man_ — I, me
 - **نوشتن** — _neveštan_ (pres. _nevīs-_) — to write (past 1sg _نوشتم neveštam_; pp. _نوشته nevešte_)
@@ -283,6 +303,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Chapter summary (lines 17–24)
 
 `فصل ۱ نیفای نگاشتۀ مردمش را شروع می نماید — لیحای در رؤیا ستونی از آتش می بیند و از یک کتابِ نبوّت می خواند — او خدا را ستایش می کند، آمدن مسیح را پیشگویی می کند — و نابودی اورشلیم را نبوّت می کند — او از سوی یهودیان آزار داده می شود. نزدیک به ۶۰۰ پیش از میلاد.`
+
 - **فصل** — _faṣl_ — chapter, section; season
   - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
 - **نمودن** — _nemūdan_ (pres. _namāy-_) — to do; to show; to appear [literary alternative to کردن]
@@ -321,6 +342,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 1 (lines 25–33)
 
 `۱   من، نیفای، از پدر و مادر خوبی زاده شده، بنابراین اندکی در همۀ آموخته های پدرم آموزش داده شدم؛ و در دورۀ روزگارم رنج های بسیاری دیده، با این وجود، در همۀ روزگارم مورد لطف والای سرور بوده؛ آری، از نیکی و رازهای خدا دانش زیادی داشته، بنابراین نگاشته ای از کارهایم در روزگارم را می نگارم.`
+
 - **پدر** — _pedar_ — father
   - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
 - **مادر** — _mādar_ — mother
@@ -375,6 +397,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 2 (lines 34–36)
 
 `۲ آری، من نگاشته ای به زبان پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان مصریان است.`
+
 - **زبان** — _zabān_ — tongue, language
 - **پدری** — _pedar-ī_ — paternal
   - _Etym_: `پدر` + `-ی` (relational adjective suffix).
@@ -388,6 +411,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 3 (lines 37–40)
 
 `۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست خودم می نگارم؛ و من آن را بر پایۀ دانش خود می نگارم.`
+
 - **دانستن** — _dānestan_ (pres. _dān-_) — to know
   - _Forms_: 1sg pres. _`می` `دانم` mī-dānam_, as in `من می دانم` "I know", line 37; subj. 2pl _`بدانید` bedānīd_ "[that] you may know", line 126 — note `بـ-` for the subjunctive.
 - **راست** — _rāst_ — right, true
@@ -399,6 +423,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 4 (lines 41–48)
 
 `۴ زیرا چنین گذشت در آغاز نخستین سال فرمانروایی صدقیا، پادشاه یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر عظیم اورشلیم نابود می شود.`
+
 - **زیرا** — _zīrā_ — because, for
   - _Etym_: native Persian; from earlier _zī rā_ "for the sake of which".
 - **چنین** — _čonīn_ — such, thus
@@ -435,6 +460,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 5 (lines 49–53)
 
 `۵ از این رو چنین گذشت که پدرم، لیحای، همچنان که پیش می رفت به سرور نیایش می کرد، آری، حتّی با همۀ دلش، برای مردمش.`
+
 - **رو** — _rū_ — face, side
   - _Forms_: collocation `از این رو` "for this reason, therefore".
 - **همچنان** — _hamčonān_ — just as, while; likewise
@@ -442,7 +468,6 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **حتّی** — _ḥattā_ — even
   - ⚠️ _Alif maqṣūra_: the final `ی` represents Arabic _alif maqṣūra_ (`الألف المقصورة`) — a long -ā vowel written `ى` at the end of certain Arabic words. Learners may accidentally read it as _\*ḥattī_.
   - _Etym_: from Arabic _ḥattā_, originally a preposition "until, up to".
-  - _Forms_: split as `حت…ّی` across lines in the source.
 - **نیایش** — _niyāyeš_ — supplication, prayer
   - _Etym_: from `نیایستن` "to supplicate" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_).
   - _Family_: `نیایشگاه` _niyāyešgāh_ "place of worship".
@@ -453,6 +478,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 6 (lines 54–59)
 
 `۶ و چنین گذشت همچنان که او به سرور نیایش می کرد، آنجا ستونی از آتش آمد و بر صخره ای در برابر او نشست؛ و او بسیار دید و شنید؛ و به سبب چیزهایی که دید و شنید او بی اندازه تکان خورد و لرزید.`
+
 - **صخره** — _ṣaxre_ — rock, cliff
   - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
 - **برابر** — _barābar_ — opposite, in front of; equal
@@ -474,6 +500,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 7 (lines 60–63)
 
 `۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
+
 - **خانه** — _xāne_ — house
   - _Forms_: ezafe _`خانۀ` xāne-ye_.
 - **چیره** — _čīre_ — dominated, overcome
@@ -491,6 +518,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 8 (lines 64–73)
 
 `۸ و بدین گونه چیره شده با روح مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال سرود خواندن و ستایش خدایشان.`
+
 - **بدین** — _bedīn_ — in/by this
   - _Etym_: contraction of `به` _be_ "to, by" + `این` _īn_ "this".
   - _Forms_: collocation `بدین گونه` "in this manner".
@@ -507,7 +535,6 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Forms_: with suffix _`تختش` taxt-aš_ "his throne".
 - **جمعیّت** — _jamʿiyyat_ — multitude, assembly
   - _Etym_: from Arabic, root j-m-ʿ "to gather"; abstract-noun pattern _faʿʿiyya_.
-  - _Forms_: split across lines 70–71 in source as `ّت های` + `جمعی`.
 - **فرا** — _farā_ — over, encompassing
   - _Etym_: native Persian preverb meaning "across, beyond"; cognate with Latin _prae-_, English _fore-_.
   - _Forms_: collocation `فرا گرفتن` "to encompass, seize".
@@ -528,6 +555,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 9 (lines 74–76)
 
 `۹ و چنین گذشت که او یکی را دید از میان آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید نیمروز بود.`
+
 - **یکی** — _yek-ī_ — one (of)
   - _Etym_: `یک` _yek_ "one" + indefinite _-ī_ → "one [of them]".
 - **میان** — _mīyān_ — among; middle
@@ -547,6 +575,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 10 (lines 77–80)
 
 `۱۰ و او همچنین دید دوازده تای دیگر به دنبال او می آمدند و درخشش آنها از تابش ستارگان در گنبد آسمان فراتر بود.`
+
 - **همچنین** — _hamčonīn_ — also, likewise
   - _Etym_: `هم` _ham_ "same" + `چنین` _čonīn_ "such" → "in the same such [way]".
 - **دوازده** — _davāzdah_ — twelve
@@ -567,6 +596,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 11 (lines 81–84)
 
 `۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
+
 - **پایین** — _pāyīn_ — down, below
 - **روی** — _rū-ye_ — on, upon
   - _Forms_: collocation `بر روی زمین` "upon the earth".
@@ -578,12 +608,14 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 12 (lines 85–86)
 
 `۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح سرور گشت.`
+
 - **آکنده** — _ākande_ — filled, full
   - _Forms_: collocation `آکنده شدن` "to be filled".
 
 ### Verse 13 (lines 87–93)
 
 `۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
+
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
 - **وای** — _vāy_ — woe! alas!
   - _Forms_: collocation `وای بر` "woe unto".
@@ -601,6 +633,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 14 (lines 94–104)
 
 `۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر مطلق! تخت تو بالا در آسمانهاست و قدرت و نیکی و رحمت تو بر همۀ ساکنان زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی تو می آیند هلاک شوند!`
+
 - **هنگام** — _hengām_ — time, occasion
   - _Family_: `هنگامه` _hengāme_ "uproar, scene"; `به` `هنگام` _be hengām_ "in due time".
   - _Forms_: _`هنگامی` `که` hengām-ī ke_ "when, at the time that".
@@ -639,6 +672,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 15 (lines 105–110)
 
 `۱۵ و به این شیوه بود زبان پدرم در ستایش خدایش؛ زیرا روانش شادمانی می کرد و تمامی دلش، به سبب چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
+
 - **شیوه** — _šīve_ — manner, way, style
   - _Forms_: collocation `به این شیوه` "in this manner".
 - **روان** — _ravān_ — soul, spirit
@@ -660,6 +694,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 16 (lines 111–118)
 
 `۱۶ و اینک من، نیفای، سرگذشت کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت کاملی نخواهم نگاشت.`
+
 - **اینک** — _īnak_ — now; behold
   - _Etym_: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
   - _Family_: `این` _īn_ "this" (an entry in this chapter); cf. `اکنون` _aknūn_ "now".
@@ -678,6 +713,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 17 (lines 119–125)
 
 `۱۷ ولی من شرح کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت زندگی خودم را خواهم نگاشت.`
+
 - **ولی** — _valī_ — but, however
   - _Etym_: from Arabic, originally "guardian, friend"; in Persian shifted to a contrastive conjunction.
 - **شرح** — _šarḥ_ — description, account, exposition
@@ -701,6 +737,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 18 (lines 126–133)
 
 `۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد نابودی اورشلیم، بنگرید او به میان مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
+
 - **شما** — _šomā_ — you (pl. / formal)
 - **اعلام** — _eʿlām_ — announcement, declaration
   - _Etym_: from Arabic, verbal noun (form IV) of _ʿalima_ "to know", root ʿ-l-m → "making [it] known".
@@ -711,6 +748,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 19 (lines 134–142)
 
 `۱۹ و چنین گذشت که یهودیان او را به سبب چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن یک مسیح و همچنین بازخرید شدن جهان را به سادگی پدیدار می کرد.`
+
 - **گواهی** — _govāhī_ — testimony
   - _Etym_: `گواه` + `-ی` (abstract).
   - _Family_: `گواه` _govāh_ "witness".
@@ -738,6 +776,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 ### Verse 20 (lines 143–155)
 
 `۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز سرور بر سر همۀ کسانی است که او به سبب ایمانشان برگزیده است، تا آنها را به قدرت رهایی توانا سازد.`
+
 - **خشم** — _xašm_ — wrath, anger
   - _Forms_: collocation `خشم گرفتن` "to become wrathful".
 - **آنچنان** — _ānčonān_ — in such a way
