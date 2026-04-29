@@ -65,6 +65,15 @@ def _inline(text: str) -> str:
         lambda m: f"&#{ord(m.group(1))};",
         text,
     )
+    # Editorial ezafe marker: `{e}` in markdown → a styled kasra in HTML.
+    # The Persian Book of Mormon translation almost never writes the ezafe
+    # (-e linker) on consonant-final words; we add it for the reader by
+    # inserting `{e}` at the appropriate site in the inline source text or
+    # grammar example. The marker becomes a `<span class="ezafe">…</span>`
+    # carrying the kasra (U+0650), which is a combining mark that attaches
+    # visually to the preceding letter while the wrapping span lets CSS
+    # color it distinctly so the reader sees it's an editorial addition.
+    text = text.replace("{e}", '<span class="ezafe">ِ</span>')
     # Backtick code — process first so content inside backticks isn't
     # mis-treated as italic.
     text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
@@ -103,6 +112,31 @@ def _wrap_vocab_entry(content: str) -> str:
     return content
 
 
+# ---------- editorial-ezafe toggle ----------
+
+# Switch injected immediately before any block (paragraph or grammar
+# example) that contains a `<span class="ezafe">…</span>`. Built as a
+# label-wrapped checkbox so it's keyboard-accessible; the visible
+# track/thumb is styled in CSS via `:checked` sibling selectors. The
+# inline `<script>` in DOCUMENT delegates `change` events on the hidden
+# checkboxes — flipping a `hide-ezafe` class on `<body>` (which CSS
+# uses to hide every `.ezafe`) and mirroring the new state to every
+# other toggle on the page so any switch reflects/controls the same
+# global setting. Defaults to checked = ezafe visible.
+EZAFE_TOGGLE_HTML = (
+    '<label class="ezafe-toggle">'
+    '<span class="ezafe-toggle-text">Editorial ezafe</span>'
+    '<input type="checkbox" class="ezafe-toggle-input" checked'
+    ' aria-label="Show editorial ezafe markers">'
+    '<span class="ezafe-toggle-track" aria-hidden="true"></span>'
+    "</label>"
+)
+
+
+def _has_ezafe(html: str) -> bool:
+    return 'class="ezafe"' in html
+
+
 # ---------- post-processing: grammar examples ----------
 
 def _build_example(bq_lines: list[str]) -> str:
@@ -120,7 +154,10 @@ def _build_example(bq_lines: list[str]) -> str:
                 line = f'<span class="line-ref">{ref}</span> {rest}'
         out.append(f'  <div class="{cls}">{line}</div>')
     out.append("</div>")
-    return "\n".join(out)
+    body = "\n".join(out)
+    if _has_ezafe(body):
+        body = EZAFE_TOGGLE_HTML + "\n" + body
+    return body
 
 
 # ---------- block-level parser ----------
@@ -327,7 +364,10 @@ def _render_body(md: str) -> str:
             para.append(ps)
             i += 1
         if para:
-            out.append(f"<p>{_inline(' '.join(para))}</p>")
+            rendered = f"<p>{_inline(' '.join(para))}</p>"
+            if _has_ezafe(rendered):
+                out.append(EZAFE_TOGGLE_HTML)
+            out.append(rendered)
 
     return "\n".join(out)
 
@@ -346,6 +386,20 @@ DOCUMENT = """<!DOCTYPE html>
 <main>
 {body}
 </main>
+<script>
+(function () {{
+  document.addEventListener('change', function (e) {{
+    var t = e.target;
+    if (!t || !t.classList || !t.classList.contains('ezafe-toggle-input')) return;
+    var visible = t.checked;
+    document.body.classList.toggle('hide-ezafe', !visible);
+    var inputs = document.querySelectorAll('.ezafe-toggle-input');
+    for (var i = 0; i < inputs.length; i++) {{
+      inputs[i].checked = visible;
+    }}
+  }});
+}})();
+</script>
 </body>
 </html>
 """

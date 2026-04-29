@@ -22,7 +22,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Title
 
-`نخستین کتاب نیفای`
+`نخستین کتاب{e} نیفای`
 
 - **نخستین** — _noxostīn_ — first, foremost
   - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
@@ -33,7 +33,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Subtitle
 
-`فرمانروایی و خدمت او`
+`فرمانروایی و خدمت{e} او`
 
 - **فرمانروایی** — _farmān-ravāyī_ — reign, rule
   - _Etym_: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
@@ -46,7 +46,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 1
 
-`سرگذشت لیحای و همسرش ثریّا، و چهار پسرش که، (شروع از ارشدترین)، لامان، لموئیل، سام، و نیفای خوانده می شدند.`
+`سرگذشت{e} لیحای و همسرش ثریّا، و چهار پسرش که، (شروع از ارشدترین)، لامان، لموئیل، سام، و نیفای خوانده می شدند.`
 
 - **سرگذشت** — _sargozašt_ — account, life-story
   - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
@@ -83,7 +83,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 2
 
-`سَروَر به لیحای هشدار می دهد تا از سرزمین اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوّت می کند، و آنها بدنبال نابودی زندگی او هستند.`
+`سَروَر به لیحای هشدار می دهد تا از سرزمین{e} اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوّت می کند، و آنها بدنبال{e} نابودی{e} زندگی{e} او هستند.`
 
 - **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
@@ -138,7 +138,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 3
 
-`او با خانواده اش راهی سفری سه روزه در بیابان می شود.`
+`او با خانواده اش راهی{e} سفری{e} سه روزه در بیابان می شود.`
 
 - **با** — _bā_ — with
 - **خانواده** — _xānevāde_ — family
@@ -161,7 +161,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 4
 
-`نیفای برادرانش را برمی دارد و در پی نگاشته های یهودیان به سرزمین اورشلیم باز می گردد.`
+`نیفای برادرانش را برمی دارد و در پی{e} نگاشته های یهودیان به سرزمین{e} اورشلیم باز می گردد.`
 
 - **برادر** — _barādar_ — brother
   - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
@@ -184,7 +184,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 5
 
-`سرگذشت زجرهایشان.`
+`سرگذشت{e} زجرهایشان.`
 
 - **زجر** — _zajr_ — torment, distress
   - _Etym_: from Arabic, root z-j-r "to drive away, rebuke".
@@ -192,7 +192,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 #### Sentence 6
 
-`آنها دختران اسماعیل را به همسری می گیرند.`
+`آنها دختران{e} اسماعیل را به همسری می گیرند.`
 
 - **دختر** — _doxtar_ — daughter
   - _Forms_: pl. _`دختران` doxtarān_.
@@ -216,7 +216,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 9
 
-`راه مسافرت هایشان.`
+`راه{e} مسافرت هایشان.`
 
 - **راه** — _rāh_ — way, road
 - **مسافرت** — _mosāferat_ — travel, journey
@@ -235,7 +235,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 11
 
-`برادران نیفای علیه او شورش می کنند.`
+`برادران{e} نیفای علیه او شورش می کنند.`
 
 - **علیه** — _ʿalayhi_ — against
   - ⚠️ _Diphthong -ay- written as_ `ی`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
@@ -259,7 +259,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 13
 
-`آنها نام آنجا را خُرّمساران می خوانند.`
+`آنها نام{e} آنجا را خُرّمساران می خوانند.`
 
 - **نام** — _nām_ — name
   - _Etym_: native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).
@@ -271,7 +271,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 14
 
-`آنها از آب های پهناور به سوی سرزمین موعود می گذرند، و ادامۀ آن.`
+`آنها از آب های پهناور به سوی{e} سرزمین{e} موعود می گذرند، و ادامۀ آن.`
 
 - **سوی** — _sūy_ — direction, side
   - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
@@ -286,7 +286,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 15
 
-`این بر پایۀ سرگذشت نیفای است، یا به بیان دیگر، من، نیفای، این نگاشته را نوشتم.`
+`این بر پایۀ سرگذشت{e} نیفای است، یا به بیان{e} دیگر، من، نیفای، این نگاشته را نوشتم.`
 
 - **این** — _īn_ — this
 - **پایه** — _pāye_ — base, foundation
@@ -302,7 +302,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Chapter summary (lines 17–24)
 
-`فصل ۱ نیفای نگاشتۀ مردمش را شروع می نماید — لیحای در رؤیا ستونی از آتش می بیند و از یک کتابِ نبوّت می خواند — او خدا را ستایش می کند، آمدن مسیح را پیشگویی می کند — و نابودی اورشلیم را نبوّت می کند — او از سوی یهودیان آزار داده می شود. نزدیک به ۶۰۰ پیش از میلاد.`
+`فصل{e} ۱ نیفای نگاشتۀ مردمش را شروع می نماید — لیحای در رؤیا ستونی از آتش می بیند و از یک کتابِ نبوّت می خواند — او خدا را ستایش می کند، آمدن{e} مسیح را پیشگویی می کند — و نابودی{e} اورشلیم را نبوّت می کند — او از سوی{e} یهودیان آزار داده می شود. نزدیک به ۶۰۰ پیش از میلاد.`
 
 - **فصل** — _faṣl_ — chapter, section; season
   - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
@@ -346,7 +346,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 1 (lines 25–33)
 
-`۱   من، نیفای، از پدر و مادر خوبی زاده شده، بنابراین اندکی در همۀ آموخته های پدرم آموزش داده شدم؛ و در دورۀ روزگارم رنج های بسیاری دیده، با این وجود، در همۀ روزگارم مورد لطف والای سرور بوده؛ آری، از نیکی و رازهای خدا دانش زیادی داشته، بنابراین نگاشته ای از کارهایم در روزگارم را می نگارم.`
+`۱   من، نیفای، از پدر و مادر{e} خوبی زاده شده، بنابراین اندکی در همۀ آموخته های پدرم آموزش داده شدم؛ و در دورۀ روزگارم رنج های بسیاری دیده، با این وجود، در همۀ روزگارم مورد{e} لطف{e} والای سرور بوده؛ آری، از نیکی و رازهای خدا دانش{e} زیادی داشته، بنابراین نگاشته ای از کارهایم در روزگارم را می نگارم.`
 
 - **پدر** — _pedar_ — father
   - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
@@ -401,7 +401,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 2 (lines 34–36)
 
-`۲ آری، من نگاشته ای به زبان پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان مصریان است.`
+`۲ آری، من نگاشته ای به زبان{e} پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان{e} مصریان است.`
 
 - **۲** — _do_ — Persian numeral 2 (`دو`)
 - **زبان** — _zabān_ — tongue, language
@@ -416,7 +416,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 3 (lines 37–40)
 
-`۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست خودم می نگارم؛ و من آن را بر پایۀ دانش خود می نگارم.`
+`۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست{e} خودم می نگارم؛ و من آن را بر پایۀ دانش{e} خود می نگارم.`
 
 - **۳** — _se_ — Persian numeral 3 (`سه`)
 - **دانستن** — _dānestan_ (pres. _dān-_) — to know
@@ -429,7 +429,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 4 (lines 41–48)
 
-`۴ زیرا چنین گذشت در آغاز نخستین سال فرمانروایی صدقیا، پادشاه یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر عظیم اورشلیم نابود می شود.`
+`۴ زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران{e} بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر{e} عظیم{e} اورشلیم نابود می شود.`
 
 - **۴** — _čahār_ — Persian numeral 4 (`چهار`)
 - **زیرا** — _zīrā_ — because, for
@@ -486,7 +486,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 6 (lines 54–59)
 
-`۶ و چنین گذشت همچنان که او به سرور نیایش می کرد، آنجا ستونی از آتش آمد و بر صخره ای در برابر او نشست؛ و او بسیار دید و شنید؛ و به سبب چیزهایی که دید و شنید او بی اندازه تکان خورد و لرزید.`
+`۶ و چنین گذشت همچنان که او به سرور نیایش می کرد، آنجا ستونی از آتش آمد و بر صخره ای در برابر{e} او نشست؛ و او بسیار دید و شنید؛ و به سبب{e} چیزهایی که دید و شنید او بی اندازه تکان خورد و لرزید.`
 
 - **صخره** — _ṣaxre_ — rock, cliff
   - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
@@ -508,7 +508,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 7 (lines 60–63)
 
-`۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
+`۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح{e} مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
 
 - **۷** — _haft_ — Persian numeral 7 (`هفت`)
 - **خانه** — _xāne_ — house
@@ -527,7 +527,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 8 (lines 64–73)
 
-`۸ و بدین گونه چیره شده با روح مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال سرود خواندن و ستایش خدایشان.`
+`۸ و بدین گونه چیره شده با روح{e} مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال{e} سرود خواندن و ستایش{e} خدایشان.`
 
 - **۸** — _hašt_ — Persian numeral 8 (`هشت`)
 - **بدین** — _bedīn_ — in/by this
@@ -565,7 +565,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 9 (lines 74–76)
 
-`۹ و چنین گذشت که او یکی را دید از میان آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید نیمروز بود.`
+`۹ و چنین گذشت که او یکی را دید از میان{e} آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید{e} نیمروز بود.`
 
 - **۹** — _noh_ — Persian numeral 9 (`نه`)
 - **یکی** — _yek-ī_ — one (of)
@@ -586,7 +586,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 10 (lines 77–80)
 
-`۱۰ و او همچنین دید دوازده تای دیگر به دنبال او می آمدند و درخشش آنها از تابش ستارگان در گنبد آسمان فراتر بود.`
+`۱۰ و او همچنین دید دوازده تای دیگر به دنبال{e} او می آمدند و درخشش{e} آنها از تابش{e} ستارگان در گنبد{e} آسمان فراتر بود.`
 
 - **۱۰** — _dah_ — Persian numeral 10 (`ده` — a single word, not "one-zero")
 - **همچنین** — _hamčonīn_ — also, likewise
@@ -608,7 +608,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 11 (lines 81–84)
 
-`۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
+`۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر{e} پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
 
 - **۱۱** — _yāzdah_ — Persian numeral 11 (`یازده`)
 - **پایین** — _pāyīn_ — down, below
@@ -621,7 +621,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 12 (lines 85–86)
 
-`۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح سرور گشت.`
+`۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح{e} سرور گشت.`
 
 - **۱۲** — _davāzdah_ — Persian numeral 12 (`دوازده`)
 - **آکنده** — _ākande_ — filled, full
@@ -629,7 +629,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 13 (lines 87–93)
 
-`۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
+`۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید{e} تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان{e} آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
 
 - **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
@@ -648,7 +648,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 14 (lines 94–104)
 
-`۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر مطلق! تخت تو بالا در آسمانهاست و قدرت و نیکی و رحمت تو بر همۀ ساکنان زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی تو می آیند هلاک شوند!`
+`۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر{e} مطلق! تخت{e} تو بالا در آسمانهاست و قدرت و نیکی و رحمت{e} تو بر همۀ ساکنان{e} زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی{e} تو می آیند هلاک شوند!`
 
 - **۱۴** — _čahārdah_ — Persian numeral 14 (`چهارده`)
 - **هنگام** — _hengām_ — time, occasion
@@ -688,7 +688,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 15 (lines 105–110)
 
-`۱۵ و به این شیوه بود زبان پدرم در ستایش خدایش؛ زیرا روانش شادمانی می کرد و تمامی دلش، به سبب چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
+`۱۵ و به این شیوه بود زبان{e} پدرم در ستایش{e} خدایش؛ زیرا روانش شادمانی می کرد و تمامی{e} دلش، به سبب{e} چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
 
 - **۱۵** — _pānzdah_ — Persian numeral 15 (`پانزده`)
 - **شیوه** — _šīve_ — manner, way, style
@@ -711,7 +711,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 16 (lines 111–118)
 
-`۱۶ و اینک من، نیفای، سرگذشت کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت کاملی نخواهم نگاشت.`
+`۱۶ و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت{e} کاملی نخواهم نگاشت.`
 
 - **۱۶** — _šānzdah_ — Persian numeral 16 (`شانزده`)
 - **اینک** — _īnak_ — now; behold
@@ -731,7 +731,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 17 (lines 119–125)
 
-`۱۷ ولی من شرح کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت زندگی خودم را خواهم نگاشت.`
+`۱۷ ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت{e} زندگی{e} خودم را خواهم نگاشت.`
 
 - **۱۷** — _hefdah_ — Persian numeral 17 (`هفده`)
 - **ولی** — _valī_ — but, however
@@ -756,7 +756,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 18 (lines 126–133)
 
-`۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد نابودی اورشلیم، بنگرید او به میان مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
+`۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد{e} نابودی{e} اورشلیم، بنگرید او به میان{e} مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
 
 - **۱۸** — _hejdah_ — Persian numeral 18 (`هجده`)
 - **شما** — _šomā_ — you (pl. / formal)
@@ -768,7 +768,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 19 (lines 134–142)
 
-`۱۹ و چنین گذشت که یهودیان او را به سبب چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن یک مسیح و همچنین بازخرید شدن جهان را به سادگی پدیدار می کرد.`
+`۱۹ و چنین گذشت که یهودیان او را به سبب{e} چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن{e} یک مسیح و همچنین بازخرید شدن{e} جهان را به سادگی پدیدار می کرد.`
 
 - **۱۹** — _nūzdah_ — Persian numeral 19 (`نوزده`)
 - **گواهی** — _govāhī_ — testimony
@@ -797,7 +797,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 ### Verse 20 (lines 143–155)
 
-`۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز سرور بر سر همۀ کسانی است که او به سبب ایمانشان برگزیده است، تا آنها را به قدرت رهایی توانا سازد.`
+`۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران{e} پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال{e} او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز{e} سرور بر سر{e} همۀ کسانی است که او به سبب{e} ایمانشان برگزیده است، تا آنها را به قدرت{e} رهایی توانا سازد.`
 
 - **۲۰** — _bist_ — Persian numeral 20 (`بیست` — a separate word, not "two-zero")
 - **خشم** — _xašm_ — wrath, anger
@@ -859,7 +859,7 @@ Twelve points. Every example is taken verbatim from `01_nephi/normalized.txt` (l
 
 A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("thus") + past of `gozaštan` ("to pass"). Treat it as a fixed idiom; don't try to unpack "thus passed" mechanically.
 
-> Lines 41–43: `زیرا چنین گذشت در آغاز نخستین سال فرمانروایی صدقیا، پادشاه یهودا`
+> Lines 41–43: `زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا`
 > _zīrā čonīn gozašt dar āqāz-e noxostīn sāl-e farmān-ravāyī-ye Ṣedqiyā, pādšāh-e Yahūdā_
 > For it came to pass in the beginning of the first year of the reign of Zedekiah, king of Judah.
 
@@ -867,7 +867,7 @@ A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("t
 
 Persian forms the passive with `[past participle] + شدن` (conjugated). The agent, if named, is introduced with `از سوی` ("by the hand of") — there's a classic example in verse 7.
 
-> Line 23: `از سوی یهودیان آزار داده می‌شود`
+> Line 23: `از سوی{e} یهودیان آزار داده می‌شود`
 > _az sūy-e Yahūdiyān āzār dāde mī-šavad_
 > He is persecuted by the Jews.
 
@@ -877,7 +877,7 @@ Another (future passive): lines 91–93 `ساکنان آن نابود خواهن
 
 Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm, xāh-īd, xāh-and_) plus the **short infinitive** (past stem; `نگاشتن → نگاشت`, `شدن → شد`, `بردن → برد`). Negation: `نخواهم نگاشت` etc. Note the short infinitive does **not** take endings — all person/number marking is on the auxiliary.
 
-> Lines 119–120: `ولی من شرح کارهایم در روزگارم را خواهم نگاشت.`
+> Lines 119–120: `ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت.`
 > _valī man šarḥ-e kārhā-yam dar rūzgār-am-rā xāham negāšt._
 > But I will write an account of my works in my days.
 
@@ -889,7 +889,7 @@ Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm,
 > _az ū xāst tā ān-rā bexānad_
 > He asked him to read it ("so that he might read it").
 
-> Lines 153–155: `تا آنها را ... به قدرت رهایی توانا سازد`
+> Lines 153–155: `تا آنها را ... به قدرت{e} رهایی توانا سازد`
 > _tā ānhā-rā … be qodrat-e rahāyī tavānā sāzad_
 > that he may enable them … by the power of deliverance.
 
@@ -897,7 +897,7 @@ Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm,
 
 The unstressed suffix _-e_ (or _-ye_ after vowels) links head noun to modifiers in sequence. Long chains stack as **head – modifier – modifier – modifier**. Written text usually leaves the ezafe unwritten except on words ending in silent `ه` (→ `ۀ`) or `ی` (→ `یِ`).
 
-> Lines 151–152: `رحمت‌های مهرآمیز سرور`
+> Lines 151–152: `رحمت‌های مهرآمیز{e} سرور`
 > _raḥmat-hā-ye mehr-āmīz-e Sarvar_
 > the tender mercies of the Lord.
 
@@ -913,7 +913,7 @@ The suffix _-ī_ attached to a noun marks "a, a certain, one" (similar to Englis
 > _be ū ketāb-ī dād_
 > He gave him a book.
 
-> Lines 25–26: `از پدر و مادر خوبی زاده شده`
+> Lines 25–26: `از پدر و مادر{e} خوبی زاده شده`
 > _az pedar o mādar-e xūb-ī zāde šode_
 > born of goodly parents. [here `خوبی` modifies the ezafe-chain `پدر و مادر` and carries the indef. *-ī*]
 
@@ -931,7 +931,7 @@ Also compare lines 37–38 `این نگاشته ای که می‌نگارم را
 
 Persian builds most of its verbs as **noun/adjective + کردن / شدن / زدن / دادن / …**. The "meaning" lives in the non-verbal element; the light verb handles inflection. Examples from this chapter: `نبوّت کردن` (to prophesy), `ستایش کردن` (to praise), `توبه کردن` (to repent), `نیایش کردن` (to pray), `گواهی دادن` (to testify), `نشان دادن` (to show), `نابود شدن` (to be destroyed), `چیره شدن` (to be overcome), `پیش رفتن` (to go forth), `تکان خوردن` (to be shaken), `بانگ برآوردن` (to raise a cry).
 
-> Line 21: `آمدن مسیح را پیشگویی می‌کند`
+> Line 21: `آمدن{e} مسیح را پیشگویی می‌کند`
 > _āmadan-e Masīḥ-rā pīšgūyī mī-konad_
 > He foretells the coming of Christ.
 
@@ -939,7 +939,7 @@ Persian builds most of its verbs as **noun/adjective + کردن / شدن / زد�
 
 Attached directly to nouns: _-am_ (my), _-at_ (thy), _-aš_ (his/her/its), _-mān_ (our), _-tān_ (your), _-šān_ (their). Persian usually prefers these clitics to the full-pronoun + ezafe construction (`کتاب من` "my book" → `کتابم`).
 
-> Lines 25–26: `من، نیفای، از پدر و مادر خوبی زاده شده`
+> Lines 25–26: `من، نیفای، از پدر و مادر{e} خوبی زاده شده`
 > _man, Nīfāy, az pedar o mādar-e xūb-ī zāde šode_
 
 > Lines 32–33: `نگاشته ای از کارهایم در روزگارم را می‌نگارم`
@@ -966,7 +966,7 @@ The translation deliberately uses a high-register Persian that mirrors the KJV-s
 
 `که` introduces both complement clauses ("that he …") and relative clauses ("who, which, that"). For relatives the head noun usually carries indefinite _-ī_, i.e. `X-ī ke …` = "an X which …". The verb inside the relative clause is in whatever tense fits the sense.
 
-> Line 58: `به سبب چیزهایی که دید و شنید`
+> Line 58: `به سبب{e} چیزهایی که دید و شنید`
 > _be sabab-e čīzhā-yī ke dīd o šenīd_
 > because of the things which he had seen and heard.
 
@@ -981,7 +981,7 @@ The prefix _mī-_ marks non-perfective aspect — present-tense, habitual, or pa
 
 Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he was not doing"). Watch out: in compound verbs the _mī-_ attaches only to the auxiliary: `نبوّت می‌کند`, `گواهی می‌داد`.
 
-> Lines 111–113: `و اینک من، نیفای، سرگذشت کاملی از چیزهایی که پدرم نوشته است نمی‌نگارم`
+> Lines 111–113: `و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی‌نگارم`
 > _va īnak man, Nīfāy, sargozašt-e kāmel-ī az čīzhā-yī ke pedar-am nevešte ast nemī-negāram_
 > And now I, Nephi, do not write a full account of the things which my father has written.
 

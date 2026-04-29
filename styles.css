@@ -301,6 +301,106 @@ code {
   unicode-bidi: plaintext;
 }
 
+/* --------- editorial ezafe marker --------- */
+
+/* The Persian Book of Mormon source rarely writes the ezafe linker (-e) on
+   consonant-final words. We insert it editorially via the `{e}` marker in
+   markdown, which renders as `<span class="ezafe">ِ</span>` (a kasra). The
+   accent color signals "added by us, not in the original" — distinguishing
+   it from the few diacritics (e.g. the kasra in `کتابِ نبوّت`) that the
+   publisher actually wrote in the source. */
+
+.ezafe {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* When the toggle has been clicked, every editorial kasra disappears
+   from the page; the unstyled publisher's-own kasras (e.g. `کتابِ نبوّت`)
+   stay because they are *not* wrapped in `.ezafe`. */
+body.hide-ezafe .ezafe { display: none; }
+
+/* Toggle switch — small label+checkbox+track placed above any block that
+   contains an editorial ezafe. The native checkbox is visually hidden but
+   stays focusable; the visible "track" and the ::after "thumb" are styled
+   based on the input's `:checked` state via an adjacent-sibling selector.
+   Print hides the whole control (the markers themselves still print). */
+.ezafe-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--font-ui);
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+  margin: 0.6em 0 0.2em;
+}
+
+.ezafe-toggle-input {
+  /* Visually hide but keep focusable & in the accessibility tree. */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ezafe-toggle-track {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  background: var(--rule);
+  border-radius: 999px;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.ezafe-toggle-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease;
+}
+
+.ezafe-toggle-input:checked ~ .ezafe-toggle-track {
+  background: var(--accent);
+}
+
+.ezafe-toggle-input:checked ~ .ezafe-toggle-track::after {
+  transform: translateX(14px);
+}
+
+.ezafe-toggle-input:focus-visible ~ .ezafe-toggle-track {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.ezafe-toggle:hover .ezafe-toggle-track {
+  filter: brightness(1.05);
+}
+
+.ezafe-toggle-text {
+  /* sit on the same baseline as the track */
+}
+
+@media print {
+  .ezafe-toggle { display: none !important; }
+}
+
 /* --------- inline source-text block (the Persian text quoted under each
    verse / chapter-summary / book-summary line). A `<p>` whose only child is a
    `<code>` is treated as a block-level Persian quotation. */

@@ -145,6 +145,16 @@ Two further conventions:
   - **Each verse** — `### Verse N (lines X–Y)` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse. **Do not** sub-divide a verse with `#### Line N` headings; the source-line anchors live inside `*Forms*` citations on individual entries instead.
   - Source line numbers refer to `NN_book/normalized.txt`. Skip page-header artifact lines (e.g. `۱یافین …`) when transcribing the text inline; cite the surrounding line numbers in the `(lines X–Y)` heading.
   - When the source PDF's column flow split a token across lines (e.g. `حت` + `ّی` = `حتّی`), reassemble it in the inline text — the displayed Persian should read continuously.
+  - **Editorial ezafe marker `{e}`**. The Persian Book of Mormon source very rarely writes the unstressed ezafe linker (`-e` / `-ye`) on consonant-final words — the reader is expected to know to pronounce it. To help learners, insert a literal `{e}` in the markdown source at every site where ezafe is unwritten in the source text or in a grammar-example blockquote. `render.py` converts each `{e}` to `<span class="ezafe">ِ</span>` (a kasra wrapped in a styled span); CSS colors the kasra in the project's accent color and slightly bolds it, so the reader can see at a glance that this kasra was added by us — *not* part of the publisher's text. Examples:
+    - `کتاب{e} نیفای` → *ketāb-**e** Nīfāy* "the Book of Nephi" (the rendered HTML attaches the kasra to ب and styles it).
+    - `سرزمین{e} اورشلیم` → *sarzamīn-**e** Uršalīm* "the land of Jerusalem".
+    - `بدنبال{e} نابودی{e} زندگی{e} او` → *bedonbāl-**e** nābūdī-**ye** zendegī-**ye** ū* "in pursuit of the destruction of his life" — chained ezafes, all editorial.
+
+    Where ezafe is **already visible in the source spelling**, do **not** add `{e}`. Visible cases:
+    - `ۀ` on words ending in silent `ه` (e.g. `نگاشتۀ پدرم`, `همۀ مردم`).
+    - `ی` on words ending in long `ا` / `و` (e.g. `خدای قادر`, `روی زمین`).
+    - `های` (plural + ezafe) on plural-marked nouns (e.g. `رحمت‌های مهرآمیز`).
+    - The very rare explicit kasra the publisher wrote in the original (e.g. `کتابِ نبوّت` in the chapter summary). Leave that kasra alone — keeping it unstyled signals that it was already in the source.
 - **Order of first appearance**. A word appears once, in the verse where the reader first encounters it.
 - **Lemmatize**: one entry per lemma (infinitive for verbs, singular citation form for nouns). Do **not** re-list a later inflected form (e.g. a new past-tense) as a fresh entry — forms are handled by the present-stem / past-participle notes on the original entry.
 - **Scope**: every distinct lemma in the chapter, including function words.
