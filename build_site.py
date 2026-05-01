@@ -105,7 +105,7 @@ def build_index(chapters: list[tuple[int, str, Path, Path]], has_transcription: 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Persian Book of Mormon — Study Guides</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="study_guide/styles.css">
 <style>
   .source-credit {{
     margin: 2em 0;
@@ -185,8 +185,11 @@ def main() -> int:
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
 
-    # Copy stylesheet to the site root so chapter pages and index share it.
-    shutil.copy2(ROOT / "styles.css", out_dir / "styles.css")
+    # Copy stylesheet into _site/study_guide/ so chapter pages find it at ../styles.css
+    # and the index links to it at study_guide/styles.css.
+    sg_css_dir = out_dir / "study_guide"
+    sg_css_dir.mkdir(exist_ok=True)
+    shutil.copy2(ROOT / "study_guide" / "styles.css", sg_css_dir / "styles.css")
 
     chapters = discover_chapters(ROOT)
     if not chapters:
@@ -196,8 +199,8 @@ def main() -> int:
         ch_out_dir = out_dir / "study_guide" / src_dir.name
         ch_out_dir.mkdir(parents=True, exist_ok=True)
         md_text = md_path.read_text(encoding="utf-8")
-        # Chapter pages live two levels down (study_guide/NN_book/); link up to the shared stylesheet.
-        html = render(md_text, css_href="../../styles.css")
+        # Chapter pages live one level below styles.css (study_guide/NN_book/ vs study_guide/).
+        html = render(md_text, css_href="../styles.css")
         html_path = ch_out_dir / (md_path.stem + ".html")
         html_path.write_text(html, encoding="utf-8")
         print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
@@ -208,7 +211,7 @@ def main() -> int:
     if has_transcription:
         sg_out_dir = out_dir / "study_guide"
         sg_out_dir.mkdir(exist_ok=True)
-        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="../styles.css")
+        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="styles.css")
         tr_path = sg_out_dir / "transcription.html"
         tr_path.write_text(tr_html, encoding="utf-8")
         print(f"  study_guide/transcription.md → {tr_path.relative_to(ROOT)}", file=sys.stderr)

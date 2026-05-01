@@ -5,7 +5,7 @@ Converts a chapter's Markdown study guide into an HTML file with a small,
 documented set of CSS classes applied to the semantically meaningful
 elements (vocab entries, grammar examples, Persian text, transliterations,
 line references, proper-noun tags). The HTML links to a shared stylesheet
-at ../styles.css so every chapter shares one visual identity.
+at study_guide/styles.css (default css_href="../styles.css" is relative to each chapter's NN_book/ dir).
 
 Usage:
     python3 render.py <input.md> <output.html>
