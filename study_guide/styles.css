@@ -424,6 +424,20 @@ p > code:only-child {
 
 p:has(> code:only-child) { margin: 0.4em 0 0.6em; }
 
+/* Links from inline source-text words to vocab/grammar entries */
+code .src-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(10, 37, 64, 0.3);
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+}
+
+code .src-link:hover {
+  text-decoration-color: var(--persian-color);
+  text-decoration-style: solid;
+}
+
 /* Non-vocab bullet lists (e.g. intro, register markers) */
 ul:not(.vocab) {
   padding-left: 1.5em;

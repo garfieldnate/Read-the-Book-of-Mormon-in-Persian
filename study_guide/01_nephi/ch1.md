@@ -73,6 +73,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **سام** — _Sām_ [proper] — Sam (third son; Book of Mormon figure, distinct from Noah's son Shem)
   - _Etym_: Persian transliteration of English _Sam_. Coincides in spelling with Persian _Sām_, a hero of the Šāhnāmeh — but here it's the BoM name.
 - **خواندن** — _xāndan_ (pres. _xān-_) — to read; to sing; to call (here passive: _خوانده می شدند_ "they were called")
+  - _Forms_: past 3sg `خواند` xānd; pp. `خوانده` xānde; 3pl pres. `خوانند` xānand; subj. 3sg `بخواند` bexānad.
 - **می** — _mī-_ — imperfective verbal prefix (present, past imperfect); see grammar §12
 - **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary (see grammar §2)
   - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ ([book summary, sentence 4](#sentence-4); [chapter summary](#chapter-summary); [verse 4](#verse-4)); 3pl _`می` `شوند` mī-šavand_ ([book summary, sentence 7](#sentence-7)); subj. _`شوند` šavand_ ([book summary, sentence 7](#sentence-7); [verse 14](#verse-14)). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ ([book summary, sentence 1](#sentence-1): passive `خوانده می شدند` "were called"); pp. _`شده` šode_.
@@ -91,7 +92,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Family_: `هوش` _hūš_ "consciousness, alertness, intelligence"; `داشتن` _dāštan_ "to hold" (an entry in this chapter); `هوشیار` _hūšyār_ "vigilant".
   - _Forms_: collocation `هشدار دادن` "to warn".
 - **دادن** — _dādan_ (pres. _deh-_) — to give
-  - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning"; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
+  - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning"; past `داد` dād; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
 - **تا** — _tā_ — until; so that; up to
 - **سرزمین** — _sarzamīn_ — land, territory
   - _Etym_: `سر` + `زمین`.
@@ -116,11 +117,13 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `نا-` + `بکار` + `-ی` → "non-useful-ness, wickedness".
   - _Family_: `نا-` _nā-_ (privative prefix); `کار` _kār_ "work" (an entry in this chapter); `نابکار` _nābekār_ "wicked, useless" (the underlying adjective).
 - **ها** — _-hā_ — plural marker (clitic); _های -hā-ye_ = plural + ezafe
+  - _Forms_: `های` _-hā-ye_ (pl. + ezafe); `هایشان` _-hā-yešān_ (pl. + 3pl possessive); `هایتان` _-hā-yetān_ (pl. + 2pl possessive); `هایمان` _-hā-yemān_ (pl. + 1pl possessive).
 - **شان** — _-šān_ — 3pl possessive suffix ("their")
 - **نبوّت** — _nabovvat_ — prophecy
   - _Etym_: from Arabic _nubuwwa_, root n-b-ʾ "to be a prophet"; cognate with `نبی` _nabī_ "prophet".
   - _Forms_: collocation `نبوّت کردن` "to prophesy".
 - **کردن** — _kardan_ (pres. _kon-_) — to do, make [the most common compound-verb auxiliary]
+  - _Forms_: 3sg pres. `کند` konad; past `کرد` kard; pp. `کرده` karde; 1sg past `کردم` kardam; 3pl past `کردند` kardand; 3pl pres. `کنند` konand.
 - **آنها** — _ānhā_ — they, those
 - **دنبال** — _donbāl_ — behind, after
   - _Forms_: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
@@ -131,6 +134,7 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `زنده` + `-گی` (abstract suffix used after _-e_-final stems) → "the state of being alive".
   - _Family_: `زنده` _zende_ "alive"; `زیستن` _zīstan_ "to live"; `زندگانی` _zendegānī_ "life" (synonym, same root).
 - **بودن** — _būdan_ (pres. _hast-_ / _bāš-_) — to be (3pl _هستند hastand_; past _بود būd_; pp. _بوده būde_; copula _است ast_)
+  - _Forms_: copula 3sg `است` ast "is"; 3pl pres. `هستند` hastand "are"; past 3sg `بود` būd; 3pl past `بودند` būdand; pp. `بوده` būde.
 
 #### Sentence 3
 
@@ -170,13 +174,14 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **پی** — _pey_ — trace, track
   - _Forms_: collocation `در پی` "in pursuit of, in quest of".
 - **نگاشتن** — _negāštan_ (pres. _negār-_) — to write, inscribe [literary; = نوشتن; pp. and noun *نگاشته negāšte* "writing, inscription"]
+  - _Forms_: 1sg pres. `نگارم` negāram; past / short-inf. `نگاشت` negāšt; pp./noun `نگاشته` negāšte; ezafe form `نگاشتۀ` negāšte-ye.
 - **یهودیان** — _Yahūdiyān_ [proper] — the Jews
   - _Etym_: `یهود` + `-یان` (Persian gentilic plural).
   - _Family_: `یهود` _Yahūd_ "Jew(s)" (Arabic, ← Hebrew _Yəhūdī_ "Judahite"); `-یان` _-iyān_ (productive plural for ethnic groups: `ایرانیان` "Iranians", `مصریان` "Egyptians" in this chapter).
 - **باز** — _bāz_ — back, again
   - _Forms_: collocation `باز گشتن` "to return" (→ `بازگشتن` as a single verb).
 - **گشتن** — _gaštan_ (pres. _gard-_) — to become, turn [literary equivalent of شدن]; also "to return" in `باز گشتن`
-  - _Forms_: 3sg pres. _`می` `گردد` mī-gardad_, as in `باز می گردد` "returns"; past _`گشت` gašt_, as in `آکنده گشت` "became filled", [verse 12](#verse-12).
+  - _Forms_: 3sg pres. _`می` `گردد` mī-gardad_, as in `باز می گردد` "returns"; past _`گشت` gašt_, as in `آکنده گشت` "became filled", [verse 12](#verse-12); compound past `بازگشت` bāzgašt "returned".
 
 #### Sentence 5
 
@@ -228,6 +233,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Family_: `پهن` _pahn_ "broad, wide"; `پهنا` _pahnā_ "breadth"; `-آور` (productive: `سودآور` "profitable", `جنگ‌آور` "warrior").
   - _Forms_: collocation `آبهای پهناور` "the great waters" (i.e. the ocean).
 - **رسیدن** — _rasīdan_ (pres. _ras-_) — to arrive, to reach (3pl pres. _می رسند mī-rasand_)
+  - _Forms_: 3pl pres. `رسند` rasand (with `می-`).
 
 #### Sentence 11
 
@@ -275,6 +281,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: from Arabic, passive participle of _waʿada_ "to promise", root w-ʿ-d.
   - _Forms_: collocation `سرزمین موعود` "the Promised Land".
 - **گذشتن** — _gozaštan_ (pres. _gozar-_) — to pass; to cross (`چنین گذشت` = "it came to pass"; see grammar §1)
+  - _Forms_: past 3sg `گذشت` gozašt (e.g. `چنین گذشت` "it came to pass"); 3pl pres. `گذرند` gozarand.
 - **ادامه** — _edāme_ — continuation
   - _Etym_: from Arabic, root d-w-m "to last, continue".
   - _Forms_: ezafe _`ادامۀ` edāme-ye_.
@@ -295,6 +302,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **دیگر** — _dīgar_ — other, another
 - **من** — _man_ — I, me
 - **نوشتن** — _neveštan_ (pres. _nevīs-_) — to write (past 1sg _نوشتم neveštam_; pp. _نوشته nevešte_)
+  - _Forms_: 1sg past `نوشتم` neveštam; pp. `نوشته` nevešte.
 
 ### Chapter summary
 
@@ -307,6 +315,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **نمودن** — _nemūdan_ (pres. _namāy-_) — to do; to show; to appear [literary alternative to کردن]
   - _Forms_: 3sg pres. _`می` `نماید` mī-namāyad_, as in `شروع می نماید` "begins", [chapter summary](#chapter-summary); past _`نمود` namūd_, as in `شروع نمود` "began", [verse 18](#verse-18).
 - **رؤیا** — _roʾyā_ — vision
+  - _Forms_: with indef. _-ī_: `رؤیایی` roʾyā-yī "a vision".
 - **ستون** — _sotūn_ — pillar, column
   - _Forms_: with indef. _-ī_: _`ستونی` sotūn-ī_ "a pillar".
 - **آتش** — _ātaš_ — fire
@@ -351,6 +360,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Family_: `خوبی` _xūbī_ "goodness, virtue"; `خوش` _xoš_ "happy, pleasant" (related root).
   - _Forms_: with indef. _-ī_: _`خوبی` xūb-ī_ "a good [one]" (or "goodness" as abstract noun).
 - **زادن** — _zādan_ (pres. _zā-_) — to give birth (pp. _زاده zāde_ "born")
+  - _Forms_: pp. `زاده` zāde "born".
 - **بنابراین** — _banābarīn_ — therefore
   - _Etym_: `بنا` + `بر` + `این` → "based on this".
   - _Family_: `بنا` _banā_ "foundation, basis" (Arabic, root b-n-y); also seen in `بر پایۀ` "on the basis of" (synonymous).
@@ -359,6 +369,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **همه** — _hame_ — all, every
   - _Forms_: ezafe _`همۀ` hame-ye_.
 - **آموختن** — _āmūxtan_ (pres. _āmūz-_) — to learn, teach (pp. _آموخته āmūxte_ = "learning, thing learned")
+  - _Forms_: pp./noun `آموخته` āmūxte "learning, thing learned".
 - **آموزش** — _āmūzeš_ — teaching, instruction
   - _Etym_: `آموز-` (pres. stem of `آموختن` "to teach/learn") + `-ش` (nominalizer).
   - _Family_: `آموختن` _āmūxtan_ "to teach, to learn" (verb); `آموخته` _āmūxte_ "learning" (pp).
@@ -488,7 +499,9 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
 - **برابر** — _barābar_ — opposite, in front of; equal
 - **نشستن** — _nešastan_ (pres. _nešīn-_) — to sit (past _nešast_, pp. _nešaste_)
+  - _Forms_: past `نشست` nešast; pp. `نشسته` nešaste.
 - **شنیدن** — _šenīdan_ (pres. _šenav-_) — to hear
+  - _Forms_: past `شنید` šenīd; pp. `شنیده` šenīde; 3pl past `شنیدند` šenīdand.
 - **سبب** — _sabab_ — cause, reason
   - _Etym_: from Arabic, root s-b-b "to cause, occasion".
   - _Forms_: collocation `به سبب` "because of".
@@ -500,7 +513,9 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **تکان** — _tekān_ — shake, tremor
   - _Forms_: collocation `تکان خوردن` "to be shaken" (lit. "to take a shake").
 - **خوردن** — _xordan_ (pres. _xor-_) — to eat; to encounter (`تکان خوردن` = to be shaken)
+  - _Forms_: past `خورد` xord (e.g. `تکان خورد` "was shaken").
 - **لرزیدن** — _larzīdan_ (pres. _larz-_) — to tremble
+  - _Forms_: past `لرزید` larzīd.
 
 ### Verse 7
 
@@ -520,6 +535,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Family_: `گستردن` _gostardan_ "to spread out" (the verb `بستر` derives from); `بستری` _bestarī_ "bedridden, hospitalized".
   - _Forms_: with suffix _`بسترش` bestar-aš_ "his bed".
 - **انداختن** — _andāxtan_ (pres. _andāz-_) — to throw, cast (`بیرون انداختن` = to cast out)
+  - _Forms_: past `انداخت` andāxt; pp. `انداخته` andāxte.
 
 ### Verse 8
 
@@ -531,13 +547,16 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Forms_: collocation `بدین گونه` "in this manner".
 - **گونه** — _gūne_ — kind, manner
   - _Forms_: collocation `بدین گونه` "in this manner".
-- **بردن** — _bordan_ (pres. _bar-_) — to carry, take (pp. _برده borde_
+- **بردن** — _bordan_ (pres. _bar-_) — to carry, take (pp. _برده borde_)
+  - _Forms_: pp. `برده` borde.
 - **آسمان** — _āsmān_ — sky, heaven
   - _Etym_: native Persian; from Avestan _asman-_ "sky, stone" — originally "stony vault".
   - _Family_: `آسمانی` _āsmānī_ "heavenly, celestial".
   - _Forms_: pl. _`آسمانها` āsmānhā_.
 - **گشودن** — _gošūdan_ (pres. _gošāy-_) — to open (pp. _گشوده gošūde_)
+  - _Forms_: pp. `گشوده` gošūde.
 - **پنداشتن** — _pendāštan_ (pres. _pendār-_) — to think, suppose, imagine
+  - _Forms_: past `پنداشت` pendāšt.
 - **تخت** — _taxt_ — throne
   - _Forms_: with suffix _`تختش` taxt-aš_ "his throne".
 - **جمعیّت** — _jamʿiyyat_ — multitude, assembly
@@ -612,6 +631,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Forms_: collocation `بر روی زمین` "upon the earth".
 - **زمین** — _zamīn_ — earth, land
 - **ایستادن** — _istādan_ (pres. _ist-_) — to stand
+  - _Forms_: past `ایستاد` istād.
 - **خواستن** — _xāstan_ (pres. _xāh-_) — to want; auxiliary for future tense (see grammar §3)
   - _Forms_: as main verb, 3sg past _`خواست` xāst_ "wanted, asked" ([verse 11](#verse-11)). As future auxiliary: 1sg _`خواهم` xāham_, 3sg _`خواهد` xāhad_, 3pl _`خواهند` xāhand_ ([verse 13](#verse-13)); neg. 1sg _`نخواهم` naxāham_ ([verse 16](#verse-16)), neg. 2sg _`نخواهی` naxāhī_ ([verse 14](#verse-14)).
 
@@ -629,6 +649,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 - **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
+  - _Forms_: past `گفت` goft; archaic narrative past `گفتا` goftā.
 - **وای** — _vāy_ — woe! alas!
   - _Forms_: collocation `وای بر` "woe unto".
 - **پلید** — _palīd_ — filthy, wicked
@@ -659,6 +680,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **بانگ** — _bāng_ — cry, shout, call
   - _Forms_: collocation `بانگ برآوردن` "to cry out, raise a cry".
 - **برآوردن** — _barāvardan_ — to lift up, raise
+  - _Forms_: past `برآورد` barāvard (e.g. `بانگ برآورد` "cried out").
 - **مانند** — _mānand_ — like, such as
 - **قادر** — _qāder_ — powerful, able
   - _Etym_: from Arabic, active participle of _qadara_ "to be able", root q-d-r.
@@ -808,8 +830,11 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Family_: `سنگ` _sang_ "stone"; `-سار` _-sār_ (suffix; cf. `کوهسار` "mountainous land", `خرّمساران` "Bountiful" in this chapter).
   - _Forms_: collocation `سنگسار کردن` "to stone".
 - **کشتن** — _koštan_ (pres. _koš-_) — to kill (pp. _کشته košte_)
+  - _Forms_: pp. `کشته` košte.
 - **برآمدن** — _barāmadan_ — to rise up, come forth
+  - _Forms_: 3pl past `برآمدند` barāmadand.
 - **توانستن** — _tavānestan_ (pres. _tavān-_) — to be able (subj. _بتوانند betavānand_)
+  - _Forms_: subj. 3pl `بتوانند` betavānand.
 - **جان** — _jān_ — life, soul
   - _Etym_: native Persian; from Avestan _jiyāti-_ "life"; cognate with English _vital_, Latin _vita_.
   - _Forms_: with suffix _`جانش` jān-aš_ "his life".
@@ -822,6 +847,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: from Arabic, root ʾ-m-n "to be safe, trust"; verbal noun (form IV) "to make faithful".
   - _Forms_: with suffix _`ایمانشان` īmān-ešān_ "their faith".
 - **برگزیدن** — _bargozīdan_ (pres. _bargozīn-_) — to choose (pp. _برگزیده bargozīde_)
+  - _Forms_: pp. `برگزیده` bargozīde.
 - **رهایی** — _rahāyī_ — deliverance, release
   - _Etym_: `رها` + `-ی` (abstract).
   - _Family_: `رها` _rahā_ "free, released"; `رها کردن rahā kardan` "to release"; `رهانیدن` _rahānīdan_ "to deliver".

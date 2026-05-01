@@ -94,6 +94,117 @@ def _inline(text: str) -> str:
     return text
 
 
+# ---------- vocab map: first-pass word → anchor-id lookup ----------
+
+_PERSIAN_CHAR_RE = re.compile(r"[؀-ۿ‌]")
+_PERSIAN_TOKEN_RE = re.compile(r"[ء-ۿ‌]+")
+_DIACRITICS_RE = re.compile(r"[ً-ٰٟ]")
+_VOCAB_HW_RE = re.compile(r"^- \*\*(.+?)\*\*")
+_GRAM_ITEM_RE = re.compile(r"^- `([^`]+)`")
+_FORMS_LABEL_RE = re.compile(r"^- _(Forms?|Form)_:")
+_META_LABEL_LINE_RE = re.compile(r"^- _")
+
+# Suffixes to try stripping (longest first) when exact lookup fails.
+_LOOKUP_SUFFIXES = [
+    "هایشان", "هایتان", "هایمان", "هایی", "ترین", "مان", "تان", "شان",
+    "های", "ند", "یم", "ان", "ها", "یی", "ی", "ش", "ت", "م", "ه",
+]
+
+
+def _build_vocab_map(md_text: str) -> dict[str, str]:
+    """Return {persian_form: anchor_id} for all vocab headwords, their
+    backtick-quoted Forms entries, and grammar list items starting with
+    a backtick-quoted Persian word."""
+    word_map: dict[str, str] = {}
+    current_anchor: str | None = None
+    in_forms = False
+
+    for raw_line in md_text.split("\n"):
+        stripped = raw_line.lstrip()
+        indent = len(raw_line) - len(stripped)
+
+        if indent == 0:
+            in_forms = False
+            m = _VOCAB_HW_RE.match(stripped)
+            if m:
+                hw = m.group(1).strip()
+                if _PERSIAN_CHAR_RE.search(hw):
+                    current_anchor = f"vocab-{hw}"
+                    word_map[hw] = current_anchor
+                    # Also store diacritic-stripped form so source-text words
+                    # with publisher diacritics (e.g. خُرّمساران) resolve to
+                    # headwords that omit them (e.g. خرّمساران).
+                    clean_hw = _DIACRITICS_RE.sub("", hw)
+                    if clean_hw != hw and clean_hw not in word_map:
+                        word_map[clean_hw] = current_anchor
+                else:
+                    current_anchor = None
+            else:
+                gm = _GRAM_ITEM_RE.match(stripped)
+                if gm:
+                    word = gm.group(1).strip()
+                    if _PERSIAN_CHAR_RE.search(word) and " " not in word and word not in word_map:
+                        word_map[word] = f"gram-{word}"
+                current_anchor = None
+        elif indent >= 2 and current_anchor:
+            if _FORMS_LABEL_RE.match(stripped):
+                in_forms = True
+            elif _META_LABEL_LINE_RE.match(stripped):
+                in_forms = False
+            if in_forms:
+                for tok in re.findall(r"`([^`]+)`", raw_line):
+                    tok = tok.strip()
+                    if _PERSIAN_CHAR_RE.search(tok) and " " not in tok and tok not in word_map:
+                        word_map[tok] = current_anchor
+
+    return word_map
+
+
+def _lookup_word(word: str, word_map: dict[str, str]) -> str | None:
+    """Return anchor id for `word`, trying diacritic-stripping and suffix
+    stripping as fallbacks."""
+    if word in word_map:
+        return word_map[word]
+    clean = _DIACRITICS_RE.sub("", word)
+    if clean != word and clean in word_map:
+        return word_map[clean]
+    for suffix in _LOOKUP_SUFFIXES:
+        if clean.endswith(suffix) and len(clean) - len(suffix) >= 2:
+            stem = clean[: -len(suffix)]
+            if stem in word_map:
+                return word_map[stem]
+    return None
+
+
+def _link_source_text(text: str, word_map: dict[str, str]) -> str:
+    """Convert raw source-text content (from inside backticks, before any
+    _inline() processing) to HTML with Persian words linked to vocab/grammar
+    entries and {e} markers converted to ezafe spans."""
+    result: list[str] = []
+    parts = re.split(r"\{e\}", text)
+    for i, part in enumerate(parts):
+        if i > 0:
+            result.append('<span class="ezafe">ِ</span>')
+        last = 0
+        for m in _PERSIAN_TOKEN_RE.finditer(part):
+            before = part[last : m.start()]
+            if before:
+                result.append(html_lib.escape(before))
+            word = m.group(0)
+            anchor = _lookup_word(word, word_map)
+            if anchor:
+                result.append(
+                    f'<a href="#{anchor}" class="src-link">{html_lib.escape(word)}</a>'
+                )
+            else:
+                result.append(html_lib.escape(word))
+            last = m.end()
+        tail = part[last:]
+        if tail:
+            result.append(html_lib.escape(tail))
+    return "".join(result)
+
+
 # ---------- post-processing: vocab entries ----------
 
 LINE_REF_RE = re.compile(
@@ -265,7 +376,10 @@ def _emit_tree(
     out: list[str] = [f"{sp}<ul{ul_attr}>"]
     for content, children in nodes:
         if mode == "vocab":
-            li_open = '<li class="vocab-entry">'
+            _hw_m = re.search(r"<strong>([^<]+)</strong>", content)
+            _hw = _hw_m.group(1).strip() if _hw_m else ""
+            _hw_id = f' id="vocab-{_hw}"' if _hw else ""
+            li_open = f'<li class="vocab-entry"{_hw_id}>'
             li_content = _wrap_vocab_entry(content)
             child_mode = "meta"
         elif mode == "meta":
@@ -274,7 +388,12 @@ def _emit_tree(
             li_content = _wrap_meta_label(content)
             child_mode = "plain"
         else:
-            li_open = "<li>"
+            _code_m = re.match(r"<code>([؀-ۿ‌][^<]*)</code>", content)
+            if _code_m:
+                _gram_word = _code_m.group(1).strip()
+                li_open = f'<li id="gram-{_gram_word}">'
+            else:
+                li_open = "<li>"
             li_content = content
             child_mode = "plain"
 
@@ -304,7 +423,7 @@ def _emit_list(items: list[tuple[int, str]]) -> str:
     return _emit_tree(tree, depth=0, mode="vocab" if top_is_vocab else "plain")
 
 
-def _render_body(md: str) -> str:
+def _render_body(md: str, word_map: dict[str, str] | None = None) -> str:
     md = md.replace("\r\n", "\n").replace("\r", "\n")
     lines = md.split("\n")
     out: list[str] = []
@@ -377,7 +496,13 @@ def _render_body(md: str) -> str:
             para.append(ps)
             i += 1
         if para:
-            rendered = f"<p>{_inline(' '.join(para))}</p>"
+            raw = " ".join(para)
+            _src_m = re.match(r"^`([^`]+)`$", raw) if word_map is not None else None
+            if _src_m:
+                _inner = _link_source_text(_src_m.group(1), word_map)
+                rendered = f"<p><code>{_inner}</code></p>"
+            else:
+                rendered = f"<p>{_inline(raw)}</p>"
             if _has_ezafe(rendered):
                 out.append(EZAFE_TOGGLE_HTML)
             out.append(rendered)
@@ -419,7 +544,8 @@ DOCUMENT = """<!DOCTYPE html>
 
 
 def render(md_text: str, css_href: str = "../styles.css") -> str:
-    body = _render_body(md_text)
+    word_map = _build_vocab_map(md_text)
+    body = _render_body(md_text, word_map=word_map)
     # Prefer the first H1 as the document title
     m = re.search(r"^#\s+(.+)$", md_text, flags=re.MULTILINE)
     title = _inline(m.group(1)) if m else "Study Guide"
