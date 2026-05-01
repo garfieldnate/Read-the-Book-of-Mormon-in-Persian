@@ -46,6 +46,14 @@ from pathlib import Path
 _ESCAPABLE = "*_`\\"
 
 
+def _slug(text: str) -> str:
+    """Convert heading text to a URL-safe id slug."""
+    text = re.sub(r"<[^>]+>", "", text)  # strip any HTML tags
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
+
+
 def _inline(text: str) -> str:
     """Apply markdown inline formatting (**bold**, *italic*, `code`).
 
@@ -74,6 +82,8 @@ def _inline(text: str) -> str:
     # visually to the preceding letter while the wrapping span lets CSS
     # color it distinctly so the reader sees it's an editorial addition.
     text = text.replace("{e}", '<span class="ezafe">ِ</span>')
+    # Markdown links [text](url) → <a href="url">text</a>
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
     # Backtick code — process first so content inside backticks isn't
     # mis-treated as italic.
     text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
@@ -87,7 +97,8 @@ def _inline(text: str) -> str:
 # ---------- post-processing: vocab entries ----------
 
 LINE_REF_RE = re.compile(
-    r"^(Lines?\s+[\d–—\-]+:)\s*(.*)$"
+    r"^(<a\b[^>]+>[^<]+</a>:|Lines?\s+[\d–—\-]+:)\s*(.*)$",
+    re.DOTALL,
 )
 
 
@@ -314,7 +325,9 @@ def _render_body(md: str) -> str:
         m = HEADING_RE.match(line)
         if m:
             level = len(m.group(1))
-            out.append(f"<h{level}>{_inline(m.group(2))}</h{level}>")
+            content = _inline(m.group(2))
+            slug = _slug(m.group(2))
+            out.append(f'<h{level} id="{slug}">{content}</h{level}>')
             i += 1
             continue
 

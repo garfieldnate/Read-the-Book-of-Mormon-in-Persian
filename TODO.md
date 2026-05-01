@@ -1,5 +1,5 @@
-- remove references to line numbers; reference verse or sentence numbers instead
 - collapse vocab sections so you can read straight through
 - put grammar into vocab sections
-- make words tappable
+- make words clickable
 - final simplified word index that prints as two columns
+- add hidable section translations
