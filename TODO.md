@@ -1,4 +1,5 @@
-- In transcription section, clarify what ṣ and ẓ, etc. are (the letters with dots below).
-- Clarify the entire transcription scheme in the readme for future study guide generations. Diphthongs in particular I don't know how they are supposed to sound (ow, ay, etc.). For example I don't know if مورد mowred partially rhymes with English "mow" or "mouth".
-- Make github pages website, built in CI. Add index.html to link to each study guide. Generate the HTML in CI from the markdown file, and remove the html file from the repository. Give the original copyright and title in the index.html page. Update readme accordingly. Probably a good idea to reorganize the study guides a bit; like rename 01 to 01_nephi, etc. and rename the study_guide.md that's there now to ch1.md. Then it will be very clear where to put future guides for the next chapters.
-- Copy book of Mormon text inline; for the book summary section, show one line of text, followed by the vocab for the section. For other sections, just put the text for the chapter summary or for the individual verse entirely, followed by the vocab for the summary or verse. Remove all of the breaks that indicate lines in the original text. Update style/structure instructions in the readme accordingly.
+- remove references to line numbers; reference verse or sentence numbers instead
+- collapse vocab sections so you can read straight through
+- put grammar into vocab sections
+- make words tappable
+- final simplified word index that prints as two columns

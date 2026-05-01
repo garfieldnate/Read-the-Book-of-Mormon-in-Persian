@@ -14,7 +14,7 @@ Organized in **order of first appearance**, grouped by verse. A word appears in 
 
 ### Book summary
 
-The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas preview vocabulary for later chapters (ship, wilderness, brothers, promised land). The Persian text is the publisher's web edition (one continuous paragraph), split here into one sub-block per sentence so the vocabulary stays manageable; sub-block numbering does **not** correspond to line numbers in `01_nephi/normalized.txt`.
+The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas preview vocabulary for later chapters (ship, wilderness, brothers, promised land).
 
 #### Title
 
@@ -531,7 +531,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Forms_: collocation `بدین گونه` "in this manner".
 - **گونه** — _gūne_ — kind, manner
   - _Forms_: collocation `بدین گونه` "in this manner".
-- **بردن** — _bordan_ (pres. _bar-_) — to carry, take (pp. _برده borde_; note: source splits _بُرده شد_ across lines 66–67)
+- **بردن** — _bordan_ (pres. _bar-_) — to carry, take (pp. _برده borde_
 - **آسمان** — _āsmān_ — sky, heaven
   - _Etym_: native Persian; from Avestan _asman-_ "sky, stone" — originally "stony vault".
   - _Family_: `آسمانی` _āsmānī_ "heavenly, celestial".
