@@ -214,6 +214,46 @@ def _link_source_text(
     return "".join(result)
 
 
+# ---------- interlinear gloss ----------
+
+_GL_ABBR_RE = re.compile(r'([A-Z]{2,}[0-9]?|[0-9][A-Z]{2,})')
+
+
+def _render_gloss_line(text: str) -> str:
+    """Render a [gloss] paragraph into an interlinear HTML block.
+
+    Input: space-separated `persian|gloss` tokens. `|` separates the source
+    word from its Leipzig-style gloss. Uppercase abbreviations in the gloss
+    part (EZ, ACC, PST, 3PL, …) are wrapped in <span class="gl"> for
+    small-caps rendering. Tokens without `|` are treated as bare labels.
+    """
+    units: list[str] = []
+    for token in text.split():
+        if "|" in token:
+            src, tag = token.split("|", 1)
+            src_html = html_lib.escape(src)
+            tag_escaped = html_lib.escape(tag)
+            tag_html = _GL_ABBR_RE.sub(
+                r'<span class="gl">\1</span>', tag_escaped
+            )
+            units.append(
+                f'<div class="gloss-unit">'
+                f'<span class="gloss-src">{src_html}</span>'
+                f'<span class="gloss-tag">{tag_html}</span>'
+                f"</div>"
+            )
+        else:
+            escaped = html_lib.escape(token)
+            units.append(
+                f'<div class="gloss-unit">'
+                f'<span class="gloss-src">{escaped}</span>'
+                f'<span class="gloss-tag"></span>'
+                f"</div>"
+            )
+    words_html = "\n".join(units)
+    return f'<div class="gloss"><div class="gloss-words">\n{words_html}\n</div></div>'
+
+
 # ---------- post-processing: vocab entries ----------
 
 LINE_REF_RE = re.compile(
@@ -265,14 +305,28 @@ EZAFE_TOGGLE_HTML = (
 
 TRANSLATION_TOGGLE_HTML = (
     '<label class="translation-toggle">'
-    '<span class="translation-toggle-text">Translations</span>'
+    '<span class="translation-toggle-text">Translation</span>'
     '<input type="checkbox" class="translation-toggle-input"'
     ' aria-label="Show translations">'
     '<span class="translation-toggle-track" aria-hidden="true"></span>'
     "</label>"
 )
 
-TOGGLE_BAR_HTML = f'<div class="toggle-bar">{EZAFE_TOGGLE_HTML}{TRANSLATION_TOGGLE_HTML}</div>'
+GLOSS_TOGGLE_HTML = (
+    '<label class="gloss-toggle">'
+    '<span class="gloss-toggle-text">Gloss</span>'
+    '<input type="checkbox" class="gloss-toggle-input"'
+    ' aria-label="Show interlinear gloss">'
+    '<span class="gloss-toggle-track" aria-hidden="true"></span>'
+    "</label>"
+)
+
+TOGGLE_BAR_HTML = (
+    f'<div class="toggle-bar">'
+    f'{EZAFE_TOGGLE_HTML}{TRANSLATION_TOGGLE_HTML}{GLOSS_TOGGLE_HTML}'
+    f'</div>'
+)
+EZAFE_TOGGLE_BAR_HTML = f'<div class="toggle-bar">{EZAFE_TOGGLE_HTML}</div>'
 
 
 def _has_ezafe(html: str) -> bool:
@@ -298,7 +352,7 @@ def _build_example(bq_lines: list[str]) -> str:
     out.append("</div>")
     body = "\n".join(out)
     if _has_ezafe(body):
-        body = TOGGLE_BAR_HTML + "\n" + body
+        body = EZAFE_TOGGLE_BAR_HTML + "\n" + body
     return body
 
 
@@ -523,10 +577,13 @@ def _render_body(
             raw = " ".join(para)
             _src_m = re.match(r"^`([^`]+)`$", raw) if word_map is not None else None
             _trans_m = re.match(r"^\[(en|lit)\]\s+(.+)$", raw, re.DOTALL)
+            _gloss_m = re.match(r"^\[gloss\]\s+(.+)$", raw, re.DOTALL)
             if _src_m:
                 _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
                 out.append(TOGGLE_BAR_HTML)
                 out.append(f"<p><code>{_inner}</code></p>")
+            elif _gloss_m:
+                out.append(_render_gloss_line(_gloss_m.group(1)))
             elif _trans_m:
                 lang = _trans_m.group(1)
                 cls = "translation-en" if lang == "en" else "translation-lit"
@@ -534,7 +591,7 @@ def _render_body(
             else:
                 rendered = f"<p>{_inline(raw)}</p>"
                 if _has_ezafe(rendered):
-                    out.append(TOGGLE_BAR_HTML)
+                    out.append(EZAFE_TOGGLE_BAR_HTML)
                 out.append(rendered)
 
     return "\n".join(out)
@@ -569,6 +626,12 @@ DOCUMENT = """<!DOCTYPE html>
       var v = t.checked;
       document.body.classList.toggle('show-translations', v);
       var ins = document.querySelectorAll('.translation-toggle-input');
+      for (var i = 0; i < ins.length; i++) ins[i].checked = v;
+    }}
+    if (t.classList.contains('gloss-toggle-input')) {{
+      var v = t.checked;
+      document.body.classList.toggle('show-gloss', v);
+      var ins = document.querySelectorAll('.gloss-toggle-input');
       for (var i = 0; i < ins.length; i++) ins[i].checked = v;
     }}
   }});

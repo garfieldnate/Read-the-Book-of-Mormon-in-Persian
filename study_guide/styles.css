@@ -473,6 +473,131 @@ body.hide-ezafe .ezafe { display: none; }
   filter: brightness(1.05);
 }
 
+/* --------- gloss toggle --------- */
+
+.gloss-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--font-ui);
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.gloss-toggle-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.gloss-toggle-track {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  background: var(--rule);
+  border-radius: 999px;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.gloss-toggle-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease;
+}
+
+.gloss-toggle-input:checked ~ .gloss-toggle-track {
+  background: var(--accent);
+}
+
+.gloss-toggle-input:checked ~ .gloss-toggle-track::after {
+  transform: translateX(14px);
+}
+
+.gloss-toggle-input:focus-visible ~ .gloss-toggle-track {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.gloss-toggle:hover .gloss-toggle-track {
+  filter: brightness(1.05);
+}
+
+/* --------- interlinear gloss block (hidden by default, revealed by toggle) --------- */
+
+.gloss {
+  display: none;
+  margin: 0.3em 0 0.5em;
+  overflow-x: auto;
+}
+
+body.show-gloss .gloss { display: block; }
+
+.gloss-words {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  direction: ltr;
+  gap: 0.4em 0.9em;
+  padding: 0.65em 1em;
+  background: var(--meta-bg);
+  border-left: 4px solid var(--rule);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.88em;
+}
+
+.gloss-unit {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  direction: ltr;
+  text-align: center;
+}
+
+.gloss-src {
+  font-family: var(--font-ui);
+  font-size: 0.95em;
+  color: var(--text);
+  direction: ltr;
+  line-height: 1.5;
+}
+
+.gloss-tag {
+  font-size: 0.78em;
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  direction: ltr;
+  line-height: 1.35;
+  white-space: nowrap;
+  margin-top: 0.05em;
+  min-height: 1em;
+}
+
+/* Leipzig abbreviations rendered in small-caps */
+.gl {
+  font-variant-caps: all-small-caps;
+  font-style: normal;
+  color: var(--text);
+}
+
 /* --------- translation divs (hidden by default, revealed by toggle) --------- */
 
 .translation {
@@ -574,6 +699,7 @@ ul:not(.vocab) li { margin: 0.25em 0; }
   .vocab-entry { page-break-inside: avoid; }
   .toggle-bar { display: none !important; }
   body.show-translations .translation { display: block; }
+  body.show-gloss .gloss { display: block; }
 }
 
 /* --------- narrow-viewport tweaks --------- */

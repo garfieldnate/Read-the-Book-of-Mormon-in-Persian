@@ -20,9 +20,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `نخستین کتاب{e} نیفای`
 
+[gloss] noxostīn|first ketāb=e|book=EZ Nīfāy|Nephi
 [en] The First Book of Nephi
-
-[lit] First book-of Nephi
 
 - **نخستین** — _noxostīn_ — first, foremost
   - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
@@ -35,9 +34,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `فرمانروایی و خدمت{e} او`
 
+[gloss] farmān-ravāyī|reign o|and xedmat=e|service=EZ ū|3SG.POSS
 [en] His Reign and Ministry
-
-[lit] Reign-and-rule and service his
 
 - **فرمانروایی** — _farmān-ravāyī_ — reign, rule
   - _Etym_: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
@@ -52,9 +50,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `سرگذشت{e} لیحای و همسرش ثریّا، و چهار پسرش که، (شروع از ارشدترین)، لامان، لموئیل، سام، و نیفای خوانده می شدند.`
 
+[gloss] sargozašt=e|account=EZ Liḥāy|Lehi o|and hamsar-aš|wife-3SG.POSS Ṣoriyyā|Sariah o|and čahār|four pesar-aš|son-3SG.POSS ke|REL šorūʿ|beginning az|from aršad-tarīn|eldest Lāmān|Laman Lamūʾīl|Lemuel Sām|Sam o|and Nīfāy|Nephi xānde|call-PTCP.PST mī|IMPF šod-and|become-PST-3PL
 [en] An account of Lehi and his wife Sariah, and his four sons, being called, (beginning at the eldest) Laman, Lemuel, Sam, and Nephi.
-
-[lit] Account-of Lehi and wife-his Sariah, and four son-his that, (beginning from the-eldest), Laman, Lemuel, Sam, and Nephi, were-being-called.
 
 - **سرگذشت** — _sargozašt_ — account, life-story
   - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
@@ -94,9 +91,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `سَروَر به لیحای هشدار می دهد تا از سرزمین{e} اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوّت می کند، و آنها بدنبال{e} نابودی{e} زندگی{e} او هستند.`
 
+[gloss] Sarvar|Lord be|to Liḥāy|Lehi hošdār|warning mī|IMPF deh-ad|give-PRS-3SG tā|so.that az|from sarzamīn=e|land=EZ Uršalīm|Jerusalem bīrūn|out rav-ad|go-SBJV-3SG barā-ye|because īnke|that ū|3SG bar|upon mardom|people dar-bāre-ye|about nā-bekārī|wickedness hā-yešān|PL-3PL.POSS nabovvat|prophecy mī|IMPF kon-ad|do-PRS-3SG o|and ānhā|3PL be-donbāl=e|in.pursuit=EZ nābūdī=e|destruction=EZ zendegī=e|life=EZ ū|3SG hast-and|be-PRS-3PL
 [en] The Lord warns Lehi to depart out of the land of Jerusalem, because he prophesieth unto the people and they seek to destroy his life.
-
-[lit] Lord to Lehi warning gives so-that from land-of Jerusalem out goes, because he upon the-people concerning wickedness-their prophecy does, and they in-pursuit-of destruction-of life-of him are.
 
 - **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
@@ -156,9 +152,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `او با خانواده اش راهی{e} سفری{e} سه روزه در بیابان می شود.`
 
+[gloss] ū|3SG bā|with xānevāde|family aš|3SG.POSS rāhī=e|departing=EZ safar-ī=e|journey-INDEF=EZ se|three rūze|day dar|in bīyābān|wilderness mī|IMPF šav-ad|become-PRS-3SG
 [en] He taketh his family into the wilderness.
-
-[lit] He with family-his road-bound [on] a-journey three-day in wilderness becomes.
 
 - **با** — _bā_ — with
 - **خانواده** — _xānevāde_ — family
@@ -183,9 +178,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `نیفای برادرانش را برمی دارد و در پی{e} نگاشته های یهودیان به سرزمین{e} اورشلیم باز می گردد.`
 
+[gloss] Nīfāy|Nephi barādarān-aš|brother-PL-3SG.POSS rā|ACC bar-mī|PRV=IMPF dār-ad|take-PRS-3SG o|and dar|in pey=e|pursuit=EZ negāšte|writing hā=e|PL=EZ yahūdiyān|Jews be|to sarzamīn=e|land=EZ Uršalīm|Jerusalem bāz|back mī|IMPF gard-ad|return-PRS-3SG
 [en] His sons are sent back to Jerusalem to get the records of the Jews.
-
-[lit] Nephi brothers-his (obj.) up-takes and in pursuit-of writings-of-the-Jews to land-of Jerusalem back returns.
 
 - **برادر** — _barādar_ — brother
   - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
@@ -211,9 +205,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `سرگذشت{e} زجرهایشان.`
 
+[gloss] sargozašt=e|account=EZ zajr-hā-yešān|torment-PL-3PL.POSS
 [en] Account of their sufferings.
-
-[lit] Account-of torments-their.
 
 - **زجر** — _zajr_ — torment, distress
   - _Etym_: from Arabic, root z-j-r "to drive away, rebuke".
@@ -223,9 +216,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `آنها دختران{e} اسماعیل را به همسری می گیرند.`
 
+[gloss] ānhā|3PL doxtarān=e|daughter-PL=EZ Esmāʿīl|Ishmael rā|ACC be|to hamsar-ī|marriage mī|IMPF gīr-and|take-PRS-3PL
 [en] They take the daughters of Ishmael to wife.
-
-[lit] They daughters-of Ishmael (obj.) in-marriage take.
 
 - **دختر** — _doxtar_ — daughter
   - _Forms_: pl. _`دختران` doxtarān_.
@@ -238,9 +230,8 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `آنها خانواده هایشان را برمی دارند و راهی بیابان می شوند.`
 
+[gloss] ānhā|3PL xānevāde|family hā-yešān|PL-3PL.POSS rā|ACC bar-mī|PRV=IMPF dār-and|take-PRS-3PL o|and rāhī|departing bīyābān|wilderness mī|IMPF šav-and|become-PRS-3PL
 [en] They take their families and depart into the wilderness.
-
-[lit] They families-their (obj.) up-take and road-bound for wilderness become.
 
 _(No new lemmas — every word in this sentence has already been introduced.)_
 
@@ -248,9 +239,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `زجرها و رنج های آنان در بیابان.`
 
+[gloss] zajr-hā|torment-PL o|and ranj|suffering hā=e|PL=EZ ānān|3PL dar|in bīyābān|wilderness
 [en] Their sufferings and afflictions in the wilderness.
-
-[lit] Torments and sufferings-of them in wilderness.
 
 - **رنج** — _ranj_ — suffering, pain
 - **آنان** — _ānān_ — they (literary variant of آنها)
@@ -259,9 +249,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `راه{e} مسافرت هایشان.`
 
+[gloss] rāh=e|way=EZ mosāferat|travel hā-yešān|PL-3PL.POSS
 [en] The course of their travels.
-
-[lit] Way-of travels-their.
 
 - **راه** — _rāh_ — way, road
 - **مسافرت** — _mosāferat_ — travel, journey
@@ -271,9 +260,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `آنها به آب های پهناور می رسند.`
 
+[gloss] ānhā|3PL be|to āb|water hā=e|PL=EZ pahnāvar|vast mī|IMPF ras-and|arrive-PRS-3PL
 [en] They come to the large waters.
-
-[lit] They to waters-of-the-vast arrive.
 
 - **آب** — _āb_ — water
 - **پهناور** — _pahnāvar_ — vast, wide
@@ -287,9 +275,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `برادران{e} نیفای علیه او شورش می کنند.`
 
+[gloss] barādarān=e|brother-PL=EZ Nīfāy|Nephi ʿalayhi|against ū|3SG šūreš|rebellion mī|IMPF kon-and|do-PRS-3PL
 [en] Nephi's brethren rebel against him.
-
-[lit] Brothers-of Nephi against him rebellion do.
 
 - **علیه** — _ʿalayhi_ — against
   - ⚠️ _Diphthong -ay- written as_ `ی`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
@@ -303,9 +290,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `او آنان را مُجاب می کند و یک کشتی می سازد.`
 
+[gloss] ū|3SG ānān|3PL rā|ACC mojāb|convinced mī|IMPF kon-ad|do-PRS-3SG o|and yek|a kaštī|ship mī|IMPF sāz-ad|build-PRS-3SG
 [en] He confoundeth them and buildeth a ship.
-
-[lit] He them (obj.) convinced does and a ship builds.
 
 - **مجاب** — _mojāb_ — convinced, persuaded
   - _Etym_: from Arabic, passive participle of _ʾajāba_ "to answer", root j-w-b → "answered, satisfied".
@@ -319,9 +305,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `آنها نام{e} آنجا را خُرّمساران می خوانند.`
 
+[gloss] ānhā|3PL nām=e|name=EZ ānjā|there rā|ACC Xorram-sārān|Bountiful mī|IMPF xān-and|call-PRS-3PL
 [en] They call the name of the place Bountiful.
-
-[lit] They name-of there (obj.) Bountiful call.
 
 - **نام** — _nām_ — name
   - _Etym_: native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).
@@ -335,9 +320,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `آنها از آب های پهناور به سوی{e} سرزمین{e} موعود می گذرند، و ادامۀ آن.`
 
+[gloss] ānhā|3PL az|from āb|water hā=e|PL=EZ pahnāvar|vast be|to sūy=e|direction=EZ sarzamīn=e|land=EZ mowʿūd|promised mī|IMPF gozar-and|cross-PRS-3PL o|and edāme-ye|continuation=EZ ān|that
 [en] They cross the large waters unto the promised land, and so forth.
-
-[lit] They from waters-of-the-vast toward land-of promised pass, and continuation-of that.
 
 - **سوی** — _sūy_ — direction, side
   - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
@@ -355,9 +339,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `این بر پایۀ سرگذشت{e} نیفای است، یا به بیان{e} دیگر، من، نیفای، این نگاشته را نوشتم.`
 
+[gloss] īn|this bar|upon pāye-ye|basis=EZ sargozašt=e|account=EZ Nīfāy|Nephi ast|COP-3SG yā|or be|in bayān=e|words=EZ dīgar|other man|1SG Nīfāy|Nephi īn|this negāšte|record rā|ACC nevešt-am|write-PST-1SG
 [en] This is according to the account of Nephi; or in other words, I, Nephi, wrote this record.
-
-[lit] This upon basis-of account-of Nephi is, or to statement other, I, Nephi, this inscription (obj.) wrote.
 
 - **این** — _īn_ — this
 - **پایه** — _pāye_ — base, foundation
@@ -376,9 +359,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `فصل{e} ۱ نیفای نگاشتۀ مردمش را شروع می نماید — لیحای در رؤیا ستونی از آتش می بیند و از یک کتابِ نبوّت می خواند — او خدا را ستایش می کند، آمدن{e} مسیح را پیشگویی می کند — و نابودی{e} اورشلیم را نبوّت می کند — او از سوی{e} یهودیان آزار داده می شود. نزدیک به ۶۰۰ پیش از میلاد.`
 
+[gloss] faṣl=e|chapter=EZ 1|1 Nīfāy|Nephi negāšte-ye|record=EZ mardom-aš|people-3SG.POSS rā|ACC šorūʿ|beginning mī|IMPF namāy-ad|do-PRS-3SG Liḥāy|Lehi dar|in roʾyā|vision setūn-ī|pillar-INDEF az|from ātaš|fire mī|IMPF bīn-ad|see-PRS-3SG o|and az|from yek|a ketāb=e|book=EZ nabovvat|prophecy mī|IMPF xān-ad|read-PRS-3SG ū|3SG xodā|God rā|ACC setāyeš|praise mī|IMPF kon-ad|do-PRS-3SG āmadan=e|coming=EZ Masīḥ|Messiah rā|ACC pīšgūyī|foretell mī|IMPF kon-ad|do-PRS-3SG nābūdī=e|destruction=EZ Uršalīm|Jerusalem rā|ACC nabovvat|prophesy mī|IMPF kon-ad|do-PRS-3SG ū|3SG az|by sūy=e|side=EZ yahūdiyān|Jews āzār|harm dāde|give-PTCP.PST mī|IMPF šav-ad|become-PASS-3SG nazdīk|near be|to 600|600 pīš|before az|from mīlād|birth
 [en] Nephi begins the record of his people—Lehi sees in vision a pillar of fire and reads from a book of prophecy—He praises God, foretells the coming of the Messiah, and prophesies the destruction of Jerusalem—He is persecuted by the Jews. About 600 B.C.
-
-[lit] Chapter 1 — Nephi record-of people-his (obj.) begins to-do — Lehi in a-vision a-pillar from fire sees and from a book-of prophecy reads — he God (obj.) praise does, coming-of Messiah (obj.) foretells — and destruction-of Jerusalem (obj.) prophecy does — he from direction-of Jews harm given becomes. Near to 600 before-of birth.
 
 - **فصل** — _faṣl_ — chapter, section; season
   - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
@@ -425,9 +407,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱   من، نیفای، از پدر و مادر{e} خوبی زاده شده، بنابراین اندکی در همۀ آموخته های پدرم آموزش داده شدم؛ و در دورۀ روزگارم رنج های بسیاری دیده، با این وجود، در همۀ روزگارم مورد{e} لطف{e} والای سرور بوده؛ آری، از نیکی و رازهای خدا دانش{e} زیادی داشته، بنابراین نگاشته ای از کارهایم در روزگارم را می نگارم.`
 
+[gloss] yek|1 man|1SG Nīfāy|Nephi az|from pedar|father o|and mādar=e|mother=EZ xūb-ī|good-INDEF zāde|bear-PTCP.PST šode|become-PTCP.PST banābarīn|therefore andak-ī|a.little dar|in hame-ye|all=EZ āmūxte|learning hā=e|PL=EZ pedar-am|father-1SG.POSS āmūzeš|instruction dāde|give-PTCP.PST šod-am|become-PST-1SG.PASS o|and dar|in dowre-ye|period=EZ rūzgār-am|days-1SG.POSS ranj|suffering hā=e|PL=EZ besyār-ī|many dīde|see-PTCP.PST bā|with īn|this vojūd|existence dar|in hame-ye|all=EZ rūzgār-am|days-1SG.POSS mowred=e|object=EZ loṭf=e|grace=EZ vālā-ye|exalted=EZ Sarvar|Lord būde|be-PTCP.PST ārī|yea az|from nīkī|goodness o|and rāz-hā=e|secret-PL=EZ xodā|God dāneš=e|knowledge=EZ zīyād-ī|much dāšte|have-PTCP.PST banābarīn|therefore negāšte|record ī|INDEF az|from kār-hā-yam|deed-PL-1SG.POSS dar|in rūzgār-am|days-1SG.POSS rā|ACC mī|IMPF negār-am|write-PRS-1SG
 [en] I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.
-
-[lit] I, Nephi, from good-a father and mother born having-become, therefore a-little in all-of learnings-of father-my teaching given was; and in course-of days-my sufferings many having-seen, with this existence [nevertheless], in all-of days-my object-of favor-of exalted Lord having-been; yea, from goodness and secrets-of God knowledge much having-had, therefore a-record from deeds-my in days-my (obj.) write.
 
 - **پدر** — _pedar_ — father
   - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
@@ -486,9 +467,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۲ آری، من نگاشته ای به زبان{e} پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان{e} مصریان است.`
 
+[gloss] do|2 ārī|yea man|1SG negāšte|record ī|INDEF be|in zabān=e|language=EZ pedar-ī|paternal am|1SG.POSS mī|IMPF negār-am|write-PRS-1SG ke|REL āmīze|mixture ī|INDEF az|from āmūxte|learning hā=e|PL=EZ yahūdiyān|Jews o|and zabān=e|language=EZ Meṣriyān|Egyptians ast|COP-3SG
 [en] Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians.
-
-[lit] Yea, I a-record to language-of paternal-my write, which a-mixture from learnings-of-the-Jews and language-of Egyptians is.
 
 - **۲** — _do_ — Persian numeral 2 (`دو`)
 - **زبان** — _zabān_ — tongue, language
@@ -505,9 +485,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست{e} خودم می نگارم؛ و من آن را بر پایۀ دانش{e} خود می نگارم.`
 
+[gloss] se|3 o|and man|1SG mī|IMPF dān-am|know-PRS-1SG ke|COMP īn|this negāšte|record ī|INDEF ke|REL mī|IMPF negār-am|write-PRS-1SG rāst|true ast|COP-3SG o|and man|1SG ān|3SG rā|ACC bā|with dast=e|hand=EZ xod-am|self-1SG.POSS mī|IMPF negār-am|write-PRS-1SG o|and man|1SG ān|3SG rā|ACC bar|upon pāye-ye|basis=EZ dāneš=e|knowledge=EZ xod|self mī|IMPF negār-am|write-PRS-1SG
 [en] And I know that the record which I make is true; and I make it with mine own hand; and I make it according to my knowledge.
-
-[lit] And I know that this a-record that I-write true is; and I it (obj.) with hand-of own-my write; and I it (obj.) upon basis-of knowledge-of self write.
 
 - **۳** — _se_ — Persian numeral 3 (`سه`)
 - **دانستن** — _dānestan_ (pres. _dān-_) — to know
@@ -522,9 +501,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۴ زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران{e} بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر{e} عظیم{e} اورشلیم نابود می شود.`
 
+[gloss] čahār|4 zīrā|because čonīn|thus gozašt|pass-PST-3SG dar|in āqāz=e|beginning=EZ noxostīn|first sāl=e|year=EZ farmān-ravāyī=e|reign=EZ Ṣedqiyā|Zedekiah pādšāh=e|king=EZ Yahūdā|Judah pedar-am|father-1SG.POSS Liḥāy|Lehi hame-ye|all=EZ rūzgār-aš|days-3SG.POSS rā|ACC dar|in Uršalīm|Jerusalem sāken|dwelling būde|be-PTCP.PST o|and dar|in hamān|that.same sāl|year peyāmbarān=e|prophet-PL=EZ besyār-ī|many āmad-and|come-PST-3PL bar|upon mardom|people nabovvat|prophecy karde|do-PTCP.PST ke|COMP ānhā|3PL bāyad|must towbe|repentance kon-and|do-SBJV-3PL yā|or šahr=e|city=EZ ʿaẓīm=e|great=EZ Uršalīm|Jerusalem nābūd|destroyed mī|IMPF šav-ad|become-PRS-3SG
 [en] For it came to pass in the commencement of the first year of the reign of Zedekiah, king of Judah, (my father, Lehi, having dwelt at Jerusalem in all his days); and in that same year there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.
-
-[lit] Because thus passed in beginning-of first year-of reign-of Zedekiah, king-of Judah (father-my, Lehi, all-of days-his (obj.) in Jerusalem resident having-been); and in that-same year prophets many came, upon the-people prophesying that they must repentance do, or city-of great Jerusalem destroyed becomes.
 
 - **۴** — _čahār_ — Persian numeral 4 (`چهار`)
 - **زیرا** — _zīrā_ — because, for
@@ -564,9 +542,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۵ از این رو چنین گذشت که پدرم، لیحای، همچنان که پیش می رفت به سرور نیایش می کرد، آری، حتّی با همۀ دلش، برای مردمش.`
 
+[gloss] panj|5 az|for īn|this rū|reason čonīn|thus gozašt|pass-PST-3SG ke|COMP pedar-am|father-1SG.POSS Liḥāy|Lehi hamčonān|while ke|REL pīš|forth mī|IMPF raft|go-PST-3SG be|to Sarvar|Lord niyāyeš|prayer mī|IMPF kard|do-PST-3SG ārī|yea ḥattā|even bā|with hame-ye|all=EZ del-aš|heart-3SG.POSS barāy|for mardom-aš|people-3SG.POSS
 [en] Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people.
-
-[lit] For-this-reason thus passed that father-my, Lehi, just-as forth was-going, to Lord prayer was-doing, yea, even with all-of heart-his, for people-his.
 
 - **۵** — _panj_ — Persian numeral 5 (`پنج`)
 - **رو** — _rū_ — face, side
@@ -587,9 +564,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۶ و چنین گذشت همچنان که او به سرور نیایش می کرد، آنجا ستونی از آتش آمد و بر صخره ای در برابر{e} او نشست؛ و او بسیار دید و شنید؛ و به سبب{e} چیزهایی که دید و شنید او بی اندازه تکان خورد و لرزید.`
 
+[gloss] šeš|6 o|and čonīn|thus gozašt|pass-PST-3SG hamčonān|while ke|REL ū|3SG be|to Sarvar|Lord niyāyeš|prayer mī|IMPF kard|do-PST-3SG ānjā|there setūn-ī|pillar-INDEF az|from ātaš|fire āmad|come-PST-3SG o|and bar|upon ṣaxre|rock ī|INDEF dar|in barābar=e|front=EZ ū|3SG nešast|sit-PST-3SG o|and ū|3SG besyār|much dīd|see-PST-3SG o|and šenīd|hear-PST-3SG o|and be|for sabab=e|cause=EZ čīz-hā-yī|thing-PL-INDEF ke|REL dīd|see-PST-3SG o|and šenīd|hear-PST-3SG ū|3SG bī|without andāze|measure tekān|shake xord|take-PST-3SG o|and larzīd|tremble-PST-3SG
 [en] And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him; and he saw and heard much; and because of the things which he saw and heard he did quake and tremble exceedingly.
-
-[lit] And thus passed just-as he to Lord prayer was-doing, there a-pillar from fire came and upon a-rock in front-of him sat; and he much saw and heard; and for cause-of things-which he saw and heard, he without-measure shake ate and trembled.
 
 - **صخره** — _ṣaxre_ — rock, cliff
   - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
@@ -617,9 +593,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح{e} مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
 
+[gloss] haft|7 o|and čonīn|thus gozašt|pass-PST-3SG ke|COMP ū|3SG be|to xāne-ye|house=EZ xod|own dar|in Uršalīm|Jerusalem bāzgašt|return-PST-3SG o|and čīre|overcome šode|become-PTCP.PST bā|with rūḥ=e|spirit=EZ moqaddas|holy o|and bā|with čīz-hā-yī|thing-PL-INDEF ke|REL dīde|see-PTCP.PST būd|be-PST-3SG xod|self rā|ACC bar|upon bestar-aš|bed-3SG.POSS andāxt|throw-PST-3SG
 [en] And it came to pass that he returned to his own house at Jerusalem; and he cast himself upon his bed, being overcome with the Spirit and the things which he had seen.
-
-[lit] And thus passed that he to house-of own-his in Jerusalem returned; and overcome having-become with spirit-of holy and with things-which he seen had, self (obj.) upon bed-his threw.
 
 - **۷** — _haft_ — Persian numeral 7 (`هفت`)
 - **خانه** — _xāne_ — house
@@ -641,9 +616,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۸ و بدین گونه چیره شده با روح{e} مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال{e} سرود خواندن و ستایش{e} خدایشان.`
 
+[gloss] hašt|8 o|and bedīn|by.this gūne|manner čīre|overcome šode|become-PTCP.PST bā|with rūḥ=e|spirit=EZ moqaddas|holy dar|in roʾyā-yī|vision-INDEF borde|carry-PTCP.PST šod|become-PST-3SG ḥattā|even īnke|that ū|3SG dīd|see-PST-3SG āsmān|heaven hā|PL gošūde|open-PTCP.PST šod-and|become-PST-3PL o|and pendāšt|suppose-PST-3SG xodā|God rā|ACC nešaste|sit-PTCP.PST bar|upon taxt-aš|throne-3SG.POSS dīd|see-PST-3SG farā|PRV gerefte|take-PTCP.PST šode|become-PTCP.PST bā|with jamʿiyyat|multitude hā=e|PL=EZ bī-šomār-ī|countless-INDEF az|from fereštegān|angel-PL dar|in ḥāl=e|state=EZ sorūd|song xāndan|read-INF o|and setāyeš=e|praise=EZ xodā-yešān|God-3PL.POSS
 [en] And being thus overcome with the Spirit, he was carried away in a vision, even that he saw the heavens open, and he thought he saw God sitting upon his throne, surrounded with numberless concourses of angels in the attitude of singing and praising their God.
-
-[lit] And in-this-manner overcome having-become with spirit-of holy, in a-vision carried was, even that he saw heavens opened became, and supposed God (obj.) sitting upon throne-his saw, over-taken having-become with multitudes-of countless from angels in state-of singing and praising God-their.
 
 - **۸** — _hašt_ — Persian numeral 8 (`هشت`)
 - **بدین** — _bedīn_ — in/by this
@@ -686,9 +660,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۹ و چنین گذشت که او یکی را دید از میان{e} آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید{e} نیمروز بود.`
 
+[gloss] noh|9 o|and čonīn|thus gozašt|pass-PST-3SG ke|COMP ū|3SG yek-ī|one rā|ACC dīd|see-PST-3SG az|from mīyān=e|midst=EZ āsmān|heaven forūd|down mī|IMPF āy-ad|come-PRS-3SG o|and ū|3SG dīd|see-PST-3SG ke|COMP partow-aš|radiance-3SG.POSS farātar|beyond az|from xoršīd=e|sun=EZ nīmrūz|noon būd|be-PST-3SG
 [en] And it came to pass that he saw One descending out of the midst of heaven, and he beheld that his luster was above that of the sun at noon-day.
-
-[lit] And thus passed that he a-one (obj.) saw from among heaven down was-coming, and he saw that radiance-his beyond from sun-of noon was.
 
 - **۹** — _noh_ — Persian numeral 9 (`نه`)
 - **یکی** — _yek-ī_ — one (of)
@@ -711,9 +684,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۰ و او همچنین دید دوازده تای دیگر به دنبال{e} او می آمدند و درخشش{e} آنها از تابش{e} ستارگان در گنبد{e} آسمان فراتر بود.`
 
+[gloss] dah|10 o|and ū|3SG hamčonīn|also dīd|see-PST-3SG davāzdah|twelve tā=e|CL=EZ dīgar|other be|after donbāl=e|pursuit=EZ ū|3SG mī|IMPF āmad-and|come-PST-3PL o|and deraxšeš=e|radiance=EZ ānhā|3PL az|from tābeš=e|brightness=EZ setāregān|star-PL dar|in gombad=e|dome=EZ āsmān|sky farātar|beyond būd|be-PST-3SG
 [en] And he also saw twelve others following him, and their brightness did exceed that of the stars in the firmament.
-
-[lit] And he also saw twelve-of other after him were-coming, and brilliance-of them from radiance-of stars in dome-of sky beyond was.
 
 - **۱۰** — _dah_ — Persian numeral 10 (`ده` — a single word, not "one-zero")
 - **همچنین** — _hamčonīn_ — also, likewise
@@ -737,9 +709,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر{e} پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
 
+[gloss] yāzdah|11 o|and ānhā|3PL pāyīn|down āmad-and|come-PST-3PL o|and bar|upon rūy=e|face=EZ zamīn|earth pīš|forth raft-and|go-PST-3PL o|and noxostīn|first āmad|come-PST-3SG o|and dar|in barābar=e|front=EZ pedar-am|father-1SG.POSS istād|stand-PST-3SG o|and be|to ū|3SG ketāb-ī|book-INDEF dād|give-PST-3SG o|and az|from ū|3SG xāst|ask-PST-3SG tā|so.that ān|3SG rā|ACC be-xān-ad|read-SBJV-3SG
 [en] And they came down and went forth upon the face of the earth; and the first came and stood before my father, and gave unto him a book, and bade him that he should read.
-
-[lit] And they down came and upon face-of earth forth went; and the-first came and in front-of father-my stood, and to him a-book gave and from him asked so-that it (obj.) may-read.
 
 - **۱۱** — _yāzdah_ — Persian numeral 11 (`یازده`)
 - **پایین** — _pāyīn_ — down, below
@@ -755,9 +726,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح{e} سرور گشت.`
 
+[gloss] davāzdah|12 o|and čonīn|thus gozašt|pass-PST-3SG ke|COMP hamčonān|while ke|REL ū|3SG mī|IMPF xānd|read-PST-3SG ākande|filled az|from rūḥ=e|spirit=EZ Sarvar|Lord gašt|become-PST-3SG
 [en] And it came to pass that as he read, he was filled with the Spirit of the Lord.
-
-[lit] And thus passed that just-as he was-reading, filled from spirit-of Lord became.
 
 - **۱۲** — _davāzdah_ — Persian numeral 12 (`دوازده`)
 - **آکنده** — _ākande_ — filled, full
@@ -767,9 +737,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید{e} تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان{e} آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
 
+[gloss] sīzdah|13 o|and ū|3SG xānd|read-PST-3SG goft-ā|say-NARR vāy|woe vāy|woe bar|upon Uršalīm|Jerusalem zīrā|because man|1SG kār-hā=e|deed-PL=EZ palīd=e|wicked=EZ to|2SG rā|ACC dīde|see-PTCP.PST am|COP-1SG o|and čīz-hā=e|thing-PL=EZ besyār-ī|many pedar-am|father-1SG.POSS dar-bāre-ye|concerning Uršalīm|Jerusalem xānd|read-PST-3SG ke|COMP ān|3SG o|and sākenān=e|inhabitant-PL=EZ ān|3SG nābūd|destroyed xāh-and|FUT-3PL šod|become-INF.PST besyār-ī|many bā|by šamšīr|sword halāk|perish xāh-and|FUT-3PL šod|become-INF.PST o|and besyār-ī|many be|to asārat|captivity be|to Bābel|Babylon borde|carry-PTCP.PST xāh-and|FUT-3PL šod|become-INF.PST
 [en] And he read, saying: Wo, wo, unto Jerusalem, for I have seen thine abominations! Yea, and many things did my father read concerning Jerusalem—that it should be destroyed, and the inhabitants thereof; many should perish by the sword, and many should be carried away captive into Babylon.
-
-[lit] And he read, said-[narr.]: Woe, woe upon Jerusalem, because I deeds-of wicked thee (obj.) have-seen! Yea, and things many father-my concerning Jerusalem read — that it and inhabitants-of it destroyed will-be; many with sword perished will-be, and many to captivity to Babylon carried will-be.
 
 - **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
@@ -791,9 +760,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر{e} مطلق! تخت{e} تو بالا در آسمانهاست و قدرت و نیکی و رحمت{e} تو بر همۀ ساکنان{e} زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی{e} تو می آیند هلاک شوند!`
 
+[gloss] čahārdah|14 o|and čonīn|thus gozašt|pass-PST-3SG ke|COMP hengām-ī|when ke|REL pedar-am|father-1SG.POSS čīz-hā=e|thing-PL=EZ besyār|very bozorg|great o|and šegeft|wonder angīz-ī|arousing-INDEF xānd|read-PST-3SG o|and dīd|see-PST-3SG čīz-hā=e|thing-PL=EZ besyār-ī|many rā|ACC be|to Sarvar|Lord bāng|cry barāvard|raise-PST-3SG bozorg|great o|and šegeft|wonder angīz|arousing ast|COP-3SG kār-hā=e|deed-PL=EZ to|2SG Sarvar-ā|Lord-VOC xodā-ye|God=EZ qāder=e|powerful=EZ moṭlaq|absolute taxt=e|throne=EZ to|2SG bālā|high dar|in āsmān-hā-st|heaven-PL=COP qodrat|power o|and nīkī|goodness o|and raḥmat=e|mercy=EZ to|2SG bar|over hame-ye|all=EZ sākenān=e|inhabitant-PL=EZ zamīn|earth ast|COP-3SG o|and barāy|because īnke|that to|2SG mehrabān-ī|kind-COP.2SG to|2SG ravā|allow na-xāh-ī|NEG-FUT-2SG dāšt|have-INF.PST kas-ān-ī|person-PL-INDEF ke|REL be|to sūy=e|toward=EZ to|2SG mī|IMPF āy-and|come-PRS-3PL halāk|perish šav-and|become-SBJV-3PL
 [en] And it came to pass that when my father had read and seen many great and marvelous things, he did exclaim many things unto the Lord; such as: Great and marvelous are thy works, O Lord God Almighty! Thy throne is high in the heavens, and thy power, and goodness, and mercy are over all the inhabitants of the earth; and, because thou art merciful, thou wilt not suffer those who come unto thee that they shall perish!
-
-[lit] And thus passed that when father-my things very great and wonder-arousing read and saw, things many (obj.) to Lord cry raised; like: Great and wonder-arousing are deeds-of thee, O-Lord, God-of powerful-of absolute! Throne-of thee high in the-heavens-is, and power and goodness and mercy-of thee upon all-of inhabitants-of earth is; and because thou art-kind, thou will-not-have-suffered those-who toward thee come [that] they perish!
 
 - **۱۴** — _čahārdah_ — Persian numeral 14 (`چهارده`)
 - **هنگام** — _hengām_ — time, occasion
@@ -836,9 +804,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۵ و به این شیوه بود زبان{e} پدرم در ستایش{e} خدایش؛ زیرا روانش شادمانی می کرد و تمامی{e} دلش، به سبب{e} چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
 
+[gloss] pānzdah|15 o|and be|in īn|this šīve|manner būd|be-PST-3SG zabān=e|language=EZ pedar-am|father-1SG.POSS dar|in setāyeš=e|praise=EZ xodā-yaš|God-3SG.POSS zīrā|because ravān-aš|soul-3SG.POSS šādmānī|joy mī|IMPF kard|do-PST-3SG o|and tamāmī=e|entirety=EZ del-aš|heart-3SG.POSS be|for sabab=e|cause=EZ čīz-hā-yī|thing-PL-INDEF ke|REL dīde|see-PTCP.PST būd|be-PST-3SG ārī|yea ānče|that.which ke|REL Sarvar|Lord be|to ū|3SG nešān|sign dāde|give-PTCP.PST būd|be-PST-3SG ākande|filled šode|become-PTCP.PST būd|be-PST-3SG
 [en] And after this manner was the language of my father in the praising of his God; for his soul did rejoice, and his whole heart was filled, because of the things which he had seen, yea, which the Lord had shown unto him.
-
-[lit] And to this-manner was language-of father-my in praising-of God-his; because soul-his joy was-doing, and entirety-of heart-his, for cause-of things-which he had-seen, yea, that-which Lord to him shown had, filled had-become.
 
 - **۱۵** — _pānzdah_ — Persian numeral 15 (`پانزده`)
 - **شیوه** — _šīve_ — manner, way, style
@@ -863,9 +830,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۶ و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت{e} کاملی نخواهم نگاشت.`
 
+[gloss] šānzdah|16 o|and īnak|now man|1SG Nīfāy|Nephi sargozašt=e|account=EZ kāmel-ī|complete-INDEF az|from čīz-hā-yī|thing-PL-INDEF ke|REL pedar-am|father-1SG.POSS nevešte|write-PTCP.PST ast|COP-3SG ne-mī|NEG.IMPF negār-am|write-PRS-1SG zīrā|because ū|3SG čīz-hā=e|thing-PL=EZ besyār-ī|many ke|REL dar|in roʾyāhā|vision-PL o|and dar|in xābhā|dream-PL dīd|see-PST-3SG nevešte|write-PTCP.PST ast|COP-3SG o|and ū|3SG čīz-hā=e|thing-PL=EZ besyār-ī|many rā|ACC ke|REL nabovvat|prophecy kard|do-PST-3SG o|and be|to farzandān-aš|child-PL-3SG.POSS soxan|speech goft|say-PST-3SG nīz|also nevešte|write-PTCP.PST ast|COP-3SG ke|REL az|from ānhā|3PL sargozašt=e|account=EZ kāmel-ī|complete-INDEF na-xāh-am|NEG-FUT-1SG negāšt|write-INF.PST
 [en] And now I, Nephi, do not make a full account of the things which my father hath written, for he hath written many things which he saw in visions and in dreams; and he also hath written many things which he prophesied and spake unto his children, of which I shall not make a full account.
-
-[lit] And now I, Nephi, account-of complete from things-which father-my written has not-write, because he things many-which in visions and in dreams saw has-written; and he things many (obj.) which prophecy did and to children-his speech said also has-written, which from them account-of complete will-not-inscribe.
 
 - **۱۶** — _šānzdah_ — Persian numeral 16 (`شانزده`)
 - **اینک** — _īnak_ — now; behold
@@ -887,9 +853,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۷ ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت{e} زندگی{e} خودم را خواهم نگاشت.`
 
+[gloss] hefdah|17 valī|but man|1SG šarḥ=e|account=EZ kār-hā-yam|deed-PL-1SG.POSS dar|in rūzgār-am|days-1SG.POSS rā|ACC xāh-am|FUT-1SG negāšt|write-INF.PST be-negar-īd|behold man|1SG xolāṣe|summary ī|INDEF az|from negāšte-ye|record=EZ pedar-am|father-1SG.POSS rā|ACC bar|upon īn|these varaqe|plate hā|PL ke|REL man|1SG bā|with dast-hā=e|hand-PL=EZ xod-am|self-1SG.POSS dorost|right karde|do-PTCP.PST am|COP-1SG mī|IMPF negār-am|write-PRS-1SG az|for īn|this rū|reason pas|after az|from īnke|that man|1SG negāšte-ye|record=EZ pedar-am|father-1SG.POSS rā|ACC xolāṣe|summarize kard-am|do-PST-1SG āngāh|then sargozašt=e|account=EZ zendegī=e|life=EZ xod-am|self-1SG.POSS rā|ACC xāh-am|FUT-1SG negāšt|write-INF.PST
 [en] But I shall make an account of my proceedings in my days. Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands; wherefore, after I have abridged the record of my father then will I make an account of mine own life.
-
-[lit] But I description-of deeds-my in days-my (obj.) will-inscribe. Behold, I a-summary from inscription-of father-my (obj.), upon these plates that I with hands-of own-my made have, write; for-this-reason, after that I inscription-of father-my (obj.) summarized, then account-of life-of own-my (obj.) will-inscribe.
 
 - **۱۷** — _hefdah_ — Persian numeral 17 (`هفده`)
 - **ولی** — _valī_ — but, however
@@ -916,9 +881,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد{e} نابودی{e} اورشلیم، بنگرید او به میان{e} مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
 
+[gloss] hejdah|18 banābarīn|therefore man|1SG mī|IMPF xāh-am|want-PRS-1SG ke|COMP šomā|2PL be-dān-īd|know-SBJV-2PL ke|COMP pas|after az|from īnke|that Sarvar|Lord tā|to īn|this andāze|extent čīz-hā=e|thing-PL=EZ besyār|very šegeft|wonder angīz-ī|arousing-INDEF be|to pedar-am|father-1SG.POSS Liḥāy|Lehi nešān|sign dād|give-PST-3SG ārī|yea dar|concerning mowred=e|matter=EZ nābūdī=e|destruction=EZ Uršalīm|Jerusalem be-negar-īd|behold ū|3SG be|to mīyān=e|midst=EZ mardom|people pīš|forth raft|go-PST-3SG o|and šorūʿ|beginning namūd|do-PST-3SG be|to nabovvat|prophesy o|and eʿlām|announce kardan|do-INF be|to ānhā|3PL dar-bāre-ye|concerning čīz-hā-yī|thing-PL-INDEF ke|REL ham|both dīde|see-PTCP.PST o|and ham|and šenīde|hear-PTCP.PST būd|be-PST-3SG
 [en] Therefore, I would that ye should know, that after the Lord had shown so many marvelous things unto my father, Lehi, yea, concerning the destruction of Jerusalem, behold he went forth among the people, and began to prophesy and to declare unto them concerning the things which he had both seen and heard.
-
-[lit] Therefore, I want that you may-know, that after Lord to this-extent things very wonder-arousing to father-my, Lehi, showed, yea, concerning destruction-of Jerusalem, behold he to among people went-forth, and began to-do to prophecy and declaring to them concerning things-which both seen and heard had.
 
 - **۱۸** — _hejdah_ — Persian numeral 18 (`هجده`)
 - **شما** — _šomā_ — you (pl. / formal)
@@ -932,9 +896,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۹ و چنین گذشت که یهودیان او را به سبب{e} چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن{e} یک مسیح و همچنین بازخرید شدن{e} جهان را به سادگی پدیدار می کرد.`
 
+[gloss] nūzdah|19 o|and čonīn|thus gozašt|pass-PST-3SG ke|COMP yahūdiyān|Jews ū|3SG rā|ACC be|for sabab=e|cause=EZ čīz-hā-yī|thing-PL-INDEF ke|REL ū|3SG az|of ānhā|3PL govāhī|testimony mī|IMPF dād|give-PST-3SG masxare|mock kard-and|do-PST-3PL zīrā|because ū|3SG be-rāstī|truly az|of nā-bekārī|wickedness hā-yešān|PL-3PL.POSS o|and kār-hā=e|deed-PL=EZ palīd-ešān|wicked-3PL.POSS govāhī|testimony mī|IMPF dād|give-PST-3SG o|and ū|3SG govāhī|testimony mī|IMPF dād|give-PST-3SG ke|COMP čīz-hā-yī|thing-PL-INDEF ke|REL ū|3SG dīd|see-PST-3SG o|and šenīd|hear-PST-3SG o|and nīz|also čīz-hā-yī|thing-PL-INDEF ke|REL ū|3SG dar|in ān|that ketāb|book xānd|read-PST-3SG āmadan=e|coming=EZ yek|a Masīḥ|Messiah o|and hamčonīn|also bāz-xarīd|redemption šodan=e|become-INF=EZ jahān|world rā|ACC be|with sādegī|simplicity padīdār|manifest mī|IMPF kard|do-PST-3SG
 [en] And it came to pass that the Jews did mock him because of the things which he testified of them; for he truly testified of their wickedness and their abominations; and he testified that the things which he saw and heard, and also the things which he read in the book, manifested plainly of the coming of a Messiah, and also the redemption of the world.
-
-[lit] And thus passed that the-Jews him (obj.) for cause-of things-which he of them testimony was-giving mocked; because he truly of wickedness-their and deeds-of wicked-their testimony was-giving; and he testimony was-giving that things-which he saw and heard, and also things-which he in that book read, coming-of a Messiah and also redeemed-being-of world (obj.) simply manifest was-making.
 
 - **۱۹** — _nūzdah_ — Persian numeral 19 (`نوزده`)
 - **گواهی** — _govāhī_ — testimony
@@ -965,9 +928,8 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران{e} پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال{e} او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز{e} سرور بر سر{e} همۀ کسانی است که او به سبب{e} ایمانشان برگزیده است، تا آنها را به قدرت{e} رهایی توانا سازد.`
 
+[gloss] bist|20 o|and hengām-ī|when ke|REL yahūdiyān|Jews īn|these čīz-hā|thing-PL rā|ACC šenīd-and|hear-PST-3PL bar|upon ū|3SG xašm|wrath gereft-and|take-PST-3PL ārī|yea ḥattā|even ānčonān|just.as ke|REL bā|with peyāmbarān=e|prophet-PL=EZ pīšīn|former ke|REL ānhā|3PL rā|ACC bīrūn|out andāxte|throw-PTCP.PST o|and sangsār|stone karde|do-PTCP.PST o|and košte|kill-PTCP.PST būd-and|be-PST-3PL o|and ānhā|3PL be|after donbāl=e|pursuit=EZ ū|3SG nīz|also barāmad-and|rise-PST-3PL ke|so.that be-tavān-and|be.able-SBJV-3PL jān-aš|life-3SG.POSS rā|ACC be-gīr-and|take-SBJV-3PL valī|but be-negar-īd|behold man|1SG Nīfāy|Nephi be|to šomā|2PL nešān|sign xāh-am|FUT-1SG dād|give-INF.PST ke|COMP raḥmat|mercy hā=e|PL=EZ mehr-āmīz=e|loving=EZ Sarvar|Lord bar|over sar=e|head=EZ hame-ye|all=EZ kas-ān-ī|person-PL-INDEF ast|COP-3SG ke|REL ū|3SG be|for sabab=e|cause=EZ īmān-ešān|faith-3PL.POSS bargozīde|choose-PTCP.PST ast|COP-3SG tā|so.that ānhā|3PL rā|ACC be|to qodrat=e|power=EZ rahāyī|deliverance tavānā|capable sāz-ad|make-SBJV-3SG
 [en] And when the Jews heard these things they were angry with him; yea, even as with the prophets of old, whom they had cast out, and stoned, and slain; and they also sought his life, that they might take it away. But behold, I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.
-
-[lit] And when the-Jews these things (obj.) heard, upon him wrath took; yea, even just-as with prophets-of former, which them (obj.) out thrown and stoned and killed had; and they after him also rose-up, that could soul-his (obj.) take. But behold, I, Nephi, to you will-show that mercies-of loving Lord upon head-of all-of those-who [is] that he for cause-of faith-their chosen has, so-that them (obj.) to power-of deliverance mighty may-make.
 
 - **۲۰** — _bist_ — Persian numeral 20 (`بیست` — a separate word, not "two-zero")
 - **خشم** — _xašm_ — wrath, anger
