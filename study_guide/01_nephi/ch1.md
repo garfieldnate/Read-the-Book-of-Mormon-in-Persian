@@ -20,6 +20,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `نخستین کتاب{e} نیفای`
 
+[en] The First Book of Nephi
+
+[lit] First book-of Nephi
+
 - **نخستین** — _noxostīn_ — first, foremost
   - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
   - _Family_: `نخست` _noxost_ "first" (used standalone as adverb "firstly").
@@ -30,6 +34,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Subtitle
 
 `فرمانروایی و خدمت{e} او`
+
+[en] His Reign and Ministry
+
+[lit] Reign-and-rule and service his
 
 - **فرمانروایی** — _farmān-ravāyī_ — reign, rule
   - _Etym_: `فرمان` + `روا` (← `رفتن`) + `-ی` → "having one's commands run/effected".
@@ -43,6 +51,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Sentence 1
 
 `سرگذشت{e} لیحای و همسرش ثریّا، و چهار پسرش که، (شروع از ارشدترین)، لامان، لموئیل، سام، و نیفای خوانده می شدند.`
+
+[en] An account of Lehi and his wife Sariah, and his four sons, being called, (beginning at the eldest) Laman, Lemuel, Sam, and Nephi.
+
+[lit] Account-of Lehi and wife-his Sariah, and four son-his that, (beginning from the-eldest), Laman, Lemuel, Sam, and Nephi, were-being-called.
 
 - **سرگذشت** — _sargozašt_ — account, life-story
   - _Etym_: `سر` + `گذشت` (past stem of `گذشتن`) → "what has passed at one's head".
@@ -81,6 +93,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Sentence 2
 
 `سَروَر به لیحای هشدار می دهد تا از سرزمین{e} اورشلیم بیرون رود، برای اینکه او بر مردم دربارۀ نابکاری هایشان نبوّت می کند، و آنها بدنبال{e} نابودی{e} زندگی{e} او هستند.`
+
+[en] The Lord warns Lehi to depart out of the land of Jerusalem, because he prophesieth unto the people and they seek to destroy his life.
+
+[lit] Lord to Lehi warning gives so-that from land-of Jerusalem out goes, because he upon the-people concerning wickedness-their prophecy does, and they in-pursuit-of destruction-of life-of him are.
 
 - **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
@@ -140,6 +156,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `او با خانواده اش راهی{e} سفری{e} سه روزه در بیابان می شود.`
 
+[en] He taketh his family into the wilderness.
+
+[lit] He with family-his road-bound [on] a-journey three-day in wilderness becomes.
+
 - **با** — _bā_ — with
 - **خانواده** — _xānevāde_ — family
   - _Etym_: traditionally analyzed as `خان` (← `خانه` "house") + `واده` "extension" — i.e. "household".
@@ -162,6 +182,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Sentence 4
 
 `نیفای برادرانش را برمی دارد و در پی{e} نگاشته های یهودیان به سرزمین{e} اورشلیم باز می گردد.`
+
+[en] His sons are sent back to Jerusalem to get the records of the Jews.
+
+[lit] Nephi brothers-his (obj.) up-takes and in pursuit-of writings-of-the-Jews to land-of Jerusalem back returns.
 
 - **برادر** — _barādar_ — brother
   - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
@@ -187,6 +211,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `سرگذشت{e} زجرهایشان.`
 
+[en] Account of their sufferings.
+
+[lit] Account-of torments-their.
+
 - **زجر** — _zajr_ — torment, distress
   - _Etym_: from Arabic, root z-j-r "to drive away, rebuke".
   - _Forms_: pl. _`زجرها` zajr-hā_.
@@ -194,6 +222,10 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 #### Sentence 6
 
 `آنها دختران{e} اسماعیل را به همسری می گیرند.`
+
+[en] They take the daughters of Ishmael to wife.
+
+[lit] They daughters-of Ishmael (obj.) in-marriage take.
 
 - **دختر** — _doxtar_ — daughter
   - _Forms_: pl. _`دختران` doxtarān_.
@@ -206,11 +238,19 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 `آنها خانواده هایشان را برمی دارند و راهی بیابان می شوند.`
 
+[en] They take their families and depart into the wilderness.
+
+[lit] They families-their (obj.) up-take and road-bound for wilderness become.
+
 _(No new lemmas — every word in this sentence has already been introduced.)_
 
 #### Sentence 8
 
 `زجرها و رنج های آنان در بیابان.`
+
+[en] Their sufferings and afflictions in the wilderness.
+
+[lit] Torments and sufferings-of them in wilderness.
 
 - **رنج** — _ranj_ — suffering, pain
 - **آنان** — _ānān_ — they (literary variant of آنها)
@@ -219,6 +259,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `راه{e} مسافرت هایشان.`
 
+[en] The course of their travels.
+
+[lit] Way-of travels-their.
+
 - **راه** — _rāh_ — way, road
 - **مسافرت** — _mosāferat_ — travel, journey
   - _Etym_: from Arabic, root s-f-r "to travel"; verbal-noun pattern _mufāʿalat_.
@@ -226,6 +270,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 #### Sentence 10
 
 `آنها به آب های پهناور می رسند.`
+
+[en] They come to the large waters.
+
+[lit] They to waters-of-the-vast arrive.
 
 - **آب** — _āb_ — water
 - **پهناور** — _pahnāvar_ — vast, wide
@@ -239,6 +287,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `برادران{e} نیفای علیه او شورش می کنند.`
 
+[en] Nephi's brethren rebel against him.
+
+[lit] Brothers-of Nephi against him rebellion do.
+
 - **علیه** — _ʿalayhi_ — against
   - ⚠️ _Diphthong -ay- written as_ `ی`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, "upon him"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\*ʿalīye_ or _\*ʿalīh_.
   - _Etym_: from Arabic, originally a prepositional phrase _ʿalay-hi_ "upon him".
@@ -250,6 +302,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 #### Sentence 12
 
 `او آنان را مُجاب می کند و یک کشتی می سازد.`
+
+[en] He confoundeth them and buildeth a ship.
+
+[lit] He them (obj.) convinced does and a ship builds.
 
 - **مجاب** — _mojāb_ — convinced, persuaded
   - _Etym_: from Arabic, passive participle of _ʾajāba_ "to answer", root j-w-b → "answered, satisfied".
@@ -263,6 +319,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `آنها نام{e} آنجا را خُرّمساران می خوانند.`
 
+[en] They call the name of the place Bountiful.
+
+[lit] They name-of there (obj.) Bountiful call.
+
 - **نام** — _nām_ — name
   - _Etym_: native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).
   - _Forms_: idiom `نام چیزی را X خواندن` "to call something X".
@@ -274,6 +334,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 #### Sentence 14
 
 `آنها از آب های پهناور به سوی{e} سرزمین{e} موعود می گذرند، و ادامۀ آن.`
+
+[en] They cross the large waters unto the promised land, and so forth.
+
+[lit] They from waters-of-the-vast toward land-of promised pass, and continuation-of that.
 
 - **سوی** — _sūy_ — direction, side
   - _Forms_: collocations `به سوی` "toward"; `از سوی` "from, by (agent)".
@@ -291,6 +355,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `این بر پایۀ سرگذشت{e} نیفای است، یا به بیان{e} دیگر، من، نیفای، این نگاشته را نوشتم.`
 
+[en] This is according to the account of Nephi; or in other words, I, Nephi, wrote this record.
+
+[lit] This upon basis-of account-of Nephi is, or to statement other, I, Nephi, this inscription (obj.) wrote.
+
 - **این** — _īn_ — this
 - **پایه** — _pāye_ — base, foundation
   - _Family_: `پا` _pā_ "foot, leg"; `پایان` _pāyān_ "end" (literary "foothold").
@@ -307,6 +375,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Chapter summary
 
 `فصل{e} ۱ نیفای نگاشتۀ مردمش را شروع می نماید — لیحای در رؤیا ستونی از آتش می بیند و از یک کتابِ نبوّت می خواند — او خدا را ستایش می کند، آمدن{e} مسیح را پیشگویی می کند — و نابودی{e} اورشلیم را نبوّت می کند — او از سوی{e} یهودیان آزار داده می شود. نزدیک به ۶۰۰ پیش از میلاد.`
+
+[en] Nephi begins the record of his people—Lehi sees in vision a pillar of fire and reads from a book of prophecy—He praises God, foretells the coming of the Messiah, and prophesies the destruction of Jerusalem—He is persecuted by the Jews. About 600 B.C.
+
+[lit] Chapter 1 — Nephi record-of people-his (obj.) begins to-do — Lehi in a-vision a-pillar from fire sees and from a book-of prophecy reads — he God (obj.) praise does, coming-of Messiah (obj.) foretells — and destruction-of Jerusalem (obj.) prophecy does — he from direction-of Jews harm given becomes. Near to 600 before-of birth.
 
 - **فصل** — _faṣl_ — chapter, section; season
   - _Etym_: from Arabic, root f-ṣ-l "to separate, divide".
@@ -352,6 +424,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 1
 
 `۱   من، نیفای، از پدر و مادر{e} خوبی زاده شده، بنابراین اندکی در همۀ آموخته های پدرم آموزش داده شدم؛ و در دورۀ روزگارم رنج های بسیاری دیده، با این وجود، در همۀ روزگارم مورد{e} لطف{e} والای سرور بوده؛ آری، از نیکی و رازهای خدا دانش{e} زیادی داشته، بنابراین نگاشته ای از کارهایم در روزگارم را می نگارم.`
+
+[en] I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days; yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.
+
+[lit] I, Nephi, from good-a father and mother born having-become, therefore a-little in all-of learnings-of father-my teaching given was; and in course-of days-my sufferings many having-seen, with this existence [nevertheless], in all-of days-my object-of favor-of exalted Lord having-been; yea, from goodness and secrets-of God knowledge much having-had, therefore a-record from deeds-my in days-my (obj.) write.
 
 - **پدر** — _pedar_ — father
   - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
@@ -410,6 +486,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۲ آری، من نگاشته ای به زبان{e} پدری ام می نگارم، که آمیزه ای از آموخته های یهودیان و زبان{e} مصریان است.`
 
+[en] Yea, I make a record in the language of my father, which consists of the learning of the Jews and the language of the Egyptians.
+
+[lit] Yea, I a-record to language-of paternal-my write, which a-mixture from learnings-of-the-Jews and language-of Egyptians is.
+
 - **۲** — _do_ — Persian numeral 2 (`دو`)
 - **زبان** — _zabān_ — tongue, language
 - **پدری** — _pedar-ī_ — paternal
@@ -425,6 +505,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۳ و من می دانم که این نگاشته ای که می نگارم راست است؛ و من آن را با دست{e} خودم می نگارم؛ و من آن را بر پایۀ دانش{e} خود می نگارم.`
 
+[en] And I know that the record which I make is true; and I make it with mine own hand; and I make it according to my knowledge.
+
+[lit] And I know that this a-record that I-write true is; and I it (obj.) with hand-of own-my write; and I it (obj.) upon basis-of knowledge-of self write.
+
 - **۳** — _se_ — Persian numeral 3 (`سه`)
 - **دانستن** — _dānestan_ (pres. _dān-_) — to know
   - _Forms_: 1sg pres. _`می` `دانم` mī-dānam_, as in `من می دانم` "I know", [verse 3](#verse-3); subj. 2pl _`بدانید` bedānīd_ "[that] you may know", [verse 18](#verse-18) — note `بـ-` for the subjunctive.
@@ -437,6 +521,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 4
 
 `۴ زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا (پدرم، لیحای، همۀ روزگارش را در اورشلیم ساکن بوده)؛ و در همان سال پیامبران{e} بسیاری آمدند، بر مردم نبوّت کرده که آنها باید توبه کنند، یا شهر{e} عظیم{e} اورشلیم نابود می شود.`
+
+[en] For it came to pass in the commencement of the first year of the reign of Zedekiah, king of Judah, (my father, Lehi, having dwelt at Jerusalem in all his days); and in that same year there came many prophets, prophesying unto the people that they must repent, or the great city Jerusalem must be destroyed.
+
+[lit] Because thus passed in beginning-of first year-of reign-of Zedekiah, king-of Judah (father-my, Lehi, all-of days-his (obj.) in Jerusalem resident having-been); and in that-same year prophets many came, upon the-people prophesying that they must repentance do, or city-of great Jerusalem destroyed becomes.
 
 - **۴** — _čahār_ — Persian numeral 4 (`چهار`)
 - **زیرا** — _zīrā_ — because, for
@@ -476,6 +564,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۵ از این رو چنین گذشت که پدرم، لیحای، همچنان که پیش می رفت به سرور نیایش می کرد، آری، حتّی با همۀ دلش، برای مردمش.`
 
+[en] Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people.
+
+[lit] For-this-reason thus passed that father-my, Lehi, just-as forth was-going, to Lord prayer was-doing, yea, even with all-of heart-his, for people-his.
+
 - **۵** — _panj_ — Persian numeral 5 (`پنج`)
 - **رو** — _rū_ — face, side
   - _Forms_: collocation `از این رو` "for this reason, therefore".
@@ -494,6 +586,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 6
 
 `۶ و چنین گذشت همچنان که او به سرور نیایش می کرد، آنجا ستونی از آتش آمد و بر صخره ای در برابر{e} او نشست؛ و او بسیار دید و شنید؛ و به سبب{e} چیزهایی که دید و شنید او بی اندازه تکان خورد و لرزید.`
+
+[en] And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him; and he saw and heard much; and because of the things which he saw and heard he did quake and tremble exceedingly.
+
+[lit] And thus passed just-as he to Lord prayer was-doing, there a-pillar from fire came and upon a-rock in front-of him sat; and he much saw and heard; and for cause-of things-which he saw and heard, he without-measure shake ate and trembled.
 
 - **صخره** — _ṣaxre_ — rock, cliff
   - _Etym_: from Arabic, root ṣ-x-r "to be rock-hard"; cognate with `صخرة` _ṣaxra_.
@@ -521,6 +617,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۷ و چنین گذشت که او به خانۀ خود در اورشلیم بازگشت؛ و چیره شده با روح{e} مقدّس و با چیزهایی که دیده بود، خود را بر بسترش انداخت.`
 
+[en] And it came to pass that he returned to his own house at Jerusalem; and he cast himself upon his bed, being overcome with the Spirit and the things which he had seen.
+
+[lit] And thus passed that he to house-of own-his in Jerusalem returned; and overcome having-become with spirit-of holy and with things-which he seen had, self (obj.) upon bed-his threw.
+
 - **۷** — _haft_ — Persian numeral 7 (`هفت`)
 - **خانه** — _xāne_ — house
   - _Forms_: ezafe _`خانۀ` xāne-ye_.
@@ -540,6 +640,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 8
 
 `۸ و بدین گونه چیره شده با روح{e} مقدّس، در رؤیایی بُرده شد، حتّی اینکه او دید آسمان ها گشوده شدند، و پنداشت خدا را نشسته بر تختش دید، فرا گرفته شده با جمعیّت های بیشماری از فرشتگان در حال{e} سرود خواندن و ستایش{e} خدایشان.`
+
+[en] And being thus overcome with the Spirit, he was carried away in a vision, even that he saw the heavens open, and he thought he saw God sitting upon his throne, surrounded with numberless concourses of angels in the attitude of singing and praising their God.
+
+[lit] And in-this-manner overcome having-become with spirit-of holy, in a-vision carried was, even that he saw heavens opened became, and supposed God (obj.) sitting upon throne-his saw, over-taken having-become with multitudes-of countless from angels in state-of singing and praising God-their.
 
 - **۸** — _hašt_ — Persian numeral 8 (`هشت`)
 - **بدین** — _bedīn_ — in/by this
@@ -582,6 +686,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۹ و چنین گذشت که او یکی را دید از میان{e} آسمان فرود می آید، و او دید که پرتوش فراتر از خورشید{e} نیمروز بود.`
 
+[en] And it came to pass that he saw One descending out of the midst of heaven, and he beheld that his luster was above that of the sun at noon-day.
+
+[lit] And thus passed that he a-one (obj.) saw from among heaven down was-coming, and he saw that radiance-his beyond from sun-of noon was.
+
 - **۹** — _noh_ — Persian numeral 9 (`نه`)
 - **یکی** — _yek-ī_ — one (of)
   - _Etym_: `یک` _yek_ "one" + indefinite _-ī_ → "one [of them]".
@@ -602,6 +710,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 10
 
 `۱۰ و او همچنین دید دوازده تای دیگر به دنبال{e} او می آمدند و درخشش{e} آنها از تابش{e} ستارگان در گنبد{e} آسمان فراتر بود.`
+
+[en] And he also saw twelve others following him, and their brightness did exceed that of the stars in the firmament.
+
+[lit] And he also saw twelve-of other after him were-coming, and brilliance-of them from radiance-of stars in dome-of sky beyond was.
 
 - **۱۰** — _dah_ — Persian numeral 10 (`ده` — a single word, not "one-zero")
 - **همچنین** — _hamčonīn_ — also, likewise
@@ -625,6 +737,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۱ و آنها پایین آمدند و بر روی زمین پیش رفتند؛ و نخستین آمد و در برابر{e} پدرم ایستاد، و به او کتابی داد و از او خواست تا آن را بخواند.`
 
+[en] And they came down and went forth upon the face of the earth; and the first came and stood before my father, and gave unto him a book, and bade him that he should read.
+
+[lit] And they down came and upon face-of earth forth went; and the-first came and in front-of father-my stood, and to him a-book gave and from him asked so-that it (obj.) may-read.
+
 - **۱۱** — _yāzdah_ — Persian numeral 11 (`یازده`)
 - **پایین** — _pāyīn_ — down, below
 - **روی** — _rū-ye_ — on, upon
@@ -639,6 +755,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۲ و چنین گذشت که همچنان که او می خواند آکنده از روح{e} سرور گشت.`
 
+[en] And it came to pass that as he read, he was filled with the Spirit of the Lord.
+
+[lit] And thus passed that just-as he was-reading, filled from spirit-of Lord became.
+
 - **۱۲** — _davāzdah_ — Persian numeral 12 (`دوازده`)
 - **آکنده** — _ākande_ — filled, full
   - _Forms_: collocation `آکنده شدن` "to be filled".
@@ -646,6 +766,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 13
 
 `۱۳ و او خواند، گفتا: وای، وای بر اورشلیم، زیرا من کارهای پلید{e} تو را دیده ام! آری، و چیزهای بسیاری پدرم دربارۀ اورشلیم خواند — که آن و ساکنان{e} آن نابود خواهند شد؛ بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد.`
+
+[en] And he read, saying: Wo, wo, unto Jerusalem, for I have seen thine abominations! Yea, and many things did my father read concerning Jerusalem—that it should be destroyed, and the inhabitants thereof; many should perish by the sword, and many should be carried away captive into Babylon.
+
+[lit] And he read, said-[narr.]: Woe, woe upon Jerusalem, because I deeds-of wicked thee (obj.) have-seen! Yea, and things many father-my concerning Jerusalem read — that it and inhabitants-of it destroyed will-be; many with sword perished will-be, and many to captivity to Babylon carried will-be.
 
 - **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
 - **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
@@ -666,6 +790,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 14
 
 `۱۴ و چنین گذشت که هنگامی که پدرم چیزهای بسیار بزرگ و شگفت انگیزی خواند و دید، چیزهای بسیاری را به سرور بانگ برآورد؛ مانند: بزرگ و شگفت انگیز است کارهای تو، سرورا، خدای قادر{e} مطلق! تخت{e} تو بالا در آسمانهاست و قدرت و نیکی و رحمت{e} تو بر همۀ ساکنان{e} زمین است؛ و برای اینکه تو مهربانی، تو روا نخواهی داشت کسانی که به سوی{e} تو می آیند هلاک شوند!`
+
+[en] And it came to pass that when my father had read and seen many great and marvelous things, he did exclaim many things unto the Lord; such as: Great and marvelous are thy works, O Lord God Almighty! Thy throne is high in the heavens, and thy power, and goodness, and mercy are over all the inhabitants of the earth; and, because thou art merciful, thou wilt not suffer those who come unto thee that they shall perish!
+
+[lit] And thus passed that when father-my things very great and wonder-arousing read and saw, things many (obj.) to Lord cry raised; like: Great and wonder-arousing are deeds-of thee, O-Lord, God-of powerful-of absolute! Throne-of thee high in the-heavens-is, and power and goodness and mercy-of thee upon all-of inhabitants-of earth is; and because thou art-kind, thou will-not-have-suffered those-who toward thee come [that] they perish!
 
 - **۱۴** — _čahārdah_ — Persian numeral 14 (`چهارده`)
 - **هنگام** — _hengām_ — time, occasion
@@ -708,6 +836,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۵ و به این شیوه بود زبان{e} پدرم در ستایش{e} خدایش؛ زیرا روانش شادمانی می کرد و تمامی{e} دلش، به سبب{e} چیزهایی که دیده بود، آری، آنچه که سرور به او نشان داده بود، آکنده شده بود.`
 
+[en] And after this manner was the language of my father in the praising of his God; for his soul did rejoice, and his whole heart was filled, because of the things which he had seen, yea, which the Lord had shown unto him.
+
+[lit] And to this-manner was language-of father-my in praising-of God-his; because soul-his joy was-doing, and entirety-of heart-his, for cause-of things-which he had-seen, yea, that-which Lord to him shown had, filled had-become.
+
 - **۱۵** — _pānzdah_ — Persian numeral 15 (`پانزده`)
 - **شیوه** — _šīve_ — manner, way, style
   - _Forms_: collocation `به این شیوه` "in this manner".
@@ -731,6 +863,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۶ و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی نگارم، زیرا او چیزهای بسیاری که در رؤیاها و در خوابها دید نوشته است؛ و او چیزهای بسیاری را که نبوّت کرد و به فرزندانش سخن گفت نیز نوشته است، که از آنها سرگذشت{e} کاملی نخواهم نگاشت.`
 
+[en] And now I, Nephi, do not make a full account of the things which my father hath written, for he hath written many things which he saw in visions and in dreams; and he also hath written many things which he prophesied and spake unto his children, of which I shall not make a full account.
+
+[lit] And now I, Nephi, account-of complete from things-which father-my written has not-write, because he things many-which in visions and in dreams saw has-written; and he things many (obj.) which prophecy did and to children-his speech said also has-written, which from them account-of complete will-not-inscribe.
+
 - **۱۶** — _šānzdah_ — Persian numeral 16 (`شانزده`)
 - **اینک** — _īnak_ — now; behold
   - _Etym_: `این` + `-ـَک` (deictic suffix) → "this very [moment]".
@@ -750,6 +886,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 17
 
 `۱۷ ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت. بنگرید، من خلاصه ای از نگاشتۀ پدرم را، بر این ورقه ها که من با دستهای خودم درست کرده ام، می نگارم؛ از این رو، پس از اینکه من نگاشتۀ پدرم را خلاصه کردم آنگاه سرگذشت{e} زندگی{e} خودم را خواهم نگاشت.`
+
+[en] But I shall make an account of my proceedings in my days. Behold, I make an abridgment of the record of my father, upon plates which I have made with mine own hands; wherefore, after I have abridged the record of my father then will I make an account of mine own life.
+
+[lit] But I description-of deeds-my in days-my (obj.) will-inscribe. Behold, I a-summary from inscription-of father-my (obj.), upon these plates that I with hands-of own-my made have, write; for-this-reason, after that I inscription-of father-my (obj.) summarized, then account-of life-of own-my (obj.) will-inscribe.
 
 - **۱۷** — _hefdah_ — Persian numeral 17 (`هفده`)
 - **ولی** — _valī_ — but, however
@@ -776,6 +916,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 
 `۱۸ بنابراین، من می خواهم که شما بدانید، که پس از اینکه سرور تا این اندازه چیزهای بسیار شگفت انگیزی به پدرم، لیحای، نشان داد، آری، در مورد{e} نابودی{e} اورشلیم، بنگرید او به میان{e} مردم پیش رفت، و شروع نمود به نبوّت و اعلام کردن به آنها دربارۀ چیزهایی که هم دیده و هم شنیده بود.`
 
+[en] Therefore, I would that ye should know, that after the Lord had shown so many marvelous things unto my father, Lehi, yea, concerning the destruction of Jerusalem, behold he went forth among the people, and began to prophesy and to declare unto them concerning the things which he had both seen and heard.
+
+[lit] Therefore, I want that you may-know, that after Lord to this-extent things very wonder-arousing to father-my, Lehi, showed, yea, concerning destruction-of Jerusalem, behold he to among people went-forth, and began to-do to prophecy and declaring to them concerning things-which both seen and heard had.
+
 - **۱۸** — _hejdah_ — Persian numeral 18 (`هجده`)
 - **شما** — _šomā_ — you (pl. / formal)
 - **اعلام** — _eʿlām_ — announcement, declaration
@@ -787,6 +931,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 19
 
 `۱۹ و چنین گذشت که یهودیان او را به سبب{e} چیزهایی که او از آنها گواهی می داد مسخره کردند؛ زیرا او براستی از نابکاری هایشان و کارهای پلیدشان گواهی می داد؛ و او گواهی می داد که چیزهایی که او دید و شنید، و نیز چیزهایی که او در آن کتاب خواند، آمدن{e} یک مسیح و همچنین بازخرید شدن{e} جهان را به سادگی پدیدار می کرد.`
+
+[en] And it came to pass that the Jews did mock him because of the things which he testified of them; for he truly testified of their wickedness and their abominations; and he testified that the things which he saw and heard, and also the things which he read in the book, manifested plainly of the coming of a Messiah, and also the redemption of the world.
+
+[lit] And thus passed that the-Jews him (obj.) for cause-of things-which he of them testimony was-giving mocked; because he truly of wickedness-their and deeds-of wicked-their testimony was-giving; and he testimony was-giving that things-which he saw and heard, and also things-which he in that book read, coming-of a Messiah and also redeemed-being-of world (obj.) simply manifest was-making.
 
 - **۱۹** — _nūzdah_ — Persian numeral 19 (`نوزده`)
 - **گواهی** — _govāhī_ — testimony
@@ -816,6 +964,10 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 ### Verse 20
 
 `۲۰ و هنگامی که یهودیان این چیزها را شنیدند بر او خشم گرفتند؛ آری، حتّی آنچنان که با پیامبران{e} پیشین، که آنها را بیرون انداخته و سنگسار کرده و کشته بودند؛ و آنها به دنبال{e} او نیز برآمدند، که بتوانند جانش را بگیرند. ولی بنگرید، من، نیفای، به شما نشان خواهم داد که رحمت های مهرآمیز{e} سرور بر سر{e} همۀ کسانی است که او به سبب{e} ایمانشان برگزیده است، تا آنها را به قدرت{e} رهایی توانا سازد.`
+
+[en] And when the Jews heard these things they were angry with him; yea, even as with the prophets of old, whom they had cast out, and stoned, and slain; and they also sought his life, that they might take it away. But behold, I, Nephi, will show unto you that the tender mercies of the Lord are over all those whom he hath chosen, because of their faith, to make them mighty even unto the power of deliverance.
+
+[lit] And when the-Jews these things (obj.) heard, upon him wrath took; yea, even just-as with prophets-of former, which them (obj.) out thrown and stoned and killed had; and they after him also rose-up, that could soul-his (obj.) take. But behold, I, Nephi, to you will-show that mercies-of loving Lord upon head-of all-of those-who [is] that he for cause-of faith-their chosen has, so-that them (obj.) to power-of deliverance mighty may-make.
 
 - **۲۰** — _bist_ — Persian numeral 20 (`بیست` — a separate word, not "two-zero")
 - **خشم** — _xašm_ — wrath, anger

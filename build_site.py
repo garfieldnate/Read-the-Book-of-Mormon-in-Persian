@@ -200,7 +200,7 @@ def main() -> int:
         ch_out_dir.mkdir(parents=True, exist_ok=True)
         md_text = md_path.read_text(encoding="utf-8")
         # Chapter pages live one level below styles.css (study_guide/NN_book/ vs study_guide/).
-        html = render(md_text, css_href="../styles.css")
+        html = render(md_text, css_href="../styles.css", source_name=str(md_path.relative_to(ROOT)))
         html_path = ch_out_dir / (md_path.stem + ".html")
         html_path.write_text(html, encoding="utf-8")
         print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)

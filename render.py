@@ -107,7 +107,7 @@ _META_LABEL_LINE_RE = re.compile(r"^- _")
 # Suffixes to try stripping (longest first) when exact lookup fails.
 _LOOKUP_SUFFIXES = [
     "هایشان", "هایتان", "هایمان", "هایی", "ترین", "مان", "تان", "شان",
-    "های", "ند", "یم", "ان", "ها", "یی", "ی", "ش", "ت", "م", "ه",
+    "های", "ند", "یم", "ان", "هاست", "ها", "یی", "ی", "ش", "ت", "م", "ه",
 ]
 
 
@@ -176,10 +176,17 @@ def _lookup_word(word: str, word_map: dict[str, str]) -> str | None:
     return None
 
 
-def _link_source_text(text: str, word_map: dict[str, str]) -> str:
+def _link_source_text(
+    text: str,
+    word_map: dict[str, str],
+    unlinked: list[str] | None = None,
+) -> str:
     """Convert raw source-text content (from inside backticks, before any
     _inline() processing) to HTML with Persian words linked to vocab/grammar
-    entries and {e} markers converted to ezafe spans."""
+    entries and {e} markers converted to ezafe spans.
+
+    If `unlinked` is provided, any token that could not be resolved is appended
+    to it so the caller can emit warnings."""
     result: list[str] = []
     parts = re.split(r"\{e\}", text)
     for i, part in enumerate(parts):
@@ -198,6 +205,8 @@ def _link_source_text(text: str, word_map: dict[str, str]) -> str:
                 )
             else:
                 result.append(html_lib.escape(word))
+                if unlinked is not None:
+                    unlinked.append(word)
             last = m.end()
         tail = part[last:]
         if tail:
@@ -254,6 +263,17 @@ EZAFE_TOGGLE_HTML = (
     "</label>"
 )
 
+TRANSLATION_TOGGLE_HTML = (
+    '<label class="translation-toggle">'
+    '<span class="translation-toggle-text">Translations</span>'
+    '<input type="checkbox" class="translation-toggle-input"'
+    ' aria-label="Show translations">'
+    '<span class="translation-toggle-track" aria-hidden="true"></span>'
+    "</label>"
+)
+
+TOGGLE_BAR_HTML = f'<div class="toggle-bar">{EZAFE_TOGGLE_HTML}{TRANSLATION_TOGGLE_HTML}</div>'
+
 
 def _has_ezafe(html: str) -> bool:
     return 'class="ezafe"' in html
@@ -278,7 +298,7 @@ def _build_example(bq_lines: list[str]) -> str:
     out.append("</div>")
     body = "\n".join(out)
     if _has_ezafe(body):
-        body = EZAFE_TOGGLE_HTML + "\n" + body
+        body = TOGGLE_BAR_HTML + "\n" + body
     return body
 
 
@@ -423,7 +443,11 @@ def _emit_list(items: list[tuple[int, str]]) -> str:
     return _emit_tree(tree, depth=0, mode="vocab" if top_is_vocab else "plain")
 
 
-def _render_body(md: str, word_map: dict[str, str] | None = None) -> str:
+def _render_body(
+    md: str,
+    word_map: dict[str, str] | None = None,
+    unlinked: list[str] | None = None,
+) -> str:
     md = md.replace("\r\n", "\n").replace("\r", "\n")
     lines = md.split("\n")
     out: list[str] = []
@@ -498,14 +522,20 @@ def _render_body(md: str, word_map: dict[str, str] | None = None) -> str:
         if para:
             raw = " ".join(para)
             _src_m = re.match(r"^`([^`]+)`$", raw) if word_map is not None else None
+            _trans_m = re.match(r"^\[(en|lit)\]\s+(.+)$", raw, re.DOTALL)
             if _src_m:
-                _inner = _link_source_text(_src_m.group(1), word_map)
-                rendered = f"<p><code>{_inner}</code></p>"
+                _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
+                out.append(TOGGLE_BAR_HTML)
+                out.append(f"<p><code>{_inner}</code></p>")
+            elif _trans_m:
+                lang = _trans_m.group(1)
+                cls = "translation-en" if lang == "en" else "translation-lit"
+                out.append(f'<div class="translation {cls}">{_inline(_trans_m.group(2))}</div>')
             else:
                 rendered = f"<p>{_inline(raw)}</p>"
-            if _has_ezafe(rendered):
-                out.append(EZAFE_TOGGLE_HTML)
-            out.append(rendered)
+                if _has_ezafe(rendered):
+                    out.append(TOGGLE_BAR_HTML)
+                out.append(rendered)
 
     return "\n".join(out)
 
@@ -528,12 +558,18 @@ DOCUMENT = """<!DOCTYPE html>
 (function () {{
   document.addEventListener('change', function (e) {{
     var t = e.target;
-    if (!t || !t.classList || !t.classList.contains('ezafe-toggle-input')) return;
-    var visible = t.checked;
-    document.body.classList.toggle('hide-ezafe', !visible);
-    var inputs = document.querySelectorAll('.ezafe-toggle-input');
-    for (var i = 0; i < inputs.length; i++) {{
-      inputs[i].checked = visible;
+    if (!t || !t.classList) return;
+    if (t.classList.contains('ezafe-toggle-input')) {{
+      var v = t.checked;
+      document.body.classList.toggle('hide-ezafe', !v);
+      var ins = document.querySelectorAll('.ezafe-toggle-input');
+      for (var i = 0; i < ins.length; i++) ins[i].checked = v;
+    }}
+    if (t.classList.contains('translation-toggle-input')) {{
+      var v = t.checked;
+      document.body.classList.toggle('show-translations', v);
+      var ins = document.querySelectorAll('.translation-toggle-input');
+      for (var i = 0; i < ins.length; i++) ins[i].checked = v;
     }}
   }});
 }})();
@@ -543,9 +579,17 @@ DOCUMENT = """<!DOCTYPE html>
 """
 
 
-def render(md_text: str, css_href: str = "../styles.css") -> str:
+def render(md_text: str, css_href: str = "../styles.css", source_name: str = "") -> str:
     word_map = _build_vocab_map(md_text)
-    body = _render_body(md_text, word_map=word_map)
+    unlinked: list[str] = []
+    body = _render_body(md_text, word_map=word_map, unlinked=unlinked)
+    if unlinked:
+        counts: dict[str, int] = {}
+        for w in unlinked:
+            counts[w] = counts.get(w, 0) + 1
+        label = f"{source_name}: " if source_name else ""
+        for word, n in sorted(counts.items(), key=lambda kv: -kv[1]):
+            print(f"  {label}unlinked: {word} (×{n})", file=sys.stderr)
     # Prefer the first H1 as the document title
     m = re.search(r"^#\s+(.+)$", md_text, flags=re.MULTILINE)
     title = _inline(m.group(1)) if m else "Study Guide"
@@ -563,7 +607,7 @@ def main() -> int:
     in_path = Path(sys.argv[1])
     out_path = Path(sys.argv[2])
     md_text = in_path.read_text(encoding="utf-8")
-    html = render(md_text)
+    html = render(md_text, source_name=str(in_path))
     out_path.write_text(html, encoding="utf-8")
     print(f"wrote {out_path} ({len(html):,} bytes)", file=sys.stderr)
     return 0

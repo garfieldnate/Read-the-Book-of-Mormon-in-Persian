@@ -100,9 +100,8 @@ Two further conventions:
 
 - **Each section opens with the source text, immediately followed by the vocab for that section.** The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
   - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence followed by the vocab it introduces. If a sentence introduces no new lemmas, emit the heading and the backtick'd Persian followed by an italic `*(No new lemmas — every word in this sentence has already been introduced.)*` note in place of a vocab list.
-  - **Chapter summary** — `### Chapter summary (lines X–Y)` (h3) followed by the entire summary text on a single line wrapped in backticks (no internal line breaks), then a single flat vocab list for the whole summary.
-  - **Each verse** — `### Verse N (lines X–Y)` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse. **Do not** sub-divide a verse with `#### Line N` headings; the source-line anchors live inside `*Forms*` citations on individual entries instead.
-  - Source line numbers refer to the fetched source text. Cite the surrounding line numbers in the `(lines X–Y)` heading.
+  - **Chapter summary** — `### Chapter summary` (h3) followed by the entire summary text on a single line wrapped in backticks (no internal line breaks), then a single flat vocab list for the whole summary.
+  - **Each verse** — `### Verse N` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse.
   - **Editorial ezafe marker `{e}`**. The Persian Book of Mormon source very rarely writes the unstressed ezafe linker (`-e` / `-ye`) on consonant-final words — the reader is expected to know to pronounce it. To help learners, insert a literal `{e}` in the markdown source at every site where ezafe is unwritten in the source text or in a grammar-example blockquote. `render.py` converts each `{e}` to `<span class="ezafe">ِ</span>` (a kasra wrapped in a styled span); CSS colors the kasra in the project's accent color and slightly bolds it, so the reader can see at a glance that this kasra was added by us — _not_ part of the publisher's text. Examples:
     - `کتاب{e} نیفای` → _ketāb-**e** Nīfāy_ "the Book of Nephi" (the rendered HTML attaches the kasra to ب and styles it).
     - `سرزمین{e} اورشلیم` → _sarzamīn-**e** Uršalīm_ "the land of Jerusalem".
@@ -185,9 +184,9 @@ Two further conventions:
      - **Auxiliary uses**: `خواستن` as future auxiliary (_خواهم نگاشت_, …); `شدن` as passive auxiliary (_خوانده می شدند_, …).
      - **High-frequency verbs that show up in many shapes** (`بودن`, `شدن`, `کردن`, `داشتن`, `دادن`): summarize the paradigm visible in this chapter (3sg, 3pl, past, pp).
   2. **Common collocations or related compound forms** of any lemma — what would have been an inline parenthetical (e.g., on `دنبال`, the pair `به دنبال` / `بدنبال`; on `خشم`, the verb `خشم گرفتن`). Move these to `*Forms*:` instead of the headline.
-  3. **Regular verbs** whose past stem matches the infinitive transparently (`زادن` → `زاد`/`زاده`, `شنیدن` → `شنید`/`شنیده`, etc.) — _do not_ add `*Forms*`. The bare `(pres. *stem-*)` annotation in the headline is enough.
+  3. **Regular verbs** whose past stem matches the infinitive transparently (`زادن` → `زاد`/`زاده`, `شنیدن` → `شنید`/`شنیده`, etc.) — add `*Forms*` listing the backtick'd conjugated forms that actually appear in the chapter's source text. This is required for `render.py` to link those surface forms back to the headword. If none of the regular verb's forms appear in source-text lines, the `*Forms*` sub-bullet can be omitted.
 
-  Inside `*Forms*`, cite **verbatim Persian from the source text plus a line number** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", line N; past _…_; pp. _…_.`
+  Inside `*Forms*`, cite **verbatim Persian from the source text with a section reference** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", [verse N](#verse-n); past _…_; pp. _…_.` Use `[chapter summary](#chapter-summary)`, `[verse N](#verse-n)`, or `[book summary, sentence N](#sentence-n)` as appropriate. The backtick-quoted forms in `*Forms*` are harvested by `render.py` when building the source-text link map — every form you list in backticks will become a clickable link in the inline source-text blocks.
 
 - **Irregular reading warnings (⚠️)**: flag Arabic loanwords whose Persian spelling would mislead a learner into a wrong pronunciation. Place the ⚠️ sub-bullet **first** under the headword, before any `*Etym*` line — and only on the sub-bullet, never on the headword line itself:
 
@@ -215,7 +214,7 @@ Two further conventions:
 10–12 tricky grammar points per chapter. For each point:
 
 - A 1–3 sentence explanation.
-- One example sentence **taken verbatim from the chapter's `normalized.txt`** — no invented examples.
+- One example sentence **taken verbatim from the chapter's source text** (`web.txt` or the backtick'd source lines in the study guide itself) — no invented examples.
 - Three lines: Persian, transcription, English translation.
 
 Standing list of points worth covering when they appear in a chapter:
@@ -249,7 +248,7 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | Class               | Applied to | Where it comes from in Markdown                                                                                                         |
 | ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `.vocab`            | `<ul>`     | Any bullet list whose items all begin with `**bold**` (treated as a vocab list).                                                        |
-| `.vocab-entry`      | `<li>`     | Each item inside a `.vocab` list.                                                                                                       |
+| `.vocab-entry`      | `<li>`     | Each item inside a `.vocab` list; gets `id="vocab-HEADWORD"` (the raw Persian headword) so `.src-link` anchors resolve.                 |
 | `.vocab-meta`       | `<ul>`     | Sub-list directly inside a `.vocab-entry` (the `Etym` / `Forms` block).                                                                 |
 | `.vocab-etym`       | `<li>`     | Item in `.vocab-meta` whose label is `*Etym*` or `*Etymology*`.                                                                         |
 | `.vocab-forms`      | `<li>`     | Item in `.vocab-meta` whose label is `*Forms*` or `*Form*`.                                                                             |
@@ -263,11 +262,12 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.example-fa`       | `<div>`    | First line of an example — Persian + (optional) line-ref prefix.                                                                        |
 | `.example-tr`       | `<div>`    | Second line of an example — italic transliteration.                                                                                     |
 | `.example-en`       | `<div>`    | Third line of an example — English translation.                                                                                         |
-| `.line-ref`         | `<span>`   | The `Lines N–M:` prefix at the start of `.example-fa`.                                                                                  |
-| `<h3>`              | (element)  | Section heading (`### Verse 1 (lines 25–33)`); styled with a solid top border to mark section boundaries.                               |
+| `.line-ref`         | `<span>`   | The section-reference prefix at the start of `.example-fa` (e.g. `[Verse 4](#verse-4):`).                                               |
+| `.src-link`         | `<a>`      | A Persian word inside a source-text `<code>` block linked to its vocab or grammar entry anchor.                                          |
+| `<h3>`              | (element)  | Section heading (`### Verse 1`); gets `id="verse-1"` (slugified) so source-text word links can point into it.                           |
 | `<h4>`              | (element)  | Sentence / line marker (`#### Sentence 3`, `#### Title`); styled small/uppercase with a dashed top rule for sub-blocks under a section. |
 
-The parser is deliberately narrow: it handles headings, paragraphs, bold/italic/inline-code, nested `- ` bullet lists, and `> ` blockquotes. It does not handle tables, code fences, or links. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
+The parser is deliberately narrow: it handles headings (with auto-generated `id` slugs), paragraphs, bold/italic/inline-code, Markdown links (`[text](url)`), nested `- ` bullet lists, and `> ` blockquotes. It does not handle tables or code fences. Standalone backtick paragraphs (a paragraph whose entire content is a single backtick-quoted string) are treated as source-text quotations: each Persian token is looked up in the vocab map and, if found, wrapped in a `.src-link` anchor. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
 
 ### Editing the stylesheet
 

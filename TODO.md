@@ -1,5 +1,4 @@
 - collapse vocab sections so you can read straight through
 - put grammar into vocab sections
-- make words clickable
 - final simplified word index that prints as two columns
-- add hidable section translations
+- Our method for linking everything is potentially problematic. Every single form of a word has to get listed and translated somewhere. I dunno, maybe that's fine.
