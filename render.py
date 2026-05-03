@@ -91,6 +91,13 @@ def _inline(text: str) -> str:
     text = re.sub(r"\*\*([^*]+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", text)
     text = re.sub(r"(?<!_)_([^_]+?)_(?!_)", r"<em>\1</em>", text)
+    # Wrap runs of 2+ consecutive Persian code spans in an RTL container so
+    # multi-word phrases (e.g. `به` `هنگام`) display in the correct reading order.
+    text = re.sub(
+        r"(<code>[^<]*[؀-ۿ][^<]*</code>(?:[  ]*<code>[^<]*[؀-ۿ][^<]*</code>)+)",
+        r'<span dir="rtl">\1</span>',
+        text,
+    )
     return text
 
 
@@ -323,7 +330,7 @@ GLOSS_TOGGLE_HTML = (
 
 TOGGLE_BAR_HTML = (
     f'<div class="toggle-bar">'
-    f'{EZAFE_TOGGLE_HTML}{TRANSLATION_TOGGLE_HTML}{GLOSS_TOGGLE_HTML}'
+    f'{EZAFE_TOGGLE_HTML}{GLOSS_TOGGLE_HTML}'
     f'</div>'
 )
 EZAFE_TOGGLE_BAR_HTML = f'<div class="toggle-bar">{EZAFE_TOGGLE_HTML}</div>'

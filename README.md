@@ -98,10 +98,10 @@ Two further conventions:
 
 ### Vocabulary section
 
-- **Each section opens with the source text, immediately followed by the vocab for that section.** The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
-  - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence followed by the vocab it introduces. If a sentence introduces no new lemmas, emit the heading and the backtick'd Persian followed by an italic `*(No new lemmas — every word in this sentence has already been introduced.)*` note in place of a vocab list.
-  - **Chapter summary** — `### Chapter summary` (h3) followed by the entire summary text on a single line wrapped in backticks (no internal line breaks), then a single flat vocab list for the whole summary.
-  - **Each verse** — `### Verse N` (h3) followed by the entire verse text on a single line wrapped in backticks, then a single flat vocab list for that verse.
+- **Each section opens with the source text, followed by an interlinear gloss, an English translation, and then the vocab for that section** (in that order). The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
+  - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence, a `[gloss]` line, an `[en]` translation, and then the vocab it introduces. If a sentence introduces no new lemmas, emit the heading, backtick'd Persian, gloss, `[en]` line, and then the italic `*(No new lemmas — every word in this sentence has already been introduced.)*` note in place of a vocab list.
+  - **Chapter summary** — `### Chapter summary` (h3) followed by the entire summary text on a single line wrapped in backticks, a `[gloss]` line, an `[en]` translation, and then a single flat vocab list for the whole summary.
+  - **Each verse** — `### Verse N` (h3) followed by the entire verse text on a single line wrapped in backticks, a `[gloss]` line, an `[en]` translation, and then a single flat vocab list for that verse.
   - **Editorial ezafe marker `{e}`**. The Persian Book of Mormon source very rarely writes the unstressed ezafe linker (`-e` / `-ye`) on consonant-final words — the reader is expected to know to pronounce it. To help learners, insert a literal `{e}` in the markdown source at every site where ezafe is unwritten in the source text or in a grammar-example blockquote. `render.py` converts each `{e}` to `<span class="ezafe">ِ</span>` (a kasra wrapped in a styled span); CSS colors the kasra in the project's accent color and slightly bolds it, so the reader can see at a glance that this kasra was added by us — _not_ part of the publisher's text. Examples:
     - `کتاب{e} نیفای` → _ketāb-**e** Nīfāy_ "the Book of Nephi" (the rendered HTML attaches the kasra to ب and styles it).
     - `سرزمین{e} اورشلیم` → _sarzamīn-**e** Uršalīm_ "the land of Jerusalem".
@@ -112,6 +112,69 @@ Two further conventions:
     - `ی` on words ending in long `ا` / `و` (e.g. `خدای قادر`, `روی زمین`).
     - `های` (plural + ezafe) on plural-marked nouns (e.g. `رحمت‌های مهرآمیز`).
     - The very rare explicit kasra the publisher wrote in the original (e.g. `کتابِ نبوّت` in the chapter summary). Leave that kasra alone — keeping it unstyled signals that it was already in the source.
+
+- **English translation (`[en]`)**. Write the official LDS English edition text (or a close equivalent) on a line by itself immediately after the `[gloss]` line:
+
+  ```
+  [en] The First Book of Nephi
+  ```
+
+  The renderer wraps this in `<div class="translation translation-en">` and hides it by default. It becomes visible when the reader checks the **Translation** toggle. Use `[lit]` instead of `[en]` for a word-for-word literal gloss when the idiomatic English would obscure the Persian structure.
+
+- **Interlinear gloss (`[gloss]`)**. Write the gloss line immediately after the backtick'd source text and before the `[en]` line. Each token is `source|gloss` pairs separated by spaces, following [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/resources/glossing-rules.php):
+
+  ```
+  [gloss] noxostīn|first ketāb=e|book=EZ Nīfāy|Nephi
+  [gloss] yek|1 man|1SG Nīfāy|Nephi az|from pedar|father o|and mādar=e|mother=EZ xūb-ī|good-INDEF zāde|bear-PTCP.PST šode|become-PTCP.PST
+  ```
+
+  **Source slot** (left of `|`): romanized transliteration of the Persian word, with morphological boundaries marked per Leipzig Rule 2:
+  - **Hyphens (`-`)** for bound morphemes (affixes attached to the host): `hamsar-aš` (wife+3SG.POSS), `šod-and` (become+PST.3PL), `kāmel-ī` (complete+INDEF).
+  - **Equals signs (`=`)** for clitics (phonologically attached but syntactically independent): `ketāb=e` (book=EZ), `sarzamīn=e` (land=EZ). Ezafe is always a clitic.
+  - Boundaries in the source slot must match the segmentation shown in the gloss slot. A hyphen in the gloss (e.g. `wife-3SG.POSS`) requires a hyphen at the same position in the source (`hamsar-aš`).
+  - Words written separately in Persian that are separate tokens in the gloss get no boundary marker even if they are grammatically dependent — e.g. `mī|IMPF deh-ad|give-PRS-3SG` (می and دهد are separate written words).
+
+  **Gloss slot** (right of `|`):
+  - Lexical content in **lowercase**: `book`, `first`, `become`, `father`.
+  - Grammatical abbreviations in **UPPERCASE** (rendered as small caps): `EZ`, `PST`, `3SG`, `PL`, `IMPF`.
+  - Multi-part labels joined with `.`: `3SG.POSS`, `PTCP.PST`, `NEG.IMPF`.
+  - Morpheme boundaries with `-`: `wife-3SG.POSS`, `book-INDEF`, `give-PRS-3SG`.
+  - Clitic boundaries with `=`: `book=EZ`, `in.pursuit=EZ`.
+  - Multi-word English glosses use `.` to join them (no spaces within a token): `in.pursuit`, `so.that`, `that.which`.
+
+  **Standard abbreviations** used in this project:
+
+  | Abbrev | Meaning | Example |
+  |--------|---------|---------|
+  | `ACC` | accusative (`را`) | `rā\|ACC` |
+  | `CL` | classifier / counter | `tā=e\|CL=EZ` |
+  | `COMP` | complementizer `که` (introducing a clause) | `ke\|COMP` |
+  | `COP` | copula (`است`, enclitic `-am/-ī/…`) | `ast\|COP-3SG` |
+  | `EZ` | ezafe linker (`-e`/`-ye`) | `ketāb=e\|book=EZ` |
+  | `FUT` | future auxiliary (`خواه-`) | `xāh-am\|FUT-1SG` |
+  | `IMPF` | imperfective prefix (`می-`) | `mī\|IMPF` |
+  | `INDEF` | indefinite suffix (`-ī`) | `ketāb-ī\|book-INDEF` |
+  | `INF` | infinitive (base form used with `خواستن` future) | `negāšt\|write-INF.PST` |
+  | `INF.PST` | past-stem infinitive (short infinitive used in future constructions) | same as above |
+  | `NEG` | negative prefix (`نـ-`, `نه-`) | `na-xāh-am\|NEG-FUT-1SG` |
+  | `NARR` | narrative suffix (`-ā` on گفتا) | `goft-ā\|say-NARR` |
+  | `PASS` | passive (analytical: pp + شدن) | `šav-ad\|become-PASS-3SG` |
+  | `PL` | plural (`-hā`) | `hā=e\|PL=EZ` |
+  | `POSS` | possessive enclitic | `hamsar-aš\|wife-3SG.POSS` |
+  | `PRS` | present tense | `kon-ad\|do-PRS-3SG` |
+  | `PRV` | preverb (separable prefix, e.g. `بر-` in `برمی دارد`) | `bar-mī\|PRV=IMPF` |
+  | `PST` | past tense | `kard\|do-PST-3SG` |
+  | `PTCP` | participle | `xānde\|call-PTCP.PST` |
+  | `REL` | relative particle `که` | `ke\|REL` |
+  | `SBJV` | subjunctive | `šav-and\|become-SBJV-3PL` |
+  | `SG` | singular | (used in person+number combos: `1SG`, `3SG`) |
+  | `VOC` | vocative | `Sarvar-ā\|Lord-VOC` |
+
+  Person and number are written together without a separator: `1SG`, `2PL`, `3SG`, `3PL` (Leipzig Rule 5).
+
+  **Persian numerals**: use the spelled-out transliteration as the source token: `yek|1`, `do|2`, `se|3`, `čahār|4`, `panj|5`, `šeš|6`, `haft|7`, `hašt|8`, `noh|9`, `dah|10`, `yāzdah|11`, `davāzdah|12`, etc. For larger numbers in a title or heading context (e.g. `600 B.C.`) use the Arabic numeral: `600|600`.
+
+  The renderer hides the gloss block by default; it becomes visible when the reader checks the **Gloss** toggle. Words flow left-to-right (the transliteration line reads in sentence order, first word on the left).
 
 - **Order of first appearance**. A word appears once, in the verse where the reader first encounters it.
 - **Lemmatize**: one entry per lemma (infinitive for verbs, singular citation form for nouns). Do **not** re-list a later inflected form (e.g. a new past-tense) as a fresh entry — forms are handled by the present-stem / past-participle notes on the original entry.
@@ -264,6 +327,17 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.example-en`       | `<div>`    | Third line of an example — English translation.                                                                                         |
 | `.line-ref`         | `<span>`   | The section-reference prefix at the start of `.example-fa` (e.g. `[Verse 4](#verse-4):`).                                               |
 | `.src-link`         | `<a>`      | A Persian word inside a source-text `<code>` block linked to its vocab or grammar entry anchor.                                          |
+| `.translation`      | `<div>`    | An `[en]` or `[lit]` paragraph; hidden by default, shown when the **Translation** toggle is checked.                                    |
+| `.translation-en`   | `<div>`    | Added alongside `.translation` for `[en]` lines (official English text).                                                                |
+| `.translation-lit`  | `<div>`    | Added alongside `.translation` for `[lit]` lines (word-for-word literal gloss).                                                         |
+| `.gloss`            | `<div>`    | The entire interlinear gloss block for a `[gloss]` paragraph; hidden by default, shown when the **Gloss** toggle is checked.            |
+| `.gloss-words`      | `<div>`    | Flex container inside `.gloss`; words flow left-to-right in sentence order.                                                             |
+| `.gloss-unit`       | `<div>`    | One source+gloss pair (a single token column): stacks `.gloss-src` above `.gloss-tag`.                                                  |
+| `.gloss-src`        | `<span>`   | The transliteration (source line) inside a gloss unit.                                                                                  |
+| `.gloss-tag`        | `<span>`   | The Leipzig gloss label inside a gloss unit.                                                                                            |
+| `.gl`               | `<span>`   | A Leipzig abbreviation (2+ consecutive capitals, or digit+caps) inside `.gloss-tag`; rendered in small caps.                            |
+| `.toggle-bar`       | `<div>`    | The row of toggle switches injected before each source-text block; contains up to three toggles (ezafe, translation, gloss).            |
+| `.ezafe`            | `<span>`   | An editorial kasra injected by `{e}` in the Markdown source; colored to distinguish it from the publisher's text.                       |
 | `<h3>`              | (element)  | Section heading (`### Verse 1`); gets `id="verse-1"` (slugified) so source-text word links can point into it.                           |
 | `<h4>`              | (element)  | Sentence / line marker (`#### Sentence 3`, `#### Title`); styled small/uppercase with a dashed top rule for sub-blocks under a section. |
 
