@@ -330,7 +330,7 @@ GLOSS_TOGGLE_HTML = (
 
 TOGGLE_BAR_HTML = (
     f'<div class="toggle-bar">'
-    f'{EZAFE_TOGGLE_HTML}{GLOSS_TOGGLE_HTML}'
+    f'{EZAFE_TOGGLE_HTML}{TRANSLATION_TOGGLE_HTML}{GLOSS_TOGGLE_HTML}'
     f'</div>'
 )
 EZAFE_TOGGLE_BAR_HTML = f'<div class="toggle-bar">{EZAFE_TOGGLE_HTML}</div>'
@@ -565,6 +565,27 @@ def _render_body(
             i += 1
             continue
 
+        # Source text, gloss, and translation directives — each line is standalone
+        _src_m = re.match(r"^`([^`]+)`$", stripped) if word_map is not None else None
+        _trans_m = re.match(r"^\[(en|lit)\]\s+(.+)$", stripped, re.DOTALL)
+        _gloss_m = re.match(r"^\[gloss\]\s+(.+)$", stripped, re.DOTALL)
+        if _src_m:
+            _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
+            out.append(TOGGLE_BAR_HTML)
+            out.append(f"<p><code>{_inner}</code></p>")
+            i += 1
+            continue
+        if _gloss_m:
+            out.append(_render_gloss_line(_gloss_m.group(1)))
+            i += 1
+            continue
+        if _trans_m:
+            lang = _trans_m.group(1)
+            cls = "translation-en" if lang == "en" else "translation-lit"
+            out.append(f'<div class="translation {cls}">{_inline(_trans_m.group(2))}</div>')
+            i += 1
+            continue
+
         # Paragraph — collect until a block delimiter
         para: list[str] = []
         while i < n:
@@ -576,30 +597,18 @@ def _render_body(
                 or BLOCKQUOTE_RE.match(pl)
                 or LIST_RE.match(pl)
                 or ps in HR_SET
+                or re.match(r"^\[(en|lit|gloss)\]\s", ps)
+                or (word_map is not None and re.match(r"^`[^`]+`$", ps))
             ):
                 break
             para.append(ps)
             i += 1
         if para:
             raw = " ".join(para)
-            _src_m = re.match(r"^`([^`]+)`$", raw) if word_map is not None else None
-            _trans_m = re.match(r"^\[(en|lit)\]\s+(.+)$", raw, re.DOTALL)
-            _gloss_m = re.match(r"^\[gloss\]\s+(.+)$", raw, re.DOTALL)
-            if _src_m:
-                _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
-                out.append(TOGGLE_BAR_HTML)
-                out.append(f"<p><code>{_inner}</code></p>")
-            elif _gloss_m:
-                out.append(_render_gloss_line(_gloss_m.group(1)))
-            elif _trans_m:
-                lang = _trans_m.group(1)
-                cls = "translation-en" if lang == "en" else "translation-lit"
-                out.append(f'<div class="translation {cls}">{_inline(_trans_m.group(2))}</div>')
-            else:
-                rendered = f"<p>{_inline(raw)}</p>"
-                if _has_ezafe(rendered):
-                    out.append(EZAFE_TOGGLE_BAR_HTML)
-                out.append(rendered)
+            rendered = f"<p>{_inline(raw)}</p>"
+            if _has_ezafe(rendered):
+                out.append(EZAFE_TOGGLE_BAR_HTML)
+            out.append(rendered)
 
     return "\n".join(out)
 
