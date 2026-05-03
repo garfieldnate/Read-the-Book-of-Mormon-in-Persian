@@ -312,7 +312,7 @@ code {
 
 .ezafe {
   color: var(--accent);
-  font-weight: 700;
+  vertical-align: -0.15em;
 }
 
 /* When the toggle has been clicked, every editorial kasra disappears
