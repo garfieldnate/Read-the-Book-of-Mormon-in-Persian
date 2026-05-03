@@ -261,6 +261,59 @@ def _render_gloss_line(text: str) -> str:
     return f'<div class="gloss"><div class="gloss-words">\n{words_html}\n</div></div>'
 
 
+# ---------- Markdown table renderer ----------
+
+
+def _render_table(rows: list[str]) -> str:
+    """Render pipe-delimited Markdown table rows as an HTML table.
+
+    Data cells whose content matches `A // B // C` are rendered as three
+    stacked spans (.cell-fa / .cell-tr / .cell-en) for Persian, romanization,
+    and English respectively.
+    """
+    if len(rows) < 2:
+        return ""
+
+    def split_row(raw: str) -> list[str]:
+        return [c.strip() for c in raw.strip().strip("|").split("|")]
+
+    def render_cell(content: str, tag: str = "td") -> str:
+        if tag == "td" and "//" in content:
+            parts = [p.strip() for p in content.split("//", 2)]
+            if len(parts) == 3:
+                fa, tr, en = parts
+                inner = (
+                    f'<span class="cell-fa">{_inline(fa)}</span>'
+                    f'<span class="cell-tr">{_inline(tr)}</span>'
+                    f'<span class="cell-en">{_inline(en)}</span>'
+                )
+                return f'<{tag} class="cell-3">{inner}</{tag}>'
+        return f"<{tag}>{_inline(content)}</{tag}>"
+
+    header_cells = split_row(rows[0])
+    sep_stripped = rows[1].replace("|", "").replace("-", "").replace(":", "").replace(" ", "").strip()
+    if sep_stripped == "":
+        data_rows = rows[2:]
+    else:
+        data_rows = rows[1:]
+        header_cells = None  # type: ignore[assignment]
+
+    out = ['<table class="conj-table">']
+    if header_cells is not None:
+        out.append("<thead><tr>")
+        for cell in header_cells:
+            out.append(render_cell(cell, "th"))
+        out.append("</tr></thead>")
+    out.append("<tbody>")
+    for raw_row in data_rows:
+        out.append("<tr>")
+        for cell in split_row(raw_row):
+            out.append(render_cell(cell))
+        out.append("</tr>")
+    out.append("</tbody></table>")
+    return "\n".join(out)
+
+
 # ---------- post-processing: vocab entries ----------
 
 LINE_REF_RE = re.compile(
@@ -369,6 +422,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 HR_SET = {"---", "***", "___"}
 LIST_RE = re.compile(r"^(\s*)-\s+(.+)$")
 BLOCKQUOTE_RE = re.compile(r"^\s*>\s?(.*)$")
+_TABLE_ROW_RE = re.compile(r"^\s*\|")
 
 
 def _build_tree(
@@ -615,6 +669,15 @@ def _render_body(
             i += 1
             continue
 
+        # Table — consume all consecutive pipe-prefixed lines
+        if _TABLE_ROW_RE.match(stripped):
+            table_rows: list[str] = []
+            while i < n and _TABLE_ROW_RE.match(lines[i].strip()):
+                table_rows.append(lines[i])
+                i += 1
+            out.append(_render_table(table_rows))
+            continue
+
         # Paragraph — collect until a block delimiter
         para: list[str] = []
         while i < n:
@@ -626,6 +689,7 @@ def _render_body(
                 or BLOCKQUOTE_RE.match(pl)
                 or LIST_RE.match(pl)
                 or ps in HR_SET
+                or _TABLE_ROW_RE.match(ps)
                 or re.match(r"^\[(en|lit|gloss)\]\s", ps)
                 or (word_map is not None and re.match(r"^`[^`]+`$", ps))
             ):

@@ -1,4 +1,5 @@
 - collapse vocab sections so you can read straight through
 - final simplified word index that prints as two columns
-- At some point we could do vocab lists themed by etymology, like same Arabic template or template fill pattern.
+- Arabic borrowings cheatsheet page giving template-filling patterns with their names and some example words.
+- conjugation page - add common past/present patterns
 - Verse 12 ezafe is written over by the link underlining in the desktop HTML view

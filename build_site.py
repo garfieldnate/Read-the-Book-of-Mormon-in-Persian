@@ -80,7 +80,11 @@ def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
     return chapters
 
 
-def build_index(chapters: list[tuple[int, str, Path, Path]], has_transcription: bool = False) -> str:
+def build_index(
+    chapters: list[tuple[int, str, Path, Path]],
+    has_transcription: bool = False,
+    has_verbs: bool = False,
+) -> str:
     """Render the top-level index.html linking each chapter."""
     items: list[str] = []
     for ch_num, title, src_dir, md_path in chapters:
@@ -90,14 +94,19 @@ def build_index(chapters: list[tuple[int, str, Path, Path]], has_transcription: 
         )
     items_html = "\n".join(items) if items else "    <li><em>No chapters yet.</em></li>"
 
-    transcription_section = ""
+    ref_items: list[str] = []
     if has_transcription:
-        transcription_section = """
-<h2>Reference</h2>
-<ul class="chapter-list">
-    <li><a href="study_guide/transcription.html">Persian Transliteration Scheme</a></li>
-</ul>
-"""
+        ref_items.append('    <li><a href="study_guide/transcription.html">Persian Transliteration Scheme</a></li>')
+    if has_verbs:
+        ref_items.append('    <li><a href="study_guide/verbs.html">Persian Verb Conjugations</a></li>')
+
+    transcription_section = ""
+    if ref_items:
+        transcription_section = (
+            "\n<h2>Reference</h2>\n<ul class=\"chapter-list\">\n"
+            + "\n".join(ref_items)
+            + "\n</ul>\n"
+        )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -216,8 +225,22 @@ def main() -> int:
         tr_path.write_text(tr_html, encoding="utf-8")
         print(f"  study_guide/transcription.md → {tr_path.relative_to(ROOT)}", file=sys.stderr)
 
+    # Render the standalone verb-conjugations reference page.
+    verbs_md = ROOT / "study_guide" / "verbs.md"
+    has_verbs = verbs_md.exists()
+    if has_verbs:
+        sg_out_dir = out_dir / "study_guide"
+        sg_out_dir.mkdir(exist_ok=True)
+        v_html = render(verbs_md.read_text(encoding="utf-8"), css_href="styles.css")
+        v_path = sg_out_dir / "verbs.html"
+        v_path.write_text(v_html, encoding="utf-8")
+        print(f"  study_guide/verbs.md → {v_path.relative_to(ROOT)}", file=sys.stderr)
+
     index_path = out_dir / "index.html"
-    index_path.write_text(build_index(chapters, has_transcription=has_transcription), encoding="utf-8")
+    index_path.write_text(
+        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs),
+        encoding="utf-8",
+    )
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)
 
     return 0
