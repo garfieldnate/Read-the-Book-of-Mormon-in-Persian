@@ -1,5 +1,4 @@
 - collapse vocab sections so you can read straight through
-- put grammar into vocab sections. Definitely also function words.
 - final simplified word index that prints as two columns
 - At some point we could do vocab lists themed by etymology, like same Arabic template or template fill pattern.
 - Verse 12 ezafe is written over by the link underlining in the desktop HTML view

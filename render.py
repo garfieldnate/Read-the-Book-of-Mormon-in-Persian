@@ -504,6 +504,9 @@ def _emit_list(items: list[tuple[int, str]]) -> str:
     return _emit_tree(tree, depth=0, mode="vocab" if top_is_vocab else "plain")
 
 
+GRAMMAR_FENCE = ">>>"
+
+
 def _render_body(
     md: str,
     word_map: dict[str, str] | None = None,
@@ -514,10 +517,34 @@ def _render_body(
     out: list[str] = []
     i = 0
     n = len(lines)
+    in_grammar = False
 
     while i < n:
         line = lines[i]
         stripped = line.strip()
+
+        # Grammar-note fence: >>> opens/closes a styled block.
+        # The line immediately after the opening >>> is the block title (h4).
+        if stripped == GRAMMAR_FENCE:
+            if not in_grammar:
+                in_grammar = True
+                i += 1
+                while i < n and not lines[i].strip():
+                    i += 1
+                if i < n:
+                    title_raw = lines[i].strip()
+                    title_html = _inline(title_raw)
+                    slug = _slug(title_raw)
+                    out.append(
+                        f'<div class="grammar-note-block">'
+                        f'<h4 class="grammar-note" id="{slug}">{title_html}</h4>'
+                    )
+                    i += 1
+            else:
+                in_grammar = False
+                out.append("</div>")
+                i += 1
+            continue
 
         # Horizontal rule
         if stripped in HR_SET:
@@ -539,6 +566,8 @@ def _render_body(
         if BLOCKQUOTE_RE.match(line):
             bq_lines: list[str] = []
             while i < n:
+                if lines[i].strip() == GRAMMAR_FENCE:
+                    break
                 bq_m = BLOCKQUOTE_RE.match(lines[i])
                 if not bq_m:
                     break
@@ -572,7 +601,7 @@ def _render_body(
         if _src_m:
             _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
             out.append(TOGGLE_BAR_HTML)
-            out.append(f"<p><code>{_inner}</code></p>")
+            out.append(f'<p class="source-text"><code>{_inner}</code></p>')
             i += 1
             continue
         if _gloss_m:
@@ -609,6 +638,9 @@ def _render_body(
             if _has_ezafe(rendered):
                 out.append(EZAFE_TOGGLE_BAR_HTML)
             out.append(rendered)
+
+    if in_grammar:
+        out.append("</div>")
 
     return "\n".join(out)
 

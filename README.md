@@ -272,13 +272,25 @@ Two further conventions:
   | `_Alif maqṣūra_`                | Arabic final ى — written ی in Persian — is read -ā, not -ī (e.g. `حتّی` _ḥattā_ "even").            |
   | `_Diphthong -ay- written as ی_` | Arabic _-ay-_ diphthong where learners expect Persian long _-ī-_ (e.g. `علیه` _ʿalayhi_ "against"). |
 
-### Grammar section
+### Grammar notes
 
-10–12 tricky grammar points per chapter. For each point:
+Grammar notes live **inline in the vocabulary section**, immediately after the vocab entry for the primary word they explain. They appear in source order (earliest first appearance determines placement). Use a `>>>` fence:
 
-- A 1–3 sentence explanation.
-- One example sentence **taken verbatim from the chapter's source text** (`web.txt` or the backtick'd source lines in the study guide itself) — no invented examples.
-- Three lines: Persian, transcription, English translation.
+```
+>>>
+Grammar: [title]
+
+[body: 1–3 sentence explanation, then blockquote examples]
+
+> [Verse N](#verse-n): `Persian text`
+> _transliteration_
+> English translation
+>>>
+```
+
+The renderer wraps the block in `<div class="grammar-note-block">` and renders the title as a styled `<h4 class="grammar-note">`. Note: `>>>` must appear on its own line; the line immediately after the opening `>>>` is the block title.
+
+Example sentence **must be taken verbatim from the chapter's source text** — no invented examples. Grammar notes do **not** get a separate `## Grammar notes` section; they are woven into the vocab lists.
 
 Standing list of points worth covering when they appear in a chapter:
 
@@ -326,7 +338,8 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.example-tr`       | `<div>`    | Second line of an example — italic transliteration.                                                                                     |
 | `.example-en`       | `<div>`    | Third line of an example — English translation.                                                                                         |
 | `.line-ref`         | `<span>`   | The section-reference prefix at the start of `.example-fa` (e.g. `[Verse 4](#verse-4):`).                                               |
-| `.src-link`         | `<a>`      | A Persian word inside a source-text `<code>` block linked to its vocab or grammar entry anchor.                                          |
+| `.source-text`      | `<p>`      | Wraps a standalone backtick-quoted source line (`<p class="source-text"><code>…</code></p>`); triggers the block Persian display style.  |
+| `.src-link`         | `<a>`      | A Persian word inside a `.source-text` `<code>` block linked to its vocab or grammar entry anchor.                                       |
 | `.translation`      | `<div>`    | An `[en]` or `[lit]` paragraph; hidden by default, shown when the **Translation** toggle is checked.                                    |
 | `.translation-en`   | `<div>`    | Added alongside `.translation` for `[en]` lines (official English text).                                                                |
 | `.translation-lit`  | `<div>`    | Added alongside `.translation` for `[lit]` lines (word-for-word literal gloss).                                                         |
@@ -337,11 +350,13 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.gloss-tag`        | `<span>`   | The Leipzig gloss label inside a gloss unit.                                                                                            |
 | `.gl`               | `<span>`   | A Leipzig abbreviation (2+ consecutive capitals, or digit+caps) inside `.gloss-tag`; rendered in small caps.                            |
 | `.toggle-bar`       | `<div>`    | The row of toggle switches injected before each source-text block; contains up to three toggles (ezafe, translation, gloss).            |
+| `.grammar-note-block` | `<div>`  | Wrapper for a `>>>` grammar fence block; light-blue background with left border.                                                        |
+| `.grammar-note`     | `<h4>`     | The title heading inside `.grammar-note-block`; styled in small caps with a darker header band.                                         |
 | `.ezafe`            | `<span>`   | An editorial kasra injected by `{e}` in the Markdown source; colored to distinguish it from the publisher's text.                       |
 | `<h3>`              | (element)  | Section heading (`### Verse 1`); gets `id="verse-1"` (slugified) so source-text word links can point into it.                           |
 | `<h4>`              | (element)  | Sentence / line marker (`#### Sentence 3`, `#### Title`); styled small/uppercase with a dashed top rule for sub-blocks under a section. |
 
-The parser is deliberately narrow: it handles headings (with auto-generated `id` slugs), paragraphs, bold/italic/inline-code, Markdown links (`[text](url)`), nested `- ` bullet lists, and `> ` blockquotes. It does not handle tables or code fences. Standalone backtick paragraphs (a paragraph whose entire content is a single backtick-quoted string) are treated as source-text quotations: each Persian token is looked up in the vocab map and, if found, wrapped in a `.src-link` anchor. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
+The parser is deliberately narrow: it handles headings (with auto-generated `id` slugs), paragraphs, bold/italic/inline-code, Markdown links (`[text](url)`), nested `- ` bullet lists, `> ` blockquotes, and `>>>` grammar-note fences. It does not handle tables or code fences. Standalone backtick paragraphs (a paragraph whose entire content is a single backtick-quoted string) are treated as source-text quotations and emitted as `<p class="source-text"><code>…</code></p>`; each Persian token is looked up in the vocab map and, if found, wrapped in a `.src-link` anchor. Grammar-note fences (`>>>` on its own line) open a `<div class="grammar-note-block">` whose first non-blank line becomes the `<h4 class="grammar-note">` title; a second `>>>` closes the block. If a future chapter needs richer Markdown, swap in [python-markdown](https://pypi.org/project/Markdown/) or [markdown-it-py](https://pypi.org/project/markdown-it-py/) (add a `requirements.txt` and a venv) and keep the post-processing step that injects the classes above.
 
 ### Editing the stylesheet
 

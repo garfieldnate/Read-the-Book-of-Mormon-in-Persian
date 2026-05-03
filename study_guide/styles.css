@@ -625,10 +625,10 @@ body.show-translations .translation { display: block; }
 }
 
 /* --------- inline source-text block (the Persian text quoted under each
-   verse / chapter-summary / book-summary line). A `<p>` whose only child is a
-   `<code>` is treated as a block-level Persian quotation. */
+   verse / chapter-summary / book-summary line). render.py emits
+   <p class="source-text"><code>…</code></p> for standalone source lines. */
 
-p > code:only-child {
+p.source-text > code {
   display: block;
   font-family: var(--font-fa);
   font-size: 1.32em;
@@ -645,7 +645,7 @@ p > code:only-child {
   unicode-bidi: isolate;
 }
 
-p:has(> code:only-child) { margin: 0.4em 0 0.6em; }
+p.source-text { margin: 0.4em 0 0.6em; }
 
 /* Links from inline source-text words to vocab/grammar entries */
 code .src-link {
@@ -659,6 +659,33 @@ code .src-link {
 code .src-link:hover {
   text-decoration-color: var(--persian-color);
   text-decoration-style: solid;
+}
+
+/* --------- grammar note blocks --------- */
+.grammar-note-block {
+  background: #f0f4ff;
+  border-left: 4px solid #5b7bc0;
+  border-radius: 0 6px 6px 0;
+  padding: 0 1em 0.8em 1em;
+  margin: 1.5em 0;
+}
+
+h4.grammar-note {
+  color: #1a3a6a;
+  background: #d8e4f8;
+  margin: 0 -1em 0.8em;
+  padding: 0.4em 1em;
+  font-size: 0.9em;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  border-radius: 0 6px 0 0;
+}
+
+.grammar-note-block > p,
+.grammar-note-block > ul,
+.grammar-note-block .example {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
 
 /* Non-vocab bullet lists (e.g. intro, register markers) */

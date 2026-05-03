@@ -27,6 +27,20 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: `نخست` + `-ین` (ordinal/adjectival suffix).
   - _Family_: `نخست` _noxost_ "first" (used standalone as adverb "firstly").
 - **کتاب** — _ketāb_ — book
+>>>
+Grammar: Ezafe chains
+
+The unstressed suffix _-e_ (or _-ye_ after vowels) links head noun to modifiers in sequence. Long chains stack as **head – modifier – modifier – modifier**. Written text usually leaves the ezafe unwritten except on words ending in silent `ه` (→ `ۀ`) or `ی` (→ `یِ`).
+
+> [Verse 20](#verse-20): `رحمت‌های مهرآمیز{e} سرور`
+> _raḥmat-hā-ye mehr-āmīz-e Sarvar_
+> the tender mercies of the Lord.
+
+> [Chapter summary](#chapter-summary): `ستونی از آتش`
+> _sotūn-ī az ātaš_
+> a pillar of fire. [here `az` introduces the material, not ezafe — contrast with ezafe-linked modifiers]
+>>>
+
 - **نیفای** — _Nīfāy_ [proper] — Nephi
   - _Etym_: transliteration of English _Nephi_, the Book of Mormon prophet's name. Sometimes connected to Egyptian _nfr_ "good, fair" or to Hebrew, but Persian here just spells the English form phonetically.
 
@@ -61,12 +75,39 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **همسر** — _hamsar_ — spouse, husband/wife
   - _Etym_: `هم` _ham_ "same, together" + `سر` _sar_ "head" → "having the same head/place".
   - _Forms_: with suffix _`همسرش` hamsar-aš_ "his wife"; abstract noun _`همسری` hamsar-ī_ "matrimony", as in collocation `به همسری گرفتن` "to take in marriage".
+>>>
+Grammar: Possessive / pronominal suffixes
+
+Attached directly to nouns: _-am_ (my), _-at_ (thy), _-aš_ (his/her/its), _-mān_ (our), _-tān_ (your), _-šān_ (their). Persian usually prefers these clitics to the full-pronoun + ezafe construction (`کتاب من` "my book" → `کتابم`).
+
+> [Verse 1](#verse-1): `من، نیفای، از پدر و مادر{e} خوبی زاده شده`
+> _man, Nīfāy, az pedar o mādar-e xūb-ī zāde šode_
+
+> [Verse 1](#verse-1): `نگاشته ای از کارهایم در روزگارم را می‌نگارم`
+> _negāšte-ī az kārhā-yam dar rūzgār-am-rā mī-negāram_
+> I write an account of my works in my days. [`-am` on `kārhā` and on `rūzgār`; `-rā` marks the whole phrase as direct object of `می‌نگارم`]
+
+Watch especially for _-aš_ in third-person narrative: _پدرش pedar-aš_, _روزگارش rūzgār-aš_, _جانش jān-aš_, _دلش del-aš_, _روانش ravān-aš_, _مردمش mardom-aš_.
+>>>
+
 - **ثریا** — _Ṣariyā_ [proper] — Sariah (Lehi's wife)
   - _Etym_: Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ "princess".
 - **چهار** — _čahār_ — four
 - **پسر** — _pesar_ — son
   - _Forms_: with suffix _`پسرش` pesar-aš_ "his son(s)".
 - **که** — _ke_ — that, who, which (relative; also complementizer)
+>>>
+Grammar: Relative clauses with `که`
+
+`که` introduces both complement clauses ("that he …") and relative clauses ("who, which, that"). For relatives the head noun usually carries indefinite _-ī_, i.e. `X-ī ke …` = "an X which …". The verb inside the relative clause is in whatever tense fits the sense.
+
+> [Verse 6](#verse-6): `به سبب{e} چیزهایی که دید و شنید`
+> _be sabab-e čīzhā-yī ke dīd o šenīd_
+> because of the things which he had seen and heard.
+
+Note how `چیز + ها + ی + ی` stacks: plural `-hā` + ezafe `-ye` (invisible in writing) + indefinite `-ī` → `čīzhā-yī`, then `که` introduces the relative.
+>>>
+
 - **شروع** — _šorūʿ_ — beginning, start
   - _Etym_: from Arabic, root š-r-ʿ "to set out, undertake".
   - _Forms_: collocations `شروع کردن` / `شروع نمودن` "to begin".
@@ -83,9 +124,38 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Etym_: Persian transliteration of English _Sam_. Coincides in spelling with Persian _Sām_, a hero of the Šāhnāmeh — but here it's the BoM name.
 - **خواندن** — _xāndan_ (pres. _xān-_) — to read; to sing; to call (here passive: _خوانده می شدند_ "they were called")
   - _Forms_: past 3sg `خواند` xānd; pp. `خوانده` xānde; 3pl pres. `خوانند` xānand; subj. 3sg `بخواند` bexānad.
-- **می** — _mī-_ — imperfective verbal prefix (present, past imperfect); see grammar §12
-- **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary (see grammar §2)
-  - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ ([book summary, sentence 4](#sentence-4); [chapter summary](#chapter-summary); [verse 4](#verse-4)); 3pl _`می` `شوند` mī-šavand_ ([book summary, sentence 7](#sentence-7)); subj. _`شوند` šavand_ ([book summary, sentence 7](#sentence-7); [verse 14](#verse-14)). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ ([book summary, sentence 1](#sentence-1): passive `خوانده می شدند` "were called"); pp. _`شده` šode_.
+- **می** — _mī-_ — imperfective verbal prefix (present, past imperfect)
+>>>
+Grammar: Imperfective `می-` and its negation `نمی-`
+
+The prefix _mī-_ marks non-perfective aspect — present-tense, habitual, or past-progressive readings depending on the stem:
+
+- Present stem + _mī-_ + endings → present (`می‌نگارم` = "I write / I am writing").
+- Past stem + _mī-_ + endings → past habitual/continuous (`می‌کرد` = "he used to do / was doing").
+
+Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he was not doing"). Watch out: in compound verbs the _mī-_ attaches only to the auxiliary: `نبوّت می‌کند`, `گواهی می‌داد`.
+
+> [Verse 16](#verse-16): `و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی‌نگارم`
+> _va īnak man, Nīfāy, sargozašt-e kāmel-ī az čīzhā-yī ke pedar-am nevešte ast nemī-negāram_
+> And now I, Nephi, do not write a full account of the things which my father has written.
+
+---
+>>>
+;
+- **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary
+  - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ ([book summary, sentence 4](#sentence-4); [chapter summary](#chapter-summary); [verse 4](#verse-4)); 3pl _`می` `شوند` mī-šavand_ ([book summary, sentence 7](#sentence-7)); subj. _`شوند` šavand_ ([book summary, sentence 7](#sentence-7); [verse 14](#verse-14)). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ ([book summary, sentence 1](#sentence-1): passive `خوانده می شدند` "were called"
+>>>
+Grammar: Passive voice with `شدن`
+
+Persian forms the passive with `[past participle] + شدن` (conjugated). The agent, if named, is introduced with `از سوی` ("by the hand of") — there's a classic example in verse 7.
+
+> [Chapter summary](#chapter-summary): `از سوی{e} یهودیان آزار داده می‌شود`
+> _az sūy-e Yahūdiyān āzār dāde mī-šavad_
+> He is persecuted by the Jews.
+
+Another (future passive), [verse 13](#verse-13): `ساکنان آن نابود خواهند شد ... بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد` — the inhabitants will be destroyed, many will perish by the sword, and many will be carried captive to Babylon.
+>>>
+); pp. _`شده` šode_.
 
 #### Sentence 2
 
@@ -95,6 +165,22 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 [en] The Lord warns Lehi to depart out of the land of Jerusalem, because he prophesieth unto the people and they seek to destroy his life.
 
 - **سرور** — _Sarvar_ [proper] — the Lord [translator's rendering of "the Lord" throughout the BoM Persian translation]
+>>>
+Grammar: Archaic / biblical register
+
+The translation deliberately uses a high-register Persian that mirrors the KJV-style English of the original. Things to recognize:
+
+- `گفتا` (_goftā_) — archaic narrative past of `گفتن`, roughly "said he" (the `-ā` is a narrative ending in classical Persian).
+- `آری` (_ārī_) — "yea, indeed," peppered throughout; literary equivalent of `بله`.
+- `بنگرید` (_benegarīd_) — "behold!" (2pl imperative of `نگریستن`).
+- `سرور` (_Sarvar_) — the translator's word for "the Lord"; in ordinary Persian it means "master, chief." Vocative `سرورا` ([verse 14](#verse-14), "O Lord!") uses the classical `-ā` vocative.
+- Bookish verbs chosen over everyday equivalents: `نگاشتن` for `نوشتن` (write), `نیایش کردن` for `دعا کردن` (pray), `بانگ برآوردن` for `فریاد زدن` (cry out), `نمودن` for `کردن`/`نشان دادن`.
+
+> [Verse 13](#verse-13): `او خواند، گفتا: وای، وای بر اورشلیم`
+> _ū xānd, goftā: vāy, vāy bar Uršalīm_
+> And he read, saying: Woe, woe unto Jerusalem.
+>>>
+
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
   - _Family_: `سر` _sar_ "head" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
   - _Forms_: vocative _`سرورا` Sarvarā_ "O Lord!" ([verse 14](#verse-14)). The web edition writes the lemma with both fathas (`سَروَر`); the unmarked spelling `سرور` is the citation form.
@@ -106,6 +192,21 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 - **دادن** — _dādan_ (pres. _deh-_) — to give
   - _Forms_: 3sg pres. _`می` `دهد` mī-dehad_, as in `هشدار می دهد` "warns / gives warning"; past `داد` dād; pp. _`داده` dāde_. The pres stem `deh-` always carries `می-` (indicative) or `بـ-` (subjunctive) in modern Persian; bare `دهد` is classical/literary or a compound-verb subjunctive with the `بـ-` dropped.
 - **تا** — _tā_ — until; so that; up to
+
+>>>
+Grammar: Subjunctive after `تا`
+
+`تا` + subjunctive marks purpose ("so that"). The subjunctive is formed with the present stem + personal endings, usually with the be- prefix (for simple verbs) or without (for compound verbs).
+
+> [Verse 11](#verse-11): `از او خواست تا آن را بخواند`
+> _az ū xāst tā ān-rā bexānad_
+> He asked him to read it ("so that he might read it").
+
+> [Verse 20](#verse-20): `تا آنها را ... به قدرت{e} رهایی توانا سازد`
+> _tā ānhā-rā … be qodrat-e rahāyī tavānā sāzad_
+> that he may enable them … by the power of deliverance.
+>>>
+
 - **سرزمین** — _sarzamīn_ — land, territory
   - _Etym_: `سر` + `زمین`.
   - _Family_: `سر` _sar_ "head, top"; `زمین` _zamīn_ "land, earth" (both also entries in this chapter).
@@ -136,6 +237,16 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
   - _Forms_: collocation `نبوّت کردن` "to prophesy".
 - **کردن** — _kardan_ (pres. _kon-_) — to do, make [the most common compound-verb auxiliary]
   - _Forms_: 3sg pres. `کند` konad; past `کرد` kard; pp. `کرده` karde; 1sg past `کردم` kardam; 3pl past `کردند` kardand; 3pl pres. `کنند` konand.
+>>>
+Grammar: Compound verbs (light-verb constructions)
+
+Persian builds most of its verbs as **noun/adjective + کردن / شدن / زدن / دادن / …**. The "meaning" lives in the non-verbal element; the light verb handles inflection. Examples from this chapter: `نبوّت کردن` (to prophesy), `ستایش کردن` (to praise), `توبه کردن` (to repent), `نیایش کردن` (to pray), `گواهی دادن` (to testify), `نشان دادن` (to show), `نابود شدن` (to be destroyed), `چیره شدن` (to be overcome), `پیش رفتن` (to go forth), `تکان خوردن` (to be shaken), `بانگ برآوردن` (to raise a cry).
+
+> [Chapter summary](#chapter-summary): `آمدن{e} مسیح را پیشگویی می‌کند`
+> _āmadan-e Masīḥ-rā pīšgūyī mī-konad_
+> He foretells the coming of Christ.
+>>>
+
 - **آنها** — _ānhā_ — they, those
 - **دنبال** — _donbāl_ — behind, after
   - _Forms_: collocation `به دنبال` / `بدنبال` "after, in pursuit of".
@@ -183,7 +294,20 @@ The pre-chapter heading for the whole First Book of Nephi. Many of these lemmas 
 
 - **برادر** — _barādar_ — brother
   - _Forms_: pl. _`برادران` barādarān_; with suffix _`برادرانش` barādarān-aš_ "his brothers".
-- **را** — _-rā_ — direct-object marker (post-nominal clitic; see grammar §7)
+- **را** — _-rā_ — direct-object marker (post-nominal clitic)
+
+>>>
+Grammar: Direct-object marker `را`
+
+`را` clitic marks a **specific/definite** direct object. It attaches to the **end of the whole object phrase**, not to the head noun — so it often sits after relative clauses, adjectives, or even coordinated phrases.
+
+> [Chapter summary](#chapter-summary): `نیفای نگاشتۀ مردمش را شروع می‌نماید`
+> _Nīfāy negāšte-ye mardom-aš-rā šorūʿ mī-namāyad_
+> Nephi begins the account of his people. [`-rā` marks the whole phrase `نگاشتۀ مردمش`]
+
+Also compare, within [verse 3](#verse-3): `این نگاشته ای که می‌نگارم راست است` (no `را`, because it's a predicate) with `من آن را با دست خودم می‌نگارم` (`را` marks the definite direct object `آن`).
+>>>
+
 - **برداشتن** — _bar-dāštan_ (pres. _bar-dār-_) — to take up, pick up, bring along
   - _Etym_: prefix `بر-` _bar_ "up, on" + `داشتن` _dāštan_ "to hold".
   - _Forms_: the `می-` slots **between** the prefix and `داشتن` (reversing `داشتن`'s no-`می-` quirk). 3sg pres. _`برمی` `دارد` bar-mī-dārad_ ([book summary, sentence 4](#sentence-4)); 3pl _`برمی` `دارند` bar-mī-dārand_ ([book summary, sentence 7](#sentence-7)).
@@ -328,8 +452,18 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **موعود** — _mowʿūd_ — promised
   - _Etym_: from Arabic, passive participle of _waʿada_ "to promise", root w-ʿ-d.
   - _Forms_: collocation `سرزمین موعود` "the Promised Land".
-- **گذشتن** — _gozaštan_ (pres. _gozar-_) — to pass; to cross (`چنین گذشت` = "it came to pass"; see grammar §1)
+- **گذشتن** — _gozaštan_ (pres. _gozar-_) — to pass; to cross (`چنین گذشت` = "it came to pass"
   - _Forms_: past 3sg `گذشت` gozašt (e.g. `چنین گذشت` "it came to pass"); 3pl pres. `گذرند` gozarand.
+>>>
+Grammar: `چنین گذشت` — "and it came to pass"
+
+A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("thus") + past of `gozaštan` ("to pass"). Treat it as a fixed idiom; don't try to unpack "thus passed" mechanically.
+
+> [Verse 4](#verse-4): `زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا`
+> _zīrā čonīn gozašt dar āqāz-e noxostīn sāl-e farmān-ravāyī-ye Ṣedqiyā, pādšāh-e Yahūdā_
+> For it came to pass in the beginning of the first year of the reign of Zedekiah, king of Judah.
+>>>
+
 - **ادامه** — _edāme_ — continuation
   - _Etym_: from Arabic, root d-w-m "to last, continue".
   - _Forms_: ezafe _`ادامۀ` edāme-ye_.
@@ -414,6 +548,20 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Forms_: with suffix _`پدرم` pedar-am_ "my father".
 - **مادر** — _mādar_ — mother
 - **خوب** — _xūb_ — good
+>>>
+Grammar: Indefinite `-ī`
+
+The suffix _-ī_ attached to a noun marks "a, a certain, one" (similar to English _a/an_). Don't confuse it with the _-ī_ that makes adjectives abstract-nouns (`خوب` "good" → `خوبی` "goodness") — context usually disambiguates.
+
+> [Verse 11](#verse-11): `به او کتابی داد`
+> _be ū ketāb-ī dād_
+> He gave him a book.
+
+> [Verse 1](#verse-1): `از پدر و مادر{e} خوبی زاده شده`
+> _az pedar o mādar-e xūb-ī zāde šode_
+> born of goodly parents. [here `خوبی` modifies the ezafe-chain `پدر و مادر` and carries the indef. *-ī*]
+>>>
+
   - _Family_: `خوبی` _xūbī_ "goodness, virtue"; `خوش` _xoš_ "happy, pleasant" (related root).
   - _Forms_: with indef. _-ī_: _`خوبی` xūb-ī_ "a good [one]" (or "goodness" as abstract noun).
 - **زادن** — _zādan_ (pres. _zā-_) — to give birth (pp. _زاده zāde_ "born")
@@ -509,7 +657,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: native Persian; from earlier _zī rā_ "for the sake of which".
 - **چنین** — _čonīn_ — such, thus
   - _Etym_: `چو` _čo_ (variant of `چون` "as, like") + `این` _īn_ "this" → "like this, in this manner".
-  - _Forms_: idiom `چنین گذشت` "it came to pass" (see grammar §1).
+  - _Forms_: idiom `چنین گذشت` "it came to pass".
 - **آغاز** — _āqāz_ — beginning
 - **سال** — _sāl_ — year
 - **صدقیا** — _Ṣedqiyā_ [proper] — Zedekiah (last king of Judah)
@@ -719,8 +867,18 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **زمین** — _zamīn_ — earth, land
 - **ایستادن** — _istādan_ (pres. _ist-_) — to stand
   - _Forms_: past `ایستاد` istād.
-- **خواستن** — _xāstan_ (pres. _xāh-_) — to want; auxiliary for future tense (see grammar §3)
+- **خواستن** — _xāstan_ (pres. _xāh-_) — to want; auxiliary for future tense
   - _Forms_: as main verb, 3sg past _`خواست` xāst_ "wanted, asked" ([verse 11](#verse-11)). As future auxiliary: 1sg _`خواهم` xāham_, 3sg _`خواهد` xāhad_, 3pl _`خواهند` xāhand_ ([verse 13](#verse-13)); neg. 1sg _`نخواهم` naxāham_ ([verse 16](#verse-16)), neg. 2sg _`نخواهی` naxāhī_ ([verse 14](#verse-14)).
+>>>
+Grammar: Future tense: `خواه- + short infinitive`
+
+Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm, xāh-īd, xāh-and_) plus the **short infinitive** (past stem; `نگاشتن → نگاشت`, `شدن → شد`, `بردن → برد`). Negation: `نخواهم نگاشت` etc. Note the short infinitive does **not** take endings — all person/number marking is on the auxiliary.
+
+> [Verse 17](#verse-17): `ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت.`
+> _valī man šarḥ-e kārhā-yam dar rūzgār-am-rā xāham negāšt._
+> But I will write an account of my works in my days.
+>>>
+
 
 ### Verse 12
 
@@ -741,7 +899,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 [en] And he read, saying: Wo, wo, unto Jerusalem, for I have seen thine abominations! Yea, and many things did my father read concerning Jerusalem—that it should be destroyed, and the inhabitants thereof; many should perish by the sword, and many should be carried away captive into Babylon.
 
 - **۱۳** — _sīzdah_ — Persian numeral 13 (`سیزده`)
-- **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_, see §10)
+- **گفتن** — _goftan_ (pres. _gūy-_ / _gū-_) — to say (past _گفت goft_; archaic narrative _گفتا goftā_)
   - _Forms_: past `گفت` goft; archaic narrative past `گفتا` goftā.
 - **وای** — _vāy_ — woe! alas!
   - _Forms_: collocation `وای بر` "woe unto".
@@ -969,142 +1127,6 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Etym_: `توان` + `-ا` (adjectival suffix).
   - _Family_: `توان` _tavān_ "power, ability"; `توانستن` _tavānestan_ "to be able"; `توانایی` _tavānāyī_ "ability".
   - _Forms_: collocation `توانا ساختن` "to enable".
-
-## Grammar notes
-
-Twelve points. Every example is taken verbatim from the chapter and shown in three rows: Persian, transcription, English.
-
-### 1. `چنین گذشت` — "and it came to pass"
-
-A Hebrew/biblical calque that opens many verses. Structurally it's `čonīn` ("thus") + past of `gozaštan` ("to pass"). Treat it as a fixed idiom; don't try to unpack "thus passed" mechanically.
-
-> [Verse 4](#verse-4): `زیرا چنین گذشت در آغاز{e} نخستین سال{e} فرمانروایی{e} صدقیا، پادشاه{e} یهودا`
-> _zīrā čonīn gozašt dar āqāz-e noxostīn sāl-e farmān-ravāyī-ye Ṣedqiyā, pādšāh-e Yahūdā_
-> For it came to pass in the beginning of the first year of the reign of Zedekiah, king of Judah.
-
-### 2. Passive voice with `شدن`
-
-Persian forms the passive with `[past participle] + شدن` (conjugated). The agent, if named, is introduced with `از سوی` ("by the hand of") — there's a classic example in verse 7.
-
-> [Chapter summary](#chapter-summary): `از سوی{e} یهودیان آزار داده می‌شود`
-> _az sūy-e Yahūdiyān āzār dāde mī-šavad_
-> He is persecuted by the Jews.
-
-Another (future passive), [verse 13](#verse-13): `ساکنان آن نابود خواهند شد ... بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد` — the inhabitants will be destroyed, many will perish by the sword, and many will be carried captive to Babylon.
-
-### 3. Future tense: `خواه- + short infinitive`
-
-Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm, xāh-īd, xāh-and_) plus the **short infinitive** (past stem; `نگاشتن → نگاشت`, `شدن → شد`, `بردن → برد`). Negation: `نخواهم نگاشت` etc. Note the short infinitive does **not** take endings — all person/number marking is on the auxiliary.
-
-> [Verse 17](#verse-17): `ولی من شرح{e} کارهایم در روزگارم را خواهم نگاشت.`
-> _valī man šarḥ-e kārhā-yam dar rūzgār-am-rā xāham negāšt._
-> But I will write an account of my works in my days.
-
-### 4. Subjunctive after `تا`
-
-`تا` + subjunctive marks purpose ("so that"). The subjunctive is formed with the present stem + personal endings, usually with the be- prefix (for simple verbs) or without (for compound verbs).
-
-> [Verse 11](#verse-11): `از او خواست تا آن را بخواند`
-> _az ū xāst tā ān-rā bexānad_
-> He asked him to read it ("so that he might read it").
-
-> [Verse 20](#verse-20): `تا آنها را ... به قدرت{e} رهایی توانا سازد`
-> _tā ānhā-rā … be qodrat-e rahāyī tavānā sāzad_
-> that he may enable them … by the power of deliverance.
-
-### 5. Ezafe chains
-
-The unstressed suffix _-e_ (or _-ye_ after vowels) links head noun to modifiers in sequence. Long chains stack as **head – modifier – modifier – modifier**. Written text usually leaves the ezafe unwritten except on words ending in silent `ه` (→ `ۀ`) or `ی` (→ `یِ`).
-
-> [Verse 20](#verse-20): `رحمت‌های مهرآمیز{e} سرور`
-> _raḥmat-hā-ye mehr-āmīz-e Sarvar_
-> the tender mercies of the Lord.
-
-> [Chapter summary](#chapter-summary): `ستونی از آتش`
-> _sotūn-ī az ātaš_
-> a pillar of fire. [here `az` introduces the material, not ezafe — contrast with ezafe-linked modifiers]
-
-### 6. Indefinite `-ī`
-
-The suffix _-ī_ attached to a noun marks "a, a certain, one" (similar to English _a/an_). Don't confuse it with the _-ī_ that makes adjectives abstract-nouns (`خوب` "good" → `خوبی` "goodness") — context usually disambiguates.
-
-> [Verse 11](#verse-11): `به او کتابی داد`
-> _be ū ketāb-ī dād_
-> He gave him a book.
-
-> [Verse 1](#verse-1): `از پدر و مادر{e} خوبی زاده شده`
-> _az pedar o mādar-e xūb-ī zāde šode_
-> born of goodly parents. [here `خوبی` modifies the ezafe-chain `پدر و مادر` and carries the indef. *-ī*]
-
-### 7. Direct-object marker `را`
-
-`را` clitic marks a **specific/definite** direct object. It attaches to the **end of the whole object phrase**, not to the head noun — so it often sits after relative clauses, adjectives, or even coordinated phrases.
-
-> [Chapter summary](#chapter-summary): `نیفای نگاشتۀ مردمش را شروع می‌نماید`
-> _Nīfāy negāšte-ye mardom-aš-rā šorūʿ mī-namāyad_
-> Nephi begins the account of his people. [`-rā` marks the whole phrase `نگاشتۀ مردمش`]
-
-Also compare, within [verse 3](#verse-3): `این نگاشته ای که می‌نگارم راست است` (no `را`, because it's a predicate) with `من آن را با دست خودم می‌نگارم` (`را` marks the definite direct object `آن`).
-
-### 8. Compound verbs (light-verb constructions)
-
-Persian builds most of its verbs as **noun/adjective + کردن / شدن / زدن / دادن / …**. The "meaning" lives in the non-verbal element; the light verb handles inflection. Examples from this chapter: `نبوّت کردن` (to prophesy), `ستایش کردن` (to praise), `توبه کردن` (to repent), `نیایش کردن` (to pray), `گواهی دادن` (to testify), `نشان دادن` (to show), `نابود شدن` (to be destroyed), `چیره شدن` (to be overcome), `پیش رفتن` (to go forth), `تکان خوردن` (to be shaken), `بانگ برآوردن` (to raise a cry).
-
-> [Chapter summary](#chapter-summary): `آمدن{e} مسیح را پیشگویی می‌کند`
-> _āmadan-e Masīḥ-rā pīšgūyī mī-konad_
-> He foretells the coming of Christ.
-
-### 9. Possessive / pronominal suffixes
-
-Attached directly to nouns: _-am_ (my), _-at_ (thy), _-aš_ (his/her/its), _-mān_ (our), _-tān_ (your), _-šān_ (their). Persian usually prefers these clitics to the full-pronoun + ezafe construction (`کتاب من` "my book" → `کتابم`).
-
-> [Verse 1](#verse-1): `من، نیفای، از پدر و مادر{e} خوبی زاده شده`
-> _man, Nīfāy, az pedar o mādar-e xūb-ī zāde šode_
-
-> [Verse 1](#verse-1): `نگاشته ای از کارهایم در روزگارم را می‌نگارم`
-> _negāšte-ī az kārhā-yam dar rūzgār-am-rā mī-negāram_
-> I write an account of my works in my days. [`-am` on `kārhā` and on `rūzgār`; `-rā` marks the whole phrase as direct object of `می‌نگارم`]
-
-Watch especially for _-aš_ in third-person narrative: _پدرش pedar-aš_, _روزگارش rūzgār-aš_, _جانش jān-aš_, _دلش del-aš_, _روانش ravān-aš_, _مردمش mardom-aš_.
-
-### 10. Archaic / biblical register
-
-The translation deliberately uses a high-register Persian that mirrors the KJV-style English of the original. Things to recognize:
-
-- `گفتا` (_goftā_) — archaic narrative past of `گفتن`, roughly "said he" (the `-ā` is a narrative ending in classical Persian).
-- `آری` (_ārī_) — "yea, indeed," peppered throughout; literary equivalent of `بله`.
-- `بنگرید` (_benegarīd_) — "behold!" (2pl imperative of `نگریستن`).
-- `سرور` (_Sarvar_) — the translator's word for "the Lord"; in ordinary Persian it means "master, chief." Vocative `سرورا` ([verse 14](#verse-14), "O Lord!") uses the classical `-ā` vocative.
-- Bookish verbs chosen over everyday equivalents: `نگاشتن` for `نوشتن` (write), `نیایش کردن` for `دعا کردن` (pray), `بانگ برآوردن` for `فریاد زدن` (cry out), `نمودن` for `کردن`/`نشان دادن`.
-
-> [Verse 13](#verse-13): `او خواند، گفتا: وای، وای بر اورشلیم`
-> _ū xānd, goftā: vāy, vāy bar Uršalīm_
-> And he read, saying: Woe, woe unto Jerusalem.
-
-### 11. Relative clauses with `که`
-
-`که` introduces both complement clauses ("that he …") and relative clauses ("who, which, that"). For relatives the head noun usually carries indefinite _-ī_, i.e. `X-ī ke …` = "an X which …". The verb inside the relative clause is in whatever tense fits the sense.
-
-> [Verse 6](#verse-6): `به سبب{e} چیزهایی که دید و شنید`
-> _be sabab-e čīzhā-yī ke dīd o šenīd_
-> because of the things which he had seen and heard.
-
-Note how `چیز + ها + ی + ی` stacks: plural `-hā` + ezafe `-ye` (invisible in writing) + indefinite `-ī` → `čīzhā-yī`, then `که` introduces the relative.
-
-### 12. Imperfective `می-` and its negation `نمی-`
-
-The prefix _mī-_ marks non-perfective aspect — present-tense, habitual, or past-progressive readings depending on the stem:
-
-- Present stem + _mī-_ + endings → present (`می‌نگارم` = "I write / I am writing").
-- Past stem + _mī-_ + endings → past habitual/continuous (`می‌کرد` = "he used to do / was doing").
-
-Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he was not doing"). Watch out: in compound verbs the _mī-_ attaches only to the auxiliary: `نبوّت می‌کند`, `گواهی می‌داد`.
-
-> [Verse 16](#verse-16): `و اینک من، نیفای، سرگذشت{e} کاملی از چیزهایی که پدرم نوشته است نمی‌نگارم`
-> _va īnak man, Nīfāy, sargozašt-e kāmel-ī az čīzhā-yī ke pedar-am nevešte ast nemī-negāram_
-> And now I, Nephi, do not write a full account of the things which my father has written.
-
----
 
 ## A final note on reading strategy
 
