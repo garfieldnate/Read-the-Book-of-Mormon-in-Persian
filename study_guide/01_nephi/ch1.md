@@ -184,6 +184,7 @@ The translation deliberately uses a high-register Persian that mirrors the KJV-s
   - _Etym_: `سر` + `-ور` (suffix "having") → "having a head [over others]", i.e. "chief, master".
   - _Family_: `سر` _sar_ "head" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` "skilled", `کینه‌ور` "vengeful").
   - _Forms_: vocative _`سرورا` Sarvarā_ "O Lord!" ([verse 14](#verse-14)). The web edition writes the lemma with both fathas (`سَروَر`); the unmarked spelling `سرور` is the citation form.
+- `سرورا` (_Sarvarā_) — vocative of `سرور`; see [Grammar: Archaic / biblical register](#grammar-archaic-biblical-register)
 - **به** — _be_ — to, toward, into
 - **هشدار** — _hošdār_ — warning
   - _Etym_: native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) "alert-holding".
