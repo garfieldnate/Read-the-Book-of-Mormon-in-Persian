@@ -147,7 +147,7 @@ Two further conventions:
   | Abbrev | Meaning | Example |
   |--------|---------|---------|
   | `ACC` | accusative (`را`) | `rā\|ACC` |
-  | `CL` | classifier / counter | `tā=e\|CL=EZ` |
+  | `CL` | classifier / counter | `tā=ye\|CL=EZ` |
   | `COMP` | complementizer `که` (introducing a clause) | `ke\|COMP` |
   | `COP` | copula (`است`, enclitic `-am/-ī/…`) | `ast\|COP-3SG` |
   | `EZ` | ezafe linker (`-e`/`-ye`) | `ketāb=e\|book=EZ` |
@@ -159,7 +159,7 @@ Two further conventions:
   | `NEG` | negative prefix (`نـ-`, `نه-`) | `na-xāh-am\|NEG-FUT-1SG` |
   | `NARR` | narrative suffix (`-ā` on گفتا) | `goft-ā\|say-NARR` |
   | `PASS` | passive (analytical: pp + شدن) | `šav-ad\|become-PASS-3SG` |
-  | `PL` | plural (`-hā`) | `hā=e\|PL=EZ` |
+  | `PL` | plural (`-hā`) | `hā=ye\|PL=EZ` |
   | `POSS` | possessive enclitic | `hamsar-aš\|wife-3SG.POSS` |
   | `PRS` | present tense | `kon-ad\|do-PRS-3SG` |
   | `PRV` | preverb (separable prefix, e.g. `بر-` in `برمی دارد`) | `bar-mī\|PRV=IMPF` |
