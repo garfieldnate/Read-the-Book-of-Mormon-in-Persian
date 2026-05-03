@@ -970,23 +970,6 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
   - _Family_: `توان` _tavān_ "power, ability"; `توانستن` _tavānestan_ "to be able"; `توانایی` _tavānāyī_ "ability".
   - _Forms_: collocation `توانا ساختن` "to enable".
 
-### Function-word gloss (short list you'll see on every page)
-
-- **از** _az_ — from/of/than
-- **با** _bā_ — with
-- **بر** _bar_ — on/upon
-- **به** _be_ — to/into
-- **را** _-rā_ — object marker
-- **که** _ke_ — relative/complementizer
-- **و** _o_ — and
-- **یا** _yā_ — or
-- **این / آن** _īn / ān_ — this / that
-- **من / تو / او / ما / شما / آنها** _man / to / ū / mā / šomā / ānhā_ — I/thou/he/we/you-pl/they
-- **می-** _mī-_ — imperfective prefix
-- **نمی-** _nemī-_ — negative imperfective prefix
-
----
-
 ## Grammar notes
 
 Twelve points. Every example is taken verbatim from the chapter and shown in three rows: Persian, transcription, English.
