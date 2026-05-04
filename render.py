@@ -45,6 +45,10 @@ from pathlib import Path
 
 _ESCAPABLE = "*_`\\"
 
+# Matches a leading <span id="...">inner</span> in a table cell, used to
+# emit HTML id anchors that survive the normal html.escape() pass.
+_CELL_ANCHOR_RE = re.compile(r'^<span\s+id="([^"]+)">(.*?)</span>(.*)', re.DOTALL)
+
 
 def _slug(text: str) -> str:
     """Convert heading text to a URL-safe id slug."""
@@ -278,6 +282,12 @@ def _render_table(rows: list[str]) -> str:
         return [c.strip() for c in raw.strip().strip("|").split("|")]
 
     def render_cell(content: str, tag: str = "td") -> str:
+        # Extract a leading <span id="..."> anchor so it survives html.escape().
+        anchor_prefix = ""
+        am = _CELL_ANCHOR_RE.match(content)
+        if am:
+            anchor_prefix = f'<span id="{am.group(1)}">{_inline(am.group(2))}</span>'
+            content = am.group(3).lstrip()
         if tag == "td" and "//" in content:
             parts = [p.strip() for p in content.split("//", 2)]
             if len(parts) == 3:
@@ -287,8 +297,8 @@ def _render_table(rows: list[str]) -> str:
                     f'<span class="cell-tr">{_inline(tr)}</span>'
                     f'<span class="cell-en">{_inline(en)}</span>'
                 )
-                return f'<{tag} class="cell-3">{inner}</{tag}>'
-        return f"<{tag}>{_inline(content)}</{tag}>"
+                return f'<{tag} class="cell-3">{anchor_prefix}{inner}</{tag}>'
+        return f"<{tag}>{anchor_prefix}{_inline(content)}</{tag}>"
 
     header_cells = split_row(rows[0])
     sep_stripped = rows[1].replace("|", "").replace("-", "").replace(":", "").replace(" ", "").strip()

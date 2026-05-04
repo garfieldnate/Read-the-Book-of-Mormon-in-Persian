@@ -84,6 +84,7 @@ def build_index(
     chapters: list[tuple[int, str, Path, Path]],
     has_transcription: bool = False,
     has_verbs: bool = False,
+    has_arabic: bool = False,
 ) -> str:
     """Render the top-level index.html linking each chapter."""
     items: list[str] = []
@@ -99,6 +100,8 @@ def build_index(
         ref_items.append('    <li><a href="study_guide/transcription.html">Persian Transliteration Scheme</a></li>')
     if has_verbs:
         ref_items.append('    <li><a href="study_guide/verbs.html">Persian Verb Conjugations</a></li>')
+    if has_arabic:
+        ref_items.append('    <li><a href="study_guide/arabic.html">Arabic Borrowings in Persian</a></li>')
 
     transcription_section = ""
     if ref_items:
@@ -236,9 +239,20 @@ def main() -> int:
         v_path.write_text(v_html, encoding="utf-8")
         print(f"  study_guide/verbs.md → {v_path.relative_to(ROOT)}", file=sys.stderr)
 
+    # Render the standalone Arabic borrowings reference page.
+    arabic_md = ROOT / "study_guide" / "arabic.md"
+    has_arabic = arabic_md.exists()
+    if has_arabic:
+        sg_out_dir = out_dir / "study_guide"
+        sg_out_dir.mkdir(exist_ok=True)
+        a_html = render(arabic_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/arabic.md")
+        a_path = sg_out_dir / "arabic.html"
+        a_path.write_text(a_html, encoding="utf-8")
+        print(f"  study_guide/arabic.md → {a_path.relative_to(ROOT)}", file=sys.stderr)
+
     index_path = out_dir / "index.html"
     index_path.write_text(
-        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs),
+        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs, has_arabic=has_arabic),
         encoding="utf-8",
     )
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)

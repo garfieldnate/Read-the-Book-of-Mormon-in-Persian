@@ -1,5 +1,6 @@
 - collapse vocab sections so you can read straight through
-- final simplified word index that prints as two columns
+- whole-book word index
 - Arabic borrowings cheatsheet page giving template-filling patterns with their names and some example words.
-- conjugation page - headers for raftan too big and too much spacing
-- Verse 12 ezafe is written over by the link underlining in the desktop HTML view
+- mark sie as ai-generated, not human-checked
+- lots of cleanups, styling on Arabic borrowings page
+- add up links on all pages to get back to the index
