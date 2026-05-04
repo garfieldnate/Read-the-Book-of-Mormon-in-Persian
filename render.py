@@ -792,7 +792,9 @@ DOCUMENT = """<!DOCTYPE html>
 </head>
 <body{body_class}>
 <main>
+{nav}
 {body}
+{nav}
 </main>
 <script>
 (function () {{
@@ -844,7 +846,9 @@ def render(md_text: str, css_href: str = "../styles.css", source_name: str = "")
     # Derive a page-specific body class from the source filename stem
     page_stem = Path(source_name).stem if source_name else ""
     body_class = f' class="page-{page_stem}"' if page_stem else ""
-    return DOCUMENT.format(title=plain_title, css=css_href, body=body, body_class=body_class)
+    index_href = str(Path(css_href).parent / ".." / "index.html")
+    nav = f'<nav class="up-nav"><a href="{index_href}">↑ Study Guides</a></nav>'
+    return DOCUMENT.format(title=plain_title, css=css_href, body=body, body_class=body_class, nav=nav)
 
 
 # ---------- CLI ----------
