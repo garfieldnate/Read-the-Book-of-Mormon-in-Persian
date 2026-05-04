@@ -197,7 +197,7 @@ The translation deliberately uses a high-register Persian that mirrors the KJV-s
 >>>
 Grammar: Subjunctive after `تا`
 
-`تا` + subjunctive marks purpose ("so that"). The subjunctive is formed with the present stem + personal endings, usually with the be- prefix (for simple verbs) or without (for compound verbs).
+`تا` + subjunctive marks purpose ("so that"). The subjunctive is formed with the present stem + personal endings, with the بـ- prefix for simple verbs (`بخواند`), but **without بـ- for compound verbs** (`توانا سازد`, not `*توانا بسازد`). This بـ- drop in compound verbs is systematic across all light verbs (`کردن`, `شدن`, `دادن`, `ساختن`, …) and is the norm in formal/literary Persian — the register this translation uses throughout. In colloquial Persian the بـ- is usually kept, so `توانا بسازد` sounds natural in everyday speech.
 
 > [Verse 11](#verse-11): `از او خواست تا آن را بخواند`
 > _az ū xāst tā ān-rā bexānad_
@@ -424,7 +424,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **یک** — _yek_ — one, a
 - **کشتی** — _kaštī_ — ship, vessel
 - **ساختن** — _sāxtan_ (pres. _sāz-_) — to make, build
-  - _Forms_: 3sg pres. _`می` `سازد` mī-sāzad_; subj. _`سازد` sāzad_ with `بـ-` dropped in compound verbs ([verse 20](#verse-20): `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
+  - _Forms_: 3sg pres. _`می` `سازد` mī-sāzad_; subj. _`سازد` sāzad_ (compound verb — بـ- systematically dropped in formal/literary register; see [Grammar: Subjunctive after `تا`](#grammar-subjunctive-after); [verse 20](#verse-20): `توانا سازد` "may enable"). Common collocation: `توانا ساختن` "to enable".
 
 #### Sentence 13
 

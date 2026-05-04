@@ -16,6 +16,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Participles — وجه وصفی (_vajh-e vasfi_)
 
+Past participle: past stem + _-e_ (`رفت-` → `رفته`). Present participle: present stem + _-ande_ (`رو-` → `رونده`). The infinitive serves double duty as the verbal noun.
+
 | Type | Persian | Romanization | English |
 |---|---|---|---|
 | Past participle | رفته | _rafte_ | gone |
@@ -23,6 +25,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | Infinitive / verbal noun | رفتن | _raftan_ | to go / the act of going |
 
 ### Simple Past — ماضی ساده (_māzi-ye sāde_)
+
+Past stem + personal endings: _-am, -i, ∅, -im, -id, -and_. No prefix. The 3sg has a zero ending — the bare past stem is itself the 3sg past form.
 
 | | Singular | Plural |
 |---|---|---|
@@ -32,6 +36,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Imperfect — ماضی استمراری (_māzi-ye estemrāri_)
 
+`می-` + past stem + the same personal endings as the simple past. `می-` signals ongoing or habitual past action.
+
 | | Singular | Plural |
 |---|---|---|
 | 1st | می‌رفتم // _mi-raftam_ // I was going / used to go | می‌رفتیم // _mi-raftim_ // we were going |
@@ -39,6 +45,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 3rd | می‌رفت // _mi-raft_ // he/she was going | می‌رفتند // _mi-raftand_ // they were going |
 
 ### Simple Present — مضارع اخباری (_mozāre'-e axbāri_)
+
+`می-` + present stem + personal endings: _-am, -i, -ad, -im, -id, -and_. Note the 3sg ending is _-ad_ (not the zero ending of the past).
 
 | | Singular | Plural |
 |---|---|---|
@@ -48,6 +56,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Present Progressive — حال مستمر (_hāl-e mostamer_)
 
+Conjugated `داشتن` (present tense, without `می-`) + `می-` + present stem + personal endings. `داشتن` agrees with the subject and supplies the tense; the main verb carries its own matching personal ending.
+
 | | Singular | Plural |
 |---|---|---|
 | 1st | دارم می‌روم // _dāram mi-ravam_ // I am going | داریم می‌رویم // _dārim mi-ravim_ // we are going |
@@ -55,6 +65,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 3rd | دارد می‌رود // _dārad mi-ravad_ // he/she is going | دارند می‌روند // _dārand mi-ravand_ // they are going |
 
 ### Past Progressive — ماضی مستمر (_māzi-ye mostamer_)
+
+Conjugated `داشتن` (past tense) + `می-` + past stem + personal endings. Both verbs agree with the subject in person and number.
 
 | | Singular | Plural |
 |---|---|---|
@@ -64,6 +76,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Present Perfect — ماضی نقلی (_māzi-ye naqli_)
 
+Invariable past participle + enclitic copula: _-am, -i, ast, -im, -id, -and_. The 3sg uses the free-standing `است` rather than an enclitic (written separately: `رفته است`).
+
 | | Singular | Plural |
 |---|---|---|
 | 1st | رفته‌ام // _rafte-am_ // I have gone | رفته‌ایم // _rafte-im_ // we have gone |
@@ -71,6 +85,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 3rd | رفته است // _rafte ast_ // he/she has gone | رفته‌اند // _rafte-and_ // they have gone |
 
 ### Past Perfect — ماضی بعید (_māzi-ye ba'id_)
+
+Invariable past participle + `بودن` in the simple past (`بود-` + personal endings). Both words written separately.
 
 | | Singular | Plural |
 |---|---|---|
@@ -80,6 +96,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Future — آینده (_āyande_)
 
+`خواه-` (present stem of `خواستن`) + personal endings + bare past stem. The auxiliary `خواه-` agrees with the subject; the main verb is the uninflected past stem, written separately after it.
+
 | | Singular | Plural |
 |---|---|---|
 | 1st | خواهم رفت // _xāham raft_ // I will go | خواهیم رفت // _xāhim raft_ // we will go |
@@ -87,6 +105,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 3rd | خواهد رفت // _xāhad raft_ // he/she will go | خواهند رفت // _xāhand raft_ // they will go |
 
 ### Present Subjunctive — مضارع التزامی (_mozāre'-e eltezāmi_)
+
+`بـ-` + present stem + personal endings (_-am, -i, -ad, -im, -id, -and_). **`بـ-` is dropped for compound verbs** (noun/adjective + light verb such as `کردن`, `شدن`, `ساختن`, …): e.g., `توانا سازد`, `کمک کند`, not `*توانا بسازد`. This drop is systematic in formal/literary Persian; in colloquial speech `بـ-` is usually kept even in compounds.
 
 | | Singular | Plural |
 |---|---|---|
@@ -96,6 +116,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ### Past Subjunctive — ماضی التزامی (_māzi-ye eltezāmi_)
 
+Invariable past participle + subjunctive of `بودن` (`باش-` + personal endings). The `بـ-` subjunctive marker is built into `باش-`; no additional prefix is needed. The same `بـ-` drop for compound verbs applies here too.
+
 | | Singular | Plural |
 |---|---|---|
 | 1st | رفته باشم // _rafte bāsham_ // that I have gone | رفته باشیم // _rafte bāshim_ // that we have gone |
@@ -103,6 +125,8 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 3rd | رفته باشد // _rafte bāshad_ // that he/she has gone | رفته باشند // _rafte bāshand_ // that they have gone |
 
 ### Imperative — امر (_amr_)
+
+Affirmative: `بـ-` + present stem (singular), `بـ-` + present stem + _-id_ (plural) — the same `بـ-` prefix as the subjunctive. Negative: `نـ-` replaces `بـ-`.
 
 | | Singular | Plural |
 |---|---|---|
