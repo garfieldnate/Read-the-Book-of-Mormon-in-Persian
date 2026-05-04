@@ -2,24 +2,24 @@
 
 These study guides use academic transliteration with macrons for long vowels.
 
-| Persian sound       | Transcription                           |
-| ------------------- | --------------------------------------- |
-| Long vowels         | `ā ī ū`                                 |
-| Short vowels        | `a e o`                                 |
-| Diphthongs          | `ow` `ay` `ey`                          |
-| ش                   | `š`                                     |
-| ژ                   | `ž`                                     |
-| خ                   | `x`                                     |
-| چ                   | `č`                                     |
-| ج                   | `j`                                     |
-| ع                   | `ʿ`                                     |
-| ء / hamza           | `ʾ`                                     |
-| ق                   | `q`                                     |
-| Arabic emphatics    | `ṣ ẓ ḥ ṭ` (see below)                   |
-| Ezafe               | `-e` after consonant, `-ye` after vowel |
-| Object marker       | `-rā`                                   |
-| Indefinite          | `-ī`                                    |
-| Possessive suffixes | `-am -at -aš -mān -tān -šān`            |
+| Persian sound                                                               | Transcription                           |
+| --------------------------------------------------------------------------- | --------------------------------------- |
+| Long vowels (`آ`/`ا` · `ی` · `و`)                                          | `ā ī ū`                                 |
+| Short vowels (`ـَ` · `ـِ` · `ـُ`)                                           | `a e o`                                 |
+| Diphthongs (`ـَو` · `ـَی` · `ـِی`)                                          | `ow` `ay` `ey`                          |
+| ش                                                                           | `š`                                     |
+| ژ                                                                           | `ž`                                     |
+| خ                                                                           | `x`                                     |
+| چ                                                                           | `č`                                     |
+| ج                                                                           | `j`                                     |
+| ع                                                                           | `ʿ`                                     |
+| ء / hamza                                                                   | `ʾ`                                     |
+| ق                                                                           | `q`                                     |
+| Arabic emphatics (`ص` · `ظ`/`ض` · `ح` · `ط`)                              | `ṣ ẓ ḥ ṭ` (see below)                   |
+| Ezafe (`–ـِ` / `–ی`)                                                        | `-e` after consonant, `-ye` after vowel |
+| Object marker (`–را`)                                                       | `-rā`                                   |
+| Indefinite (`–ی`)                                                           | `-ī`                                    |
+| Possessive suffixes (`–م` · `–ت` · `–ش` · `–مان` · `–تان` · `–شان`)       | `-am -at -aš -mān -tān -šān`            |
 
 Long vowels always get macrons; short vowels never do. Write clitics with a hyphen. Capitalize proper nouns.
 
