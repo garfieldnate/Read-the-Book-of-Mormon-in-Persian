@@ -158,11 +158,11 @@ Book of Mormon. Each chapter has a vocabulary section (every distinct lemma,
 grouped by verse) and a grammar section (10–12 tricky points with verbatim
 examples).</p>
 
-<h2>Chapters</h2>
+{transcription_section}<h2>Chapters</h2>
 <ul class="chapter-list">
 {items_html}
 </ul>
-{transcription_section}
+
 <h2>Source publication</h2>
 <div class="source-credit">
   <span class="fa">{SOURCE_TITLE_FA}</span>
@@ -220,7 +220,7 @@ def main() -> int:
     if has_transcription:
         sg_out_dir = out_dir / "study_guide"
         sg_out_dir.mkdir(exist_ok=True)
-        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="styles.css")
+        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/transcription.md")
         tr_path = sg_out_dir / "transcription.html"
         tr_path.write_text(tr_html, encoding="utf-8")
         print(f"  study_guide/transcription.md → {tr_path.relative_to(ROOT)}", file=sys.stderr)
@@ -231,7 +231,7 @@ def main() -> int:
     if has_verbs:
         sg_out_dir = out_dir / "study_guide"
         sg_out_dir.mkdir(exist_ok=True)
-        v_html = render(verbs_md.read_text(encoding="utf-8"), css_href="styles.css")
+        v_html = render(verbs_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/verbs.md")
         v_path = sg_out_dir / "verbs.html"
         v_path.write_text(v_html, encoding="utf-8")
         print(f"  study_guide/verbs.md → {v_path.relative_to(ROOT)}", file=sys.stderr)

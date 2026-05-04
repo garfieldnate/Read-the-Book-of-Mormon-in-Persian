@@ -1,8 +1,12 @@
 # Persian Verb Conjugations
 
-Every Persian verb has two stems that must be memorized: the **past stem** and the **present stem**. Given the infinitive, the past stem is simply the infinitive minus its _-an_ ending (e.g., _raftan_ → _raft-_). The present stem is unpredictable and must be learned alongside the infinitive. Once both stems are known, all tenses and moods follow the regular pattern shown below using رفتن (_raftan_, "to go") as the model verb.
+Every Persian verb has two stems that must be memorized: the **past stem** and the **present stem**. Given the infinitive, the past stem is simply the infinitive minus its _-an_ ending (e.g., _raftan_ → _raft-_). The present stem is unpredictable (though there are some common patterns)and must be learned alongside the infinitive. Once both stems are known, all tenses and moods follow the regular pattern shown below using رفتن (_raftan_, "to go") as the model verb.
 
-## Stems of رفتن (_raftan_)
+[TOC]
+
+## Conjugation Tables
+
+### Stems of رفتن (_raftan_)
 
 | | Persian | Romanization |
 |---|---|---|
@@ -10,9 +14,15 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | Past stem | رفت– | _raft–_ |
 | Present stem | رو– | _rav–_ / _ro–_ |
 
----
+### Participles — وجه وصفی (_vajh-e vasfi_)
 
-## Simple Past — ماضی ساده
+| Type | Persian | Romanization | English |
+|---|---|---|---|
+| Past participle | رفته | _rafte_ | gone |
+| Present participle | رونده | _ravande_ | going / one who goes |
+| Infinitive / verbal noun | رفتن | _raftan_ | to go / the act of going |
+
+### Simple Past — ماضی ساده (_māzi-ye sāde_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -20,7 +30,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | رفتی // _rafti_ // you went | رفتید // _raftid_ // you (pl.) went |
 | 3rd | رفت // _raft_ // he/she went | رفتند // _raftand_ // they went |
 
-## Imperfect — ماضی استمراری
+### Imperfect — ماضی استمراری (_māzi-ye estemrāri_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -28,7 +38,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | می‌رفتی // _mi-rafti_ // you were going | می‌رفتید // _mi-raftid_ // you (pl.) were going |
 | 3rd | می‌رفت // _mi-raft_ // he/she was going | می‌رفتند // _mi-raftand_ // they were going |
 
-## Simple Present — مضارع اخباری
+### Simple Present — مضارع اخباری (_mozāre'-e axbāri_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -36,7 +46,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | می‌روی // _mi-ravi_ // you go | می‌روید // _mi-ravid_ // you (pl.) go |
 | 3rd | می‌رود // _mi-ravad_ // he/she goes | می‌روند // _mi-ravand_ // they go |
 
-## Present Progressive — حال مستمر
+### Present Progressive — حال مستمر (_hāl-e mostamer_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -44,7 +54,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | داری می‌روی // _dāri mi-ravi_ // you are going | دارید می‌روید // _dārid mi-ravid_ // you (pl.) are going |
 | 3rd | دارد می‌رود // _dārad mi-ravad_ // he/she is going | دارند می‌روند // _dārand mi-ravand_ // they are going |
 
-## Past Progressive — ماضی مستمر
+### Past Progressive — ماضی مستمر (_māzi-ye mostamer_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -52,7 +62,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | داشتی می‌رفتی // _dāshti mi-rafti_ // you were going | داشتید می‌رفتید // _dāshtid mi-raftid_ // you (pl.) were going |
 | 3rd | داشت می‌رفت // _dāsht mi-raft_ // he/she was going | داشتند می‌رفتند // _dāshtand mi-raftand_ // they were going |
 
-## Present Perfect — ماضی نقلی
+### Present Perfect — ماضی نقلی (_māzi-ye naqli_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -60,7 +70,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | رفته‌ای // _rafte-i_ // you have gone | رفته‌اید // _rafte-id_ // you (pl.) have gone |
 | 3rd | رفته است // _rafte ast_ // he/she has gone | رفته‌اند // _rafte-and_ // they have gone |
 
-## Past Perfect — ماضی بعید
+### Past Perfect — ماضی بعید (_māzi-ye ba'id_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -68,7 +78,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | رفته بودی // _rafte budi_ // you had gone | رفته بودید // _rafte budid_ // you (pl.) had gone |
 | 3rd | رفته بود // _rafte bud_ // he/she had gone | رفته بودند // _rafte budand_ // they had gone |
 
-## Future — آینده
+### Future — آینده (_āyande_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -76,7 +86,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | خواهی رفت // _xāhi raft_ // you will go | خواهید رفت // _xāhid raft_ // you (pl.) will go |
 | 3rd | خواهد رفت // _xāhad raft_ // he/she will go | خواهند رفت // _xāhand raft_ // they will go |
 
-## Present Subjunctive — مضارع التزامی
+### Present Subjunctive — مضارع التزامی (_mozāre'-e eltezāmi_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -84,7 +94,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | بروی // _beravi_ // that you go | بروید // _beravid_ // that you (pl.) go |
 | 3rd | برود // _beravad_ // that he/she go | بروند // _beravand_ // that they go |
 
-## Past Subjunctive — ماضی التزامی
+### Past Subjunctive — ماضی التزامی (_māzi-ye eltezāmi_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -92,7 +102,7 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 | 2nd | رفته باشی // _rafte bāshi_ // that you have gone | رفته باشید // _rafte bāshid_ // that you (pl.) have gone |
 | 3rd | رفته باشد // _rafte bāshad_ // that he/she has gone | رفته باشند // _rafte bāshand_ // that they have gone |
 
-## Imperative — امر
+### Imperative — امر (_amr_)
 
 | | Singular | Plural |
 |---|---|---|
@@ -101,13 +111,35 @@ Every Persian verb has two stems that must be memorized: the **past stem** and t
 
 ---
 
-## Participles — وجه وصفی
+## Common stem formation patterns
 
-| Type | Persian | Romanization | English |
+The past stem is always predictable: strip _-an_ from the infinitive (`رفتن` → `رفت–`). The present stem is not, but a few large verb classes share recognizable patterns that reduce the memorization load.
+
+| Pattern | Infinitive | Meaning | Present stem |
 |---|---|---|---|
-| Past participle | رفته | _rafte_ | gone |
-| Present participle | رونده | _ravande_ | going / one who goes |
-| Infinitive / verbal noun | رفتن | _raftan_ | to go / the act of going |
+| **-idan → drop -idan** | `پوشیدن` (_pušidan_) | to wear | `پوش–` (_puš–_) |
+| | `رسیدن` (_rasidan_) | to arrive | `رس–` (_ras–_) |
+| | `کشیدن` (_kešidan_) | to pull / draw | `کش–` (_keš–_) |
+| | `پرسیدن` (_porsidan_) | to ask | `پرس–` (_pors–_) |
+| _Exceptions (extremely rare):_ `شنیدن` (_šenidan_, "to hear") → `شنو–` (_šenav–_) | | | |
+| **-idan: -id– → -in–** | `چیدن` (_chidan_) | to pick (fruit) | `چین–` (_chin–_) |
+| _Used when the bare root is monosyllabic — dropping -idan entirely would leave an impermissible single-vowel stem_ | | | |
+| **-xtan → -z–** | `ساختن` (_sāxtan_) | to build / make | `ساز–` (_sāz–_) |
+| | `ریختن` (_rixtan_) | to pour / spill | `ریز–` (_riz–_) |
+| | `سوختن` (_suxtan_) | to burn | `سوز–` (_suz–_) |
+| | `آموختن` (_āmuxtan_) | to learn / teach | `آموز–` (_āmuz–_) |
+| | `پرداختن` (_pardāxtan_) | to pay | `پرداز–` (_pardāz–_) |
+| _Exceptions (rare):_ `شناختن` (_šenāxtan_, "to know/recognize") → `شناس–` (_šenās–_); `فروختن` (_foruxtan_, "to sell") → `فروش–` (_foruš–_) | | | |
+| **-nd– → drop -d–** | `خواندن` (_xāndan_) | to read / call | `خوان–` (_xān–_) |
+| | `ماندن` (_māndan_) | to remain | `مان–` (_mān–_) |
+| | `افکندن` (_afkandan_) | to throw / cast | `افکن–` (_afkan–_) |
+| | `پراکندن` (_parākandan_) | to scatter / disperse | `پراکن–` (_parākan–_) |
+| _Exceptions: none known_ | | | |
+| **-udan: -ud– → -ā(y)–** | `نمودن` (_namudan_) | to show / display | `نمای–` (_namā(y)–_) |
+| | `افزودن` (_afzudan_) | to add / increase | `افزای–` (_afzā(y)–_) |
+| | `ستودن` (_sotudan_) | to praise | `ستای–` (_setā(y)–_) |
+| | `آزمودن` (_āzmudan_) | to test / try | `آزمای–` (_āzmā(y)–_) |
+| _Exceptions (almost none):_ `بودن` (_budan_, "to be") → `باش–` (_bāsh–_) (suppletive; see irregular verbs below) | | | |
 
 ---
 

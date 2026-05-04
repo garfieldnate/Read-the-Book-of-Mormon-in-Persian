@@ -304,14 +304,68 @@ def _render_table(rows: list[str]) -> str:
         for cell in header_cells:
             out.append(render_cell(cell, "th"))
         out.append("</tr></thead>")
+    ncols = len(header_cells) if header_cells is not None else (
+        len(split_row(data_rows[0])) if data_rows else 1
+    )
     out.append("<tbody>")
     for raw_row in data_rows:
+        cells = split_row(raw_row)
         out.append("<tr>")
-        for cell in split_row(raw_row):
-            out.append(render_cell(cell))
+        # If only the first cell has content, span it across all columns.
+        if cells[0] and not any(cells[1:]):
+            out.append(f'<td colspan="{ncols}" class="span-cell">{_inline(cells[0])}</td>')
+        else:
+            for cell in cells:
+                out.append(render_cell(cell))
         out.append("</tr>")
     out.append("</tbody></table>")
     return "\n".join(out)
+
+
+# ---------- table of contents ----------
+
+
+def _build_toc(md: str) -> str:
+    """Generate a <nav class="toc"> from H2/H3 headings in the markdown."""
+    headings: list[tuple[int, str, str]] = []
+    for line in md.split("\n"):
+        m = HEADING_RE.match(line)
+        if m and len(m.group(1)) in (2, 3):
+            raw = m.group(2)
+            headings.append((len(m.group(1)), raw, _slug(raw)))
+    if not headings:
+        return ""
+
+    items: list[str] = []
+    i = 0
+    while i < len(headings):
+        level, raw, slug = headings[i]
+        label = _inline(raw)
+        if level == 2:
+            children: list[str] = []
+            j = i + 1
+            while j < len(headings) and headings[j][0] == 3:
+                _, craw, cslug = headings[j]
+                children.append(f'<li><a href="#{cslug}">{_inline(craw)}</a></li>')
+                j += 1
+            if children:
+                items.append(
+                    f'<li><a href="#{slug}">{label}</a>'
+                    f'<ul>{"".join(children)}</ul></li>'
+                )
+                i = j
+            else:
+                items.append(f'<li><a href="#{slug}">{label}</a></li>')
+                i += 1
+        else:
+            items.append(f'<li><a href="#{slug}">{_inline(raw)}</a></li>')
+            i += 1
+
+    return (
+        '<nav class="toc"><p class="toc-title">Contents</p><ul>'
+        + "".join(items)
+        + "</ul></nav>"
+    )
 
 
 # ---------- post-processing: vocab entries ----------
@@ -678,6 +732,12 @@ def _render_body(
             out.append(_render_table(table_rows))
             continue
 
+        # [TOC] directive — generate table of contents
+        if stripped == "[TOC]":
+            out.append(_build_toc(md))
+            i += 1
+            continue
+
         # Paragraph — collect until a block delimiter
         para: list[str] = []
         while i < n:
@@ -690,6 +750,7 @@ def _render_body(
                 or LIST_RE.match(pl)
                 or ps in HR_SET
                 or _TABLE_ROW_RE.match(ps)
+                or ps == "[TOC]"
                 or re.match(r"^\[(en|lit|gloss)\]\s", ps)
                 or (word_map is not None and re.match(r"^`[^`]+`$", ps))
             ):
@@ -719,7 +780,7 @@ DOCUMENT = """<!DOCTYPE html>
 <title>{title}</title>
 <link rel="stylesheet" href="{css}">
 </head>
-<body>
+<body{body_class}>
 <main>
 {body}
 </main>
@@ -770,7 +831,10 @@ def render(md_text: str, css_href: str = "../styles.css", source_name: str = "")
     title = _inline(m.group(1)) if m else "Study Guide"
     # Strip any HTML from the title for the <title> element
     plain_title = re.sub(r"<[^>]+>", "", title)
-    return DOCUMENT.format(title=plain_title, css=css_href, body=body)
+    # Derive a page-specific body class from the source filename stem
+    page_stem = Path(source_name).stem if source_name else ""
+    body_class = f' class="page-{page_stem}"' if page_stem else ""
+    return DOCUMENT.format(title=plain_title, css=css_href, body=body, body_class=body_class)
 
 
 # ---------- CLI ----------

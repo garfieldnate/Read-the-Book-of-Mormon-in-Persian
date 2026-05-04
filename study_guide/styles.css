@@ -688,6 +688,59 @@ h4.grammar-note {
   margin-bottom: 0.6em;
 }
 
+/* --------- table of contents --------- */
+.toc {
+  background: var(--meta-bg);
+  border-left: 3px solid var(--rule);
+  border-radius: 0 4px 4px 0;
+  padding: 0.7em 1.1em 0.8em;
+  margin: 1.5em 0 2em;
+  font-size: 0.9em;
+  font-family: var(--font-ui);
+}
+.toc-title {
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin: 0 0 0.5em;
+}
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc > ul > li {
+  margin: 0.3em 0;
+  font-weight: 600;
+}
+.toc > ul > li > ul {
+  padding-left: 1.2em;
+  margin: 0.1em 0 0.2em;
+  font-weight: normal;
+}
+.toc > ul > li > ul > li {
+  margin: 0.1em 0;
+  font-size: 0.94em;
+}
+.toc a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.toc a:hover { text-decoration: underline; }
+
+/* --------- verbs-page section headers --------- */
+/* Conjugation sub-sections (h3) should feel like members of a group,
+   not major page divisions — lighter weight, smaller top gap. */
+.page-verbs h3 {
+  font-size: 1.07em;
+  margin: 1.4em 0 0.3em;
+  padding-top: 0.25em;
+  border-top: 1px dashed var(--rule);
+  color: var(--text-muted);
+}
+
 /* --------- conjugation tables --------- */
 .conj-table {
   border-collapse: collapse;
@@ -710,7 +763,11 @@ h4.grammar-note {
 .conj-table td:first-child {
   color: var(--text-muted);
   font-size: 0.88em;
-  white-space: nowrap;
+}
+.conj-table td.span-cell {
+  color: var(--text-muted);
+  font-size: 0.88em;
+  border-bottom: 2px solid var(--rule);
 }
 /* Romanizations are always LTR — prevents italic bud– inheriting RTL cell direction */
 .conj-table em {
