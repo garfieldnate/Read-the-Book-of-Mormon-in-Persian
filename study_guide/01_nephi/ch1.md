@@ -439,7 +439,7 @@ _(No new lemmas — every word in this sentence has already been introduced.)_
 - **آنجا** — _ānjā_ — there
 - **خرّمساران** — _Xorram-sārān_ [proper] — "Bountiful" (the place where Lehi's family builds the ship)
   - _Etym_: native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → "lands of abundance".
-  - _Family_: `خرّم` _xorram_ "verdant, flourishing, joyful"; `-سار` _-sār_ (place-of suffix, also seen in this chapter as `سنگسار` "stoning", `کوهسار` "mountainous land").
+  - _Family_: `خرّم` _xorram_ "verdant, flourishing, joyful"; `-سار` _-sār_ (place-of / abundance suffix; cf. `کوهسار` "mountainous land" in this chapter — note that `سنگسار` "stoning" contains a homophonous but likely unrelated _-sār_).
 
 #### Sentence 14
 
@@ -1099,8 +1099,8 @@ Formed with the present of `خواستن` (_xāh-am, xāh-ī, xāh-ad, xāh-īm,
 - **پیشین** — _pīšīn_ — former, previous
   - _Etym_: `پیش` _pīš_ "before" + `-ین` _-īn_ (adjectival suffix).
 - **سنگسار** — _sangsār_ — stoning
-  - _Etym_: `سنگ` + `-سار` (place-of / abundance suffix).
-  - _Family_: `سنگ` _sang_ "stone"; `-سار` _-sār_ (suffix; cf. `کوهسار` "mountainous land", `خرّمساران` "Bountiful" in this chapter).
+  - _Etym_: `سنگ` _sang_ "stone" + `-سار`. The second element is uncertain, possibly a Sogdian directional postposition _-sār_ (meaning roughly "toward, up to"). The homophonous native suffix `-سار` _-sār_ meaning "place of / full of" (as in `کوهسار` "mountainous land") is a separate morpheme.
+  - _Family_: `سنگ` _sang_ "stone".
   - _Forms_: collocation `سنگسار کردن` "to stone".
 - **کشتن** — _koštan_ (pres. _koš-_) — to kill (pp. _کشته košte_)
   - _Forms_: pp. `کشته` košte.
