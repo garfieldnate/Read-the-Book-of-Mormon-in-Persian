@@ -1,6 +1,4 @@
+- lots of cleanups, styling on Arabic borrowings page
 - collapse vocab sections so you can read straight through
 - whole-book word index
-- Arabic borrowings cheatsheet page giving template-filling patterns with their names and some example words.
-- mark sie as ai-generated, not human-checked
-- lots of cleanups, styling on Arabic borrowings page
-- add up links on all pages to get back to the index
+- mark site as ai-generated, not human-checked; add paragraph in main index

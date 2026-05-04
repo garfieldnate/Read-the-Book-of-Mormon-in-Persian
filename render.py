@@ -576,9 +576,17 @@ def _emit_tree(
     for content, children in nodes:
         if mode == "vocab":
             _hw_m = re.search(r"<strong>([^<]+)</strong>", content)
-            _hw = _hw_m.group(1).strip() if _hw_m else ""
-            _hw_id = f' id="vocab-{_hw}"' if _hw else ""
-            li_open = f'<li class="vocab-entry"{_hw_id}>'
+            if _hw_m:
+                _hw = _hw_m.group(1).strip()
+                _hw_id = f' id="vocab-{_hw}"' if _hw else ""
+                li_open = f'<li class="vocab-entry"{_hw_id}>'
+            else:
+                # Code-starting alias entry within a vocab list (e.g. `سرورا`)
+                _code_m = re.match(r"<code>([؀-ۿ‌][^<]*)</code>", content)
+                if _code_m:
+                    li_open = f'<li id="gram-{_code_m.group(1).strip()}">'
+                else:
+                    li_open = "<li>"
             li_content = _wrap_vocab_entry(content)
             child_mode = "meta"
         elif mode == "meta":
@@ -613,10 +621,16 @@ def _emit_list(items: list[tuple[int, str]]) -> str:
     (vocab list); each item gets class="vocab-entry" and its sub-list (if any)
     becomes a class="vocab-meta" block whose items are tagged .vocab-etym /
     .vocab-forms / .vocab-meta-other based on their leading *italic label*.
+
+    A list is classified as vocab if at least one top-level item has a bold
+    Persian headword — this tolerates mixed lists where code-starting alias
+    entries (e.g. a backtick-quoted word) appear alongside bold vocab headwords.
     """
     top_items_content = [c for indent, c in items if indent == 0]
-    top_is_vocab = bool(top_items_content) and all(
-        c.startswith("<strong>") for c in top_items_content
+    top_is_vocab = bool(top_items_content) and any(
+        (m := re.search(r"<strong>([^<]+)</strong>", c))
+        and _PERSIAN_CHAR_RE.search(m.group(1))
+        for c in top_items_content
     )
     tree, _ = _build_tree(items, 0, 0)
     return _emit_tree(tree, depth=0, mode="vocab" if top_is_vocab else "plain")

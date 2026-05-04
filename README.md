@@ -322,7 +322,7 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 
 | Class               | Applied to | Where it comes from in Markdown                                                                                                         |
 | ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `.vocab`            | `<ul>`     | Any bullet list whose items all begin with `**bold**` (treated as a vocab list).                                                        |
+| `.vocab`            | `<ul>`     | Any bullet list that contains at least one item with a bold Persian headword (treated as a vocab list; tolerates mixed bold/code items). |
 | `.vocab-entry`      | `<li>`     | Each item inside a `.vocab` list; gets `id="vocab-HEADWORD"` (the raw Persian headword) so `.src-link` anchors resolve.                 |
 | `.vocab-meta`       | `<ul>`     | Sub-list directly inside a `.vocab-entry` (the `Etym` / `Forms` block).                                                                 |
 | `.vocab-etym`       | `<li>`     | Item in `.vocab-meta` whose label is `*Etym*` or `*Etymology*`.                                                                         |
@@ -368,6 +368,9 @@ The parser is deliberately narrow: it handles headings (with auto-generated `id`
 # From the project root, for book directory study_guide/NN_book/:
 python3 fetch_chapter.py <url> -o study_guide/NN_book/web.txt    # pull a chapter from the web
 python3 build_site.py                                              # render every chN.md → _site/
+python3 check_links.py                                             # verify all in-page anchor links resolve
 ```
+
+`check_links.py` scans every HTML file in `_site/` and reports any `href="#..."` whose target `id="..."` does not exist in the same file. Run it after `build_site.py` to catch broken vocab links before pushing. Exits 0 if everything is clean, 1 if any broken links are found.
 
 No dependencies beyond the Python 3.10+ standard library. CI runs `python3 build_site.py` and publishes `_site/` to GitHub Pages on every push to `main`/`master`; see `.github/workflows/pages.yml`.
