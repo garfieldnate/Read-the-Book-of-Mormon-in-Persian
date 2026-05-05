@@ -2,3 +2,6 @@
 - collapse vocab sections so you can read straight through
 - whole-book word index
 - mark site as ai-generated, not human-checked; add paragraph in main index
+- Move translit stuff out of readme; just reference translit page instead.
+- Review all study guide construction rules in readme. Don't want/need a chapter summary/intro in English, for example.
+- Add readme instructions to break down the work of a new chapter to avoid huge API return values.

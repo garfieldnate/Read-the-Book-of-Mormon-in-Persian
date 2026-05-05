@@ -99,7 +99,7 @@ Two further conventions:
 ### Vocabulary section
 
 - **Each section opens with the source text, followed by an interlinear gloss, an English translation, and then the vocab for that section** (in that order). The chapter is divided into a **book summary** (the header for the whole book of Nephi/Mosiah/etc., before chapter 1), a **chapter summary** (the per-chapter subheading), and the numbered **verses**:
-  - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence, a `[gloss]` line, an `[en]` translation, and then the vocab it introduces. If a sentence introduces no new lemmas, emit the heading, backtick'd Persian, gloss, `[en]` line, and then the italic `*(No new lemmas — every word in this sentence has already been introduced.)*` note in place of a vocab list.
+  - **Book summary** — sentence-by-sentence, sourced from the publisher's clean web edition (use `python3 fetch_chapter.py <url>` to pull a chapter, see "Per-chapter workflow"). Open with a `#### Title` block carrying the book name and a `#### Subtitle` block carrying the short reign-statement, then one `#### Sentence N` (h4) heading per sentence in the book-level summary paragraph, splitting on `.`. Each sub-block carries one backtick'd Persian sentence, a `[gloss]` line, an `[en]` translation, and then the vocab it introduces. If a sentence introduces no new lemmas, emit the heading, backtick'd Persian, gloss, `[en]` line, and then the italic note `_(No new lemmas — every word in this sentence has already been introduced.)_` in place of a vocab list. Use underscores (not asterisks) so `render.py` renders it as `<em>` rather than bold.
   - **Chapter summary** — `### Chapter summary` (h3) followed by the entire summary text on a single line wrapped in backticks, a `[gloss]` line, an `[en]` translation, and then a single flat vocab list for the whole summary.
   - **Each verse** — `### Verse N` (h3) followed by the entire verse text on a single line wrapped in backticks, a `[gloss]` line, an `[en]` translation, and then a single flat vocab list for that verse.
   - **Editorial ezafe marker `{e}`**. The Persian Book of Mormon source very rarely writes the unstressed ezafe linker (`-e` / `-ye`) on consonant-final words — the reader is expected to know to pronounce it. To help learners, insert a literal `{e}` in the markdown source at every site where ezafe is unwritten in the source text or in a grammar-example blockquote. `render.py` converts each `{e}` to `<span class="ezafe">ِ</span>` (a kasra wrapped in a styled span); CSS colors the kasra in the project's accent color and slightly bolds it, so the reader can see at a glance that this kasra was added by us — _not_ part of the publisher's text. Examples:
@@ -195,6 +195,7 @@ Two further conventions:
   - **Multiples of ten** likewise have unique forms — flag on `۲۰` (``Persian numeral 20 (`بیست` — a separate word, not "two-zero")``).
   - **Hundreds and beyond** are compound — give the morpheme breakdown in `*Etym*` (e.g. for `۶۰۰`, `\`شش\` + \`صد\` "hundred"`).
   - Verse numbers count as appearances, so each verse opens its vocab list with its own number's entry (the digit at the start of the inline source text).
+  - **First numeral meta-note**: the very first numeral entry in a chapter (typically the digit that opens verse 1) should include a `*Forms*` sub-bullet explaining the digit system to the learner: that each digit's pronunciation is introduced at first appearance, and that teens and multiples of ten are single unanalysable words, not digit-by-digit composites. This meta-note appears on the first numeral entry only; subsequent numeral entries in the same chapter do not repeat it.
 
 - **Entry format**:
 
@@ -212,6 +213,23 @@ Two further conventions:
 
   ```
   **را** — *-rā* — direct-object marker (post-nominal clitic)
+  ```
+
+  **Backtick variant entries** — Literary/archaic forms, grammatical variants, and surface forms that are *not* the citation-form lemma use a backtick headword instead of bold:
+
+  ```
+  - `گفتا` (_goftā_) — archaic narrative past of `گفتن`; see [Grammar: Narrative -ā](#grammar-narrative)
+  - `سرورا` (_Sarvarā_) — vocative of `سرور`; see [Grammar: Vocative -ā](#grammar-vocative)
+  ```
+
+  Use backtick entries when the entry IS the form itself (not a dictionary citation form). When a backtick entry is a grammatical variant of a bold entry already in the same section, add a cross-reference to the parent entry or its grammar note.
+
+- **Bound morpheme entries** — Productive bound morphemes (suffixes or prefixes that appear only in compounds) get their own entry with `[bound morpheme]` in the gloss:
+
+  ```
+  - **انگیز** — _angīz_ — arousing [bound morpheme]
+    - _Etym_: present stem of `انگیختن` _angixtan_ "to arouse, excite".
+    - _Family_: `شورانگیز` _šur-angīz_ "stirring, exciting"; `هیجان‌انگیز` _hayajān-angīz_ "thrilling".
   ```
 
 - **Metadata sub-bullets** (the `*Etym*`, `*Forms*`, and `*Family*` lines under a vocab entry). Keep the headline of an entry **clean** — just `**Persian** — *translit* — meaning [maybe a one-word register tag like "literary"]`. Anything more goes in nested bullets directly underneath:
@@ -233,10 +251,13 @@ Two further conventions:
   - **Proper nouns of foreign origin** — Hebrew (most BoM names via Arabic / English transliteration), or English (BoM-coined). Example: `*Etym*: Hebrew יהודה *Yəhūdā* "praised", via Arabic`.
   - **Native, non-compound Persian words** — _do not_ add `*Etym*`. Don't write "native Persian"; absence is the signal.
 
+  **Morpheme-breakdown notation**: wrap every fragment in backticks. Use `→` with a quoted literal to spell out the compositional meaning: `` `نا-` + `بکار` + `-ی` → "non-useful-ness" ``; use `←` to trace a form back to its source verb or root: `` `گذشت` ← `گذشتن` "to pass" ``.
+
 - **When to add `*Family*`** (related words to memorize alongside this entry — different from `*Etym*`, which is the linguistic breakdown):
   - When the entry's stem is **a useful Persian word in its own right** that doesn't otherwise appear in the chapter. Example: `شادمانی` is in the chapter, but seeing `شاد` "happy" and `شادمان` "joyful" listed alongside lets the reader pick up three vocabulary items for the price of one.
   - When the entry has **derivational siblings** the reader will meet later (e.g., `شورش` "rebellion" → list `شور` "fervor" and `شوریدن` "to revolt"; `ستایش` "praise" → list the source verb `ستودن`).
   - For **compounds** whose components are themselves vocabulary worth memorizing (e.g., `سرگذشت` → `سر` "head" + `گذشتن` "to pass"; both are headwords elsewhere in this chapter, but the Family note re-lists them with brief glosses for quick reference).
+  - When a related form listed in `*Family*` is **superficially similar to an unrelated word**, add a parenthetical disambiguation: e.g. `` `کوهسار` _kūhsār_ "mountainous place" (note: the `-سار` here is the native "place-of" suffix; cf. `سنگسار` "stoning", which contains a homophonous but likely unrelated _-sār_) ``.
 
   Format: short list with each related form's translit and a one-or-two-word gloss, separated by `;`. Example: ``*Family*: `شاد` *šād* "happy"; `شادمان` *šādmān* "joyful".`` Don't repeat the entry's headword; don't repeat detail already in `*Etym*`.
 
@@ -248,8 +269,15 @@ Two further conventions:
      - **High-frequency verbs that show up in many shapes** (`بودن`, `شدن`, `کردن`, `داشتن`, `دادن`): summarize the paradigm visible in this chapter (3sg, 3pl, past, pp).
   2. **Common collocations or related compound forms** of any lemma — what would have been an inline parenthetical (e.g., on `دنبال`, the pair `به دنبال` / `بدنبال`; on `خشم`, the verb `خشم گرفتن`). Move these to `*Forms*:` instead of the headline.
   3. **Regular verbs** whose past stem matches the infinitive transparently (`زادن` → `زاد`/`زاده`, `شنیدن` → `شنید`/`شنیده`, etc.) — add `*Forms*` listing the backtick'd conjugated forms that actually appear in the chapter's source text. This is required for `render.py` to link those surface forms back to the headword. If none of the regular verb's forms appear in source-text lines, the `*Forms*` sub-bullet can be omitted.
+  4. **Web-edition orthography** — when the publisher's web text writes a word with diacritics that differ from the citation form used in this guide, note it in `*Forms*`: `` _Forms_: web edition writes `سَروَر`; unmarked `سرور` is the citation form used here. ``
 
   Inside `*Forms*`, cite **verbatim Persian from the source text with a section reference** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", [verse N](#verse-n); past _…_; pp. _…_.` Use `[chapter summary](#chapter-summary)`, `[verse N](#verse-n)`, or `[book summary, sentence N](#sentence-n)` as appropriate. The backtick-quoted forms in `*Forms*` are harvested by `render.py` when building the source-text link map — every form you list in backticks will become a clickable link in the inline source-text blocks.
+
+  **Multi-tense stacking**: a single `*Forms*` line may list several tense/mood/person forms separated by semicolons, in order: morphophonological note first (if any), then present, then past, then imperfect, then past participle. Each form cites the verse where it first appears: `3sg pres. \`می\` \`آید\` ([verse 9](#verse-9)); past \`آمد\` āmad`.
+
+  **Correlative patterns**: for words used in fixed paired constructions, document with ellipses: `` _Forms_: correlative `هم … هم …` "both … and …". ``
+
+  **Inline explanatory parentheticals**: `*Forms*` lines may include a parenthetical when a surface form departs from the expected paradigm: e.g. "bare `دهد` is classical/literary or a compound-verb subjunctive with `بـ-` dropped."
 
 - **Irregular reading warnings (⚠️)**: flag Arabic loanwords whose Persian spelling would mislead a learner into a wrong pronunciation. Place the ⚠️ sub-bullet **first** under the headword, before any `*Etym*` line — and only on the sub-bullet, never on the headword line itself:
 
@@ -290,7 +318,7 @@ Grammar: [title]
 
 The renderer wraps the block in `<div class="grammar-note-block">` and renders the title as a styled `<h4 class="grammar-note">`. Note: `>>>` must appear on its own line; the line immediately after the opening `>>>` is the block title.
 
-Example sentence **must be taken verbatim from the chapter's source text** — no invented examples. Grammar notes do **not** get a separate `## Grammar notes` section; they are woven into the vocab lists.
+Example sentence **must be taken verbatim from the chapter's source text** — no invented examples. A grammar note may include an **inline comparison** between two verses to contrast constructions: `Also compare [Verse N](#verse-n): \`phrase\` (_reason_) with \`phrase\` (_reason_).` Grammar notes do **not** get a separate `## Grammar notes` section; they are woven into the vocab lists.
 
 Standing list of points worth covering when they appear in a chapter:
 
@@ -308,6 +336,10 @@ Standing list of points worth covering when they appear in a chapter:
 - Imperfective `می-` and its negation `نمی-`
 
 Don't force the full list into every chapter — only cover points the chapter actually contains.
+
+### Closing section
+
+Every chapter ends with a `## A final note on reading strategy` heading (H2), followed by one short paragraph naming the key grammar constructions that appeared in the chapter (e.g. "This chapter introduces the `چنین گذشت` narrative formula, the subjunctive after `تا`, and the compound-verb `بـ-` drop") and one study-tip sentence (e.g. "Before moving on, try reading the chapter summary aloud, paying attention to the ezafe chains").
 
 ## HTML rendering
 
