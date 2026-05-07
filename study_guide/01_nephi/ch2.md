@@ -45,6 +45,8 @@ Persian attaches possessive clitics directly to nouns: _-am_ (my), _-at_ (thy), 
 The clitic attaches after the full noun phrase: `برادرانش` = "his brothers", `پسرانش` = "his sons", `پدرم` = "my father."
 >>>
 
+- **اش** — _-aš_ — 3sg possessive clitic ("his/her/its"), written with a space in the publisher's edition
+  - _Forms_: `ش` _-š_ (after vowel-final words without space: `خانه‌ش`); other persons: `ام` _-am_ (1sg), `ات` _-at_ (2sg), `مان` _-mān_ (1pl), `تان` _-tān_ (2pl), `شان` _-šān_ (3pl). In perfect constructions `ام` is also the 1sg copula clitic: `کرده ام` "I have done."
 - **را** — _-rā_ — direct-object marker (post-nominal clitic)
 >>>
 Grammar: Direct-object marker `را`
@@ -80,7 +82,9 @@ The publisher rarely writes the kasra; this guide marks every editorial ezafe wi
   - _Forms_: `دریای سرخ` _daryā-ye sorx_ "Red Sea."
 - **سرخ** — _sorx_ — red
 - **بردن** — _bordan_ (pres. _bar-_) — to carry, take, bring
-  - _Forms_: 3sg pres. `می بَرد` _mī-barad_ (note the fathah: _ba-_); past `برد` _bord_; pp. `برده` _borde_.
+  - _Forms_: 3sg pres. `می بَرد` _mī-barad_ (note the fathah: _ba-_); past `برد` _bord_; neg. past 3sg `نبرد` _na-bord_ "did not take/bring"; pp. `برده` _borde_.
+- **می** — _mī-_ — imperfective prefix (present tense and past habitual/continuous); always written with a space before the verb stem in the publisher's edition
+  - _Forms_: negative `نمی` _na-mī-_ (fused negation: `نمی برد` "he does not take/bring").
 >>>
 Grammar: Imperfective `می-` and its negation `نمی-`
 
@@ -123,13 +127,14 @@ The translator deliberately chose high-register Persian to mirror the KJV-style 
 >>>
 
 - **یک** — _yek_ — one; the indefinite article (a, an)
+  - _Forms_: digit `۱` _yek_.
 - **قربانی** — _qorbānī_ — sacrifice, offering [Arabic]
   - _Etym_: from Arabic, root q-r-b "to approach, to be near"; verbal noun _qurbān_ "that which is brought near [to God]."
 - **پیشکش** — _pīškeš_ — tribute, gift, offering (presented to a superior)
   - _Etym_: `پیش` "before, forward" + `کش` (← pres. stem of `کشیدن` "to pull/draw") → "something drawn forward."
   - _Forms_: `پیشکش کردن` "to offer, present as tribute."
 - **کردن** — _kardan_ (pres. _kon-_) — to do, make [the most common light verb in compound verbs]
-  - _Forms_: 3sg pres. `کند` _konad_; 3pl pres. `کنند` _konand_; past `کرد` _kard_; 3pl past `کردند` _kardand_; pp. `کرده` _karde_; subj. 3sg `کند` _konad_ (`بـ-` dropped in compounds).
+  - _Forms_: 3sg pres. `کند` _konad_; 3pl pres. `کنند` _konand_; past `کرد` _kard_; 3pl past `کردند` _kardand_; neg. 3pl past `نکردند` _nakardand_ [verse 14](#verse-14); 1sg past `کردم` _kardam_; neg. 1sg past `نکردم` _nakardam_ [verse 16](#verse-16); pp. `کرده` _karde_; subj. 3sg `کند` _konad_ (`بـ-` dropped in compounds).
 >>>
 Grammar: Compound verbs (light-verb constructions)
 
@@ -147,14 +152,16 @@ Examples from this chapter: `نیایش کردن` (to pray), `غرولند کر�
   - _Forms_: pl. `پسران` _pasarān_; with suffix `پسرانش` _pesarān-aš_ "his sons."
 - **آموختن** — _āmūxtan_ (pres. _āmūz-_) — to learn; to teach
   - _Family_: `آموزش` _āmūzeš_ "education, instruction"; `آموزگار` _āmūzgār_ "teacher" [verse 22](#verse-22).
-  - _Forms_: 3sg pres. `می آموزد` _mī-āmūzad_; past `آموخت` _āmūxt_; pp. `آموخته` _āmūxte_.
+  - _Forms_: 3sg pres. stem+ending `آموزد` _āmūzad_ (preceded by `می-`); 3sg pres. `می آموزد` _mī-āmūzad_; past `آموخت` _āmūxt_; pp. `آموخته` _āmūxte_.
 - **تا** — _tā_ — until; so that; as long as (introduces purpose and conditional clauses; the following verb takes the **subjunctive**; see also [Grammar: `تا جایی که`](#grammar-subjunctive-conditional-inasmuch-as))
 - **فرمان** — _farmān_ — command, order, decree
   - _Family_: `فرمانروایی` _farmān-ravāyī_ "reign" (below); `فرمانروا` _farmān-ravā_ "ruler" [verse 22](#verse-22); `فرمانبردار` _farmānbardār_ "obedient."
   - _Forms_: `فرمان دادن` "to command, issue a command."
+- **ها** — _-hā_ — plural suffix; written with a space in the publisher's edition
+  - _Forms_: `های` _-hā-ye_ (plural + ezafe linker, as in `فرمان های{e} من` "my commandments"); `هایشان` _-hā-yešān_ (pl. + 3pl possessive); `هایمان` _-hā-yemān_ (pl. + 1pl possessive).
 - **نگه داشتن** — _negah dāštan_ (pres. _negah dār-_) — to keep, maintain, guard
   - _Etym_: `نگه` (bound variant of `نگاه` "watch, gaze") + `داشتن` "to hold."
-  - _Forms_: subj. 3pl `نگه دارند` _negah dārand_ (`بـ-` dropped); 2sg subj. `نگاه داری` _negāh dārī_ [verse 20](#verse-20) — the spelling `نگاه` also occurs; past `نگه داشت` _negah dāšt_.
+  - _Forms_: first component `نگه` _negah_ (written separately); subj. 3pl `نگه دارند` _negah dārand_ (`بـ-` dropped); 2sg subj. `نگاه داری` _negāh dārī_ [verse 20](#verse-20) — the spelling `نگاه` also occurs; past `نگه داشت` _negah dāšt_.
 - **لامان** — _Lāmān_ [proper] — Laman (Lehi's eldest son; a Book of Mormon name)
 - **لموئیل** — _Lamūʾīl_ [proper] — Lemuel (Lehi's second son)
   - _Etym_: from Hebrew _Ləmūʾēl_ "belonging to God" (לְמוּאֵל), via English _Lemuel_.
@@ -171,7 +178,7 @@ Examples from this chapter: `نیایش کردن` (to pray), `غرولند کر�
   - _Etym_: from Arabic, root ṭ-w-ʿ "to obey"; active participle of Form IV.
   - _Forms_: `مطیع بودن` "to be obedient"; `مطیع{e} سخن{e} سرور بودن` "to obey the word of the Lord."
 - **بودن** — _būdan_ (pres. _hast-_ / _bāš-_) — to be
-  - _Forms_: 3sg pres. copula `است` _ast_ "is"; 2sg `هستی` _hastī_ "you are"; 3pl `هستند` _hastand_ "they are"; 1sg `هستم` _hastam_ "I am"; past 3sg `بود` _būd_; 3pl past `بودند` _būdand_; pp. `بوده` _būde_; subj. stem `باش-` — subj. 2sg `باشی` _bāšī_, subj. 3sg `باشد` _bāšad_. **Structural note**: the simple present uses `هست-` forms without `می-`; `می-` appears only in the imperfect: `می بود` "was/used to be."
+  - _Forms_: 3sg pres. copula `است` _ast_ "is"; 2sg `هستی` _hastī_ "you are"; 3pl `هستند` _hastand_ "they are"; 1sg `هستم` _hastam_ "I am"; 1sg copula clitic `ام` _-am_ (in perfect constructions: `کرده ام` "I have done", `آماده کرده ام` "I have prepared" [verse 20](#verse-20)); past 3sg `بود` _būd_; 3pl past `بودند` _būdand_; pp. `بوده` _būde_; subj. stem `باش-` — subj. 2sg `باشی` _bāšī_, subj. 3sg `باشد` _bāšad_. **Structural note**: the simple present uses `هست-` forms without `می-`; `می-` appears only in the imperfect: `می بود` "was/used to be."
 - **ایمان** — _īmān_ — faith, belief [Arabic]
   - _Etym_: from Arabic, root ʾ-m-n "to be secure, to trust"; verbal noun Form IV.
   - _Forms_: `با ایمان` "with faith, faithfully"; `ایمان آوردن` "to believe, come to faith" [verse 16](#verse-16).
@@ -179,16 +186,16 @@ Examples from this chapter: `نیایش کردن` (to pray), `غرولند کر�
 - **نیایش** — _niyāyeš_ — prayer, supplication
   - _Forms_: `نیایش کردن` "to pray, supplicate."
 - **سخن** — _soxan_ — speech, word, utterance
-  - _Forms_: `سخن گفتن` "to speak"; `سخن گفت، گفتا:` "he spoke, saying:" [verses 9, 19].
+  - _Forms_: pl. `سخنان` _soxanān_; indef. pl. `سخنانی` _soxanānī_ "certain words/sayings" [verse 16](#verse-16); `سخن گفتن` "to speak"; `سخن گفت، گفتا:` "he spoke, saying:" [verses 9, 19].
 - **گفتن** — _goftan_ (pres. _gū-_) — to say, speak
-  - _Forms_: past 3sg `گفت` _goft_; 1sg past `گفتم` _goftam_; 3pl past `گفتند` _goftand_; archaic narrative past `گفتا` _goftā_ [verses 9, 19]; pp. `گفته` _gofte_; 3sg pres. `می گوید` _mī-gūyad_.
+  - _Forms_: past 3sg `گفت` _goft_; 1sg past `گفتم` _goftam_; 3pl past `گفتند` _goftand_; archaic narrative past `گفتا` _goftā_ [verses 9, 19]; pp. `گفته` _gofte_; 3sg pres. stem+ending `گوید` _gūyad_ (preceded by `می-`); 3sg pres. `می گوید` _mī-gūyad_; subj. 3pl `بگویند` _begūyand_ [verse 14](#verse-14).
 - `گفتا` (_goftā_) — archaic narrative past of `گفتن`; see [Grammar: Archaic / biblical register](#grammar-archaic-biblical-register)
 - **او** — _ū_ — he, she, it (3sg pronoun)
 - **برگزیدن** — _bargozīdan_ (pres. _bargozīn-_) — to choose, elect, select
   - _Etym_: `بر-` (intensifying preverb) + `گزیدن` "to choose."
   - _Forms_: pp. `برگزیده` _bargozīde_ "chosen"; passive `برگزیده شدن` "to be chosen."
 - **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary (past participle + شدن)
-  - _Forms_: 3sg pres. `می شود` _mī-šavad_; past `شد` _šod_; 3pl past `شدند` _šodand_; subj. 3sg `شود` _šavad_ (`بـ-` dropped); pp. `شده` _šode_.
+  - _Forms_: 3sg pres. `می شود` _mī-šavad_; past `شد` _šod_; 3pl past `شدند` _šodand_; subj. 3sg `شود` _šavad_ (`بـ-` dropped); subj. 3pl `شوند` _šavand_ (`بـ-` dropped); pp. `شده` _šode_.
 >>>
 Grammar: Passive voice with `شدن`
 
@@ -211,6 +218,7 @@ Persian forms the passive analytically: **[past participle] + شدن** (conjugat
   - _Family_: `فرمان` _farmān_ "command"; `فرمانروا` _farmān-ravā_ "ruler, sovereign" [verse 22](#verse-22).
   - _Forms_: `فرمانروایی کردن` "to reign."
 - **نزدیک** — _nazdīk_ — near, close
+  - _Forms_: comparative `نزدیکتر` _nazdīk-tar_ "nearer, closer."
 - **۶۰۰** — _šešṣad_ — Persian numeral 600 (`ششصد`)
   - _Etym_: `شش` _šeš_ "six" + `صد` _ṣad_ "hundred."
 - **پیش** — _pīš_ — before, ahead; ago
@@ -276,7 +284,7 @@ Compare `یافت` (simple past: "he received") with `یافته هستی` (resu
 >>>
 
 - **کار** — _kār_ — work, deed, action, matter, affair
-  - _Forms_: pl. `کارها` _kārhā_; indef. pl. `کارهایی` _kārhāyī_ "certain deeds"; `کارهائی که` "deeds which" (relative head).
+  - _Forms_: pl. `کارها` _kārhā_; indef. pl. `کارهایی` _kārhāyī_ / `کارهائی` _kārhāyī_ "certain deeds" (the ائی variant is an older spelling of ایی); `کارهائی که` "deeds which" (relative head).
 - **سبب** — _sabab_ — reason, cause, occasion [Arabic root s-b-b]
   - _Forms_: `به سبب` "because of, on account of."
 - **انجام** — _anjām_ — completion, fulfilment; accomplishment
@@ -299,9 +307,12 @@ Compare `یافت` (simple past: "he received") with `یافته هستی` (resu
 - **بدنبال** — _be-donbāl_ — in pursuit of, seeking, after
   - _Etym_: `به` + `دنبال` _donbāl_ "tail; pursuit."
 - **گرفتن** — _gereftan_ (pres. _gīr-_) — to take, seize, receive, grab
-  - _Forms_: 3sg pres. `می گیرد` _mī-gīrad_; past `گرفت` _gereft_; 3pl past `گرفتند` _gereftand_; pp. `گرفته` _gerefte_.
+  - _Forms_: 3sg pres. `می گیرد` _mī-gīrad_; past `گرفت` _gereft_; 3pl past `گرفتند` _gereftand_; pp. `گرفته` _gerefte_; subj. 3pl `بگیرند` _begīrand_ [verse 13](#verse-13).
 - **من** — _man_ — I, me (1sg pronoun)
+  - _Forms_: oblique/genitive `مرا` _marā_ "me, my" (direct object or possessive in formal constructions: `فرمان های مرا` "my commandments" [verse 20](#verse-20)).
 - **تو** — _to_ — you, thou (2sg pronoun)
+- **ای** — _ey_ — O! (vocative particle before names and nouns); also the 2sg past copula clitic `-ī` (as in `داده ای` "thou hast done", `بوده ای` "thou hast been") and the indefinite suffix (as in `تازیانه ای` "a scourge")
+  - _Forms_: three homographic uses: `ای کاش` (wishing particle [verses 9, 10, 19](#verse-9)); `برکت یافته هستی … داده ای` (2sg copula); `نفرینی دردناک` / `تازیانه ای` (indefinite -ī suffix).
 
 >>>
 Grammar: Relative clause with `که`
@@ -327,7 +338,7 @@ The past perfect `[pp.] + [copula ای/است/بودی…]` expresses an action 
 [en] 2 And it came to pass that the Lord commanded my father, even in a dream, that he should take his family and depart into the wilderness.
 
 - **باید** — _bāyad_ — must, should (impersonal modal)
-  - _Forms_: present `باید` _bāyad_ "must, should"; past imperfect `می بایستی` _mī-bāyestī_ / `می بایست` _mī-bāyest_ "was to, should (past obligation)." Impersonal — used for all persons.
+  - _Forms_: present `باید` _bāyad_ "must, should"; past imperfect stem `بایستی` _bāyestī_ / `بایست` _bāyest_; with imperfective `می`: `می بایستی` _mī-bāyestī_ / `می بایست` _mī-bāyest_ "was to, should (past obligation)." Impersonal — used for all persons.
 
 >>>
 Grammar: `می بایستی` — past modal obligation
@@ -386,6 +397,7 @@ The dependent verb `بردارد` is in the **subjunctive** (bare stem, `بـ-` 
 - **گرانبها** — _gerān-bahā_ — precious, valuable, costly
   - _Etym_: `گران` "heavy; expensive" + `بها` "value, price."
   - _Family_: `گران` _gerān_ "heavy; expensive, dear"; `بها` _bahā_ "value, worth, price."
+  - _Forms_: `گرانبهایش` _gerān-bahā-yaš_ (3sg possessive); `گرانبهایشان` _gerān-bahā-yešān_ (3pl possessive).
 - **هیچ** — _hīč_ — any (in negative clauses: "not any, nothing at all")
   - _Forms_: `هیچ چیزی` "nothing, not a thing"; `هیچ کسی` "no one"; `هیچ وقت` "never."
 - **بجز** — _be-joz_ — except, other than, besides
@@ -408,7 +420,7 @@ The dependent verb `بردارد` is in the **subjunctive** (bare stem, `بـ-` 
 - **مرز** — _marz_ — border, boundary, frontier
   - _Forms_: pl. `مرزها` _marzhā_; `مرزهای نزدیک{e} کرانۀ دریا` "the borders near the shore of the sea."
 - **کرانه** — _karāne_ — shore, coast, bank (of a body of water)
-  - _Forms_: with visible ezafe: `کرانۀ دریای سرخ` "the shore of the Red Sea."
+  - _Forms_: `کرانۀ` _karāne-ye_ (ezafe form); `کرانۀ دریای سرخ` "the shore of the Red Sea."
 - **آمدن** — _āmadan_ (pres. _ā-_) — to come, arrive
   - _Forms_: 3sg past `آمد` _āmad_; 3sg pres. `می آید` _mī-āyad_; pp. `آمده` _āmade_.
 - **مسافرت** — _mosāferat_ — journey, travel [Arabic root s-f-r "to travel"]
@@ -431,7 +443,8 @@ The dependent verb `بردارد` is in the **subjunctive** (bare stem, `بـ-` 
 [gloss] šeš|6 o|and čonīn|thus gozašt|passed-PST.3SG ke|COMP hangāmī|when ke|COMP ū|3SG se|three rūz|day dar|in bīyābān|wilderness mosāferat|journey kard|did-PST.3SG čādar-aš|tent-3SG.POSS rā|ACC dar|in yek|a vādī|valley kenār|beside yek|a rūd=e|river=EZ āb|water bar-pā|up-foot kard|did-PST.3SG
 [en] 6 And it came to pass that when he had traveled three days in the wilderness, he pitched his tent in a valley beside a river of water.
 
-_(Numerals ۶ and `شش` were already noted in the `۶۰۰` entry above.)_
+- **۶** — _šeš_ — six (`شش`)
+- **سه** — _se_ — three
 
 - **هنگام** — _hangām_ — time, moment, occasion
   - _Forms_: `هنگامی که` _hangāmī ke_ "when, at the time that" (temporal subordinating conjunction).
@@ -487,6 +500,7 @@ _(Numerals ۶ and `شش` were already noted in the `۶۰۰` entry above.)_
   - _Forms_: `خالی شدن` "to become empty; to empty into, drain into" [verse 8].
 - **دهانه** — _dahāne_ — mouth (of a river or cave), opening, entrance
   - _Etym_: `دهان` "mouth" + `-ه` (nominalizer/diminutive) → "the mouth [of something]."
+  - _Forms_: `دهانۀ` _dahāne-ye_ (ezafe form); `دهانۀ آن` "the mouth of it."
 
 ### Verse 9
 
@@ -501,10 +515,11 @@ _(Numerals ۶ and `شش` were already noted in the `۶۰۰` entry above.)_
 - **سرچشمه** — _sarčašme_ — source, fountainhead, headwaters
   - _Etym_: `سر` "head, top" + `چشمه` "spring, fountain" → "the head-spring."
   - _Family_: `چشمه` _čašme_ "spring, fountain (of water)."
+  - _Forms_: ezafe form `سرچشمۀ` _sarčašme-ye_ (visible ezafe ۀ: `سرچشمۀ دریای سرخ` "the fountain of the Red Sea").
 - **هم** — _ham_ — also, too, even; both (in `هم … هم …` "both … and …")
   - _Forms_: correlative `هم … هم …` "both … and …"; emphatic `تو هم` "thou also, even thou."
 - **توانستن** — _tavānestan_ (pres. _tavān-_) — to be able (modal verb)
-  - _Forms_: past impf. 2sg `می توانستی` _mī-tavānestī_ "thou couldest"; 3sg `می توانست` _mī-tavānest_; pres. 3sg `می تواند` _mī-tavānad_; subj. 2sg `بتوانی` _betavānī_.
+  - _Forms_: past impf. 2sg stem `توانستی` _tavānestī_ (preceded by `می-`); past impf. 2sg `می توانستی` _mī-tavānestī_ "thou couldest" [verses 9, 10](#verse-9); past impf. 3sg `می توانست` _mī-tavānest_; pres. 3sg `می تواند` _mī-tavānad_; subj. 3sg `بتواند` _betavānad_ [verse 13](#verse-13); subj. 2sg `بتوانی` _betavānī_.
 - **مانند** — _mānand_ — like, similar to; resembling (preposition)
   - _Forms_: `مانند این رودخانه` "like this river"; `مانند{e} یهودیان` "like the Jews" [verse 13].
 - **پیوسته** — _pīvaste_ — continuously, unceasingly, always; connected
@@ -516,7 +531,8 @@ _(Numerals ۶ and `شش` were already noted in the `۶۰۰` entry above.)_
   - _Etym_: `پرهیز` "abstinence, avoidance" (← `پرهیختن` "to abstain") + `کار` "deed" + `-ی` → "the practice of self-restraint."
   - _Family_: `پرهیزکار` _parhīzkār_ "righteous, pious, virtuous."
 - **همه** — _hame_ — all, everyone, everything; every
-  - _Forms_: `همۀ پرهیزکاریها` "all righteousness" (visible ezafe ۀ).
+  - _Forms_: ezafe form `همۀ` _hame-ye_ (visible ezafe ۀ: `همۀ پرهیزکاریها` "all righteousness", `همۀ سرزمینهای دیگر` "all other lands").
+- **کاش** — _kāš_ — would that, if only (wish particle; always preceded by `ای` in this text — see [Grammar: `ای کاش`](#grammar-imperfect-wishing-construction))
 
 >>>
 Grammar: `ای کاش` + imperfect — wishing construction
@@ -565,6 +581,7 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
   - _Forms_: `خیره سری` _xīre-sarī_ "stubbornness, stiffneckedness" (lit. "fixed-headedness"); `خیره ماندن` "to stare, be transfixed."
 - **خیره سری** — _xīre-sarī_ — stubbornness, stiffneckedness, headstrongness
   - _Etym_: `خیره` "fixed, stubborn" + `سر` "head" + `-ی` → "state of having a fixed/unyielding head."
+  - _Forms_: `سری` _sarī_ (the `-ی` nominalized head component, bound in this compound).
 - **مورد** — _mord_ — matter, case, subject, instance [Arabic _mawrid_]
   - _Forms_: `در مورد{e}` "concerning, about, regarding."
 - **بسیار** — _besyār_ — many, much, very, a great deal
@@ -587,9 +604,13 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
   - _Forms_: `هلاک شدن` "to perish, be destroyed."
 - **تصوّر** — _taṣavvor_ — imagination, fancy, notion, mental image [Arabic root ṣ-w-r "to form"]
   - _Etym_: Arabic Form V verbal noun "the forming of a mental image."
+- **بی** — _bī_ — without; un- (negating prefix/particle used before nouns and adjectives)
+  - _Etym_: Old Iranian *_vi-_ (privative prefix); cognate with Sanskrit _vi-_.
+  - _Forms_: `بی خرد` "foolish" (lit. "without wisdom"); `بی اندازه` "immeasurably" [verse 16](#verse-16); `بی خردانه` "foolishly."
 - **خرد** — _xerad_ — wisdom, intellect, reason
-  - _Forms_: adj. `بی خرد` _bī-xerad_ "foolish, unwise" (lit. "without wisdom"); `بی خردانه` _bī-xerad-āne_ "foolishly, senselessly."
+  - _Forms_: adj. `بی خرد` _bī-xerad_ "foolish, unwise" (lit. "without wisdom"); `بی خردانه` _bī-xerad-āne_ "foolishly, senselessly"; `خِردانۀ` _xeradāne-ye_ (ezafe form of adjectival `خردانه`); `بی خِردانۀ` _bī-xeradāne-ye_ "of foolishness, of vain imagination" (ezafe in `بی خِردانۀ دلش`).
 - **دل** — _del_ — heart, mind; inner seat of feeling and thought
+  - _Forms_: `دلی` _delī_ (with abstract/indefinite suffix `-ī`); seen in compounds `سخت دلی` "hard-heartedness", `افتاده دلی` "humility."
   - _Family_: `دلسوزی` "compassion"; `دلشاد` "joyful"; `دل‌تنگی` "longing, homesickness."
 
 ### Verse 12
@@ -601,7 +622,7 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
 
 - **۱۲** — _davāzdah_ — twelve (`دوازده`)
 - **گونه** — _gune_ — manner, kind, sort; (also) cheek (body part)
-  - _Forms_: `بدین گونه` _be-dīn gune_ "in this manner, thus"; `به این گونه` (variant form).
+  - _Forms_: `بدین` _be-dīn_ (contracted form of `به این` "in this"); `بدین گونه` _be-dīn gune_ "in this manner, thus"; `به این گونه` (variant form).
 - **آفریدن** — _āfarīdan_ (pres. _āfarīn-_) — to create, bring into being
   - _Family_: `آفریدگار` _āfarīdegār_ "the Creator"; `آفرینش` _āfarīneš_ "creation."
   - _Forms_: pp. `آفریده` _āfarīde_ "created"; 3sg past `آفرید` _āfarīd_; 3sg past + past of `بودن`: `آفریده بود` _āfarīde būd_ "had created" [verse 12] (past perfect).
@@ -623,7 +644,7 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
 - **شهر** — _šahr_ — city, town
 - **بزرگ** — _bozorg_ — great, big, large; senior (in status)
 - **پایه** — _pāye_ — basis, foundation, pillar; degree, rank
-  - _Forms_: `بر پایۀ` "on the basis of, based on, according to" (visible ezafe ۀ).
+  - _Forms_: ezafe form `پایۀ` _pāye-ye_ (visible ezafe ۀ); `بر پایۀ` "on the basis of, based on, according to."
 - **پیامبر** — _peyāmbar_ — prophet; messenger [lit. "bearer of a message"]
   - _Etym_: `پیام` "message" + `بر` (← `بردن` "to carry") → "message-carrier."
   - _Family_: `پیام` _peyām_ "message, tidings"; `پیامبری` _peyāmbarī_ "prophethood."
@@ -636,7 +657,7 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
   - _Forms_: pl. `کسان` _kasān_; indef. `کسانی` _kasānī_ "those people who, ones who"; `هیچ کسی` "no one."
 - **برآن شدن** — _bar-ān šodan_ — to determine, resolve, be set upon (doing something)
   - _Etym_: `بر` "on, upon" + `آن` "that" + `شدن` "to become" → "to become fixed upon that."
-  - _Forms_: 3pl past perfect `برآن شده بودند` "they had resolved, they had set about" [verse 13].
+  - _Forms_: first component `برآن` _bar-ān_ (written as one word in this text); 3pl past perfect `برآن شده بودند` "they had resolved, they had set about" [verse 13](#verse-13).
 
 ### Verse 14
 
@@ -657,6 +678,8 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
   - _Forms_: `در برابر` "before, in the presence of, in front of."
 - **تکان** — _takān_ — shake, jolt, tremor
   - _Forms_: `تکان خوردن` "to shake, tremble, jolt" (lit. "to receive a shake").
+- **خوردن** — _xordan_ (pres. _xor-_) — to eat; to receive, undergo (in compound verbs)
+  - _Forms_: past 3sg `خورد` _xord_ [verse 14](#verse-14); 3sg pres. `می خورد` _mī-xorad_; pp. `خورده` _xorde_. **In compounds**: `تکان خوردن` "to be shaken/tremble"; `آسیب خوردن` "to be harmed."
 - **مجاب** — _mojāb_ — persuaded, convinced, confounded [Arabic root j-w-b "to answer"]
   - _Forms_: `مجاب کردن` "to persuade, convince, confound."
 - **جرأت** — _jorʾat_ — courage, boldness, daring [Arabic root j-r-ʾ "to dare"]
@@ -720,7 +743,7 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
 
 - **۱۷** — _hefdah_ — seventeen (`هفده`)
 - **دست** — _dast_ — hand; `بدست` _be-dast_ "by the hand of, through, by means of"
-  - _Forms_: `بدست روح مقدّس` "by means of / through the Holy Ghost."
+  - _Forms_: `بدست` _be-dast_ "by means of, through" (written as one word); `بدست روح مقدّس` "by means of / through the Holy Ghost."
 - **مقدّس** — _moqaddas_ — holy, sacred, consecrated [Arabic root q-d-s "to be holy"]
   - _Family_: `قدس` _qods_ "holiness; Jerusalem"; `روح مقدّس` "the Holy Spirit."
 - **پدیدار** — _pedīdār_ — manifest, apparent, visible; revealed
@@ -738,9 +761,9 @@ The `ای` is a vocative/expressive particle; `کاش` is the wish particle (rel
 - **۱۸** — _hejdah_ — eighteen (`هجده`)
 - **ولی** — _valī_ — but, however, yet (contrastive conjunction; literary synonym of `اما`)
 - **خواستن** — _xāstan_ (pres. _xāh-_) — to want, wish, will (modal verb; also: to request)
-  - _Forms_: 3pl past `خواستند` _xāstand_; neg. 3pl past `نخواستند` "they would not, they refused"; future auxiliary `خواهم` _xāham_ + infinitive → "I will …"; 3sg pres. `می خواهد` _mī-xāhad_.
+  - _Forms_: 3pl past `خواستند` _xāstand_; neg. 3pl past `نخواستند` "they would not, they refused"; future auxiliary `خواهم` _xāham_ + infinitive → "I will …"; 2sg fut. `خواهی` _xāhī_; 3pl fut. `خواهند` _xāhand_; neg. 3pl fut. `نخواهند` _na-xāhand_ "they shall not"; 3sg pres. `می خواهد` _mī-xāhad_.
 - **گوش** — _guš_ — ear
-  - _Forms_: `بگوش{e} دل پذیرفتن` "to hearken with the heart" (lit. "to accept with the ear of the heart").
+  - _Forms_: `بگوش` _be-guš_ "to the ear" (written as one word in this text); `بگوش{e} دل پذیرفتن` "to hearken with the heart" (lit. "to accept with the ear of the heart").
 - **پذیرفتن** — _pazīroftan_ (pres. _pazīr-_) — to accept, receive, hearken to; to agree, admit
   - _Forms_: subj. 3pl `بپذیرند` _bepazīrand_; past `پذیرفت` _pazīroft_; pp. `پذیرفته` _pazīrofte_.
 - **سخت** — _saxt_ — hard, harsh, difficult, severe; very (adverb)
@@ -846,7 +869,7 @@ Also compare [Verse 21](#verse-21): `تا جایی که برادران تو عل
 - **درد** — _dard_ — pain, ache, suffering, affliction
   - _Forms_: adj. `دردناک` _dard-nāk_ "painful, grievous, tormenting."
 - **داشتن** — _dāštan_ (pres. _dār-_) — to have, hold, possess; to keep (used as full verb and as auxiliary)
-  - _Forms_: 3sg pres. `دارد` _dārad_; 3pl pres. `دارند` _dārand_; past `داشت` _dāšt_; 3pl past `داشتند` _dāštand_; pp. `داشته` _dāšte_; neg. future `نخواهند داشت` "they shall not have" [verse 23]. **Note**: `داشتن` is the light verb in many compounds already introduced: `نگه داشتن`, `برداشتن`, `آگاهی داشتن`.
+  - _Forms_: 1sg pres. `دارم` _dāram_; 2sg pres. `داری` _dārī_; 3sg pres. `دارد` _dārad_; 3pl pres. `دارند` _dārand_; past `داشت` _dāšt_; 3pl past `داشتند` _dāštand_; neg. 3pl past `نداشتند` _na-dāštand_ "they did not have/know"; pp. `داشته` _dāšte_; neg. future `نخواهند داشت` "they shall not have" [verse 23]. **Note**: `داشتن` is the light verb in many compounds already introduced: `نگه داشتن`, `برداشتن`, `آگاهی داشتن`.
 - **نواده** — _navāde_ — grandchild, descendant
   - _Forms_: pl. `نوادگان` _navādegān_ "descendants, seed" [verses 23-24].
 - **جز** — _joz_ — except, other than; `جز اینکه` "except that, unless" [verse 23]; cf. `بجز` (already introduced).
