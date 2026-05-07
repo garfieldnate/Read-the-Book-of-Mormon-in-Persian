@@ -472,7 +472,7 @@ The dependent verb `بردارد` is in the **subjunctive** (bare stem, `بـ-` 
   - _Etym_: `قربانی` "sacrifice" + `گاه` [bound morpheme] "place" → "the place where a sacrifice is offered."
   - _Family_: `قربانی` _qorbānī_ "sacrifice" (already introduced); `گاه` _gāh_ "place, time" as in `جایگاه` "position" and `چراگاه` "pasture."
 - **سنگ** — _sang_ — stone, rock
-  - _Family_: `سنگین` _sangīn_ "heavy, weighty"; `سنگسار` _sangsār_ "stoning by stones" (cf. `کوهسار` — note that `سنگسار` contains a homophonous but likely unrelated _-sār_).
+  - _Family_: `سنگین` _sangīn_ "heavy, weighty"; `سنگسار` _sangsār_ "stoning by stones" (cf. `کوهسار` _kūhsār_ "mountainous region, highland" — note that `سنگسار` contains a homophonous but likely unrelated _-sār_).
 - **ساختن** — _sāxtan_ (pres. _sāz-_) — to build, make, construct; to fabricate
   - _Forms_: 3sg past `ساخت` _sāxt_; 3sg pres. `می سازد` _mī-sāzad_; pp. `ساخته` _sāxte_.
 - **خدا** — _xodā_ — God, god

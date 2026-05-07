@@ -20,6 +20,7 @@ No dependencies beyond the Python 3.10+ standard library.
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import shutil
 import sys
@@ -207,48 +208,74 @@ def main() -> int:
     if not chapters:
         print("warning: no chapters found (looking for study_guide/NN_*/chN.md)", file=sys.stderr)
 
-    for ch_num, slug, src_dir, md_path in chapters:
-        ch_out_dir = out_dir / "study_guide" / src_dir.name
-        ch_out_dir.mkdir(parents=True, exist_ok=True)
-        md_text = md_path.read_text(encoding="utf-8")
-        # Chapter pages live one level below styles.css (study_guide/NN_book/ vs study_guide/).
-        html = render(md_text, css_href="../styles.css", source_name=str(md_path.relative_to(ROOT)))
-        html_path = ch_out_dir / (md_path.stem + ".html")
-        html_path.write_text(html, encoding="utf-8")
-        print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
+    sg_out_dir = out_dir / "study_guide"
+    sg_out_dir.mkdir(exist_ok=True)
 
-    # Render the standalone transcription reference page.
+    # Each entry: (out_html_path, display_title, source_md, css_href, source_name)
+    # Order matches the index page: reference pages first, then chapters.
+    Page = tuple[Path, str, Path, str, str]
+    all_pages: list[Page] = []
+
     transcription_md = ROOT / "study_guide" / "transcription.md"
     has_transcription = transcription_md.exists()
     if has_transcription:
-        sg_out_dir = out_dir / "study_guide"
-        sg_out_dir.mkdir(exist_ok=True)
-        tr_html = render(transcription_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/transcription.md")
-        tr_path = sg_out_dir / "transcription.html"
-        tr_path.write_text(tr_html, encoding="utf-8")
-        print(f"  study_guide/transcription.md → {tr_path.relative_to(ROOT)}", file=sys.stderr)
+        all_pages.append((
+            sg_out_dir / "transcription.html",
+            "Persian Transliteration Scheme",
+            transcription_md,
+            "styles.css",
+            "study_guide/transcription.md",
+        ))
 
-    # Render the standalone verb-conjugations reference page.
     verbs_md = ROOT / "study_guide" / "verbs.md"
     has_verbs = verbs_md.exists()
     if has_verbs:
-        sg_out_dir = out_dir / "study_guide"
-        sg_out_dir.mkdir(exist_ok=True)
-        v_html = render(verbs_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/verbs.md")
-        v_path = sg_out_dir / "verbs.html"
-        v_path.write_text(v_html, encoding="utf-8")
-        print(f"  study_guide/verbs.md → {v_path.relative_to(ROOT)}", file=sys.stderr)
+        all_pages.append((
+            sg_out_dir / "verbs.html",
+            "Persian Verb Conjugations",
+            verbs_md,
+            "styles.css",
+            "study_guide/verbs.md",
+        ))
 
-    # Render the standalone Arabic borrowings reference page.
     arabic_md = ROOT / "study_guide" / "arabic.md"
     has_arabic = arabic_md.exists()
     if has_arabic:
-        sg_out_dir = out_dir / "study_guide"
-        sg_out_dir.mkdir(exist_ok=True)
-        a_html = render(arabic_md.read_text(encoding="utf-8"), css_href="styles.css", source_name="study_guide/arabic.md")
-        a_path = sg_out_dir / "arabic.html"
-        a_path.write_text(a_html, encoding="utf-8")
-        print(f"  study_guide/arabic.md → {a_path.relative_to(ROOT)}", file=sys.stderr)
+        all_pages.append((
+            sg_out_dir / "arabic.html",
+            "Arabic Borrowings in Persian",
+            arabic_md,
+            "styles.css",
+            "study_guide/arabic.md",
+        ))
+
+    for ch_num, title, src_dir, md_path in chapters:
+        ch_out_dir = out_dir / "study_guide" / src_dir.name
+        ch_out_dir.mkdir(parents=True, exist_ok=True)
+        all_pages.append((
+            ch_out_dir / (md_path.stem + ".html"),
+            title,
+            md_path,
+            "../styles.css",
+            str(md_path.relative_to(ROOT)),
+        ))
+
+    def _sibling_href(from_path: Path, to_path: Path) -> str:
+        return os.path.relpath(to_path, from_path.parent)
+
+    for i, (html_path, title, md_path, css_href, source_name) in enumerate(all_pages):
+        prev = (
+            (_sibling_href(html_path, all_pages[i - 1][0]), all_pages[i - 1][1])
+            if i > 0 else None
+        )
+        next_ = (
+            (_sibling_href(html_path, all_pages[i + 1][0]), all_pages[i + 1][1])
+            if i < len(all_pages) - 1 else None
+        )
+        md_text = md_path.read_text(encoding="utf-8")
+        html = render(md_text, css_href=css_href, source_name=source_name, prev=prev, next=next_)
+        html_path.write_text(html, encoding="utf-8")
+        print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
 
     index_path = out_dir / "index.html"
     index_path.write_text(

@@ -223,11 +223,10 @@ hr {
   font-family: var(--font-fa);
   font-size: 1.4em;
   color: var(--persian-color);
-  direction: rtl;
-  text-align: right;
+  direction: ltr;        /* LTR so .line-ref (first in DOM) is placed on the left */
+  text-align: left;
   line-height: 1.85;
   margin: 0.15em 0 0.4em;
-  unicode-bidi: isolate;
 }
 
 .example-fa code {
@@ -239,6 +238,8 @@ hr {
   padding: 0;
   border-radius: 0;
   font-weight: normal;
+  direction: rtl;        /* explicitly RTL so Persian text renders right-to-left */
+  unicode-bidi: embed;
 }
 
 .example-tr {
@@ -810,21 +811,32 @@ ul:not(.vocab) {
 
 ul:not(.vocab) li { margin: 0.25em 0; }
 
-/* --------- up-nav (back-to-index breadcrumb) --------- */
+/* --------- up-nav (prev / index / next) --------- */
 
 .up-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0.35em 0;
   font-size: 0.88em;
   font-family: var(--font-ui);
 }
-.up-nav a {
+.up-nav a, .up-nav .nav-spacer {
+  flex: 1;
   color: var(--text-muted);
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .up-nav a:hover {
   color: var(--accent);
   text-decoration: underline;
 }
+.up-nav .nav-prev { text-align: left; }
+.up-nav .nav-up   { text-align: center; }
+.up-nav .nav-next { text-align: right; }
+.up-nav .nav-spacer { pointer-events: none; }
 
 /* --------- print --------- */
 

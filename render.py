@@ -58,7 +58,7 @@ def _slug(text: str) -> str:
     return text.strip("-")
 
 
-def _inline(text: str) -> str:
+def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     """Apply markdown inline formatting (**bold**, *italic*, `code`).
 
     Honours CommonMark-style backslash escapes for the formatting specials
@@ -66,6 +66,9 @@ def _inline(text: str) -> str:
     numeric HTML entity *before* the formatting regexes run, so it can't be
     consumed as the start/end of an emphasis run. The browser still
     displays the entity as the literal character.
+
+    If `word_map` is provided, backtick-quoted Persian words/phrases that match
+    a vocab entry are wrapped in a `.src-link` anchor (same as source-text links).
     """
     # Escape HTML-special chars first, except we want to preserve backticks
     # and asterisks as-is for the next step.
@@ -90,7 +93,17 @@ def _inline(text: str) -> str:
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
     # Backtick code — process first so content inside backticks isn't
     # mis-treated as italic.
-    text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
+    if word_map is not None:
+        def _link_code(m: re.Match) -> str:
+            content = m.group(1)
+            if _PERSIAN_CHAR_RE.search(content):
+                anchor = _lookup_word(content, word_map) or word_map.get(content)
+                if anchor:
+                    return f'<a href="#{anchor}" class="src-link"><code>{content}</code></a>'
+            return f"<code>{content}</code>"
+        text = re.sub(r"`([^`]+?)`", _link_code, text)
+    else:
+        text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
     # Bold before italic so **x** doesn't get eaten by *x*
     text = re.sub(r"\*\*([^*]+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", text)
@@ -165,7 +178,7 @@ def _build_vocab_map(md_text: str) -> dict[str, str]:
             if in_forms:
                 for tok in re.findall(r"`([^`]+)`", raw_line):
                     tok = tok.strip()
-                    if _PERSIAN_CHAR_RE.search(tok) and " " not in tok and tok not in word_map:
+                    if _PERSIAN_CHAR_RE.search(tok) and tok not in word_map:
                         word_map[tok] = current_anchor
 
     return word_map
@@ -204,12 +217,30 @@ def _link_source_text(
     for i, part in enumerate(parts):
         if i > 0:
             result.append('<span class="ezafe">ِ</span>')
+        tokens = list(_PERSIAN_TOKEN_RE.finditer(part))
         last = 0
-        for m in _PERSIAN_TOKEN_RE.finditer(part):
+        j = 0
+        while j < len(tokens):
+            m = tokens[j]
             before = part[last : m.start()]
             if before:
                 result.append(html_lib.escape(before))
             word = m.group(0)
+            # Try bigram: current token + single space + next token
+            if j + 1 < len(tokens):
+                next_m = tokens[j + 1]
+                between = part[m.end() : next_m.start()]
+                if between == " ":
+                    bigram = word + " " + next_m.group(0)
+                    bigram_anchor = word_map.get(bigram)
+                    if bigram_anchor:
+                        result.append(
+                            f'<a href="#{bigram_anchor}" class="src-link">'
+                            f'{html_lib.escape(bigram)}</a>'
+                        )
+                        last = next_m.end()
+                        j += 2
+                        continue
             anchor = _lookup_word(word, word_map)
             if anchor:
                 result.append(
@@ -220,6 +251,7 @@ def _link_source_text(
                 if unlinked is not None:
                     unlinked.append((word, location))
             last = m.end()
+            j += 1
         tail = part[last:]
         if tail:
             result.append(html_lib.escape(tail))
@@ -269,7 +301,7 @@ def _render_gloss_line(text: str) -> str:
 # ---------- Markdown table renderer ----------
 
 
-def _render_table(rows: list[str]) -> str:
+def _render_table(rows: list[str], word_map: dict[str, str] | None = None) -> str:
     """Render pipe-delimited Markdown table rows as an HTML table.
 
     Data cells whose content matches `A // B // C` are rendered as three
@@ -287,19 +319,19 @@ def _render_table(rows: list[str]) -> str:
         anchor_prefix = ""
         am = _CELL_ANCHOR_RE.match(content)
         if am:
-            anchor_prefix = f'<span id="{am.group(1)}">{_inline(am.group(2))}</span>'
+            anchor_prefix = f'<span id="{am.group(1)}">{_inline(am.group(2), word_map)}</span>'
             content = am.group(3).lstrip()
         if tag == "td" and "//" in content:
             parts = [p.strip() for p in content.split("//", 2)]
             if len(parts) == 3:
                 fa, tr, en = parts
                 inner = (
-                    f'<span class="cell-fa">{_inline(fa)}</span>'
-                    f'<span class="cell-tr">{_inline(tr)}</span>'
-                    f'<span class="cell-en">{_inline(en)}</span>'
+                    f'<span class="cell-fa">{_inline(fa, word_map)}</span>'
+                    f'<span class="cell-tr">{_inline(tr, word_map)}</span>'
+                    f'<span class="cell-en">{_inline(en, word_map)}</span>'
                 )
                 return f'<{tag} class="cell-3">{anchor_prefix}{inner}</{tag}>'
-        return f"<{tag}>{anchor_prefix}{_inline(content)}</{tag}>"
+        return f"<{tag}>{anchor_prefix}{_inline(content, word_map)}</{tag}>"
 
     header_cells = split_row(rows[0])
     sep_stripped = rows[1].replace("|", "").replace("-", "").replace(":", "").replace(" ", "").strip()
@@ -324,7 +356,7 @@ def _render_table(rows: list[str]) -> str:
         out.append("<tr>")
         # If only the first cell has content, span it across all columns.
         if cells[0] and not any(cells[1:]):
-            out.append(f'<td colspan="{ncols}" class="span-cell">{_inline(cells[0])}</td>')
+            out.append(f'<td colspan="{ncols}" class="span-cell">{_inline(cells[0], word_map)}</td>')
         else:
             for cell in cells:
                 out.append(render_cell(cell))
@@ -582,8 +614,9 @@ def _emit_tree(
                 _hw_id = f' id="vocab-{_hw}"' if _hw else ""
                 li_open = f'<li class="vocab-entry"{_hw_id}>'
             else:
-                # Code-starting alias entry within a vocab list (e.g. `سرورا`)
-                _code_m = re.match(r"<code>([؀-ۿ‌][^<]*)</code>", content)
+                # Code-starting alias entry within a vocab list (e.g. `سرورا`).
+                # The code span may now be wrapped in an <a> by the auto-linker.
+                _code_m = re.match(r"(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
                 if _code_m:
                     li_open = f'<li id="gram-{_code_m.group(1).strip()}">'
                 else:
@@ -596,7 +629,7 @@ def _emit_tree(
             li_content = _wrap_meta_label(content)
             child_mode = "plain"
         else:
-            _code_m = re.match(r"<code>([؀-ۿ‌][^<]*)</code>", content)
+            _code_m = re.match(r"(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
             if _code_m:
                 _gram_word = _code_m.group(1).strip()
                 li_open = f'<li id="gram-{_gram_word}">'
@@ -667,7 +700,7 @@ def _render_body(
                     i += 1
                 if i < n:
                     title_raw = lines[i].strip()
-                    title_html = _inline(title_raw)
+                    title_html = _inline(title_raw, word_map)
                     slug = _slug(title_raw)
                     out.append(
                         f'<div class="grammar-note-block">'
@@ -690,7 +723,7 @@ def _render_body(
         m = HEADING_RE.match(line)
         if m:
             level = len(m.group(1))
-            content = _inline(m.group(2))
+            content = _inline(m.group(2), word_map)
             slug = _slug(m.group(2))
             out.append(f'<h{level} id="{slug}">{content}</h{level}>')
             current_section = re.sub(r"[`*_]", "", m.group(2)).strip()
@@ -706,7 +739,7 @@ def _render_body(
                 bq_m = BLOCKQUOTE_RE.match(lines[i])
                 if not bq_m:
                     break
-                bq_lines.append(_inline(bq_m.group(1).strip()))
+                bq_lines.append(_inline(bq_m.group(1).strip(), word_map))
                 i += 1
             out.append(_build_example(bq_lines))
             continue
@@ -719,7 +752,7 @@ def _render_body(
                 if not m:
                     break
                 indent = len(m.group(1)) // 2  # 2 spaces per nesting level
-                items.append((indent, _inline(m.group(2))))
+                items.append((indent, _inline(m.group(2), word_map)))
                 i += 1
             out.append(_emit_list(items))
             continue
@@ -746,7 +779,7 @@ def _render_body(
         if _trans_m:
             lang = _trans_m.group(1)
             cls = "translation-en" if lang == "en" else "translation-lit"
-            out.append(f'<div class="translation {cls}">{_inline(_trans_m.group(2))}</div>')
+            out.append(f'<div class="translation {cls}">{_inline(_trans_m.group(2), word_map)}</div>')
             i += 1
             continue
 
@@ -756,7 +789,7 @@ def _render_body(
             while i < n and _TABLE_ROW_RE.match(lines[i].strip()):
                 table_rows.append(lines[i])
                 i += 1
-            out.append(_render_table(table_rows))
+            out.append(_render_table(table_rows, word_map))
             continue
 
         # [TOC] directive — generate table of contents
@@ -786,7 +819,7 @@ def _render_body(
             i += 1
         if para:
             raw = " ".join(para)
-            rendered = f"<p>{_inline(raw)}</p>"
+            rendered = f"<p>{_inline(raw, word_map)}</p>"
             if _has_ezafe(rendered):
                 out.append(EZAFE_TOGGLE_BAR_HTML)
             out.append(rendered)
@@ -844,7 +877,13 @@ DOCUMENT = """<!DOCTYPE html>
 """
 
 
-def render(md_text: str, css_href: str = "../styles.css", source_name: str = "") -> str:
+def render(
+    md_text: str,
+    css_href: str = "../styles.css",
+    source_name: str = "",
+    prev: tuple[str, str] | None = None,
+    next: tuple[str, str] | None = None,
+) -> str:
     word_map = _build_vocab_map(md_text)
     unlinked: list[tuple[str, str]] = []
     body = _render_body(md_text, word_map=word_map, unlinked=unlinked)
@@ -869,7 +908,16 @@ def render(md_text: str, css_href: str = "../styles.css", source_name: str = "")
     page_stem = Path(source_name).stem if source_name else ""
     body_class = f' class="page-{page_stem}"' if page_stem else ""
     index_href = str(Path(css_href).parent / ".." / "index.html")
-    nav = f'<nav class="up-nav"><a href="{index_href}">↑ Study Guides</a></nav>'
+    prev_slot = (
+        f'<a href="{prev[0]}" class="nav-prev">← {html_lib.escape(prev[1])}</a>'
+        if prev else '<span class="nav-spacer"></span>'
+    )
+    next_slot = (
+        f'<a href="{next[0]}" class="nav-next">{html_lib.escape(next[1])} →</a>'
+        if next else '<span class="nav-spacer"></span>'
+    )
+    up_slot = f'<a href="{index_href}" class="nav-up">↑ Study Guides</a>'
+    nav = f'<nav class="up-nav">{prev_slot}{up_slot}{next_slot}</nav>'
     return DOCUMENT.format(title=plain_title, css=css_href, body=body, body_class=body_class, nav=nav)
 
 

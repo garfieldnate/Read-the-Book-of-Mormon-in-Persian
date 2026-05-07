@@ -55,46 +55,9 @@ Each `study_guide/NN_book/chN.md` has three top-level sections in this order: **
 
 One short paragraph summarizing the chapter's content.
 
-### Transcription scheme (academic, with macrons)
+### Transcription scheme
 
-| Persian sound       | Transcription                           |
-| ------------------- | --------------------------------------- |
-| Long vowels         | `ā ī ū`                                 |
-| Short vowels        | `a e o`                                 |
-| Diphthongs          | `ow` `ay` `ey`                          |
-| ش                   | `š`                                     |
-| ژ                   | `ž`                                     |
-| خ                   | `x`                                     |
-| چ                   | `č`                                     |
-| ج                   | `j`                                     |
-| ع                   | `ʿ`                                     |
-| ء / hamza           | `ʾ`                                     |
-| ق                   | `q`                                     |
-| Arabic emphatics    | `ṣ ẓ ḥ ṭ` (see below)                   |
-| Ezafe               | `-e` after consonant, `-ye` after vowel |
-| Object marker       | `-rā`                                   |
-| Indefinite          | `-ī`                                    |
-| Possessive suffixes | `-am -at -aš -mān -tān -šān`            |
-
-Long vowels always get macrons; short vowels never do. Write clitics with a hyphen. Capitalize proper nouns.
-
-**Dotted-below consonants** (`ṣ ẓ ḥ ṭ`) are how academic transliteration spells the Arabic emphatic letters borrowed into Persian. The dot preserves the spelling distinction (so you can recognize that the word is an Arabic loan written with the dotted letter), but in modern Persian pronunciation each one collapses onto its non-emphatic counterpart:
-
-- `ṣ` (ص) is pronounced like `s` (س) — e.g. _ṣaxre_ "rock", _Ṣedqiyā_ "Zedekiah".
-- `ẓ` (ظ; also ض) is pronounced like `z` (ز) — e.g. _ʿaẓīm_ "great".
-- `ḥ` (ح) is pronounced like `h` (ه) — e.g. _ḥattā_ "even", _rūḥ_ "spirit".
-- `ṭ` (ط) is pronounced like `t` (ت) — e.g. _loṭf_ "grace", _moṭlaq_ "absolute".
-
-Two further conventions:
-
-- `q` (ق) is uvular in classical/Arabic. Iranian Persian usually merges it with غ as a voiced uvular [ɢ] / [ɣ]; transliteration keeps the `q` spelling regardless. E.g. _qodrat_ "power", _qāder_ "able".
-- `ʿ` (ع, _ʿayn_) is an Arabic pharyngeal in the source. In Persian it usually surfaces as a glottal stop / syllable break, often silent. E.g. _ʿaẓīm_, _šorūʿ_.
-
-**Diphthongs** — all _falling_ (vowel + glide), never rising:
-
-- `ow` — `o` followed by a final `w`-glide. Closest English match: "mow", "row", "stowed". So `مورد` _mowred_ "case" rhymes with English "stowed", **not** with "mouth"; cf. _mowʿūd_ "promised", _towbe_ "repentance", _partow_ "ray", _dowre_ "period".
-- `ay` — `a` followed by a final `y`-glide. Closest English match: "eye", "high". E.g. `علیه` _ʿalayhi_ "against".
-- `ey` — `e` followed by a final `y`-glide. Closest English match: "say", "hey". E.g. `پی` _pey_ "track".
+The full transliteration table, pronunciation notes, and diphthong guide live in `study_guide/transcription.md` (rendered as a standalone reference page at `_site/study_guide/transcription.html`). Refer to that file for the authoritative scheme; do not duplicate it here.
 
 ### Vocabulary section
 
@@ -194,7 +157,7 @@ Two further conventions:
   - **Teens 10–19 are unique words**, not "one-zero", "one-one", etc. — flag this on `۱۰` (e.g. ``Persian numeral 10 (`ده` — a single word, not "one-zero")``).
   - **Multiples of ten** likewise have unique forms — flag on `۲۰` (``Persian numeral 20 (`بیست` — a separate word, not "two-zero")``).
   - **Hundreds and beyond** are compound — give the morpheme breakdown in `*Etym*` (e.g. for `۶۰۰`, `\`شش\` + \`صد\` "hundred"`).
-  - Verse numbers count as appearances, so each verse opens its vocab list with its own number's entry (the digit at the start of the inline source text).
+  - Verse numbers count as appearances, so each verse opens its vocab list with its own number's entry (the digit at the start of the inline source text). A prose note saying "see the earlier `۶۰۰` entry" is **not** sufficient — a digit that appears as a standalone token in a source-text block must have its own headword entry so `render.py` can link it.
   - **First numeral meta-note**: the very first numeral entry in a chapter (typically the digit that opens verse 1) should include a `*Forms*` sub-bullet explaining the digit system to the learner: that each digit's pronunciation is introduced at first appearance, and that teens and multiples of ten are single unanalysable words, not digit-by-digit composites. This meta-note appears on the first numeral entry only; subsequent numeral entries in the same chapter do not repeat it.
 
 - **Entry format**:
@@ -272,6 +235,20 @@ Two further conventions:
   4. **Web-edition orthography** — when the publisher's web text writes a word with diacritics that differ from the citation form used in this guide, note it in `*Forms*`: `` _Forms_: web edition writes `سَروَر`; unmarked `سرور` is the citation form used here. ``
 
   Inside `*Forms*`, cite **verbatim Persian from the source text with a section reference** so the anchor is checkable. Format: `*Forms*: 3sg pres. *surface translit*, as in \`phrase\` "English", [verse N](#verse-n); past _…_; pp. _…_.` Use `[chapter summary](#chapter-summary)`, `[verse N](#verse-n)`, or `[book summary, sentence N](#sentence-n)` as appropriate. The backtick-quoted forms in `*Forms*` are harvested by `render.py` when building the source-text link map — every form you list in backticks will become a clickable link in the inline source-text blocks.
+
+  **Token registration rules — what needs an explicit backtick entry.** `render.py` tokenizes source text on whitespace. A token is linked if it (a) exactly matches a headword, (b) matches after stripping common diacritics, or (c) appears as a standalone backtick token in any `*Forms*` sub-bullet. Fallback (b) strips harakat-range marks (U+0610–U+061A, U+064B–U+065F) but **not** `ۀ` (U+06C0). The practical consequences — all require explicit `*Forms*` backtick registration:
+
+  - **Ezafe forms ending in `ۀ`** — `کرانۀ`, `دهانۀ`, `همۀ`, `پایۀ`, `سرچشمۀ`, etc. are not stripped to their base and need a standalone backtick entry such as `` `کرانۀ` _karāne-ye_ (ezafe form) ``.
+  - **Backtick phrases with spaces** — `` `می گوید` `` inside a `*Forms*` bullet registers only as a two-token phrase; it does **not** register `گوید` as a standalone token. If `گوید` (or any component) appears as a bare token in source text, add a standalone `` `گوید` `` backtick entry on the same or another `*Forms*` line.
+  - **Fused possessive/clitic forms** — `گرانبهایش`, `گرانبهایشان`, `خانواده اش` (written with space) etc. are separate surface forms. Add them explicitly when they appear: `` `گرانبهایش` _gerān-bahā-yaš_ (3sg poss.) ``.
+  - **Negative verb forms** — `نداشتند`, `نبرد`, `نخواستند` are not auto-derived from the positive form. List them in `*Forms*` with their negation noted.
+  - **Comparative suffix `-تر`** — `نزدیکتر`, `بیشتر`, etc. are not auto-resolved from the adjective. Add as `` `نزدیکتر` _nazdīk-tar_ "nearer" `` in `*Forms*`.
+  - **Subjunctive 3pl `-اند`** — `شوند`, `بدانند`, etc. won't match the infinitive headword. List them when they appear.
+  - **`می` and `نمی` as standalone tokens** — the publisher writes the imperfective prefix with a space before the verb stem (`می بَرد`, `نمی گفت`), making `می` a separate whitespace-delimited token. Give `می` its own headword entry; include `نمی` in its `*Forms*`.
+
+  **Multi-word (bigram) linking.** `render.py` tries a two-token bigram lookup before falling back to a single-token lookup. When two consecutive Persian tokens separated by a single space match a `*Forms*` entry (or headword) that contains a space — e.g. `` `نگه دارند` `` registered under `**نگه داشتن**`, or `` `دریای سرخ` `` registered under `**دریا**` — both tokens are wrapped in a single `<a>` link to the headword anchor. This means: **for compound verbs and fixed multi-word phrases, list the relevant surface forms as backtick tokens in `*Forms*` even when they contain a space**, and the linker will handle them as a unit. Bigrams take priority over single-token matches, so if `` `نگه دارند` `` is registered, `نگه` and `دارند` will not be linked individually.
+
+  **Unlinked-word warnings.** After `build_site.py`, `render.py` emits `unlinked:` warnings to stderr for any source-text token it could not map to a vocab entry, with a count and the section names where each unlinked token appears (e.g. `ch2.md: unlinked: کرانۀ — Verse 5`). Treat every warning as a missing `*Forms*` backtick entry or missing headword and fix before pushing.
 
   **Multi-tense stacking**: a single `*Forms*` line may list several tense/mood/person forms separated by semicolons, in order: morphophonological note first (if any), then present, then past, then imperfect, then past participle. Each form cites the verse where it first appears: `3sg pres. \`می\` \`آید\` ([verse 9](#verse-9)); past \`آمد\` āmad`.
 
@@ -366,7 +343,7 @@ The HTML document structure is standard: `<main>` wraps the body; headings are `
 | `.translit`         | `<em>`     | The first italic span in a vocab entry (the transliteration after the headword).                                                        |
 | `.proper`           | `<span>`   | The literal text `[proper]` inside a vocab entry (tag for proper nouns).                                                                |
 | `.example`          | `<div>`    | Replaces `<blockquote>`. Any Markdown blockquote is treated as a three-line grammar example.                                            |
-| `.example-fa`       | `<div>`    | First line of an example — Persian + (optional) line-ref prefix.                                                                        |
+| `.example-fa`       | `<div>`    | First line of an example — Persian + (optional) line-ref prefix. Uses `direction: ltr; text-align: left` so the `.line-ref` label (first in DOM) is placed on the left; the `<code>` inside uses `direction: rtl; unicode-bidi: embed` so the Persian text still renders right-to-left. Do **not** change `.example-fa` to `direction: rtl` — that causes the bidi algorithm to place the first DOM element (the label) on the visual right, reversing the intended label-then-Persian order. |
 | `.example-tr`       | `<div>`    | Second line of an example — italic transliteration.                                                                                     |
 | `.example-en`       | `<div>`    | Third line of an example — English translation.                                                                                         |
 | `.line-ref`         | `<span>`   | The section-reference prefix at the start of `.example-fa` (e.g. `[Verse 4](#verse-4):`).                                               |
