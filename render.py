@@ -190,14 +190,15 @@ def _lookup_word(word: str, word_map: dict[str, str]) -> str | None:
 def _link_source_text(
     text: str,
     word_map: dict[str, str],
-    unlinked: list[str] | None = None,
+    unlinked: list[tuple[str, str]] | None = None,
+    location: str = "",
 ) -> str:
     """Convert raw source-text content (from inside backticks, before any
     _inline() processing) to HTML with Persian words linked to vocab/grammar
     entries and {e} markers converted to ezafe spans.
 
     If `unlinked` is provided, any token that could not be resolved is appended
-    to it so the caller can emit warnings."""
+    as a (word, location) tuple so the caller can emit warnings with context."""
     result: list[str] = []
     parts = re.split(r"\{e\}", text)
     for i, part in enumerate(parts):
@@ -217,7 +218,7 @@ def _link_source_text(
             else:
                 result.append(html_lib.escape(word))
                 if unlinked is not None:
-                    unlinked.append(word)
+                    unlinked.append((word, location))
             last = m.end()
         tail = part[last:]
         if tail:
@@ -642,7 +643,7 @@ GRAMMAR_FENCE = ">>>"
 def _render_body(
     md: str,
     word_map: dict[str, str] | None = None,
-    unlinked: list[str] | None = None,
+    unlinked: list[tuple[str, str]] | None = None,
 ) -> str:
     md = md.replace("\r\n", "\n").replace("\r", "\n")
     lines = md.split("\n")
@@ -650,6 +651,7 @@ def _render_body(
     i = 0
     n = len(lines)
     in_grammar = False
+    current_section: str = ""
 
     while i < n:
         line = lines[i]
@@ -691,6 +693,7 @@ def _render_body(
             content = _inline(m.group(2))
             slug = _slug(m.group(2))
             out.append(f'<h{level} id="{slug}">{content}</h{level}>')
+            current_section = re.sub(r"[`*_]", "", m.group(2)).strip()
             i += 1
             continue
 
@@ -731,7 +734,7 @@ def _render_body(
         _trans_m = re.match(r"^\[(en|lit)\]\s+(.+)$", stripped, re.DOTALL)
         _gloss_m = re.match(r"^\[gloss\]\s+(.+)$", stripped, re.DOTALL)
         if _src_m:
-            _inner = _link_source_text(_src_m.group(1), word_map, unlinked)
+            _inner = _link_source_text(_src_m.group(1), word_map, unlinked, location=current_section)
             out.append(TOGGLE_BAR_HTML)
             out.append(f'<p class="source-text"><code>{_inner}</code></p>')
             i += 1
@@ -843,15 +846,20 @@ DOCUMENT = """<!DOCTYPE html>
 
 def render(md_text: str, css_href: str = "../styles.css", source_name: str = "") -> str:
     word_map = _build_vocab_map(md_text)
-    unlinked: list[str] = []
+    unlinked: list[tuple[str, str]] = []
     body = _render_body(md_text, word_map=word_map, unlinked=unlinked)
     if unlinked:
-        counts: dict[str, int] = {}
-        for w in unlinked:
-            counts[w] = counts.get(w, 0) + 1
+        word_locs: dict[str, list[str]] = {}
+        for word, loc in unlinked:
+            word_locs.setdefault(word, []).append(loc)
         label = f"{source_name}: " if source_name else ""
-        for word, n in sorted(counts.items(), key=lambda kv: -kv[1]):
-            print(f"  {label}unlinked: {word} (×{n})", file=sys.stderr)
+        for word in sorted(word_locs, key=lambda w: -len(word_locs[w])):
+            locs = word_locs[word]
+            n = len(locs)
+            unique_locs = list(dict.fromkeys(locs))  # deduplicated, order preserved
+            count_str = f" (×{n})" if n > 1 else ""
+            loc_str = (f" — {', '.join(unique_locs)}") if any(unique_locs) else ""
+            print(f"  {label}unlinked: {word}{count_str}{loc_str}", file=sys.stderr)
     # Prefer the first H1 as the document title
     m = re.search(r"^#\s+(.+)$", md_text, flags=re.MULTILINE)
     title = _inline(m.group(1)) if m else "Study Guide"
