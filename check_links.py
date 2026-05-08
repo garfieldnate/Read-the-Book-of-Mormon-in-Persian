@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Check for broken in-page anchor links in the built _site/ HTML.
+"""Check for broken anchor links in the built _site/ HTML.
 
-For each HTML file, collect every href="#..." link and every id="..."
-attribute. Report any href targets that have no matching id.
+Checks two kinds of fragment links in every HTML file:
+  - In-page:     href="#anchor"          — target id must exist in the same file
+  - Cross-page:  href="path.html#anchor" — target file must exist and contain the id
 
 Usage:
     python3 check_links.py [--site _site]
@@ -16,14 +17,39 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-HREF_RE = re.compile(r'href="#([^"]+)"')
+# href="#anchor"
+INPAGE_RE = re.compile(r'href="#([^"]+)"')
+# href="relative/path.html#anchor"  (no scheme, no leading /)
+CROSSPAGE_RE = re.compile(r'href="([^"#:/][^"#]*\.html)#([^"]+)"')
 ID_RE = re.compile(r'\bid="([^"]+)"')
 
 
-def check_file(html_path: Path) -> list[str]:
+def _ids(html_path: Path) -> set[str]:
+    return set(ID_RE.findall(html_path.read_text(encoding="utf-8")))
+
+
+def check_file(html_path: Path, id_cache: dict[Path, set[str]]) -> list[str]:
     text = html_path.read_text(encoding="utf-8")
-    ids = set(ID_RE.findall(text))
-    return sorted(href for href in set(HREF_RE.findall(text)) if href not in ids)
+    errors: list[str] = []
+
+    # In-page links
+    local_ids = set(ID_RE.findall(text))
+    for anchor in set(INPAGE_RE.findall(text)):
+        if anchor not in local_ids:
+            errors.append(f"missing #{anchor}")
+
+    # Cross-page fragment links
+    for rel_path, anchor in set(CROSSPAGE_RE.findall(text)):
+        target = (html_path.parent / rel_path).resolve()
+        if not target.exists():
+            errors.append(f"missing file {rel_path}#{anchor}")
+            continue
+        if target not in id_cache:
+            id_cache[target] = _ids(target)
+        if anchor not in id_cache[target]:
+            errors.append(f"missing {rel_path}#{anchor}")
+
+    return sorted(errors)
 
 
 def main() -> int:
@@ -36,17 +62,18 @@ def main() -> int:
         print(f"error: {site} not found — run build_site.py first", file=sys.stderr)
         return 1
 
+    id_cache: dict[Path, set[str]] = {}
     total = 0
     for html_path in sorted(site.rglob("*.html")):
-        broken = check_file(html_path)
+        broken = check_file(html_path, id_cache)
         if broken:
             print(f"{html_path.relative_to(ROOT)}:")
             for b in broken:
-                print(f"  missing #{b}")
+                print(f"  {b}")
             total += len(broken)
 
     if total == 0:
-        print("All in-page anchor links are valid.")
+        print("All anchor links are valid.")
         return 0
 
     print(f"\n{total} broken link(s) total.", file=sys.stderr)

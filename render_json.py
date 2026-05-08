@@ -33,6 +33,36 @@ from render import (
     _LOOKUP_SUFFIXES,
 )
 
+# Maps arabic_form field values → anchor on arabic.html.
+# Verbal noun Forms II–X and all participles have per-row span anchors.
+_ARABIC_FORM_ANCHORS: dict[str, str] = {
+    # Form I verbal noun → section heading (many patterns, no single row)
+    "Form I verbal noun":     "verbal-nouns-form-i",
+    # Forms II–X verbal nouns → per-form row anchors
+    "Form II verbal noun":    "form-II",
+    "Form III verbal noun":   "form-III",
+    "Form IV verbal noun":    "form-IV",
+    "Form V verbal noun":     "form-V",
+    "Form VI verbal noun":    "form-VI",
+    "Form VII verbal noun":   "form-VII",
+    "Form VIII verbal noun":  "form-VIII",
+    "Form IX verbal noun":    "form-IX",
+    "Form X verbal noun":     "form-X",
+    # Active participles → per-form row anchors
+    "Form I active participle":   "form-I-act",
+    "Form II active participle":  "form-II-act",
+    "Form III active participle": "form-III-act",
+    "Form IV active participle":  "form-IV-act",
+    "Form X active participle":   "form-X-act",
+    # Passive participles → per-form row anchors
+    "Form I passive participle":  "form-I-pass",
+    "Form II passive participle": "form-II-pass",
+    "Form IV passive participle": "form-IV-pass",
+    # Nominal patterns → per-row anchors in Other nominal patterns
+    "elative (Form IV)":          "nom-ʾafʿal",
+    "nominal pattern":            "other-nominal-patterns",
+}
+
 
 # ---------- prose rendering (multi-paragraph markdown, no source-text blocks) ----------
 
@@ -279,7 +309,17 @@ def _render_forms_html(forms: list[dict], anchor: str, word_map: dict[str, str])
 
 # ---------- entry rendering ----------
 
-def _render_headword_entry(entry: dict, word_map: dict[str, str]) -> str:
+def _render_root_tag(root: str) -> str:
+    return f'<span class="root-tag">{html_lib.escape(root)}</span>'
+
+
+def _render_arabic_form_tag(arabic_form: str, arabic_href: str) -> str:
+    anchor = _ARABIC_FORM_ANCHORS.get(arabic_form, "pattern-reference")
+    label = html_lib.escape(arabic_form)
+    return f'<a href="{arabic_href}#{anchor}" class="arabic-form-tag">{label}</a>'
+
+
+def _render_headword_entry(entry: dict, word_map: dict[str, str], arabic_href: str = "") -> str:
     persian = entry["persian"]
     translit = entry.get("translit", "")
     meaning = entry.get("meaning", "")
@@ -331,9 +371,23 @@ def _render_headword_entry(entry: dict, word_map: dict[str, str]) -> str:
 
     etym = entry.get("etym")
     if etym:
+        if isinstance(etym, dict):
+            prose = etym.get("prose", "")
+            arabic_form = etym.get("arabic_form", "")
+            root = etym.get("root", "")
+        else:
+            prose = etym
+            arabic_form = ""
+            root = ""
+        root_tag = " " + _render_root_tag(root) if root else ""
+        form_tag = (
+            " " + _render_arabic_form_tag(arabic_form, arabic_href)
+            if arabic_form and arabic_href
+            else ""
+        )
         meta.append(
             f'<li class="vocab-etym">'
-            f'<span class="meta-label">Etym</span>: {_inline(etym, word_map)}'
+            f'<span class="meta-label">Etym</span>: {_inline(prose, word_map)}{root_tag}{form_tag}'
             f'</li>'
         )
 
@@ -413,7 +467,7 @@ def _render_grammar_note(entry: dict, word_map: dict[str, str]) -> str:
     return "\n".join(parts)
 
 
-def _render_entries(entries: list[dict], word_map: dict[str, str]) -> str:
+def _render_entries(entries: list[dict], word_map: dict[str, str], arabic_href: str = "") -> str:
     """Render all entries for a section, flushing vocab <ul> around grammar notes."""
     if not entries:
         return ""
@@ -429,7 +483,7 @@ def _render_entries(entries: list[dict], word_map: dict[str, str]) -> str:
     for entry in entries:
         etype = entry.get("type")
         if etype == "headword":
-            vocab_buf.append(_render_headword_entry(entry, word_map))
+            vocab_buf.append(_render_headword_entry(entry, word_map, arabic_href))
         elif etype == "variant":
             vocab_buf.append(_render_variant_entry(entry, word_map))
         elif etype == "no-new-lemmas":
@@ -453,6 +507,7 @@ def _render_section(
     study_sec: dict | None,
     word_map: dict[str, str],
     unlinked: list[tuple[str, str]] | None,
+    arabic_href: str = "",
 ) -> str:
     level, heading_text, heading_id = _section_heading(source_sec)
     location = heading_text
@@ -475,7 +530,7 @@ def _render_section(
         parts.append(f'<div class="translation translation-en">{_inline(en, word_map)}</div>')
 
     if study_sec is not None:
-        entries_html = _render_entries(study_sec.get("entries") or [], word_map)
+        entries_html = _render_entries(study_sec.get("entries") or [], word_map, arabic_href)
         if entries_html:
             parts.append(entries_html)
 
@@ -494,6 +549,7 @@ def render_chapter(
 ) -> str:
     """Render chapter source + study JSON to a complete HTML document string."""
     word_map = _build_vocab_map_json(study)
+    arabic_href = css_href.replace("styles.css", "arabic.html")
     unlinked: list[tuple[str, str]] = []
 
     book = study.get("book", "")
@@ -535,7 +591,7 @@ def render_chapter(
                 body_parts.append(_render_prose(bs_intro, word_map=None))
 
         study_sec = study_index.get((t, n))
-        body_parts.append(_render_section(source_sec, study_sec, word_map, unlinked))
+        body_parts.append(_render_section(source_sec, study_sec, word_map, unlinked, arabic_href))
 
     closing = study.get("closing", "")
     if closing:
@@ -556,6 +612,21 @@ def render_chapter(
             unique_locs = list(dict.fromkeys(locs))
             loc_str = f" — {', '.join(unique_locs)}" if any(unique_locs) else ""
             print(f"  {label}unlinked: {word}{count_str}{loc_str}", file=sys.stderr)
+
+    # Warn about entries with a `root` field but no `arabic_form`
+    label = f"{source_name}: " if source_name else ""
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            etym = entry.get("etym")
+            if not isinstance(etym, dict):
+                continue
+            if etym.get("root") and not etym.get("arabic_form"):
+                persian = entry.get("persian", "?")
+                prose = etym.get("prose", "")
+                print(
+                    f"  {label}root without arabic_form: {persian} — {prose[:60]}",
+                    file=sys.stderr,
+                )
 
     index_href = str(Path(css_href).parent / ".." / "index.html")
     prev_slot = (

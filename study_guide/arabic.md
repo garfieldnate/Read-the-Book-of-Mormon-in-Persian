@@ -109,9 +109,9 @@ Unlike Form I, each derived form has **exactly one predictable VN pattern** — 
 
 | Pattern | Category | Example | Frequency |
 |---------|----------|---------|-----------|
-| _mafʿal_ / _mafʿil_ | noun of place/time | `مورد` (_mowred_) // root `w-r-d` // "case, instance" | Common |
-| _faʿīl_ | intensive adjective | `عظیم` (_ʿaẓīm_) // root `ʿ-ẓ-m` // "great" | Common |
-| _faʿʿāl_ | intensive agent noun | `عطّار` (_ʿattār_) // root `ʿ-ṭ-r` // "perfume-seller" | Occasional |
-| _ʾafʿal_ | elative (comparative/superlative) | `ارشد` (_aršad_) // root `r-š-d` // "more senior" | Occasional |
-| _fiʿāla_ | professional/abstract noun | `اسارت` (_asārat_) // root `ʾ-s-r` // "captivity" | Occasional |
-| _-iyyat_ | abstract relational noun | `جمعیّت` (_jamʿiyyat_) // root `j-m-ʿ` // "population, gathering" | Common |
+| <span id="nom-mafʿal">_mafʿal_ / _mafʿil_</span> | noun of place/time | `مورد` (_mowred_) // root `w-r-d` // "case, instance" | Common |
+| <span id="nom-faʿīl">_faʿīl_</span> | intensive adjective | `عظیم` (_ʿaẓīm_) // root `ʿ-ẓ-m` // "great" | Common |
+| <span id="nom-faʿʿāl">_faʿʿāl_</span> | intensive agent noun | `عطّار` (_ʿattār_) // root `ʿ-ṭ-r` // "perfume-seller" | Occasional |
+| <span id="nom-ʾafʿal">_ʾafʿal_</span> | elative (comparative/superlative) | `ارشد` (_aršad_) // root `r-š-d` // "more senior" | Occasional |
+| <span id="nom-fiʿāla">_fiʿāla_</span> | professional/abstract noun | `اسارت` (_asārat_) // root `ʾ-s-r` // "captivity" | Occasional |
+| <span id="nom--iyyat">_-iyyat_</span> | abstract relational noun | `جمعیّت` (_jamʿiyyat_) // root `j-m-ʿ` // "population, gathering" | Common |

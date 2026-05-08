@@ -22,6 +22,8 @@
 
   --etym-bg:         rgba(120, 60, 110, 0.14);
   --etym-color:      #6b2a64;
+  --arabic-form-bg:  rgba(160, 60, 30, 0.12);
+  --arabic-form-color: #8b2a1c;
   --forms-bg:        rgba(40, 100, 70, 0.14);
   --forms-color:     #1f5a44;
   --family-bg:       rgba(170, 95, 20, 0.14);
@@ -207,6 +209,43 @@ hr {
 .vocab-meta-other .meta-label {
   background: rgba(80, 80, 80, 0.12);
   color: #404040;
+}
+
+.arabic-form-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.73em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-inline-start: 0.4em;
+  vertical-align: 1px;
+  background: var(--arabic-form-bg);
+  color: var(--arabic-form-color);
+  text-decoration: none;
+  border: 1px solid rgba(160, 60, 30, 0.25);
+}
+.arabic-form-tag::before {
+  content: "→ ";
+}
+.arabic-form-tag:hover {
+  background: rgba(160, 60, 30, 0.22);
+  text-decoration: none;
+}
+
+.root-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.73em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-inline-start: 0.3em;
+  vertical-align: 1px;
+  background: rgba(50, 70, 110, 0.09);
+  color: #344068;
+  border: 1px solid rgba(50, 70, 110, 0.18);
 }
 
 /* --------- grammar example block --------- */

@@ -30,6 +30,7 @@ import json
 
 from render import render
 from render_json import render_chapter
+from check_links import check_file as _check_links_file
 
 ROOT = Path(__file__).resolve().parent
 CHAPTER_DIR_RE = re.compile(r"^(\d+)_([a-z0-9_-]+)$", re.IGNORECASE)
@@ -335,6 +336,19 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)
+
+    # Check for broken anchor links across the built site.
+    id_cache: dict[Path, set[str]] = {}
+    total_broken = 0
+    for html_path in sorted(out_dir.rglob("*.html")):
+        broken = _check_links_file(html_path, id_cache)
+        for b in broken:
+            print(f"  warning: {html_path.relative_to(ROOT)}: {b}", file=sys.stderr)
+        total_broken += len(broken)
+    if total_broken:
+        print(f"  warning: {total_broken} broken link(s) total.", file=sys.stderr)
+    else:
+        print("  all anchor links valid.", file=sys.stderr)
 
     return 0
 

@@ -12,7 +12,9 @@
           "translit": "noxostīn",
           "meaning": "first, foremost",
           "tags": [],
-          "etym": "`نخست` + `-ین` (ordinal/adjectival suffix).",
+          "etym": {
+            "prose": "`نخست` + `-ین` (ordinal/adjectival suffix)."
+          },
           "family": "`نخست` _noxost_ \"first\" (used standalone as adverb \"firstly\")."
         },
         {
@@ -53,7 +55,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "transliteration of English _Nephi_, the Book of Mormon prophet's name. Sometimes connected to Egyptian _nfr_ \"good, fair\" or to Hebrew, but Persian here just spells the English form phonetically."
+          "etym": {
+            "prose": "transliteration of English _Nephi_, the Book of Mormon prophet's name. Sometimes connected to Egyptian _nfr_ \"good, fair\" or to Hebrew, but Persian here just spells the English form phonetically."
+          }
         }
       ]
     },
@@ -67,7 +71,9 @@
           "translit": "farmān-ravāyī",
           "meaning": "reign, rule",
           "tags": [],
-          "etym": "`فرمان` + `روا` (← `رفتن`) + `-ی` → \"having one's commands run/effected\".",
+          "etym": {
+            "prose": "`فرمان` + `روا` (← `رفتن`) + `-ی` → \"having one's commands run/effected\"."
+          },
           "family": "`فرمان` _farmān_ \"command, decree\"; `روا` _ravā_ \"current, permitted\" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ \"ruler, sovereign\".",
           "forms": [
             {
@@ -91,7 +97,11 @@
           "translit": "xedmat",
           "meaning": "service, ministry",
           "tags": [],
-          "etym": "from Arabic, root x-d-m \"to serve\"."
+          "etym": {
+            "prose": "from Arabic, root x-d-m \"to serve\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "x-d-m"
+          }
         },
         {
           "type": "headword",
@@ -114,7 +124,9 @@
           "translit": "sargozašt",
           "meaning": "account, life-story",
           "tags": [],
-          "etym": "`سر` + `گذشت` (past stem of `گذشتن`) → \"what has passed at one's head\".",
+          "etym": {
+            "prose": "`سر` + `گذشت` (past stem of `گذشتن`) → \"what has passed at one's head\"."
+          },
           "family": "`سر` _sar_ \"head\"; `گذشتن` _gozaštan_ \"to pass\"; `گذشت` _gozašt_ \"past, bygone (n. or adj.)\"."
         },
         {
@@ -126,7 +138,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ means \"jaw, cheek\"."
+          "etym": {
+            "prose": "Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ means \"jaw, cheek\"."
+          }
         },
         {
           "type": "headword",
@@ -135,7 +149,9 @@
           "translit": "hamsar",
           "meaning": "spouse, husband/wife",
           "tags": [],
-          "etym": "`هم` _ham_ \"same, together\" + `سر` _sar_ \"head\" → \"having the same head/place\".",
+          "etym": {
+            "prose": "`هم` _ham_ \"same, together\" + `سر` _sar_ \"head\" → \"having the same head/place\"."
+          },
           "forms": [
             {
               "fa": "همسرش",
@@ -178,7 +194,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ \"princess\"."
+          "etym": {
+            "prose": "Persian transliteration of English _Sariah_; sometimes equated with Hebrew _Sāray_/_Sārā_ \"princess\"."
+          }
         },
         {
           "type": "headword",
@@ -232,7 +250,11 @@
           "translit": "šorūʿ",
           "meaning": "beginning, start",
           "tags": [],
-          "etym": "from Arabic, root š-r-ʿ \"to set out, undertake\".",
+          "etym": {
+            "prose": "from Arabic, root š-r-ʿ \"to set out, undertake\".",
+            "arabic_form": "Form IV verbal noun",
+            "root": "š-r-ʿ"
+          },
           "forms": [
             {
               "fa": "شروع کردن",
@@ -255,7 +277,11 @@
           "translit": "aršad",
           "meaning": "senior, elder",
           "tags": [],
-          "etym": "from Arabic, comparative form of _rāšid_ \"rightly-guided\", root r-š-d \"to be on the right path\".",
+          "etym": {
+            "prose": "from Arabic, comparative form of _rāšid_ \"rightly-guided\", root r-š-d \"to be on the right path\".",
+            "arabic_form": "elative (Form IV)",
+            "root": "r-š-d"
+          },
           "forms": [
             {
               "fa": "ارشدترین",
@@ -280,7 +306,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "Persian transliteration of English _Laman_, a Book of Mormon name."
+          "etym": {
+            "prose": "Persian transliteration of English _Laman_, a Book of Mormon name."
+          }
         },
         {
           "type": "headword",
@@ -291,7 +319,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Ləmūʾēl_ \"belonging to God\" (לְמוּאֵל), via English _Lemuel_."
+          "etym": {
+            "prose": "from Hebrew _Ləmūʾēl_ \"belonging to God\" (לְמוּאֵל), via English _Lemuel_."
+          }
         },
         {
           "type": "headword",
@@ -302,7 +332,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "Persian transliteration of English _Sam_. Coincides in spelling with Persian _Sām_, a hero of the Šāhnāmeh — but here it's the BoM name."
+          "etym": {
+            "prose": "Persian transliteration of English _Sam_. Coincides in spelling with Persian _Sām_, a hero of the Šāhnāmeh — but here it's the BoM name."
+          }
         },
         {
           "type": "headword",
@@ -421,7 +453,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "`سر` + `-ور` (suffix \"having\") → \"having a head [over others]\", i.e. \"chief, master\".",
+          "etym": {
+            "prose": "`سر` + `-ور` (suffix \"having\") → \"having a head [over others]\", i.e. \"chief, master\"."
+          },
           "family": "`سر` _sar_ \"head\" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` \"skilled\", `کینه‌ور` \"vengeful\").",
           "forms": [
             {
@@ -469,7 +503,9 @@
           "translit": "hošdār",
           "meaning": "warning",
           "tags": [],
-          "etym": "native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) \"alert-holding\".",
+          "etym": {
+            "prose": "native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) \"alert-holding\"."
+          },
           "family": "`هوش` _hūš_ \"consciousness, alertness, intelligence\"; `داشتن` _dāštan_ \"to hold\" (an entry in this chapter); `هوشیار` _hūšyār_ \"vigilant\".",
           "forms": [
             {
@@ -544,7 +580,9 @@
           "translit": "sarzamīn",
           "meaning": "land, territory",
           "tags": [],
-          "etym": "`سر` + `زمین`.",
+          "etym": {
+            "prose": "`سر` + `زمین`."
+          },
           "family": "`سر` _sar_ \"head, top\"; `زمین` _zamīn_ \"land, earth\" (both also entries in this chapter)."
         },
         {
@@ -556,7 +594,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Yərūšālayim_ (יְרוּשָׁלַיִם) \"foundation of peace\", via Arabic _Ūrušalīm_."
+          "etym": {
+            "prose": "from Hebrew _Yərūšālayim_ (יְרוּשָׁלַיִם) \"foundation of peace\", via Arabic _Ūrušalīm_."
+          }
         },
         {
           "type": "headword",
@@ -613,7 +653,9 @@
           "translit": "īnke",
           "meaning": "that (clause-introducing conjunction)",
           "tags": [],
-          "etym": "`این` _īn_ \"this\" + `که` _ke_ \"that\" → \"the [fact] that\".",
+          "etym": {
+            "prose": "`این` _īn_ \"this\" + `که` _ke_ \"that\" → \"the [fact] that\"."
+          },
           "forms": [
             {
               "fa": "برای اینکه",
@@ -650,7 +692,9 @@
           "translit": "dar-bāre",
           "meaning": "about, concerning",
           "tags": [],
-          "etym": "`در` _dar_ \"in\" + `باره` _bāre_ \"matter, regard\" → \"in the matter of\".",
+          "etym": {
+            "prose": "`در` _dar_ \"in\" + `باره` _bāre_ \"matter, regard\" → \"in the matter of\"."
+          },
           "forms": [
             {
               "fa": "دربارۀ",
@@ -665,7 +709,9 @@
           "translit": "nā-bekārī",
           "meaning": "wickedness, iniquity",
           "tags": [],
-          "etym": "`نا-` + `بکار` + `-ی` → \"non-useful-ness, wickedness\".",
+          "etym": {
+            "prose": "`نا-` + `بکار` + `-ی` → \"non-useful-ness, wickedness\"."
+          },
           "family": "`نا-` _nā-_ (privative prefix); `کار` _kār_ \"work\" (an entry in this chapter); `نابکار` _nābekār_ \"wicked, useless\" (the underlying adjective)."
         },
         {
@@ -709,7 +755,11 @@
           "translit": "nabovvat",
           "meaning": "prophecy",
           "tags": [],
-          "etym": "from Arabic _nubuwwa_, root n-b-ʾ \"to be a prophet\"; cognate with `نبی` _nabī_ \"prophet\".",
+          "etym": {
+            "prose": "from Arabic _nubuwwa_, root n-b-ʾ \"to be a prophet\"; cognate with `نبی` _nabī_ \"prophet\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "n-b-ʾ"
+          },
           "forms": [
             {
               "fa": "نبوّت کردن",
@@ -802,7 +852,9 @@
           "translit": "nābūdī",
           "meaning": "destruction",
           "tags": [],
-          "etym": "`نا-` + `بود` (past stem of `بودن`) + `-ی` → \"non-being-ness\".",
+          "etym": {
+            "prose": "`نا-` + `بود` (past stem of `بودن`) + `-ی` → \"non-being-ness\"."
+          },
           "family": "`نا-` _nā-_ (privative prefix; cf. `نابود` below, `نابکار` \"wicked\"); `نابود` _nābūd_ \"destroyed\" (also an entry in this chapter); `بودن` _būdan_ \"to be\"."
         },
         {
@@ -812,7 +864,9 @@
           "translit": "zendegī",
           "meaning": "life",
           "tags": [],
-          "etym": "`زنده` + `-گی` (abstract suffix used after _-e_-final stems) → \"the state of being alive\".",
+          "etym": {
+            "prose": "`زنده` + `-گی` (abstract suffix used after _-e_-final stems) → \"the state of being alive\"."
+          },
           "family": "`زنده` _zende_ \"alive\"; `زیستن` _zīstan_ \"to live\"; `زندگانی` _zendegānī_ \"life\" (synonym, same root)."
         },
         {
@@ -866,7 +920,9 @@
           "translit": "xānevāde",
           "meaning": "family",
           "tags": [],
-          "etym": "traditionally analyzed as `خان` (← `خانه` \"house\") + `واده` \"extension\" — i.e. \"household\".",
+          "etym": {
+            "prose": "traditionally analyzed as `خان` (← `خانه` \"house\") + `واده` \"extension\" — i.e. \"household\"."
+          },
           "family": "`خانه` _xāne_ \"house\" (also an entry in this chapter)."
         },
         {
@@ -884,7 +940,9 @@
           "translit": "rāhī",
           "meaning": "setting-out, departing",
           "tags": [],
-          "etym": "`راه` _rāh_ \"road, way\" + `-ی` _-ī_ (relational suffix) → \"of the road, on one's way\".",
+          "etym": {
+            "prose": "`راه` _rāh_ \"road, way\" + `-ی` _-ī_ (relational suffix) → \"of the road, on one's way\"."
+          },
           "forms": [
             {
               "fa": "راهی شدن",
@@ -899,7 +957,11 @@
           "translit": "safar",
           "meaning": "journey, trip",
           "tags": [],
-          "etym": "from Arabic, root s-f-r \"to travel\".",
+          "etym": {
+            "prose": "from Arabic, root s-f-r \"to travel\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "s-f-r"
+          },
           "forms": [
             {
               "fa": "سفری",
@@ -922,7 +984,9 @@
           "translit": "rūze",
           "meaning": "day-long, day's",
           "tags": [],
-          "etym": "`روز` + `-ه` (adjective-forming suffix indicating duration/quantity).",
+          "etym": {
+            "prose": "`روز` + `-ه` (adjective-forming suffix indicating duration/quantity)."
+          },
           "family": "`روز` _rūz_ \"day\". (Note: `روزه` also = \"fast / fasting\" in religious contexts; same form, different sense.)",
           "forms": [
             {
@@ -1005,7 +1069,9 @@
             "fa": null,
             "translit": "bar-dār-"
           },
-          "etym": "prefix `بر-` _bar_ \"up, on\" + `داشتن` _dāštan_ \"to hold\".",
+          "etym": {
+            "prose": "prefix `بر-` _bar_ \"up, on\" + `داشتن` _dāštan_ \"to hold\"."
+          },
           "forms": [
             {
               "fa": "برمی",
@@ -1104,7 +1170,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "`یهود` + `-یان` (Persian gentilic plural).",
+          "etym": {
+            "prose": "`یهود` + `-یان` (Persian gentilic plural)."
+          },
           "family": "`یهود` _Yahūd_ \"Jew(s)\" (Arabic, ← Hebrew _Yəhūdī_ \"Judahite\"); `-یان` _-iyān_ (productive plural for ethnic groups: `ایرانیان` \"Iranians\", `مصریان` \"Egyptians\" in this chapter)."
         },
         {
@@ -1160,7 +1228,11 @@
           "translit": "zajr",
           "meaning": "torment, distress",
           "tags": [],
-          "etym": "from Arabic, root z-j-r \"to drive away, rebuke\".",
+          "etym": {
+            "prose": "from Arabic, root z-j-r \"to drive away, rebuke\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "z-j-r"
+          },
           "forms": [
             {
               "fa": "زجرها",
@@ -1197,7 +1269,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Yišmāʿēʾl_ (יִשְׁמָעֵאל) \"God hears\", via Arabic _Ismāʿīl_."
+          "etym": {
+            "prose": "from Hebrew _Yišmāʿēʾl_ (יִשְׁמָעֵאל) \"God hears\", via Arabic _Ismāʿīl_."
+          }
         },
         {
           "type": "headword",
@@ -1285,7 +1359,11 @@
           "translit": "mosāferat",
           "meaning": "travel, journey",
           "tags": [],
-          "etym": "from Arabic, root s-f-r \"to travel\"; verbal-noun pattern _mufāʿalat_."
+          "etym": {
+            "prose": "from Arabic, root s-f-r \"to travel\"; verbal-noun pattern _mufāʿalat_.",
+            "arabic_form": "Form III verbal noun",
+            "root": "s-f-r"
+          }
         }
       ]
     },
@@ -1308,7 +1386,9 @@
           "translit": "pahnāvar",
           "meaning": "vast, wide",
           "tags": [],
-          "etym": "`پهن` + `-اور` (suffix \"having, bringing\").",
+          "etym": {
+            "prose": "`پهن` + `-اور` (suffix \"having, bringing\")."
+          },
           "family": "`پهن` _pahn_ \"broad, wide\"; `پهنا` _pahnā_ \"breadth\"; `-آور` (productive: `سودآور` \"profitable\", `جنگ‌آور` \"warrior\").",
           "forms": [
             {
@@ -1349,7 +1429,9 @@
           "meaning": "against",
           "tags": [],
           "warning": "_Diphthong -ay- written as_ `ی`: `علیه`is a frozen Arabic prepositional phrase (_ʿalay-hi_, \"upon him\"). The`ی` represents Arabic _-ay-_ (a short-a + semi-vowel diphthong), not Persian long _-ī-_. Learners may accidentally read it as _\\*ʿalīye_ or _\\*ʿalīh_.",
-          "etym": "from Arabic, originally a prepositional phrase _ʿalay-hi_ \"upon him\"."
+          "etym": {
+            "prose": "from Arabic, originally a prepositional phrase _ʿalay-hi_ \"upon him\"."
+          }
         },
         {
           "type": "headword",
@@ -1358,7 +1440,9 @@
           "translit": "šūreš",
           "meaning": "rebellion, uprising",
           "tags": [],
-          "etym": "`شور` + `-ش` (deverbal nominalizer).",
+          "etym": {
+            "prose": "`شور` + `-ش` (deverbal nominalizer)."
+          },
           "family": "`شور` _šūr_ \"agitation, fervor, passion\"; `شوریدن` _šūrīdan_ \"to revolt, be in turmoil\".",
           "forms": [
             {
@@ -1380,7 +1464,11 @@
           "translit": "mojāb",
           "meaning": "convinced, persuaded",
           "tags": [],
-          "etym": "from Arabic, passive participle of _ʾajāba_ \"to answer\", root j-w-b → \"answered, satisfied\".",
+          "etym": {
+            "prose": "from Arabic, passive participle of _ʾajāba_ \"to answer\", root j-w-b → \"answered, satisfied\".",
+            "arabic_form": "Form I passive participle",
+            "root": "j-w-b"
+          },
           "forms": [
             {
               "fa": "مجاب کردن",
@@ -1439,7 +1527,9 @@
           "translit": "nām",
           "meaning": "name",
           "tags": [],
-          "etym": "native Persian; cognate with English _name_, Latin _nomen_ (Indo-European).",
+          "etym": {
+            "prose": "native Persian; cognate with English _name_, Latin _nomen_ (Indo-European)."
+          },
           "forms": [
             {
               "fa": "نام چیزی را X خواندن",
@@ -1464,7 +1554,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → \"lands of abundance\".",
+          "etym": {
+            "prose": "native Persian coinage, `خرّم` + `سار` (place-of suffix) + plural `-ان` → \"lands of abundance\"."
+          },
           "family": "`خرّم` _xorram_ \"verdant, flourishing, joyful\"; `-سار` _-sār_ (place-of / abundance suffix; cf. `کوهسار` \"mountainous land\" in this chapter — note that `سنگسار` \"stoning\" contains a homophonous but likely unrelated _-sār_)."
         }
       ]
@@ -1498,7 +1590,11 @@
           "translit": "mowʿūd",
           "meaning": "promised",
           "tags": [],
-          "etym": "from Arabic, passive participle of _waʿada_ \"to promise\", root w-ʿ-d.",
+          "etym": {
+            "prose": "from Arabic, passive participle of _waʿada_ \"to promise\", root w-ʿ-d.",
+            "arabic_form": "Form I passive participle",
+            "root": "w-ʿ-d"
+          },
           "forms": [
             {
               "fa": "سرزمین موعود",
@@ -1549,7 +1645,11 @@
           "translit": "edāme",
           "meaning": "continuation",
           "tags": [],
-          "etym": "from Arabic, root d-w-m \"to last, continue\".",
+          "etym": {
+            "prose": "from Arabic, root d-w-m \"to last, continue\".",
+            "arabic_form": "Form IV verbal noun",
+            "root": "d-w-m"
+          },
           "forms": [
             {
               "fa": "ادامۀ",
@@ -1613,7 +1713,11 @@
           "translit": "bayān",
           "meaning": "statement, expression",
           "tags": [],
-          "etym": "from Arabic, root b-y-n \"to be clear, make plain\".",
+          "etym": {
+            "prose": "from Arabic, root b-y-n \"to be clear, make plain\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "b-y-n"
+          },
           "forms": [
             {
               "fa": "به بیان دیگر",
@@ -1671,7 +1775,11 @@
           "translit": "faṣl",
           "meaning": "chapter, section; season",
           "tags": [],
-          "etym": "from Arabic, root f-ṣ-l \"to separate, divide\"."
+          "etym": {
+            "prose": "from Arabic, root f-ṣ-l \"to separate, divide\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "f-ṣ-l"
+          }
         },
         {
           "type": "headword",
@@ -1785,7 +1893,9 @@
           "translit": "xodā",
           "meaning": "God",
           "tags": [],
-          "etym": "native Persian; from Old Persian _xvadāta-_ \"lord, self-existing\".",
+          "etym": {
+            "prose": "native Persian; from Old Persian _xvadāta-_ \"lord, self-existing\"."
+          },
           "forms": [
             {
               "fa": "خدای",
@@ -1804,7 +1914,9 @@
           "translit": "setāyeš",
           "meaning": "praise",
           "tags": [],
-          "etym": "`ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer).",
+          "etym": {
+            "prose": "`ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer)."
+          },
           "family": "`ستودن` _setūdan_ \"to praise\" (verb).",
           "forms": [
             {
@@ -1856,7 +1968,11 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Arabic _al-Masīḥ_, ultimately Hebrew _māšīaḥ_ (מָשִׁיחַ) \"anointed one\", root m-š-ḥ."
+          "etym": {
+            "prose": "from Arabic _al-Masīḥ_, ultimately Hebrew _māšīaḥ_ (מָשִׁיחַ) \"anointed one\", root m-š-ḥ.",
+            "arabic_form": "Form I passive participle",
+            "root": "m-š-ḥ"
+          }
         },
         {
           "type": "headword",
@@ -1865,7 +1981,9 @@
           "translit": "pīšgūyī",
           "meaning": "prediction, prophecy",
           "tags": [],
-          "etym": "`پیش` \"before\" + `گویی` (← `گفتن`) \"saying\" → \"fore-telling\".",
+          "etym": {
+            "prose": "`پیش` \"before\" + `گویی` (← `گفتن`) \"saying\" → \"fore-telling\"."
+          },
           "family": "`پیش` _pīš_ \"before, ahead\"; `گفتن` _goftan_ \"to say\"; `پیشگو` _pīšgū_ \"foreteller, soothsayer\".",
           "forms": [
             {
@@ -1881,7 +1999,9 @@
           "translit": "āzār",
           "meaning": "harm, persecution, torment",
           "tags": [],
-          "etym": "native Persian; related to `آزردن` _āzordan_ \"to grieve, hurt\".",
+          "etym": {
+            "prose": "native Persian; related to `آزردن` _āzordan_ \"to grieve, hurt\"."
+          },
           "forms": [
             {
               "fa": "آزار دادن",
@@ -1912,7 +2032,9 @@
           "translit": "šešṣad",
           "meaning": "Persian numeral 600 (`ششصد`)",
           "tags": [],
-          "etym": "`شش` _šeš_ \"six\" + `صد` _ṣad_ \"hundred\"."
+          "etym": {
+            "prose": "`شش` _šeš_ \"six\" + `صد` _ṣad_ \"hundred\"."
+          }
         },
         {
           "type": "headword",
@@ -1935,7 +2057,11 @@
           "translit": "mīlād",
           "meaning": "birth (specifically the birth of Christ in dating contexts)",
           "tags": [],
-          "etym": "from Arabic, root w-l-d \"to give birth\"; verbal noun pattern _mifʿāl_.",
+          "etym": {
+            "prose": "from Arabic, root w-l-d \"to give birth\"; verbal noun pattern _mifʿāl_.",
+            "arabic_form": "Form I verbal noun",
+            "root": "w-l-d"
+          },
           "forms": [
             {
               "fa": "پیش از میلاد",
@@ -2032,7 +2158,9 @@
           "translit": "banābarīn",
           "meaning": "therefore",
           "tags": [],
-          "etym": "`بنا` + `بر` + `این` → \"based on this\".",
+          "etym": {
+            "prose": "`بنا` + `بر` + `این` → \"based on this\"."
+          },
           "family": "`بنا` _banā_ \"foundation, basis\" (Arabic, root b-n-y); also seen in `بر پایۀ` \"on the basis of\" (synonymous)."
         },
         {
@@ -2088,7 +2216,9 @@
           "translit": "āmūzeš",
           "meaning": "teaching, instruction",
           "tags": [],
-          "etym": "`آموز-` (pres. stem of `آموختن` \"to teach/learn\") + `-ش` (nominalizer).",
+          "etym": {
+            "prose": "`آموز-` (pres. stem of `آموختن` \"to teach/learn\") + `-ش` (nominalizer)."
+          },
           "family": "`آموختن` _āmūxtan_ \"to teach, to learn\" (verb); `آموخته` _āmūxte_ \"learning\" (pp)."
         },
         {
@@ -2098,7 +2228,11 @@
           "translit": "dowre",
           "meaning": "period, era",
           "tags": [],
-          "etym": "from Arabic _dawra_ \"circle, cycle\", root d-w-r.",
+          "etym": {
+            "prose": "from Arabic _dawra_ \"circle, cycle\", root d-w-r.",
+            "arabic_form": "Form I verbal noun",
+            "root": "d-w-r"
+          },
           "forms": [
             {
               "fa": "دورۀ",
@@ -2113,7 +2247,9 @@
           "translit": "rūzgār",
           "meaning": "time, days, era",
           "tags": [],
-          "etym": "`روز` + `-گار` (suffix forming nouns of duration/period) → \"the days [of life]\".",
+          "etym": {
+            "prose": "`روز` + `-گار` (suffix forming nouns of duration/period) → \"the days [of life]\"."
+          },
           "family": "`روز` _rūz_ \"day\"; `-گار` _-gār_ (productive in `آموزگار` \"teacher\", `کردگار` \"creator\", `پروردگار` \"Lord\")."
         },
         {
@@ -2131,7 +2267,11 @@
           "translit": "vojūd",
           "meaning": "existence",
           "tags": [],
-          "etym": "from Arabic, root w-j-d \"to find, exist\".",
+          "etym": {
+            "prose": "from Arabic, root w-j-d \"to find, exist\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "w-j-d"
+          },
           "forms": [
             {
               "fa": "با این وجود",
@@ -2154,7 +2294,11 @@
           "translit": "mowred",
           "meaning": "case, object, instance",
           "tags": [],
-          "etym": "from Arabic _mawrid_, root w-r-d \"to come, arrive at\"; pattern _mafʿil_ \"place of arriving\".",
+          "etym": {
+            "prose": "from Arabic _mawrid_, root w-r-d \"to come, arrive at\"; pattern _mafʿil_ \"place of arriving\".",
+            "arabic_form": "nominal pattern",
+            "root": "w-r-d"
+          },
           "forms": [
             {
               "fa": "مورد … بودن",
@@ -2173,7 +2317,11 @@
           "translit": "loṭf",
           "meaning": "grace, favor, kindness",
           "tags": [],
-          "etym": "from Arabic, root l-ṭ-f \"to be kind, gentle\"."
+          "etym": {
+            "prose": "from Arabic, root l-ṭ-f \"to be kind, gentle\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "l-ṭ-f"
+          }
         },
         {
           "type": "headword",
@@ -2182,7 +2330,9 @@
           "translit": "vālā",
           "meaning": "exalted, lofty",
           "tags": [],
-          "etym": "native Persian, from older _abālā_ / _ablā_ \"above\"; cognate with `بالا` _bālā_ \"up\".",
+          "etym": {
+            "prose": "native Persian, from older _abālā_ / _ablā_ \"above\"; cognate with `بالا` _bālā_ \"up\"."
+          },
           "forms": [
             {
               "fa": "والای",
@@ -2197,7 +2347,9 @@
           "translit": "ārī",
           "meaning": "yea, indeed [archaic/biblical register; very frequent here]",
           "tags": [],
-          "etym": "native Persian; literary equivalent of modern _`بله` balē_."
+          "etym": {
+            "prose": "native Persian; literary equivalent of modern _`بله` balē_."
+          }
         },
         {
           "type": "headword",
@@ -2206,7 +2358,9 @@
           "translit": "nīkī",
           "meaning": "goodness",
           "tags": [],
-          "etym": "`نیک` + `-ی` (abstract).",
+          "etym": {
+            "prose": "`نیک` + `-ی` (abstract)."
+          },
           "family": "`نیک` _nīk_ \"good, virtuous\"; `نیکو` _nīkū_ \"fine, excellent\" (literary variant)."
         },
         {
@@ -2224,7 +2378,9 @@
           "translit": "dāneš",
           "meaning": "knowledge",
           "tags": [],
-          "etym": "`دان-` (pres. stem of `دانستن` \"to know\") + `-ش` (nominalizer).",
+          "etym": {
+            "prose": "`دان-` (pres. stem of `دانستن` \"to know\") + `-ش` (nominalizer)."
+          },
           "family": "`دانستن` _dānestan_ \"to know\" (an entry in this chapter); `دانا` _dānā_ \"wise\"; `دانشمند` _dānešmand_ \"scholar\"."
         },
         {
@@ -2284,7 +2440,9 @@
           "translit": "pedar-ī",
           "meaning": "paternal",
           "tags": [],
-          "etym": "`پدر` + `-ی` (relational adjective suffix).",
+          "etym": {
+            "prose": "`پدر` + `-ی` (relational adjective suffix)."
+          },
           "family": "`پدر` _pedar_ \"father\" (an entry in this chapter); `-ی` _-ī_ (productive: `ایرانی` \"Iranian\", `شهری` \"urban\")."
         },
         {
@@ -2312,7 +2470,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "`مصر` + `-یان` (Persian gentilic plural).",
+          "etym": {
+            "prose": "`مصر` + `-یان` (Persian gentilic plural)."
+          },
           "family": "`مصر` _Meṣr_ \"Egypt\" (Arabic, ← Hebrew _Miṣrayim_); `-یان` _-iyān_ (cf. `یهودیان` in this chapter)."
         }
       ]
@@ -2408,7 +2568,9 @@
           "translit": "zīrā",
           "meaning": "because, for",
           "tags": [],
-          "etym": "native Persian; from earlier _zī rā_ \"for the sake of which\"."
+          "etym": {
+            "prose": "native Persian; from earlier _zī rā_ \"for the sake of which\"."
+          }
         },
         {
           "type": "headword",
@@ -2417,7 +2579,9 @@
           "translit": "čonīn",
           "meaning": "such, thus",
           "tags": [],
-          "etym": "`چو` _čo_ (variant of `چون` \"as, like\") + `این` _īn_ \"this\" → \"like this, in this manner\".",
+          "etym": {
+            "prose": "`چو` _čo_ (variant of `چون` \"as, like\") + `این` _īn_ \"this\" → \"like this, in this manner\"."
+          },
           "forms": [
             {
               "fa": "چنین گذشت",
@@ -2450,7 +2614,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Ṣidqīyāhū_ (צִדְקִיָּהוּ) \"YHWH is my righteousness\", via Arabic."
+          "etym": {
+            "prose": "from Hebrew _Ṣidqīyāhū_ (צִדְקִיָּהוּ) \"YHWH is my righteousness\", via Arabic."
+          }
         },
         {
           "type": "headword",
@@ -2459,7 +2625,9 @@
           "translit": "pādšāh",
           "meaning": "king",
           "tags": [],
-          "etym": "`پاد` _pād_ \"protector, lord\" + `شاه` _šāh_ \"king\" → \"lord-king, sovereign\". From Old Persian _pati-xšāyathiya_."
+          "etym": {
+            "prose": "`پاد` _pād_ \"protector, lord\" + `شاه` _šāh_ \"king\" → \"lord-king, sovereign\". From Old Persian _pati-xšāyathiya_."
+          }
         },
         {
           "type": "headword",
@@ -2470,7 +2638,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Yəhūdā_ (יְהוּדָה) \"praised\", via Arabic."
+          "etym": {
+            "prose": "from Hebrew _Yəhūdā_ (יְהוּדָה) \"praised\", via Arabic."
+          }
         },
         {
           "type": "headword",
@@ -2479,7 +2649,11 @@
           "translit": "sāken",
           "meaning": "resident, dwelling",
           "tags": [],
-          "etym": "from Arabic, active participle of _sakana_ \"to dwell, be still\", root s-k-n.",
+          "etym": {
+            "prose": "from Arabic, active participle of _sakana_ \"to dwell, be still\", root s-k-n.",
+            "arabic_form": "Form I active participle",
+            "root": "s-k-n"
+          },
           "forms": [
             {
               "fa": "ساکنان",
@@ -2494,7 +2668,9 @@
           "translit": "hamān",
           "meaning": "that same",
           "tags": [],
-          "etym": "`هم` _ham_ (same, identical) + `آن` _ān_ (that)."
+          "etym": {
+            "prose": "`هم` _ham_ (same, identical) + `آن` _ān_ (that)."
+          }
         },
         {
           "type": "headword",
@@ -2503,7 +2679,9 @@
           "translit": "payāmbar",
           "meaning": "prophet",
           "tags": [],
-          "etym": "`پیام` + `بر` (pres. stem of `بردن`) → \"message-carrier\". A wholly Persian formation, used in place of the Arabic loan `نبی`.",
+          "etym": {
+            "prose": "`پیام` + `بر` (pres. stem of `بردن`) → \"message-carrier\". A wholly Persian formation, used in place of the Arabic loan `نبی`."
+          },
           "family": "`پیام` _payām_ \"message\"; `بردن` _bordan_ \"to carry, take\"; `پیغام` _payqām_ \"message\" (variant).",
           "forms": [
             {
@@ -2527,7 +2705,11 @@
           "translit": "towbe",
           "meaning": "repentance",
           "tags": [],
-          "etym": "from Arabic, root t-w-b \"to turn back, repent\".",
+          "etym": {
+            "prose": "from Arabic, root t-w-b \"to turn back, repent\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "t-w-b"
+          },
           "forms": [
             {
               "fa": "توبه کردن",
@@ -2550,7 +2732,11 @@
           "translit": "ʿaẓīm",
           "meaning": "great, mighty",
           "tags": [],
-          "etym": "from Arabic, root ʿ-ẓ-m \"to be great\"; pattern _faʿīl_ (intensive adjective)."
+          "etym": {
+            "prose": "from Arabic, root ʿ-ẓ-m \"to be great\"; pattern _faʿīl_ (intensive adjective).",
+            "arabic_form": "nominal pattern",
+            "root": "ʿ-ẓ-m"
+          }
         },
         {
           "type": "headword",
@@ -2559,7 +2745,9 @@
           "translit": "nābūd",
           "meaning": "destroyed",
           "tags": [],
-          "etym": "`نا-` _nā-_ \"non-, un-\" + `بود` _būd_ (past stem of `بودن` \"to be\") → \"non-existent\".",
+          "etym": {
+            "prose": "`نا-` _nā-_ \"non-, un-\" + `بود` _būd_ (past stem of `بودن` \"to be\") → \"non-existent\"."
+          },
           "forms": [
             {
               "fa": "نابود شدن",
@@ -2602,7 +2790,9 @@
           "translit": "hamčonān",
           "meaning": "just as, while; likewise",
           "tags": [],
-          "etym": "`هم` _ham_ \"same, also\" + `چنان` _čonān_ \"such, in that way\" → \"in the same way, while\"."
+          "etym": {
+            "prose": "`هم` _ham_ \"same, also\" + `چنان` _čonān_ \"such, in that way\" → \"in the same way, while\"."
+          }
         },
         {
           "type": "headword",
@@ -2612,7 +2802,9 @@
           "meaning": "even",
           "tags": [],
           "warning": "_Alif maqṣūra_: the final `ی` represents Arabic _alif maqṣūra_ (`الألف المقصورة`) — a long -ā vowel written `ى` at the end of certain Arabic words. Learners may accidentally read it as _\\*ḥattī_.",
-          "etym": "from Arabic _ḥattā_, originally a preposition \"until, up to\"."
+          "etym": {
+            "prose": "from Arabic _ḥattā_, originally a preposition \"until, up to\"."
+          }
         },
         {
           "type": "headword",
@@ -2621,7 +2813,9 @@
           "translit": "niyāyeš",
           "meaning": "supplication, prayer",
           "tags": [],
-          "etym": "from `نیایستن` \"to supplicate\" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_).",
+          "etym": {
+            "prose": "from `نیایستن` \"to supplicate\" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_)."
+          },
           "family": "`نیایشگاه` _niyāyešgāh_ \"place of worship\".",
           "forms": [
             {
@@ -2657,7 +2851,11 @@
           "translit": "ṣaxre",
           "meaning": "rock, cliff",
           "tags": [],
-          "etym": "from Arabic, root ṣ-x-r \"to be rock-hard\"; cognate with `صخرة` _ṣaxra_."
+          "etym": {
+            "prose": "from Arabic, root ṣ-x-r \"to be rock-hard\"; cognate with `صخرة` _ṣaxra_.",
+            "arabic_form": "Form I verbal noun",
+            "root": "ṣ-x-r"
+          }
         },
         {
           "type": "headword",
@@ -2722,7 +2920,11 @@
           "translit": "sabab",
           "meaning": "cause, reason",
           "tags": [],
-          "etym": "from Arabic, root s-b-b \"to cause, occasion\".",
+          "etym": {
+            "prose": "from Arabic, root s-b-b \"to cause, occasion\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "s-b-b"
+          },
           "forms": [
             {
               "fa": "به سبب",
@@ -2869,7 +3071,11 @@
           "translit": "rūḥ",
           "meaning": "spirit",
           "tags": [],
-          "etym": "from Arabic, root r-w-ḥ; cognate with Hebrew _ruaḥ_.",
+          "etym": {
+            "prose": "from Arabic, root r-w-ḥ; cognate with Hebrew _ruaḥ_.",
+            "arabic_form": "Form I verbal noun",
+            "root": "r-w-ḥ"
+          },
           "forms": [
             {
               "fa": "روح مقدّس",
@@ -2884,7 +3090,11 @@
           "translit": "moqaddas",
           "meaning": "holy",
           "tags": [],
-          "etym": "from Arabic, passive participle of _qaddasa_ \"to sanctify\", root q-d-s; pattern _mufaʿʿal_."
+          "etym": {
+            "prose": "from Arabic, passive participle of _qaddasa_ \"to sanctify\", root q-d-s; pattern _mufaʿʿal_.",
+            "arabic_form": "Form II passive participle",
+            "root": "q-d-s"
+          }
         },
         {
           "type": "headword",
@@ -2944,7 +3154,9 @@
           "translit": "bedīn",
           "meaning": "in/by this",
           "tags": [],
-          "etym": "contraction of `به` _be_ \"to, by\" + `این` _īn_ \"this\".",
+          "etym": {
+            "prose": "contraction of `به` _be_ \"to, by\" + `این` _īn_ \"this\"."
+          },
           "forms": [
             {
               "fa": "بدین گونه",
@@ -2991,7 +3203,9 @@
           "translit": "āsmān",
           "meaning": "sky, heaven",
           "tags": [],
-          "etym": "native Persian; from Avestan _asman-_ \"sky, stone\" — originally \"stony vault\".",
+          "etym": {
+            "prose": "native Persian; from Avestan _asman-_ \"sky, stone\" — originally \"stony vault\"."
+          },
           "family": "`آسمانی` _āsmānī_ \"heavenly, celestial\".",
           "forms": [
             {
@@ -3057,7 +3271,11 @@
           "translit": "jamʿiyyat",
           "meaning": "multitude, assembly",
           "tags": [],
-          "etym": "from Arabic, root j-m-ʿ \"to gather\"; abstract-noun pattern _faʿʿiyya_."
+          "etym": {
+            "prose": "from Arabic, root j-m-ʿ \"to gather\"; abstract-noun pattern _faʿʿiyya_.",
+            "arabic_form": "nominal pattern",
+            "root": "j-m-ʿ"
+          }
         },
         {
           "type": "headword",
@@ -3066,7 +3284,9 @@
           "translit": "farā",
           "meaning": "over, encompassing",
           "tags": [],
-          "etym": "native Persian preverb meaning \"across, beyond\"; cognate with Latin _prae-_, English _fore-_.",
+          "etym": {
+            "prose": "native Persian preverb meaning \"across, beyond\"; cognate with Latin _prae-_, English _fore-_."
+          },
           "forms": [
             {
               "fa": "فرا گرفتن",
@@ -3081,7 +3301,9 @@
           "translit": "bī-šomār",
           "meaning": "countless",
           "tags": [],
-          "etym": "`بی-` + `شمار`.",
+          "etym": {
+            "prose": "`بی-` + `شمار`."
+          },
           "family": "`بی-` _bī-_ (privative prefix \"without\"); `شمار` _šomār_ \"count, number\"; `شمردن` _šomordan_ \"to count\"; `شماره` _šomāre_ \"number\".",
           "forms": [
             {
@@ -3097,7 +3319,9 @@
           "translit": "farešte",
           "meaning": "angel",
           "tags": [],
-          "etym": "from Middle Persian _frēstag_ \"messenger, envoy\", from `فرستادن` \"to send\"; native Persian rendering of \"messenger of God\".",
+          "etym": {
+            "prose": "from Middle Persian _frēstag_ \"messenger, envoy\", from `فرستادن` \"to send\"; native Persian rendering of \"messenger of God\"."
+          },
           "forms": [
             {
               "fa": "فرشتگان",
@@ -3112,7 +3336,11 @@
           "translit": "ḥāl",
           "meaning": "state, condition",
           "tags": [],
-          "etym": "from Arabic, root ḥ-w-l \"to change, turn\".",
+          "etym": {
+            "prose": "from Arabic, root ḥ-w-l \"to change, turn\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "ḥ-w-l"
+          },
           "forms": [
             {
               "fa": "در حال",
@@ -3127,7 +3355,9 @@
           "translit": "sorūd",
           "meaning": "song, hymn",
           "tags": [],
-          "etym": "native Persian; from older _srūd-_ \"to sing, recite\".",
+          "etym": {
+            "prose": "native Persian; from older _srūd-_ \"to sing, recite\"."
+          },
           "forms": [
             {
               "fa": "سرود خواندن",
@@ -3156,7 +3386,9 @@
           "translit": "yek-ī",
           "meaning": "one (of)",
           "tags": [],
-          "etym": "`یک` _yek_ \"one\" + indefinite _-ī_ → \"one [of them]\"."
+          "etym": {
+            "prose": "`یک` _yek_ \"one\" + indefinite _-ī_ → \"one [of them]\"."
+          }
         },
         {
           "type": "headword",
@@ -3179,7 +3411,9 @@
           "translit": "forūd",
           "meaning": "down, downward",
           "tags": [],
-          "etym": "native Persian; from older _fra-rūd-_ \"down-flow\".",
+          "etym": {
+            "prose": "native Persian; from older _fra-rūd-_ \"down-flow\"."
+          },
           "forms": [
             {
               "fa": "فرود آمدن",
@@ -3208,7 +3442,9 @@
           "translit": "farātar",
           "meaning": "further, beyond",
           "tags": [],
-          "etym": "`فرا` _farā_ \"beyond\" + comparative suffix _`-تر` -tar_."
+          "etym": {
+            "prose": "`فرا` _farā_ \"beyond\" + comparative suffix _`-تر` -tar_."
+          }
         },
         {
           "type": "headword",
@@ -3217,7 +3453,9 @@
           "translit": "xoršīd",
           "meaning": "sun",
           "tags": [],
-          "etym": "native Persian; from older _huar-xšaita-_ \"shining sun\" (Avestan)."
+          "etym": {
+            "prose": "native Persian; from older _huar-xšaita-_ \"shining sun\" (Avestan)."
+          }
         },
         {
           "type": "headword",
@@ -3226,7 +3464,9 @@
           "translit": "nīmrūz",
           "meaning": "noon, midday",
           "tags": [],
-          "etym": "`نیم` _nīm_ \"half\" + `روز` _rūz_ \"day\" → \"half-day, mid-day\"."
+          "etym": {
+            "prose": "`نیم` _nīm_ \"half\" + `روز` _rūz_ \"day\" → \"half-day, mid-day\"."
+          }
         }
       ]
     },
@@ -3249,7 +3489,9 @@
           "translit": "hamčonīn",
           "meaning": "also, likewise",
           "tags": [],
-          "etym": "`هم` _ham_ \"same\" + `چنین` _čonīn_ \"such\" → \"in the same such [way]\"."
+          "etym": {
+            "prose": "`هم` _ham_ \"same\" + `چنین` _čonīn_ \"such\" → \"in the same such [way]\"."
+          }
         },
         {
           "type": "headword",
@@ -3280,7 +3522,9 @@
           "translit": "deraxšeš",
           "meaning": "shining, radiance, brilliance",
           "tags": [],
-          "etym": "`درخش-` (pres. stem of `درخشیدن` \"to shine\") + `-ش` (nominalizer).",
+          "etym": {
+            "prose": "`درخش-` (pres. stem of `درخشیدن` \"to shine\") + `-ش` (nominalizer)."
+          },
           "family": "`درخشیدن` _deraxšīdan_ \"to shine\"; `درخشان` _deraxšān_ \"shining, brilliant\"."
         },
         {
@@ -3290,7 +3534,9 @@
           "translit": "tābeš",
           "meaning": "shining, radiance",
           "tags": [],
-          "etym": "`تاب-` (pres. stem of `تابیدن` \"to shine\") + `-ش` (nominalizer).",
+          "etym": {
+            "prose": "`تاب-` (pres. stem of `تابیدن` \"to shine\") + `-ش` (nominalizer)."
+          },
           "family": "`تابیدن` _tābīdan_ \"to shine, radiate\"; `آفتاب` _āftāb_ \"sunshine\" (`آف` \"shining\" + `تاب`)."
         },
         {
@@ -3300,7 +3546,9 @@
           "translit": "setāregān",
           "meaning": "stars",
           "tags": [],
-          "etym": "`ستاره` + `-گان` (plural form used after _-e_-final stems, where _-e_ drops).",
+          "etym": {
+            "prose": "`ستاره` + `-گان` (plural form used after _-e_-final stems, where _-e_ drops)."
+          },
           "family": "`ستاره` _setāre_ \"star\" (singular)."
         },
         {
@@ -3532,7 +3780,11 @@
           "translit": "halāk",
           "meaning": "perishing, destruction",
           "tags": [],
-          "etym": "from Arabic, root h-l-k \"to perish\".",
+          "etym": {
+            "prose": "from Arabic, root h-l-k \"to perish\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "h-l-k"
+          },
           "forms": [
             {
               "fa": "هلاک شدن",
@@ -3547,7 +3799,11 @@
           "translit": "asārat",
           "meaning": "captivity",
           "tags": [],
-          "etym": "from Arabic, root ʾ-s-r \"to bind, capture\"; abstract-noun pattern _fiʿāla_."
+          "etym": {
+            "prose": "from Arabic, root ʾ-s-r \"to bind, capture\"; abstract-noun pattern _fiʿāla_.",
+            "arabic_form": "nominal pattern",
+            "root": "ʾ-s-r"
+          }
         },
         {
           "type": "headword",
@@ -3558,7 +3814,9 @@
           "tags": [
             "proper"
           ],
-          "etym": "from Hebrew _Bāḇel_ (בָּבֶל), ultimately Akkadian _Bābilim_ \"gate of the god\"."
+          "etym": {
+            "prose": "from Hebrew _Bāḇel_ (בָּבֶל), ultimately Akkadian _Bābilim_ \"gate of the god\"."
+          }
         }
       ]
     },
@@ -3618,7 +3876,9 @@
           "translit": "angīz",
           "meaning": "arousing, stirring [bound morpheme]",
           "tags": [],
-          "etym": "pres. stem of `انگیختن` _angīxtan_ \"to incite, arouse\" — used as the second element of compound adjectives.",
+          "etym": {
+            "prose": "pres. stem of `انگیختن` _angīxtan_ \"to incite, arouse\" — used as the second element of compound adjectives."
+          },
           "family": "`انگیختن` _angīxtan_ \"to incite, arouse\"; common compounds: `شگفت‌انگیز` \"astonishing\", `هیجان‌انگیز` \"exciting\", `دل‌انگیز` \"delightful\"."
         },
         {
@@ -3664,7 +3924,11 @@
           "translit": "qāder",
           "meaning": "powerful, able",
           "tags": [],
-          "etym": "from Arabic, active participle of _qadara_ \"to be able\", root q-d-r.",
+          "etym": {
+            "prose": "from Arabic, active participle of _qadara_ \"to be able\", root q-d-r.",
+            "arabic_form": "Form I active participle",
+            "root": "q-d-r"
+          },
           "forms": [
             {
               "fa": "قادر مطلق",
@@ -3679,7 +3943,11 @@
           "translit": "moṭlaq",
           "meaning": "absolute",
           "tags": [],
-          "etym": "from Arabic, passive participle of _ʾaṭlaqa_ \"to set free, make absolute\", root ṭ-l-q."
+          "etym": {
+            "prose": "from Arabic, passive participle of _ʾaṭlaqa_ \"to set free, make absolute\", root ṭ-l-q.",
+            "arabic_form": "Form IV passive participle",
+            "root": "ṭ-l-q"
+          }
         },
         {
           "type": "headword",
@@ -3688,7 +3956,9 @@
           "translit": "bālā",
           "meaning": "up, above, high",
           "tags": [],
-          "etym": "native Persian; cognate with `والا` _vālā_ \"exalted\"."
+          "etym": {
+            "prose": "native Persian; cognate with `والا` _vālā_ \"exalted\"."
+          }
         },
         {
           "type": "headword",
@@ -3697,7 +3967,11 @@
           "translit": "qodrat",
           "meaning": "power",
           "tags": [],
-          "etym": "from Arabic, root q-d-r \"to be able, have power\"; abstract-noun pattern _fuʿla_."
+          "etym": {
+            "prose": "from Arabic, root q-d-r \"to be able, have power\"; abstract-noun pattern _fuʿla_.",
+            "arabic_form": "Form I verbal noun",
+            "root": "q-d-r"
+          }
         },
         {
           "type": "headword",
@@ -3706,7 +3980,11 @@
           "translit": "raḥmat",
           "meaning": "mercy",
           "tags": [],
-          "etym": "from Arabic, root r-ḥ-m \"to be merciful\"; cognate with Hebrew _raḥamim_."
+          "etym": {
+            "prose": "from Arabic, root r-ḥ-m \"to be merciful\"; cognate with Hebrew _raḥamim_.",
+            "arabic_form": "Form I verbal noun",
+            "root": "r-ḥ-m"
+          }
         },
         {
           "type": "headword",
@@ -3715,7 +3993,9 @@
           "translit": "mehrabān",
           "meaning": "kind",
           "tags": [],
-          "etym": "`مهر` + `-بان` \"guardian, keeper\" (cf. `باغبان` \"gardener\") → \"love-keeper\".",
+          "etym": {
+            "prose": "`مهر` + `-بان` \"guardian, keeper\" (cf. `باغبان` \"gardener\") → \"love-keeper\"."
+          },
           "family": "`مهر` _mehr_ \"love, kindness\"; `-بان` _-bān_ \"keeper\" (productive suffix: `باغبان` \"gardener\", `دروازه‌بان` \"gatekeeper\").",
           "forms": [
             {
@@ -3734,7 +4014,9 @@
           "translit": "ravā",
           "meaning": "permissible, lawful",
           "tags": [],
-          "etym": "native Persian, from `رفتن` \"to go\" — \"what goes, is current\".",
+          "etym": {
+            "prose": "native Persian, from `رفتن` \"to go\" — \"what goes, is current\"."
+          },
           "forms": [
             {
               "fa": "روا داشتن",
@@ -3749,7 +4031,9 @@
           "translit": "kesān",
           "meaning": "persons",
           "tags": [],
-          "etym": "`کس` _kes_ \"person, someone\" + plural _`-ان` -ān_.",
+          "etym": {
+            "prose": "`کس` _kes_ \"person, someone\" + plural _`-ان` -ān_."
+          },
           "forms": [
             {
               "fa": "کسانی که",
@@ -3792,7 +4076,9 @@
           "translit": "ravān",
           "meaning": "soul, spirit",
           "tags": [],
-          "etym": "native Persian; literally \"flowing\" (← `روان` \"flowing\", from `رفتن`).",
+          "etym": {
+            "prose": "native Persian; literally \"flowing\" (← `روان` \"flowing\", from `رفتن`)."
+          },
           "forms": [
             {
               "fa": "روانش",
@@ -3807,7 +4093,9 @@
           "translit": "šādmānī",
           "meaning": "joy, gladness",
           "tags": [],
-          "etym": "`شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ (abstract).",
+          "etym": {
+            "prose": "`شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ (abstract)."
+          },
           "family": "`شاد` _šād_ \"happy\"; `شادمان` _šādmān_ \"joyful, cheerful\".",
           "forms": [
             {
@@ -3823,7 +4111,9 @@
           "translit": "tamāmī",
           "meaning": "entirety, all of",
           "tags": [],
-          "etym": "`تمام` (Arabic) + `-ی` (abstract).",
+          "etym": {
+            "prose": "`تمام` (Arabic) + `-ی` (abstract)."
+          },
           "family": "`تمام` _tamām_ \"complete, all\" (also used standalone, common in modern Persian)."
         },
         {
@@ -3833,7 +4123,9 @@
           "translit": "ānče",
           "meaning": "that which",
           "tags": [],
-          "etym": "`آن` + `چه` → fused relative pronoun.",
+          "etym": {
+            "prose": "`آن` + `چه` → fused relative pronoun."
+          },
           "family": "`آن` _ān_ \"that\"; `چه` _če_ \"what?\" (also \"how!\")."
         },
         {
@@ -3871,7 +4163,9 @@
           "translit": "īnak",
           "meaning": "now; behold",
           "tags": [],
-          "etym": "`این` + `-ـَک` (deictic suffix) → \"this very [moment]\".",
+          "etym": {
+            "prose": "`این` + `-ـَک` (deictic suffix) → \"this very [moment]\"."
+          },
           "family": "`این` _īn_ \"this\" (an entry in this chapter); cf. `اکنون` _aknūn_ \"now\"."
         },
         {
@@ -3881,7 +4175,11 @@
           "translit": "kāmel",
           "meaning": "complete, full",
           "tags": [],
-          "etym": "from Arabic, active participle of _kamala_ \"to be complete\", root k-m-l.",
+          "etym": {
+            "prose": "from Arabic, active participle of _kamala_ \"to be complete\", root k-m-l.",
+            "arabic_form": "Form I active participle",
+            "root": "k-m-l"
+          },
           "forms": [
             {
               "fa": "کاملی",
@@ -3972,7 +4270,11 @@
           "translit": "valī",
           "meaning": "but, however",
           "tags": [],
-          "etym": "from Arabic, originally \"guardian, friend\"; in Persian shifted to a contrastive conjunction."
+          "etym": {
+            "prose": "from Arabic, originally \"guardian, friend\"; in Persian shifted to a contrastive conjunction.",
+            "arabic_form": "Form I active participle",
+            "root": "w-l-y"
+          }
         },
         {
           "type": "headword",
@@ -3981,7 +4283,11 @@
           "translit": "šarḥ",
           "meaning": "description, account, exposition",
           "tags": [],
-          "etym": "from Arabic, root š-r-ḥ \"to expound, explain\"."
+          "etym": {
+            "prose": "from Arabic, root š-r-ḥ \"to expound, explain\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "š-r-ḥ"
+          }
         },
         {
           "type": "headword",
@@ -4009,7 +4315,11 @@
           "translit": "xolāṣe",
           "meaning": "summary, abstract",
           "tags": [],
-          "etym": "from Arabic, root x-l-ṣ \"to be pure, free of admixture\".",
+          "etym": {
+            "prose": "from Arabic, root x-l-ṣ \"to be pure, free of admixture\".",
+            "arabic_form": "Form I verbal noun",
+            "root": "x-l-ṣ"
+          },
           "forms": [
             {
               "fa": "خلاصه کردن",
@@ -4024,7 +4334,11 @@
           "translit": "varaqe",
           "meaning": "leaf, page, plate",
           "tags": [],
-          "etym": "from Arabic _waraqa_ \"leaf\", root w-r-q.",
+          "etym": {
+            "prose": "from Arabic _waraqa_ \"leaf\", root w-r-q.",
+            "arabic_form": "Form I verbal noun",
+            "root": "w-r-q"
+          },
           "forms": [
             {
               "fa": "ورقه‌ها",
@@ -4098,7 +4412,11 @@
           "translit": "eʿlām",
           "meaning": "announcement, declaration",
           "tags": [],
-          "etym": "from Arabic, verbal noun (form IV) of _ʿalima_ \"to know\", root ʿ-l-m → \"making [it] known\".",
+          "etym": {
+            "prose": "from Arabic, verbal noun (form IV) of _ʿalima_ \"to know\", root ʿ-l-m → \"making [it] known\".",
+            "arabic_form": "Form IV verbal noun",
+            "root": "ʿ-l-m"
+          },
           "forms": [
             {
               "fa": "اعلام کردن",
@@ -4141,7 +4459,9 @@
           "translit": "govāhī",
           "meaning": "testimony",
           "tags": [],
-          "etym": "`گواه` + `-ی` (abstract).",
+          "etym": {
+            "prose": "`گواه` + `-ی` (abstract)."
+          },
           "family": "`گواه` _govāh_ \"witness\".",
           "forms": [
             {
@@ -4157,7 +4477,11 @@
           "translit": "masxare",
           "meaning": "mockery",
           "tags": [],
-          "etym": "from Arabic _masxara_, root s-x-r \"to scoff, deride\".",
+          "etym": {
+            "prose": "from Arabic _masxara_, root s-x-r \"to scoff, deride\".",
+            "arabic_form": "nominal pattern",
+            "root": "s-x-r"
+          },
           "forms": [
             {
               "fa": "مسخره کردن",
@@ -4172,7 +4496,9 @@
           "translit": "be-rāstī",
           "meaning": "truly, in truth",
           "tags": [],
-          "etym": "`به` + `راستی` (← `راست` + `-ی`).",
+          "etym": {
+            "prose": "`به` + `راستی` (← `راست` + `-ی`)."
+          },
           "family": "`راست` _rāst_ \"right, true, straight\"; `راستی` _rāstī_ \"truth, rightness\"."
         },
         {
@@ -4182,7 +4508,9 @@
           "translit": "bāzxarīd",
           "meaning": "redemption, buying-back",
           "tags": [],
-          "etym": "`باز` + `خرید` (past stem of `خریدن`).",
+          "etym": {
+            "prose": "`باز` + `خرید` (past stem of `خریدن`)."
+          },
           "family": "`باز` _bāz_ \"back, again\"; `خریدن` _xarīdan_ \"to buy\"; `خرید` _xarīd_ \"purchase\".",
           "forms": [
             {
@@ -4206,7 +4534,9 @@
           "translit": "sādegī",
           "meaning": "simplicity",
           "tags": [],
-          "etym": "`ساده` + `-گی` (abstract suffix used after _-e_-final stems).",
+          "etym": {
+            "prose": "`ساده` + `-گی` (abstract suffix used after _-e_-final stems)."
+          },
           "family": "`ساده` _sāde_ \"simple, plain\".",
           "forms": [
             {
@@ -4222,7 +4552,9 @@
           "translit": "padīdār",
           "meaning": "apparent, manifest, visible",
           "tags": [],
-          "etym": "`پدید` + `-ار` (intensifier suffix).",
+          "etym": {
+            "prose": "`پدید` + `-ار` (intensifier suffix)."
+          },
           "family": "`پدید` _padīd_ \"evident, manifest\"; `پدیده` _padīde_ \"phenomenon\".",
           "forms": [
             {
@@ -4266,7 +4598,9 @@
           "translit": "ānčonān",
           "meaning": "in such a way",
           "tags": [],
-          "etym": "`آن` _ān_ \"that\" + `چنان` _čonān_ \"such, in that way\".",
+          "etym": {
+            "prose": "`آن` _ān_ \"that\" + `چنان` _čonān_ \"such, in that way\"."
+          },
           "forms": [
             {
               "fa": "آنچنان که",
@@ -4281,7 +4615,9 @@
           "translit": "pīšīn",
           "meaning": "former, previous",
           "tags": [],
-          "etym": "`پیش` _pīš_ \"before\" + `-ین` _-īn_ (adjectival suffix)."
+          "etym": {
+            "prose": "`پیش` _pīš_ \"before\" + `-ین` _-īn_ (adjectival suffix)."
+          }
         },
         {
           "type": "headword",
@@ -4290,7 +4626,9 @@
           "translit": "sangsār",
           "meaning": "stoning",
           "tags": [],
-          "etym": "`سنگ` _sang_ \"stone\" + `-سار`. The second element is uncertain, possibly a Sogdian directional postposition _-sār_ (meaning roughly \"toward, up to\"). The homophonous native suffix `-سار` _-sār_ meaning \"place of / full of\" (as in `کوهسار` \"mountainous land\") is a separate morpheme.",
+          "etym": {
+            "prose": "`سنگ` _sang_ \"stone\" + `-سار`. The second element is uncertain, possibly a Sogdian directional postposition _-sār_ (meaning roughly \"toward, up to\"). The homophonous native suffix `-سار` _-sār_ meaning \"place of / full of\" (as in `کوهسار` \"mountainous land\") is a separate morpheme."
+          },
           "family": "`سنگ` _sang_ \"stone\".",
           "forms": [
             {
@@ -4356,7 +4694,9 @@
           "translit": "jān",
           "meaning": "life, soul",
           "tags": [],
-          "etym": "native Persian; from Avestan _jiyāti-_ \"life\"; cognate with English _vital_, Latin _vita_.",
+          "etym": {
+            "prose": "native Persian; from Avestan _jiyāti-_ \"life\"; cognate with English _vital_, Latin _vita_."
+          },
           "forms": [
             {
               "fa": "جانش",
@@ -4371,7 +4711,9 @@
           "translit": "mehr-āmīz",
           "meaning": "loving, tender",
           "tags": [],
-          "etym": "`مهر` + `آمیز` (pres. stem of `آمیختن`).",
+          "etym": {
+            "prose": "`مهر` + `آمیز` (pres. stem of `آمیختن`)."
+          },
           "family": "`مهر` _mehr_ \"love\"; `آمیختن` _āmīxtan_ \"to mix, blend\"; `آمیزه` _āmīze_ \"mixture\" (also an entry in this chapter)."
         },
         {
@@ -4395,7 +4737,11 @@
           "translit": "īmān",
           "meaning": "faith, belief",
           "tags": [],
-          "etym": "from Arabic, root ʾ-m-n \"to be safe, trust\"; verbal noun (form IV) \"to make faithful\".",
+          "etym": {
+            "prose": "from Arabic, root ʾ-m-n \"to be safe, trust\"; verbal noun (form IV) \"to make faithful\".",
+            "arabic_form": "Form IV verbal noun",
+            "root": "ʾ-m-n"
+          },
           "forms": [
             {
               "fa": "ایمانشان",
@@ -4428,7 +4774,9 @@
           "translit": "rahāyī",
           "meaning": "deliverance, release",
           "tags": [],
-          "etym": "`رها` + `-ی` (abstract).",
+          "etym": {
+            "prose": "`رها` + `-ی` (abstract)."
+          },
           "family": "`رها` _rahā_ \"free, released\"; `رها کردن rahā kardan` \"to release\"; `رهانیدن` _rahānīdan_ \"to deliver\"."
         },
         {
@@ -4438,7 +4786,9 @@
           "translit": "tavānā",
           "meaning": "able, capable",
           "tags": [],
-          "etym": "`توان` + `-ا` (adjectival suffix).",
+          "etym": {
+            "prose": "`توان` + `-ا` (adjectival suffix)."
+          },
           "family": "`توان` _tavān_ \"power, ability\"; `توانستن` _tavānestan_ \"to be able\"; `توانایی` _tavānāyī_ \"ability\".",
           "forms": [
             {

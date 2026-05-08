@@ -91,6 +91,8 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     text = text.replace("{e}", '<span class="ezafe">ِ</span>')
     # Markdown links [text](url) → <a href="url">text</a>
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
+    # Bare [text] with no URL → (text); avoids literal square brackets in output
+    text = re.sub(r"\[([^\[\]]+)\](?!\()", r"(\1)", text)
     # Backtick code — process first so content inside backticks isn't
     # mis-treated as italic.
     if word_map is not None:
@@ -104,10 +106,17 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
         text = re.sub(r"`([^`]+?)`", _link_code, text)
     else:
         text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
+    # Protect already-generated HTML tags so underscores inside href/class
+    # attributes can't be consumed as italic delimiters.
+    _tags = re.findall(r"<[^>]+>", text)
+    for _idx, _tag in enumerate(_tags):
+        text = text.replace(_tag, f"\x00{_idx}\x00", 1)
     # Bold before italic so **x** doesn't get eaten by *x*
     text = re.sub(r"\*\*([^*]+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"<em>\1</em>", text)
     text = re.sub(r"(?<!_)_([^_]+?)_(?!_)", r"<em>\1</em>", text)
+    for _idx, _tag in enumerate(_tags):
+        text = text.replace(f"\x00{_idx}\x00", _tag)
     # Wrap runs of 2+ consecutive Persian code spans in an RTL container so
     # multi-word phrases (e.g. `به` `هنگام`) display in the correct reading order.
     text = re.sub(

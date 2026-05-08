@@ -143,6 +143,19 @@ Holds the annotation. Sections must align with the source JSON by `section_type`
             "translit": "negah dār-"
           },
           "warning": null,      // markdown string for ⚠️ note, or null
+          // etym is null or an object:
+          //   {"prose": "markdown string"}                         — non-Arabic
+          //   {"prose": "markdown string", "arabic_form": "..."}  — Arabic borrowing
+          // arabic_form is a controlled value from the list below; the renderer
+          // appends a colored tag linking to the matching section on arabic.html.
+          // Allowed arabic_form values:
+          //   Verbal nouns:  "Form I verbal noun" … "Form X verbal noun"
+          //   Active parts:  "Form I active participle" / "Form II active participle" /
+          //                  "Form III active participle" / "Form IV active participle" /
+          //                  "Form X active participle"
+          //   Passive parts: "Form I passive participle" / "Form II passive participle" /
+          //                  "Form IV passive participle"
+          //   Other:         "nominal pattern"  "elative (Form IV)"
           "etym": null,
           "family": null,
           // "forms" is an ordered array. Each element is one of:
