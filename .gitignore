@@ -3,3 +3,7 @@ __pycache__/
 *.pdf
 *.html
 _site/
+# downloaded text source
+web*.txt
+# chapter .md files are generated archives; source of truth is the JSON pair
+study_guide/*/ch*.md

@@ -55,13 +55,27 @@ def extract_title(md_text: str, fallback: str) -> str:
     if not m:
         return fallback
     title = m.group(1)
-    # Drop trailing "— Persian Study Guide" or similar boilerplate.
     title = re.split(r"\s+[—–-]\s+Persian\s+Study\s+Guide\b", title)[0].strip()
     return title or fallback
 
 
+_CHAPTER_STEM_RE = re.compile(r"^ch(\d+)$", re.IGNORECASE)
+
+
+def _title_from_study_json(study: dict, fallback: str) -> str:
+    book = study.get("book", "")
+    chapter = study.get("chapter", "")
+    if book and chapter:
+        return f"{book} {chapter}"
+    return fallback
+
+
 def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
-    """Return (chapter_number, display_title, source_dir, markdown_path) for each chapter."""
+    """Return (chapter_number, display_title, source_dir, stem_path) for each chapter.
+
+    stem_path has no extension; the build loop appends .source.json/.study.json or .md.
+    JSON pairs take priority; .md-only chapters are discovered as a fallback.
+    """
     study_guide = root / "study_guide"
     chapters: list[tuple[int, str, Path, Path]] = []
     if not study_guide.is_dir():
@@ -72,14 +86,32 @@ def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
         m = CHAPTER_DIR_RE.match(entry.name)
         if not m:
             continue
+        seen: set[int] = set()
+        for src_json in sorted(entry.glob("ch*.source.json")):
+            stem = src_json.name[: -len(".source.json")]
+            cm = _CHAPTER_STEM_RE.match(stem)
+            if not cm:
+                continue
+            stu_json = entry / (stem + ".study.json")
+            if not stu_json.exists():
+                continue
+            ch_num = int(cm.group(1))
+            fallback = f"{entry.name} ch{ch_num}"
+            study_data = json.loads(stu_json.read_text(encoding="utf-8"))
+            title = _title_from_study_json(study_data, fallback)
+            chapters.append((ch_num, title, entry, entry / stem))
+            seen.add(ch_num)
         for md in sorted(entry.glob("ch*.md")):
             cm = CHAPTER_FILE_RE.match(md.name)
             if not cm:
                 continue
             ch_num = int(cm.group(1))
+            if ch_num in seen:
+                continue
             fallback = f"{entry.name} ch{ch_num}"
             title = extract_title(md.read_text(encoding="utf-8"), fallback)
-            chapters.append((ch_num, title, entry, md))
+            chapters.append((ch_num, title, entry, md.with_suffix("")))
+            seen.add(ch_num)
     chapters.sort(key=lambda t: (t[2].name, t[0]))
     return chapters
 
@@ -225,7 +257,7 @@ def main() -> int:
         all_pages.append((
             sg_out_dir / "transcription.html",
             "Persian Transliteration Scheme",
-            transcription_md,
+            transcription_md.with_suffix(""),
             "styles.css",
             "study_guide/transcription.md",
         ))
@@ -236,7 +268,7 @@ def main() -> int:
         all_pages.append((
             sg_out_dir / "verbs.html",
             "Persian Verb Conjugations",
-            verbs_md,
+            verbs_md.with_suffix(""),
             "styles.css",
             "study_guide/verbs.md",
         ))
@@ -247,26 +279,31 @@ def main() -> int:
         all_pages.append((
             sg_out_dir / "arabic.html",
             "Arabic Borrowings in Persian",
-            arabic_md,
+            arabic_md.with_suffix(""),
             "styles.css",
             "study_guide/arabic.md",
         ))
 
-    for ch_num, title, src_dir, md_path in chapters:
+    for ch_num, title, src_dir, stem_path in chapters:
         ch_out_dir = out_dir / "study_guide" / src_dir.name
         ch_out_dir.mkdir(parents=True, exist_ok=True)
+        src_json = stem_path.parent / (stem_path.name + ".source.json")
+        if src_json.exists():
+            source_name = str(src_json.relative_to(ROOT))
+        else:
+            source_name = str((stem_path.parent / (stem_path.name + ".md")).relative_to(ROOT))
         all_pages.append((
-            ch_out_dir / (md_path.stem + ".html"),
+            ch_out_dir / (stem_path.name + ".html"),
             title,
-            md_path,
+            stem_path,
             "../styles.css",
-            str(md_path.relative_to(ROOT)),
+            source_name,
         ))
 
     def _sibling_href(from_path: Path, to_path: Path) -> str:
         return os.path.relpath(to_path, from_path.parent)
 
-    for i, (html_path, title, md_path, css_href, source_name) in enumerate(all_pages):
+    for i, (html_path, title, stem_path, css_href, source_name) in enumerate(all_pages):
         prev = (
             (_sibling_href(html_path, all_pages[i - 1][0]), all_pages[i - 1][1])
             if i > 0 else None
@@ -275,8 +312,8 @@ def main() -> int:
             (_sibling_href(html_path, all_pages[i + 1][0]), all_pages[i + 1][1])
             if i < len(all_pages) - 1 else None
         )
-        src_json = md_path.parent / (md_path.stem + ".source.json")
-        stu_json = md_path.parent / (md_path.stem + ".study.json")
+        src_json = stem_path.parent / (stem_path.name + ".source.json")
+        stu_json = stem_path.parent / (stem_path.name + ".study.json")
         if src_json.exists() and stu_json.exists():
             source_data = json.loads(src_json.read_text(encoding="utf-8"))
             study_data  = json.loads(stu_json.read_text(encoding="utf-8"))
@@ -286,9 +323,10 @@ def main() -> int:
             )
             print(f"  {src_json.relative_to(ROOT)} → {html_path.relative_to(ROOT)} [json]", file=sys.stderr)
         else:
-            md_text = md_path.read_text(encoding="utf-8")
+            md_file = stem_path.parent / (stem_path.name + ".md")
+            md_text = md_file.read_text(encoding="utf-8")
             html = render(md_text, css_href=css_href, source_name=source_name, prev=prev, next=next_)
-            print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
+            print(f"  {md_file.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
         html_path.write_text(html, encoding="utf-8")
 
     index_path = out_dir / "index.html"
