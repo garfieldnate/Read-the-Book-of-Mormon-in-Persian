@@ -563,6 +563,15 @@ def render_chapter(
         key = (_section_type(s), s.get("number"))
         study_index[key] = s
 
+    # Lint: every source section must have a matching study section
+    label = f"{source_name}: " if source_name else ""
+    for source_sec in source.get("sections", []):
+        t = _section_type(source_sec)
+        n = source_sec.get("number")
+        if (t, n) not in study_index:
+            sec_desc = f"{t} {n}" if n is not None else t
+            print(f"  {label}missing study section: {sec_desc}", file=sys.stderr)
+
     body_parts: list[str] = [f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>']
 
     intro = re.sub(r"^#{1,3}\s+intro\s*\n?", "", study.get("intro", ""), flags=re.IGNORECASE).strip()
@@ -605,7 +614,6 @@ def render_chapter(
         word_locs: dict[str, list[str]] = {}
         for word, loc in unlinked:
             word_locs.setdefault(word, []).append(loc)
-        label = f"{source_name}: " if source_name else ""
         for word in sorted(word_locs, key=lambda w: -len(word_locs[w])):
             locs = word_locs[word]
             count_str = f" (×{len(locs)})" if len(locs) > 1 else ""
@@ -614,7 +622,6 @@ def render_chapter(
             print(f"  {label}unlinked: {word}{count_str}{loc_str}", file=sys.stderr)
 
     # Warn about entries with a `root` field but no `arabic_form`
-    label = f"{source_name}: " if source_name else ""
     for sec in study.get("sections", []):
         for entry in sec.get("entries", []):
             etym = entry.get("etym")

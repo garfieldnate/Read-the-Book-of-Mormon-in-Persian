@@ -21,4 +21,3 @@ New instructions file for chapter generation:
 
 * Lint scripts needed:
     * ensure all forms are listed in a vocab entry.
-	* ensure all verse or chapter numbers have a number entry.
