@@ -26,7 +26,10 @@ import shutil
 import sys
 from pathlib import Path
 
+import json
+
 from render import render
+from render_json import render_chapter
 
 ROOT = Path(__file__).resolve().parent
 CHAPTER_DIR_RE = re.compile(r"^(\d+)_([a-z0-9_-]+)$", re.IGNORECASE)
@@ -272,10 +275,21 @@ def main() -> int:
             (_sibling_href(html_path, all_pages[i + 1][0]), all_pages[i + 1][1])
             if i < len(all_pages) - 1 else None
         )
-        md_text = md_path.read_text(encoding="utf-8")
-        html = render(md_text, css_href=css_href, source_name=source_name, prev=prev, next=next_)
+        src_json = md_path.parent / (md_path.stem + ".source.json")
+        stu_json = md_path.parent / (md_path.stem + ".study.json")
+        if src_json.exists() and stu_json.exists():
+            source_data = json.loads(src_json.read_text(encoding="utf-8"))
+            study_data  = json.loads(stu_json.read_text(encoding="utf-8"))
+            html = render_chapter(
+                source_data, study_data,
+                css_href=css_href, source_name=source_name, prev=prev, next=next_,
+            )
+            print(f"  {src_json.relative_to(ROOT)} → {html_path.relative_to(ROOT)} [json]", file=sys.stderr)
+        else:
+            md_text = md_path.read_text(encoding="utf-8")
+            html = render(md_text, css_href=css_href, source_name=source_name, prev=prev, next=next_)
+            print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
         html_path.write_text(html, encoding="utf-8")
-        print(f"  {md_path.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
 
     index_path = out_dir / "index.html"
     index_path.write_text(

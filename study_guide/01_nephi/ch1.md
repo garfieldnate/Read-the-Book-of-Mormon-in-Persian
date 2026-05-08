@@ -141,9 +141,8 @@ Negation fuses: `نمی‌نگارم` ("I do not write"), `نمی‌کرد` ("he
 
 ---
 >>>
-;
 - **شدن** — _šodan_ (pres. _šav-_) — to become; passive auxiliary
-  - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ ([book summary, sentence 4](#sentence-4); [chapter summary](#chapter-summary); [verse 4](#verse-4)); 3pl _`می` `شوند` mī-šavand_ ([book summary, sentence 7](#sentence-7)); subj. _`شوند` šavand_ ([book summary, sentence 7](#sentence-7); [verse 14](#verse-14)). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ ([book summary, sentence 1](#sentence-1): passive `خوانده می شدند` "were called"
+  - _Forms_: 3sg pres. _`می` `شود` mī-šavad_ ([book summary, sentence 4](#sentence-4); [chapter summary](#chapter-summary); [verse 4](#verse-4)); 3pl _`می` `شوند` mī-šavand_ ([book summary, sentence 7](#sentence-7)); subj. _`شوند` šavand_ ([book summary, sentence 7](#sentence-7); [verse 14](#verse-14)). Past _`شد` šod_; 1sg _`شدم` šodam_; 3pl _`شدند` šodand_ ([book summary, sentence 1](#sentence-1): passive `خوانده می شدند` "were called"); pp. _`شده` šode_.
 >>>
 Grammar: Passive voice with `شدن`
 
@@ -155,7 +154,6 @@ Persian forms the passive with `[past participle] + شدن` (conjugated). The ag
 
 Another (future passive), [verse 13](#verse-13): `ساکنان آن نابود خواهند شد ... بسیاری با شمشیر هلاک خواهند شد، و بسیاری به اسارت به بابل برده خواهند شد` — the inhabitants will be destroyed, many will perish by the sword, and many will be carried captive to Babylon.
 >>>
-); pp. _`شده` šode_.
 
 #### Sentence 2
 

@@ -648,8 +648,8 @@ p.source-text > code {
 
 p.source-text { margin: 0.4em 0 0.6em; }
 
-/* Links from inline source-text words to vocab/grammar entries */
-code .src-link {
+/* Links from source-text words and inline Persian to vocab/grammar entries */
+.src-link {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: rgba(10, 37, 64, 0.3);
@@ -657,7 +657,7 @@ code .src-link {
   text-underline-offset: 3px;
 }
 
-code .src-link:hover {
+.src-link:hover {
   text-decoration-color: var(--persian-color);
   text-decoration-style: solid;
 }

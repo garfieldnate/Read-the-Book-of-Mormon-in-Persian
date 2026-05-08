@@ -6,26 +6,32 @@ Just want to study? View the study guide [here](https://nateglenn.com/Read-the-B
 
 > I am just learning Persian myself, so if you see any errors or have suggestions for improvement, please open an issue or submit a PR!
 
-A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in `study_guide/NN_book/` — one directory per book — with one or more markdown study guides (`chN.md` per chapter).
+A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in `study_guide/NN_book/` — one directory per book. **The authoritative format for chapter content is a pair of JSON files** (`chN.source.json` + `chN.study.json`); the legacy `chN.md` files are kept as human-readable archives but are not rendered. New chapters should be generated as JSON by an LLM following the schemas in "Chapter JSON format" below.
 
 ```
 .
-├── README.md                 # this file — conventions and workflow
-├── fetch_chapter.py          # download a chapter's clean text from churchofjesuschrist.org
-├── render.py                 # Markdown → semantic HTML converter
-├── build_site.py             # walks every study_guide/NN_*/chN.md and builds _site/
-├── styles.css                # shared stylesheet for all chapters' HTML
+├── README.md                   # this file — conventions and workflow
+├── fetch_chapter.py            # download a chapter's clean text from churchofjesuschrist.org
+├── render.py                   # Markdown → semantic HTML (used for reference pages only)
+├── render_json.py              # JSON → semantic HTML (used for chapter pages)
+├── build_site.py               # walks study_guide/NN_*/chN.{source,study}.json and builds _site/
+├── migrate_md_to_json.py       # one-time migration tool: chN.md → chN.source.json + chN.study.json
+├── check_links.py              # verify all in-page anchor links resolve
 ├── .github/workflows/
-│   └── pages.yml             # CI: runs build_site.py and deploys to GitHub Pages
-└── study_guide/              # all study material
-    ├── transcription.md      # Persian transliteration scheme (standalone reference page)
-    └── NN_book/              # one directory per book (01_nephi, 02_nephi, 03_jacob, …)
-        ├── ch1.md            # study guide for chapter 1 (source of truth)
-        ├── ch2.md            # study guide for chapter 2 (etc.)
+│   └── pages.yml               # CI: runs build_site.py and deploys to GitHub Pages
+└── study_guide/                # all study material
+    ├── styles.css              # shared stylesheet for all pages' HTML
+    ├── transcription.md        # Persian transliteration scheme (standalone reference page)
+    ├── verbs.md                # Persian verb conjugations (standalone reference page)
+    ├── arabic.md               # Arabic borrowings in Persian (standalone reference page)
+    └── NN_book/                # one directory per book (01_nephi, 02_nephi, 03_jacob, …)
+        ├── ch1.source.json     # scripture text + interlinear gloss (source of truth)
+        ├── ch1.study.json      # intro + vocab entries + grammar notes
+        ├── ch1.md              # archived Markdown (not rendered)
         └── …
 ```
 
-The directory prefix is the **book index** (01–15 in publication order: 1 Nephi, 2 Nephi, Jacob, Enos, …); the slug after the underscore is the book's English name (lowercased, words separated with `_`). The first H1 of each `chN.md` is the canonical display title (e.g. `# 1 Nephi 1 — Persian Study Guide`); `build_site.py` reads it for the index page. `build_site.py` also renders `study_guide/transcription.md` as a standalone reference page linked from the index.
+The directory prefix is the **book index** (01–15 in publication order: 1 Nephi, 2 Nephi, Jacob, Enos, …); the slug after the underscore is the book's English name (lowercased, words separated with `_`). `build_site.py` reads the title from the first H1 of `ch1.study.json`'s `intro` field (or falls back to `book + chapter`). It also renders the standalone Markdown reference pages linked from the index.
 
 Rendered HTML is **not committed**. `build_site.py` produces `_site/` containing one HTML page per chapter plus `index.html` and `styles.css`; GitHub Actions runs the build on every push to `main`/`master` and publishes `_site/` to GitHub Pages. To preview locally:
 
@@ -36,16 +42,167 @@ open _site/index.html        # or: python3 -m http.server -d _site
 
 ## Per-chapter workflow
 
-Use `python3 fetch_chapter.py <url>` to download a chapter from `churchofjesuschrist.org` (Persian edition). It prints structured plain text grouped by element class: `# title`, `# subtitle`, `# intro` (book-level summary, only on chapter 1 of each book), `# chapter`, `# study-summary` (chapter heading paragraph), `# verse 1` … `# verse N`. Pipe with `-o study_guide/NN_book/web.txt` to save.
+Use `python3 fetch_chapter.py <url>` to download a chapter from `churchofjesuschrist.org` (Persian edition). It prints structured plain text grouped by element class: `# title`, `# subtitle`, `# intro` (book-level summary, only on chapter 1 of each book), `# chapter`, `# study-summary` (chapter heading paragraph), `# verse 1` … `# verse N`. Pipe with `-o study_guide/NN_book/webN.txt` to save.
 
-Once the source text is in hand:
+Once the source text is in hand, generate the two JSON files using an LLM (feed it this README plus the `webN.txt` fetch output):
 
-1. Produce `study_guide/NN_book/chN.md` from the source text, following the conventions
-   in "Study guide conventions" below.
-2. Run `python3 build_site.py` to render every chapter into `_site/`. Open
-   `_site/index.html` in a browser to read the formatted output. (For a
-   single-file render outside the site: `python3 render.py study_guide/NN_book/chN.md
-/tmp/preview.html`.)
+1. Produce `study_guide/NN_book/chN.source.json` — the tokenized scripture text with interlinear gloss and English translation, following the **`chN.source.json` schema** below.
+2. Produce `study_guide/NN_book/chN.study.json` — the intro, vocabulary entries, and grammar notes, following the **`chN.study.json` schema** below.
+3. Run `python3 build_site.py` to render every chapter into `_site/`. Open
+   `_site/index.html` in a browser to read the formatted output.
+4. Run `python3 check_links.py` to verify all in-page anchor links resolve. Fix any broken links before pushing.
+
+## Chapter JSON format
+
+Each chapter is stored as two JSON files in `study_guide/NN_book/`:
+
+### `chN.source.json`
+
+Holds the tokenized scripture text. Generate one section per structural element of the chapter.
+
+```jsonc
+{
+  "book": "1 Nephi",      // display name
+  "chapter": 1,           // integer
+  "sections": [
+    // section "type" values:
+    //   "book-summary-title"     — book title heading (chapter 1 of a book only)
+    //   "book-summary-subtitle"  — book subtitle heading (chapter 1 of a book only)
+    //   "book-summary-sentence"  — one sentence from the book-level summary paragraph;
+    //                              has a "number" field (1, 2, 3, …)
+    //   "chapter-summary"        — the per-chapter subheading paragraph
+    //   "verse"                  — a numbered verse; has a "number" field
+
+    {
+      "type": "verse",
+      "number": 1,
+
+      // Pre-tokenized Persian text. Each element is one of:
+      //   {"fa": "word"}                    — Persian token; linked via vocab map
+      //   {"fa": "word", "lemma": "base"}   — explicit lemma for vocab map lookup
+      //   {"fa": "word", "e": true}         — editorial ezafe follows this token
+      //   {"p": "،"}                        — punctuation (no vocab link, no space before)
+      // Spaces between adjacent "fa" tokens are implicit.
+      // Each "fa" token may also carry a "gloss" sub-object (see below).
+      "tokens": [
+        {"fa": "من", "gloss": {"src": "man", "gloss": "1SG"}},
+        {"fa": "نیفای", "gloss": {"src": "Nīfāy", "gloss": "Nephi"}},
+        {"p": "،"},
+        {"fa": "از", "gloss": {"src": "az", "gloss": "from"}},
+        {"fa": "پدر",
+         "e": true,
+         "gloss": {"src": "pedar=e", "gloss": "father=EZ"}},
+        {"fa": "مادر",
+         "e": true,
+         "gloss": {"src": "mādar=e", "gloss": "mother=EZ"}},
+        {"fa": "خوبی", "gloss": {"src": "xūb-ī", "gloss": "good-INDEF"}},
+        {"fa": "زاده", "gloss": {"src": "zāde", "gloss": "bear-PTCP.PST"}},
+        {"fa": "شده", "gloss": {"src": "šode", "gloss": "become-PTCP.PST"}},
+        {"p": "."}
+      ],
+
+      "en": "I, Nephi, having been born of goodly parents…"
+    }
+  ]
+}
+```
+
+**`gloss` sub-object** on each `fa` token (Leipzig interlinear data):
+- `src` — romanized transliteration of the token with morphological boundaries (`-` for bound morphemes, `=` for clitics).
+- `gloss` — Leipzig gloss label (lexical content lowercase, grammatical abbreviations UPPERCASE, multi-part joined with `.`).
+- Tokens missing a `gloss` sub-object render without a gloss column entry (marks a known gap).
+- `می` and `نمی` are kept as separate tokens in the `tokens` array (since the publisher writes them with a space), and each gets its own `gloss` sub-object (e.g. `{"src": "mī", "gloss": "IMPF"}`). In the vocab map, however, `می`/`نمی` are **not** given their own headword entries — they are treated as part of the following verb (see below).
+
+---
+
+### `chN.study.json`
+
+Holds the annotation. Sections must align with the source JSON by `section_type` + `number`.
+
+```jsonc
+{
+  "book": "1 Nephi",
+  "chapter": 1,
+  "intro": "Opening paragraph summarizing the chapter…\n\nSecond paragraph if needed.",
+
+  "sections": [
+    {
+      "section_type": "verse",  // matches source JSON "type"
+      "number": 1,              // present on "book-summary-sentence" and "verse" types
+      "entries": [
+        // --- headword entry ---
+        {
+          "type": "headword",
+          "id": "نگه_داشتن",    // stable ID used as anchor; defaults to persian with spaces→_
+          "persian": "نگه داشتن",
+          "translit": "negah dāštan",
+          "meaning": "to keep, maintain; to hold",
+          "tags": [],           // [] | ["proper"] | ["bound-morpheme"]
+          "pres_stem": {        // null for non-verbs
+            "fa": "نگه دار",
+            "translit": "negah dār-"
+          },
+          "warning": null,      // markdown string for ⚠️ note, or null
+          "etym": null,
+          "family": null,
+          // "forms" is an ordered array. Each element is one of:
+          //   {"fa": "surface", "translit": "...", "desc": "..."}
+          //     — a registerable surface form; "fa" is the vocab-map lookup key;
+          //       "translit" and "desc" are optional
+          //   {"note": "..."}
+          //     — free prose note (no vocab-map registration)
+          "forms": [
+            {
+              "fa": "نگه دارند",
+              "translit": "negah dār-and",
+              "desc": "3pl sbjv."
+            },
+            {
+              "fa": "نگه داشت",
+              "translit": "negah dāšt",
+              "desc": "past 3sg"
+            }
+          ]
+        },
+
+        // --- variant entry (archaic/surface form, not a citation-form lemma) ---
+        {
+          "type": "variant",
+          "persian": "گفتا",
+          "translit": "goftā",
+          "meaning": "archaic narrative past of `گفتن`; see [Grammar: Narrative -ā](#grammar-narrative-a)"
+        },
+
+        // --- grammar note ---
+        {
+          "type": "grammar-note",
+          "title": "Grammar: `ای کاش` + imperfect — wishing construction",
+          "body": "`ای کاش` introduces an unfulfilled wish. The verb takes the **past imperfect**.",
+          "examples": [
+            {
+              "ref": "Verse 9",
+              "ref_anchor": "verse-9",
+              "persian": "ای کاش تو هم می توانستی",
+              "translit": "ey kāš to ham mī-tavānestī",
+              "en": "O that thou mightest…"
+            }
+          ],
+          "closing": "Optional prose after the last example."
+        },
+
+        // --- no new lemmas marker ---
+        {
+          "type": "no-new-lemmas"
+        }
+      ]
+    }
+  ]
+}
+```
+
+**`می`/`نمی` convention**: do **not** create a headword entry for `می` or `نمی`. The imperfective prefix is treated as part of the verb it modifies. In source text rendering, when a `می`/`نمی` token is followed by a verb token that has a vocab entry, both are wrapped in a single `<a>` link to the verb's anchor. In `forms` entries, write `می` and the verb stem together in one backtick group: `` `می بیند` `` (not `` `می` `بیند` ``).
+
+---
 
 ## Study guide conventions
 
@@ -244,13 +401,13 @@ The full transliteration table, pronunciation notes, and diphthong guide live in
   - **Negative verb forms** — `نداشتند`, `نبرد`, `نخواستند` are not auto-derived from the positive form. List them in `*Forms*` with their negation noted.
   - **Comparative suffix `-تر`** — `نزدیکتر`, `بیشتر`, etc. are not auto-resolved from the adjective. Add as `` `نزدیکتر` _nazdīk-tar_ "nearer" `` in `*Forms*`.
   - **Subjunctive 3pl `-اند`** — `شوند`, `بدانند`, etc. won't match the infinitive headword. List them when they appear.
-  - **`می` and `نمی` as standalone tokens** — the publisher writes the imperfective prefix with a space before the verb stem (`می بَرد`, `نمی گفت`), making `می` a separate whitespace-delimited token. Give `می` its own headword entry; include `نمی` in its `*Forms*`.
+  - **`می` and `نمی` as standalone tokens** — the publisher writes the imperfective prefix with a space before the verb stem (`می بَرد`, `نمی گفت`), making `می` a separate whitespace-delimited token. Do **not** give `می` or `نمی` their own headword entries — they are part of the verb. The renderer automatically wraps `می`/`نمی` + the following verb token as one `<a>` link to the verb's anchor. In `*Forms*` sub-bullets, write them together in a single backtick group: `` `می بَرد` `` (not `` `می` `بَرد` ``).
 
   **Multi-word (bigram) linking.** `render.py` tries a two-token bigram lookup before falling back to a single-token lookup. When two consecutive Persian tokens separated by a single space match a `*Forms*` entry (or headword) that contains a space — e.g. `` `نگه دارند` `` registered under `**نگه داشتن**`, or `` `دریای سرخ` `` registered under `**دریا**` — both tokens are wrapped in a single `<a>` link to the headword anchor. This means: **for compound verbs and fixed multi-word phrases, list the relevant surface forms as backtick tokens in `*Forms*` even when they contain a space**, and the linker will handle them as a unit. Bigrams take priority over single-token matches, so if `` `نگه دارند` `` is registered, `نگه` and `دارند` will not be linked individually.
 
   **Unlinked-word warnings.** After `build_site.py`, `render.py` emits `unlinked:` warnings to stderr for any source-text token it could not map to a vocab entry, with a count and the section names where each unlinked token appears (e.g. `ch2.md: unlinked: کرانۀ — Verse 5`). Treat every warning as a missing `*Forms*` backtick entry or missing headword and fix before pushing.
 
-  **Multi-tense stacking**: a single `*Forms*` line may list several tense/mood/person forms separated by semicolons, in order: morphophonological note first (if any), then present, then past, then imperfect, then past participle. Each form cites the verse where it first appears: `3sg pres. \`می\` \`آید\` ([verse 9](#verse-9)); past \`آمد\` āmad`.
+  **Multi-tense stacking**: a single `*Forms*` line may list several tense/mood/person forms separated by semicolons, in order: morphophonological note first (if any), then present, then past, then imperfect, then past participle. Each form cites the verse where it first appears: `3sg pres. \`می آید\` mī-āyad ([verse 9](#verse-9)); past \`آمد\` āmad`.
 
   **Correlative patterns**: for words used in fixed paired constructions, document with ellipses: `` _Forms_: correlative `هم … هم …` "both … and …". ``
 

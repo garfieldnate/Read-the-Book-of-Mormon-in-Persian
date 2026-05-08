@@ -1,0 +1,603 @@
+#!/usr/bin/env python3
+"""Render a chapter study guide from structured JSON data to semantic HTML.
+
+Source data comes from two JSON files per chapter:
+  chN.source.json — pre-tokenized scripture text, interlinear gloss, English translation
+  chN.study.json  — intro prose, vocab entries (headwords, variants), grammar notes
+
+Output is the same HTML structure and CSS classes as render.py, so the same
+stylesheet applies without modification.
+
+Usage:
+    python3 render_json.py <source.json> <study.json> <output.html>
+"""
+from __future__ import annotations
+
+import html as html_lib
+import json
+import re
+import sys
+from pathlib import Path
+
+from render import (
+    DOCUMENT,
+    TOGGLE_BAR_HTML,
+    EZAFE_TOGGLE_BAR_HTML,
+    _inline,
+    _build_example,
+    _render_gloss_line,
+    _slug,
+    _has_ezafe,
+    _PERSIAN_CHAR_RE,
+    _DIACRITICS_RE,
+    _LOOKUP_SUFFIXES,
+)
+
+
+# ---------- prose rendering (multi-paragraph markdown, no source-text blocks) ----------
+
+def _render_prose(text: str, word_map: dict[str, str] | None = None) -> str:
+    """Render a plain-markdown prose string to <p> blocks.
+
+    Splits on blank lines; renders each paragraph via _inline().  Safe for
+    intro/body/closing fields that will never contain source-text lines or
+    grammar fences.
+    """
+    paras = re.split(r"\n{2,}", text.strip())
+    out: list[str] = []
+    for para in paras:
+        if not para.strip():
+            continue
+        rendered = f"<p>{_inline(para.replace(chr(10), ' '), word_map)}</p>"
+        if _has_ezafe(rendered):
+            out.append(EZAFE_TOGGLE_BAR_HTML)
+        out.append(rendered)
+    return "\n".join(out)
+
+
+# Imperfective prefix tokens — linked contextually to the following verb, not as own entries.
+_MI_PREFIX: frozenset[str] = frozenset({"می", "نمی"})
+
+
+# ---------- vocab map construction ----------
+
+def _build_vocab_map_json(study: dict) -> dict[str, str]:
+    """Return {persian_form: anchor_id} from the structured study JSON.
+
+    Registers:
+      - each headword's `persian` and `id` fields
+      - every `fa` token in each headword's `forms` array
+      - each variant entry's `persian` under a gram- anchor
+    Also stores diacritic-stripped duplicates as fallback lookups.
+    """
+    word_map: dict[str, str] = {}
+
+    def _register(form: str, anchor: str) -> None:
+        if form in word_map:
+            return
+        word_map[form] = anchor
+        clean = _DIACRITICS_RE.sub("", form)
+        if clean != form and clean not in word_map:
+            word_map[clean] = anchor
+
+    # Pass 1: register headword and variant anchors so they can't be shadowed
+    # by compound-form splits in pass 2.
+    for section in study.get("sections", []):
+        for entry in section.get("entries", []):
+            etype = entry.get("type")
+            if etype == "headword":
+                persian = entry["persian"]
+                entry_id = entry.get("id") or persian.replace(" ", "_")
+                anchor = f"vocab-{entry_id}"
+                _register(persian, anchor)
+                if entry_id != persian:
+                    _register(entry_id, anchor)
+            elif etype == "variant":
+                _register(entry["persian"], f"gram-{entry['persian']}")
+
+    # Pass 2: register form tokens (including split components of compound forms).
+    # Headwords from pass 1 already hold their slots, so first-wins is safe.
+    for section in study.get("sections", []):
+        for entry in section.get("entries", []):
+            if entry.get("type") == "headword":
+                entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
+                anchor = f"vocab-{entry_id}"
+                for form in entry.get("forms") or []:
+                    fa = form.get("fa")
+                    if fa and _PERSIAN_CHAR_RE.search(fa):
+                        _register(fa, anchor)
+                        if " " in fa:
+                            for tok in fa.split():
+                                if tok and tok not in _MI_PREFIX and _PERSIAN_CHAR_RE.search(tok):
+                                    _register(tok, anchor)
+
+    return word_map
+
+
+# ---------- source token rendering ----------
+
+def _resolve_anchor(lookup_key: str, word_map: dict[str, str]) -> str | None:
+    """Resolve a Persian token to a vocab-map anchor, with fallback suffix stripping."""
+    anchor = word_map.get(lookup_key)
+    if anchor is None:
+        clean = _DIACRITICS_RE.sub("", lookup_key)
+        if clean != lookup_key:
+            anchor = word_map.get(clean)
+        if anchor is None:
+            for suffix in _LOOKUP_SUFFIXES:
+                if clean.endswith(suffix) and len(clean) - len(suffix) >= 2:
+                    stem = clean[: -len(suffix)]
+                    if stem in word_map:
+                        return word_map[stem]
+    return anchor
+
+
+def _render_tokens(
+    tokens: list[dict],
+    word_map: dict[str, str],
+    unlinked: list[tuple[str, str]] | None = None,
+    location: str = "",
+) -> str:
+    """Render a source-JSON tokens array to linked HTML.
+
+    Token types:
+      {"fa": "...", "lemma"?: "...", "e"?: true}  — Persian word or compound
+      {"p": "..."}                                 — punctuation (no link, no leading space)
+
+    می/نمی prefix tokens are combined with the immediately following verb token
+    into a single <a> link so they read as one unit rather than two separate links.
+    """
+    result: list[str] = []
+    prev_was_word = False
+    tok_list = list(tokens)
+    i = 0
+
+    while i < len(tok_list):
+        tok = tok_list[i]
+        if "fa" in tok:
+            fa = tok["fa"]
+            lookup_key = tok.get("lemma") or fa
+
+            if prev_was_word:
+                result.append(" ")
+
+            # می/نمی prefix: combine with the next verb token as one linked unit.
+            if fa in _MI_PREFIX and i + 1 < len(tok_list) and "fa" in tok_list[i + 1]:
+                next_tok = tok_list[i + 1]
+                next_fa = next_tok["fa"]
+                next_lookup = next_tok.get("lemma") or next_fa
+                next_anchor = _resolve_anchor(next_lookup, word_map)
+                if next_anchor is None and next_lookup != next_fa:
+                    next_anchor = _resolve_anchor(next_fa, word_map)
+                if next_anchor:
+                    combined = f'{html_lib.escape(fa)} {html_lib.escape(next_fa)}'
+                    result.append(f'<a href="#{next_anchor}" class="src-link">{combined}</a>')
+                    if next_tok.get("e"):
+                        result.append('<span class="ezafe">ِ</span>')
+                    prev_was_word = True
+                    i += 2
+                    continue
+                # Next token has no anchor — fall through and render می unlinked below
+
+            # Normal token: look up in vocab map with suffix-stripping fallback
+            anchor = _resolve_anchor(lookup_key, word_map)
+            if anchor is None and lookup_key != fa:
+                anchor = _resolve_anchor(fa, word_map)
+
+            fa_html = html_lib.escape(fa)
+            if anchor:
+                result.append(f'<a href="#{anchor}" class="src-link">{fa_html}</a>')
+            else:
+                result.append(fa_html)
+                if unlinked is not None:
+                    unlinked.append((fa, location))
+
+            if tok.get("e"):
+                result.append('<span class="ezafe">ِ</span>')
+
+            prev_was_word = True
+
+        elif "p" in tok:
+            result.append(html_lib.escape(tok["p"]))
+            prev_was_word = False
+
+        i += 1
+
+    return "".join(result)
+
+
+# ---------- gloss rendering ----------
+
+def _render_gloss_from_tokens(tokens: list[dict]) -> str:
+    """Render interlinear gloss from gloss sub-objects embedded in token objects."""
+    pairs = [t["gloss"] for t in tokens if "fa" in t and "gloss" in t]
+    if not pairs:
+        return ""
+    flat = " ".join(f"{g['src']}|{g['gloss']}" for g in pairs)
+    return _render_gloss_line(flat)
+
+
+# ---------- section heading helpers ----------
+
+_BOOK_SUMMARY_TYPES = frozenset({
+    "book-summary-title", "book-summary-subtitle", "book-summary-sentence"
+})
+
+
+def _section_type(sec: dict) -> str:
+    return sec.get("type") or sec.get("section_type", "")
+
+
+def _section_heading(sec: dict) -> tuple[int, str, str]:
+    """Return (html_level, heading_text, anchor_id) for a section."""
+    t = _section_type(sec)
+    n = sec.get("number")
+    if t == "chapter-summary":
+        return 3, "Chapter summary", "chapter-summary"
+    if t == "verse":
+        return 3, f"Verse {n}", f"verse-{n}"
+    if t == "book-summary-title":
+        return 4, "Title", "title"
+    if t == "book-summary-subtitle":
+        return 4, "Subtitle", "subtitle"
+    if t == "book-summary-sentence":
+        return 4, f"Sentence {n}", f"sentence-{n}"
+    return 3, t.replace("-", " ").title(), _slug(t)
+
+
+# ---------- forms rendering ----------
+
+def _render_forms_html(forms: list[dict], anchor: str, word_map: dict[str, str]) -> str:
+    """Build the inner HTML for a _Forms_ sub-bullet from a structured forms array."""
+    parts: list[str] = []
+    for form in forms:
+        if "note" in form:
+            parts.append(_inline(form["note"], word_map))
+        else:
+            fa   = form.get("fa", "")
+            desc = form.get("desc", "")
+            # Migration-style: desc already contains the fa in backticks — just render desc
+            # so the Persian form is not prepended twice.
+            fa_in_desc = fa and (
+                f"`{fa}`" in desc or
+                any(f"`{t}`" in desc for t in fa.split() if t)
+            )
+            if fa_in_desc:
+                parts.append(_inline(desc, word_map))
+            else:
+                translit = form.get("translit")
+                fa_html  = html_lib.escape(fa)
+                linked   = f'<a href="#{anchor}" class="src-link"><code>{fa_html}</code></a>'
+                seg      = linked
+                if translit:
+                    seg += f' <em class="translit">{html_lib.escape(translit)}</em>'
+                if desc:
+                    seg += " " + _inline(desc, word_map)
+                parts.append(seg)
+    return "; ".join(parts)
+
+
+# ---------- entry rendering ----------
+
+def _render_headword_entry(entry: dict, word_map: dict[str, str]) -> str:
+    persian = entry["persian"]
+    translit = entry.get("translit", "")
+    meaning = entry.get("meaning", "")
+    tags = entry.get("tags") or []
+    pres_stem = entry.get("pres_stem")
+    entry_id = entry.get("id") or persian.replace(" ", "_")
+    anchor = f"vocab-{entry_id}"
+
+    # Headword line:  Persian — translit [(pres. stem)] — meaning [tags]
+    line: list[str] = [f'<strong class="persian">{html_lib.escape(persian)}</strong>']
+
+    for tag in tags:
+        if tag == "bound-morpheme":
+            line.append(f' <span class="proper">[bound morpheme]</span>')
+
+    line.append(" — ")
+
+    tr_html = f'<em class="translit">{_inline(translit, {})}</em>'
+    if pres_stem and pres_stem.get("translit"):
+        ps_tr = html_lib.escape(pres_stem["translit"])
+        ps_fa = pres_stem.get("fa")
+        if ps_fa:
+            pres_html = (
+                f'<em class="translit">{html_lib.escape(ps_fa)}</em>'
+                f' (<em class="translit">{ps_tr}</em>)'
+            )
+        else:
+            pres_html = f'<em class="translit">{ps_tr}</em>'
+        line.append(f"{tr_html} (pres. {pres_html})")
+    else:
+        line.append(tr_html)
+
+    for tag in tags:
+        if tag == "proper":
+            line.append(' <span class="proper">[proper]</span>')
+
+    line.append(f" — {_inline(meaning, word_map)}")
+
+    headword_html = "".join(line)
+
+    # Meta sub-bullets
+    meta: list[str] = []
+
+    warning = entry.get("warning")
+    if warning:
+        meta.append(
+            f'<li class="vocab-meta-other">⚠️ {_inline(warning, word_map)}</li>'
+        )
+
+    etym = entry.get("etym")
+    if etym:
+        meta.append(
+            f'<li class="vocab-etym">'
+            f'<span class="meta-label">Etym</span>: {_inline(etym, word_map)}'
+            f'</li>'
+        )
+
+    family = entry.get("family")
+    if family:
+        meta.append(
+            f'<li class="vocab-family">'
+            f'<span class="meta-label">Family</span>: {_inline(family, word_map)}'
+            f'</li>'
+        )
+
+    forms = entry.get("forms")
+    if forms:
+        forms_html = _render_forms_html(forms, anchor, word_map)
+        meta.append(
+            f'<li class="vocab-forms">'
+            f'<span class="meta-label">Forms</span>: {forms_html}'
+            f'</li>'
+        )
+
+    li_inner = headword_html
+    if meta:
+        li_inner += '\n<ul class="vocab-meta">\n' + "\n".join(meta) + "\n</ul>"
+
+    return f'<li class="vocab-entry" id="{anchor}">{li_inner}</li>'
+
+
+def _render_variant_entry(entry: dict, word_map: dict[str, str]) -> str:
+    persian = entry["persian"]
+    translit = entry.get("translit", "")
+    meaning = entry.get("meaning", "")
+    inner = f'<code>{html_lib.escape(persian)}</code>'
+    if translit:
+        inner += f' (<em class="translit">{html_lib.escape(translit)}</em>)'
+    inner += f' — {_inline(meaning, word_map)}'
+    return f'<li id="gram-{html_lib.escape(persian)}">{inner}</li>'
+
+
+def _render_grammar_note(entry: dict, word_map: dict[str, str]) -> str:
+    title_raw = entry.get("title", "")
+    title_html = _inline(title_raw, word_map)
+    slug = _slug(title_raw)
+    body = entry.get("body", "")
+    examples = entry.get("examples") or []
+    closing = entry.get("closing", "")
+
+    parts: list[str] = [
+        f'<div class="grammar-note-block">',
+        f'<h4 class="grammar-note" id="{slug}">{title_html}</h4>',
+    ]
+
+    if body:
+        parts.append(_render_prose(body, word_map))
+
+    for ex in examples:
+        ref = ex.get("ref", "")
+        ref_anchor = ex.get("ref_anchor", "")
+        persian = ex.get("persian", "")
+        translit = ex.get("translit", "")
+        en_text = ex.get("en", "")
+
+        ref_link = (
+            f'<a href="#{html_lib.escape(ref_anchor)}">{html_lib.escape(ref)}</a>'
+            if ref_anchor else html_lib.escape(ref)
+        )
+        persian_esc = html_lib.escape(persian).replace("{e}", '<span class="ezafe">ِ</span>')
+        fa_line = f'{ref_link}: <code>{persian_esc}</code>'
+        tr_line = f'<em>{html_lib.escape(translit)}</em>'
+        en_line = _inline(en_text, word_map)
+        ex_lines = [fa_line, tr_line] + ([en_line] if en_line else [])
+        parts.append(_build_example(ex_lines))
+
+    if closing:
+        parts.append(_render_prose(closing, word_map))
+
+    parts.append("</div>")
+    return "\n".join(parts)
+
+
+def _render_entries(entries: list[dict], word_map: dict[str, str]) -> str:
+    """Render all entries for a section, flushing vocab <ul> around grammar notes."""
+    if not entries:
+        return ""
+
+    parts: list[str] = []
+    vocab_buf: list[str] = []
+
+    def _flush() -> None:
+        if vocab_buf:
+            parts.append('<ul class="vocab">\n' + "\n".join(vocab_buf) + "\n</ul>")
+            vocab_buf.clear()
+
+    for entry in entries:
+        etype = entry.get("type")
+        if etype == "headword":
+            vocab_buf.append(_render_headword_entry(entry, word_map))
+        elif etype == "variant":
+            vocab_buf.append(_render_variant_entry(entry, word_map))
+        elif etype == "no-new-lemmas":
+            _flush()
+            parts.append(
+                "<p><em>No new lemmas — every word in this section "
+                "has already been introduced.</em></p>"
+            )
+        elif etype == "grammar-note":
+            _flush()
+            parts.append(_render_grammar_note(entry, word_map))
+
+    _flush()
+    return "\n".join(parts)
+
+
+# ---------- section rendering ----------
+
+def _render_section(
+    source_sec: dict,
+    study_sec: dict | None,
+    word_map: dict[str, str],
+    unlinked: list[tuple[str, str]] | None,
+) -> str:
+    level, heading_text, heading_id = _section_heading(source_sec)
+    location = heading_text
+
+    parts: list[str] = [
+        f'<h{level} id="{heading_id}">{html_lib.escape(heading_text)}</h{level}>'
+    ]
+
+    tokens = source_sec.get("tokens")
+    if tokens is not None:
+        tokens_html = _render_tokens(tokens, word_map, unlinked, location)
+        parts.append(TOGGLE_BAR_HTML)
+        parts.append(f'<p class="source-text"><code>{tokens_html}</code></p>')
+
+    if tokens and any("gloss" in t for t in tokens if "fa" in t):
+        parts.append(_render_gloss_from_tokens(tokens))
+
+    en = source_sec.get("en")
+    if en:
+        parts.append(f'<div class="translation translation-en">{_inline(en, word_map)}</div>')
+
+    if study_sec is not None:
+        entries_html = _render_entries(study_sec.get("entries") or [], word_map)
+        if entries_html:
+            parts.append(entries_html)
+
+    return "\n".join(parts)
+
+
+# ---------- main renderer ----------
+
+def render_chapter(
+    source: dict,
+    study: dict,
+    css_href: str = "../styles.css",
+    source_name: str = "",
+    prev: tuple[str, str] | None = None,
+    next: tuple[str, str] | None = None,
+) -> str:
+    """Render chapter source + study JSON to a complete HTML document string."""
+    word_map = _build_vocab_map_json(study)
+    unlinked: list[tuple[str, str]] = []
+
+    book = study.get("book", "")
+    chapter = study.get("chapter", "")
+    title = f"{book} {chapter} — Persian Study Guide" if book and chapter else "Persian Study Guide"
+    title_slug = _slug(title)
+
+    # Index study sections by (type, number) for O(1) lookup
+    study_index: dict[tuple[str, int | None], dict] = {}
+    for s in study.get("sections", []):
+        key = (_section_type(s), s.get("number"))
+        study_index[key] = s
+
+    body_parts: list[str] = [f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>']
+
+    intro = re.sub(r"^#{1,3}\s+intro\s*\n?", "", study.get("intro", ""), flags=re.IGNORECASE).strip()
+    if intro:
+        body_parts.append('<h2 id="intro">Intro</h2>')
+        body_parts.append(_render_prose(intro, word_map))
+        body_parts.append("<hr>")
+
+    body_parts.append('<h2 id="vocabulary">Vocabulary</h2>')
+
+    vocab_intro = study.get("vocab_intro", "")
+    if vocab_intro:
+        body_parts.append(_render_prose(vocab_intro, word_map=None))
+
+    book_summary_emitted = False
+    for source_sec in source.get("sections", []):
+        t = _section_type(source_sec)
+        n = source_sec.get("number")
+
+        # Emit Book summary H3 heading before the first book-summary-* section
+        if t in _BOOK_SUMMARY_TYPES and not book_summary_emitted:
+            book_summary_emitted = True
+            body_parts.append('<h3 id="book-summary">Book summary</h3>')
+            bs_intro = study.get("book_summary_intro", "")
+            if bs_intro:
+                body_parts.append(_render_prose(bs_intro, word_map=None))
+
+        study_sec = study_index.get((t, n))
+        body_parts.append(_render_section(source_sec, study_sec, word_map, unlinked))
+
+    closing = study.get("closing", "")
+    if closing:
+        body_parts.append("<hr>")
+        body_parts.append('<h2 id="a-final-note-on-reading-strategy">A final note on reading strategy</h2>')
+        body_parts.append(_render_prose(closing, word_map))
+
+    body = "\n".join(body_parts)
+
+    if unlinked:
+        word_locs: dict[str, list[str]] = {}
+        for word, loc in unlinked:
+            word_locs.setdefault(word, []).append(loc)
+        label = f"{source_name}: " if source_name else ""
+        for word in sorted(word_locs, key=lambda w: -len(word_locs[w])):
+            locs = word_locs[word]
+            count_str = f" (×{len(locs)})" if len(locs) > 1 else ""
+            unique_locs = list(dict.fromkeys(locs))
+            loc_str = f" — {', '.join(unique_locs)}" if any(unique_locs) else ""
+            print(f"  {label}unlinked: {word}{count_str}{loc_str}", file=sys.stderr)
+
+    index_href = str(Path(css_href).parent / ".." / "index.html")
+    prev_slot = (
+        f'<a href="{prev[0]}" class="nav-prev">← {html_lib.escape(prev[1])}</a>'
+        if prev else '<span class="nav-spacer"></span>'
+    )
+    next_slot = (
+        f'<a href="{next[0]}" class="nav-next">{html_lib.escape(next[1])} →</a>'
+        if next else '<span class="nav-spacer"></span>'
+    )
+    up_slot = f'<a href="{index_href}" class="nav-up">↑ Study Guides</a>'
+    nav = f'<nav class="up-nav">{prev_slot}{up_slot}{next_slot}</nav>'
+
+    page_stem = Path(source_name).stem if source_name else ""
+    body_class = f' class="page-{page_stem}"' if page_stem else ""
+
+    return DOCUMENT.format(
+        title=title,
+        css=css_href,
+        body=body,
+        body_class=body_class,
+        nav=nav,
+    )
+
+
+# ---------- CLI ----------
+
+def main() -> int:
+    if len(sys.argv) != 4:
+        print(
+            f"usage: {sys.argv[0]} <source.json> <study.json> <output.html>",
+            file=sys.stderr,
+        )
+        return 2
+    source = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+    study = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+    out_path = Path(sys.argv[3])
+    html = render_chapter(source, study, source_name=sys.argv[1])
+    out_path.write_text(html, encoding="utf-8")
+    print(f"wrote {out_path} ({len(html):,} bytes)", file=sys.stderr)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
