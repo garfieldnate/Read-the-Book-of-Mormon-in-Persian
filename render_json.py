@@ -500,6 +500,56 @@ def _render_entries(entries: list[dict], word_map: dict[str, str], arabic_href: 
     return "\n".join(parts)
 
 
+# ---------- table of contents ----------
+
+def _build_chapter_toc(source: dict, study: dict) -> str:
+    """Build a <nav class="toc"> for a JSON-rendered chapter.
+
+    Top-level items: Intro (if present), Vocabulary, closing note (if present).
+    Vocabulary children: one item per source section, with book-summary-*
+    sections collapsed into a single "Book summary" entry.
+    """
+    items: list[str] = []
+
+    if study.get("intro", "").strip():
+        items.append('<li><a href="#intro">Intro</a></li>')
+
+    vocab_children: list[str] = []
+    book_summary_added = False
+    for sec in source.get("sections", []):
+        t = _section_type(sec)
+        if t in _BOOK_SUMMARY_TYPES:
+            if not book_summary_added:
+                book_summary_added = True
+                vocab_children.append('<li><a href="#book-summary">Book summary</a></li>')
+        else:
+            _, heading_text, heading_id = _section_heading(sec)
+            vocab_children.append(
+                f'<li><a href="#{heading_id}">{html_lib.escape(heading_text)}</a></li>'
+            )
+
+    if vocab_children:
+        children_html = "".join(vocab_children)
+        items.append(
+            f'<li><a href="#vocabulary-and-grammar">Vocabulary and Grammar</a>'
+            f'<ul>{children_html}</ul></li>'
+        )
+    else:
+        items.append('<li><a href="#vocabulary-and-grammar">Vocabulary and Grammar</a></li>')
+
+    if study.get("closing", "").strip():
+        items.append(
+            '<li><a href="#a-final-note-on-reading-strategy">'
+            'A final note on reading strategy</a></li>'
+        )
+
+    return (
+        '<nav class="toc"><p class="toc-title">Contents</p><ul>'
+        + "".join(items)
+        + "</ul></nav>"
+    )
+
+
 # ---------- section rendering ----------
 
 def _render_section(
@@ -572,7 +622,10 @@ def render_chapter(
             sec_desc = f"{t} {n}" if n is not None else t
             print(f"  {label}missing study section: {sec_desc}", file=sys.stderr)
 
-    body_parts: list[str] = [f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>']
+    body_parts: list[str] = [
+        f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>',
+        _build_chapter_toc(source, study),
+    ]
 
     intro = re.sub(r"^#{1,3}\s+intro\s*\n?", "", study.get("intro", ""), flags=re.IGNORECASE).strip()
     if intro:
@@ -580,7 +633,7 @@ def render_chapter(
         body_parts.append(_render_prose(intro, word_map))
         body_parts.append("<hr>")
 
-    body_parts.append('<h2 id="vocabulary">Vocabulary</h2>')
+    body_parts.append('<h2 id="vocabulary-and-grammar">Vocabulary and Grammar</h2>')
 
     vocab_intro = study.get("vocab_intro", "")
     if vocab_intro:

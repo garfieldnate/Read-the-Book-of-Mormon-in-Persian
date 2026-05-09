@@ -759,10 +759,19 @@ h4.grammar-note {
   padding-left: 1.2em;
   margin: 0.1em 0 0.2em;
   font-weight: normal;
+  column-count: 3;
+  column-gap: 1.5em;
 }
 .toc > ul > li > ul > li {
   margin: 0.1em 0;
   font-size: 0.94em;
+  break-inside: avoid;
+}
+@media (max-width: 640px) {
+  .toc > ul > li > ul { column-count: 2; }
+}
+@media (max-width: 420px) {
+  .toc > ul > li > ul { column-count: 1; }
 }
 .toc a {
   color: var(--accent);
