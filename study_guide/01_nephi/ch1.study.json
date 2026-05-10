@@ -88,18 +88,19 @@
           "persian": "فرمانروایی",
           "translit": "farmān-ravāyī",
           "meaning": "reign, rule",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to reign"
+            }
+          ],
           "etym": {
             "prose": "`فرمان` + `روا` (← `رفتن`) + `-ی` → \"having one's commands run/effected\"."
           },
-          "family": "`فرمان` _farmān_ \"command, decree\"; `روا` _ravā_ \"current, permitted\" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ \"ruler, sovereign\".",
-          "forms": [
-            {
-              "fa": "فرمانروایی کردن",
-              "desc": "collocation `فرمانروایی کردن` \"to reign\""
-            }
-          ]
+          "family": "`فرمان` _farmān_ \"command, decree\"; `روا` _ravā_ \"current, permitted\" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ \"ruler, sovereign\"."
         },
         {
           "type": "headword",
@@ -329,19 +330,20 @@
           "persian": "شروع",
           "translit": "šorūʿ",
           "meaning": "beginning, start",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to begin"
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root š-r-ʿ \"to set out, undertake\".",
             "arabic_form": "Form IV verbal noun",
             "root": "š-r-ʿ"
-          },
-          "forms": [
-            {
-              "fa": "شروع کردن",
-              "desc": "collocations `شروع کردن` / `شروع نمودن` \"to begin\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -595,6 +597,13 @@
           "meaning": "warning",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to warn"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -606,13 +615,7 @@
           "etym": {
             "prose": "native Persian compound, traditionally analyzed as `هش` (← `هوش`) + `دار` (← `داشتن`) \"alert-holding\"."
           },
-          "family": "`هوش` _hūš_ \"consciousness, alertness, intelligence\"; `داشتن` _dāštan_ \"to hold\" (an entry in this chapter); `هوشیار` _hūšyār_ \"vigilant\".",
-          "forms": [
-            {
-              "fa": "هشدار دادن",
-              "desc": "collocation `هشدار دادن` \"to warn\""
-            }
-          ]
+          "family": "`هوش` _hūš_ \"consciousness, alertness, intelligence\"; `داشتن` _dāštan_ \"to hold\" (an entry in this chapter); `هوشیار` _hūšyār_ \"vigilant\"."
         },
         {
           "type": "headword",
@@ -878,6 +881,13 @@
           "meaning": "prophecy",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to prophesy"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -897,13 +907,7 @@
             "prose": "from Arabic _nubuwwa_, root n-b-ʾ \"to be a prophet\"; cognate with `نبی` _nabī_ \"prophet\".",
             "arabic_form": "Form I verbal noun",
             "root": "n-b-ʾ"
-          },
-          "forms": [
-            {
-              "fa": "نبوّت کردن",
-              "desc": "collocation `نبوّت کردن` \"to prophesy\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -1019,11 +1023,11 @@
           "translit": "būdan (pres. _hast-_ / _bāš-_)",
           "meaning": "to be (3pl _هستند hastand_; past _بود būd_; pp. _بوده būde_; copula _است ast_)",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "هست-",
             "translit": "hast- / bāš-"
           },
-          "tags": [],
           "forms": [
             {
               "fa": "است",
@@ -1614,7 +1618,7 @@
           "persian": "مسافرت",
           "translit": "mosāferat",
           "meaning": "travel, journey",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
           "etym": {
             "prose": "from Arabic, root s-f-r \"to travel\"; verbal-noun pattern _mufāʿalat_.",
@@ -1702,6 +1706,13 @@
           "meaning": "rebellion, uprising",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to rebel"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -1713,13 +1724,7 @@
           "etym": {
             "prose": "`شور` + `-ش` (deverbal nominalizer)."
           },
-          "family": "`شور` _šūr_ \"agitation, fervor, passion\"; `شوریدن` _šūrīdan_ \"to revolt, be in turmoil\".",
-          "forms": [
-            {
-              "fa": "شورش کردن",
-              "desc": "collocation `شورش کردن` \"to rebel\""
-            }
-          ]
+          "family": "`شور` _šūr_ \"agitation, fervor, passion\"; `شوریدن` _šūrīdan_ \"to revolt, be in turmoil\"."
         }
       ]
     },
@@ -2302,18 +2307,19 @@
           "persian": "ستایش",
           "translit": "setāyeš",
           "meaning": "praise",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to praise"
+            }
+          ],
           "etym": {
             "prose": "`ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer)."
           },
-          "family": "`ستودن` _setūdan_ \"to praise\" (verb).",
-          "forms": [
-            {
-              "fa": "ستایش کردن",
-              "desc": "collocation `ستایش کردن` \"to praise\""
-            }
-          ]
+          "family": "`ستودن` _setūdan_ \"to praise\" (verb)."
         },
         {
           "type": "headword",
@@ -2374,6 +2380,13 @@
           "meaning": "prediction, prophecy",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to foretell"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -2385,13 +2398,7 @@
           "etym": {
             "prose": "`پیش` \"before\" + `گویی` (← `گفتن`) \"saying\" → \"fore-telling\"."
           },
-          "family": "`پیش` _pīš_ \"before, ahead\"; `گفتن` _goftan_ \"to say\"; `پیشگو` _pīšgū_ \"foreteller, soothsayer\".",
-          "forms": [
-            {
-              "fa": "پیشگویی کردن",
-              "desc": "collocation `پیشگویی کردن` \"to foretell\""
-            }
-          ]
+          "family": "`پیش` _pīš_ \"before, ahead\"; `گفتن` _goftan_ \"to say\"; `پیشگو` _pīšgū_ \"foreteller, soothsayer\"."
         },
         {
           "type": "headword",
@@ -2401,6 +2408,13 @@
           "meaning": "harm, persecution, torment",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to persecute, to torment"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -2411,13 +2425,7 @@
           },
           "etym": {
             "prose": "native Persian; related to `آزردن` _āzordan_ \"to grieve, hurt\"."
-          },
-          "forms": [
-            {
-              "fa": "آزار دادن",
-              "desc": "collocation `آزار دادن` \"to persecute, to torment\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -3340,19 +3348,20 @@
           "persian": "توبه",
           "translit": "towbe",
           "meaning": "repentance",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to repent"
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root t-w-b \"to turn back, repent\".",
             "arabic_form": "Form I verbal noun",
             "root": "t-w-b"
-          },
-          "forms": [
-            {
-              "fa": "توبه کردن",
-              "desc": "collocation `توبه کردن` \"to repent\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -3466,6 +3475,13 @@
           "meaning": "supplication, prayer",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to pray"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -3477,13 +3493,7 @@
           "etym": {
             "prose": "from `نیایستن` \"to supplicate\" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_)."
           },
-          "family": "`نیایشگاه` _niyāyešgāh_ \"place of worship\".",
-          "forms": [
-            {
-              "fa": "نیایش کردن",
-              "desc": "collocation `نیایش کردن` \"to pray\""
-            }
-          ]
+          "family": "`نیایشگاه` _niyāyešgāh_ \"place of worship\"."
         },
         {
           "type": "headword",
@@ -3697,6 +3707,13 @@
           "meaning": "shake, tremor",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "خوردن",
+              "translit": "xordan",
+              "meaning": "to be shaken"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -3704,13 +3721,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "تکان خوردن",
-              "desc": "collocation `تکان خوردن` \"to be shaken\" (lit. \"to take a shake\")"
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -4196,6 +4207,13 @@
           "meaning": "song, hymn",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "خواندن",
+              "translit": "xāndan",
+              "meaning": "to sing"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -4206,13 +4224,7 @@
           },
           "etym": {
             "prose": "native Persian; from older _srūd-_ \"to sing, recite\"."
-          },
-          "forms": [
-            {
-              "fa": "سرود خواندن",
-              "desc": "collocation `سرود خواندن` \"to sing\""
-            }
-          ]
+          }
         }
       ]
     },
@@ -4638,11 +4650,11 @@
           "translit": "goftan (pres. _gūy-_ / _gū-_)",
           "meaning": "to say (past _گفت goft_; archaic narrative _گفتا goftā_)",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "گو-",
             "translit": "gū-"
           },
-          "tags": [],
           "forms": [
             {
               "fa": "گفت",
@@ -4710,19 +4722,20 @@
           "persian": "هلاک",
           "translit": "halāk",
           "meaning": "perishing, destruction",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "شدن",
+              "translit": "šodan",
+              "meaning": "to perish"
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root h-l-k \"to perish\".",
             "arabic_form": "Form I verbal noun",
             "root": "h-l-k"
-          },
-          "forms": [
-            {
-              "fa": "هلاک شدن",
-              "desc": "collocation `هلاک شدن` \"to perish\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -4858,11 +4871,11 @@
           "translit": "barāvardan",
           "meaning": "to lift up, raise",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "برآور-",
             "translit": "bar-āvar-"
           },
-          "tags": [],
           "forms": [
             {
               "fa": "برآورد",
@@ -5097,18 +5110,19 @@
           "persian": "شادمانی",
           "translit": "šādmānī",
           "meaning": "joy, gladness",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to rejoice"
+            }
+          ],
           "etym": {
             "prose": "`شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ (abstract)."
           },
-          "family": "`شاد` _šād_ \"happy\"; `شادمان` _šādmān_ \"joyful, cheerful\".",
-          "forms": [
-            {
-              "fa": "شادمانی کردن",
-              "desc": "collocation `شادمانی کردن` \"to rejoice\""
-            }
-          ]
+          "family": "`شاد` _šād_ \"happy\"; `شادمان` _šādmān_ \"joyful, cheerful\"."
         },
         {
           "type": "headword",
@@ -5144,6 +5158,13 @@
           "meaning": "sign, mark",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to show"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5151,13 +5172,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "نشان دادن",
-              "desc": "collocation `نشان دادن` \"to show\""
-            }
-          ]
+          }
         }
       ]
     },
@@ -5396,6 +5411,13 @@
           "meaning": "summary, abstract",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to summarize"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5408,13 +5430,7 @@
             "prose": "from Arabic, root x-l-ṣ \"to be pure, free of admixture\".",
             "arabic_form": "Form I verbal noun",
             "root": "x-l-ṣ"
-          },
-          "forms": [
-            {
-              "fa": "خلاصه کردن",
-              "desc": "collocation `خلاصه کردن` \"to summarize\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -5523,6 +5539,13 @@
           "meaning": "announcement, declaration",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to announce"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5535,13 +5558,7 @@
             "prose": "from Arabic, verbal noun (form IV) of _ʿalima_ \"to know\", root ʿ-l-m → \"making [it] known\".",
             "arabic_form": "Form IV verbal noun",
             "root": "ʿ-l-m"
-          },
-          "forms": [
-            {
-              "fa": "اعلام کردن",
-              "desc": "collocation `اعلام کردن` \"to announce\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -5581,6 +5598,13 @@
           "meaning": "testimony",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to testify"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5592,13 +5616,7 @@
           "etym": {
             "prose": "`گواه` + `-ی` (abstract)."
           },
-          "family": "`گواه` _govāh_ \"witness\".",
-          "forms": [
-            {
-              "fa": "گواهی دادن",
-              "desc": "collocation `گواهی دادن` \"to testify\""
-            }
-          ]
+          "family": "`گواه` _govāh_ \"witness\"."
         },
         {
           "type": "headword",
@@ -5608,6 +5626,13 @@
           "meaning": "mockery",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to mock, ridicule"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5620,13 +5645,7 @@
             "prose": "from Arabic _masxara_, root s-x-r \"to scoff, deride\".",
             "arabic_form": "nominal pattern",
             "root": "s-x-r"
-          },
-          "forms": [
-            {
-              "fa": "مسخره کردن",
-              "desc": "collocation `مسخره کردن` \"to mock, ridicule\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -5647,18 +5666,19 @@
           "persian": "بازخرید",
           "translit": "bāzxarīd",
           "meaning": "redemption, buying-back",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "شدن",
+              "translit": "šodan",
+              "meaning": "to be redeemed"
+            }
+          ],
           "etym": {
             "prose": "`باز` + `خرید` (past stem of `خریدن`)."
           },
-          "family": "`باز` _bāz_ \"back, again\"; `خریدن` _xarīdan_ \"to buy\"; `خرید` _xarīd_ \"purchase\".",
-          "forms": [
-            {
-              "fa": "بازخرید شدن",
-              "desc": "collocation `بازخرید شدن` \"to be redeemed\""
-            }
-          ]
+          "family": "`باز` _bāz_ \"back, again\"; `خریدن` _xarīdan_ \"to buy\"; `خرید` _xarīd_ \"purchase\"."
         },
         {
           "type": "headword",
@@ -5738,6 +5758,13 @@
           "meaning": "wrath, anger",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "گرفتن",
+              "translit": "gereftan",
+              "meaning": "to become wrathful"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5745,13 +5772,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "خشم گرفتن",
-              "desc": "collocation `خشم گرفتن` \"to become wrathful\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -5789,18 +5810,19 @@
           "persian": "سنگسار",
           "translit": "sangsār",
           "meaning": "stoning",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to stone"
+            }
+          ],
           "etym": {
             "prose": "`سنگ` _sang_ \"stone\" + `-سار`. The second element is uncertain, possibly a Sogdian directional postposition _-sār_ (meaning roughly \"toward, up to\"). The homophonous native suffix `-سار` _-sār_ meaning \"place of / full of\" (as in `کوهسار` \"mountainous land\") is a separate morpheme."
           },
-          "family": "`سنگ` _sang_ \"stone\".",
-          "forms": [
-            {
-              "fa": "سنگسار کردن",
-              "desc": "collocation `سنگسار کردن` \"to stone\""
-            }
-          ]
+          "family": "`سنگ` _sang_ \"stone\"."
         },
         {
           "type": "headword",
@@ -5828,11 +5850,11 @@
           "translit": "barāmadan",
           "meaning": "to rise up, come forth",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "برآ-",
             "translit": "bar-ā-"
           },
-          "tags": [],
           "forms": [
             {
               "fa": "برآمدند",
@@ -5927,7 +5949,7 @@
           "persian": "ایمان",
           "translit": "īmān",
           "meaning": "faith, belief",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
           "etym": {
             "prose": "from Arabic, root ʾ-m-n \"to be safe, trust\"; verbal noun (form IV) \"to make faithful\".",

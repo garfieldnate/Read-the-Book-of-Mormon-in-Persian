@@ -357,6 +357,45 @@ def _render_plural_line(plural: dict | None, word_map: dict[str, str]) -> str:
     return f'<div class="pl-forms"><span class="pl-label">pl.</span> {forms_html}</div>'
 
 
+def _render_light_verb_line(entry: dict) -> str:
+    """Render the compound-verb line for entries with a `light_verb` field.
+
+    Each element: → [noun + verb]  translit  "meaning"
+    Multiple elements separated by ·.
+    """
+    lvs = entry.get("light_verb")
+    if not lvs:
+        return ""
+    persian_base  = html_lib.escape(entry.get("persian", ""))
+    translit_base = entry.get("translit", "")
+    # Strip any parenthetical pres-stem suffix from translit for the compound
+    translit_base = re.sub(r"\s*\(pres\..*\)\s*$", "", translit_base).strip()
+
+    compounds: list[str] = []
+    for lv in lvs:
+        verb_fa  = html_lib.escape(lv.get("verb", ""))
+        verb_tr  = html_lib.escape(lv.get("translit", ""))
+        meaning  = html_lib.escape(lv.get("meaning", ""))
+        cpd_fa   = f'{persian_base} {verb_fa}'
+        cpd_tr   = f'{html_lib.escape(translit_base)} {verb_tr}' if translit_base else verb_tr
+
+        inner = (
+            f'<span class="persian">{cpd_fa}</span>'
+            f' <em class="translit">{cpd_tr}</em>'
+        )
+        if meaning:
+            inner += f' <span class="lv-meaning">"{meaning}"</span>'
+        compounds.append(f'<span class="lv-compound">{inner}</span>')
+
+    sep = ' <span class="lv-sep">·</span> '
+    return (
+        f'<div class="lv-forms">'
+        f'<span class="lv-arrow">→</span> '
+        f'{sep.join(compounds)}'
+        f'</div>'
+    )
+
+
 def _render_arabic_form_tag(arabic_form: str, arabic_href: str) -> str:
     anchor = _ARABIC_FORM_ANCHORS.get(arabic_form, "pattern-reference")
     label = html_lib.escape(arabic_form)
@@ -460,8 +499,11 @@ def _render_headword_entry(entry: dict, word_map: dict[str, str], arabic_href: s
             f'</li>'
         )
 
+    lv_html = _render_light_verb_line(entry)
     plural_html = _render_plural_line(entry.get("plural"), word_map)
     li_inner = headword_html
+    if lv_html:
+        li_inner += "\n" + lv_html
     if plural_html:
         li_inner += "\n" + plural_html
     if meta:
@@ -754,7 +796,7 @@ def render_chapter(
                 print(f"  {label}headword missing pos: {persian}", file=sys.stderr)
             elif pos == "verb" and not entry.get("pres_stem"):
                 print(f"  {label}verb missing pres_stem: {persian}", file=sys.stderr)
-            elif pos == "noun" and not entry.get("plural"):
+            elif pos == "noun" and not entry.get("plural") and not entry.get("light_verb"):
                 print(f"  {label}noun missing plural: {persian}", file=sys.stderr)
 
     index_href = str(Path(css_href).parent / ".." / "index.html")

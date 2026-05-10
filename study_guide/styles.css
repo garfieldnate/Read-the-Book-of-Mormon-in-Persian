@@ -280,6 +280,33 @@ hr {
   opacity: 0.75;
 }
 
+/* --------- light verb (compound verb) line --------- */
+
+.lv-forms {
+  margin: 0.2em 0 0.15em;
+  font-size: 0.88em;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25em 0.6em;
+}
+.lv-arrow {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.9em;
+}
+.lv-compound {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+.lv-meaning {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+.lv-sep { color: var(--rule); }
+
 /* --------- grammar example block --------- */
 
 .example {

@@ -514,6 +514,13 @@
           "meaning": "tribute, gift, offering (presented to a superior)",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to offer, present as tribute."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -524,13 +531,7 @@
           },
           "etym": {
             "prose": "`پیش` \"before, forward\" + `کش` (← pres. stem of `کشیدن` \"to pull/draw\") → \"something drawn forward.\""
-          },
-          "forms": [
-            {
-              "fa": "پیشکش کردن",
-              "desc": "`پیشکش کردن` \"to offer, present as tribute.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -689,6 +690,13 @@
           "meaning": "command, order, decree",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to command, issue a command."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -704,13 +712,7 @@
               }
             ]
           },
-          "family": "`فرمانروایی` _farmān-ravāyī_ \"reign\" (below); `فرمانروا` _farmān-ravā_ \"ruler\" [verse 22](#verse-22); `فرمانبردار` _farmānbardār_ \"obedient.\"",
-          "forms": [
-            {
-              "fa": "فرمان دادن",
-              "desc": "`فرمان دادن` \"to command, issue a command.\""
-            }
-          ]
+          "family": "`فرمانروایی` _farmān-ravāyī_ \"reign\" (below); `فرمانروا` _farmān-ravā_ \"ruler\" [verse 22](#verse-22); `فرمانبردار` _farmānbardār_ \"obedient.\""
         },
         {
           "type": "headword",
@@ -846,12 +848,13 @@
           "persian": "غرولند",
           "translit": "qorolond",
           "meaning": "murmuring, grumbling",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
-          "forms": [
+          "light_verb": [
             {
-              "fa": "غرولند کردن",
-              "desc": "`غرولند کردن` \"to murmur, grumble.\""
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to murmur, grumble."
             }
           ]
         },
@@ -900,11 +903,11 @@
           "translit": "būdan (pres. _hast-_ / _bāš-_)",
           "meaning": "to be",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "هست-",
             "translit": "hast- / bāš-"
           },
-          "tags": [],
           "forms": [
             {
               "fa": "است",
@@ -962,8 +965,15 @@
           "persian": "ایمان",
           "translit": "īmān",
           "meaning": "faith, belief",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "آوردن",
+              "translit": "āvardan",
+              "meaning": "to believe, come to faith"
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root ʾ-m-n \"to be secure, to trust\"; verbal noun Form IV.",
             "arabic_form": "Form IV verbal noun",
@@ -973,10 +983,6 @@
             {
               "fa": "با ایمان",
               "desc": "`با ایمان` \"with faith, faithfully\""
-            },
-            {
-              "fa": "ایمان آوردن",
-              "desc": "`ایمان آوردن` \"to believe, come to faith\" [verse 16](#verse-16)"
             }
           ]
         },
@@ -997,6 +1003,13 @@
           "meaning": "prayer, supplication",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to pray, supplicate."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -1004,13 +1017,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "نیایش کردن",
-              "desc": "`نیایش کردن` \"to pray, supplicate.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -1253,18 +1260,19 @@
           "persian": "فرمانروایی",
           "translit": "farmān-ravāyī",
           "meaning": "reign, rule, sovereignty",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to reign."
+            }
+          ],
           "etym": {
             "prose": "`فرمان` \"command\" + `روا` (← pres. stem of `رفتن`) + `-ی` → \"having one's commands effected.\""
           },
-          "family": "`فرمان` _farmān_ \"command\"; `فرمانروا` _farmān-ravā_ \"ruler, sovereign\" [verse 22](#verse-22).",
-          "forms": [
-            {
-              "fa": "فرمانروایی کردن",
-              "desc": "`فرمانروایی کردن` \"to reign.\""
-            }
-          ]
+          "family": "`فرمان` _farmān_ \"command\"; `فرمانروا` _farmān-ravā_ \"ruler, sovereign\" [verse 22](#verse-22)."
         },
         {
           "type": "headword",
@@ -1641,12 +1649,13 @@
           "persian": "انجام",
           "translit": "anjām",
           "meaning": "completion, fulfilment; accomplishment",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
-          "forms": [
+          "light_verb": [
             {
-              "fa": "انجام دادن",
-              "desc": "`انجام دادن` \"to carry out, accomplish, perform.\""
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to carry out, accomplish, perform."
             }
           ]
         },
@@ -1693,6 +1702,13 @@
           "meaning": "announcement, proclamation",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to announce, proclaim."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -1705,13 +1721,7 @@
             "prose": "from Arabic, root ʿ-l-m \"to know\"; verbal noun of Form IV.",
             "arabic_form": "Form IV verbal noun",
             "root": "ʿ-l-m"
-          },
-          "forms": [
-            {
-              "fa": "اعلام کردن",
-              "desc": "`اعلام کردن` / `اعلام نمودن` \"to announce, proclaim.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -1824,6 +1834,18 @@
           "meaning": "soul, life, spirit; dear (affectionate address)",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "گرفتن",
+              "translit": "gereftan",
+              "meaning": "to take away someone's life"
+            },
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to give up one's life."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -1831,17 +1853,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "جان گرفتن",
-              "desc": "`جان گرفتن` \"to take away someone's life\" [verse 1]"
-            },
-            {
-              "fa": "جان دادن",
-              "desc": "`جان دادن` \"to give up one's life.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -2149,19 +2161,20 @@
           "persian": "ترک",
           "translit": "tark",
           "meaning": "abandonment, leaving",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to leave, abandon, forsake."
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root t-r-k \"to leave, abandon\".",
             "arabic_form": "Form I verbal noun",
             "root": "t-r-k"
-          },
-          "forms": [
-            {
-              "fa": "ترک کردن",
-              "desc": "`ترک کردن` \"to leave, abandon, forsake.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -2482,19 +2495,20 @@
           "persian": "مسافرت",
           "translit": "mosāferat",
           "meaning": "journey, travel",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to travel, journey."
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root s-f-r \"to travel\"; verbal-noun pattern _mufāʿalat_.",
             "arabic_form": "Form III verbal noun",
             "root": "s-f-r"
-          },
-          "forms": [
-            {
-              "fa": "مسافرت کردن",
-              "desc": "`مسافرت کردن` \"to travel, journey.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -2852,17 +2866,18 @@
           "persian": "سپاسگزاری",
           "translit": "sepāsgozārī",
           "meaning": "gratitude, thanksgiving; giving thanks",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to give thanks, express gratitude."
+            }
+          ],
           "etym": {
             "prose": "`سپاس` \"thanks, gratitude\" + `گزار` (← `گذاشتن` \"to place\") + `-ی` → \"the placing/laying down of thanks.\""
-          },
-          "forms": [
-            {
-              "fa": "سپاسگزاری کردن",
-              "desc": "`سپاسگزاری کردن` \"to give thanks, express gratitude.\""
-            }
-          ]
+          }
         }
       ]
     },
@@ -2887,6 +2902,13 @@
           "meaning": "name",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "گذاشتن",
+              "translit": "gozāštan",
+              "meaning": "to name, call by name."
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -2894,13 +2916,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "نام گذاشتن",
-              "desc": "`نام گذاشتن` / `نام خواندن` \"to name, call by name.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -3551,17 +3567,18 @@
           "persian": "راهنمایی",
           "translit": "rāhnamāyī",
           "meaning": "guidance, direction, leading",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to guide, lead, direct."
+            }
+          ],
           "etym": {
             "prose": "`راه` \"road\" + `نما` (← `نمودن` \"to show\") + `-ی` → \"the showing of a road, guidance.\""
-          },
-          "forms": [
-            {
-              "fa": "راهنمایی کردن",
-              "desc": "`راهنمایی کردن` \"to guide, lead, direct.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -3569,19 +3586,20 @@
           "persian": "هلاک",
           "translit": "halāk",
           "meaning": "destruction, ruin, perdition",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "شدن",
+              "translit": "šodan",
+              "meaning": "to perish, be destroyed."
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root h-l-k \"to perish\".",
             "arabic_form": "Form I verbal noun",
             "root": "h-l-k"
-          },
-          "forms": [
-            {
-              "fa": "هلاک شدن",
-              "desc": "`هلاک شدن` \"to perish, be destroyed.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -3809,6 +3827,13 @@
           "meaning": "belief, conviction",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to believe"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -3818,10 +3843,6 @@
             ]
           },
           "forms": [
-            {
-              "fa": "باور کردن",
-              "desc": "`باور کردن` \"to believe\""
-            },
             {
               "fa": "باور نکردن",
               "desc": "`باور نکردن` \"to disbelieve, not believe\""
@@ -3998,11 +4019,11 @@
           "translit": "bar-ān šodan",
           "meaning": "to determine, resolve, be set upon (doing something)",
           "pos": "verb",
+          "tags": [],
           "pres_stem": {
             "fa": "برآن شو-",
             "translit": "bar-ān šav-"
           },
-          "tags": [],
           "etym": {
             "prose": "`بر` \"on, upon\" + `آن` \"that\" + `شدن` \"to become\" → \"to become fixed upon that.\""
           },
@@ -4154,6 +4175,13 @@
           "meaning": "shake, jolt, tremor",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "خوردن",
+              "translit": "xordan",
+              "meaning": "to shake, tremble, jolt"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -4161,13 +4189,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "تکان خوردن",
-              "desc": "`تکان خوردن` \"to shake, tremble, jolt\" (lit. \"to receive a shake\")"
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -4226,19 +4248,20 @@
           "persian": "جرأت",
           "translit": "jorʾat",
           "meaning": "courage, boldness, daring",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to dare, venture, have the boldness to."
+            }
+          ],
           "etym": {
             "prose": "from Arabic, root j-r-ʾ \"to dare, venture\".",
             "arabic_form": "Form I verbal noun",
             "root": "j-r-ʾ"
-          },
-          "forms": [
-            {
-              "fa": "جرأت کردن",
-              "desc": "`جرأت کردن` \"to dare, venture, have the boldness to.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -4517,12 +4540,13 @@
           "persian": "زاری",
           "translit": "zārī",
           "meaning": "lamentation, weeping, entreaty; crying out",
-          "pos": "other",
+          "pos": "noun",
           "tags": [],
-          "forms": [
+          "light_verb": [
             {
-              "fa": "زاری کردن",
-              "desc": "`زاری کردن` \"to beseech, implore, cry out (to God).\""
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to beseech, implore, cry out (to God)."
             }
           ]
         },
@@ -4534,6 +4558,13 @@
           "meaning": "meeting, visit; appearance; (in devotional register) divine visit",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to visit, meet; (devotional) to appear to"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -4541,16 +4572,7 @@
                 "translit": "-hā"
               }
             ]
-          },
-          "forms": [
-            {
-              "fa": "دیدار کردن",
-              "desc": "`دیدار کردن` \"to visit, meet"
-            },
-            {
-              "note": "to appear to.\""
-            }
-          ]
+          }
         },
         {
           "type": "headword",
@@ -4619,6 +4641,13 @@
           "meaning": "rebellion, revolt, uprising",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to rebel, revolt"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -4628,10 +4657,6 @@
             ]
           },
           "forms": [
-            {
-              "fa": "شورش کردن",
-              "desc": "`شورش کردن` \"to rebel, revolt\""
-            },
             {
               "fa": "شورش نکردن",
               "desc": "`شورش نکردن` \"not to rebel\" [verse 16]"
@@ -5296,6 +5321,13 @@
           "meaning": "curse, imprecation, malediction",
           "pos": "noun",
           "tags": [],
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to curse"
+            }
+          ],
           "plural": {
             "suffixes": [
               {
@@ -5305,10 +5337,6 @@
             ]
           },
           "forms": [
-            {
-              "fa": "نفرین کردن",
-              "desc": "`نفرین کردن` \"to curse\""
-            },
             {
               "fa": "نفرینی دردناک",
               "desc": "`نفرینی دردناک` \"a grievous/sore curse.\""

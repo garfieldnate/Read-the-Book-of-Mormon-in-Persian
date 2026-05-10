@@ -137,15 +137,50 @@ Holds the annotation. Sections must align with the source JSON by `section_type`
           "persian": "نگه داشتن",
           "translit": "negah dāštan",
           "meaning": "to keep, maintain; to hold",
+          // pos — part of speech; required on every headword entry.
+          // Allowed values: "verb" | "noun" | "adj" | "adv" | "prep" | "conj" |
+          //                 "pron" | "particle" | "num" | "proper" | "other"
+          // Build-time linting fires on stderr when:
+          //   - pos is absent on any headword
+          //   - pos="verb" and pres_stem is absent
+          //   - pos="noun" and plural is absent AND light_verb is absent
+          // Use "other" for abstract/mass nouns, adverbial phrases, interjections,
+          // and anything that doesn't fit a standard POS.
+          "pos": "verb",
           "tags": [],           // [] | ["proper"] | ["bound-morpheme"]
-          "pres_stem": {        // null for non-verbs
+          "pres_stem": {        // present stem; required for pos="verb", null/absent otherwise
             "fa": "نگه دار",
             "translit": "negah dār-"
+          },
+          // light_verb — compound (light verb) constructions built on this noun.
+          // Present only on nouns that function as the pre-verbal element of a
+          // compound verb (e.g. توبه کردن "to repent"). Rendered as a dedicated
+          // line below the headword: → <noun> <light-verb-inf> <translit> "meaning"
+          // Absent on verbs, adjectives, particles, etc.
+          "light_verb": [
+            {
+              "verb": "کردن",       // Persian light-verb infinitive
+              "translit": "kardan", // transliteration of the infinitive
+              "meaning": "to repent"
+            }
+          ],
+          // plural — plural forms of this noun. Required for pos="noun" unless
+          // light_verb is set (verbal nouns are exempt from the plural lint).
+          // suffixes: regular -hā / -ān plurals; broken: Arabic broken plurals.
+          // Per-form "note" is a short inline label; top-level "note" is a longer
+          // markdown explanation rendered as a sub-bullet.
+          "plural": {
+            "suffixes": [
+              {"persian": "نگه‌داشت‌ها", "translit": "-hā"}
+            ],
+            "broken": []
           },
           "warning": null,      // markdown string for ⚠️ note, or null
           // etym is null or an object:
           //   {"prose": "markdown string"}                         — non-Arabic
           //   {"prose": "markdown string", "arabic_form": "..."}  — Arabic borrowing
+          //   {"prose": "...", "arabic_form": "...", "root": "x-y-z"}
+          //     — root triggers an additional lint warning if arabic_form is absent
           // arabic_form is a controlled value from the list below; the renderer
           // appends a colored tag linking to the matching section on arabic.html.
           // Allowed arabic_form values:
@@ -164,6 +199,7 @@ Holds the annotation. Sections must align with the source JSON by `section_type`
           //       "translit" and "desc" are optional
           //   {"note": "..."}
           //     — free prose note (no vocab-map registration)
+          // Do NOT put light-verb constructions here — use "light_verb" instead.
           "forms": [
             {
               "fa": "نگه دارند",
