@@ -6,6 +6,7 @@
 - Add readme instructions to break down the work of a new chapter to avoid huge API return values.
 - Persian alphabet page (also mention Alif maqsura, and how Arabic text can be quickly differentiated by looking for a ye with two dots below it word-finally, which Persian doesn't have).
 - Page on Persian plurals
+- Index of nouns by plural suffix
 - Noun derivation page for native Persian words (e.g., `-i` for adjectives, `-gāh` for places, etc.)
     - https://en.wikipedia.org/wiki/Persian_vocabulary
 	- https://en.wikipedia.org/wiki/Persian_nouns

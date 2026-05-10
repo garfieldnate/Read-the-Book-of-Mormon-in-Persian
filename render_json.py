@@ -313,6 +313,50 @@ def _render_root_tag(root: str) -> str:
     return f'<span class="root-tag">{html_lib.escape(root)}</span>'
 
 
+def _render_plural_line(plural: dict | None, word_map: dict[str, str]) -> str:
+    """Render the pl-forms line from a `plural` entry field.
+
+    Suffix forms are listed first, broken forms second, separated by ·.
+    Returns "" when plural is absent or has no forms.
+    """
+    if not plural:
+        return ""
+    suffixes = plural.get("suffixes") or []
+    broken   = plural.get("broken")   or []
+
+    all_forms: list[str] = []
+
+    for form in suffixes:
+        persian  = html_lib.escape(form.get("persian", ""))
+        translit = html_lib.escape(form.get("translit", ""))
+        note     = form.get("note", "")
+        inner = f'<span class="persian">{persian}</span>'
+        if translit:
+            inner += f' <em class="translit">{translit}</em>'
+        if note:
+            inner += f' <span class="pl-form-note">({html_lib.escape(note)})</span>'
+        all_forms.append(f'<span class="pl-form">{inner}</span>')
+
+    for form in broken:
+        persian  = html_lib.escape(form.get("persian", ""))
+        translit = html_lib.escape(form.get("translit", ""))
+        note     = form.get("note", "")
+        inner = f'<span class="persian">{persian}</span>'
+        if translit:
+            inner += f' <em class="translit">{translit}</em>'
+        inner += ' <span class="pl-broken-label">broken</span>'
+        if note:
+            inner += f' <span class="pl-form-note">({html_lib.escape(note)})</span>'
+        all_forms.append(f'<span class="pl-form pl-broken">{inner}</span>')
+
+    if not all_forms:
+        return ""
+
+    sep = '<span class="pl-sep">·</span>'
+    forms_html = f" {sep} ".join(all_forms)
+    return f'<div class="pl-forms"><span class="pl-label">pl.</span> {forms_html}</div>'
+
+
 def _render_arabic_form_tag(arabic_form: str, arabic_href: str) -> str:
     anchor = _ARABIC_FORM_ANCHORS.get(arabic_form, "pattern-reference")
     label = html_lib.escape(arabic_form)
@@ -408,7 +452,18 @@ def _render_headword_entry(entry: dict, word_map: dict[str, str], arabic_href: s
             f'</li>'
         )
 
+    plural_note = (entry.get("plural") or {}).get("note")
+    if plural_note:
+        meta.append(
+            f'<li class="vocab-plural">'
+            f'<span class="meta-label">Plural</span>: {_inline(plural_note, word_map)}'
+            f'</li>'
+        )
+
+    plural_html = _render_plural_line(entry.get("plural"), word_map)
     li_inner = headword_html
+    if plural_html:
+        li_inner += "\n" + plural_html
     if meta:
         li_inner += '\n<ul class="vocab-meta">\n' + "\n".join(meta) + "\n</ul>"
 
@@ -687,6 +742,20 @@ def render_chapter(
                     f"  {label}root without arabic_form: {persian} — {prose[:60]}",
                     file=sys.stderr,
                 )
+
+    # Lint: POS-driven field requirements
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            pos = entry.get("pos")
+            persian = entry.get("persian", "?")
+            if not pos:
+                print(f"  {label}headword missing pos: {persian}", file=sys.stderr)
+            elif pos == "verb" and not entry.get("pres_stem"):
+                print(f"  {label}verb missing pres_stem: {persian}", file=sys.stderr)
+            elif pos == "noun" and not entry.get("plural"):
+                print(f"  {label}noun missing plural: {persian}", file=sys.stderr)
 
     index_href = str(Path(css_href).parent / ".." / "index.html")
     prev_slot = (

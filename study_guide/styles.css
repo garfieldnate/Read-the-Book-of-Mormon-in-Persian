@@ -248,6 +248,38 @@ hr {
   border: 1px solid rgba(50, 70, 110, 0.18);
 }
 
+.pl-forms {
+  margin: 0.2em 0 0.15em;
+  font-size: 0.88em;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25em 0.5em;
+}
+.pl-label {
+  font-weight: 700;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-right: 0.2em;
+}
+.pl-form {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25em;
+}
+.pl-sep { color: var(--rule); }
+.pl-broken-label {
+  font-size: 0.78em;
+  font-style: italic;
+  opacity: 0.8;
+}
+.pl-form-note {
+  font-size: 0.82em;
+  opacity: 0.75;
+}
+
 /* --------- grammar example block --------- */
 
 .example {
