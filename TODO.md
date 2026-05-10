@@ -12,6 +12,7 @@
 	- https://en.wikipedia.org/wiki/Persian_nouns
 - Mention causative infix on verb page (though it's not completely productive)
 - Index for Arabic borrowings using JSON root info (all words with same root in a section)
+- Nail down styling guide for mixed LTR/RTL
 
 New instructions file for chapter generation:
 * Download source text

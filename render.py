@@ -857,6 +857,21 @@ DOCUMENT = """<!DOCTYPE html>
 </main>
 <script>
 (function () {{
+  // Keep the user's spot if they change their device orientation
+  var _orientationAnchor = null;
+  window.addEventListener('orientationchange', function () {{
+    var candidates = document.querySelectorAll('h2, h3, h4, .vocab-entry, p');
+    for (var i = 0; i < candidates.length; i++) {{
+      var rect = candidates[i].getBoundingClientRect();
+      if (rect.top >= -4) {{ _orientationAnchor = candidates[i]; break; }}
+    }}
+  }});
+  window.addEventListener('resize', function () {{
+    if (_orientationAnchor) {{
+      _orientationAnchor.scrollIntoView();
+      _orientationAnchor = null;
+    }}
+  }});
   document.addEventListener('change', function (e) {{
     var t = e.target;
     if (!t || !t.classList) return;
