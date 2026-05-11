@@ -857,20 +857,23 @@ DOCUMENT = """<!DOCTYPE html>
 </main>
 <script>
 (function () {{
-  // Keep the user's spot if they change their device orientation
-  var _orientationAnchor = null;
+  // Keep the user's spot when they change device orientation.
+  // Capture the first visible element and its distance from the viewport top
+  // before reflow, then restore that exact offset after the layout settles.
   window.addEventListener('orientationchange', function () {{
     var candidates = document.querySelectorAll('h2, h3, h4, .vocab-entry, p');
+    var anchor = null, anchorTop = 0;
     for (var i = 0; i < candidates.length; i++) {{
       var rect = candidates[i].getBoundingClientRect();
-      if (rect.top >= -4) {{ _orientationAnchor = candidates[i]; break; }}
+      if (rect.top >= 0) {{ anchor = candidates[i]; anchorTop = rect.top; break; }}
     }}
-  }});
-  window.addEventListener('resize', function () {{
-    if (_orientationAnchor) {{
-      _orientationAnchor.scrollIntoView();
-      _orientationAnchor = null;
-    }}
+    if (!anchor) return;
+    window.addEventListener('resize', function restore() {{
+      window.removeEventListener('resize', restore);
+      requestAnimationFrame(function () {{
+        window.scrollBy(0, anchor.getBoundingClientRect().top - anchorTop);
+      }});
+    }});
   }});
   document.addEventListener('change', function (e) {{
     var t = e.target;
