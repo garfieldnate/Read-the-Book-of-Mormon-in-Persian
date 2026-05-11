@@ -3,6 +3,7 @@
 - whole-book word index
 - mark site as ai-generated, not human-checked; add paragraph in main index
 - Review all study guide construction rules in readme. Don't want/need a chapter summary/intro in English, for example.
+- tag words by language of origin (native Persian, Arabic borrowing, Turkish, other borrowing). Use it to make an index by language of origin, and maybe also to nicely format a visual tag for the language of origin in vocab entries.
 - Add readme instructions to break down the work of a new chapter to avoid huge API return values.
 - Persian alphabet page (also mention Alif maqsura, and how Arabic text can be quickly differentiated by looking for a ye with two dots below it word-finally, which Persian doesn't have).
 - Page on Persian plurals

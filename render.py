@@ -897,6 +897,30 @@ DOCUMENT = """<!DOCTYPE html>
       for (var i = 0; i < ins.length; i++) ins[i].checked = v;
     }}
   }});
+  (function () {{
+    var isChapter = document.querySelector('h3[id^="verse-"], h3#chapter-summary');
+    if (!isChapter) return;
+    var headings = document.querySelectorAll('h3[id], h4[id]');
+    if (!headings.length) return;
+    var timer = null;
+    window.addEventListener('scroll', function () {{
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function () {{
+        timer = null;
+        var active = null;
+        for (var i = 0; i < headings.length; i++) {{
+          if (headings[i].getBoundingClientRect().top <= 4) {{
+            active = headings[i];
+          }} else {{
+            break;
+          }}
+        }}
+        if (active && '#' + active.id !== location.hash) {{
+          history.replaceState(null, '', '#' + active.id);
+        }}
+      }}, 50);
+    }}, {{ passive: true }});
+  }})();
 }})();
 </script>
 </body>
