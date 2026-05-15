@@ -6,14 +6,15 @@
 - tag words by language of origin (native Persian, Arabic borrowing, Turkish, other borrowing). Use it to make an index by language of origin, and maybe also to nicely format a visual tag for the language of origin in vocab entries.
 - Add readme instructions to break down the work of a new chapter to avoid huge API return values.
 - Persian alphabet page (also mention Alif maqsura, and how Arabic text can be quickly differentiated by looking for a ye with two dots below it word-finally, which Persian doesn't have).
-- Page on Persian plurals
-- Index of nouns by plural suffix
 - Noun derivation page for native Persian words (e.g., `-i` for adjectives, `-gāh` for places, etc.)
     - https://en.wikipedia.org/wiki/Persian_vocabulary
 	- https://en.wikipedia.org/wiki/Persian_nouns
 - Mention causative infix on verb page (though it's not completely productive)
 - Index for Arabic borrowings using JSON root info (all words with same root in a section)
 - Nail down styling guide for mixed LTR/RTL
+- Generate exercises
+- Break up BoM study with some real-life usage info, maybe church themed to keep it on theme
+- Reference page on pronouns, including demonstratives and interrogatives, clitics
 
 New instructions file for chapter generation:
 * Download source text

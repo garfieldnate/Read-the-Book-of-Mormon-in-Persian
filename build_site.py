@@ -122,6 +122,7 @@ def build_index(
     has_transcription: bool = False,
     has_verbs: bool = False,
     has_arabic: bool = False,
+    has_nouns: bool = False,
 ) -> str:
     """Render the top-level index.html linking each chapter."""
     items: list[str] = []
@@ -139,6 +140,8 @@ def build_index(
         ref_items.append('    <li><a href="study_guide/verbs.html">Persian Verb Conjugations</a></li>')
     if has_arabic:
         ref_items.append('    <li><a href="study_guide/arabic.html">Arabic Borrowings in Persian</a></li>')
+    if has_nouns:
+        ref_items.append('    <li><a href="study_guide/nouns.html">Persian Noun Plurals</a></li>')
 
     transcription_section = ""
     if ref_items:
@@ -285,6 +288,17 @@ def main() -> int:
             "study_guide/arabic.md",
         ))
 
+    nouns_md = ROOT / "study_guide" / "nouns.md"
+    has_nouns = nouns_md.exists()
+    if has_nouns:
+        all_pages.append((
+            sg_out_dir / "nouns.html",
+            "Persian Noun Plurals",
+            nouns_md.with_suffix(""),
+            "styles.css",
+            "study_guide/nouns.md",
+        ))
+
     for ch_num, title, src_dir, stem_path in chapters:
         ch_out_dir = out_dir / "study_guide" / src_dir.name
         ch_out_dir.mkdir(parents=True, exist_ok=True)
@@ -332,7 +346,7 @@ def main() -> int:
 
     index_path = out_dir / "index.html"
     index_path.write_text(
-        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs, has_arabic=has_arabic),
+        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs, has_arabic=has_arabic, has_nouns=has_nouns),
         encoding="utf-8",
     )
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)
