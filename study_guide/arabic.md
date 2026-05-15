@@ -28,15 +28,15 @@ The root _ʿ-l-m_ "to know, be acquainted" yields a dense family of common Persi
 
 | Pattern | Category | Example | Frequency |
 |---------|----------|---------|-----------|
-| _faʿl_ | Form I VN | `علم` (_ʿelm_) // root `ʿ-l-m` // "knowledge, science" | Common |
-| _fuʿūl_ | broken plural | `علوم` (_ʿolūm_) // root `ʿ-l-m` // "sciences" | Common |
-| _fāʿil_ | active ptc. I | `عالم` (_ʿālem_) // root `ʿ-l-m` // "scholar; world" | Common |
-| _faʿīl_ | intensive adjective | `علیم` (_ʿalīm_) // root `ʿ-l-m` // "all-knowing" | Occasional |
-| _tafʿīl_ | Form II VN | `تعلیم` (_taʿlīm_) // root `ʿ-l-m` // "education" | Common |
-| _mufaʿʿil_ | Form II active ptc. | `معلم` (_moʿallem_) // root `ʿ-l-m` // "teacher" | Common |
-| _ifʿāl_ | Form IV VN | `اعلام` (_eʿlām_) // root `ʿ-l-m` // "announcement" | Common |
-| _mafʿūl_ | passive ptc. I | `معلوم` (_maʿlūm_) // root `ʿ-l-m` // "known, obvious" | Common |
-| _istifʿāl_ | Form X VN | `استعلام` (_esteʿlām_) // root `ʿ-l-m` // "inquiry" | Common |
+| _faʿl_ | Form I VN | `علم` (_ʿelm_) "knowledge, science" | Common |
+| _fuʿūl_ | broken plural | `علوم` (_ʿolūm_) "sciences" | Common |
+| _fāʿil_ | active ptc. I | `عالم` (_ʿālem_) "scholar; world" | Common |
+| _faʿīl_ | intensive adjective | `علیم` (_ʿalīm_) "all-knowing" | Occasional |
+| _tafʿīl_ | Form II VN | `تعلیم` (_taʿlīm_) "education" | Common |
+| _mufaʿʿil_ | Form II active ptc. | `معلم` (_moʿallem_) "teacher" | Common |
+| _ifʿāl_ | Form IV VN | `اعلام` (_eʿlām_) "announcement" | Common |
+| _mafʿūl_ | passive ptc. I | `معلوم` (_maʿlūm_) "known, obvious" | Common |
+| _istifʿāl_ | Form X VN | `استعلام` (_esteʿlām_) "inquiry" | Common |
 
 ## Demo: k-t-b (to write)
 
@@ -44,11 +44,11 @@ The root _k-t-b_ "to write" is the canonical teaching root in Arabic; it illustr
 
 | Pattern | Category | Example | Frequency |
 |---------|----------|---------|-----------|
-| _fiʿāl_ | Form I VN / noun | `کتاب` (_ketāb_) // root `k-t-b` // "book" | Common |
-| _fiʿāla_ | abstract noun | `کتابت` (_ketābat_) // root `k-t-b` // "writing, penmanship" | Occasional |
-| _fāʿil_ | active ptc. I | `کاتب` (_kāteb_) // root `k-t-b` // "scribe, writer" | Common |
-| _mafʿūl_ | passive ptc. I | `مکتوب` (_maktūb_) // root `k-t-b` // "letter; written" | Common |
-| _mafʿal_ | noun of place | `مکتب` (_maktab_) // root `k-t-b` // "school, office" | Common |
+| _fiʿāl_ | Form I VN / noun | `کتاب` (_ketāb_) "book" | Common |
+| _fiʿāla_ | abstract noun | `کتابت` (_ketābat_) "writing, penmanship" | Occasional |
+| _fāʿil_ | active ptc. I | `کاتب` (_kāteb_) "scribe, writer" | Common |
+| _mafʿūl_ | passive ptc. I | `مکتوب` (_maktūb_) "letter; written" | Common |
+| _mafʿal_ | noun of place | `مکتب` (_maktab_) "school, office" | Common |
 
 ## Pattern reference
 
@@ -60,16 +60,16 @@ Form I has many different verbal-noun patterns and the choice is **largely unpre
 
 | Pattern | Example | Meaning type | Frequency |
 |---------|---------|--------------|-----------|
-| <span id="vn-faʿl">_faʿl_</span> | `علم` (_ʿelm_) // root `ʿ-l-m` // "knowledge" | action/state noun | Common |
-| <span id="vn-fiʿl">_fiʿl_</span> | `عقل` (_ʿaql_) // root `ʿ-q-l` // "reason, intellect" | action/state noun | Common |
-| <span id="vn-fuʿl">_fuʿl_</span> | `نور` (_nur_) // root `n-w-r` // "light" | state noun | Common |
-| <span id="vn-faʿal">_faʿal_</span> | `سبب` (_sabab_) // root `s-b-b` // "cause, reason" | action noun | Common |
-| <span id="vn-fiʿāl">_fiʿāl_</span> | `کتاب` (_ketāb_) // root `k-t-b` // "book" | action/result noun | Common |
-| <span id="vn-fuʿūl">_fuʿūl_</span> | `قبول` (_qabūl_) // root `q-b-l` // "acceptance" | action noun (often intransitive) | Common |
-| <span id="vn-faʿīl">_faʿīl_</span> | `دلیل` (_dalīl_) // root `d-l-l` // "proof, reason" | result/state noun | Common |
-| <span id="vn-fiʿāla">_fiʿāla_</span> | `کتابت` (_ketābat_) // root `k-t-b` // "writing" | craft/profession | Occasional |
-| <span id="vn-fuʿla">_fuʿla_</span> | `قدرت` (_qodrat_) // root `q-d-r` // "power" | result/single-instance noun | Common |
-| <span id="vn-mifʿāl">_mifʿāl_</span> | `میلاد` (_mīlād_) // root `w-l-d` // "birth, nativity" | instrument/VN | Common |
+| <span id="vn-faʿl">_faʿl_</span> | `علم` // (_ʿelm_) "knowledge" // root `ʿ-l-m` "to know" | action/state noun | Common |
+| <span id="vn-fiʿl">_fiʿl_</span> | `عقل` // (_ʿaql_) "reason, intellect" // root `ʿ-q-l` "to reason, use intellect" | action/state noun | Common |
+| <span id="vn-fuʿl">_fuʿl_</span> | `نور` // (_nur_) "light" // root `n-w-r` "to illuminate, give light" | state noun | Common |
+| <span id="vn-faʿal">_faʿal_</span> | `سبب` // (_sabab_) "cause, reason" // root `s-b-b` "to cause" | action noun | Common |
+| <span id="vn-fiʿāl">_fiʿāl_</span> | `کتاب` // (_ketāb_) "book" // root `k-t-b` "to write" | action/result noun | Common |
+| <span id="vn-fuʿūl">_fuʿūl_</span> | `قبول` // (_qabūl_) "acceptance" // root `q-b-l` "to accept, receive" | action noun (often intransitive) | Common |
+| <span id="vn-faʿīl">_faʿīl_</span> | `دلیل` // (_dalīl_) "proof, reason" // root `d-l-l` "to guide, indicate" | result/state noun | Common |
+| <span id="vn-fiʿāla">_fiʿāla_</span> | `کتابت` // (_ketābat_) "writing" // root `k-t-b` "to write" | craft/profession | Occasional |
+| <span id="vn-fuʿla">_fuʿla_</span> | `قدرت` // (_qodrat_) "power" // root `q-d-r` "to be able, have power" | result/single-instance noun | Common |
+| <span id="vn-mifʿāl">_mifʿāl_</span> | `میلاد` // (_mīlād_) "birth, nativity" // root `w-l-d` "to be born, give birth" | instrument/VN | Common |
 
 ### Verbal nouns (Forms II–X)
 
@@ -77,41 +77,41 @@ Unlike Form I, each derived form has **exactly one predictable VN pattern** — 
 
 | Form | Pattern | Semantic function | Example | Frequency |
 |------|---------|-------------------|---------|-----------|
-| <span id="form-II">II</span> | _tafʿīl_ | causative / intensive — "to cause to X" | `تعلیم` (_taʿlīm_) // root `ʿ-l-m` // "education" | Common |
-| <span id="form-III">III</span> | _mufāʿala_ | directed / mutual — "to X with/toward someone" | `مسافرت` (_mosāferat_) // root `s-f-r` // "travel" | Occasional |
-| <span id="form-IV">IV</span> | _ifʿāl_ | causative / transitive — "to make X happen" | `اعلام` (_eʿlām_) // root `ʿ-l-m` // "announcement" | Common |
-| <span id="form-V">V</span> | _tafaʿʿul_ | reflexive of II — "to become X / undergo X" | `تحوّل` (_taḥavvol_) // root `ḥ-w-l` // "transformation" | Occasional |
-| <span id="form-VI">VI</span> | _tafāʿul_ | mutual of III — "to X with each other" | `تعامل` (_taʿāmol_) // root `ʿ-m-l` // "interaction" | Occasional |
-| <span id="form-VII">VII</span> | _infiʿāl_ | anti-causative / passive of I — "to come undone" | `انقلاب` (_enqelāb_) // root `q-l-b` // "revolution" | Common |
-| <span id="form-VIII">VIII</span> | _iftiʿāl_ | middle / reflexive of I — "to do X for oneself / participate" | `اشتراک` (_eštarāk_) // root `š-r-k` // "participation" | Common |
+| <span id="form-II">II</span> | _tafʿīl_ | causative / intensive — "to cause to X" | `تعلیم` // (_taʿlīm_) "education" // root `ʿ-l-m` "to know" | Common |
+| <span id="form-III">III</span> | _mufāʿala_ | directed / mutual — "to X with/toward someone" | `مسافرت` // (_mosāferat_) "travel" // root `s-f-r` "to travel" | Occasional |
+| <span id="form-IV">IV</span> | _ifʿāl_ | causative / transitive — "to make X happen" | `اعلام` // (_eʿlām_) "announcement" // root `ʿ-l-m` "to know" | Common |
+| <span id="form-V">V</span> | _tafaʿʿul_ | reflexive of II — "to become X / undergo X" | `تحوّل` // (_taḥavvol_) "transformation" // root `ḥ-w-l` "to change, transform" | Occasional |
+| <span id="form-VI">VI</span> | _tafāʿul_ | mutual of III — "to X with each other" | `تعامل` // (_taʿāmol_) "interaction" // root `ʿ-m-l` "to work, act" | Occasional |
+| <span id="form-VII">VII</span> | _infiʿāl_ | anti-causative / passive of I — "to come undone" | `انقلاب` // (_enqelāb_) "revolution" // root `q-l-b` "to turn, flip" | Common |
+| <span id="form-VIII">VIII</span> | _iftiʿāl_ | middle / reflexive of I — "to do X for oneself / participate" | `اشتراک` // (_eštarāk_) "participation" // root `š-r-k` "to share, participate" | Common |
 | <span id="form-IX">IX</span> | _ifʿilāl_ | ingressive state — "to become [color/defect]"; absent from Persian | — | Rare |
-| <span id="form-X">X</span> | _istifʿāl_ | requestive / estimative — "to seek X / deem X" | `استقلال` (_esteqlāl_) // root `q-l-l` // "independence" | Common |
+| <span id="form-X">X</span> | _istifʿāl_ | requestive / estimative — "to seek X / deem X" | `استقلال` // (_esteqlāl_) "independence" // root `q-l-l` "to be few, small" | Common |
 
 ### Active participles
 
 | Form | Pattern | Example | Frequency |
 |------|---------|---------|-----------|
-| <span id="form-I-act">I</span> | _fāʿil_ | `قادر` (_qāder_) // root `q-d-r` // "able, capable" | Common |
-| <span id="form-II-act">II</span> | _mufaʿʿil_ | `معلم` (_moʿallem_) // root `ʿ-l-m` // "teacher" | Common |
-| <span id="form-III-act">III</span> | _mufāʿil_ | `مسافر` (_mosāfer_) // root `s-f-r` // "traveller" | Common |
-| <span id="form-IV-act">IV</span> | _mufʿil_ | `مفید` (_mofīd_) // root `f-y-d` // "useful" | Occasional |
-| <span id="form-X-act">X</span> | _mustafʿil_ | `مستقل` (_mostaqell_) // root `q-l-l` // "independent" | Occasional |
+| <span id="form-I-act">I</span> | _fāʿil_ | `قادر` // (_qāder_) "able, capable" // root `q-d-r` "to be able, have power" | Common |
+| <span id="form-II-act">II</span> | _mufaʿʿil_ | `معلم` // (_moʿallem_) "teacher" // root `ʿ-l-m` "to know" | Common |
+| <span id="form-III-act">III</span> | _mufāʿil_ | `مسافر` // (_mosāfer_) "traveller" // root `s-f-r` "to travel" | Common |
+| <span id="form-IV-act">IV</span> | _mufʿil_ | `مفید` // (_mofīd_) "useful" // root `f-y-d` "to benefit" | Occasional |
+| <span id="form-X-act">X</span> | _mustafʿil_ | `مستقل` // (_mostaqell_) "independent" // root `q-l-l` "to be few, small" | Occasional |
 
 ### Passive participles
 
 | Form | Pattern | Example | Frequency |
 |------|---------|---------|-----------|
-| <span id="form-I-pass">I</span> | _mafʿūl_ | `معلوم` (_maʿlūm_) // root `ʿ-l-m` // "known" | Common |
-| <span id="form-II-pass">II</span> | _mufaʿʿal_ | `مقدّس` (_moqaddas_) // root `q-d-s` // "holy, sanctified" | Common |
-| <span id="form-IV-pass">IV</span> | _mufʿal_ | `مطلق` (_moṭlaq_) // root `ṭ-l-q` // "absolute" | Occasional |
+| <span id="form-I-pass">I</span> | _mafʿūl_ | `معلوم` // (_maʿlūm_) "known" // root `ʿ-l-m` "to know" | Common |
+| <span id="form-II-pass">II</span> | _mufaʿʿal_ | `مقدّس` // (_moqaddas_) "holy, sanctified" // root `q-d-s` "to be holy, sacred" | Common |
+| <span id="form-IV-pass">IV</span> | _mufʿal_ | `مطلق` // (_moṭlaq_) "absolute" // root `ṭ-l-q` "to release, set free" | Occasional |
 
 ### Other nominal patterns
 
 | Pattern | Category | Example | Frequency |
 |---------|----------|---------|-----------|
-| <span id="nom-mafʿal">_mafʿal_ / _mafʿil_</span> | noun of place/time | `مورد` (_mowred_) // root `w-r-d` // "case, instance" | Common |
-| <span id="nom-faʿīl">_faʿīl_</span> | intensive adjective | `عظیم` (_ʿaẓīm_) // root `ʿ-ẓ-m` // "great" | Common |
-| <span id="nom-faʿʿāl">_faʿʿāl_</span> | intensive agent noun | `عطّار` (_ʿattār_) // root `ʿ-ṭ-r` // "perfume-seller" | Occasional |
-| <span id="nom-ʾafʿal">_ʾafʿal_</span> | elative (comparative/superlative) | `ارشد` (_aršad_) // root `r-š-d` // "more senior" | Occasional |
-| <span id="nom-fiʿāla">_fiʿāla_</span> | professional/abstract noun | `اسارت` (_asārat_) // root `ʾ-s-r` // "captivity" | Occasional |
-| <span id="nom--iyyat">_-iyyat_</span> | abstract relational noun | `جمعیّت` (_jamʿiyyat_) // root `j-m-ʿ` // "population, gathering" | Common |
+| <span id="nom-mafʿal">_mafʿal_ / _mafʿil_</span> | noun of place/time | `مورد` // (_mowred_) "case, instance" // root `w-r-d` "to arrive, come" | Common |
+| <span id="nom-faʿīl">_faʿīl_</span> | intensive adjective | `عظیم` // (_ʿaẓīm_) "great" // root `ʿ-ẓ-m` "to be great, magnificent" | Common |
+| <span id="nom-faʿʿāl">_faʿʿāl_</span> | intensive agent noun | `عطّار` // (_ʿattār_) "perfume-seller" // root `ʿ-ṭ-r` "to be fragrant, perfumed" | Occasional |
+| <span id="nom-ʾafʿal">_ʾafʿal_</span> | elative (comparative/superlative) | `ارشد` // (_aršad_) "more senior" // root `r-š-d` "to be mature, rightly guided" | Occasional |
+| <span id="nom-fiʿāla">_fiʿāla_</span> | professional/abstract noun | `اسارت` // (_asārat_) "captivity" // root `ʾ-s-r` "to capture, imprison" | Occasional |
+| <span id="nom--iyyat">_-iyyat_</span> | abstract relational noun | `جمعیّت` // (_jamʿiyyat_) "population, gathering" // root `j-m-ʿ` "to gather, collect" | Common |

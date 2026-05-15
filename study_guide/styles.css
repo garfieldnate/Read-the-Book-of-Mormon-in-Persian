@@ -907,11 +907,13 @@ h4.grammar-note {
   font-size: 0.85em;
   color: var(--text-muted);
   display: block;
+  text-align: right;
 }
 .conj-table .cell-en {
   font-size: 0.82em;
   color: var(--text-muted);
   display: block;
+  text-align: right;
 }
 
 /* Non-vocab bullet lists (e.g. intro, register markers) */
