@@ -119,10 +119,7 @@ def discover_chapters(root: Path) -> list[tuple[int, str, Path, Path]]:
 
 def build_index(
     chapters: list[tuple[int, str, Path, Path]],
-    has_transcription: bool = False,
-    has_verbs: bool = False,
-    has_arabic: bool = False,
-    has_nouns: bool = False,
+    ref_pages: list[tuple[str, str]] | None = None,
 ) -> str:
     """Render the top-level index.html linking each chapter."""
     items: list[str] = []
@@ -133,15 +130,10 @@ def build_index(
         )
     items_html = "\n".join(items) if items else "    <li><em>No chapters yet.</em></li>"
 
-    ref_items: list[str] = []
-    if has_transcription:
-        ref_items.append('    <li><a href="study_guide/transcription.html">Persian Transliteration Scheme</a></li>')
-    if has_verbs:
-        ref_items.append('    <li><a href="study_guide/verbs.html">Persian Verb Conjugations</a></li>')
-    if has_arabic:
-        ref_items.append('    <li><a href="study_guide/arabic.html">Arabic Borrowings in Persian</a></li>')
-    if has_nouns:
-        ref_items.append('    <li><a href="study_guide/nouns.html">Persian Noun Plurals</a></li>')
+    ref_items: list[str] = [
+        f'    <li><a href="{href}">{label}</a></li>'
+        for href, label in (ref_pages or [])
+    ]
 
     transcription_section = ""
     if ref_items:
@@ -255,49 +247,22 @@ def main() -> int:
     Page = tuple[Path, str, Path, str, str]
     all_pages: list[Page] = []
 
-    transcription_md = ROOT / "study_guide" / "transcription.md"
-    has_transcription = transcription_md.exists()
-    if has_transcription:
-        all_pages.append((
-            sg_out_dir / "transcription.html",
-            "Persian Transliteration Scheme",
-            transcription_md.with_suffix(""),
-            "styles.css",
-            "study_guide/transcription.md",
-        ))
-
-    verbs_md = ROOT / "study_guide" / "verbs.md"
-    has_verbs = verbs_md.exists()
-    if has_verbs:
-        all_pages.append((
-            sg_out_dir / "verbs.html",
-            "Persian Verb Conjugations",
-            verbs_md.with_suffix(""),
-            "styles.css",
-            "study_guide/verbs.md",
-        ))
-
-    arabic_md = ROOT / "study_guide" / "arabic.md"
-    has_arabic = arabic_md.exists()
-    if has_arabic:
-        all_pages.append((
-            sg_out_dir / "arabic.html",
-            "Arabic Borrowings in Persian",
-            arabic_md.with_suffix(""),
-            "styles.css",
-            "study_guide/arabic.md",
-        ))
-
-    nouns_md = ROOT / "study_guide" / "nouns.md"
-    has_nouns = nouns_md.exists()
-    if has_nouns:
-        all_pages.append((
-            sg_out_dir / "nouns.html",
-            "Persian Noun Plurals",
-            nouns_md.with_suffix(""),
-            "styles.css",
-            "study_guide/nouns.md",
-        ))
+    for md_name, html_name, label in [
+        ("alphabet.md",      "alphabet.html",      "Persian Alphabet (الفبا)"),
+        ("transcription.md", "transcription.html", "Persian Transliteration Scheme"),
+        ("verbs.md",         "verbs.html",         "Persian Verb Conjugations"),
+        ("arabic.md",        "arabic.html",        "Arabic Borrowings in Persian"),
+        ("nouns.md",         "nouns.html",         "Persian Noun Plurals"),
+    ]:
+        md_path = ROOT / "study_guide" / md_name
+        if md_path.exists():
+            all_pages.append((
+                sg_out_dir / html_name,
+                label,
+                md_path.with_suffix(""),
+                "styles.css",
+                f"study_guide/{md_name}",
+            ))
 
     for ch_num, title, src_dir, stem_path in chapters:
         ch_out_dir = out_dir / "study_guide" / src_dir.name
@@ -344,9 +309,15 @@ def main() -> int:
             print(f"  {md_file.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
         html_path.write_text(html, encoding="utf-8")
 
+    ref_pages = [
+        (f"study_guide/{html_path.name}", title)
+        for html_path, title, _stem, _css, _src in all_pages
+        if html_path.parent == sg_out_dir
+    ]
+
     index_path = out_dir / "index.html"
     index_path.write_text(
-        build_index(chapters, has_transcription=has_transcription, has_verbs=has_verbs, has_arabic=has_arabic, has_nouns=has_nouns),
+        build_index(chapters, ref_pages=ref_pages),
         encoding="utf-8",
     )
     print(f"  index → {index_path.relative_to(ROOT)} ({len(chapters)} chapter(s))", file=sys.stderr)

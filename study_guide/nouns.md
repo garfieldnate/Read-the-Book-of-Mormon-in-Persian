@@ -48,16 +48,16 @@ Nouns ending in the unstressed vowel *-e* (written ـه) drop the ـه and add *
 
 The ـه in these words traces back historically to the suffix *-ag*; dropping it before -ān leaves a connecting *-a-*, yielding the -agān sequence seen above. These plurals carry an elevated or literary tone; everyday speech prefers -hā (`فرشته‌ها`, `پرنده‌ها`).
 
-#### Allomorph -yān after long ā (ا / آ)
+#### Allomorph -yān after ā and u
 
-Nouns ending in the long vowel *ā* add **-yān** (the *y* acting as a glide to prevent vowel hiatus):
+Nouns ending in the long vowel *ā* and most nouns ending in *u* add **-yān** (the *y* acting as a glide to prevent vowel hiatus):
 
 | Singular | Plural | |
 |----------|--------|-|
 | `خدا` *xodā* | `خدایان` *xodāyān* | gods |
-| `دانا` *dānā* | `دانایان` *dānāyān* | the wise |
+| `دانشجو` *dānashjū* | `دانشجویان` *dānashjūyān* | students |
 
-#### Nouns ending in -u: -ān directly, no glide
+#### (Exceptions) Nouns ending in -u: -ān directly, no glide
 
 A small set of nouns ending in *-u* take **-ān** without any connecting glide:
 
@@ -92,6 +92,8 @@ Any Arabic loanword can take -hā. This is the colloquial norm and is never wron
 ### Broken plurals (جمع مکسر)
 
 Arabic nouns form plurals by internal vowel change — **جمع مکسر** *jamʿ-e maksar*, literally "broken plural." Persian inherited both the singular and plural forms of loanwords, so speakers learn them as vocabulary pairs rather than applying a living rule. Broken plurals are preferred in formal writing, religious and legal texts, and journalism; in speech -hā is freely substituted.
+
+For more on Arabic borrowings and their consonant/vowel patterns, see the [Arabic borrowings page](arabic_borrowings.md).
 
 The most common patterns in Persian vocabulary:
 
@@ -179,7 +181,9 @@ Arabic masculine active participles and a small set of adjectives carry the **ma
 | `مشرک` *mošrek* | `مشرکین` *mošrekīn* | `مشرکون` *mošrekūn* | polytheists |
 | `صالح` *sāleḥ* | `صالحین` *sāleḥīn* | `صالحون` *sāleḥūn* | the righteous |
 
-This pattern is restricted to Arabic-origin words with religious or moral content; it is not productive in Persian. Note that the everyday Persian word for "Muslim" is `مسلمان` *mosalmān* — a Persianized variant in which -ān is fused into the word itself — rather than the Arabic form `مسلم` *moslem* shown in the table. Because `مسلمان` is already a Persian-pattern noun, it takes ordinary Persian plurals: `مسلمان‌ها` *mosalmān-hā* (colloquial) and `مسلمانان` *mosalmānān* (formal -ān plural). The Arabic -īn form `مسلمین` *moslemīn* applies only to the Arabic base `مسلم`, not to the Persianized `مسلمان`.
+This pattern is restricted to Arabic-origin words with religious or moral content; it is not productive in Persian.
+
+Note that the everyday Persian word for "Muslim" is `مسلمان` *mosalmān* — a Persianized variant in which -ān is fused into the word itself — rather than the Arabic form `مسلم` *moslem* shown in the table. Because `مسلمان` is already a Persian-pattern noun, it takes ordinary Persian plurals: `مسلمان‌ها` *mosalmān-hā* (colloquial) and `مسلمانان` *mosalmānān* (formal -ān plural). The Arabic -īn form `مسلمین` *moslemīn* applies only to the Arabic base `مسلم`, not to the Persianized `مسلمان`.
 
 ### When both forms coexist
 
@@ -200,12 +204,10 @@ Several Arabic broken plurals entered Persian as the **primary** form and are tr
 |------|--------------------|-----------------|
 | `اخبار` *axbār* | "news" (mass noun) | `خبر` *xabar* "a piece of news" |
 | `اموال` *amvāl* | "property, wealth" | `مال` *māl* "possession, thing" |
-| `احوال` *aḥvāl* | "affairs, how one is doing" (e.g. `احوال شما` *aḥvāl-e šomā* "how are you?") | `حال` *ḥāl* "state, condition" — still fully productive (see note) |
+| `احوال` *aḥvāl* | "affairs, how one is doing" | `حال` *ḥāl* "state, condition, feeling" |
 | `اشعار` *ašʿār* | "poetry" (collective) | `شعر` *šeʿr* "a poem" |
 | `ارواح` *arvāḥ* | "spirits" (collective) | `روح` *rūḥ* "spirit" |
 | `علوم` *ʿolūm* | "learning, the sciences" (collective) | `علم` *ʿelm* "a branch of knowledge" |
-
-**Note on `حال`**: unlike some entries in this table, `حال` *ḥāl* is not recessive — it is fully productive in colloquial Persian: `حالِ شما خوب است؟` *ḥāl-e šomā xub ast?* "How are you?", `حالم خوبه` *ḥālam xube* "I'm fine", `در حال` *dar ḥāl* "currently, in the process of". The distinction is that `احوال` *aḥvāl* has become the conventional form for the idiomatic greeting sense ("one's affairs, how one is faring"), while `حال` *ḥāl* remains the ordinary count-noun singular for "state, condition."
 
 When these forms are themselves pluralized in Persian, they take -hā (`اخبارها` "various news items"), though this is rare and sounds emphatic.
 

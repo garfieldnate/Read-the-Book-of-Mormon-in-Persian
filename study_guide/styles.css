@@ -1,5 +1,7 @@
 /* Persian Book of Mormon study guide — shared stylesheet. */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
 :root {
   --text:            #1a1a1a;
   --text-muted:      #40403c;
@@ -993,4 +995,52 @@ ul:not(.vocab) li { margin: 0.25em 0; }
   .example-fa { font-size: 1.25em; }
   .persian { font-size: 1.12em; }
   .vocab-entry { font-size: 1em; }
+}
+
+/* --------- alphabet reference page --------- */
+
+/* Diacritic marks in the short-vowels and other-marks tables sit in column 2
+   as code spans.  They are Arabic combining characters and hard to read at
+   body size; enlarge them so the mark shape is clearly visible. */
+.page-alphabet .conj-table td:nth-child(2) code {
+  font-size: 2em;
+  font-family: var(--font-fa);
+  color: var(--persian-color);
+  background: none;
+  padding: 0 0.15em;
+}
+
+/* Base: any conj-table with a span id starting "nastaliq-" gets RTL Persian
+   styling in columns 2 and 3; column 3 loads the Nastaliq font. */
+.page-alphabet .conj-table:has([id^="nastaliq-"]) td:nth-child(2),
+.page-alphabet .conj-table:has([id^="nastaliq-"]) td:nth-child(3) {
+  font-family: var(--font-fa);
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-align: right;
+  color: var(--persian-color);
+}
+.page-alphabet .conj-table:has([id^="nastaliq-"]) td:nth-child(3) {
+  font-family: "Noto Nastaliq Urdu", var(--font-fa);
+}
+/* Ligature tables (ids starting "nastaliq-lig"): large text for short syllables. */
+.page-alphabet .conj-table:has([id^="nastaliq-lig"]) td:nth-child(2),
+.page-alphabet .conj-table:has([id^="nastaliq-lig"]) td:nth-child(3) {
+  font-size: 2em;
+  line-height: 2;
+  text-align: center;
+}
+.page-alphabet .conj-table:has([id^="nastaliq-lig"]) td:nth-child(3) {
+  line-height: 2.5;
+}
+/* Phrase comparison table (id "nastaliq-compare"): smaller for long phrases,
+   extra line-height for the Nastaliq descending baseline. */
+.page-alphabet .conj-table:has(#nastaliq-compare) td:nth-child(2),
+.page-alphabet .conj-table:has(#nastaliq-compare) td:nth-child(3) {
+  font-size: 1.4em;
+  line-height: 2.5;
+  text-align: right;
+}
+.page-alphabet .conj-table:has(#nastaliq-compare) td:nth-child(3) {
+  line-height: 3;
 }
