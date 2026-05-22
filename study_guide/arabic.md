@@ -12,7 +12,7 @@ Arabic builds most vocabulary from **triconsonantal roots** — three consonants
 
 ## Pronunciation and meaning in Persian
 
-**When borrowed.** The main wave of Arabic borrowing came in the 9th–11th centuries CE as Persian literature re-emerged after the Arab conquest. By that point Arabic was already the language of religion, scholarship, and administration throughout the region; borrowing was enormous and systematic. The words have been nativised for over a millennium and feel entirely native to Persian speakers.
+**When borrowed.** The main wave of Arabic borrowing came in the 9th–11th centuries AD as Persian literature re-emerged after the Arab conquest. By that point Arabic was already the language of religion, scholarship, and administration throughout the region; borrowing was enormous and systematic. The words have been nativised for over a millennium and feel entirely native to Persian speakers.
 
 **Phonological mergers (spelling vs. pronunciation).** The Arabic emphatic consonants (ص ض ط ظ) collapse onto their non-emphatic counterparts in Persian speech (س ز ت ز) — spelling preserves the distinction, pronunciation does not (hence the dotted-below convention in the [Transliteration scheme](transcription.html)). `ع` reduces to a glottal onset or disappears entirely; `ح` merges with `ه`; `ق` is uvular in classical Persian but merges with `غ` in colloquial speech. Arabic short /u/ → Persian /o/ (e.g., _kutub_ → Persian _kotob_); the Arabic feminine ending _-a(t)_ → Persian _-e_ (e.g., _waraqa_ → _varaqe_).
 

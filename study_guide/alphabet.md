@@ -72,9 +72,9 @@ The standard print style used throughout these guides — and in most modern Per
 
 Whenever ل (lam) is immediately followed by ا — or any alef variant: آ أ إ — the two always fuse into a single combined glyph. This is the one ligature required by Unicode for compliant rendering. You will see it constantly: لا (_lā_) "no / not", کلاس (_kelās_) "class", دلایل (_dalāyel_) "reasons".
 
-### الله — the name of God
+### الله (_allāh_) — the name of God
 
-The word الله (_allāh_) is rendered differently depending on the font. In dedicated calligraphic fonts, the two lams fuse into a single tall stroke with the shadda above and the final he hangs as a downward loop — the classical ligature. Most general-purpose Naskh system fonts render the letters more plainly: alef + two lams (the second carrying the shadda) + he, without the fusion. The Nastaliq column below shows the classical form:
+The word الله (_allāh_) has a specially recognised calligraphic form. The underlying letters are simply alef + lam + lam + he — you do not type the shadda or the **dagger alif** (superscript alif, ٰ U+0670, marking the long /ā/ vowel) separately. Many Naskh system fonts bake those diacritics into their built-in ligature glyph for this sequence, so they appear automatically. Nastaliq fonts may render the same four characters without making the diacritics visually explicit, as you can see in the table below. The Unicode codepoint U+FDF2 (ﷲ) encodes the canonical precomposed form with both marks included.
 
 | <span id="nastaliq-lig-allah">Word</span> | Naskh (system font) | Nastaliq (classical ligature) |
 |---|:---:|:---:|
@@ -114,7 +114,7 @@ The Arabic forms أ (hamza above alef) and إ (hamza below alef) do not appear i
 
 ## Irregularities from Arabic
 
-### الف مقصوره — "shortened alef"
+### الف مقصوره (_alef-e maqṣure_) — "shortened alef"
 
 Arabic final ye normally retains the lower two dots (ي), unlike Persian, which removes the dots in final position. However, in some circumstances a word-final long /ā/ is written in Arabic using a dotless variant of ye, ى. When such an imported word appears in Persian text, it is easy to accidentally pronounce it as an ending -i because of the ye shape. Many names of Biblical figures are borrowed from Arabic and spelled with this dotless ye, so the correct pronunciation must be memorised per word, e.g.:
 
@@ -124,7 +124,7 @@ Arabic final ye normally retains the lower two dots (ي), unlike Persian, which 
 | موسى | _Mūsā_ | Moses |
 | مستثنى | _mostasnā_ | excluded |
 
-### Round te (تای گرد / تاء مربوطة)
+### Round te (تای گرد, _tā-ye gerd_ / تاء مربوطة, _tāʾ-e marbuṭa_)
 
 ة — called تای گرد (_te-ye gerd_, "round te") in Persian and تاء مربوطة (_tā' marbūṭa_, "tied te") in Arabic — looks like a ه with two dots above it. It is word-final only and occurs in Arabic loanword constructions. Pronounce it _-at_. It almost always carries a tanwin termination (see below). In modern Persian typography it is often replaced by ت, so you may see the same word spelled either way:
 
@@ -148,7 +148,7 @@ Many writers of modern Persian treat the round te as a regular ت and add the al
 - نسبتاً alongside نسبةً
 - دفعتاً alongside دفعةً
 
-## Nastaliq script (خط نستعلیق)
+## Nastaliq script (خط نستعلیق, _xaṭṭ-e nastaʿlīq_)
 
 All text in these study guides is set in **Naskh** (نسخ) — the upright, horizontally-aligned style used in most digital fonts and modern print. But the dominant traditional script for Persian literature, poetry, formal correspondence, and calligraphy is **Nastaliq** (نستعلیق, _nastaʿlīq_). The name is a blend of _naskh_ and _taʿlīq_ (a predecessor style). You will encounter Nastaliq in older printed books, illuminated manuscripts, Iranian newspapers, handwritten Persian, and decorative contexts everywhere.
 
@@ -233,7 +233,7 @@ The primer introduces letters in clusters by visual similarity, not alphabetical
 | س | سیب | _sīb_ | apple | | ه | هندوانه | _hendevāne_ | watermelon |
 | ش | شیر | _šīr_ | lion / milk | | ی | یاس | _yās_ | jasmine |
 
-### Children's alphabet poem (شعر الفبا)
+### Children's alphabet poem (شعر الفبا, _šeʿr-e alifbā_)
 
 Iranian children also learn the alphabet through a nature-and-childhood poem in which 31 of the 32 letters open successive lines — ظ, which rarely appears in everyday Persian vocabulary, has no line. The poem is modern — associated with the state school curriculum established in the 20th century — and circulates without a named author.
 
