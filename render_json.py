@@ -602,14 +602,20 @@ def _render_entries(entries: list[dict], word_map: dict[str, str], arabic_href: 
 def _build_chapter_toc(source: dict, study: dict) -> str:
     """Build a <nav class="toc"> for a JSON-rendered chapter.
 
-    Top-level items: Intro (if present), Vocabulary, closing note (if present).
+    Top-level items: Intro (if present), Vocabulary and Grammar, Grammar, closing.
     Vocabulary children: one item per source section, with book-summary-*
     sections collapsed into a single "Book summary" entry.
+    Grammar children: all grammar-note entries across all study sections, in order.
     """
     items: list[str] = []
 
     if study.get("intro", "").strip():
         items.append('<li><a href="#intro">Intro</a></li>')
+
+    study_index: dict[tuple[str, int | None], dict] = {}
+    for s in study.get("sections", []):
+        key = (_section_type(s), s.get("number"))
+        study_index[key] = s
 
     vocab_children: list[str] = []
     book_summary_added = False
@@ -633,6 +639,24 @@ def _build_chapter_toc(source: dict, study: dict) -> str:
         )
     else:
         items.append('<li><a href="#vocabulary-and-grammar">Vocabulary and Grammar</a></li>')
+
+    grammar_children: list[str] = []
+    for sec in source.get("sections", []):
+        t = _section_type(sec)
+        study_sec = study_index.get((t, sec.get("number")))
+        for entry in (study_sec or {}).get("entries", []):
+            if entry.get("type") == "grammar-note":
+                title = entry["title"]
+                grammar_children.append(
+                    f'<li><a href="#{_slug(title)}">{html_lib.escape(title)}</a></li>'
+                )
+
+    if grammar_children:
+        children_html = "".join(grammar_children)
+        items.append(
+            f'<li><a href="#vocabulary-and-grammar">Grammar</a>'
+            f'<ul>{children_html}</ul></li>'
+        )
 
     if study.get("closing", "").strip():
         items.append(
