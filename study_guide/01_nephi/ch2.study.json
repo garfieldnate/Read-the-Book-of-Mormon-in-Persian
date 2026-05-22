@@ -1190,7 +1190,7 @@
         {
           "type": "grammar-note",
           "title": "Grammar: Passive voice with `شدن`",
-          "body": "Persian forms the passive analytically: **[past participle] + شدن** (conjugated). The agent, if named, uses `از سوی` (\"by the hand of\") or `توسط`.",
+          "body": "Persian forms the passive analytically: **[past participle]** + `شدن` _šodan_ (conjugated). The agent, if named, uses `از سوی` (\"by the hand of\") or `توسط`.",
           "examples": [
             {
               "ref": "Chapter summary",
@@ -2016,6 +2016,42 @@
           "closing": "The dependent verb `بردارد` is in the **subjunctive** (bare stem, `بـ-` dropped in formal/literary style). Compare the present: `باید بردارد` \"he must take.\""
         },
         {
+          "type": "grammar-note",
+          "title": "Grammar: `که` + finite verb — complement clauses without infinitives",
+          "body": "Persian has no infinitive-in-complement construction. Wherever English uses \"to V\" after a verb of ordering, teaching, wanting, or reporting (\"he commanded them *to go*\", \"she wanted him *to stay*\"), Persian substitutes a full subordinate clause introduced by `که` with a **conjugated** verb:\n\n- After volitional verbs (command, teach, wish, want): `که` + **present subjunctive**\n- After verbs of reporting or belief (say, think, know): `که` + **indicative** (any tense)",
+          "examples": [
+            {
+              "persian": "سَروَر پدرم را فرمان داد … که او می بایستی خانواده اش را بردارد",
+              "translit": "Sarvar pedar-am-rā farmān dād … ke ū mī-bāyestī xānevāde-aš-rā bardārad",
+              "en": "The Lord commanded my father … to take his family. [lit. \"that he should take his family\"]",
+              "ref": "Verse 2",
+              "ref_anchor": "verse-2"
+            },
+            {
+              "persian": "این را آنها گفتند که او … انجام داده است",
+              "translit": "īn-rā ānhā goftand ke ū … anjām dāde ast",
+              "en": "They said that he had done this. [reporting verb + `که` + indicative perfect]",
+              "ref": "Verse 11",
+              "ref_anchor": "verse-11"
+            },
+            {
+              "persian": "باور نمی کردند که اورشلیم … بتواند نابود شود",
+              "translit": "bāvar na-mī-kardand ke Orušalīm … be-tavānad nābūd šavad",
+              "en": "They believed not that Jerusalem could be destroyed. [`که` + modal subjunctive]",
+              "ref": "Verse 13",
+              "ref_anchor": "verse-13"
+            },
+            {
+              "persian": "به پسرانش می آموزد تا فرمان ها را نگه دارند",
+              "translit": "be pesarān-aš mī-āmūzad tā farmān-hā-rā negah dārand",
+              "en": "He teaches his sons to keep the commandments. [`تا` + subjunctive — preferred after verbs of teaching when purpose is foregrounded]",
+              "ref": "Chapter summary",
+              "ref_anchor": "chapter-summary"
+            }
+          ],
+          "closing": "`که` and `تا` both introduce subordinate clauses here, but `تا` emphasizes **purpose or result** (\"so that\", \"in order to\") while `که` is the neutral complementizer. After verbs of commanding the choice is largely interchangeable in this translation; after verbs of teaching and guiding, `تا` is the more common choice."
+        },
+        {
           "type": "headword",
           "id": "برداشتن",
           "persian": "برداشتن",
@@ -2115,6 +2151,28 @@
               "desc": "correlative `آنچنان که` \"just as, even as, according as.\""
             }
           ]
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Arabic participial adjectives with bare NP complement",
+          "body": "Several adjectives in Persian are Arabic **active participles** (اسم{e} فاعل, _esm-e fāʿel_) that carry over the argument structure of their source verb. The corresponding Arabic verb took a direct object; the Persian adjective takes the same argument as a **bare noun phrase by juxtaposition** — no preposition, and no ezafe on the adjective itself linking it to the complement.\n\nThe ezafe visible in the verse below (`سخن{e} سرور`, \"the word of the Lord\") is **internal to the complement noun phrase** — it links `سخن` to `سرور`. The adjective–complement bond is by direct adjacency, not by an ezafe on `مطیع`.",
+          "examples": [
+            {
+              "persian": "او مُطیع سخن{e} سرور بود",
+              "translit": "ū motīʿ soxan-e Sarvar būd",
+              "en": "He was obedient unto the word of the Lord. [`مطیع` is the Arabic active participle of Form IV ط-و-ع \"to obey\"; `سخن سرور` is the bare NP complement]",
+              "ref": "Verse 3",
+              "ref_anchor": "verse-3"
+            },
+            {
+              "persian": "جویای من بوده ای",
+              "translit": "jūyā-ye man būde-ī",
+              "en": "Thou hast sought me. [contrast: `جویا`, a Persian agentive form, links to its complement via ezafe on the adjective: `جویا` + `-ye` + complement]",
+              "ref": "Verse 19",
+              "ref_anchor": "verse-19"
+            }
+          ],
+          "closing": "Other Arabic participial adjectives following the bare-NP pattern: `مطمئن X` (sure of X ← ط-م-أ-ن), `مشتاق X` (longing for X ← ش-و-ق), `طالب X` (seeking X ← ط-ل-ب), `شاکر X` (grateful for X ← ش-ك-ر). In less formal registers, speakers often supply a preposition even for these adjectives (`مشتاق به X`, `آگاه از X`). In literary Persian — including the BoM translation — the bare-NP form is the rule."
         }
       ]
     },
@@ -3246,7 +3304,7 @@
         {
           "type": "grammar-note",
           "title": "Grammar: `ای کاش` + imperfect — wishing construction",
-          "body": "`ای کاش` (also written `ای کاشکی`) introduces an unfulfilled or unlikely wish: \"O that …, would that …, if only ….\" The verb in the wish clause takes the **past imperfect** (می + past stem), not the subjunctive — a crucial distinction from purpose clauses.",
+          "body": "`ای کاش` (also written `ای کاشکی`) introduces an unfulfilled or unlikely wish: \"O that …, would that …, if only ….\" The verb in the wish clause takes the **past imperfect** (`می-` + past stem), not the subjunctive — a crucial distinction from purpose clauses.",
           "examples": [
             {
               "ref": "Verse 9",
@@ -4221,6 +4279,21 @@
               "desc": "`آسیب خوردن` \"to be harmed.\""
             }
           ]
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Inanimate plural subjects take singular (3sg) verb agreement",
+          "body": "Persian verb agreement depends on **animacy**, not just grammatical number. Human and animate plural subjects trigger plural agreement (3pl ending _-and_). Non-human (inanimate) plural subjects take **3sg agreement** regardless of their number — the same ending as a singular subject.",
+          "examples": [
+            {
+              "persian": "پیکرهایشان در برابر{e} او تکان خورد",
+              "translit": "peykar-hā-yešān dar barābar-e ū takān xord",
+              "en": "Their frames did shake before him. [inanimate plural `پیکرهایشان` → 3sg verb `خورد`]",
+              "ref": "Verse 14",
+              "ref_anchor": "verse-14"
+            }
+          ],
+          "closing": "The same rule applies throughout Persian: `کتاب ها روی{e} میز است` (The books are on the table — inanimate pl. → `است`, not `هستند`); `سخنانش در دلم ماند` (His words stayed in my heart — inanimate pl. → sg.). With **human/animate** plurals the plural verb is required (`آنها رفتند` \"they went\", never `*آنها رفت`). The 3pl form is sometimes used with inanimates in colloquial speech to emphasize individual agency, but in formal and literary Persian — including the BoM translation — the singular is consistent."
         },
         {
           "type": "headword",
@@ -5585,7 +5658,7 @@
       ]
     }
   ],
-  "intro": "## Intro\nChapter 2 of 1 Nephi follows directly from chapter 1: Lehi has received a dream in which the Lord warned him that the Jews seek his life, and he is now commanded to take his family and flee into the wilderness. In twenty-four verses the narrative moves through five episodes: the family's departure from Jerusalem southward to the Red Sea (vv. 1–6); Lehi's erection of a stone altar and sacrifice of thanksgiving (v. 7); his impassioned wish that Laman and Lemuel would be as faithful as the river and as constant as the valley (vv. 8–10); their murmuring explained and contrasted with young Nephi's prayer (vv. 11–18); and a personal revelation to Nephi that commissions him as future ruler and teacher — or warns that the brothers will become a scourge if they persist in rebellion (vv. 19–24).\nVocabulary spans six domains: **journey / wilderness** (بیابان، دریای سرخ، وادی، رود), **possessions / leaving** (دارایی، طلا، نقره، چادر), **sacrifice / worship** (قربانگاه، قربانی، پیشکش، سپاسگزاری), **commandment / obedience** (فرمان، مطیع، نگه داشتن), **murmuring / stubbornness** (غرولند، خیره سری، سخت دلی), and **revelation / promise** (نیایش، ایمان، برگزیدن، فرمانروایی). Grammar highlights unique to this chapter include the wishing construction _ای کاش + imperfect_ (vv. 9–10) and the conditional _تا جایی که + subjunctive_ (vv. 20–22).",
+  "intro": "## Intro\nChapter 2 of 1 Nephi follows directly from chapter 1: Lehi has received a dream in which the Lord warned him that the Jews seek his life, and he is now commanded to take his family and flee into the wilderness. In twenty-four verses the narrative moves through five episodes: the family's departure from Jerusalem southward to the Red Sea (vv. 1–6); Lehi's erection of a stone altar and sacrifice of thanksgiving (v. 7); his impassioned wish that Laman and Lemuel would be as faithful as the river and as constant as the valley (vv. 8–10); their murmuring explained and contrasted with young Nephi's prayer (vv. 11–18); and a personal revelation to Nephi that commissions him as future ruler and teacher — or warns that the brothers will become a scourge if they persist in rebellion (vv. 19–24).\nVocabulary spans six domains: **journey / wilderness** (بیابان _bīyābān_، دریای سرخ _daryā-ye sorx_، وادی _vādī_، رود _rūd_), **possessions / leaving** (دارایی _dārāyī_، طلا _ṭalā_، نقره _noqre_، چادر _čādar_), **sacrifice / worship** (قربانگاه _qorbān-gāh_، قربانی _qorbānī_، پیشکش _pīškeš_، سپاسگزاری _sepāsgozārī_), **commandment / obedience** (فرمان _farmān_، مطیع _motīʿ_، نگه داشتن _negah dāštan_), **murmuring / stubbornness** (غرولند _qorolond_، خیره سری _xīre-sarī_، سخت دلی _saxt-delī_), and **revelation / promise** (نیایش _niyāyeš_، ایمان _īmān_، برگزیدن _bargozīdan_، فرمانروایی _farmān-ravāyī_). Grammar highlights unique to this chapter include the wishing construction _ای کاش_ (_ey kāš_) + imperfect (vv. 9–10) and the conditional _تا جایی که_ (_tā jāyī ke_) + subjunctive (vv. 20–22).",
   "vocab_intro": "Organized in **order of first appearance**, grouped by the chapter summary and then verse-by-verse. Every distinct lemma in the chapter is introduced at its first occurrence — including all function words. Inflected forms of a verb already introduced are not re-listed as fresh entries; they are handled by the _Forms_ sub-bullet on the original entry. Proper nouns are listed where they first appear, tagged `[proper]`. Verbs include the infinitive and present stem.",
   "closing": "Chapter 2 is built on two opposing grammatical registers. The narrative framework — `چنین گذشت که` opening eleven verses — trains the reader to scan for that phrase as a scene-marker; once recognized, parsing the clause that follows becomes automatic. Within that frame, two constructions do the theological work: `ای کاش + imperfect` (vv. 9–10), which casts Lehi's wish for his sons as explicitly unfulfilled, and `تا جایی که + subjunctive / future` (vv. 20–22), which frames Nephi's commission as conditional rather than absolute. Mastering these three patterns — the narrative frame, the unfulfilled wish, and the conditional promise — gives you the skeleton of almost every scene in the book. As a study habit, read each `چنین گذشت که` clause and identify the verb in the trailing clause before moving to the vocabulary; that single step will double your reading speed across 1 Nephi."
 }
