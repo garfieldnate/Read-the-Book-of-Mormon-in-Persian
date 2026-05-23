@@ -4469,7 +4469,7 @@
           "type": "headword",
           "id": "درشت",
           "persian": "درشت",
-          "translit": "doroš",
+          "translit": "dorošt",
           "meaning": "large, big, stout; coarse, rough (of texture)",
           "pos": "adj",
           "tags": [],
@@ -4529,7 +4529,14 @@
           "translit": "zīyād",
           "meaning": "much, many, a lot, excessive; very (adverb)",
           "pos": "adv",
-          "tags": []
+          "tags": [],
+          "forms": [
+            {
+              "fa": "زیادی",
+              "translit": "zīyādī",
+              "desc": "with indefinite `-ī`: `میل{e} زیادی داشتن` _meyl-e zīyādī dāštan_ \"to have great desire\" [verse 16](#verse-16)"
+            }
+          ]
         },
         {
           "type": "headword",
