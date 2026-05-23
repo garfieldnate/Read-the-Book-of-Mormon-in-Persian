@@ -3403,6 +3403,7 @@
         },
         {
           "fa": "مرد",
+          "e": true,
           "gloss": {
             "src": "roʾyānegar",
             "gloss": "visionary"
