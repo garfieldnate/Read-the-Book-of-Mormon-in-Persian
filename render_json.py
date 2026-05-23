@@ -297,7 +297,7 @@ def _render_forms_html(forms: list[dict], anchor: str, word_map: dict[str, str])
             else:
                 translit = form.get("translit")
                 fa_html  = html_lib.escape(fa)
-                linked   = f'<a href="#{anchor}" class="src-link"><code>{fa_html}</code></a>'
+                linked   = f'<bdi><a href="#{anchor}" class="src-link"><code>{fa_html}</code></a></bdi>'
                 seg      = linked
                 if translit:
                     seg += f' <em class="translit">{html_lib.escape(translit)}</em>'
@@ -516,7 +516,7 @@ def _render_variant_entry(entry: dict, word_map: dict[str, str]) -> str:
     persian = entry["persian"]
     translit = entry.get("translit", "")
     meaning = entry.get("meaning", "")
-    inner = f'<code>{html_lib.escape(persian)}</code>'
+    inner = f'<bdi><code>{html_lib.escape(persian)}</code></bdi>'
     if translit:
         inner += f' (<em class="translit">{html_lib.escape(translit)}</em>)'
     inner += f' — {_inline(meaning, word_map)}'

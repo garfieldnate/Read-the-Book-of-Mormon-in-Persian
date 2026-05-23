@@ -9,12 +9,13 @@
 	- https://en.wikipedia.org/wiki/Persian_nouns
 - Mention causative infix on verb page (though it's not completely productive)
 - Index for Arabic borrowings using JSON root info (all words with same root in a section)
-- Nail down styling guide for mixed LTR/RTL
 - Generate exercises
 - Break up BoM study with some real-life usage info, maybe church themed to keep it on theme
 - Reference page on pronouns, including demonstratives and interrogatives, clitics
+* Move editorial ezafe, etc. switches to a slideout menu or something to reduce clutter
 
-New instructions file for chapter generation:
+## New instructions file for chapter generation
+
 * Download source text
 * Generate source file (parsed, tokenized, glossed)
 * List out unique lemma in the source and their first uses, plus all other occurrences by form.

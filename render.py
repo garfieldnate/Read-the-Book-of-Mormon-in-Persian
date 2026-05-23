@@ -94,18 +94,27 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     # Bare [text] with no URL → (text); avoids literal square brackets in output
     text = re.sub(r"\[([^\[\]]+)\](?!\()", r"(\1)", text)
     # Backtick code — process first so content inside backticks isn't
-    # mis-treated as italic.
+    # mis-treated as italic.  Persian code spans are wrapped in <bdi> so
+    # they auto-detect RTL direction AND are bidi-isolated from surrounding
+    # text — without isolation, neutral chars like em-dashes that follow a
+    # Persian <code> get pulled into the RTL run and rendered on the wrong side.
     if word_map is not None:
         def _link_code(m: re.Match) -> str:
             content = m.group(1)
             if _PERSIAN_CHAR_RE.search(content):
                 anchor = _lookup_word(content, word_map) or word_map.get(content)
                 if anchor:
-                    return f'<a href="#{anchor}" class="src-link"><code>{content}</code></a>'
+                    return f'<bdi><a href="#{anchor}" class="src-link"><code>{content}</code></a></bdi>'
+                return f'<bdi><code>{content}</code></bdi>'
             return f"<code>{content}</code>"
         text = re.sub(r"`([^`]+?)`", _link_code, text)
     else:
-        text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
+        def _bare_code(m: re.Match) -> str:
+            content = m.group(1)
+            if _PERSIAN_CHAR_RE.search(content):
+                return f'<bdi><code>{content}</code></bdi>'
+            return f'<code>{content}</code>'
+        text = re.sub(r"`([^`]+?)`", _bare_code, text)
     # Protect already-generated HTML tags so underscores inside href/class
     # attributes can't be consumed as italic delimiters.
     _tags = re.findall(r"<[^>]+>", text)
@@ -117,11 +126,16 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     text = re.sub(r"(?<!_)_([^_]+?)_(?!_)", r"<em>\1</em>", text)
     for _idx, _tag in enumerate(_tags):
         text = text.replace(f"\x00{_idx}\x00", _tag)
-    # Wrap runs of 2+ consecutive Persian code spans in an RTL container so
-    # multi-word phrases (e.g. `به` `هنگام`) display in the correct reading order.
+    # Merge runs of 2+ consecutive bdi-wrapped Persian code spans into a single
+    # <bdi dir="rtl"> so multi-word phrases (e.g. `به` `هنگام`) display in the correct
+    # RTL reading order AND the whole phrase is bidi-isolated.
+    _BDI_PERSIAN = r'<bdi>(?:<a[^>]*>)?<code>[^<]*[؀-ۿ][^<]*</code>(?:</a>)?</bdi>'
+    def _merge_rtl(m: re.Match) -> str:
+        inner = re.sub(r'</?bdi>', '', m.group(0))
+        return f'<bdi dir="rtl">{inner}</bdi>'
     text = re.sub(
-        r"(<code>[^<]*[؀-ۿ][^<]*</code>(?:[  ]*<code>[^<]*[؀-ۿ][^<]*</code>)+)",
-        r'<span dir="rtl">\1</span>',
+        rf'(?:{_BDI_PERSIAN})(?:[ \xa0]*(?:{_BDI_PERSIAN}))+',
+        _merge_rtl,
         text,
     )
     return text
@@ -625,7 +639,7 @@ def _emit_tree(
             else:
                 # Code-starting alias entry within a vocab list (e.g. `سرورا`).
                 # The code span may now be wrapped in an <a> by the auto-linker.
-                _code_m = re.match(r"(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
+                _code_m = re.match(r"(?:<bdi[^>]*>)?(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
                 if _code_m:
                     li_open = f'<li id="gram-{_code_m.group(1).strip()}">'
                 else:
@@ -638,7 +652,7 @@ def _emit_tree(
             li_content = _wrap_meta_label(content)
             child_mode = "plain"
         else:
-            _code_m = re.match(r"(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
+            _code_m = re.match(r"(?:<bdi[^>]*>)?(?:<a[^>]*>)?<code>([؀-ۿ‌][^<]*)</code>", content)
             if _code_m:
                 _gram_word = _code_m.group(1).strip()
                 li_open = f'<li id="gram-{_gram_word}">'
