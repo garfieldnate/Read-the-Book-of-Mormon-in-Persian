@@ -252,7 +252,8 @@ def main() -> int:
         ("transcription.md", "transcription.html", "Persian Transliteration Scheme"),
         ("verbs.md",         "verbs.html",         "Persian Verb Conjugations"),
         ("arabic.md",        "arabic.html",        "Arabic Borrowings in Persian"),
-        ("nouns.md",         "nouns.html",         "Persian Noun Plurals"),
+        ("noun_plurals.md",   "noun_plurals.html",   "Persian Noun Plurals"),
+        ("noun_formation.md", "noun_formation.html", "Persian Noun Formation"),
     ]:
         md_path = ROOT / "study_guide" / md_name
         if md_path.exists():
