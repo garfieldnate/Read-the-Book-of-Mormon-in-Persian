@@ -229,7 +229,9 @@ def _render_tokens(
 
         elif "p" in tok:
             result.append(html_lib.escape(tok["p"]))
-            prev_was_word = False
+            # Space after sentence/clause-ending punctuation; not after em-dash
+            # or other separators that intentionally run words together.
+            prev_was_word = tok["p"] in (".", "،", "؛", ":", "!", "؟", "?")
 
         i += 1
 
