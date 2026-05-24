@@ -343,7 +343,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`دارا` + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) ← `داشتن` \"to have.\""
+						"prose": "`دارا` + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) ← `داشتن` \"to have.\""
 					},
 					"family": "`دارا` _dārā_ \"wealthy, possessing\"; `داشتن` _dāštan_ \"to have.\""
 				},
@@ -1270,7 +1270,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`فرمان` \"command\" + `روا` (← pres. stem of `رفتن`) + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"having one's commands effected.\""
+						"prose": "`فرمان` \"command\" + `روا` (← pres. stem of `رفتن`) + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"having one's commands effected.\""
 					},
 					"family": "`فرمان` _farmān_ \"command\"; `فرمانروا` _farmān-ravā_ \"ruler, sovereign\" [verse 22](#verse-22)."
 				},
@@ -2090,7 +2090,7 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`راه` \"road, way\" + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"road-going, on one's way.\""
+						"prose": "`راه` \"road, way\" + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"road-going, on one's way.\""
 					},
 					"forms": [
 						{
@@ -2939,7 +2939,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`سپاس` \"thanks, gratitude\" + `گزار` (← `گذاشتن` \"to place\") + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"the placing/laying down of thanks.\""
+						"prose": "`سپاس` \"thanks, gratitude\" + `گزار` (← `گذاشتن` \"to place\") + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"the placing/laying down of thanks.\""
 					}
 				}
 			]
@@ -3278,7 +3278,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`پرهیز` \"abstinence, avoidance\" (← `پرهیختن` \"to abstain\") + `کار` \"deed\" + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"the practice of self-restraint.\""
+						"prose": "`پرهیز` \"abstinence, avoidance\" (← `پرهیختن` \"to abstain\") + `کار` \"deed\" + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"the practice of self-restraint.\""
 					},
 					"family": "`پرهیزکار` _parhīzkār_ \"righteous, pious, virtuous.\""
 				},
@@ -3394,7 +3394,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`نگه` (← `نگاه` \"gaze, watch\") + `دار-` + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"the act of holding/guarding.\""
+						"prose": "`نگه` (← `نگاه` \"gaze, watch\") + `دار-` + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"the act of holding/guarding.\""
 					},
 					"forms": [
 						{
@@ -3455,7 +3455,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`خیره` \"fixed, stubborn\" + `سر` \"head\" + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"state of having a fixed/unyielding head.\""
+						"prose": "`خیره` \"fixed, stubborn\" + `سر` \"head\" + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"state of having a fixed/unyielding head.\""
 					},
 					"forms": [
 						{
@@ -3542,7 +3542,7 @@
 							}
 						]
 					},
-					"family": "`مردانه` _mardāne_ \"manly, courageous\"; `نامرد` _nāmard_ \"cowardly, base.\""
+					"family": "`مردانه` _mardāne_ \"manly, courageous\" ([ـانه suffix](../word_formation.html#the-adverb-adjective-suffix-ne)); `نامرد` _nāmard_ \"cowardly, base.\""
 				},
 				{
 					"type": "headword",
@@ -3640,7 +3640,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`راه` \"road\" + `نما` (← `نمودن` \"to show\") + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"the showing of a road, guidance.\""
+						"prose": "`راه` \"road\" + `نما` (← `نمودن` \"to show\") + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"the showing of a road, guidance.\""
 					}
 				},
 				{
@@ -3734,7 +3734,7 @@
 						},
 						{
 							"fa": "بی خردانه",
-							"desc": "`بی خردانه` _bī-xerad-āne_ \"foolishly, senselessly\""
+							"desc": "`بی خردانه` _bī-xerad-āne_ \"foolishly, senselessly\" ([ـانه suffix](../word_formation.html#the-adverb-adjective-suffix-ne))"
 						},
 						{
 							"fa": "خِردانۀ",
@@ -3857,7 +3857,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`آگاه` \"aware, informed\" + `-ی` ([abstract noun suffix](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`آگاه` \"aware, informed\" + `-ی` ([abstract noun suffix](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`آگاه` _āgāh_ \"aware, knowledgeable\"; `آگاه کردن` \"to inform, notify.\"",
 					"forms": [

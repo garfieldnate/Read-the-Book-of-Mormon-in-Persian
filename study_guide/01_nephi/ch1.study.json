@@ -98,7 +98,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`فرمان` + `روا` (← `رفتن`) + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"having one's commands run/effected\"."
+						"prose": "`فرمان` + `روا` (← `رفتن`) + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"having one's commands run/effected\"."
 					},
 					"family": "`فرمان` _farmān_ \"command, decree\"; `روا` _ravā_ \"current, permitted\" (also an entry in this chapter); `فرمانروا` _farmān-ravā_ \"ruler, sovereign\"."
 				},
@@ -833,7 +833,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`نا-` + `بکار` + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"non-useful-ness, wickedness\"."
+						"prose": "`نا-` + `بکار` + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"non-useful-ness, wickedness\"."
 					},
 					"family": "`نا-` _nā-_ (privative prefix); `کار` _kār_ \"work\" (an entry in this chapter); `نابکار` _nābekār_ \"wicked, useless\" (the underlying adjective)."
 				},
@@ -999,7 +999,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`نا-` + `بود` (past stem of `بودن`) + `-ی` ([abstract suffix](../noun_formation.html#the-abstract-noun-suffix-g)) → \"non-being-ness\"."
+						"prose": "`نا-` + `بود` (past stem of `بودن`) + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"non-being-ness\"."
 					},
 					"family": "`نا-` _nā-_ (privative prefix; cf. `نابود` below, `نابکار` \"wicked\"); `نابود` _nābūd_ \"destroyed\" (also an entry in this chapter); `بودن` _būdan_ \"to be\"."
 				},
@@ -1012,7 +1012,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`زنده` + `-گی` ([abstract suffix, _-e_-final stems](../noun_formation.html#the-abstract-noun-suffix-g)) → \"the state of being alive\"."
+						"prose": "`زنده` + `-گی` ([abstract suffix, _-e_-final stems](../word_formation.html#the-abstract-noun-suffix-g)) → \"the state of being alive\"."
 					},
 					"family": "`زنده` _zende_ \"alive\"; `زیستن` _zīstan_ \"to live\"; `زندگانی` _zendegānī_ \"life\" (synonym, same root)."
 				},
@@ -2885,7 +2885,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`نیک` + `-ی` ([abstract](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`نیک` + `-ی` ([abstract](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`نیک` _nīk_ \"good, virtuous\"; `نیکو` _nīkū_ \"fine, excellent\" (literary variant)."
 				},
@@ -5120,7 +5120,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ ([abstract](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`شاد` _šād_ + `-مان` _-mān_ (adjectival) + `-ی` _-ī_ ([abstract](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`شاد` _šād_ \"happy\"; `شادمان` _šādmān_ \"joyful, cheerful\"."
 				},
@@ -5133,7 +5133,7 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`تمام` (Arabic) + `-ی` ([abstract](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`تمام` (Arabic) + `-ی` ([abstract](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`تمام` _tamām_ \"complete, all\" (also used standalone, common in modern Persian)."
 				},
@@ -5614,7 +5614,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`گواه` + `-ی` ([abstract](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`گواه` + `-ی` ([abstract](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`گواه` _govāh_ \"witness\"."
 				},
@@ -5706,7 +5706,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`ساده` + `-گی` ([abstract suffix, _-e_-final stems](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`ساده` + `-گی` ([abstract suffix, _-e_-final stems](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`ساده` _sāde_ \"simple, plain\".",
 					"forms": [
@@ -5991,7 +5991,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`رها` + `-ی` ([abstract](../noun_formation.html#the-abstract-noun-suffix-g))."
+						"prose": "`رها` + `-ی` ([abstract](../word_formation.html#the-abstract-noun-suffix-g))."
 					},
 					"family": "`رها` _rahā_ \"free, released\"; `رها کردن rahā kardan` \"to release\"; `رهانیدن` _rahānīdan_ \"to deliver\"."
 				},
