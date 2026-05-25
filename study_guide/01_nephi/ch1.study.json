@@ -546,9 +546,9 @@
 						"proper"
 					],
 					"etym": {
-						"prose": "`سر` + `-ور` (suffix \"having\") → \"having a head [over others]\", i.e. \"chief, master\"."
+						"prose": "`سر` + [`-ور`](../word_formation.html#var-possessing-bearing-x) (suffix \"having\") → \"having a head [over others]\", i.e. \"chief, master\"."
 					},
-					"family": "`سر` _sar_ \"head\" (an entry in this chapter); `-ور` _-var_ (productive suffix; cf. `هنرور` \"skilled\", `کینه‌ور` \"vengeful\").",
+					"family": "`سر` _sar_ \"head\" (an entry in this chapter); [`-ور`](../word_formation.html#var-possessing-bearing-x) _-var_ (productive suffix; cf. `هنرور` \"skilled\", `کینه‌ور` \"vengeful\").",
 					"forms": [
 						{
 							"fa": "سرورا",
@@ -835,7 +835,7 @@
 					"etym": {
 						"prose": "`نا-` + `بکار` + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"non-useful-ness, wickedness\"."
 					},
-					"family": "`نا-` _nā-_ (privative prefix); `کار` _kār_ \"work\" (an entry in this chapter); `نابکار` _nābekār_ \"wicked, useless\" (the underlying adjective)."
+					"family": "[`نا-`](../word_formation.html#n-un-non-in) _nā-_ (privative prefix); `کار` _kār_ \"work\" (an entry in this chapter); `نابکار` _nābekār_ \"wicked, useless\" (the underlying adjective)."
 				},
 				{
 					"type": "headword",
@@ -1001,7 +1001,7 @@
 					"etym": {
 						"prose": "`نا-` + `بود` (past stem of `بودن`) + `-ی` ([abstract suffix](../word_formation.html#the-abstract-noun-suffix-g)) → \"non-being-ness\"."
 					},
-					"family": "`نا-` _nā-_ (privative prefix; cf. `نابود` below, `نابکار` \"wicked\"); `نابود` _nābūd_ \"destroyed\" (also an entry in this chapter); `بودن` _būdan_ \"to be\"."
+					"family": "[`نا-`](../word_formation.html#n-un-non-in) _nā-_ (privative prefix; cf. `نابود` below, `نابکار` \"wicked\"); `نابود` _nābūd_ \"destroyed\" (also an entry in this chapter); `بودن` _būdan_ \"to be\"."
 				},
 				{
 					"type": "headword",
@@ -1279,7 +1279,7 @@
 						"translit": "bar-dār-"
 					},
 					"etym": {
-						"prose": "prefix `بر-` _bar_ \"up, on\" + `داشتن` _dāštan_ \"to hold\"."
+						"prose": "prefix [`بر-`](../word_formation.html#directional-prefixes-bar-and-foru) _bar_ \"up, on\" + `داشتن` _dāštan_ \"to hold\"."
 					},
 					"forms": [
 						{
@@ -1722,7 +1722,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`شور` + `-ش` (deverbal nominalizer)."
+						"prose": "`شور` + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (deverbal nominalizer)."
 					},
 					"family": "`شور` _šūr_ \"agitation, fervor, passion\"; `شوریدن` _šūrīdan_ \"to revolt, be in turmoil\"."
 				}
@@ -2317,7 +2317,7 @@
 						}
 					],
 					"etym": {
-						"prose": "`ستای-` (pres. stem of `ستودن`) + `-ش` (nominalizer)."
+						"prose": "`ستای-` (pres. stem of `ستودن`) + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer)."
 					},
 					"family": "`ستودن` _setūdan_ \"to praise\" (verb)."
 				},
@@ -2685,7 +2685,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`آموز-` (pres. stem of `آموختن` \"to teach/learn\") + `-ش` (nominalizer)."
+						"prose": "`آموز-` (pres. stem of `آموختن` \"to teach/learn\") + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer)."
 					},
 					"family": "`آموختن` _āmūxtan_ \"to teach, to learn\" (verb); `آموخته` _āmūxte_ \"learning\" (pp)."
 				},
@@ -2734,9 +2734,9 @@
 						]
 					},
 					"etym": {
-						"prose": "`روز` + `-گار` (suffix forming nouns of duration/period) → \"the days [of life]\"."
+						"prose": "`روز` + [`-گار`](../word_formation.html#gar-one-who-works-with-or-practices-x) (suffix forming nouns of duration/period) → \"the days [of life]\"."
 					},
-					"family": "`روز` _rūz_ \"day\"; `-گار` _-gār_ (productive in `آموزگار` \"teacher\", `کردگار` \"creator\", `پروردگار` \"Lord\")."
+					"family": "`روز` _rūz_ \"day\"; [`-گار`](../word_formation.html#gar-one-who-works-with-or-practices-x) _-gār_ (productive in `آموزگار` \"teacher\", `کردگار` \"creator\", `پروردگار` \"Lord\")."
 				},
 				{
 					"type": "headword",
@@ -2922,7 +2922,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`دان-` (pres. stem of `دانستن` \"to know\") + `-ش` (nominalizer)."
+						"prose": "`دان-` (pres. stem of `دانستن` \"to know\") + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer)."
 					},
 					"family": "`دانستن` _dānestan_ \"to know\" (an entry in this chapter); `دانا` _dānā_ \"wise\"; `دانشمند` _dānešmand_ \"scholar\"."
 				},
@@ -3403,7 +3403,7 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`نا-` _nā-_ \"non-, un-\" + `بود` _būd_ (past stem of `بودن` \"to be\") → \"non-existent\"."
+						"prose": "[`نا-`](../word_formation.html#n-un-non-in) _nā-_ \"non-, un-\" + `بود` _būd_ (past stem of `بودن` \"to be\") → \"non-existent\"."
 					},
 					"forms": [
 						{
@@ -3491,7 +3491,7 @@
 						]
 					},
 					"etym": {
-						"prose": "from `نیایستن` \"to supplicate\" + `-ش` (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_)."
+						"prose": "from `نیایستن` \"to supplicate\" + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer); native Persian, deeply rooted (cf. Avestan _niyāy-_)."
 					},
 					"family": "`نیایشگاه` _niyāyešgāh_ \"place of worship\"."
 				},
@@ -4122,9 +4122,9 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`بی-` + `شمار`."
+						"prose": "[`بی-`](../word_formation.html#b-without-lacking-x) + `شمار`."
 					},
-					"family": "`بی-` _bī-_ (privative prefix \"without\"); `شمار` _šomār_ \"count, number\"; `شمردن` _šomordan_ \"to count\"; `شماره` _šomāre_ \"number\".",
+					"family": "[`بی-`](../word_formation.html#b-without-lacking-x) _bī-_ (privative prefix \"without\"); `شمار` _šomār_ \"count, number\"; `شمردن` _šomordan_ \"to count\"; `شماره` _šomāre_ \"number\".",
 					"forms": [
 						{
 							"fa": "بیشماری",
@@ -4421,7 +4421,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`درخش-` (pres. stem of `درخشیدن` \"to shine\") + `-ش` (nominalizer)."
+						"prose": "`درخش-` (pres. stem of `درخشیدن` \"to shine\") + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer)."
 					},
 					"family": "`درخشیدن` _deraxšīdan_ \"to shine\"; `درخشان` _deraxšān_ \"shining, brilliant\"."
 				},
@@ -4434,7 +4434,7 @@
 					"pos": "other",
 					"tags": [],
 					"etym": {
-						"prose": "`تاب-` (pres. stem of `تابیدن` \"to shine\") + `-ش` (nominalizer)."
+						"prose": "`تاب-` (pres. stem of `تابیدن` \"to shine\") + [`-ش`](../word_formation.html#e-verbal-noun-from-the-present-stem) (nominalizer)."
 					},
 					"family": "`تابیدن` _tābīdan_ \"to shine, radiate\"; `آفتاب` _āftāb_ \"sunshine\" (`آف` \"shining\" + `تاب`)."
 				},
@@ -4991,9 +4991,9 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`مهر` + `-بان` \"guardian, keeper\" (cf. `باغبان` \"gardener\") → \"love-keeper\"."
+						"prose": "`مهر` + [`-بان`](../word_formation.html#b-n-keeper-watcher-of-x) \"guardian, keeper\" (cf. `باغبان` \"gardener\") → \"love-keeper\"."
 					},
-					"family": "`مهر` _mehr_ \"love, kindness\"; `-بان` _-bān_ \"keeper\" (productive suffix: `باغبان` \"gardener\", `دروازه‌بان` \"gatekeeper\").",
+					"family": "`مهر` _mehr_ \"love, kindness\"; [`-بان`](../word_formation.html#b-n-keeper-watcher-of-x) _-bān_ \"keeper\" (productive suffix: `باغبان` \"gardener\", `دروازه‌بان` \"gatekeeper\").",
 					"forms": [
 						{
 							"fa": "مهربانی",

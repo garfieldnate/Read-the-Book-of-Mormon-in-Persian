@@ -436,7 +436,7 @@
 						"proper"
 					],
 					"etym": {
-						"prose": "`سر` _sar_ \"head\" + `-ور` _-var_ (suffix \"having, possessing\") → \"one who has a head over others.\""
+						"prose": "`سر` _sar_ \"head\" + [`-ور`](../word_formation.html#var-possessing-bearing-x) _-var_ (suffix \"having, possessing\") → \"one who has a head over others.\""
 					},
 					"forms": [
 						{
@@ -1135,7 +1135,7 @@
 						"translit": "bargozīn-"
 					},
 					"etym": {
-						"prose": "`بر-` (intensifying preverb) + `گزیدن` \"to choose.\""
+						"prose": "[`بر-`](../word_formation.html#directional-prefixes-bar-and-foru) (intensifying preverb) + `گزیدن` \"to choose.\""
 					},
 					"forms": [
 						{
@@ -2064,7 +2064,7 @@
 						"translit": "bardār-"
 					},
 					"etym": {
-						"prose": "`بر-` (directional preverb \"up\") + `داشتن` \"to hold.\""
+						"prose": "[`بر-`](../word_formation.html#directional-prefixes-bar-and-foru) (directional preverb \"up\") + `داشتن` \"to hold.\""
 					},
 					"forms": [
 						{
@@ -2581,7 +2581,7 @@
 						"translit": "bargīr-"
 					},
 					"etym": {
-						"prose": "`بر-` (intensifying preverb) + `گرفتن` \"to take.\""
+						"prose": "[`بر-`](../word_formation.html#directional-prefixes-bar-and-foru) (intensifying preverb) + `گرفتن` \"to take.\""
 					},
 					"forms": [
 						{
@@ -2840,9 +2840,9 @@
 						]
 					},
 					"etym": {
-						"prose": "`قربانی` \"sacrifice\" + `گاه` [bound morpheme] \"place\" → \"the place where a sacrifice is offered.\""
+						"prose": "`قربانی` \"sacrifice\" + [`گاه`](../word_formation.html#g-h-place-or-time-of-x) [bound morpheme] \"place\" → \"the place where a sacrifice is offered.\""
 					},
-					"family": "`قربانی` _qorbānī_ \"sacrifice\" (already introduced); `گاه` _gāh_ \"place, time\" as in `جایگاه` \"position\" and `چراگاه` \"pasture.\""
+					"family": "`قربانی` _qorbānī_ \"sacrifice\" (already introduced); [`گاه`](../word_formation.html#g-h-place-or-time-of-x) _gāh_ \"place, time\" as in `جایگاه` \"position\" and `چراگاه` \"pasture.\""
 				},
 				{
 					"type": "headword",
@@ -3361,7 +3361,7 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`پای` \"foot, base\" + `-دار` (← `داشتن`) → \"having a base, well-grounded.\""
+						"prose": "`پای` \"foot, base\" + [`-دار`](../word_formation.html#d-r-one-who-holds-or-possesses-x) (← `داشتن`) → \"having a base, well-grounded.\""
 					}
 				},
 				{
@@ -4005,7 +4005,7 @@
 					"pos": "adj",
 					"tags": [],
 					"etym": {
-						"prose": "`نا-` (negating prefix) + `بود` \"being, existence\" → \"non-being.\""
+						"prose": "[`نا-`](../word_formation.html#n-un-non-in) (negating prefix) + `بود` \"being, existence\" → \"non-being.\""
 					},
 					"forms": [
 						{
@@ -4616,7 +4616,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`در` \"door\" + `گاه` \"place, time\" → \"door-place, threshold.\""
+						"prose": "`در` \"door\" + [`گاه`](../word_formation.html#g-h-place-or-time-of-x) \"place, time\" → \"door-place, threshold.\""
 					}
 				},
 				{
@@ -5286,7 +5286,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`پیش` \"before, in front\" + `گاه` \"place\" → \"fore-place, place of presence.\""
+						"prose": "`پیش` \"before, in front\" + [`گاه`](../word_formation.html#g-h-place-or-time-of-x) \"place\" → \"fore-place, place of presence.\""
 					}
 				},
 				{
@@ -5380,7 +5380,7 @@
 						]
 					},
 					"etym": {
-						"prose": "`آموز-` (pres. stem of `آموختن`) + `-گار` (agentive suffix) → \"one who teaches.\" (See also `آموختن` in chapter summary.)"
+						"prose": "`آموز-` (pres. stem of `آموختن`) + [`-گار`](../word_formation.html#gar-one-who-works-with-or-practices-x) (agentive suffix) → \"one who teaches.\" (See also `آموختن` in chapter summary.)"
 					}
 				}
 			]
