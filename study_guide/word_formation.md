@@ -110,6 +110,59 @@ The positive counterpart to بی‌-. Attaches to nouns to produce adjectives me
 
 **Stress:** prefix is unstressed; stress on the last syllable of the base.
 
+### خود‌- (*xod-*) — "self-, auto-"
+
+Attaches to nouns and verbal nouns to mean "doing X by oneself" or "of/relating to oneself." **Fully productive** — the equivalent of English "self-" or "auto-."
+
+| Base | | خود‌- + | |
+|------|-|---------|--|
+| `کار` *kār* "work, deed" | noun | `خودکار` *xod-**kār*** | "automatic; ballpoint pen" |
+| `کفا` *kafā* "sufficiency" | noun | `خودکفا` *xod-ka-**fā*** | "self-sufficient" |
+| `آگاه` *āgāh* "aware" | adj | `خودآگاه` *xod-ā-**gāh*** | "self-aware, conscious" |
+| `شناسی` *šenāsī* "knowing, study of" | noun | `خودشناسی` *xod-šenā-**sī*** | "self-knowledge" |
+| `سازی` *sāzī* "building, making" | noun | `خودسازی` *xod-sā-**zī*** | "self-improvement, self-construction" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
+### فرا‌- (*farā-*) — "beyond, supra-, forth"
+
+Attaches to verbs and verbal nouns to mean "beyond X," "above X," or (with verbs of motion) "forward/forth." Common in literary and formal Persian; moderately productive.
+
+| Base | | فرا‌- + | |
+|------|-|---------|--|
+| `خواندن` *xāndan* "to call, read" | verb | `فراخواندن` *farā-**xāndan*** | "to summon, to call forth" |
+| `گرفتن` *gereftan* "to take, spread" | verb | `فراگرفتن` *farā-ge-**reftan*** | "to engulf; to pervade; to master (a subject)" |
+| `رسیدن` *rasidan* "to arrive" | verb | `فرارسیدن` *farā-ra-**sidan*** | "to arrive (of a time or event)" |
+| `تر` *tar* comparative suffix | — | `فراتر` *farā-**tar*** | "beyond, further, above and past" |
+| `موش` archaic "memory" | verbal element | `فراموشی` *farā-mu-**šī*** | "forgetfulness" (now a lexicalized unit) |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the compound.
+
+### Directional prefixes: بر‌- (*bar-*) and فرو‌- (*foru-*)
+
+Unlike the other prefixes on this page, بر‌- and فرو‌- are **directional** — they modify a verb's meaning by adding "upward/outward" (بر‌-) or "downward/inward" (فرو‌-). In modern Persian they survive mostly as fossilized elements fused into specific verbs rather than as freely attachable prefixes, but the directional logic is transparent once you see it and helps decode a large number of common words.
+
+**بر‌- (*bar-*)** "upward, outward, up and away":
+
+| With verb | | Meaning |
+|-----------|--|---------|
+| `خاستن` *xāstan* "to rise" | `برخاستن` *bar-**xāstan*** | "to rise up, to stand up" |
+| `گشتن` *gaštan* "to turn, wander" | `برگشتن` *bar-**gaštan*** | "to return, to turn back" |
+| `داشتن` *dāštan* "to hold" | `برداشتن` *bar-**dāštan*** | "to pick up, to lift; to deduct" |
+| `آمدن` *āmadan* "to come" | `برآمدن` *bar-ā-**madan*** | "to arise, to emerge; to amount to" |
+| `انگیختن` *angixtan* "to rouse" | `برانگیختن` *bar-an-**gixtan*** | "to stir up, to inspire, to provoke" |
+
+**فرو‌- (*foru-*)** "downward, inward, under":
+
+| With verb | | Meaning |
+|-----------|--|---------|
+| `ریختن` *rixtan* "to pour, spill" | `فروریختن` *foru-**rixtan*** | "to collapse, to fall down, to crumble" |
+| `رفتن` *raftan* "to go" | `فرورفتن` *foru-**raftan*** | "to sink into, to go under, to be absorbed in" |
+| `پاشیدن` *pāšidan* "to scatter" | `فروپاشیدن` *foru-pā-**šidan*** | "to disintegrate, to collapse (of a system)" |
+| `نشستن` *nešastan* "to sit" | `فرونشستن` *foru-ne-**šastan*** | "to subside, to settle (of ground or swelling)" |
+
+The directional logic is usually transparent: فرو + ریختن = down + pour = collapse. In many words, however, the prefix has fused so completely that the compound must simply be learned as a unit.
+
 ---
 
 ## The abstract-noun suffix ـی / ـگی (*-ī* / *-gī*)
@@ -159,8 +212,26 @@ The letter ی produces three completely different grammatical effects depending 
 | **Abstract noun** (this section) | adjective or agent noun | a new noun | `خوب` → `خوبی` "goodness" |
 | **Indefinite marker** | any noun | "a, some, a certain" | `مرد` → `مردی` "a man" |
 | **Relativizer** | noun before a `که` clause | identifies the antecedent | `خدایی که` "the God who…" |
+| **Relational adjective** | noun (place, material, category) | an adjective | `ایران` → `ایرانی` "Iranian" |
 
 The abstract-noun use is recognizable because the result is itself a noun that stands alone (it is not followed by که, and it does not mean "a [noun]"). When in doubt, ask: does the ـی-word name a quality, state, or practice? If so, it is the abstract suffix.
+
+### As a relational adjective
+
+The same ـی suffix attaches to **nouns** — particularly place names, materials, and category nouns — to produce adjectives meaning "of X," "relating to X," or "made of X." This is sometimes called the *nisba* adjective (a term from Arabic grammar). It is **fully productive** and extremely common.
+
+| Base | | + ـی | |
+|------|-|------|--|
+| `ایران` *irān* | proper noun | `ایرانی` *irān-**ī*** | "Iranian" |
+| `طلا` *ṭalā* "gold" | noun | `طلایی` *ṭalāy-**ī*** | "golden, made of gold" |
+| `آسمان` *āsmān* "sky, heaven" | noun | `آسمانی` *āsmān-**ī*** | "heavenly, celestial" |
+| `زمین` *zamin* "earth, ground" | noun | `زمینی` *zamin-**ī*** | "earthly, terrestrial" |
+| `دین` *din* "religion, faith" | noun | `دینی` *din-**ī*** | "religious" |
+| `بهشت` *behešt* "paradise" | noun | `بهشتی` *behešt-**ī*** | "heavenly, of paradise" |
+
+When the base ends in a vowel (like طلا), a y-glide is inserted before ـی: طلا + ـی → طلایی *ṭalāy-ī* — the same phonological rule as the abstract noun (دارا → دارایی).
+
+**Distinguishing relational adjective from abstract noun:** The relational adjective modifies a noun ("an Iranian city," "a golden ring"), while the abstract noun stands alone as a noun ("goodness is necessary"). Ask: is the ـی-word modifying something, or is it itself the subject/object of the sentence? If it modifies, it is likely the relational adjective.
 
 ---
 
@@ -248,6 +319,30 @@ A somewhat literary suffix meaning "one who has or bears X." Less freely product
 | `زور` *zur* "force, strength" | noun | `زورآور` *zur-ā-**var*** | "strong, forceful" |
 
 **Note:** `زورآور` can also be analyzed as زور + آور (present stem of آوردن "to bring") — "one who brings force." This overlap between ـور and the present stem آور from آوردن means the suffix can be difficult to isolate. When you see ـور and cannot identify a clear noun base, check whether آوردن (to bring/produce) might be in play.
+
+### ـواره (*-vāre*) — "resembling, in the manner of X"
+
+Attaches to nouns to produce adjectives meaning "like X" or "resembling X." **Productively used** in modern Persian, especially in scientific and cultural vocabulary.
+
+| Base | | + ـواره | |
+|------|-|---------|--|
+| `ماه` *māh* "moon" | noun | `ماهواره` *māh-**vāre*** | "satellite" (lit. "moon-like") |
+| `سنگ` *sang* "stone, rock" | noun | `سنگواره` *sang-**vāre*** | "fossil" (lit. "stone-like remnant") |
+| `یاد` *yād* "memory, remembrance" | noun | `یادواره` *yād-**vāre*** | "memorial, commemoration" |
+| `بهمن` *bahman* "avalanche" | noun | `بهمن‌واره` *bahman-**vāre*** | "avalanche-like, avalanche-scale" |
+
+### ـوار (*-vār*) — "characterized by, in the condition of X"
+
+A related but distinct suffix that describes an **emotional or dispositional state** rather than a visual resemblance. Found mostly in inherited literary words, but very common in religious and formal texts.
+
+| Base | | + ـوار | |
+|------|-|--------|--|
+| `امید` *omid* "hope" | noun | `امیدوار` *omid-**vār*** | "hopeful, expectant" |
+| `سوگ` *sug* "mourning, grief" | noun | `سوگوار` *sug-**vār*** | "in mourning, grief-stricken" |
+| `شاه` *šāh* "king" | noun | `شاهوار` *šāh-**vār*** | "kingly, fit for a king" |
+| `بیم` *bim* "fear, apprehension" | noun | `بیموار` *bim-**vār*** | "fearful, apprehensive" |
+
+**ـواره vs ـوار:** ـواره leans toward resemblance or formal categorization (a satellite "is like a moon" in its orbit); ـوار leans toward an emotional or dispositional state (امیدوار "one who has hope as their condition"). In modern scientific coinages, ـواره is the active form.
 
 ---
 
@@ -380,6 +475,50 @@ From `گزاردن` *gozārdan* "to perform, render." Most common in religious, 
 | `نماز` *namāz* "ritual prayer" | noun | `نمازگزار` *namāz-**gozār*** | "one who prays, devout" |
 | `خدمت` *xedmat* "service" | noun | `خدمتگزار` *xedmat-**gozār*** | "servant, one who serves" |
 | `خراج` *xarāj* "tribute" | noun | `خراجگزار` *xarāj-**gozār*** | "one who pays tribute, vassal" |
+
+### ـساز (*-sāz*) — "maker, creator of X"
+
+From the present stem of `ساختن` *sāxtan* "to make, build." Attaches to nouns to mean "one who makes X" or "that which produces X." **Highly productive**, especially in the arts, technology, and moral description.
+
+| Base | | + ـساز | |
+|------|-|--------|--|
+| `آهنگ` *āhang* "melody, music" | noun | `آهنگساز` *āhang-**sāz*** | "composer" |
+| `فیلم` *film* "film" | noun | `فیلمساز` *film-**sāz*** | "filmmaker" |
+| `مشکل` *moškel* "problem" | noun | `مشکل‌ساز` *moškel-**sāz*** | "problematic, trouble-making" |
+| `دردسر` *dardesar* "headache, trouble" | noun | `دردسرساز` *dardesar-**sāz*** | "troublesome, causing problems" |
+
+### ـبخش (*-baxš*) — "granting, bestowing X"
+
+From the present stem of `بخشیدن` *baxšidan* "to grant, bestow, forgive." Attaches to nouns to mean "that which grants or gives X." Common in moral, emotional, and literary vocabulary.
+
+| Base | | + ـبخش | |
+|------|-|--------|--|
+| `آرامش` *ārāmeš* "calm, peace" | noun | `آرامش‌بخش` *ārāmeš-**baxš*** | "calming, soothing" |
+| `نشاط` *nešāt* "joy, vitality" | noun | `نشاط‌بخش` *nešāt-**baxš*** | "invigorating, joy-giving" |
+| `امید` *omid* "hope" | noun | `امیدبخش` *omid-**baxš*** | "hopeful, hope-giving" |
+| `رحمت` *rahmat* "mercy, blessing" | noun | `رحمت‌بخش` *rahmat-**baxš*** | "mercy-bestowing, benevolent" |
+
+### ـپذیر (*-pazir*) — "accepting, susceptible to X"
+
+From the present stem of `پذیرفتن` *paziroftan* "to accept, receive." Attaches to nouns to mean "capable of X" or "susceptible to X." **Highly productive** in formal and technical vocabulary. The negative compound **ـناپذیر** (*-nāpazir*) "incapable of, un-X-able" is equally common.
+
+| Base | | + ـپذیر | |
+|------|-|---------|--|
+| `انعطاف` *enʿetāf* "flexibility" | noun | `انعطاف‌پذیر` *enʿetāf-**pazir*** | "flexible, pliable" |
+| `تغییر` *taɣyir* "change" | noun | `تغییرپذیر` *taɣyir-**pazir*** | "changeable" (vs. `تغییرناپذیر` "unchangeable") |
+| `امکان` *emkān* "possibility" | noun | `امکان‌پذیر` *emkān-**pazir*** | "possible, feasible" |
+| `آسیب` *āsib* "harm, damage" | noun | `آسیب‌پذیر` *āsib-**pazir*** | "vulnerable, susceptible to harm" |
+
+### ـزا (*-zā*) — "generating, producing X"
+
+From the present stem of `زاییدن` *zāyidan* "to give birth, to generate." Attaches to nouns to mean "that which produces or gives rise to X." Common in medical, scientific, and moral vocabulary.
+
+| Base | | + ـزا | |
+|------|-|-------|--|
+| `درد` *dard* "pain" | noun | `درد‌زا` *dard-**zā*** | "pain-inducing, painful" |
+| `بحران` *bohrān* "crisis" | noun | `بحران‌زا` *bohrān-**zā*** | "crisis-generating" |
+| `حیات` *hayāt* "life" | noun | `حیات‌زا` *hayāt-**zā*** | "life-giving, vivifying" |
+| `انرژی` *enerži* "energy" | noun | `انرژی‌زا` *enerži-**zā*** | "energy-producing" |
 
 ### ـنده (*-ande*) — the participial agent
 
