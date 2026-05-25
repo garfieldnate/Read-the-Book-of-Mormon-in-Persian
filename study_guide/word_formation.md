@@ -163,6 +163,85 @@ Unlike the other prefixes on this page, بر‌- and فرو‌- are **directiona
 
 The directional logic is usually transparent: فرو + ریختن = down + pour = collapse. In many words, however, the prefix has fused so completely that the compound must simply be learned as a unit.
 
+### زیر‌- (*zir-*) — "under-, sub-"
+
+The spatial counterpart to the directional prefixes above. Attaches to nouns to mean "below X" or "subordinate to X." **Fully productive** in modern Persian, especially in technical, administrative, and media vocabulary.
+
+| Base | | زیر‌- + | |
+|------|-|---------|--|
+| `نویس` *navis* "writing" (present stem) | verbal element | `زیرنویس` *zir-na-**vis*** | "subtitle; footnote" |
+| `مجموعه` *majmuʿe* "set, collection" | noun | `زیرمجموعه` *zir-maj-mu-**ʿe*** | "subset, subgroup" |
+| `ساخت` *sāxt* "structure" | noun | `زیرساخت` *zir-**sāxt*** | "infrastructure" |
+| `دست` *dast* "hand; rank" | noun | `زیردست` *zir-**dast*** | "subordinate, underling" |
+| `زمین` *zamin* "ground, earth" | noun | `زیرزمین` *zir-za-**min*** | "underground; basement" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
+### نو‌- (*no-*) — "new, neo-"
+
+Attaches to nouns and verbal elements to mean "newly X" or "characterized by newness." **Productive**, especially for compounds describing recent arrival, birth, or innovation.
+
+| Base | | نو‌- + | |
+|------|-|--------|--|
+| `زاد` *zād* "born" (past stem of زاییدن) | verbal element | `نوزاد` *no-**zād*** | "newborn" |
+| `آور` *āvar* "bringing" (present stem) | verbal element | `نوآور` *no-ā-**var*** | "innovator, innovative" |
+| `گرا` *gerā* "inclining toward" | verbal element | `نوگرا` *no-ge-**rā*** | "modernist, progressive" |
+| `رسیده` *reside* "arrived" | participial | `نورسیده` *no-ra-**side*** | "newly arrived, newcomer" |
+| `خاسته` *xāste* "arisen" | participial | `نوخاسته` *no-xās-**te*** | "newly risen, emergent" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
+### نیم‌- (*nim-*) — "half-, semi-"
+
+Attaches to nouns and adjectives to produce words meaning "half of X" or "halfway through X." **Productive** and very common in everyday vocabulary. The form نیمه‌- (with a linking vowel) is used before consonant-initial bases; نیم‌- before vowel-initial ones.
+
+| Base | | نیم‌- + | |
+|------|-|---------|--|
+| `رخ` *rox* "face" | noun | `نیم‌رخ` *nim-**rox*** | "profile, half-face" |
+| `شب` *šab* "night" | noun | `نیمه‌شب` *nime-**šab*** | "midnight" |
+| `کاره` *kāre* "done" | participial adj | `نیمه‌کاره` *nime-kā-**re*** | "half-finished, left undone" |
+| `دایره` *dāyere* "circle" | noun | `نیم‌دایره` *nim-dā-ye-**re*** | "semicircle" |
+| `تمام` *tamām* "complete" | adj | `نیمه‌تمام` *nime-ta-**mām*** | "half-complete, unfinished" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
+### Number prefixes: تک‌- (*tak-*) and دو‌- (*do-*)
+
+Persian uses number words directly as prefixes. The two most common in derivational compounds are **تک‌-** "single, mono-" and **دو‌-** "two, bi-/dual-"; higher numbers follow the same pattern.
+
+**تک‌- (*tak-*)** "single, solo, mono-":
+
+| Base | | تک‌- + | |
+|------|-|--------|--|
+| `خواننده` *xānande* "singer" | noun | `تک‌خواننده` *tak-xā-nan-**de*** | "soloist" |
+| `نفره` *nafar-e* "person (w/ ezafe)" | — | `تک‌نفره` *tak-na-fa-**re*** | "for one person, solo" |
+| `صدایی` *sedāyi* "vocal, tonal" | adj | `تک‌صدایی` *tak-se-dā-**yi*** | "monophonic, unison" |
+
+**دو‌- (*do-*)** "two, bi-, dual-":
+
+| Base | | دو‌- + | |
+|------|-|--------|--|
+| `زبانه` *zabāne* (w/ ezafe) | — | `دوزبانه` *do-za-bā-**ne*** | "bilingual" |
+| `گانه` *gāne* "fold, -tuple" | suffix | `دوگانه` *do-**gāne*** | "dual, double, twofold" |
+| `قطبی` *qotbi* "polar" | adj | `دوقطبی` *do-qot-**bi*** | "bipolar, binary" |
+
+Higher numbers follow the same logic: `سه‌گانه` (trilogy/triple), `چهارگانه` (fourfold), `هفت‌خوان` (the seven trials, lit. "seven tables").
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
+### دگر‌- (*degar-*) — "other-, alter-, hetero-"
+
+From the adjective `دگر` *degar* "other, different." Attaches to nouns and present-stem compounds to produce words meaning "of a different X" or "changing into something other." Most common in intellectual, philosophical, and political discourse; moderately productive.
+
+| Base | | دگر‌- + | |
+|------|-|---------|--|
+| `گونی` *guni* "type, manner" (verbal noun) | noun | `دگرگونی` *degar-go-**ni*** | "transformation, fundamental change" |
+| `اندیش` *andiš* "thinking" (present stem) | verbal element | `دگراندیش` *degar-an-**diš*** | "dissident, heterodox thinker" |
+| `باش` *bāš* "being" (present stem) | verbal element | `دگرباش` *degar-**bāš*** | "other-being; (modern) queer" |
+| `سانی` *sāni* "making different" | verbal noun | `دگرسانی` *degar-sā-**ni*** | "alteration, modification" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
 ---
 
 ## The abstract-noun suffix ـی / ـگی (*-ī* / *-gī*)
@@ -476,6 +555,30 @@ From `گزاردن` *gozārdan* "to perform, render." Most common in religious, 
 | `خدمت` *xedmat* "service" | noun | `خدمتگزار` *xedmat-**gozār*** | "servant, one who serves" |
 | `خراج` *xarāj* "tribute" | noun | `خراجگزار` *xarāj-**gozār*** | "one who pays tribute, vassal" |
 
+### ـبان (*-bān*) — "keeper, watcher of X"
+
+An inherited agent suffix meaning "one who guards or tends X." Not as freely productive as ـدار in modern coinages, but present in a core set of very common words that appear throughout formal and classical texts.
+
+| Base | | + ـبان | |
+|------|-|--------|--|
+| `نگه` *negah* "watch, care" | noun | `نگهبان` *negah-**bān*** | "guard, watchman" |
+| `در` *dar* "door, gate" | noun | `دربان` *dar-**bān*** | "doorman, gatekeeper" |
+| `باغ` *bāɣ* "garden" | noun | `باغبان` *bāɣ-**bān*** | "gardener" |
+| `پاس` *pās* "watch, care" | noun | `پاسبان` *pās-**bān*** | "watchman, police officer" |
+| `مرز` *marz* "border, boundary" | noun | `مرزبان` *marz-**bān*** | "border guard" |
+
+### ـچی (*-či*) — "one who operates or handles X"
+
+A Turkish-origin agentive suffix, fully assimilated into Persian. **Productive in colloquial and informal Persian**, especially for occupational nouns involving operating or handling something. Not typical of formal written or classical Persian — if you encounter ـچی in a formal text, it signals a colloquial or reported-speech register.
+
+| Base | | + ـچی | |
+|------|-|-------|--|
+| `پست` *post* "mail" | noun | `پستچی` *post-**či*** | "postman, mail carrier" |
+| `قهوه` *qahve* "coffee" | noun | `قهوه‌چی` *qahve-**či*** | "coffeehouse keeper" |
+| `چای` *čāy* "tea" | noun | `چایچی` *čāy-**či*** | "tea server" |
+| `تلفن` *telefon* "telephone" | noun | `تلفن‌چی` *telefon-**či*** | "telephone operator" |
+| `دلال` *dallāl* "broker" | noun | `دلالچی` *dallāl-**či*** | "small-time broker, tout" |
+
 ### ـساز (*-sāz*) — "maker, creator of X"
 
 From the present stem of `ساختن` *sāxtan* "to make, build." Attaches to nouns to mean "one who makes X" or "that which produces X." **Highly productive**, especially in the arts, technology, and moral description.
@@ -536,6 +639,40 @@ Attaches directly to the **present stem** to mean "one who does X" (a person) or
 | `گذشتن` *gozaštan* "to pass" | `گذر` *gozar* | `گذرنده` *gozarande* | "passer-by; transient" |
 
 Two of these have lexicalized into standard vocabulary items: `آینده` "future" (lit. "the coming one") and `گذشته` "the past" (lit. "the passed/gone"; formed from the past stem + ـه, a related participial pattern). When you encounter an unfamiliar ـنده word, the first step is to identify the present stem and look up the corresponding verb.
+
+### ـان (*-ān*) — the adjectival present participle
+
+Attaches to the **present stem** to describe something as being in an ongoing state of doing X. Where ـنده names the **actor** ("the weeper, the speaker"), ـان describes the **condition or quality** ("weeping, smiling, blazing"). **Fully productive** and extremely common in literary, poetic, and religious Persian.
+
+| Verb | Present stem | + ـان | |
+|------|-------------|------|--|
+| `خندیدن` *xandidan* "to laugh" | `خند` *xand* | `خندان` *xand-**ān*** | "smiling, laughing" |
+| `گریستن` *geristan* "to weep" | `گری` *gerī* | `گریان` *gerī-**ān*** | "weeping, in tears" |
+| `لرزیدن` *larzidan* "to tremble" | `لرز` *larz* | `لرزان` *larz-**ān*** | "trembling, shaking" |
+| `سوختن` *suxtan* "to burn" | `سوز` *suz* | `سوزان` *suz-**ān*** | "burning, blazing" |
+| `رفتن` *raftan* "to go, flow" | `رو` *rav* | `روان` *rav-**ān*** | "flowing, fluent; soul, spirit" |
+| `دویدن` *davidan* "to run" | `دو` *dav* | `دوان` *dav-**ān*** | "running" (often `دوان‌دوان` "running along") |
+
+**Stress:** on the suffix: *xand-**ān***, *larz-**ān***, *suz-**ān***.
+
+`روان` has lexicalized beyond its participial origin: as a noun it means "soul, spirit" (the flowing/animating part of a person), and as an adjective it means "fluent" (flowing speech). Both senses descend from the same root.
+
+### ـا (*-ā*) — the literary agent adjective
+
+An older present-stem pattern — present stem + ـا — meaning "one who does/is X" or "characterized by X." Less productive in modern coinages than ـنده, but very common in **inherited vocabulary**, religious epithets, and classical poetry. Many of these words are so well-established that their participial origin is no longer obvious.
+
+| Verb | Present stem | + ـا | |
+|------|-------------|------|--|
+| `دانستن` *dānestan* "to know" | `دان` *dān* | `دانا` *dān-**ā*** | "wise, learned" |
+| `توانستن` *tavānestan* "to be able" | `توان` *tavān* | `توانا` *tavān-**ā*** | "capable, powerful" |
+| `دیدن` *didan* "to see" | `بین` *bin* | `بینا` *bin-**ā*** | "sighted; perceptive" |
+| `شنیدن` *šenidan* "to hear" | `شنو` *šenav* | `شنوا` *šenav-**ā*** | "hearing, attentive" |
+| `گفتن` *goftan* "to say" | `گو` *gu* | `گویا` *gūy-**ā*** | "eloquent; apparently, it seems" |
+| `ربودن` *robudan* "to steal, captivate" | `ربا` *robā* | `دلربا` *del-rob-**ā*** | "heart-stealing, charming" |
+
+**Stress:** on the suffix: *dān-**ā***, *tavān-**ā***, *bin-**ā***.
+
+دانا and توانا appear frequently in religious titles: `دانای کل` "the All-Knowing" (omniscient), `توانای مطلق` "the All-Powerful." Recognizing the pattern makes these compound epithets transparent.
 
 ---
 
