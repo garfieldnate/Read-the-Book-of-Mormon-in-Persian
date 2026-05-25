@@ -182,3 +182,30 @@ Most Persian verbs follow the رفتن pattern once you know the two stems. A ha
 | `دیدن` (_didan_) | to see | `دید–` (_did–_) | `بین–` (_bin–_) | Stem only (suppletive-looking) |
 | `دادن` (_dādan_) | to give | `داد–` (_dād–_) | `ده–` (_deh–_) | Stem only |
 | `خواستن` (_xāstan_) | to want | `خواست–` (_xāst–_) | `خواه–` (_xāh–_) | Stem + doubles as the **future auxiliary**: `خواهم رفت` = "I will go" |
+
+---
+
+## The causative suffix ـاندن (*-āndan*)
+
+Persian forms causative verbs — meaning "to cause/make someone or something do X" — by a productive suffix that most cleanly applies to **ـیدن verbs**: replace ـیدن with ـاندن. The result is a transitive verb where the subject causes the action rather than undergoing it.
+
+| Intransitive | | Causative | |
+|-------------|--|-----------|--|
+| `رسیدن` *rasidan* "to arrive" | → | `رساندن` *resāndan* | "to deliver, to cause to arrive" |
+| `ترسیدن` *tarsidan* "to fear" | → | `ترساندن` *tarsāndan* | "to frighten, to cause to fear" |
+| `چرخیدن` *čarxidan* "to turn (intr.)" | → | `چرخاندن` *čarxāndan* | "to rotate, to spin (something)" |
+| `جوشیدن` *jušidan* "to boil (intr.)" | → | `جوشاندن` *jušāndan* | "to bring to a boil, to boil (something)" |
+| `لرزیدن` *larzidan* "to tremble" | → | `لرزاندن` *larzāndan* | "to shake, to cause to tremble" |
+| `خوابیدن` *xābidan* "to sleep" | → | `خواباندن` *xābāndan* | "to put to sleep, to lay down" |
+
+The pattern also applies to some non-ـیدن verbs, though less systematically:
+
+| Intransitive | | Causative | |
+|-------------|--|-----------|--|
+| `نشستن` *nešastan* "to sit" | → | `نشاندن` *nešāndan* | "to seat, to cause to sit; to plant" |
+| `گذشتن` *gozaštan* "to pass" | → | `گذراندن` *gozarāndan* | "to spend (time), to cause to pass" |
+| `سوختن` *suxtan* "to burn (intr.)" | → | `سوزاندن` *suzāndan* | "to burn (something), to incinerate" |
+
+**Stems:** the causative past stem ends in ـاند– (*-ānd–*): `رساند–`, `ترساند–`. The present stem ends in ـان– (*-ān–*): `رسان–`, `ترسان–`.
+
+**Productivity:** moderately high for intransitive ـیدن verbs; lower for other verb classes. For verbs that are already transitive, Persian typically uses a periphrastic construction with `واداشتن` ("to compel") or `کردن` ("to make/do") instead of ـاندن.

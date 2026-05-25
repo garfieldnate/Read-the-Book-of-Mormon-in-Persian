@@ -66,6 +66,50 @@ Attaches to nouns of role, activity, or quality to mean "one who shares X with a
 
 **Stress:** prefix is unstressed; stress on the last syllable of the base.
 
+### باز‌- (*bāz-*) — "re-, back, again"
+
+Attaches to verbal nouns and present-stem compounds to mean "doing X again" or "doing X in reverse." **Productive** in formal and modern written Persian.
+
+| Base | | باز‌- + | |
+|------|-|--------|--|
+| `گشت` *gašt* "turning, going" (past stem) | verbal noun | `بازگشت` *bāz-**gašt*** | "return, going back" |
+| `سازی` *sāzī* "building, making" (verbal noun) | noun | `بازسازی` *bāz-sā-**zī*** | "reconstruction, rebuilding" |
+| `نگری` *negerī* "looking, reviewing" | verbal noun | `بازنگری` *bāz-ne-ge-**rī*** | "revision, reconsideration" |
+| `یابی` *yābī* "finding" | verbal noun | `بازیابی` *bāz-yā-**bī*** | "recovery, retrieval" |
+| `داشت` *dāšt* "holding" (past stem) | verbal element | `بازداشت` *bāz-**dāšt*** | "detention, arrest" |
+| `خورد` *xord* "impact, feedback" | verbal noun | `بازخورد` *bāz-**xord*** | "feedback" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the compound.
+
+### پیش‌- (*piš-*) — "fore-, pre-, ahead"
+
+Attaches to verbal nouns and nouns of action to mean "doing X in advance" or "coming before X." Common in formal and literary Persian.
+
+| Base | | پیش‌- + | |
+|------|-|---------|--|
+| `رفت` *raft* "going" (past stem) | verbal element | `پیشرفت` *piš-**raft*** | "progress, advance" |
+| `نهاد` *nehād* "placed, put" (past stem) | verbal element | `پیشنهاد` *piš-ne-**hād*** | "proposal, suggestion" |
+| `بینی` *bīnī* "seeing" (verbal noun) | noun | `پیش‌بینی` *piš-bī-**nī*** | "foresight, prediction" |
+| `گو` *gu* "saying" (present stem) | verbal element | `پیشگو` *piš-**gu*** | "prophet, foreteller" |
+| `درآمد` *dar-āmad* "income; preface" | noun | `پیش‌درآمد` *piš-dar-ā-**mad*** | "prelude, introduction" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the compound.
+
+### پر‌- (*por-*) — "full of, very much X"
+
+The positive counterpart to بی‌-. Attaches to nouns to produce adjectives meaning "full of X" or "very X." **Fully productive**.
+
+| Base | | پر‌- + | |
+|------|-|--------|--|
+| `معنی` *maʿnī* "meaning" | noun | `پرمعنی` *por-ma-**ʿnī*** | "meaningful, full of meaning" |
+| `قدرت` *qodrat* "power" | noun | `پرقدرت` *por-qod-**rat*** | "powerful, full of power" |
+| `ارزش` *arzeš* "value" | noun | `پرارزش` *por-ar-**zeš*** | "valuable, highly worthwhile" |
+| `بار` *bār* "fruit, load, blessing" | noun | `پربار` *por-**bār*** | "fruitful, productive, rich" |
+| `آوازه` *āvāze* "renown, fame" | noun | `پرآوازه` *por-ā-vā-**ze*** | "renowned, celebrated" |
+| `گو` *gu* "saying" (present stem) | verbal element | `پرگو` *por-**gu*** | "talkative, verbose" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the base.
+
 ---
 
 ## The abstract-noun suffix ـی / ـگی (*-ī* / *-gī*)
@@ -207,6 +251,42 @@ A somewhat literary suffix meaning "one who has or bears X." Less freely product
 
 ---
 
+## Diminutive suffixes
+
+Persian has two diminutive suffixes that reduce, soften, or affectionately re-frame a noun. They can appear on the same base (پسر → پسرک → پسرکچه), but in practice only one is usually used.
+
+### ـک (*-ak*) — the basic diminutive
+
+Attaches to nouns to mean "little X," "a small X," or (for persons) "poor/dear X" depending on tone. Also common in the names of small creatures and objects.
+
+| Base | | + ـک | |
+|------|-|------|--|
+| `پسر` *pesar* "boy, son" | noun | `پسرک` *pesar-**ak*** | "little boy, poor boy" |
+| `مرد` *mard* "man" | noun | `مردک` *mard-**ak*** | "little man; wretch" (often disparaging) |
+| `باد` *bād* "wind" | noun | `بادک` *bād-**ak*** | "kite (the toy)" (lit. "little wind") |
+| `خر` *xar* "donkey" | noun | `خرک` *xar-**ak*** | "sawhorse, trestle" (lit. "little donkey") |
+| `در` *dar* "door" | noun | `درک` *dar-**ak*** | "small door, hatch" |
+
+**Stress:** on the suffix: *pesar-**ak***, *mard-**ak***.
+
+### ـچه (*-če*) — the diminutive of refinement
+
+Also means "little X," but leans more toward an affectionate or refined smallness — a smaller, neater, or cuter version — rather than smallness in size alone. Very common in everyday vocabulary.
+
+| Base | | + ـچه | |
+|------|-|-------|--|
+| `دفتر` *daftar* "notebook, office" | noun | `دفترچه` *daftar-**če*** | "small notebook, booklet" |
+| `باغ` *bāɣ* "garden" | noun | `باغچه` *bāɣ-**če*** | "small garden, yard" |
+| `کوچه` *kuče* is itself the diminutive of `کو` (archaic "place") | — | `کوچه` *ku-**če*** | "alley, lane" |
+| `نامه` *nāme* "letter, document" | noun | `نامچه` *nām-**če*** | "little letter; short document" |
+| `پرونده` *parvande* "file, dossier" | noun | `پرونده` | (ـه here is different — not diminutive) |
+
+**Stress:** on the suffix: *daftar-**če***, *bāɣ-**če***.
+
+**ـک vs ـچه:** ـک often carries a slightly pejorative or pitying edge when applied to people; ـچه tends to be more neutral or affectionate. For objects, the choice is largely lexicalized — `دفترچه` (not `*دفترک`) for "booklet," `پسرک` (not `*پسرچه`) for "little boy."
+
+---
+
 ## Present-stem compounding
 
 Persian verbs each have a **present stem** — the bare root form visible in the present tense. It is what remains when you strip the personal ending from the he/she/it present tense form (or equivalently, strip می‌ and the ending). Unlike many other languages, the present stem is not always predictable from the infinitive and must be learned per verb:
@@ -237,7 +317,23 @@ The present stem combines with nouns following the pattern **[noun] + [present s
 
 **Stress:** stress falls on the present-stem element (the last part): *dāneš-**ju***, *del-**suz***, *nān-ā-**var***.
 
-The four subsections below describe the most common present stems — دار, گر, کار, گزار — which are used so frequently in this compounding pattern that they function effectively as independent suffixes.
+The subsections below describe the most common present stems used in this way, including ـش — a suffix that turns the present stem into an abstract noun.
+
+### ـش (*-eš*) — verbal noun from the present stem
+
+Attaches to the **present stem** to produce a noun meaning "the act, process, or result of verb-ing." One of the most common ways Persian creates abstract nouns from verbs, and the source of a large class of vocabulary you will encounter constantly.
+
+| Verb | Present stem | + ـش | |
+|------|-------------|------|--|
+| `دانستن` *dānestan* "to know" | `دان` *dān* | `دانش` *dāneš* | "knowledge" |
+| `آموختن` *āmuxtan* "to learn/teach" | `آموز` *āmuz* | `آموزش` *āmuzeš* | "teaching, education, instruction" |
+| `کشیدن` *kešidan* "to pull, draw" | `کش` *keš* | `کشش` *kešeš* | "attraction, pull, tension" |
+| `ارزیدن` *arzidan* "to be worth" | `ارز` *arz* | `ارزش` *arzeš* | "value, worth" |
+| `بخشیدن` *baxšidan* "to forgive/give" | `بخش` *baxš* | `بخشش` *baxšeš* | "forgiveness; bestowal" |
+| `خواستن` *xāstan* "to want/wish" | `خواه` *xāh* | `خواهش` *xāheš* | "request, wish, entreaty" |
+| `فرمودن` *farmudan* "to command" | `فرمای` *farmāy* | `فرمایش` *farmāyeš* | "command, order; utterance" |
+
+**Stress:** on the suffix: *dā-**neš***, *āmu-**zeš***, *ar-**zeš***.
 
 ### ـدار (*-dār*) — "one who holds or possesses X"
 
@@ -319,6 +415,32 @@ Attaches to nouns of activity or function to produce the name of a place (or occ
 | `توقف` *tavaqof* "stop, halt" | noun | `توقفگاه` *tavaqof-**gāh*** | "stopping place, parking lot" |
 | `عبادت` *ebādat* "worship" | noun | `عبادتگاه` *ebādat-**gāh*** | "place of worship" |
 
+### ـخانه (*-xāne*) — "house of, establishment for X"
+
+Attaches to nouns to produce the name of a building or institution dedicated to X. More concrete and colloquial than ـگاه; **highly productive** in everyday and commercial vocabulary.
+
+| Base | | + ـخانه | |
+|------|-|---------|--|
+| `کتاب` *ketāb* "book" | noun | `کتابخانه` *ketāb-**xāne*** | "library" |
+| `دارو` *dāru* "medicine, drug" | noun | `داروخانه` *dāru-**xāne*** | "pharmacy" |
+| `مهمان` *mehmān* "guest" | noun | `مهمانخانه` *mehmān-**xāne*** | "guesthouse, inn" |
+| `قهوه` *qahve* "coffee" | noun | `قهوه‌خانه` *qahve-**xāne*** | "coffeehouse, café" |
+| `زندان` *zandān* "prison" | noun | `زندانخانه` *zandān-**xāne*** | "prison house, cell" |
+| `آتش` *āteš* "fire" | noun | `آتشخانه` *āteš-**xāne*** | "firehouse; furnace room" |
+
+**ـگاه vs ـخانه:** ـگاه tends toward the abstract or official (a place *for* an activity), while ـخانه names a physical house or shop *of* something. `عبادتگاه` is a place of worship (any kind); `قهوه‌خانه` is specifically the physical establishment.
+
+### ـکده (*-kade*) — "abode, place steeped in X"
+
+A literary and somewhat archaic suffix found in classical poetry and religious/cultural vocabulary. Less productive than ـگاه or ـخانه for new coinages, but common enough in texts with a classical flavor to be worth recognizing.
+
+| Base | | + ـکده | |
+|------|-|--------|--|
+| `آتش` *āteš* "fire" | noun | `آتشکده` *āteš-**kade*** | "fire temple (Zoroastrian)" |
+| `می` *mey* "wine" | noun | `میکده` *mey-**kade*** | "tavern, wine-house" (often metaphorical in poetry) |
+| `بت` *bot* "idol" | noun | `بتکده` *bot-**kade*** | "idol temple, house of idols" |
+| `پرستش` *parastéš* "worship" | noun | `پرستشکده` *parastéš-**kade*** | "temple, place of worship" |
+
 ### ـستان (*-stān*) — "land of, place characterized by X"
 
 Originally means "place where X is abundant or where X is the defining feature." Fully productive in the formation of place names (کردستان, گلستان) and some institutional vocabulary. Less commonly used for new everyday coinages than ـگاه.
@@ -332,3 +454,23 @@ Originally means "place where X is abundant or where X is the defining feature."
 | `کرد` *kord* "Kurd" | proper noun | `کردستان` *kord-**stān*** | "Kurdistan" (land of the Kurds) |
 
 **Note on place names:** ـستان is especially visible in the names of countries and regions: تاجیکستان, قزاقستان, ترکستان, etc. These all follow the same pattern — "[people/feature] + ستان" = "land of [people/feature]."
+
+---
+
+## The denominal verb suffix ـیدن (*-idan*)
+
+Persian creates new verbs from nouns and adjectives by attaching **ـیدن** (*-idan*) to the base. The resulting verb typically means "to do X," "to undergo X," or "to act like X." This is the standard mechanism for coining new verbs from loanwords as well as native roots.
+
+| Base | | + ـیدن | |
+|------|-|--------|--|
+| `چرخ` *čarx* "wheel, spinning top" | noun | `چرخیدن` *čarxidan* | "to turn, to spin, to revolve" |
+| `رقص` *raqs* "dance" | noun | `رقصیدن` *raqsidan* | "to dance" |
+| `ترس` *tars* "fear" | noun | `ترسیدن` *tarsidan* | "to fear, to be afraid" |
+| `جوش` *juš* "boiling; a boil" | noun | `جوشیدن` *jušidan* | "to boil, to bubble up, to erupt" |
+| `پیچ` *pič* "twist, coil, screw" | noun | `پیچیدن` *pičidan* | "to twist, to wrap, to coil" |
+| `لرز` *larz* "trembling, shiver" | noun | `لرزیدن` *larzidan* | "to tremble, to shiver" |
+| `تایپ` *tāyp* "type" (English loanword) | noun | `تایپیدن` *tāypidan* | "to type" |
+
+**Stems:** for any ـیدن verb, the present stem is simply the base (drop ـیدن entirely): `چرخیدن` → present stem `چرخ–`, past stem `چرخید–`. This makes ـیدن verbs the most regular class in the language — once you know the base, both stems are automatic.
+
+**Productivity:** very high. ـیدن is the live suffix for creating new verbs, especially from foreign loanwords: `چت` (chat) → `چتیدن` (to chat), `سرچ` (search) → `سرچیدن` (to search online). You can almost always identify an ـیدن verb by asking: is there a noun or root here that I recognize?
