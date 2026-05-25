@@ -177,6 +177,21 @@ The spatial counterpart to the directional prefixes above. Attaches to nouns to 
 
 **Stress:** prefix is unstressed; stress on the last syllable of the base.
 
+### روی‌- (*ruy-*) — "over, upon, facing"
+
+The spatial counterpart to زیر‌-, though less systematically productive in modern coinages. روی‌- survives mainly in **inherited compounds** where the logic of "upon/facing" is still transparent. For formal new coinages meaning "over-" or "above-," written Persian often uses Arabic-origin فوق‌- *fowq-* instead.
+
+| Base | | روی‌- + | |
+|------|-|---------|--|
+| `رو` *ru* "face" (reduplicated) | — | `روبرو` *ru-be-**ru*** | "face-to-face, opposite, facing" |
+| `آورد` *āvard* "confrontation" | verbal noun | `رویارویی` *ruyā-ruy-**ī*** | "confrontation, face-off" (+ abstract ـی) |
+| `هم‌رفته` *ham-rafte* "together-gone" | compound | `روی‌هم‌رفته` *ruy-e-ham-**rafte*** | "all told, on the whole, altogether" |
+| `آوردن` *āvardan* "to bring" | verb | `روی آوردن` *ruy ā-**vardan*** | "to turn to, to resort to X" (phrasal) |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the compound.
+
+**روی‌- vs زیر‌-:** زیر‌- is fully productive (زیرساخت "infrastructure", زیرمجموعه "subset"); روی‌- is more restricted and mostly survives in inherited items. The two are spatial opposites but asymmetric in productivity.
+
 ### نو‌- (*no-*) — "new, neo-"
 
 Attaches to nouns and verbal elements to mean "newly X" or "characterized by newness." **Productive**, especially for compounds describing recent arrival, birth, or innovation.
@@ -674,6 +689,19 @@ An older present-stem pattern — present stem + ـا — meaning "one who does/
 
 دانا and توانا appear frequently in religious titles: `دانای کل` "the All-Knowing" (omniscient), `توانای مطلق` "the All-Powerful." Recognizing the pattern makes these compound epithets transparent.
 
+### More present-stem elements
+
+The following present stems appear very frequently in compound vocabulary. The pattern is the same **[noun] + [present stem]** as above; no dedicated sections are needed — just recognize the stem and look up the base verb.
+
+| Present stem | Verb | Sense in compounds | Example |
+|-------------|------|--------------------|---------|
+| `شناس` *šenās* | `شناختن` *šenāxtan* "to know, recognize" | "expert in, knower of" | `جامعه‌شناس` *jāmeʿe-šenās* "sociologist"; `خودشناسی` "self-knowledge" |
+| `خواه` *xāh* | `خواستن` *xāstan* "to want, wish" | "seeking, wishing for" | `خیرخواه` *xeyr-**xāh*** "well-wisher"; `صلح‌خواه` "peace-seeker" |
+| `نگار` *negār* | `نگاشتن` *negāštan* "to write, inscribe" | "recorder, writer of" | `تاریخ‌نگار` *tārīx-ne-**gār*** "historian"; `روزنامه‌نگار` "journalist" |
+| `پرست` *parast* | `پرستیدن` *parastidan* "to worship" | "worshipper of, devoted to" | `خداپرست` *xodā-pa-**rast*** "theist"; `بت‌پرست` "idolater" |
+| `نشین` *nešin* | `نشستن` *nešastan* "to sit, reside" | "dwelling in, settled/installed in" | `تخت‌نشین` *taxt-ne-**šin*** "enthroned"; `کوه‌نشین` "mountain-dweller" |
+| `خور` *xor* | `خوردن` *xordan* "to eat, consume, receive" | "consuming, struck by, absorbing" | `آفتاب‌خور` *āftāb-**xor*** "sun-drenched, sunny"; `آسیب‌خور` "harmed, damaged" |
+
 ---
 
 ## Place and domain suffixes
@@ -730,6 +758,23 @@ Originally means "place where X is abundant or where X is the defining feature."
 | `کرد` *kord* "Kurd" | proper noun | `کردستان` *kord-**stān*** | "Kurdistan" (land of the Kurds) |
 
 **Note on place names:** ـستان is especially visible in the names of countries and regions: تاجیکستان, قزاقستان, ترکستان, etc. These all follow the same pattern — "[people/feature] + ستان" = "land of [people/feature]."
+
+---
+
+## The compound element ـنامه (*-nāme*)
+
+The noun `نامه` *nāme* "letter, document, text" is so commonly used as the **second element** of compound nouns that it functions like a suffix. It means "a formal document, record, or written work *of/concerning* X." **Fully productive** in administrative, legal, religious, and literary contexts. Stress falls on the final syllable of the whole compound.
+
+| Base | | + ـنامه | |
+|------|-|---------|--|
+| `شناس` *šenās* "identification" | noun/present stem | `شناسنامه` *šenās-**nāme*** | "identity document, birth certificate" |
+| `آیین` *āyin* "rite, rule" | noun | `آیین‌نامه` *āyin-**nāme*** | "regulations, code of conduct" |
+| `پیمان` *peymān* "pact, covenant" | noun | `پیمان‌نامه` *peymān-**nāme*** | "treaty, written covenant" |
+| `وصیت` *vasiyyat* "bequest" | noun | `وصیت‌نامه` *vasiyyat-**nāme*** | "last will and testament" |
+| `اعتماد` *etemād* "trust, confidence" | noun | `اعتمادنامه` *etemād-**nāme*** | "letter of credence, credentials" |
+| `بر` *bar* "upon, on" | prefix | `برنامه` *bar-**nāme*** | "program, plan, schedule" (lit. "what is written upon [the board]") |
+
+**نامه as a first element:** نامه can also open a compound: `نامه‌رسان` *nāme-re-**sān*** "letter-carrier, postman" (نامه + رسان, present stem of رساندن "to deliver").
 
 ---
 
