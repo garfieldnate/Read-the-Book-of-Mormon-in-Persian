@@ -1864,7 +1864,7 @@
 					"pos": "prep",
 					"tags": [],
 					"etym": {
-						"prose": "`به` + `دنبال` _donbāl_ \"tail; pursuit.\""
+						"prose": "[`به‌-`](../word_formation.html#be-in-with-by) + `دنبال` _donbāl_ \"tail; pursuit.\""
 					}
 				},
 				{
@@ -2382,7 +2382,7 @@
 					"pos": "prep",
 					"tags": [],
 					"etym": {
-						"prose": "`به` + `جز` _joz_ \"part; other than\" (← Arabic _juzʾ_ \"part, portion\")."
+						"prose": "[`به‌-`](../word_formation.html#be-in-with-by) + `جز` _joz_ \"part; other than\" (← Arabic _juzʾ_ \"part, portion\")."
 					}
 				},
 				{
@@ -3791,6 +3791,18 @@
 				},
 				{
 					"type": "headword",
+					"id": "بدین",
+					"persian": "بدین",
+					"translit": "be-dīn",
+					"meaning": "in this, by this",
+					"pos": "prep",
+					"tags": [],
+					"etym": {
+						"prose": "contraction of [`به‌-`](../word_formation.html#be-in-with-by) _be_ \"in/by\" + `این` _īn_ \"this\"."
+					}
+				},
+				{
+					"type": "headword",
 					"id": "گونه",
 					"persian": "گونه",
 					"translit": "gune",
@@ -3806,10 +3818,6 @@
 						]
 					},
 					"forms": [
-						{
-							"fa": "بدین",
-							"desc": "`بدین` _be-dīn_ (contracted form of `به این` \"in this\")"
-						},
 						{
 							"fa": "بدین گونه",
 							"desc": "`بدین گونه` _be-dīn gune_ \"in this manner, thus\""
@@ -4782,7 +4790,7 @@
 					"forms": [
 						{
 							"fa": "بدست",
-							"desc": "`بدست` _be-dast_ \"by means of, through\" (written as one word)"
+							"desc": "`بدست` _be-dast_ \"by means of, through\" ([به‌- prefix](../word_formation.html#be-in-with-by), written as one word)"
 						},
 						{
 							"fa": "بدست روح مقدّس",
@@ -4929,7 +4937,7 @@
 					"forms": [
 						{
 							"fa": "بگوش",
-							"desc": "`بگوش` _be-guš_ \"to the ear\" (written as one word in this text)"
+							"desc": "`بگوش` _be-guš_ \"to the ear\" ([به‌- prefix](../word_formation.html#be-in-with-by), written as one word)"
 						},
 						{
 							"fa": "بگوش{e} دل پذیرفتن",

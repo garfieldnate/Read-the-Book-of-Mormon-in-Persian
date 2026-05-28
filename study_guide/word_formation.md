@@ -51,6 +51,32 @@ The second Persian negation prefix. Where بی‌- attaches to nouns ("without X
 
 **بی‌- vs نا‌-:** A few words take either prefix with near-identical meaning (e.g., `بی‌امید` and `ناامید` are both "hopeless"), but most take only one. When in doubt: if the base is a standalone noun, reach for بی‌-; if it is an adjective or participle, reach for نا‌-.
 
+### به‌- (*be-*) — "in, with, by"
+
+The preposition `به` *be* "to, in, at, with, by" fuses directly with nouns to form **compound adjectives and adverbs** meaning "characterized by X" or "done by means of X." **Moderately productive** in formal and literary Persian — these forms are encountered frequently but cannot be freely coined for every noun.
+
+| Base | | به‌- + | |
+|------|-|--------|--|
+| `کار` *kār* "work, use" | noun | `بکار` *be-**kār*** | "useful, serviceable" (lit. "in use") |
+| `دست` *dast* "hand" | noun | `بدست` *be-**dast*** | "by hand, by means of, through" |
+| `جا` *jā* "place" | noun | `بجا` *be-**jā*** | "appropriate, in its place" |
+| `موقع` *mowqeʿ* "occasion" | noun | `بموقع` *be-mow-**qeʿ*** | "timely, on time" |
+| `کام` *kām* "wish, desire" | noun | `بکام` *be-**kām*** | "fulfilled, to one's liking" |
+
+**Stress:** prefix is unstressed; stress on the last syllable of the noun base.
+
+**Before vowel-initial words:** in classical and literary Persian, `به‌-` inserts a linking *d* before words that begin with a vowel, avoiding a vowel-on-vowel collision:
+
+| | | |
+|-|-|-|
+| `به` + `این` *īn* "this" | → | `بدین` *be-dīn* "in/by this" |
+| `به` + `آن` *ān* "that" | → | `بدان` *be-dān* "in/by that" |
+| `به` + `او` *u* "him/her" | → | `بدو` *be-do* "to/by him/her" |
+
+This linking *d* is a feature of the literary register only. Modern colloquial Persian says `به این`, `به آن`, `به او` with no inserted consonant.
+
+**به‌- vs بی‌-:** Despite the similar spelling, these mean opposite things. `بی‌-` *bī-* "without" carries a long vowel; `به‌-` *be-* "with/in" uses the short vowel of the preposition. The contrast is sharp in minimal pairs: `بکار` *be-kār* "useful" (in use, with به‌-) vs `بیکار` *bī-kār* "idle, unemployed" (without work, with بی‌-).
+
 ### هم‌- (*ham-*) — "co-, fellow-, together"
 
 Attaches to nouns of role, activity, or quality to mean "one who shares X with another" or "characterized by sharing." Also functions as a preposition-like word meaning "together with, along with."
@@ -208,7 +234,7 @@ Attaches to nouns and verbal elements to mean "newly X" or "characterized by new
 
 ### نیم‌- (*nim-*) — "half-, semi-"
 
-Attaches to nouns and adjectives to produce words meaning "half of X" or "halfway through X." **Productive** and very common in everyday vocabulary. The form نیمه‌- (with a linking vowel) is used before consonant-initial bases; نیم‌- before vowel-initial ones.
+Attaches to nouns and adjectives to produce words meaning "half of X" or "halfway through X." **Productive** and very common in everyday vocabulary. Both spellings **نیم‌-** and **نیمه‌-** are current; the choice between them is **largely lexicalized** — individual compounds must simply be learned rather than predicted from a phonological rule. Both forms appear freely before consonant-initial bases.
 
 | Base | | نیم‌- + | |
 |------|-|---------|--|
@@ -273,6 +299,8 @@ Persian has a **fully productive** suffix **-ī** (ـی) that converts adjective
 | `دارا` *dārā* "having, wealthy" | adj | `دارایی` *dārāy-**ī*** | "possessions, wealth" |
 | `خیره سر` *xīre-sar* "stubborn" | compound adj | `خیره سری` *xīre-sar-**ī*** | "stubbornness" |
 | `سخت دل` *saxt-del* "hard-hearted" | compound adj | `سخت دلی` *saxt-del-**ī*** | "hard-heartedness" |
+
+**After vowel-final bases:** when the base ends in a vowel, a *y*-glide is inserted before ـی to prevent two vowels colliding: `دارا` + ـی → `دارایی` *dārāy-ī* (not *\*dārā-ī*). The same rule applies to relational adjectives ([see below](#as-a-relational-adjective): `طلا` → `طلایی`) and to agent nouns ending in a vowel (`فرمانروا` → `فرمانروایی`).
 
 ### From agent nouns
 
