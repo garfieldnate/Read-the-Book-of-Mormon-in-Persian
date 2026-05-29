@@ -126,6 +126,10 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     text = re.sub(r"(?<!_)_([^_]+?)_(?!_)", r"<em>\1</em>", text)
     for _idx, _tag in enumerate(_tags):
         text = text.replace(f"\x00{_idx}\x00", _tag)
+    # Wrap Persian runs in <bdi> for correct bidi rendering in paragraphs and
+    # headings. Backtick Persian is already inside <bdi>; bold/italic Persian
+    # and bare inline Persian are handled here.
+    text = _wrap_persian_runs(text)
     # Merge runs of 2+ consecutive bdi-wrapped Persian code spans into a single
     # <bdi dir="rtl"> so multi-word phrases (e.g. `به` `هنگام`) display in the correct
     # RTL reading order AND the whole phrase is bidi-isolated.
@@ -144,12 +148,41 @@ def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
 # ---------- vocab map: first-pass word → anchor-id lookup ----------
 
 _PERSIAN_CHAR_RE = re.compile(r"[؀-ۿ‌]")
+# Matches a Persian run: a Persian/ZWNJ char followed by more Persian/ZWNJ/hyphen chars.
+# Used to wrap bare Persian text nodes in <bdi> for correct RTL bidi rendering.
+_PERSIAN_RUN_RE = re.compile(r"[؀-ۿ‌][؀-ۿ‌\-]*")
 _PERSIAN_TOKEN_RE = re.compile(r"[ء-ۿ‌]+")
 _DIACRITICS_RE = re.compile(r"[ً-ٰٟ]")
 _VOCAB_HW_RE = re.compile(r"^- \*\*(.+?)\*\*")
 _GRAM_ITEM_RE = re.compile(r"^- `([^`]+)`")
 _FORMS_LABEL_RE = re.compile(r"^- _(Forms?|Form)_:")
 _META_LABEL_LINE_RE = re.compile(r"^- _")
+
+
+def _wrap_persian_runs(html: str) -> str:
+    """Wrap Persian character runs in <bdi> for bidi isolation.
+
+    Splits the HTML into tag and text-node fragments. Text nodes outside an
+    existing <bdi>…</bdi> wrapper that contain Persian characters have each
+    Persian run (including adjacent ZWNJ and hyphens, e.g. بی‌-) wrapped in
+    <bdi>. Text already inside <bdi> (backtick code spans) is left untouched.
+    """
+    parts = re.split(r"(<[^>]+>)", html)
+    bdi_depth = 0
+    result: list[str] = []
+    for part in parts:
+        if part.startswith("<"):
+            if part.lower().startswith("<bdi"):
+                bdi_depth += 1
+            elif part.lower().startswith("</bdi"):
+                bdi_depth = max(0, bdi_depth - 1)
+            result.append(part)
+        elif bdi_depth == 0 and _PERSIAN_CHAR_RE.search(part):
+            result.append(_PERSIAN_RUN_RE.sub(r"<bdi>\g<0></bdi>", part))
+        else:
+            result.append(part)
+    return "".join(result)
+
 
 # Suffixes to try stripping (longest first) when exact lookup fails.
 _LOOKUP_SUFFIXES = [
