@@ -173,7 +173,7 @@ Most Persian verbs follow the رفتن pattern once you know the two stems. A ha
 
 | Infinitive | Meaning | Past stem | Present stem | Irregularity |
 |---|---|---|---|---|
-| `بودن` (_budan_) | to be | `بود–` (_bud–_) | `باش–` (_bāsh–_) | **Structural:** the simple present is suppletive — `هستم`، `هستی`، `هست`/`است`، … — and takes no `می–`; the subjunctive uses `باش–` |
+| `بودن` (_budan_) | to be | `بود–` (_bud–_) | `باش–` (_bāsh–_) | **Structural:** the simple present is suppletive — `هستم`، `هستی`، `هست`/`است`، … — and takes no `می–`; the subjunctive uses `باش–`; the future tense uses the past stem `بود–` as the short infinitive: `خواهم بود`، `خواهی بود`، `خواهد بود`، … — `بود` here is **not** past tense but the verbal complement to the future auxiliary `خواه–` |
 | `داشتن` (_dāshtan_) | to have | `داشت–` (_dāsht–_) | `دار–` (_dār–_) | **Structural:** the simple present drops `می–` entirely: `دارم`، `داری`، `دارد`، … |
 | `کردن` (_kardan_) | to do / make | `کرد–` (_kard–_) | `کن–` (_kon–_) | Stem only |
 | `شدن` (_shodan_) | to become | `شد–` (_shod–_) | `شو–` (_shaw–_) | Stem only |
