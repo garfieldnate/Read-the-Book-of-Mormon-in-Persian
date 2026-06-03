@@ -614,6 +614,9 @@ def _build_chapter_toc(source: dict, study: dict) -> str:
     if study.get("intro", "").strip():
         items.append('<li><a href="#intro">Intro</a></li>')
 
+    if study.get("reading_tip", "").strip():
+        items.append('<li><a href="#reading-tips">Reading tips</a></li>')
+
     study_index: dict[tuple[str, int | None], dict] = {}
     for s in study.get("sections", []):
         key = (_section_type(s), s.get("number"))
@@ -660,11 +663,6 @@ def _build_chapter_toc(source: dict, study: dict) -> str:
             f'<ul>{children_html}</ul></li>'
         )
 
-    if study.get("closing", "").strip():
-        items.append(
-            '<li><a href="#a-final-note-on-reading-strategy">'
-            'A final note on reading strategy</a></li>'
-        )
 
     return (
         '<nav class="toc"><p class="toc-title">Contents</p><ul>'
@@ -754,6 +752,13 @@ def render_chapter(
     if intro:
         body_parts.append('<h2 id="intro">Intro</h2>')
         body_parts.append(_render_prose(intro, word_map))
+
+    reading_tip = study.get("reading_tip", "").strip()
+    if reading_tip:
+        body_parts.append('<h2 id="reading-tips">Reading tips</h2>')
+        body_parts.append(_render_prose(reading_tip, word_map))
+
+    if intro or reading_tip:
         body_parts.append("<hr>")
 
     body_parts.append('<h2 id="vocabulary-and-grammar">Vocabulary and Grammar</h2>')
@@ -778,11 +783,6 @@ def render_chapter(
         study_sec = study_index.get((t, n))
         body_parts.append(_render_section(source_sec, study_sec, word_map, unlinked, arabic_href))
 
-    closing = study.get("closing", "")
-    if closing:
-        body_parts.append("<hr>")
-        body_parts.append('<h2 id="a-final-note-on-reading-strategy">A final note on reading strategy</h2>')
-        body_parts.append(_render_prose(closing, word_map))
 
     body = "\n".join(body_parts)
 
@@ -796,6 +796,68 @@ def render_chapter(
             unique_locs = list(dict.fromkeys(locs))
             loc_str = f" — {', '.join(unique_locs)}" if any(unique_locs) else ""
             print(f"  {label}unlinked: {word}{count_str}{loc_str}", file=sys.stderr)
+
+    # Lint: vocab ordering — each headword entry should sit in the study section
+    # that corresponds to where its lemma first appears in the source text.
+    source_secs_ordered = source.get("sections", [])
+    source_sec_rank: dict[tuple, int] = {
+        (_section_type(s), s.get("number")): i
+        for i, s in enumerate(source_secs_ordered)
+    }
+
+    # Walk source tokens in order; record the first section rank where each
+    # vocab anchor is resolved.
+    entry_first_rank: dict[str, int] = {}
+    for sec in source_secs_ordered:
+        sec_key = (_section_type(sec), sec.get("number"))
+        rank = source_sec_rank[sec_key]
+        tok_list = list(sec.get("tokens", []))
+        i = 0
+        while i < len(tok_list):
+            tok = tok_list[i]
+            if "fa" not in tok:
+                i += 1
+                continue
+            fa = tok["fa"]
+            lookup_key = tok.get("lemma") or fa
+            # می/نمی: resolve against the following verb token, matching render logic
+            if fa in _MI_PREFIX and i + 1 < len(tok_list) and "fa" in tok_list[i + 1]:
+                nxt = tok_list[i + 1]
+                nxt_key = nxt.get("lemma") or nxt["fa"]
+                anchor = _resolve_anchor(nxt_key, word_map) or _resolve_anchor(nxt["fa"], word_map)
+                if anchor and anchor not in entry_first_rank:
+                    entry_first_rank[anchor] = rank
+                i += 2
+                continue
+            anchor = _resolve_anchor(lookup_key, word_map)
+            if anchor is None and lookup_key != fa:
+                anchor = _resolve_anchor(fa, word_map)
+            if anchor and anchor not in entry_first_rank:
+                entry_first_rank[anchor] = rank
+            i += 1
+
+    for study_sec in study.get("sections", []):
+        study_key = (_section_type(study_sec), study_sec.get("number"))
+        study_rank = source_sec_rank.get(study_key)
+        if study_rank is None:
+            continue
+        for entry in study_sec.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            persian = entry.get("persian", "")
+            entry_id = entry.get("id") or persian.replace(" ", "_")
+            anchor = f"vocab-{entry_id}"
+            first_rank = entry_first_rank.get(anchor)
+            if first_rank is None or first_rank == study_rank:
+                continue
+            _, first_heading, _ = _section_heading(source_secs_ordered[first_rank])
+            _, study_heading, _ = _section_heading(study_sec)
+            direction = "too late" if study_rank > first_rank else "too early"
+            print(
+                f"  {label}vocab order: '{persian}' first appears in {first_heading}"
+                f" but entry is in {study_heading} ({direction})",
+                file=sys.stderr,
+            )
 
     # Warn about entries with a `root` field but no `arabic_form`
     for sec in study.get("sections", []):
