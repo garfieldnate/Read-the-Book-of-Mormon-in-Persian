@@ -17,7 +17,7 @@ The practical takeaway: when you hear an unfamiliar word with stress late in the
 
 ---
 
-## Prefixes
+## Prefixes <span id="preverbs"></span>
 
 ### بی‌- (*bī-*) — "without, lacking X"
 
@@ -285,7 +285,7 @@ From the adjective `دگر` *degar* "other, different." Attaches to nouns and pr
 
 ---
 
-## The abstract-noun suffix ـی / ـگی (*-ī* / *-gī*)
+## The abstract-noun suffix ـی / ـگی (*-ī* / *-gī*) <span id="the-abstract-noun-suffix-i"></span>
 
 Persian has a **fully productive** suffix **-ī** (ـی) that converts adjectives, agent nouns, and compound descriptors into abstract nouns meaning "the quality, state, or practice of X." It is one of the most common derivational patterns in the language, and the source of a large number of the nouns you will encounter in this text. Whenever you see a noun ending in ـی that can be decomposed as `[adjective or agent noun] + ی`, this pattern is almost certainly at work — even for words you have never seen before.
 
@@ -338,7 +338,7 @@ The letter ی produces three completely different grammatical effects depending 
 
 The abstract-noun use is recognizable because the result is itself a noun that stands alone (it is not followed by که, and it does not mean "a [noun]"). When in doubt, ask: does the ـی-word name a quality, state, or practice? If so, it is the abstract suffix.
 
-### As a relational adjective
+### As a relational adjective <span id="the-adjectival-suffix-i"></span>
 
 The same ـی suffix attaches to **nouns** — particularly place names, materials, and category nouns — to produce adjectives meaning "of X," "relating to X," or "made of X." This is sometimes called the *nisba* adjective (a term from Arabic grammar). It is **fully productive** and extremely common.
 
@@ -403,7 +403,7 @@ Unlike English, where "friendly" (adj) and "in a friendly manner" (adv) are dist
 
 ## Quality and attribute suffixes
 
-### ـمند (*-mand*) — "endowed with, possessing X"
+### ـمند (*-mand*) — "endowed with, possessing X" <span id="the-suffix-mand"></span>
 
 Attaches to nouns of knowledge, skill, or abstract quality to produce adjectives and agent nouns meaning "one endowed with X." **Highly productive** with abstract nouns.
 
@@ -429,7 +429,20 @@ Attaches to nouns of negative or intense emotion/quality to produce adjectives m
 | `هول` *howl* "terror, dread" | noun | `هولناک` *howl-**nāk*** | "terrifying, dreadful" |
 | `غم` *ɣam* "sorrow, grief" | noun | `غمناک` *ɣam-**nāk*** | "sorrowful, mournful" |
 
-### ـور (*-var*) — "possessing, bearing X"
+### ـگین (*-gīn*) — "laden with, full of X" <span id="the-suffix-gin"></span>
+
+Attaches to nouns of **strong emotion or sensation** to produce adjectives meaning "pervaded by X" or "weighed down with X." Most productive with words for grief, anger, shame, and longing. Common in literary and religious Persian.
+
+| Base | | + ـگین | |
+|------|-|--------|--|
+| `خشم` *xašm* "anger, wrath" | noun | `خشمگین` *xašm-**gīn*** | "furious, wrathful" |
+| `اندوه` *anduh* "grief, sorrow" | noun | `اندوهگین` *anduh-**gīn*** | "sorrowful, grieved" |
+| `شرم` *šarm* "shame" | noun | `شرمگین` *šarm-**gīn*** | "ashamed, abashed" |
+| `دلتنگ` *deltang* "longing, missing" | noun | `دلتنگین`? — in modern Persian `دلتنگ` alone suffices; ـگین is not added. The base form `دلتنگی` uses the ـی abstract-noun suffix instead. | |
+
+**Note:** ـگین and ـناک overlap in meaning but differ in register and base type. ـناک prefers nouns of external danger or intensity (`خطرناک`, `دردناک`); ـگین favors internal emotional states (`خشمگین`, `اندوهگین`).
+
+### ـور (*-var*) — "possessing, bearing X" <span id="the-suffix-var"></span>
 
 A somewhat literary suffix meaning "one who has or bears X." Less freely productive than ـمند in modern Persian — mostly encountered in inherited literary words rather than new coinages — but common enough in formal and religious texts to be worth recognizing.
 
@@ -587,7 +600,7 @@ From the noun `کار` *kār* "deed, act." Attaches to verbal nouns or moral-qua
 | `خدمت` *xedmat* "service" | noun | `خدمتکار` *xedmat-**kār*** | "servant" |
 | `ستم` *setam* "oppression" | noun | `ستمکار` *setam-**kār*** | "oppressor, unjust" |
 
-### ـگزار (*-gozār*) — "one who performs or renders X"
+### ـگزار (*-gozār*) — "one who performs or renders X" <span id="the-suffix-gozar"></span>
 
 From `گزاردن` *gozārdan* "to perform, render." Most common in religious, formal, and honorific contexts. **Less freely productive** than ـدار or ـگر; mostly encountered in inherited compounds rather than new coinages, but very frequent in literary Persian.
 
@@ -716,6 +729,19 @@ An older present-stem pattern — present stem + ـا — meaning "one who does/
 **Stress:** on the suffix: *dān-**ā***, *tavān-**ā***, *bin-**ā***.
 
 دانا and توانا appear frequently in religious titles: `دانای کل` "the All-Knowing" (omniscient), `توانای مطلق` "the All-Powerful." Recognizing the pattern makes these compound epithets transparent.
+
+### ـار (*-ār*) — past-stem agentive suffix <span id="the-agentive-suffix-ar"></span>
+
+Attaches to **past verb stems** to produce agent nouns meaning "one who characteristically does X" or "one affected by X." Less openly productive than present-stem agent suffixes, but present in a core set of high-frequency words.
+
+| Base | | + ـار | |
+|------|-|-------|--|
+| `خواست` *xāst* (past stem of `خواستن` "to want") | verb | `خواستار` *xāst-**ār*** | "one who desires, demanding" |
+| `گرفت` *gereft* (past stem of `گرفتن` "to take") | verb | `گرفتار` *gereft-**ār*** | "one who is caught, trapped" |
+| `پرست` *parast* (past stem of `پرستیدن` "to worship") | verb | `پرستار` *parast-**ār*** | "nurse, caretaker" (lit. "worshipper") |
+| `رفت` *raft* (past stem of `رفتن` "to go") | verb | `رفتار` *raft-**ār*** | "behavior, conduct" (lit. "manner of going") |
+
+**Note:** ـار should not be confused with the noun suffix ـار in words like `کار` *kār* "work" or `بازار` *bāzār* "market," which are unrelated inherited forms.
 
 ### More present-stem elements
 

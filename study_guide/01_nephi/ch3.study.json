@@ -790,7 +790,7 @@
           "pos": "sconj",
           "forms": [
             {
-              "note": "`تا` + subjunctive = purpose/result clause (\"so that\"). `تا` + indicative = temporal clause (\"until / while\"). See [Grammar: Subjunctive after تا](#grammar-subjunctive-after-تا)."
+              "note": "`تا` + subjunctive = purpose/result clause (\"so that\"). `تا` + indicative = temporal clause (\"until / while\"). See [Grammar: Subjunctive after تا](#grammar-subjunctive-after)."
             }
           ]
         },
@@ -1074,7 +1074,7 @@
           "type": "variant",
           "persian": "گفتا",
           "translit": "goftā",
-          "meaning": "archaic narrative past 3sg of `گفتن`; see [Grammar: Archaic narrative suffix `-ā`](#grammar-archaic-narrative-suffix--ā-گفتا)"
+          "meaning": "archaic narrative past 3sg of `گفتن`; see [Grammar: Archaic narrative suffix `-ā`](#grammar-archaic-narrative-suffix)"
         },
         {
           "type": "headword",
@@ -1894,7 +1894,7 @@
               "desc": "3sg neg. past `نخواست` _na-xāst_ ([verse 13](#verse-13))"
             },
             {
-              "note": "Double meaning: (1) to want/desire; (2) as a future auxiliary: `خواهم رفت` _xāham raft_ \"I will go.\" In the future auxiliary use, the present stem `خواه-` + past-stem infinitive (no `بـ-`). See [Grammar: Future tense](#grammar-future-tense-خواه)."
+              "note": "Double meaning: (1) to want/desire; (2) as a future auxiliary: `خواهم رفت` _xāham raft_ \"I will go.\" In the future auxiliary use, the present stem `خواه-` + past-stem infinitive (no `بـ-`). See [Grammar: Future tense](#grammar-future-tense-past-stem-infinitive)."
             },
             {
               "fa": "خواهی",
