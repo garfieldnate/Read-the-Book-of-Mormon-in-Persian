@@ -9,4 +9,6 @@ Chapter study guides live as JSON source files — do not author or edit Markdow
 
 Run `render_json.py` (or `build_site.py`) to regenerate the HTML after editing JSON.
 
+To generate a new chapter from scratch, follow **[GENERATING_CHAPTERS.md](GENERATING_CHAPTERS.md)**.
+
 The reference pages in `study_guide/` (`verbs.md`, `word_formation.md`, etc.) are hand-authored Markdown and can be edited directly.
