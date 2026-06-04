@@ -58,6 +58,11 @@ def _slug(text: str) -> str:
     return text.strip("-")
 
 
+# Matches empty <span id="..."></span> anchor tags used to add extra named
+# anchors to Markdown headings without changing their display text.
+_HEADING_ANCHOR_RE = re.compile(r'<span\s+id="([^"]+)"\s*></span>')
+
+
 def _inline(text: str, word_map: dict[str, str] | None = None) -> str:
     """Apply markdown inline formatting (**bold**, *italic*, `code`).
 
@@ -430,7 +435,7 @@ def _build_toc(md: str) -> str:
     for line in md.split("\n"):
         m = HEADING_RE.match(line)
         if m and len(m.group(1)) in (2, 3):
-            raw = m.group(2)
+            raw = _HEADING_ANCHOR_RE.sub("", m.group(2)).strip()
             headings.append((len(m.group(1)), raw, _slug(raw)))
     if not headings:
         return ""
@@ -779,9 +784,17 @@ def _render_body(
         m = HEADING_RE.match(line)
         if m:
             level = len(m.group(1))
-            content = _inline(m.group(2), word_map)
-            slug = _slug(m.group(2))
-            out.append(f'<h{level} id="{slug}">{content}</h{level}>')
+            raw_heading = m.group(2)
+            # Extract any <span id="..."></span> anchor tags — emit them as
+            # real HTML inside the heading, but strip them from the display text.
+            extra_anchors = "".join(
+                f'<span id="{aid}"></span>'
+                for aid in _HEADING_ANCHOR_RE.findall(raw_heading)
+            )
+            display_text = _HEADING_ANCHOR_RE.sub("", raw_heading).strip()
+            content = _inline(display_text, word_map)
+            slug = _slug(raw_heading)
+            out.append(f'<h{level} id="{slug}">{content}{extra_anchors}</h{level}>')
             current_section = re.sub(r"[`*_]", "", m.group(2)).strip()
             i += 1
             continue
