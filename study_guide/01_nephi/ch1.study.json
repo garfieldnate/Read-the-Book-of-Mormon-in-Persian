@@ -1620,6 +1620,21 @@
 					"meaning": "travel, journey",
 					"pos": "noun",
 					"tags": [],
+					"plural": {
+						"suffixes": [
+							{
+								"persian": "مسافرت‌ها",
+								"translit": "-hā"
+							}
+						],
+						"broken": [
+							{
+								"persian": "مسافرات",
+								"translit": "mosāfarāt",
+								"note": "formal/written"
+							}
+						]
+					},
 					"etym": {
 						"prose": "from Arabic, root s-f-r \"to travel\"; verbal-noun pattern _mufāʿalat_.",
 						"arabic_form": "Form III verbal noun",
@@ -2434,15 +2449,6 @@
 					"translit": "nazdīk",
 					"meaning": "near",
 					"pos": "prep",
-					"tags": []
-				},
-				{
-					"type": "headword",
-					"id": "۶",
-					"persian": "۶",
-					"translit": "šeš",
-					"meaning": "Persian numeral 6 (`شش`)",
-					"pos": "num",
 					"tags": []
 				},
 				{
@@ -3524,6 +3530,15 @@
 			"section_type": "verse",
 			"number": 6,
 			"entries": [
+				{
+					"type": "headword",
+					"id": "۶",
+					"persian": "۶",
+					"translit": "šeš",
+					"meaning": "Persian numeral 6 (`شش`)",
+					"pos": "num",
+					"tags": []
+				},
 				{
 					"type": "headword",
 					"id": "صخره",
@@ -5951,6 +5966,15 @@
 					"meaning": "faith, belief",
 					"pos": "noun",
 					"tags": [],
+					"plural": {
+						"suffixes": [
+							{
+								"persian": "ایمان‌ها",
+								"translit": "-hā",
+								"note": "used when treating faith as countable; more often a mass noun"
+							}
+						]
+					},
 					"etym": {
 						"prose": "from Arabic, root ʾ-m-n \"to be safe, trust\"; verbal noun (form IV) \"to make faithful\".",
 						"arabic_form": "Form IV verbal noun",

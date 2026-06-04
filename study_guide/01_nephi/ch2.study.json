@@ -2431,6 +2431,25 @@
 							"desc": "with suffix `چادرش` _čādar-aš_ \"his tent\" [verse 6]"
 						}
 					]
+				},
+				{
+					"type": "headword",
+					"id": "بسیار",
+					"persian": "بسیار",
+					"translit": "besyār",
+					"meaning": "many, much, very, a great deal",
+					"pos": "adv",
+					"tags": [],
+					"forms": [
+						{
+							"fa": "چیزهای بسیاری",
+							"desc": "`چیزهای بسیاری` \"very many things\""
+						},
+						{
+							"fa": "بسیار",
+							"desc": "`بسیار` as adverb = \"very, greatly.\""
+						}
+					]
 				}
 			]
 		},
@@ -3503,25 +3522,6 @@
 				},
 				{
 					"type": "headword",
-					"id": "بسیار",
-					"persian": "بسیار",
-					"translit": "besyār",
-					"meaning": "many, much, very, a great deal",
-					"pos": "adv",
-					"tags": [],
-					"forms": [
-						{
-							"fa": "چیزهای بسیاری",
-							"desc": "`چیزهای بسیاری` \"very many things\""
-						},
-						{
-							"fa": "بسیار",
-							"desc": "`بسیار` as adverb = \"very, greatly.\""
-						}
-					]
-				},
-				{
-					"type": "headword",
 					"id": "مرد",
 					"persian": "مرد",
 					"translit": "mard",
@@ -3872,6 +3872,57 @@
 						{
 							"fa": "آگاهی نداشتن",
 							"desc": "`آگاهی نداشتن` \"not to know, to lack knowledge of.\""
+						}
+					]
+				},
+				{
+					"type": "headword",
+					"id": "داشتن",
+					"persian": "داشتن",
+					"translit": "dāštan",
+					"meaning": "to have, hold, possess; to keep (used as full verb and as auxiliary)",
+					"pos": "verb",
+					"tags": [],
+					"pres_stem": {
+						"fa": null,
+						"translit": "dār-"
+					},
+					"forms": [
+						{
+							"fa": "دارم",
+							"desc": "1sg pres. `دارم` _dāram_"
+						},
+						{
+							"fa": "داری",
+							"desc": "2sg pres. `داری` _dārī_"
+						},
+						{
+							"fa": "دارد",
+							"desc": "3sg pres. `دارد` _dārad_"
+						},
+						{
+							"fa": "دارند",
+							"desc": "3pl pres. `دارند` _dārand_"
+						},
+						{
+							"fa": "داشت",
+							"desc": "past `داشت` _dāšt_"
+						},
+						{
+							"fa": "داشتند",
+							"desc": "3pl past `داشتند` _dāštand_"
+						},
+						{
+							"fa": "نداشتند",
+							"desc": "neg. 3pl past `نداشتند` _na-dāštand_ \"they did not have/know\""
+						},
+						{
+							"fa": "داشته",
+							"desc": "pp. `داشته` _dāšte_"
+						},
+						{
+							"fa": "نخواهند داشت",
+							"desc": "neg. future `نخواهند داشت` \"they shall not have\" [verse 23]. **Note**: `داشتن` is the light verb in many compounds already introduced: `نگه داشتن`, `برداشتن`, `آگاهی داشتن`"
 						}
 					]
 				}
@@ -5456,57 +5507,6 @@
 						{
 							"fa": "دردناک",
 							"desc": "adj. `دردناک` _dard-nāk_ \"painful, grievous, tormenting.\""
-						}
-					]
-				},
-				{
-					"type": "headword",
-					"id": "داشتن",
-					"persian": "داشتن",
-					"translit": "dāštan",
-					"meaning": "to have, hold, possess; to keep (used as full verb and as auxiliary)",
-					"pos": "verb",
-					"tags": [],
-					"pres_stem": {
-						"fa": null,
-						"translit": "dār-"
-					},
-					"forms": [
-						{
-							"fa": "دارم",
-							"desc": "1sg pres. `دارم` _dāram_"
-						},
-						{
-							"fa": "داری",
-							"desc": "2sg pres. `داری` _dārī_"
-						},
-						{
-							"fa": "دارد",
-							"desc": "3sg pres. `دارد` _dārad_"
-						},
-						{
-							"fa": "دارند",
-							"desc": "3pl pres. `دارند` _dārand_"
-						},
-						{
-							"fa": "داشت",
-							"desc": "past `داشت` _dāšt_"
-						},
-						{
-							"fa": "داشتند",
-							"desc": "3pl past `داشتند` _dāštand_"
-						},
-						{
-							"fa": "نداشتند",
-							"desc": "neg. 3pl past `نداشتند` _na-dāštand_ \"they did not have/know\""
-						},
-						{
-							"fa": "داشته",
-							"desc": "pp. `داشته` _dāšte_"
-						},
-						{
-							"fa": "نخواهند داشت",
-							"desc": "neg. future `نخواهند داشت` \"they shall not have\" [verse 23]. **Note**: `داشتن` is the light verb in many compounds already introduced: `نگه داشتن`, `برداشتن`, `آگاهی داشتن`"
 						}
 					]
 				},
