@@ -18,6 +18,8 @@ These rules govern editorial decisions when producing a chapter study guide — 
 
 The `intro` field at the top level of `study.json` is one short paragraph (~½ page) summarizing the chapter's narrative content: what happens, who speaks, what key themes appear. Supports inline Markdown. Keep it descriptive and concise.
 
+**Language: English.** The `intro` and `reading_tip` fields are study-aid prose written for the learner and must always be in English, not Persian.
+
 ---
 
 ## Scope: which words to include
@@ -268,6 +270,8 @@ Cover only points the chapter actually contains.
 ## Reading tips section
 
 Set the `reading_tip` field at the top level of `study.json`. It is rendered immediately after the intro, before the vocabulary. Write one short paragraph naming the key grammar constructions the reader will encounter in the chapter, followed by one practical study-tip sentence (e.g. "Pay particular attention to ezafe chains — nearly every noun phrase in this chapter uses them").
+
+**Language: English.** Like `intro`, `reading_tip` is study-aid prose for the learner and must be written in English.
 
 ---
 

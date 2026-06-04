@@ -61,6 +61,7 @@ _ARABIC_FORM_ANCHORS: dict[str, str] = {
     # Nominal patterns → per-row anchors in Other nominal patterns
     "elative (Form IV)":          "nom-ʾafʿal",
     "nominal pattern":            "other-nominal-patterns",
+    "nisba relational adjective (-iyyun)": "nom-nisba",
 }
 
 
@@ -734,14 +735,41 @@ def render_chapter(
         key = (_section_type(s), s.get("number"))
         study_index[key] = s
 
-    # Lint: every source section must have a matching study section
+    # ------------------------------------------------------------------ #
+    #  Lint — source.json checks                                         #
+    # ------------------------------------------------------------------ #
     label = f"{source_name}: " if source_name else ""
     for source_sec in source.get("sections", []):
         t = _section_type(source_sec)
         n = source_sec.get("number")
+        sec_desc = f"verse {n}" if n is not None else t
+
+        # Every source section needs a matching study section.
         if (t, n) not in study_index:
-            sec_desc = f"{t} {n}" if n is not None else t
             print(f"  {label}missing study section: {sec_desc}", file=sys.stderr)
+
+        # Verse and chapter-summary sections must have tokens.
+        tokens = source_sec.get("tokens")
+        if t in ("verse", "chapter-summary") and not tokens:
+            print(f"  {label}missing tokens: {sec_desc}", file=sys.stderr)
+
+        # Verse sections need an English translation.
+        if t == "verse" and not source_sec.get("en"):
+            print(f"  {label}missing translation: verse {n}", file=sys.stderr)
+
+        # Every word token must carry a gloss with both `src` and `gloss` keys.
+        for tok in tokens or []:
+            if "fa" not in tok:
+                continue  # punctuation token — no gloss required
+            fa = tok["fa"]
+            g = tok.get("gloss")
+            if g is None:
+                print(f"  {label}token missing gloss: `{fa}` in {sec_desc}", file=sys.stderr)
+            else:
+                if not g.get("src"):
+                    print(f"  {label}gloss missing src: `{fa}` in {sec_desc}", file=sys.stderr)
+                if not g.get("gloss"):
+                    print(f"  {label}gloss missing gloss field: `{fa}` in {sec_desc}", file=sys.stderr)
 
     body_parts: list[str] = [
         f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>',
@@ -873,19 +901,78 @@ def render_chapter(
                     file=sys.stderr,
                 )
 
-    # Lint: POS-driven field requirements
+    # ------------------------------------------------------------------ #
+    #  Lint — study.json checks                                          #
+    # ------------------------------------------------------------------ #
     for sec in study.get("sections", []):
         for entry in sec.get("entries", []):
-            if entry.get("type") != "headword":
-                continue
-            pos = entry.get("pos")
-            persian = entry.get("persian", "?")
-            if not pos:
-                print(f"  {label}headword missing pos: {persian}", file=sys.stderr)
-            elif pos == "verb" and not entry.get("pres_stem"):
-                print(f"  {label}verb missing pres_stem: {persian}", file=sys.stderr)
-            elif pos == "noun" and not entry.get("plural") and not entry.get("light_verb"):
-                print(f"  {label}noun missing plural: {persian}", file=sys.stderr)
+            etype = entry.get("type")
+
+            # --- headword checks ---
+            if etype == "headword":
+                pos = entry.get("pos")
+                persian = entry.get("persian", "?")
+
+                # Required scalar fields
+                if not entry.get("translit"):
+                    print(f"  {label}headword missing translit: {persian}", file=sys.stderr)
+                if not entry.get("meaning"):
+                    print(f"  {label}headword missing meaning: {persian}", file=sys.stderr)
+                if not pos:
+                    print(f"  {label}headword missing pos: {persian}", file=sys.stderr)
+
+                # POS-driven structural requirements
+                if pos == "verb" and not entry.get("pres_stem"):
+                    print(f"  {label}verb missing pres_stem: {persian}", file=sys.stderr)
+                if pos == "verb" and entry.get("pres_stem"):
+                    if not entry["pres_stem"].get("translit"):
+                        print(f"  {label}pres_stem missing translit: {persian}", file=sys.stderr)
+                if pos == "noun" and not entry.get("plural") and not entry.get("light_verb"):
+                    print(f"  {label}noun missing plural: {persian}", file=sys.stderr)
+                if pos == "noun" and entry.get("plural"):
+                    pl = entry["plural"]
+                    if not pl.get("suffixes") and not pl.get("broken"):
+                        print(f"  {label}plural has no forms: {persian}", file=sys.stderr)
+
+                # etym.arabic_form must be a known value
+                etym = entry.get("etym")
+                if isinstance(etym, dict) and etym.get("arabic_form"):
+                    af = etym["arabic_form"]
+                    if af not in _ARABIC_FORM_ANCHORS:
+                        print(
+                            f"  {label}unknown arabic_form '{af}': {persian}",
+                            file=sys.stderr,
+                        )
+
+            # --- variant checks ---
+            elif etype == "variant":
+                if not entry.get("persian"):
+                    print(f"  {label}variant missing persian", file=sys.stderr)
+                if not entry.get("meaning"):
+                    vp = entry.get("persian", "?")
+                    print(f"  {label}variant missing meaning: {vp}", file=sys.stderr)
+
+            # --- grammar-note checks ---
+            elif etype == "grammar-note":
+                title = entry.get("title") or ""
+                tag = f"'{title}'" if title else "(no title)"
+                if not title:
+                    print(f"  {label}grammar-note missing title", file=sys.stderr)
+                if not entry.get("body"):
+                    print(f"  {label}grammar-note missing body: {tag}", file=sys.stderr)
+                examples = entry.get("examples") or []
+                if not examples:
+                    print(f"  {label}grammar-note missing examples: {tag}", file=sys.stderr)
+                for i, ex in enumerate(examples):
+                    ex_tag = f"{tag} example {i + 1}"
+                    if not ex.get("ref"):
+                        print(f"  {label}grammar-note example missing ref: {ex_tag}", file=sys.stderr)
+                    if not ex.get("ref_anchor"):
+                        print(f"  {label}grammar-note example missing ref_anchor: {ex_tag}", file=sys.stderr)
+                    if not ex.get("persian"):
+                        print(f"  {label}grammar-note example missing persian: {ex_tag}", file=sys.stderr)
+                    if not ex.get("translit"):
+                        print(f"  {label}grammar-note example missing translit: {ex_tag}", file=sys.stderr)
 
     index_href = str(Path(css_href).parent / ".." / "index.html")
     prev_slot = (

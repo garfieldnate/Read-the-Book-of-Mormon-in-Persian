@@ -1,0 +1,4998 @@
+{
+  "book": "1 Nephi",
+  "chapter": 3,
+  "intro": "Chapter 3 of 1 Nephi opens immediately after Nephi's private vision: Lehi tells his sons they must return to Jerusalem to obtain the brass plates from Laban, which contain the Jewish scriptures and the family genealogy. Nephi responds with his famous declaration of faith — that God never gives a commandment without preparing a way for it to be accomplished. The chapter then traces two failed attempts to recover the plates: Laman is expelled from Laban's house at sword-point; a second attempt offering gold and silver ends with Laban stealing their property and sending servants to kill them. After fleeing into the wilderness, Nephi rallies his despairing brothers with an oath. The chapter closes with Laman and Lemuel beating Nephi and Sam with a rod — only to be stopped by an angel who rebukes them and promises that God will yet deliver Laban into their hands.",
+  "reading_tip": "Three grammar constructions carry most of the chapter's theological weight. The narrative frame `چنین گذشت که` (and it came to pass) opens nearly every episode — once you recognize it, parsing each scene becomes automatic. The subjunctive after `تا` (so that / in order to) and after `مگر اینکه` (unless) signals purpose and condition respectively; watch for the `بـ-` prefix on the verb and the absence of `می-`. The future tense `خواه- + past-stem infinitive` (`خواهم رفت`, `خواهد سپرد`) appears for the first time in this chapter. Compound verbs are unusually dense here — `قرعه کشیدن`, `سر باز زدن`, `گرد هم آوردن`, `بدست آوردن` — so pay attention to the noun that precedes `کردن` or `شدن` as the key to the verb's meaning.",
+  "sections": [
+    {
+      "section_type": "chapter-summary",
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۳",
+          "persian": "۳",
+          "translit": "se",
+          "meaning": "Persian numeral 3 (`سه`)",
+          "pos": "num",
+          "forms": [
+            {
+              "fa": "۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹",
+              "desc": "Persian uses the Indo-Persian digits `۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹` (not the Arabic–Western `0–9`). Each digit's pronunciation is introduced at first appearance in this chapter."
+            },
+            {
+              "note": "Teens (11–19) and multiples of ten (20, 30 …) are independent Persian words, not digit-by-digit composites. Verse numbers count as first occurrences of each numeral."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فصل",
+          "translit": "faṣl",
+          "meaning": "chapter, section; season",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "فصل‌ها",
+                "translit": "-hā"
+              }
+            ],
+            "broken": [
+              {
+                "persian": "فصول",
+                "translit": "foṣūl",
+                "note": "formal/academic"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic, root f-ṣ-l \"to separate, divide.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "f-ṣ-l"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "پسر",
+          "translit": "pesar",
+          "meaning": "son, boy",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "پسران",
+                "translit": "-ān",
+                "note": "formal"
+              },
+              {
+                "persian": "پسرها",
+                "translit": "-hā",
+                "note": "colloquial"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "پسران",
+              "desc": "plural `پسران` _pesarān_ — used as subject in the chapter-summary ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "پسرم",
+              "desc": "1sg possessive `پسرم` _pesar-am_ \"my son\" ([verse 6](#verse-6))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "لیحای",
+          "translit": "Liḥāy",
+          "meaning": "Lehi (Nephi's father)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Lehi_; in Hebrew _Lḥy_ probably means \"jaw\" or \"cheek.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "اورشلیم",
+          "translit": "Oršalīm",
+          "meaning": "Jerusalem",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "from Hebrew _Yərūšālayim_; the Persian form is borrowed via Arabic _al-Quds_ / _Ūrušalīm_."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "بازگشتن",
+          "translit": "bāzgaštan",
+          "meaning": "to return, go back",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "بازگرد",
+            "translit": "bāzgard-"
+          },
+          "etym": {
+            "prose": "`باز` _bāz_ (back, again) + `گشتن` _gaštan_ (to turn/go). The prefix [`باز-`](../word_formation.html#preverbs) signals reversal or repetition."
+          },
+          "forms": [
+            {
+              "fa": "بازمی گردند",
+              "desc": "3pl impf. pres. `بازمی گردند` _bāzmī-gardand_ ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "بازگردید",
+              "desc": "2pl imperative `بازگردید` _bāzgardīd_ ([verse 2](#verse-2))"
+            },
+            {
+              "fa": "بازگشتم",
+              "desc": "1sg past `بازگشتم` _bāzgaštam_ ([verse 1](#verse-1))"
+            },
+            {
+              "fa": "بازگشت",
+              "desc": "verbal noun / 3sg past `بازگشت` _bāzgašt_ \"the return\" or \"(he) returned\"; used as noun in `آستانۀ بازگشت` ([verse 14](#verse-14))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ورقه",
+          "translit": "varaqe",
+          "meaning": "plate, sheet, leaf (of metal or paper)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "ورقه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _waraqa_ \"leaf (of a tree), sheet of paper.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "w-r-q"
+          },
+          "forms": [
+            {
+              "fa": "ورقه های",
+              "desc": "plural with ezafe `ورقه‌های` _varaqe-hā-ye_ ([chapter-summary](#chapter-summary), [verse 3](#verse-3))"
+            },
+            {
+              "fa": "ورقه ها",
+              "desc": "plural `ورقه‌ها` _varaqe-hā_ ([verse 12](#verse-12))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "برنجی",
+          "translit": "berenǰī",
+          "meaning": "brass, made of brass",
+          "pos": "adj",
+          "etym": {
+            "prose": "`برنج` _berenj_ (brass, also rice) + [`-ی`](../word_formation.html#the-adjectival-suffix-i) adjectival suffix."
+          },
+          "family": "`برنج` _berenj_ \"brass; rice.\""
+        },
+        {
+          "type": "headword",
+          "persian": "بدست آوردن",
+          "translit": "be-dast āvardan",
+          "meaning": "to obtain, get hold of, acquire",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "بدست آور",
+            "translit": "be-dast āvar-"
+          },
+          "etym": {
+            "prose": "`بدست` _be-dast_ (into-hand) + `آوردن` _āvardan_ (to bring). A fixed compound: literally \"to bring into one's hand.\""
+          },
+          "forms": [
+            {
+              "fa": "بدست آورند",
+              "desc": "3pl subj. `بدست آورند` _be-dast āvarand_ ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "بدست آوریم",
+              "desc": "1pl subj. `بدست آوریم` _be-dast āvarīm_ ([verse 19](#verse-19))"
+            },
+            {
+              "fa": "بدست آورد",
+              "desc": "3sg subj. `بدست آورد` _be-dast āvarad_ ([verse 25](#verse-25))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "لابان",
+          "translit": "Lābān",
+          "meaning": "Laban (a Jew in Jerusalem who possesses the brass plates)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Laban_; in Hebrew _Lābān_ means \"white.\""
+          }
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Subjunctive after تا",
+          "body": "`تا` followed by a subjunctive verb means **\"so that\" or \"in order to.\"** The verb loses its `می-` prefix and gains `بـ-` in the 3rd person forms. This construction signals purpose.",
+          "examples": [
+            {
+              "ref": "Chapter summary",
+              "ref_anchor": "chapter-summary",
+              "persian": "بازمی گردند تا ورقه‌های برنجی را بدست آورند",
+              "translit": "bāzmī-gardand tā varaqe-hā-ye berenǰī rā be-dast āvarand",
+              "en": "they return in order to obtain the brass plates"
+            },
+            {
+              "ref": "Verse 7",
+              "ref_anchor": "verse-7",
+              "persian": "که بتوانند آنچه را که او به آنها فرمان می دهد به انجام برسانند",
+              "translit": "ke betavānand ānče rā ke u be ānhā farmān mī-dahad be anjām resānand",
+              "en": "so that they can accomplish what he commands them"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دادن",
+          "translit": "dādan",
+          "meaning": "to give",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "ده",
+            "translit": "deh-"
+          },
+          "forms": [
+            {
+              "fa": "می دهد",
+              "desc": "3sg impf. pres. `می دهد` _mī-dahad_ ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "می دهم",
+              "desc": "1sg impf. pres. `می دهم` _mī-daham_"
+            },
+            {
+              "fa": "داد",
+              "desc": "past `داد` _dād_; past stem `داد-` _dād-_"
+            },
+            {
+              "fa": "داده است",
+              "desc": "perfect `داده است` _dāde ast_ ([verse 2](#verse-2), [verse 4](#verse-4))"
+            },
+            {
+              "fa": "بدهد",
+              "desc": "3sg subj. `بدهد` _be-dahad_ ([verse 24](#verse-24))"
+            },
+            {
+              "fa": "بدهیم",
+              "desc": "1pl subj. `بدهیم` _be-dahīm_ ([verse 24](#verse-24))"
+            },
+            {
+              "fa": "دهد",
+              "desc": "3sg subj. (no بـ in compounds): `دستور دهد` _dastur dahad_ ([verse 31](#verse-31))"
+            },
+            {
+              "note": "The present stem `ده-` _deh-_ is suppletive (not derived from the infinitive `داد-`). The 3sg present `می دهد` / `دهد` does NOT become `*می دهاد`. Contrast with `داشتن` whose paradigm is entirely different."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سر باز زدن",
+          "translit": "sar bāz zadan",
+          "meaning": "to refuse, decline (to do something)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "سر باز زن",
+            "translit": "sar bāz zan-"
+          },
+          "etym": {
+            "prose": "Literally `سر` _sar_ (head) + `باز` _bāz_ (back) + `زدن` _zadan_ (to strike). The idiom means \"to pull one's head back (in refusal).\""
+          },
+          "forms": [
+            {
+              "fa": "سر باز می زند",
+              "desc": "3sg impf. pres. `سر باز می زند` _sar bāz mī-zanad_ ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نیفای",
+          "translit": "Nīfāy",
+          "meaning": "Nephi (narrator and main protagonist)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Nephi_. The Hebrew/Egyptian origin is uncertain; possibly related to the Egyptian god _Nfr_ (\"beautiful\") or to the Hebrew root _nph_."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "برادر",
+          "translit": "barādar",
+          "meaning": "brother",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "برادران",
+                "translit": "-ān",
+                "note": "standard"
+              },
+              {
+                "persian": "برادرها",
+                "translit": "-hā",
+                "note": "colloquial"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "برادرانش",
+              "desc": "pl. + 3sg poss. `برادرانش` _barādarān-aš_ \"his brothers\" ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "برادرانم",
+              "desc": "pl. + 1sg poss. `برادرانم` _barādarān-am_ \"my brothers\" ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "برادران",
+              "desc": "plural `برادران` _barādarān_ ([verse 29](#verse-29))"
+            },
+            {
+              "fa": "برادرانت",
+              "desc": "pl. + 2sg poss. `برادرانت` _barādarān-at_ \"your brothers\" ([verse 2](#verse-2))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نصیحت کردن",
+          "translit": "naṣīḥat kardan",
+          "meaning": "to advise, counsel, exhort",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نصیحت کن",
+            "translit": "naṣīḥat kon-"
+          },
+          "etym": {
+            "prose": "`نصیحت` _naṣīḥat_ from Arabic, root n-ṣ-ḥ \"to be sincere, advise.\" + `کردن` _kardan_ (to do) as light verb.",
+            "arabic_form": "Form I verbal noun",
+            "root": "n-ṣ-ḥ"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to advise/counsel"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "نصیحت می کند",
+              "desc": "3sg impf. `نصیحت می کند` _naṣīḥat mī-konad_ ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دلگرمی",
+          "translit": "delgarmī",
+          "meaning": "encouragement, reassurance, warmth of heart",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دلگرمی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`دل` _del_ (heart) + `گرم` _garm_ (warm) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) abstract-noun suffix. Literally \"warmth of heart.\""
+          },
+          "family": "`دل` _del_ \"heart\"; `گرم` _garm_ \"warm\"; `دلگرم` _delgarm_ \"reassured, warm-hearted.\"",
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to encourage, reassure"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "دلگرمی می دهد",
+              "desc": "gives encouragement `دلگرمی می دهد` _delgarmī mī-dahad_ ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دارایی",
+          "translit": "dārāyī",
+          "meaning": "possessions, property, wealth",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دارایی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "warning": "The source writes `دارائی` with a hamze on the second alef — a variant spelling. The standard modern form is `دارایی`. Learners may accidentally read it as *_dārā'ī_.",
+          "etym": {
+            "prose": "`دارا` _dārā_ (possessing, wealthy — from `داشتن` \"to have\") + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) abstract-noun suffix."
+          },
+          "forms": [
+            {
+              "fa": "دارائی",
+              "desc": "source spelling `دارائی` — same word ([chapter-summary](#chapter-summary), [verse 25](#verse-25), [verse 26](#verse-26))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دزدیدن",
+          "translit": "dozdīdan",
+          "meaning": "to steal, rob",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "دزد",
+            "translit": "dozd-"
+          },
+          "family": "`دزد` _dozd_ \"thief\" ([verse 13](#verse-13))",
+          "forms": [
+            {
+              "fa": "می دزدد",
+              "desc": "3sg impf. pres. `می دزدد` _mī-dozd-ad_ ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "تلاش",
+          "translit": "talāš",
+          "meaning": "effort, attempt, struggle",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "تلاش‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to try, make an effort"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "تلاش می کند",
+              "desc": "tries, makes an effort `تلاش می کند` ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "کشتن",
+          "translit": "koštan",
+          "meaning": "to kill, slay",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "کش",
+            "translit": "koš-"
+          },
+          "forms": [
+            {
+              "fa": "بکُشد",
+              "desc": "3sg subj. `بکُشد` _be-košad_ ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "خواهم کشت",
+              "desc": "future 1sg `خواهم کشت` _xāham košt_ \"I will kill you\" ([verse 13](#verse-13))"
+            },
+            {
+              "fa": "بکشند",
+              "desc": "3pl subj. `بکشند` _be-košand_ ([verse 25](#verse-25))"
+            },
+            {
+              "fa": "بکشد",
+              "desc": "3sg subj. `بکشد` _be-košad_ ([verse 31](#verse-31))"
+            },
+            {
+              "fa": "بکشد",
+              "desc": "3sg subj. `بکشد` — same form; token registered once"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "لامان",
+          "translit": "Lāmān",
+          "meaning": "Laman (Nephi's eldest brother, who murmurs)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Laman_. Possibly related to the Hebrew root _lhm_ \"to fight\" or the Arabic _Lahmān_."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "لموئیل",
+          "translit": "Lamūīl",
+          "meaning": "Lemuel (Nephi's second eldest brother)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Lemuel_; from Hebrew _Ləmū'ēl_, meaning \"devoted to God\" or \"belonging to God.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "سام",
+          "translit": "Sām",
+          "meaning": "Sam (Nephi's faithful elder brother)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "etym": {
+            "prose": "Persian transliteration of English _Sam_; short form of _Samuel_ (Hebrew _Šəmū'ēl_ \"heard by God\") or possibly an independent name."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "زدن",
+          "translit": "zadan",
+          "meaning": "to strike, hit, beat; (with various nouns) to perform an action",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "زن",
+            "translit": "zan-"
+          },
+          "forms": [
+            {
+              "fa": "می زنند",
+              "desc": "3pl impf. pres. `می زنند` _mī-zanand_ \"they beat\" ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "fa": "می زنید",
+              "desc": "2pl impf. pres. `می زنید` _mī-zanīd_ ([verse 29](#verse-29))"
+            },
+            {
+              "fa": "زدند",
+              "desc": "3pl past `زدند` _zadand_ ([verse 28](#verse-28))"
+            },
+            {
+              "fa": "می زدند",
+              "desc": "3pl impf. past `می زدند` _mī-zadand_ ([verse 29](#verse-29))"
+            },
+            {
+              "fa": "زند",
+              "desc": "3sg subj./pres. `زند` _zanad_ — in `سر باز می زند` ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "note": "This verb is extremely productive as the light verb in many idioms: `قرعه کشیدن` → casting lots uses `کشیدن`; `سر باز زدن` → to refuse uses `زدن`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سوی",
+          "translit": "su / suy",
+          "meaning": "side, direction; از سوی — from, by, on behalf of",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سوها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "از سوی",
+              "desc": "prepositional phrase `از سوی` _az su-ye_ \"from, by (the side of)\" — marks agent in passive-like constructions ([chapter-summary](#chapter-summary), [verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فرشته",
+          "translit": "ferešte",
+          "meaning": "angel, celestial messenger",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "فرشتگان",
+                "translit": "-gān",
+                "note": "standard"
+              },
+              {
+                "persian": "فرشته‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Middle Persian _freštak_ \"messenger, angel\"; related to Avestan _fra-išta-_ \"sent forth.\""
+          },
+          "forms": [
+            {
+              "fa": "فرشته ای",
+              "desc": "indefinite `فرشته‌ای` _ferešte-ī_ \"an angel\" ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سرزنش",
+          "translit": "sarzaneš",
+          "meaning": "rebuke, reproach, blame",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سرزنش‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`سر` _sar_ (head) + `زنش` (striking) ← `زدن` _zadan_ (to strike). Literally \"a strike to the head\" → rebuke."
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to rebuke, reproach"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "سرزنش می شوند",
+              "desc": "passive: are rebuked `سرزنش می شوند` _sarzaneš mī-šavand_ ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Passive voice with شدن",
+          "body": "Persian forms the passive with the **past participle** of the main verb + a conjugated form of `شدن` (\"to become\"). The passive agent, if stated, is introduced by `از سوی` (\"by/from\").",
+          "examples": [
+            {
+              "ref": "Chapter summary",
+              "ref_anchor": "chapter-summary",
+              "persian": "از سوی{e} یک فرشته سرزنش می شوند",
+              "translit": "az su-ye yek ferešte sarzaneš mī-šavand",
+              "en": "they are rebuked by an angel [past participle `سرزنش` + `می شوند`]"
+            },
+            {
+              "ref": "Verse 18",
+              "ref_anchor": "verse-18",
+              "persian": "فرمان داده شده بود",
+              "translit": "farmān dāde šode bud",
+              "en": "he had been commanded [past participle `داده` + `شده` + `بود`]"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نزدیک",
+          "translit": "nazdīk",
+          "meaning": "near, close; approximately",
+          "pos": "adj",
+          "forms": [
+            {
+              "fa": "نزدیک به",
+              "desc": "`نزدیک به` _nazdīk be_ \"approximately, about\" (before dates/numbers, [chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "۶۰۰",
+          "persian": "۶۰۰",
+          "translit": "šeṣad",
+          "meaning": "Persian numeral 600 (`ششصد` — `شش` \"six\" × `صد` \"hundred\")",
+          "pos": "num",
+          "etym": {
+            "prose": "`شش` _šeš_ (six) + `صد` _sad_ (hundred). Hundreds in Persian are compounds: `دویست` (200), `سیصد` (300), `چهارصد` (400), `پانصد` (500), `ششصد` (600), `هفتصد` (700) …"
+          }
+        },
+        {
+          "type": "headword",
+          "id": "۵۹۲",
+          "persian": "۵۹۲",
+          "translit": "pānsad-o-navad-o-do",
+          "meaning": "Persian numeral 592 (`پانصد و نود و دو` — five-hundred and ninety and two)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "پیش",
+          "translit": "pīš",
+          "meaning": "before, ahead; in front of; ago",
+          "pos": "adv",
+          "forms": [
+            {
+              "fa": "پیش از",
+              "desc": "`پیش از` _pīš az_ \"before, prior to\" ([chapter-summary](#chapter-summary))"
+            },
+            {
+              "note": "bare `پیش` without a preposition is archaic; modern usage prefers `قبل از` for \"before (time)\"."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "میلاد",
+          "translit": "mīlād",
+          "meaning": "birth, nativity; پیش از میلاد — B.C. (before the birth of Christ)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "میلادها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _mīlād_ \"birth, nativity,\" root w-l-d \"to give birth.\"",
+            "arabic_form": "Form IV verbal noun",
+            "root": "w-l-d"
+          },
+          "forms": [
+            {
+              "fa": "پیش از میلاد",
+              "desc": "`پیش از میلاد` _pīš az mīlād_ \"B.C. (before the birth of Christ)\" ([chapter-summary](#chapter-summary))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "به",
+          "translit": "be",
+          "meaning": "to, toward, into; at; by (means of)",
+          "pos": "adp"
+        },
+        {
+          "type": "headword",
+          "persian": "تا",
+          "translit": "tā",
+          "meaning": "until, so that (purpose); as far as; while",
+          "pos": "sconj",
+          "forms": [
+            {
+              "note": "`تا` + subjunctive = purpose/result clause (\"so that\"). `تا` + indicative = temporal clause (\"until / while\"). See [Grammar: Subjunctive after تا](#grammar-subjunctive-after-تا)."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "را",
+          "translit": "-rā",
+          "meaning": "direct-object marker (post-nominal clitic)",
+          "pos": "part"
+        },
+        {
+          "type": "headword",
+          "persian": "از",
+          "translit": "az",
+          "meaning": "from, out of; of (partitive); by (agent in passives)",
+          "pos": "adp"
+        },
+        {
+          "type": "headword",
+          "persian": "و",
+          "translit": "o / va",
+          "meaning": "and",
+          "pos": "cconj",
+          "forms": [
+            {
+              "note": "Pronounced _va_ in formal/written style, _o_ in spoken. Always written `و`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آنها",
+          "translit": "ānhā",
+          "meaning": "they, them",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "آن",
+              "desc": "singular `آن` _ān_ \"that; it; he/she\" ([verse 9](#verse-9) and throughout)"
+            },
+            {
+              "fa": "ایشان",
+              "desc": "formal/respectful 3pl `ایشان` _īšān_ (literary register)"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "یک",
+          "translit": "yek",
+          "meaning": "one; a, an (indefinite article)",
+          "pos": "num",
+          "forms": [
+            {
+              "note": "`یک` before a noun functions as an indefinite article: `یک فرشته` _yek ferešte_ \"an angel\". The standalone cardinal is also `یک` _yek_."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 1,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱",
+          "persian": "۱",
+          "translit": "yek",
+          "meaning": "Persian numeral 1 (`یک`)",
+          "pos": "num"
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: چنین گذشت که (and it came to pass)",
+          "body": "The phrase `چنین گذشت که` _čonīn gozašt ke_ — literally \"thus it passed that\" — is the Persian rendering of the Book of Mormon formula **\"and it came to pass.\"** It introduces nearly every episode in the narrative. `چنین` means \"thus/so\"; `گذشت` is the past 3sg of `گذشتن` (\"to pass\"); `که` is the complementizer.",
+          "examples": [
+            {
+              "ref": "Verse 1",
+              "ref_anchor": "verse-1",
+              "persian": "و چنین گذشت که من، نیفای، پس از سخن گفتن با سَروَر، به چادر پدرم بازگشتم",
+              "translit": "o čonīn gozašt ke man, Nīfāy, pas az soxan goftan bā Sarvar, be čādar-e pedar-am bāzgaštam",
+              "en": "And it came to pass that I, Nephi, having spoken with the Lord, returned to my father's tent"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "چنین",
+          "translit": "čonīn",
+          "meaning": "thus, so, in this way",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "گذشتن",
+          "translit": "gozaštan",
+          "meaning": "to pass, go by; (time) to elapse",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گذر",
+            "translit": "gozar-"
+          },
+          "forms": [
+            {
+              "fa": "گذشت",
+              "desc": "3sg past `گذشت` _gozašt_ — appears in every `چنین گذشت که` formula"
+            },
+            {
+              "fa": "می گذشت",
+              "desc": "impf. past `می گذشت` _mī-gozašt_ (imperfective)"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "که",
+          "translit": "ke",
+          "meaning": "that (complementizer); who, which (relative); because",
+          "pos": "sconj",
+          "forms": [
+            {
+              "note": "As a complementizer (COMP), `که` introduces an embedded clause: `چنین گذشت که…` \"it came to pass that…\". As a relative particle (REL), it introduces relative clauses: `آنچه که…` \"that which…\"."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "من",
+          "translit": "man",
+          "meaning": "I, me",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "مرا",
+              "desc": "`مرا` _marā_ = `من` + `را` (acc.): \"me\" ([verse 3](#verse-3))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "پس",
+          "translit": "pas",
+          "meaning": "after; then, so; behind",
+          "pos": "adv",
+          "forms": [
+            {
+              "fa": "پس از",
+              "desc": "`پس از` _pas az_ \"after\" (preposition) — [verse 1](#verse-1), [verse 30](#verse-30)"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "با",
+          "translit": "bā",
+          "meaning": "with, together with; by means of",
+          "pos": "adp"
+        },
+        {
+          "type": "headword",
+          "persian": "سَروَر",
+          "translit": "Sarvar",
+          "meaning": "Lord (used for God/Jehovah in the Persian BoM)",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "warning": "The diacritics `َ` on `سَروَر` distinguish it from `سرور` _sorur_ \"joy, happiness.\" Without the diacritics (as sometimes written), learners may accidentally read it as *_sorur_.",
+          "etym": {
+            "prose": "Persian `سرور` _sarvar_ (leader, chief, master) repurposed as a title for the Lord. Cognate with `سر` _sar_ \"head\" + [`-ور`](../word_formation.html#the-suffix-var) agentive suffix."
+          },
+          "forms": [
+            {
+              "fa": "سروَر",
+              "desc": "also written `سروَر` without full diacritics in some editions"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "چادر",
+          "translit": "čādar",
+          "meaning": "tent; veil, chador (woman's head covering)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "چادرها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "چادرهایمان",
+              "desc": "pl. + 1pl poss. `چادرهایمان` _čādarhā-ye-mān_ \"our tents\" ([verse 9](#verse-9))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "پدر",
+          "translit": "pedar",
+          "meaning": "father",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "پدران",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "پدرم",
+              "desc": "1sg poss. `پدرم` _pedar-am_ \"my father\" ([verse 1](#verse-1), [verse 7](#verse-7))"
+            },
+            {
+              "fa": "پدرمان",
+              "desc": "1pl poss. `پدرمان` _pedar-mān_ \"our father\" ([verse 15](#verse-15), [verse 16](#verse-16))"
+            },
+            {
+              "fa": "پدرانمان",
+              "desc": "pl. + 1pl poss. `پدرانمان` _pedarān-mān_ \"our fathers\" ([verse 19](#verse-19))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "گفتن",
+          "translit": "goftan",
+          "meaning": "to say, tell, speak",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گو",
+            "translit": "gu-"
+          },
+          "forms": [
+            {
+              "fa": "گفت",
+              "desc": "3sg past `گفت` _goft_ ([verse 13](#verse-13))"
+            },
+            {
+              "fa": "گفتم",
+              "desc": "1sg past `گفتم` _goftam_ ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "گفتند",
+              "desc": "3pl past `گفتند` _goftand_ ([verse 31](#verse-31))"
+            },
+            {
+              "fa": "می گویند",
+              "desc": "3pl impf. pres. `می گویند` _mī-guyand_ ([verse 5](#verse-5))"
+            }
+          ]
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Archaic narrative suffix `-ā` (گفتا)",
+          "body": "The Book of Mormon Persian uses the archaic literary suffix `-ā` on third-person past verbs to signal **narrative speech introduction**: `گفتا` _goftā_ = \"he/she said\" (emphatic narrative). This suffix is a relic of classical Persian poetry and formal prose and is not used in modern speech.",
+          "examples": [
+            {
+              "ref": "Verse 2",
+              "ref_anchor": "verse-2",
+              "persian": "سخن گفت، گفتا: بنگر",
+              "translit": "soxan goft, goftā: benegor",
+              "en": "he spoke, saying: Behold"
+            },
+            {
+              "ref": "Verse 29",
+              "ref_anchor": "verse-29",
+              "persian": "بر آنها سخن گفت، گفتا: چرا",
+              "translit": "bar ānhā soxan goft, goftā: čerā",
+              "en": "he spoke to them, saying: Why"
+            }
+          ]
+        },
+        {
+          "type": "variant",
+          "persian": "گفتا",
+          "translit": "goftā",
+          "meaning": "archaic narrative past 3sg of `گفتن`; see [Grammar: Archaic narrative suffix `-ā`](#grammar-archaic-narrative-suffix--ā-گفتا)"
+        },
+        {
+          "type": "headword",
+          "persian": "سخن",
+          "translit": "soxan",
+          "meaning": "word, speech, talk",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سخنان",
+                "translit": "-ān",
+                "note": "formal"
+              },
+              {
+                "persian": "سخن‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "سخنان",
+              "desc": "pl. `سخنان` _soxanān_ ([verse 8](#verse-8))"
+            },
+            {
+              "fa": "سخنانی",
+              "desc": "indef. pl. `سخنانی` ([verse 20](#verse-20))"
+            },
+            {
+              "note": "`سخن` appears in many compounds: `سخن گفتن` (to speak), `سخن راندن` (to discourse)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 2,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲",
+          "persian": "۲",
+          "translit": "do",
+          "meaning": "Persian numeral 2 (`دو`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "او",
+          "translit": "u",
+          "meaning": "he, she, it (3sg pronoun)",
+          "pos": "pron",
+          "forms": [
+            {
+              "note": "Used for both male and female in the 3rd person singular. In compound sentences, `او` is often dropped when the subject is recoverable from context."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "بر",
+          "translit": "bar",
+          "meaning": "on, upon; to, against; over",
+          "pos": "adp",
+          "forms": [
+            {
+              "note": "`بر من سخن گفتن` = \"to speak to me\" (literally \"to speak upon me\") — a fixed expression with `سخن گفتن`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نگریستن",
+          "translit": "negerīstan",
+          "meaning": "to behold, look, observe",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نگر",
+            "translit": "negar-"
+          },
+          "forms": [
+            {
+              "fa": "بنگر",
+              "desc": "2sg imperative `بنگر` _benegor_ \"behold!\" ([verse 2](#verse-2), [verse 5](#verse-5))"
+            },
+            {
+              "fa": "بنگرید",
+              "desc": "2pl imperative `بنگرید` _benegarīd_ \"behold! (plural)\" ([verse 3](#verse-3), [verse 5](#verse-5), [verse 13](#verse-13))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "در",
+          "translit": "dar",
+          "meaning": "in, inside, at, during",
+          "pos": "adp"
+        },
+        {
+          "type": "headword",
+          "persian": "خواب",
+          "translit": "xāb",
+          "meaning": "sleep; dream",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "خواب‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "warning": "The `و` in `خواب` is silent — the word is pronounced _xāb_, not *_xavāb_. Learners may accidentally read it as *_xavāb_.",
+          "forms": [
+            {
+              "fa": "خوابی",
+              "desc": "indefinite `خوابی` _xābī_ \"a dream\" ([verse 2](#verse-2))"
+            },
+            {
+              "note": "Silent letter: the `و` in `خواب` is not pronounced; the word is _xāb_, not *_xavāb_. This silent `و` is a common feature of words beginning with `خو-`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دیدن",
+          "translit": "dīdan",
+          "meaning": "to see, perceive; to visit",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "بین",
+            "translit": "bīn-"
+          },
+          "forms": [
+            {
+              "fa": "دیده ام",
+              "desc": "1sg perfect `دیده ام` _dīde-am_ \"I have seen\" ([verse 2](#verse-2))"
+            },
+            {
+              "fa": "دید",
+              "desc": "3sg past `دید` _dīd_ ([verse 25](#verse-25))"
+            },
+            {
+              "note": "Suppletive present stem: infinitive `دید-` but present stem `بین-` _bīn-_ (as in `می بینم` \"I see\"). Contrast `شنیدن` which is regular."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آن",
+          "translit": "ān",
+          "meaning": "that; it; he/she (demonstrative/3sg pronoun)",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "آنچه",
+              "desc": "`آنچه` _ānče_ \"that which, what\" ([verse 7](#verse-7))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فرمان",
+          "translit": "farmān",
+          "meaning": "command, order, edict",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "فرمان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to command, order"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "فرمان داده است",
+              "desc": "perfect: has commanded `فرمان داده است` ([verse 2](#verse-2), [verse 4](#verse-4))"
+            },
+            {
+              "fa": "فرمان می دهد",
+              "desc": "3sg impf. `فرمان می دهد` ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "فرمانی",
+              "desc": "indefinite `فرمانی` \"a command\" ([verse 5](#verse-5), [verse 7](#verse-7))"
+            },
+            {
+              "fa": "فرمان های",
+              "desc": "plural ezafe `فرمان‌های` ([verse 16](#verse-16), [verse 21](#verse-21))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "تو",
+          "translit": "to",
+          "meaning": "you (2nd person singular)",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "برادرانت",
+              "desc": "2sg poss. suffix `-at` on plural noun: `برادرانت` _barādarān-at_ \"your brothers\""
+            },
+            {
+              "fa": "خودت",
+              "desc": "`خودت` _xodat_ \"yourself\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "باید",
+          "translit": "bāyad",
+          "meaning": "it is necessary, must, should (impersonal modal)",
+          "pos": "aux",
+          "forms": [
+            {
+              "fa": "می بایستی",
+              "desc": "past form `می بایستی` _mī-bāyestī_ \"had to, was necessary\" ([verse 4](#verse-4), [verse 11](#verse-11))"
+            },
+            {
+              "note": "`باید` is invariable (no person/number agreement). Followed by the present subjunctive or bare stem: `باید برود` \"he must go.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سخن گفتن",
+          "translit": "soxan goftan",
+          "meaning": "to speak, talk",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "سخن گو",
+            "translit": "soxan gu-"
+          },
+          "etym": {
+            "prose": "`سخن` _soxan_ (word, speech) + `گفتن` _goftan_ (to say). A light-verb compound."
+          },
+          "light_verb": [
+            {
+              "verb": "گفتن",
+              "translit": "goftan",
+              "meaning": "to speak"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "سخن گفتن",
+              "desc": "infinitive `سخن گفتن` ([verse 1](#verse-1))"
+            },
+            {
+              "fa": "سخن گفت",
+              "desc": "3sg past `سخن گفت` ([verse 2](#verse-2), [verse 29](#verse-29), [verse 30](#verse-30))"
+            },
+            {
+              "fa": "سخن گفتم",
+              "desc": "1sg past `سخن گفتم` ([verse 7](#verse-7))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 3,
+      "entries": [
+        {
+          "type": "headword",
+          "persian": "زیرا",
+          "translit": "zīrā",
+          "meaning": "because, for (introducing a reason)",
+          "pos": "sconj"
+        },
+        {
+          "type": "headword",
+          "persian": "نگاشتن",
+          "translit": "negāštan",
+          "meaning": "to write, inscribe (formal/literary)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نگار",
+            "translit": "negār-"
+          },
+          "forms": [
+            {
+              "fa": "نگاشته",
+              "desc": "past participle `نگاشته` _negāšte_ — used as a noun meaning \"writing, scripture\" ([verse 3](#verse-3))"
+            },
+            {
+              "fa": "نگاشته های",
+              "desc": "pl. ezafe `نگاشته‌های` ([verse 3](#verse-3))"
+            },
+            {
+              "fa": "نگاشته ها",
+              "desc": "plural `نگاشته‌ها` ([verses 4, 12, 13](#verse-4))"
+            },
+            {
+              "note": "Archaic literary register. Modern Persian uses `نوشتن` _neveštan_ for everyday writing."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "یهودی",
+          "translit": "yahudī",
+          "meaning": "Jewish, Jew",
+          "pos": "adj",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "یهودیان",
+                "translit": "-ān",
+                "note": "referring to Jewish people"
+              },
+              {
+                "persian": "یهودی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _yahūdī_ \"Jewish,\" derived from the Hebrew tribal name _Yəhūdāh_ (Judah).",
+            "arabic_form": "nisba relational adjective (-iyyun)",
+            "root": "y-h-d"
+          },
+          "forms": [
+            {
+              "fa": "یهودیان",
+              "desc": "pl. `یهودیان` _yahudīyān_ \"the Jews\" ([verse 3](#verse-3))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نیز",
+          "translit": "nīz",
+          "meaning": "also, too, as well",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "خاندان-نامه",
+          "translit": "xānadān-nāme",
+          "meaning": "genealogy, family record",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "خاندان-نامه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`خاندان` _xānadān_ (household, dynasty ← `خانه` \"house\" + `-دان` containment suffix) + `نامه` _nāme_ (book, letter, record)."
+          },
+          "family": "`خانواده` _xānevāde_ \"family\"; `نامه` _nāme_ \"letter, book.\"",
+          "forms": [
+            {
+              "fa": "خاندان-نامۀ",
+              "desc": "ezafe form `خاندان-نامۀ` _xānadān-nāme-ye_ ([verse 3](#verse-3), [verse 12](#verse-12))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نیاکان",
+          "translit": "nīyākān",
+          "meaning": "ancestors, forefathers",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "نیاکان",
+                "translit": "— (already plural form)",
+                "note": "نیاکان is inherently plural"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`نیا` _niyā_ (ancestor, grandfather) + `-کان` collective/plural suffix."
+          },
+          "family": "`نیا` _niyā_ \"ancestor, grandfather.\""
+        },
+        {
+          "type": "headword",
+          "persian": "داشتن",
+          "translit": "dāštan",
+          "meaning": "to have, possess; to hold",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "دار",
+            "translit": "dār-"
+          },
+          "forms": [
+            {
+              "fa": "دارد",
+              "desc": "3sg pres. `دارد` _dārad_ ([verse 3](#verse-3))"
+            },
+            {
+              "fa": "داشت",
+              "desc": "3sg past `داشت` _dāšt_ ([verse 12](#verse-12))"
+            },
+            {
+              "note": "`داشتن` drops `می-` in the present indicative: `دارد`, never `*می‌دارد`. In other tenses it takes `می-` normally: `می داشت`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "روی",
+          "translit": "ru / ruy",
+          "meaning": "face, surface; on (+ ezafe)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "روی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "بر روی",
+              "desc": "`بر روی` _bar ru-ye_ \"on, on the surface of\" ([verse 3](#verse-3))"
+            },
+            {
+              "fa": "رو",
+              "desc": "shortened form used in `از این رو` _az īn ru_ \"therefore\" ([verse 4](#verse-4))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "کنده کاری شدن",
+          "translit": "kande-kārī šodan",
+          "meaning": "to be engraved, carved",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "کنده کاری شو",
+            "translit": "kande-kārī šav-"
+          },
+          "etym": {
+            "prose": "`کنده` _kande_ (engraved, past participle of `کندن` \"to dig/engrave\") + `کاری` _kārī_ (work, craftsmanship) + `شدن` _šodan_ (to become — passive auxiliary)."
+          },
+          "forms": [
+            {
+              "fa": "کنده کاری شده اند",
+              "desc": "3pl passive perfect `کنده کاری شده اند` _kande-kārī šode-and_ \"have been engraved\" ([verse 3](#verse-3))"
+            },
+            {
+              "fa": "کنده کاری شده بودند",
+              "desc": "3pl passive pluperfect ([verse 12](#verse-12), [verse 24](#verse-24))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 4,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۴",
+          "persian": "۴",
+          "translit": "čahār",
+          "meaning": "Persian numeral 4 (`چهار`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "id": "از_این_رو",
+          "persian": "از این رو",
+          "translit": "az īn ru",
+          "meaning": "therefore, for this reason",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "این",
+          "translit": "īn",
+          "meaning": "this; this one (demonstrative adjective/pronoun)",
+          "pos": "det",
+          "forms": [
+            {
+              "fa": "اینکه",
+              "desc": "`اینکه` _inke_ \"that, the fact that\" (complementizer compound) ([verse 2](#verse-2) and throughout)"
+            },
+            {
+              "fa": "اینجا",
+              "desc": "`اینجا` _īnjā_ \"here\" (← `این` + `جا` _jā_ \"place\")"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "خانه",
+          "translit": "xāne",
+          "meaning": "house, home",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "خانه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "خانۀ",
+              "desc": "ezafe form `خانۀ` _xāne-ye_ ([verse 4](#verse-4), [verse 11](#verse-11), [verse 23](#verse-23))"
+            },
+            {
+              "note": "Silent letter: `خانه` is pronounced _xāne_ — the initial `خو-` clusters in Persian often drop the `و`: `خواهر` _xāhar_, `خواندن` _xāndan_."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دنبال",
+          "translit": "donbāl",
+          "meaning": "behind, following; (به دنبال) in search of, looking for",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دنبال‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "به دنبال",
+              "desc": "`به دنبال` _be donbāl_ + ezafe noun: \"in search of, looking for\" ([verse 4](#verse-4))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "بودن",
+          "translit": "budan",
+          "meaning": "to be (existential and copular)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "باش",
+            "translit": "bāš-"
+          },
+          "forms": [
+            {
+              "fa": "باشید",
+              "desc": "2pl subj. `باشید` _bāšīd_ ([verse 4](#verse-4))"
+            },
+            {
+              "fa": "بود",
+              "desc": "3sg past `بود` _bud_ (throughout)"
+            },
+            {
+              "fa": "بودیم",
+              "desc": "1pl past `بودیم` _budīm_"
+            },
+            {
+              "fa": "بودند",
+              "desc": "3pl past `بودند` _budand_"
+            },
+            {
+              "fa": "است",
+              "desc": "3sg pres. copula `است` _ast_ / enclitic `-st` after vowels"
+            },
+            {
+              "fa": "باشد",
+              "desc": "3sg subj. `باشد` _bāšad_ (throughout)"
+            },
+            {
+              "fa": "باشیم",
+              "desc": "1pl subj. `باشیم` _bāšīm_ ([verses 15, 16](#verse-15))"
+            },
+            {
+              "note": "Extremely frequent. The present indicative of بودن as copula is the enclitic suffix `-ast/-st` (written `است` when separate). As the full existential verb \"there is\" it remains `است`."
+            },
+            {
+              "fa": "باشند",
+              "desc": "3pl subj. `باشند` _bāšand_ ([verse 21](#verse-21))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آوردن",
+          "translit": "āvardan",
+          "meaning": "to bring, carry",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "آور",
+            "translit": "āvar-"
+          },
+          "forms": [
+            {
+              "fa": "آورید",
+              "desc": "2pl imperative `آورید` _āvarīd_ ([verse 4](#verse-4))"
+            },
+            {
+              "fa": "آوردیم",
+              "desc": "1pl past `آوردیم` _āvardīm_ ([verse 22](#verse-22), [verse 23](#verse-23))"
+            },
+            {
+              "fa": "آورد",
+              "desc": "3sg past `آورد` _āvard_"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "اینجا",
+          "translit": "īnjā",
+          "meaning": "here, this place",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "پایین",
+          "translit": "pāīn",
+          "meaning": "down, below, downward; lower",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "بیابان",
+          "translit": "bīyābān",
+          "meaning": "wilderness, desert, open land",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "بیابان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "رفتن",
+          "translit": "raftan",
+          "meaning": "to go, leave, travel",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "رو",
+            "translit": "rav-"
+          },
+          "forms": [
+            {
+              "fa": "برو",
+              "desc": "2sg imperative `برو` _boro_ \"go!\" ([verse 6](#verse-6))"
+            },
+            {
+              "fa": "رفتیم",
+              "desc": "1pl past `رفتیم` _raftīm_ ([verse 9](#verse-9) onward)"
+            },
+            {
+              "fa": "می رویم",
+              "desc": "1pl pres. `می رویم` — but here subjunctive `برویم` _beravīm_ ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "برویم",
+              "desc": "1pl subj. `برویم` _beravīm_ ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "برو",
+              "desc": "2sg imper."
+            },
+            {
+              "fa": "بروید",
+              "desc": "2pl subj./imper. `بروید` _beravīd_ ([verse 4](#verse-4) as `بروید`)"
+            },
+            {
+              "note": "Suppletive present stem: `رو-/رَو-` _rav-_. The past stem is `رفت-` _raft-_."
+            },
+            {
+              "fa": "رفت",
+              "desc": "3sg past `رفت` _raft_ ([verse 7](#verse-7), [verse 11](#verse-11))"
+            },
+            {
+              "fa": "برود",
+              "desc": "3sg subj. `برود` _beravad_ ([verse 11](#verse-11))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 5,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۵",
+          "persian": "۵",
+          "translit": "panj",
+          "meaning": "Persian numeral 5 (`پنج`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "اینک",
+          "translit": "īnak",
+          "meaning": "now, behold (archaic/literary)",
+          "pos": "adv",
+          "forms": [
+            {
+              "note": "`اینک` is a literary/archaic particle used in formal Persian prose to signal immediacy or emphasis. Modern colloquial uses `حالا` _ḥālā_ or `الان` _alān_ instead."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "غُرولند کردن",
+          "translit": "ġorolond kardan",
+          "meaning": "to murmur, grumble, complain",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "غُرولند کن",
+            "translit": "ġorolond kon-"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to murmur, grumble"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "غُرولند می کنند",
+              "desc": "3pl impf. pres. `غُرولند می کنند` ([verse 5](#verse-5))"
+            },
+            {
+              "fa": "غُرولند کردن",
+              "desc": "infinitive, used as verbal noun `شروع به غُرولند کردن` ([verse 31](#verse-31))"
+            },
+            {
+              "fa": "غُرولند نکرده ای",
+              "desc": "2sg perfect neg. `غُرولند نکرده ای` ([verse 6](#verse-6))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "چیز",
+          "translit": "čīz",
+          "meaning": "thing, object, matter",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "چیزها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "چیزی",
+              "desc": "indefinite `چیزی` _čīzī_ \"something; a thing\""
+            },
+            {
+              "fa": "چیزهایی",
+              "desc": "indef. pl. `چیزهایی` _čīzhā-ī_ \"some things\" ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "چیزهای",
+              "desc": "pl. ezafe `چیزهای` ([verse 14](#verse-14), [verse 22](#verse-22))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سخت",
+          "translit": "saxt",
+          "meaning": "hard, difficult; severe; very (intensifier)",
+          "pos": "adj"
+        },
+        {
+          "type": "headword",
+          "persian": "خواستن",
+          "translit": "xāstan",
+          "meaning": "to want, wish; to ask for, request",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "خواه",
+            "translit": "xāh-"
+          },
+          "forms": [
+            {
+              "fa": "خواسته ام",
+              "desc": "1sg perfect `خواسته ام` _xāste-am_ \"I have wanted/asked\" ([verse 5](#verse-5))"
+            },
+            {
+              "fa": "نخواسته ام",
+              "desc": "1sg neg. perfect `نخواسته ام` _na-xāste-am_ ([verse 5](#verse-5))"
+            },
+            {
+              "fa": "نخواست",
+              "desc": "3sg neg. past `نخواست` _na-xāst_ ([verse 13](#verse-13))"
+            },
+            {
+              "note": "Double meaning: (1) to want/desire; (2) as a future auxiliary: `خواهم رفت` _xāham raft_ \"I will go.\" In the future auxiliary use, the present stem `خواه-` + past-stem infinitive (no `بـ-`). See [Grammar: Future tense](#grammar-future-tense-خواه)."
+            },
+            {
+              "fa": "خواهی",
+              "desc": "future 2sg `خواهی بود` _xāhī bud_ ([verse 6](#verse-6))"
+            },
+            {
+              "fa": "نخواهیم",
+              "desc": "neg future 1pl `نخواهیم رفت` _na-xāhīm raft_ ([verse 15](#verse-15))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ولی",
+          "translit": "valī",
+          "meaning": "but, however",
+          "pos": "cconj",
+          "etym": {
+            "prose": "from Arabic _walī_ \"guardian\" repurposed as an adversative conjunction. Compare `اما` _ammā_ \"but\" (also from Arabic)."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "بلکه",
+          "translit": "balke",
+          "meaning": "rather, but rather; on the contrary",
+          "pos": "cconj"
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 6,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۶",
+          "persian": "۶",
+          "translit": "šeš",
+          "meaning": "Persian numeral 6 (`شش`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "بنابراین",
+          "translit": "bonābarin",
+          "meaning": "therefore, thus, consequently",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "مورد",
+          "translit": "mowred",
+          "meaning": "subject of, object of; (in set phrases) مورد + noun = 'in the position of / as'",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "موارد",
+                "translit": "mavāred",
+                "note": "broken plural"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _mawrid_ \"watering-place, resource,\" root w-r-d. In Persian, repurposed as a generalized nominal complement: `مورد لطف بودن` = \"to be favored.\"",
+            "arabic_form": "Form IV verbal noun",
+            "root": "w-r-d"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "لطف",
+          "translit": "loṭf",
+          "meaning": "grace, favor, kindness",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "لطف‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic, root l-ṭ-f \"gentleness, kindness.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "l-ṭ-f"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to show kindness/favor"
+            }
+          ]
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Future tense (`خواه-` + past-stem infinitive)",
+          "body": "The Persian future tense uses the present stem of `خواستن` (\"to want\") + the **past-stem infinitive** (past stem, no `-ن`). The auxiliary `خواه-` is conjugated for person/number; the infinitive is invariable and does not take `بـ-`.\n\n| Person | Future | Gloss |\n|---|---|---|\n| 1sg | خواهم رفت | I will go |\n| 2sg | خواهی بود | you will be |\n| 3sg | خواهد سپرد | he/she will entrust |\n| 1pl | نخواهیم رفت | we will not go |\n\nThe negative is formed by adding `ن-` to the auxiliary: `نخواهم رفت` _na-xāham raft_.",
+          "examples": [
+            {
+              "ref": "Verse 6",
+              "ref_anchor": "verse-6",
+              "persian": "تو مورد لطف سَروَر خواهی بود",
+              "translit": "to mowred-e loṭf-e Sarvar xāhī bud",
+              "en": "you will be favored by the Lord"
+            },
+            {
+              "ref": "Verse 7",
+              "ref_anchor": "verse-7",
+              "persian": "من خواهم رفت و انجام خواهم داد",
+              "translit": "man xāham raft o anjām xāham dād",
+              "en": "I will go and will accomplish"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "برای",
+          "translit": "barāye",
+          "meaning": "for, for the sake of; because of",
+          "pos": "adp",
+          "forms": [
+            {
+              "fa": "برای اینکه",
+              "desc": "`برای اینکه` _barāye inke_ \"because, since\" (causal) — [verse 6](#verse-6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 7,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۷",
+          "persian": "۷",
+          "translit": "haft",
+          "meaning": "Persian numeral 7 (`هفت`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "انجام دادن",
+          "translit": "anjām dādan",
+          "meaning": "to accomplish, complete, carry out",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "انجام ده",
+            "translit": "anjām deh-"
+          },
+          "etym": {
+            "prose": "from Arabic _anjām_ \"completion, end.\" + `دادن`. The compound `به انجام رساندن` _be anjām resāndan_ \"to bring to completion\" is a variant.",
+            "arabic_form": "Form I verbal noun",
+            "root": "n-j-m"
+          },
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to accomplish"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "انجام خواهم داد",
+              "desc": "future 1sg `انجام خواهم داد` ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "انجام داده بود",
+              "desc": "pluperfect `انجام داده بود` ([verse 14](#verse-14))"
+            },
+            {
+              "fa": "به انجام برسانند",
+              "desc": "subj. variant `به انجام برسانند` _be anjām resānand_ ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "به انجام رسانده باشیم",
+              "desc": "perfect subj. `به انجام رسانده باشیم` ([verse 15](#verse-15))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دانستن",
+          "translit": "dānestan",
+          "meaning": "to know (a fact); to consider, regard as",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "دان",
+            "translit": "dān-"
+          },
+          "forms": [
+            {
+              "fa": "می دانم",
+              "desc": "1sg impf. pres. `می دانم` _mī-dānam_ ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "می دانست",
+              "desc": "3sg impf. past `می دانست` _mī-dānest_ ([verse 8](#verse-8), [verse 17](#verse-17))"
+            },
+            {
+              "fa": "بدانند",
+              "desc": "3pl subj. `بدانند` _be-dānand_ ([verse 29](#verse-29) — `نمی دانید`... actually `نمی دانید` 2pl)"
+            },
+            {
+              "fa": "نمی دانید",
+              "desc": "2pl neg. impf. pres. `نمی دانید` _namī-dānīd_ ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "هیچ",
+          "translit": "hīč",
+          "meaning": "any, no, nothing; (in negative sentences) nothing at all",
+          "pos": "det",
+          "forms": [
+            {
+              "note": "`هیچ` in affirmative clauses = \"any\"; in negative clauses = \"no/nothing\": `هیچ فرمانی نمی دهد` = \"does not give any command.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فرزند",
+          "translit": "farzand",
+          "meaning": "child, offspring (formal/literary)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "فرزندان",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "فرزندان",
+              "desc": "plural `فرزندان` ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "فرزندانمان",
+              "desc": "1pl poss. `فرزندانمان` _farzandān-mān_ ([verse 19](#verse-19))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آدمی",
+          "translit": "ādamī",
+          "meaning": "human being, person; child of Adam",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "آدمیان",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from `آدم` _Ādam_ (Adam, the first man) + [`-ی`](../word_formation.html#the-adjectival-suffix-i) suffix. `فرزندان آدمی` = \"children of Adam\" = humanity."
+          }
+        },
+        {
+          "type": "headword",
+          "id": "مگر_اینکه",
+          "persian": "مگر اینکه",
+          "translit": "magar inke",
+          "meaning": "unless, except that",
+          "pos": "sconj",
+          "forms": [
+            {
+              "fa": "مگر",
+              "desc": "standalone `مگر` _magar_ used in `مگر اینکه` ([verse 7](#verse-7))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "راه",
+          "translit": "rāh",
+          "meaning": "way, road, path; means, method",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "راه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "راهی",
+              "desc": "indefinite `راهی` _rāhī_ \"a way\" ([verse 7](#verse-7)); also used in `راهی شدن` \"to set out, depart\" ([verse 30](#verse-30))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آماده کردن",
+          "translit": "āmāde kardan",
+          "meaning": "to prepare, make ready",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "آماده کن",
+            "translit": "āmāde kon-"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to prepare"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "آماده کرده باشد",
+              "desc": "3sg perfect subj. `آماده کرده باشد` ([verse 7](#verse-7))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "توانستن",
+          "translit": "tavānestan",
+          "meaning": "to be able, can",
+          "pos": "aux",
+          "pres_stem": {
+            "fa": "توان",
+            "translit": "tavān-"
+          },
+          "forms": [
+            {
+              "fa": "بتوانند",
+              "desc": "3pl subj. `بتوانند` _betavānand_ ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "بتواند",
+              "desc": "3sg subj. `بتواند` ([verse 25](#verse-25))"
+            },
+            {
+              "fa": "می تواند",
+              "desc": "3sg impf. pres. `می تواند` _mī-tavānad_ ([verse 31](#verse-31))"
+            },
+            {
+              "fa": "بتوانیم",
+              "desc": "1pl subj. `بتوانیم` _betavānīm_ ([verse 19](#verse-19), [verse 20](#verse-20))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آنچه",
+          "translit": "ānče",
+          "meaning": "that which, what (relative pronoun)",
+          "pos": "pron",
+          "forms": [
+            {
+              "note": "`آنچه` = `آن` (that) + `چه` (what). Functions as a headless relative clause: `آنچه را که…` \"that which…\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "رساندن",
+          "translit": "resāndan",
+          "meaning": "to deliver, cause to reach; to accomplish (in به انجام رساندن)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "رسان",
+            "translit": "resān-"
+          },
+          "forms": [
+            {
+              "fa": "برسانند",
+              "desc": "3pl subj. `برسانند` _beresānand_ ([verse 7](#verse-7))"
+            },
+            {
+              "fa": "رسانده باشیم",
+              "desc": "1pl perfect subj. `رسانده باشیم` ([verse 15](#verse-15))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 8,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۸",
+          "persian": "۸",
+          "translit": "hašt",
+          "meaning": "Persian numeral 8 (`هشت`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "id": "هنگامی_که",
+          "persian": "هنگامی که",
+          "translit": "hangāmī ke",
+          "meaning": "when, at the time that",
+          "pos": "sconj",
+          "forms": [
+            {
+              "note": "`هنگامی` is the indefinite form of `هنگام` _hangām_ \"time, moment\"; with `که` it forms a subordinator: `هنگامی که` = \"when.\""
+            },
+            {
+              "fa": "هنگامی",
+              "desc": "The first part `هنگامی` is an indefinite form of `هنگام` _hangām_ \"time\"; together with `که` it forms a subordinator."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "شنیدن",
+          "translit": "šenīdan",
+          "meaning": "to hear, listen to",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "شنو",
+            "translit": "šenav-"
+          },
+          "forms": [
+            {
+              "fa": "شنید",
+              "desc": "3sg past `شنید` _šenīd_ ([verse 8](#verse-8))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "بی_اندازه",
+          "persian": "بی اندازه",
+          "translit": "bī andāze",
+          "meaning": "extremely, immeasurably, without measure",
+          "pos": "adv",
+          "etym": {
+            "prose": "`بی` _bī_ (without) + `اندازه` _andāze_ (measure, extent)."
+          },
+          "family": "`اندازه` _andāze_ \"measure, extent\"; `به اندازه ای که` \"to such an extent that.\""
+        },
+        {
+          "type": "headword",
+          "persian": "خوشحال شدن",
+          "translit": "xošḥāl šodan",
+          "meaning": "to become happy, to be gladdened",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "خوشحال شو",
+            "translit": "xošḥāl šav-"
+          },
+          "etym": {
+            "prose": "`خوش` _xoš_ (good, pleasant) + `حال` _ḥāl_ (condition, state — from Arabic _ḥāl_) + `شدن` _šodan_ (to become)."
+          },
+          "family": "`خوش` _xoš_ \"pleasant, happy\"; `حال` _ḥāl_ \"condition, state.\"",
+          "forms": [
+            {
+              "fa": "خوشحال شد",
+              "desc": "3sg past `خوشحال شد` _xošḥāl šod_ ([verse 8](#verse-8))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "برکت",
+          "translit": "barakat",
+          "meaning": "blessing, divine grace, abundance",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "برکت‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _baraka_ \"blessing,\" root b-r-k \"to kneel, bless.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "b-r-k"
+          },
+          "forms": [
+            {
+              "fa": "برکت یافته بودم",
+              "desc": "pluperfect passive `برکت یافته بودم` _barakat yāfte budam_ \"I had been blessed\" ([verse 8](#verse-8))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "یافتن",
+          "translit": "yāftan",
+          "meaning": "to find; to receive, obtain; to experience",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "یاب",
+            "translit": "yāb-"
+          },
+          "forms": [
+            {
+              "fa": "یافته بودم",
+              "desc": "1sg pluperfect `یافته بودم` _yāfte budam_ ([verse 8](#verse-8))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "شروع کردن",
+          "translit": "šorūʿ kardan",
+          "meaning": "to begin, start",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "شروع کن",
+            "translit": "šorūʿ kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _šurūʿ_ \"commencement,\" root š-r-ʿ \"to begin.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "š-r-ʿ"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to begin"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "شروع به بی اندازه اندوهگین شدن نمودیم",
+              "desc": "`شروع به … شدن نمودیم` = \"we began to become extremely sorrowful\" ([verse 14](#verse-14))"
+            },
+            {
+              "fa": "شروع به غُرولند کردن نمودند",
+              "desc": "`شروع به … نمودند` = \"they began to murmur again\" ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "اندازه",
+          "translit": "andāze",
+          "meaning": "measure, extent, degree",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "اندازه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "به اندازه ای که",
+              "desc": "`به اندازه‌ای که` _be andāze-ī ke_ \"to such an extent that, so much so that\" ([verse 25](#verse-25))"
+            },
+            {
+              "fa": "بی اندازه",
+              "desc": "`بی اندازه` _bī andāze_ \"immeasurably, extremely\" (already covered)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 9,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۹",
+          "persian": "۹",
+          "translit": "noh",
+          "meaning": "Persian numeral 9 (`نه`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "سفر",
+          "translit": "safar",
+          "meaning": "journey, travel, voyage",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سفرها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _safar_ \"journey,\" root s-f-r \"to travel.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "s-f-r"
+          },
+          "forms": [
+            {
+              "fa": "سفرمان",
+              "desc": "1pl poss. `سفرمان` _safar-mān_ \"our journey\" ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "راهی سفرمان شدیم",
+              "desc": "`راهی سفرمان شدیم` = \"we set out on our journey\" ([verse 9](#verse-9))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سرزمین",
+          "translit": "sarzamīn",
+          "meaning": "land, territory, country",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سرزمین‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`سر` _sar_ (head, top) + `زمین` _zamīn_ (earth, ground). Literally \"the top (best part) of the land.\""
+          },
+          "family": "`زمین` _zamīn_ \"earth, ground.\"",
+          "forms": [
+            {
+              "fa": "سرزمین اورشلیم",
+              "desc": "`سرزمین اورشلیم` \"the land of Jerusalem\" ([verse 9](#verse-9), [verse 10](#verse-10))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "بالا",
+          "translit": "bālā",
+          "meaning": "up, upward; above, high",
+          "pos": "adv",
+          "forms": [
+            {
+              "note": "`بالا رفتن` = \"to go up\" (to Jerusalem from the wilderness — Jerusalem is at higher elevation). Contrast `پایین` (downward)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 10,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۰",
+          "persian": "۱۰",
+          "translit": "dah",
+          "meaning": "Persian numeral 10 (`ده` — a unique word, not \"one-zero\")",
+          "pos": "num",
+          "forms": [
+            {
+              "note": "10 is a unique Persian word `ده` _dah_, not a compound of \"one\" + \"zero.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "مشورت کردن",
+          "translit": "mašvarat kardan",
+          "meaning": "to consult together, confer",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "مشورت کن",
+            "translit": "mašvarat kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _mašwara_ \"consultation,\" root š-w-r \"to consult, advise.\"",
+            "arabic_form": "Form III verbal noun",
+            "root": "š-w-r"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to consult, confer"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "مشورت کردیم",
+              "desc": "1pl past `مشورت کردیم` ([verse 10](#verse-10))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "یکدیگر",
+          "translit": "yekdīgar",
+          "meaning": "each other, one another",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "با یکدیگر",
+              "desc": "`با یکدیگر` _bā yekdīgar_ \"with each other, together\" ([verse 10](#verse-10))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ما",
+          "translit": "mā",
+          "meaning": "we, us",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "مان",
+              "desc": "1pl possessive clitic `مان-` _-mān_: `پدرمان` \"our father\", `سفرمان` \"our journey\""
+            },
+            {
+              "note": "`ما` is the full pronoun; `-مان` is the clitic form attaching to nouns for possession."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 11,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۱",
+          "persian": "۱۱",
+          "translit": "yāzdah",
+          "meaning": "Persian numeral 11 (`یازده` — a unique word, not \"one-one\")",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "قرعه کشیدن",
+          "translit": "qorʿe kešīdan",
+          "meaning": "to draw lots, cast lots",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "قرعه کش",
+            "translit": "qorʿe keš-"
+          },
+          "etym": {
+            "prose": "from Arabic _qurʿa_ \"lot, lottery\" + `کشیدن` _kešīdan_ (to draw/pull).",
+            "arabic_form": "Form I verbal noun",
+            "root": "q-r-ʿ"
+          },
+          "light_verb": [
+            {
+              "verb": "کشیدن",
+              "translit": "kešīdan",
+              "meaning": "to draw/cast lots"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "قرعه کشیدیم",
+              "desc": "1pl past `قرعه کشیدیم` ([verse 11](#verse-11))"
+            },
+            {
+              "fa": "قرعه",
+              "desc": "the noun `قرعه` _qorʿe_ also used standalone: `قرعه بر لامان افتاد` \"the lot fell on Laman\" ([verse 11](#verse-11))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "کدامیک",
+          "translit": "kodāmīk",
+          "meaning": "which one (of several)",
+          "pos": "pron"
+        },
+        {
+          "type": "headword",
+          "persian": "درون",
+          "translit": "darūn",
+          "meaning": "inside, interior; into",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "درون‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "به درون",
+              "desc": "`به درون` _be darūn_ \"into (the inside of)\" ([verse 11](#verse-11))"
+            },
+            {
+              "note": "Used with `خانۀ` to mean \"into the house\": `به درون خانۀ لابان` = \"into Laban's house.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "افتادن",
+          "translit": "oftādan",
+          "meaning": "to fall; (of a lot) to fall on, be assigned to",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "افت",
+            "translit": "oft-"
+          },
+          "forms": [
+            {
+              "fa": "افتاد",
+              "desc": "3sg past `افتاد` _oftād_ ([verse 11](#verse-11))"
+            },
+            {
+              "fa": "افتاد",
+              "desc": "`قرعه بر لامان افتاد` = \"the lot fell on Laman\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "همچنان_که",
+          "persian": "همچنان که",
+          "translit": "hamčonān ke",
+          "meaning": "just as, while, as",
+          "pos": "sconj",
+          "forms": [
+            {
+              "fa": "همچنان",
+              "desc": "standalone `همچنان` _hamčonān_ \"just so, likewise\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "خود",
+          "translit": "xod",
+          "meaning": "self, own (reflexive/intensifier)",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "خودمان",
+              "desc": "1pl `خودمان` _xod-mān_ \"ourselves\" ([verse 27](#verse-27))"
+            },
+            {
+              "fa": "خودمان را",
+              "desc": "reflexive acc. ([verse 27](#verse-27))"
+            },
+            {
+              "fa": "خود را",
+              "desc": "reflexive acc. (3sg or generic): `برادر جوانتر خود را` \"their younger brother\" ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نشستن",
+          "translit": "nešastan",
+          "meaning": "to sit, be seated",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نشین",
+            "translit": "nešīn-"
+          },
+          "forms": [
+            {
+              "fa": "نشسته بود",
+              "desc": "3sg pluperfect `نشسته بود` _nešaste bud_ ([verse 11](#verse-11))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "وی",
+          "translit": "vay",
+          "meaning": "he, she, it (formal/literary 3sg pronoun)",
+          "pos": "pron",
+          "forms": [
+            {
+              "note": "`وی` is a more formal/literary synonym for `او`. In the Book of Mormon Persian, both are used."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "گفتگو کردن",
+          "translit": "goftego kardan",
+          "meaning": "to converse, have a conversation",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گفتگو کن",
+            "translit": "goftego kon-"
+          },
+          "etym": {
+            "prose": "`گفتگو` _goftego_ (conversation) ← `گفت` + `گو` (say-say, reduplication of the past and present stems of `گفتن`)."
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to converse"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "گفتگو کرد",
+              "desc": "3sg past ([verse 11](#verse-11))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 12,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۲",
+          "persian": "۱۲",
+          "translit": "davāzdah",
+          "meaning": "Persian numeral 12 (`دوازده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "خواستار شدن",
+          "translit": "xāstār šodan",
+          "meaning": "to request, demand, ask for",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "خواستار شو",
+            "translit": "xāstār šav-"
+          },
+          "etym": {
+            "prose": "`خواستار` _xāstār_ (demanding, desirous ← `خواستن` + [`-ار`](../word_formation.html#the-agentive-suffix-ar)) + `شدن` (to become)."
+          },
+          "forms": [
+            {
+              "fa": "خواستار شد",
+              "desc": "3sg past ([verse 12](#verse-12))"
+            },
+            {
+              "fa": "خواستار شدیم",
+              "desc": "1pl past ([verse 24](#verse-24))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دربر داشتن",
+          "translit": "darbar dāštan",
+          "meaning": "to contain, include",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "دربر دار",
+            "translit": "darbar dār-"
+          },
+          "forms": [
+            {
+              "fa": "دربر داشت",
+              "desc": "3sg past `دربر داشت` ([verse 12](#verse-12))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 13,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۳",
+          "persian": "۱۳",
+          "translit": "sīzdah",
+          "meaning": "Persian numeral 13 (`سیزده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "خشمگین",
+          "translit": "xašmgīn",
+          "meaning": "angry, furious",
+          "pos": "adj",
+          "etym": {
+            "prose": "`خشم` _xašm_ (anger, wrath) + [`-گین`](../word_formation.html#the-suffix-gin) (laden-with suffix)."
+          },
+          "family": "`خشم` _xašm_ \"anger, wrath.\"",
+          "forms": [
+            {
+              "fa": "خشمگین بود",
+              "desc": "`خشمگین بود` \"was angry\" ([verse 13](#verse-13))"
+            },
+            {
+              "fa": "خشمگین شد",
+              "desc": "`خشمگین شد` \"became angry\" ([verse 28](#verse-28))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "حضور",
+          "translit": "ḥożūr",
+          "meaning": "presence; court, before (someone)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "حضورها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _ḥuḍūr_ \"presence,\" root ḥ-ḍ-r \"to be present.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "ḥ-ḍ-r"
+          },
+          "forms": [
+            {
+              "fa": "از حضورش",
+              "desc": "`از حضورش` _az ḥożūr-aš_ \"from his presence\" ([verse 13](#verse-13), [verse 14](#verse-14))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "بیرون انداختن",
+          "translit": "bīrun andāxtan",
+          "meaning": "to throw out, expel, cast out",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "بیرون انداز",
+            "translit": "bīrun andāz-"
+          },
+          "etym": {
+            "prose": "`بیرون` _bīrun_ (outside) + `انداختن` _andāxtan_ (to throw, cast)."
+          },
+          "forms": [
+            {
+              "fa": "بیرون انداخت",
+              "desc": "3sg past `بیرون انداخت` ([verse 13](#verse-13))"
+            },
+            {
+              "fa": "بیرون انداخت",
+              "desc": "also [verse 25](#verse-25)"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دزد",
+          "translit": "dozd",
+          "meaning": "thief, robber",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دزدان",
+                "translit": "-ān"
+              },
+              {
+                "persian": "دزدها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "family": "`دزدیدن` _dozdīdan_ \"to steal\" (already covered in chapter-summary)."
+        },
+        {
+          "type": "variant",
+          "persian": "هستی",
+          "translit": "hastī",
+          "meaning": "you are (2sg present copula form of `بودن`)"
+        },
+        {
+          "type": "headword",
+          "persian": "بیرون",
+          "translit": "bīrun",
+          "meaning": "outside, out; outward",
+          "pos": "adv",
+          "forms": [
+            {
+              "fa": "به بیرون",
+              "desc": "`به بیرون` _be bīrun_ \"outward, to the outside\" ([verse 18](#verse-18))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 14,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۴",
+          "persian": "۱۴",
+          "translit": "čahārdah",
+          "meaning": "Persian numeral 14 (`چهارده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "گریختن",
+          "translit": "gorīxtan",
+          "meaning": "to flee, escape, run away",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گریز",
+            "translit": "gorīz-"
+          },
+          "forms": [
+            {
+              "fa": "گریخت",
+              "desc": "3sg past `گریخت` _gorīxt_ ([verse 14](#verse-14))"
+            },
+            {
+              "fa": "گریختیم",
+              "desc": "1pl past `گریختیم` ([verse 26](#verse-26), [verse 27](#verse-27))"
+            },
+            {
+              "fa": "می گریخت",
+              "desc": "3sg impf. past `می گریخت` ([verse 18](#verse-18))"
+            },
+            {
+              "fa": "بگریزد",
+              "desc": "3sg subj. `بگریزد` ([verse 18](#verse-18))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "اندوهگین",
+          "translit": "anduhgīn",
+          "meaning": "sorrowful, grieved, distressed",
+          "pos": "adj",
+          "etym": {
+            "prose": "`اندوه` _anduh_ (grief, sorrow) + [`-گین`](../word_formation.html#the-suffix-gin) (laden-with suffix)."
+          },
+          "family": "`اندوه` _anduh_ \"grief, sorrow.\""
+        },
+        {
+          "type": "headword",
+          "persian": "نمودن",
+          "translit": "namudan",
+          "meaning": "to show; (formal light verb) to do, perform (synonym of کردن in formal prose)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نما",
+            "translit": "namā-"
+          },
+          "forms": [
+            {
+              "fa": "نمودیم",
+              "desc": "1pl past `نمودیم` _namudīm_ ([verse 14](#verse-14))"
+            },
+            {
+              "fa": "نمودند",
+              "desc": "3pl past `نمودند` ([verse 31](#verse-31))"
+            },
+            {
+              "note": "In this text, `نمودن` functions as a formal synonym of `کردن` as the light verb completing شروع. It is more literary/archaic than `کردن`."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آستانه",
+          "translit": "āstāne",
+          "meaning": "threshold, doorstep; on the verge of",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "آستانه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "آستانۀ",
+              "desc": "ezafe form `آستانۀ` _āstāne-ye_ ([verse 14](#verse-14))"
+            },
+            {
+              "fa": "در آستانۀ",
+              "desc": "`در آستانۀ` + noun phrase = \"on the verge of, about to\" ([verse 14](#verse-14))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نزد",
+          "translit": "nazd",
+          "meaning": "near, with, to (a person); before (in the presence of)",
+          "pos": "adp",
+          "forms": [
+            {
+              "fa": "به نزد",
+              "desc": "`به نزد` _be nazd-e_ \"to (go to someone)\" ([verse 14](#verse-14), [verse 15](#verse-15))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "شدن",
+          "translit": "šodan",
+          "meaning": "to become; (passive auxiliary) to be (done)",
+          "pos": "aux",
+          "pres_stem": {
+            "fa": "شو",
+            "translit": "šav-"
+          },
+          "forms": [
+            {
+              "fa": "شد",
+              "desc": "3sg past `شد` _šod_ (throughout)"
+            },
+            {
+              "fa": "شدیم",
+              "desc": "1pl past `شدیم` _šodīm_ ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "شوند",
+              "desc": "3pl pres. subj. `شوند` _šavand_"
+            },
+            {
+              "fa": "می شود",
+              "desc": "3sg impf. `می شود` ([verse 17](#verse-17))"
+            },
+            {
+              "note": "As passive auxiliary: past participle + `شدن` = passive construction. As main verb: `راهی شدن` = \"to set out\"; `خوشحال شدن` = \"to become happy\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 15,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۵",
+          "persian": "۱۵",
+          "translit": "pānzdah",
+          "meaning": "Persian numeral 15 (`پانزده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "آنان",
+          "translit": "ānān",
+          "meaning": "they, them (formal/literary plural)",
+          "pos": "pron",
+          "forms": [
+            {
+              "note": "`آنان` is the formal literary form of `آنها`. In this text, both are used."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "هستی_existence",
+          "persian": "هستی",
+          "translit": "hastī",
+          "meaning": "existence, being, life",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "هستی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`هست` _hast_ (exists, is) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) abstract-noun suffix."
+          },
+          "forms": [
+            {
+              "fa": "به هستی سَروَر",
+              "desc": "`به هستی سَروَر سوگند` = \"by the life of the Lord, I swear\" ([verse 15](#verse-15))"
+            },
+            {
+              "note": "Note homonymy: `هستی` _hastī_ (existence) vs `هستی` _hastī_ (2sg copula \"you are\"). Context distinguishes them."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "سوگند",
+          "translit": "sowgand",
+          "meaning": "oath, vow, swearing",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "سوگندها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "light_verb": [
+            {
+              "verb": "خوردن",
+              "translit": "xordan",
+              "meaning": "to swear (an oath)"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "سوگند خوردن",
+              "desc": "`سوگند خوردن` _sowgand xordan_ \"to swear an oath\" (standard expression)"
+            },
+            {
+              "fa": "به هستی … سوگند",
+              "desc": "`به هستی … سوگند` \"by the life of … (I swear)\" — the prepositional phrase precedes the noun `سوگند` without a light verb in this usage"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "تا_اینکه",
+          "persian": "تا اینکه",
+          "translit": "tā inke",
+          "meaning": "until (temporal); so that (purpose)",
+          "pos": "sconj",
+          "forms": [
+            {
+              "note": "`تا اینکه` + perfect subjunctive expresses a prerequisite: `نخواهیم رفت تا اینکه … رسانده باشیم` = \"we will not go until we have accomplished…\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 16,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۶",
+          "persian": "۱۶",
+          "translit": "šānzdah",
+          "meaning": "Persian numeral 16 (`شانزده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "گذاشتن",
+          "translit": "gozāštan",
+          "meaning": "to leave, leave behind; to place, put; (بگذارید) let (us), allow",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گذار",
+            "translit": "gozār-"
+          },
+          "forms": [
+            {
+              "fa": "بگذارید",
+              "desc": "2pl subj./imper. `بگذارید` _begozārīd_ \"let (us)\" ([verse 16](#verse-16))"
+            },
+            {
+              "fa": "بگذاریم",
+              "desc": "1pl subj. `بگذاریم` _begozārīm_ ([verse 26](#verse-26))"
+            },
+            {
+              "fa": "باقی گذاشت",
+              "desc": "3sg past `باقی گذاشت` _bāqī gozāšt_ \"left behind\" ([verse 16](#verse-16))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نگهداری",
+          "translit": "negahdārī",
+          "meaning": "keeping, guarding, observance (of commandments)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "نگهداری‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`نگه` _negah_ (guard, look) + `داری` ← `داشتن` (to have/hold) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) suffix. Literally \"the holding-guard.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "ایمان",
+          "translit": "īmān",
+          "meaning": "faith, belief, trust",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "ایمان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _īmān_ \"faith, belief,\" root ā-m-n \"to be secure, believe.\"",
+            "arabic_form": "Form IV verbal noun",
+            "root": "ā-m-n"
+          },
+          "light_verb": [
+            {
+              "verb": "آوردن",
+              "translit": "āvardan",
+              "meaning": "to have faith, believe"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "با ایمان",
+              "desc": "`با ایمان` _bā īmān_ \"with faith, faithfully\" ([verse 16](#verse-16), [verse 21](#verse-21))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "میراث",
+          "translit": "mīrās",
+          "meaning": "inheritance, heritage",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "میراث‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _mīrāṯ_ \"inheritance,\" root w-r-ṯ \"to inherit.\"",
+            "arabic_form": "Form IV verbal noun",
+            "root": "w-r-ṯ"
+          },
+          "forms": [
+            {
+              "fa": "میراثی",
+              "desc": "adjectival form `میراثی` _mīrāsī_ \"ancestral, inherited\": `سرزمین میراثی` \"ancestral land\" ([verse 16](#verse-16), [verse 22](#verse-22))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "طلا",
+          "translit": "ṭalā",
+          "meaning": "gold",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "طلاها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "طلایمان",
+              "desc": "1pl poss. `طلایمان` _ṭalā-ye-mān_ \"our gold\" ([verse 24](#verse-24))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نقره",
+          "translit": "noqre",
+          "meaning": "silver",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "نقره‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "نقره مان",
+              "desc": "1pl poss. `نقره‌مان` _noqre-mān_ \"our silver\" ([verse 24](#verse-24))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "همه",
+          "translit": "hame",
+          "meaning": "all, every, everyone",
+          "pos": "det",
+          "forms": [
+            {
+              "fa": "همۀ",
+              "desc": "ezafe form `همۀ` _hame-ye_ ([verse 16](#verse-16), [verse 20](#verse-20), [verse 24](#verse-24))"
+            },
+            {
+              "fa": "همه گونه",
+              "desc": "`همه گونه` _hame-gune_ \"all kinds of, every sort of\" ([verse 16](#verse-16))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ثروت",
+          "translit": "ṯarvat",
+          "meaning": "wealth, riches",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "ثروت‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _ṯarwa_ \"wealth,\" root ṯ-r-w \"to be wealthy.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "ṯ-r-w"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "باقی",
+          "translit": "bāqī",
+          "meaning": "remaining, left over; the rest",
+          "pos": "adj",
+          "etym": {
+            "prose": "from Arabic _bāqī_ \"remaining,\" root b-q-y \"to remain.\"",
+            "arabic_form": "Form I active participle",
+            "root": "b-q-y"
+          },
+          "forms": [
+            {
+              "fa": "باقی گذاشت",
+              "desc": "`باقی گذاشت` _bāqī gozāšt_ \"left behind\" ([verse 16](#verse-16), [verse 26](#verse-26))"
+            },
+            {
+              "fa": "باقی بگذاریم",
+              "desc": "subj. `باقی بگذاریم` ([verse 26](#verse-26))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "id": "به_سبب",
+          "persian": "به سبب",
+          "translit": "be sabab",
+          "meaning": "because of, on account of",
+          "pos": "adp",
+          "etym": {
+            "prose": "`سبب` _sabab_ from Arabic, root s-b-b \"cause, reason.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "سبب",
+          "translit": "sabab",
+          "meaning": "reason, cause; به سبب — because of",
+          "pos": "noun",
+          "plural": {
+            "broken": [
+              {
+                "persian": "اسباب",
+                "translit": "asbāb",
+                "note": "plural: causes, means, equipment"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _sabab_ \"rope, reason, cause,\" root s-b-b.",
+            "arabic_form": "Form I verbal noun",
+            "root": "s-b-b"
+          },
+          "forms": [
+            {
+              "fa": "به سبب",
+              "desc": "`به سبب` _be sabab-e_ \"because of\" ([verse 16](#verse-16), [verse 17](#verse-17), [verse 29](#verse-29))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 17,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۷",
+          "persian": "۱۷",
+          "translit": "hevdah",
+          "meaning": "Persian numeral 17 (`هفده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "نابکاری",
+          "translit": "nābakārī",
+          "meaning": "wickedness, iniquity, transgression",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "نابکاری‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`نا-` _nā-_ (negative prefix) + `بکار` _bekār_ (useful, doing good work) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) suffix. Literally \"the quality of being of no use/good.\""
+          },
+          "forms": [
+            {
+              "fa": "نابکاری های",
+              "desc": "pl. ezafe `نابکاری‌های` ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "مردم",
+          "translit": "mardom",
+          "meaning": "people, folk, the common people",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "مردمان",
+                "translit": "-ān",
+                "note": "literary"
+              },
+              {
+                "persian": "مردم‌ها",
+                "translit": "-hā",
+                "note": "colloquial"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "نابود شدن",
+          "translit": "nābud šodan",
+          "meaning": "to be destroyed, perish, be annihilated",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "نابود شو",
+            "translit": "nābud šav-"
+          },
+          "etym": {
+            "prose": "`نا-` _nā-_ (negative prefix) + `بود` _bud_ (existence, being). Literally \"to become not-existing.\""
+          },
+          "forms": [
+            {
+              "fa": "نابود می شود",
+              "desc": "3sg impf. pres. `نابود می شود` ([verse 17](#verse-17))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 18,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۸",
+          "persian": "۱۸",
+          "translit": "heždah",
+          "meaning": "Persian numeral 18 (`هجده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "پیامبر",
+          "translit": "payāmbar",
+          "meaning": "prophet, messenger (of God)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "پیامبران",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`پیام` _payām_ (message) + `بر` _bar_ (carrier ← `بردن` \"to carry\"). Literally \"message-carrier.\""
+          },
+          "family": "`پیام` _payām_ \"message, communication.\"",
+          "forms": [
+            {
+              "fa": "پیامبران",
+              "desc": "pl. `پیامبران` ([verse 18](#verse-18), [verse 20](#verse-20))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "رد کردن",
+          "translit": "radd kardan",
+          "meaning": "to reject, refuse, turn down",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "رد کن",
+            "translit": "radd kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _radd_ \"rejection, return,\" root r-d-d \"to reject.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "r-d-d"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to reject"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "رد کرده اند",
+              "desc": "3pl perfect `رد کرده اند` ([verse 18](#verse-18))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "اگر",
+          "translit": "agar",
+          "meaning": "if (conditional)",
+          "pos": "sconj"
+        },
+        {
+          "type": "headword",
+          "persian": "هلاک شدن",
+          "translit": "halāk šodan",
+          "meaning": "to perish, be destroyed, die",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "هلاک شو",
+            "translit": "halāk šav-"
+          },
+          "etym": {
+            "prose": "from Arabic _halāk_ \"destruction, ruin,\" root h-l-k \"to perish.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "h-l-k"
+          },
+          "forms": [
+            {
+              "fa": "هلاک می شد",
+              "desc": "3sg impf. past (conditional) `هلاک می شد` ([verse 18](#verse-18))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ناگزیر",
+          "translit": "nāgozīr",
+          "meaning": "inevitable, unavoidable; necessarily",
+          "pos": "adj",
+          "etym": {
+            "prose": "`نا-` (negative) + `گزیر` _gozīr_ (option, escape ← `گزیدن` \"to choose, bite\"). Literally \"without alternative.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "ماندن",
+          "translit": "māndan",
+          "meaning": "to stay, remain; to be left over",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "مان",
+            "translit": "mān-"
+          },
+          "forms": [
+            {
+              "fa": "مانده بود",
+              "desc": "3sg pluperfect `مانده بود` _mānde bud_ ([verse 18](#verse-18))"
+            },
+            {
+              "fa": "مانده",
+              "desc": "past participle `مانده` _mānde_ \"remaining\" ([verse 18](#verse-18))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 19,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۱۹",
+          "persian": "۱۹",
+          "translit": "nūzdah",
+          "meaning": "Persian numeral 19 (`نوزده`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "خردمندی",
+          "translit": "xeRadmandī",
+          "meaning": "wisdom, prudence",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "خردمندی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`خرد` _xerad_ (wisdom, intellect) + [`-مند`](../word_formation.html#the-suffix-mand) (possessing) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) suffix."
+          },
+          "family": "`خرد` _xerad_ \"wisdom, intellect\"; `خردمند` _xeradmand_ \"wise, intelligent.\"",
+          "forms": [
+            {
+              "fa": "خِرَدمندی",
+              "desc": "source spelling with diacritics `خِرَدمندی` _xeRadmandī_ ([verse 19](#verse-19))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "خدا",
+          "translit": "xodā",
+          "meaning": "God",
+          "pos": "propn",
+          "tags": [
+            "proper"
+          ],
+          "forms": [
+            {
+              "fa": "خداست",
+              "desc": "fused copula `خداست` _xodā-st_ \"is God\" ([verse 19](#verse-19))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "زبان",
+          "translit": "zabān",
+          "meaning": "language; tongue",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "زبان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "حفظ کردن",
+          "translit": "ḥefẓ kardan",
+          "meaning": "to preserve, memorize, keep safe",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "حفظ کن",
+            "translit": "ḥefẓ kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _ḥifẓ_ \"preservation, memorization,\" root ḥ-f-ẓ \"to preserve, guard.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "ḥ-f-ẓ"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to preserve, keep"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "حفظ کنیم",
+              "desc": "1pl subj. `حفظ کنیم` ([verse 19](#verse-19), [verse 20](#verse-20))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 20,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۰",
+          "persian": "۲۰",
+          "translit": "bīst",
+          "meaning": "Persian numeral 20 (`بیست` — a unique word, not \"two-zero\")",
+          "pos": "num",
+          "forms": [
+            {
+              "note": "20 is a unique Persian word `بیست` _bīst_, not a compound of \"two\" + \"zero.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دهان",
+          "translit": "dahān",
+          "meaning": "mouth",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دهان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "مقدّس",
+          "translit": "moqaddas",
+          "meaning": "holy, sacred, hallowed",
+          "pos": "adj",
+          "etym": {
+            "prose": "from Arabic _muqaddas_ \"sanctified,\" root q-d-s \"to be holy.\"",
+            "arabic_form": "Form II passive participle",
+            "root": "q-d-s"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "روح",
+          "translit": "rūḥ",
+          "meaning": "spirit, soul; روح مقدّس — Holy Ghost/Spirit",
+          "pos": "noun",
+          "plural": {
+            "broken": [
+              {
+                "persian": "ارواح",
+                "translit": "arvāḥ",
+                "note": "formal/religious"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _rūḥ_ \"spirit, breath,\" root r-w-ḥ \"to breathe, blow.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "r-w-ḥ"
+          },
+          "forms": [
+            {
+              "fa": "روح مقدّس",
+              "desc": "`روح مقدّس` _rūḥ-e moqaddas_ \"Holy Spirit/Ghost\" ([verse 20](#verse-20))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "قدرت",
+          "translit": "qodrat",
+          "meaning": "power, strength, ability",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "قدرت‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _qudra_ \"power, ability,\" root q-d-r \"to be able, to have power.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "q-d-r"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "زمان",
+          "translit": "zamān",
+          "meaning": "time, era, period",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "زمان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _zamān_ \"time, era.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "z-m-n"
+          },
+          "forms": [
+            {
+              "fa": "زمانی که",
+              "desc": "`زمانی که` _zamānī ke_ \"the time when, since\" ([verse 20](#verse-20))"
+            },
+            {
+              "fa": "این زمان",
+              "desc": "`این زمان کنونی` \"this present time\" ([verse 20](#verse-20))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "جهان",
+          "translit": "jahān",
+          "meaning": "world, universe",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "جهان‌ها",
+                "translit": "-hā"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "آغاز شدن",
+          "translit": "āġāz šodan",
+          "meaning": "to begin, commence",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "آغاز شو",
+            "translit": "āġāz šav-"
+          },
+          "etym": {
+            "prose": "from Old Iranian; `آغاز` _āġāz_ (beginning, start) + `شدن` (to become)."
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to begin (transitive)"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "آغاز شد",
+              "desc": "3sg past `آغاز شد` ([verse 20](#verse-20))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "حتّی",
+          "translit": "ḥattā",
+          "meaning": "even; even up to, as far as",
+          "pos": "adv",
+          "warning": "The final `ی` in `حتّی` is an _alif maqṣūra_ (Arabic ى spelled ی in Persian) — pronounced -ā, not -ī. Learners may accidentally read it as *_ḥattī_.",
+          "etym": {
+            "prose": "directly from Arabic _ḥattā_ \"even, until, as far as.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "کنونی",
+          "translit": "konūnī",
+          "meaning": "present, current, contemporary",
+          "pos": "adj",
+          "etym": {
+            "prose": "`کنون` _konūn_ (now, at this moment) + [`-ی`](../word_formation.html#the-adjectival-suffix-i) adjectival suffix."
+          },
+          "family": "`کنون` _konūn_ \"now.\""
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 21,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۱",
+          "persian": "۲۱",
+          "translit": "bīst-o-yek",
+          "meaning": "Persian numeral 21 (`بیست و یک`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "شیوه",
+          "translit": "šīve",
+          "meaning": "manner, style, method, way",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "شیوه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "شیوۀ",
+              "desc": "ezafe form `شیوۀ` _šīve-ye_ ([verse 21](#verse-21))"
+            },
+            {
+              "fa": "با این شیوۀ زبان",
+              "desc": "`با این شیوۀ زبان` = \"with this manner of speaking\" ([verse 21](#verse-21))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ترغیب کردن",
+          "translit": "tarġīb kardan",
+          "meaning": "to persuade, encourage, urge",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "ترغیب کن",
+            "translit": "tarġīb kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _tarġīb_ \"enticement, encouragement,\" root r-ġ-b \"to desire, aspire.\"",
+            "arabic_form": "Form II verbal noun",
+            "root": "r-ġ-b"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to persuade, encourage"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "ترغیب کردم",
+              "desc": "1sg past `ترغیب کردم` ([verse 21](#verse-21))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 22,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۲",
+          "persian": "۲۲",
+          "translit": "bīst-o-do",
+          "meaning": "Persian numeral 22 (`بیست و دو`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "گرانبها",
+          "translit": "gerānbahā",
+          "meaning": "precious, valuable, costly",
+          "pos": "adj",
+          "etym": {
+            "prose": "`گران` _gerān_ (heavy, expensive) + `بها` _bahā_ (value, price). Literally \"of heavy value.\""
+          },
+          "family": "`گران` _gerān_ \"heavy; expensive\"; `بها` _bahā_ \"value, price.\"",
+          "forms": [
+            {
+              "fa": "گرانبهایمان",
+              "desc": "1pl poss. ezafe `گرانبهایمان` _gerānbahā-ye-mān_ \"our precious things\" ([verse 22](#verse-22), [verse 24](#verse-24))"
+            },
+            {
+              "fa": "چیزهای گرانبهایمان",
+              "desc": "\"our precious things\" — full phrase ([verse 22](#verse-22), [verse 24](#verse-24))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "گرد آوردن",
+          "translit": "gerd āvardan",
+          "meaning": "to gather, collect, assemble (things)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "گرد آور",
+            "translit": "gerd āvar-"
+          },
+          "etym": {
+            "prose": "`گرد` _gerd_ (round, together; gathered) + `آوردن` _āvardan_ (to bring). In the text the full phrase is `گرد هم آوردن` (with `هم` = together)."
+          },
+          "forms": [
+            {
+              "fa": "گرد هم آوردیم",
+              "desc": "1pl past `گرد هم آوردیم` ([verse 22](#verse-22), [verse 23](#verse-23))"
+            },
+            {
+              "fa": "هم",
+              "desc": "`هم` _ham_ in `گرد هم آوردن` intensifies the collective meaning: \"to bring all together\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "هم",
+          "translit": "ham",
+          "meaning": "also, too; together (in compounds)",
+          "pos": "adv",
+          "forms": [
+            {
+              "note": "`هم` as an intensifier in compound verbs: `گرد هم آوردن` (to gather together). As a standalone adverb: `من هم` \"I too\", `هم … هم` \"both … and\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 23,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۳",
+          "persian": "۲۳",
+          "translit": "bīst-o-se",
+          "meaning": "Persian numeral 23 (`بیست و سه`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "دوباره",
+          "translit": "dobāre",
+          "meaning": "again, once more",
+          "pos": "adv",
+          "etym": {
+            "prose": "`دو` _do_ (two) + `باره` _bāre_ (time, occasion). Literally \"a second time.\""
+          },
+          "family": "`بار` _bār_ \"time, occasion\" (as in `یک بار` \"once\")."
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 24,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۴",
+          "persian": "۲۴",
+          "translit": "bīst-o-čahār",
+          "meaning": "Persian numeral 24 (`بیست و چهار`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "جا",
+          "translit": "jā",
+          "meaning": "place, room, spot; (به جای) instead of, in place of",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "جاها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "جای",
+              "desc": "ezafe form `جای` _jā-ye_ ([verse 24](#verse-24))"
+            },
+            {
+              "fa": "به جای آن",
+              "desc": "`به جای آن` _be jā-ye ān_ \"instead of it, in exchange for it\" ([verse 24](#verse-24))"
+            },
+            {
+              "fa": "اینجا",
+              "desc": "`اینجا` _īnjā_ \"here\" (← `این` + `جا`)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 25,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۵",
+          "persian": "۲۵",
+          "translit": "bīst-o-panj",
+          "meaning": "Persian numeral 25 (`بیست و پنج`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "زیاد",
+          "translit": "zīyād",
+          "meaning": "much, many, a lot; too much, excessively",
+          "pos": "adj",
+          "etym": {
+            "prose": "from Arabic _ziyād_ \"increase, excess,\" root z-y-d \"to increase.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "z-y-d"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "هوس کردن",
+          "translit": "havas kardan",
+          "meaning": "to covet, desire, lust after",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "هوس کن",
+            "translit": "havas kon-"
+          },
+          "etym": {
+            "prose": "from Arabic _hawas_ \"obsession, craving,\" root h-w-s.",
+            "arabic_form": "Form I verbal noun",
+            "root": "h-w-s"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to covet, crave"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "هوس آن را کرد",
+              "desc": "`هوس آن را کرد` \"he coveted it\" ([verse 25](#verse-25))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "خدمتگزار",
+          "translit": "xadamatgozār",
+          "meaning": "servant, attendant, aide",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "خدمتگزاران",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`خدمت` _xedmat_ (service, from Arabic _xidma_) + [`-گزار`](../word_formation.html#the-suffix-gozar) (performer-of suffix ← `گذاشتن`)."
+          },
+          "forms": [
+            {
+              "fa": "خدمتگزارانش",
+              "desc": "pl. + 3sg poss. `خدمتگزارانش` _xadamatgozārān-aš_ \"his servants\" ([verse 25](#verse-25), [verse 26](#verse-26))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فرستادن",
+          "translit": "ferestādan",
+          "meaning": "to send",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "فرست",
+            "translit": "ferest-"
+          },
+          "forms": [
+            {
+              "fa": "فرستاد",
+              "desc": "3sg past `فرستاد` _ferestād_ ([verse 25](#verse-25))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 26,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۶",
+          "persian": "۲۶",
+          "translit": "bīst-o-šeš",
+          "meaning": "Persian numeral 26 (`بیست و شش`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "برابر",
+          "translit": "barābar",
+          "meaning": "opposite, facing; equal; (از برابر) from in front of, away from",
+          "pos": "adv",
+          "forms": [
+            {
+              "fa": "از برابر",
+              "desc": "`از برابر` _az barābar-e_ \"from in front of, fleeing from before\" ([verse 26](#verse-26))"
+            },
+            {
+              "fa": "در برابر",
+              "desc": "`در برابر` _dar barābar-e_ \"facing, before\" ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "پشت",
+          "translit": "pošt",
+          "meaning": "back (of the body); behind, rear",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "پشت‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "پشت سر",
+              "desc": "`پشت سر` _pošt-e sar_ \"behind one, left behind\" ([verse 26](#verse-26))"
+            },
+            {
+              "fa": "پشت سر باقی گذاشتن",
+              "desc": "idiom: `پشت سر باقی بگذاریم` = \"to leave behind\" ([verse 26](#verse-26))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 27,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۷",
+          "persian": "۲۷",
+          "translit": "bīst-o-haft",
+          "meaning": "Persian numeral 27 (`بیست و هفت`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "رسیدن",
+          "translit": "resīdan",
+          "meaning": "to reach, arrive at; to attain",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "رس",
+            "translit": "res-"
+          },
+          "forms": [
+            {
+              "fa": "نرسیدند",
+              "desc": "3pl neg. past `نرسیدند` _na-resīdand_ ([verse 27](#verse-27))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "صخره",
+          "translit": "saxre",
+          "meaning": "rock, boulder, cliff",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "صخره‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "from Arabic _ṣaxra_ \"rock, stone.\"",
+            "arabic_form": "Form I verbal noun",
+            "root": "ṣ-x-r"
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "پنهان کردن",
+          "translit": "penhān kardan",
+          "meaning": "to hide, conceal",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "پنهان کن",
+            "translit": "penhān kon-"
+          },
+          "light_verb": [
+            {
+              "verb": "کردن",
+              "translit": "kardan",
+              "meaning": "to hide, conceal"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "پنهان کردیم",
+              "desc": "1pl past `پنهان کردیم` ([verse 27](#verse-27))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "گودی",
+          "translit": "gūdī",
+          "meaning": "hollow, cavity, depression (in a rock)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "گودی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`گود` _gud_ (hollow, concave) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) noun suffix."
+          },
+          "forms": [
+            {
+              "fa": "گودیِ",
+              "desc": "ezafe written with ِ: `گودیِ یک صخره` ([verse 27](#verse-27))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 28,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۸",
+          "persian": "۲۸",
+          "translit": "bīst-o-hašt",
+          "meaning": "Persian numeral 28 (`بیست و هشت`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "همچنین",
+          "translit": "hamčonīn",
+          "meaning": "also, likewise, in the same way",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "پذیرفتن",
+          "translit": "pazīroftan",
+          "meaning": "to accept, receive; to heed, take to heart",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "پذیر",
+            "translit": "pazīr-"
+          },
+          "forms": [
+            {
+              "fa": "می پذیرفت",
+              "desc": "3sg impf. past `می پذیرفت` _mī-pazīroft_ ([verse 28](#verse-28))"
+            },
+            {
+              "fa": "بگوش دل می پذیرفت",
+              "desc": "idiom: `بگوش دل می پذیرفت` _be-guš-e del mī-pazīroft_ \"he heeded with his heart\" (literally \"was accepting to the ear of his heart\") ([verse 28](#verse-28))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "تند",
+          "translit": "tond",
+          "meaning": "harsh, sharp, angry; swift",
+          "pos": "adj"
+        },
+        {
+          "type": "headword",
+          "persian": "بسیار",
+          "translit": "besīār",
+          "meaning": "very, much, many, a great deal",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "جوان",
+          "translit": "javān",
+          "meaning": "young; youth",
+          "pos": "adj",
+          "forms": [
+            {
+              "fa": "جوانتر",
+              "desc": "comparative `جوانتر` _javāntar_ \"younger\" ([verse 28](#verse-28), [verse 29](#verse-29))"
+            },
+            {
+              "fa": "جوانترشان",
+              "desc": "pl. + 3pl poss. `جوانترشان` _javāntar-ešān_ \"their younger (brothers)\" ([verse 28](#verse-28))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ترکه",
+          "translit": "tarke",
+          "meaning": "rod, switch, thin stick (for beating)",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "ترکه‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "ترکه ای",
+              "desc": "indefinite `ترکه‌ای` _tarke-ī_ \"a rod\" ([verse 28](#verse-28))"
+            },
+            {
+              "fa": "با ترکه",
+              "desc": "`با ترکه` _bā tarke_ \"with a rod\" ([verse 28](#verse-28), [verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دل",
+          "translit": "del",
+          "meaning": "heart (seat of emotion and will); mind, spirit",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دل‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "بگوش دل",
+              "desc": "`بگوش دل` _be-guš-e del_ \"to the ear of the heart\" — i.e. heeding wholeheartedly ([verse 28](#verse-28))"
+            },
+            {
+              "fa": "دلگرمی",
+              "desc": "compound: `دلگرمی` _delgarmī_ \"encouragement\" (already covered)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 29,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۲۹",
+          "persian": "۲۹",
+          "translit": "bīst-o-noh",
+          "meaning": "Persian numeral 29 (`بیست و نه`)",
+          "pos": "num"
+        },
+        {
+          "type": "grammar-note",
+          "title": "Grammar: Relative clauses with که",
+          "body": "Persian relative clauses use `که` _ke_ immediately after the head noun. The head noun may carry an indefinite `-ī` suffix when it is the antecedent of a restrictive clause. The relative verb agrees with the head noun's implied referent.",
+          "examples": [
+            {
+              "ref": "Verse 29",
+              "ref_anchor": "verse-29",
+              "persian": "سَروَر او را برگزیده است تا بر شما یک فرمانروا باشد",
+              "translit": "Sarvar u rā bar-gozīde ast tā bar šomā yek farmānravā bāšad",
+              "en": "the Lord has chosen him to be a ruler over you [تا introduces the purpose clause]"
+            },
+            {
+              "ref": "Verse 7",
+              "ref_anchor": "verse-7",
+              "persian": "آنچه را که او به آنها فرمان می دهد",
+              "translit": "ānče rā ke u be ānhā farmān mī-dahad",
+              "en": "that which he commands them [آنچه = headless relative]"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آمدن",
+          "translit": "āmadan",
+          "meaning": "to come, arrive",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "آ",
+            "translit": "ā-"
+          },
+          "forms": [
+            {
+              "fa": "آمد",
+              "desc": "3sg past `آمد` _āmad_ ([verse 29](#verse-29))"
+            },
+            {
+              "note": "Highly suppletive: infinitive `آمد-` but present stem is just `آ-` (_ā-_), as in `می آید` _mī-āyad_ \"he/she comes.\""
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "ایستادن",
+          "translit": "īstādan",
+          "meaning": "to stand, stop, come to a halt",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "ایست",
+            "translit": "īst-"
+          },
+          "forms": [
+            {
+              "fa": "ایستاد",
+              "desc": "3sg past `ایستاد` _īstād_ ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "چرا",
+          "translit": "čerā",
+          "meaning": "why; yes (in response to negation)",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "آیا",
+          "translit": "āyā",
+          "meaning": "(question particle, introduces yes/no questions)",
+          "pos": "part",
+          "forms": [
+            {
+              "note": "`آیا` at the start of a sentence marks it as a direct question: `آیا شما نمی دانید؟` = \"Do you not know?\" It has no meaning equivalent in English other than the rising intonation of a question."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "برگزیدن",
+          "translit": "bargozīdan",
+          "meaning": "to choose, select, elect",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "برگزین",
+            "translit": "bargozīn-"
+          },
+          "etym": {
+            "prose": "preverb `بر-` + `گزیدن` _gozīdan_ (to select, choose)."
+          },
+          "forms": [
+            {
+              "fa": "برگزیده است",
+              "desc": "3sg perfect `برگزیده است` _bar-gozīde ast_ ([verse 29](#verse-29))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "فرمانروا",
+          "translit": "farmānravā",
+          "meaning": "ruler, sovereign, commander",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "فرمانروایان",
+                "translit": "-ān"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`فرمان` _farmān_ (command) + `روا` _ravā_ (fitting, going — from `رفتن`). Literally \"one for whom command is fitting\"/\"one who commands.\""
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "سپردن",
+          "translit": "sepordan",
+          "meaning": "to entrust, hand over, deliver",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "سپار",
+            "translit": "sepār-"
+          },
+          "forms": [
+            {
+              "fa": "خواهد سپرد",
+              "desc": "future 3sg `خواهد سپرد` _xāhad seport_ ([verse 29](#verse-29))"
+            },
+            {
+              "fa": "بسپرد",
+              "desc": "subj. 3sg `بسپرد` _besepārad_ ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "شما",
+          "translit": "šomā",
+          "meaning": "you (2nd person plural, formal)",
+          "pos": "pron",
+          "forms": [
+            {
+              "fa": "شماست",
+              "desc": "fused copula `شماست` _šomā-st_ \"it is yours/you are\" ([verse 29](#verse-29))"
+            },
+            {
+              "note": "`شما` is also used as a polite singular \"you\" (formal register)."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "دست",
+          "translit": "dast",
+          "meaning": "hand; power, control",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "دست‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "forms": [
+            {
+              "fa": "به دست",
+              "desc": "`به دست` _be dast-e_ \"into the hand/power of\": `سَروَر لابان را به دست شما خواهد سپرد` ([verse 29](#verse-29))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 30,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۳۰",
+          "persian": "۳۰",
+          "translit": "sī",
+          "meaning": "Persian numeral 30 (`سی` — a unique word, not \"three-zero\")",
+          "pos": "num",
+          "forms": [
+            {
+              "note": "`سی` _sī_ is the independent Persian word for 30."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "راهی شدن",
+          "translit": "rāhī šodan",
+          "meaning": "to set out, depart, take to the road",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "راهی شو",
+            "translit": "rāhī šav-"
+          },
+          "forms": [
+            {
+              "fa": "راهی شد",
+              "desc": "3sg past `راهی شد` ([verse 30](#verse-30), [verse 31](#verse-31))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_type": "verse",
+      "number": 31,
+      "entries": [
+        {
+          "type": "headword",
+          "id": "۳۱",
+          "persian": "۳۱",
+          "translit": "sī-o-yek",
+          "meaning": "Persian numeral 31 (`سی و یک`)",
+          "pos": "num"
+        },
+        {
+          "type": "headword",
+          "persian": "چگونه",
+          "translit": "čegoune",
+          "meaning": "how, in what way",
+          "pos": "adv"
+        },
+        {
+          "type": "headword",
+          "persian": "امکان پذیر",
+          "translit": "emkān pazīr",
+          "meaning": "possible, feasible",
+          "pos": "adj",
+          "etym": {
+            "prose": "from Arabic _imkān_ \"possibility\" + `پذیر` _pazīr_ (accepting ← `پذیرفتن`).",
+            "arabic_form": "Form IV verbal noun",
+            "root": "m-k-n"
+          },
+          "forms": [
+            {
+              "fa": "امکان پذیر است",
+              "desc": "`امکان پذیر است` _emkān-pazīr ast_ \"it is possible\" ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "مرد",
+          "translit": "mard",
+          "meaning": "man (adult male); brave person",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "مردان",
+                "translit": "-ān",
+                "note": "formal"
+              },
+              {
+                "persian": "مردها",
+                "translit": "-hā",
+                "note": "colloquial"
+              }
+            ]
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "توانایی",
+          "translit": "tavānāyī",
+          "meaning": "power, capability, might; powerful",
+          "pos": "noun",
+          "plural": {
+            "suffixes": [
+              {
+                "persian": "توانایی‌ها",
+                "translit": "-hā"
+              }
+            ]
+          },
+          "etym": {
+            "prose": "`توانا` _tavānā_ (powerful, capable ← `توانستن`) + [`-ی`](../word_formation.html#the-abstract-noun-suffix-i) suffix."
+          },
+          "family": "`توانستن` _tavānestan_ \"to be able\" (already covered); `توانا` _tavānā_ \"powerful.\"",
+          "forms": [
+            {
+              "fa": "مرد توانایی",
+              "desc": "`مرد توانایی` _mard-e tavānāyī_ \"a powerful man\" ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "پنجاه",
+          "translit": "panjāh",
+          "meaning": "Persian numeral 50 (`پنجاه` — unique word, not a compound)",
+          "pos": "num",
+          "etym": {
+            "prose": "`پنج` _panj_ (five) + `-اه/-اد` hundred-root suffix. The same pattern: `شصت` (60), `هفتاد` (70), `هشتاد` (80), `نود` (90)."
+          }
+        },
+        {
+          "type": "headword",
+          "persian": "دستور دادن",
+          "translit": "dastur dādan",
+          "meaning": "to give orders to, command",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "دستور ده",
+            "translit": "dastur deh-"
+          },
+          "etym": {
+            "prose": "`دستور` _dastur_ (order, instruction; minister — from Middle Persian _dastwar_ \"authorized\") + `دادن` _dādan_ (to give)."
+          },
+          "light_verb": [
+            {
+              "verb": "دادن",
+              "translit": "dādan",
+              "meaning": "to give orders"
+            }
+          ],
+          "forms": [
+            {
+              "fa": "دستور دهد",
+              "desc": "3sg subj. `دستور دهد` ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آری",
+          "translit": "ārī",
+          "meaning": "yes; yea, indeed (emphatic affirmation)",
+          "pos": "intj",
+          "forms": [
+            {
+              "note": "`آری` is the formal/literary yes, used in classical and biblical register. Modern colloquial uses `بله` _bale_ or `آره` _āre_."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "آنگاه",
+          "translit": "āngāh",
+          "meaning": "then, at that time, in that case",
+          "pos": "adv",
+          "forms": [
+            {
+              "note": "`آنگاه` is a formal/literary temporal adverb. Colloquial: `اون وقت` _un vaqt_."
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "نه",
+          "translit": "na",
+          "meaning": "no; not (in short answers and rhetorical questions)",
+          "pos": "part",
+          "forms": [
+            {
+              "note": "`نه` at the end of a sentence in a rhetorical context = \"isn't it?\" or \"then why not us?\": `آنگاه چرا ما را نه؟` = \"then why not us?\" ([verse 31](#verse-31))"
+            }
+          ]
+        },
+        {
+          "type": "headword",
+          "persian": "کردن",
+          "translit": "kardan",
+          "meaning": "to do, make; (light verb) performs the action named by the preceding noun",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "کن",
+            "translit": "kon-"
+          },
+          "forms": [
+            {
+              "fa": "نکرده ای",
+              "desc": "2sg neg. perfect `نکرده ای` _na-karde-ī_ ([verse 6](#verse-6))"
+            },
+            {
+              "fa": "کردم",
+              "desc": "1sg past `کردم` _kardam_"
+            },
+            {
+              "fa": "کرد",
+              "desc": "3sg past `کرد` _kard_ (throughout)"
+            },
+            {
+              "fa": "کردیم",
+              "desc": "1pl past `کردیم` _kardīm_"
+            },
+            {
+              "fa": "کنیم",
+              "desc": "1pl subj. `کنیم` _konīm_"
+            },
+            {
+              "fa": "کنند",
+              "desc": "3pl subj. `کنند` _konand_"
+            },
+            {
+              "note": "The most common light verb in Persian. Dozens of Arabic nouns combine with `کردن` to form compound verbs: `قبول کردن` (to accept), `نصیحت کردن` (to advise), `تلاش کردن` (to try), etc."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

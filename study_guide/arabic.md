@@ -115,3 +115,4 @@ Unlike Form I, each derived form has **exactly one predictable VN pattern** — 
 | <span id="nom-ʾafʿal">_ʾafʿal_</span> | elative (comparative/superlative) | `ارشد` // (_aršad_) "more senior" // root `r-š-d` "to be mature, rightly guided" | Occasional |
 | <span id="nom-fiʿāla">_fiʿāla_</span> | professional/abstract noun | `اسارت` // (_asārat_) "captivity" // root `ʾ-s-r` "to capture, imprison" | Occasional |
 | <span id="nom--iyyat">_-iyyat_</span> | abstract relational noun | `جمعیّت` // (_jamʿiyyat_) "population, gathering" // root `j-m-ʿ` "to gather, collect" | Common |
+| <span id="nom-nisba">_-iyyun_ → _-ī_</span> | nisba relational adjective (-iyyun) — derives "relating to X" adjectives | `یهودی` // (_yahudī_) "Jewish" // root `y-h-d` | Common |
