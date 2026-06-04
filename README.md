@@ -6,7 +6,7 @@ Just want to study? View the study guide [here](https://nateglenn.com/Read-the-B
 
 > I am just learning Persian myself, so if you see any errors or have suggestions for improvement, please open an issue or submit a PR!
 
-A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in `study_guide/NN_book/` — one directory per book. **The authoritative format for chapter content is a pair of JSON files** (`chN.source.json` + `chN.study.json`). New chapters should be generated as JSON by an LLM following the schemas in "Chapter JSON format" below.
+A reusable setup for producing learner-oriented English study guides from a Persian translation of the Book of Mormon. Each chapter lives in `study_guide/NN_book/` — one directory per book. **The authoritative format for chapter content is a pair of JSON files** (`chN.source.json` + `chN.study.json`); see [GENERATING_CHAPTERS.md](GENERATING_CHAPTERS.md) and [CONTENT_RULES.md](CONTENT_RULES.md) for the full authoring guide.
 
 ```
 .
@@ -39,222 +39,22 @@ python3 build_site.py
 open _site/index.html        # or: python3 -m http.server -d _site
 ```
 
-## Per-chapter workflow
+## Generating a new chapter
 
-Use `python3 fetch_chapter.py <url>` to download a chapter from `churchofjesuschrist.org` (Persian edition). It prints structured plain text grouped by element class: `# title`, `# subtitle`, `# intro` (book-level summary, only on chapter 1 of each book), `# chapter`, `# study-summary` (chapter heading paragraph), `# verse 1` … `# verse N`. Pipe with `-o study_guide/NN_book/webN.txt` to save.
+See **[GENERATING_CHAPTERS.md](GENERATING_CHAPTERS.md)** for the full step-by-step workflow: fetching the raw text, building the two JSON files in chunks, and running the renderer.
 
-Once the source text is in hand, generate the two JSON files using an LLM (feed it this README plus the `webN.txt` fetch output):
+## JSON schema and content rules
 
-1. Produce `study_guide/NN_book/chN.source.json` — the tokenized scripture text with interlinear gloss and English translation, following the **`chN.source.json` schema** below.
-2. Produce `study_guide/NN_book/chN.study.json` — the intro, vocabulary entries, and grammar notes, following the **`chN.study.json` schema** below.
-3. Run `python3 build_site.py` to render every chapter into `_site/`. Open
-   `_site/index.html` in a browser to read the formatted output.
-4. Run `python3 check_links.py` to verify all in-page anchor links resolve. Fix any broken links before pushing.
+Each chapter is two JSON files in `study_guide/NN_book/`:
 
-## Chapter JSON format
+- **`chN.source.json`** — tokenized scripture text with interlinear gloss (`gloss.src` / `gloss.gloss`) and English translation (`en`). Sections have `type` + optional `number`; token objects have `fa` (Persian), optional `e: true` for editorial ezafe, optional `p` for punctuation, and a required `gloss` sub-object on every word token.
+- **`chN.study.json`** — `intro`, `reading_tip`, and `sections` (matched to source by `section_type` + `number`). Each section has an `entries` array of `headword`, `variant`, `grammar-note`, or `no-new-lemmas` objects.
 
-Each chapter is stored as two JSON files in `study_guide/NN_book/`:
+All editorial decisions — required fields, POS values, `pres_stem`/`plural`/`light_verb`/`etym`/`forms` rules, grammar-note structure, numerals, ezafe marking, interlinear gloss abbreviations, and more — are documented in **[CONTENT_RULES.md](CONTENT_RULES.md)**.
 
-### `chN.source.json`
-
-Holds the tokenized scripture text. Generate one section per structural element of the chapter.
-
-```jsonc
-{
-  "book": "1 Nephi",      // display name
-  "chapter": 1,           // integer
-  "sections": [
-    // section "type" values:
-    //   "book-summary-title"     — book title heading (chapter 1 of a book only)
-    //   "book-summary-subtitle"  — book subtitle heading (chapter 1 of a book only)
-    //   "book-summary-sentence"  — one sentence from the book-level summary paragraph;
-    //                              has a "number" field (1, 2, 3, …)
-    //   "chapter-summary"        — the per-chapter subheading paragraph
-    //   "verse"                  — a numbered verse; has a "number" field
-
-    {
-      "type": "verse",
-      "number": 1,
-
-      // Pre-tokenized Persian text. Each element is one of:
-      //   {"fa": "word"}                    — Persian token; linked via vocab map
-      //   {"fa": "word", "lemma": "base"}   — explicit lemma for vocab map lookup
-      //   {"fa": "word", "e": true}         — editorial ezafe follows this token
-      //   {"p": "،"}                        — punctuation (no vocab link, no space before)
-      // Spaces between adjacent "fa" tokens are implicit.
-      // Each "fa" token may also carry a "gloss" sub-object (see below).
-      "tokens": [
-        {"fa": "من", "gloss": {"src": "man", "gloss": "1SG"}},
-        {"fa": "نیفای", "gloss": {"src": "Nīfāy", "gloss": "Nephi"}},
-        {"p": "،"},
-        {"fa": "از", "gloss": {"src": "az", "gloss": "from"}},
-        {"fa": "پدر",
-         "e": true,
-         "gloss": {"src": "pedar=e", "gloss": "father=EZ"}},
-        {"fa": "مادر",
-         "e": true,
-         "gloss": {"src": "mādar=e", "gloss": "mother=EZ"}},
-        {"fa": "خوبی", "gloss": {"src": "xūb-ī", "gloss": "good-INDEF"}},
-        {"fa": "زاده", "gloss": {"src": "zāde", "gloss": "bear-PTCP.PST"}},
-        {"fa": "شده", "gloss": {"src": "šode", "gloss": "become-PTCP.PST"}},
-        {"p": "."}
-      ],
-
-      "en": "I, Nephi, having been born of goodly parents…"
-    }
-  ]
-}
-```
-
-**`gloss` sub-object** on each `fa` token (Leipzig interlinear data):
-- `src` — romanized transliteration of the token with morphological boundaries (`-` for bound morphemes, `=` for clitics).
-- `gloss` — Leipzig gloss label (lexical content lowercase, grammatical abbreviations UPPERCASE, multi-part joined with `.`).
-- Tokens missing a `gloss` sub-object render without a gloss column entry (marks a known gap).
-- `می` and `نمی` are kept as separate tokens in the `tokens` array (since the publisher writes them with a space), and each gets its own `gloss` sub-object (e.g. `{"src": "mī", "gloss": "IMPF"}`). In the vocab map, however, `می`/`نمی` are **not** given their own headword entries — they are treated as part of the following verb (see below).
-
----
-
-### `chN.study.json`
-
-Holds the annotation. Sections must align with the source JSON by `section_type` + `number`.
-
-```jsonc
-{
-  "book": "1 Nephi",
-  "chapter": 1,
-  "intro": "Opening paragraph summarizing the chapter…\n\nSecond paragraph if needed.",
-
-  "sections": [
-    {
-      "section_type": "verse",  // matches source JSON "type"
-      "number": 1,              // present on "book-summary-sentence" and "verse" types
-      "entries": [
-        // --- headword entry ---
-        {
-          "type": "headword",
-          "id": "نگه_داشتن",    // stable ID used as anchor; defaults to persian with spaces→_
-          "persian": "نگه داشتن",
-          "translit": "negah dāštan",
-          "meaning": "to keep, maintain; to hold",
-          // pos — part of speech; required on every headword entry.
-          // Allowed values: "verb" | "noun" | "adj" | "adv" | "prep" | "conj" |
-          //                 "pron" | "particle" | "num" | "proper" | "other"
-          // Build-time linting fires on stderr when:
-          //   - pos is absent on any headword
-          //   - pos="verb" and pres_stem is absent
-          //   - pos="noun" and plural is absent AND light_verb is absent
-          // Use "other" for abstract/mass nouns, adverbial phrases, interjections,
-          // and anything that doesn't fit a standard POS.
-          "pos": "verb",
-          "tags": [],           // [] | ["proper"] | ["bound-morpheme"]
-          "pres_stem": {        // present stem; required for pos="verb", null/absent otherwise
-            "fa": "نگه دار",
-            "translit": "negah dār-"
-          },
-          // light_verb — compound (light verb) constructions built on this noun.
-          // Present only on nouns that function as the pre-verbal element of a
-          // compound verb (e.g. توبه کردن "to repent"). Rendered as a dedicated
-          // line below the headword: → <noun> <light-verb-inf> <translit> "meaning"
-          // Absent on verbs, adjectives, particles, etc.
-          "light_verb": [
-            {
-              "verb": "کردن",       // Persian light-verb infinitive
-              "translit": "kardan", // transliteration of the infinitive
-              "meaning": "to repent"
-            }
-          ],
-          // plural — plural forms of this noun. Required for pos="noun" unless
-          // light_verb is set (verbal nouns are exempt from the plural lint).
-          // suffixes: regular -hā / -ān plurals; broken: Arabic broken plurals.
-          // Per-form "note" is a short inline label; top-level "note" is a longer
-          // markdown explanation rendered as a sub-bullet.
-          "plural": {
-            "suffixes": [
-              {"persian": "نگه‌داشت‌ها", "translit": "-hā"}
-            ],
-            "broken": []
-          },
-          "warning": null,      // markdown string for ⚠️ note, or null
-          // etym is null or an object:
-          //   {"prose": "markdown string"}                         — non-Arabic
-          //   {"prose": "markdown string", "arabic_form": "..."}  — Arabic borrowing
-          //   {"prose": "...", "arabic_form": "...", "root": "x-y-z"}
-          //     — root triggers an additional lint warning if arabic_form is absent
-          // arabic_form is a controlled value from the list below; the renderer
-          // appends a colored tag linking to the matching section on arabic.html.
-          // Allowed arabic_form values:
-          //   Verbal nouns:  "Form I verbal noun" … "Form X verbal noun"
-          //   Active parts:  "Form I active participle" / "Form II active participle" /
-          //                  "Form III active participle" / "Form IV active participle" /
-          //                  "Form X active participle"
-          //   Passive parts: "Form I passive participle" / "Form II passive participle" /
-          //                  "Form IV passive participle"
-          //   Other:         "nominal pattern"  "elative (Form IV)"
-          "etym": null,
-          "family": null,
-          // "forms" is an ordered array. Each element is one of:
-          //   {"fa": "surface", "translit": "...", "desc": "..."}
-          //     — a registerable surface form; "fa" is the vocab-map lookup key;
-          //       "translit" and "desc" are optional
-          //   {"note": "..."}
-          //     — free prose note (no vocab-map registration)
-          // Do NOT put light-verb constructions here — use "light_verb" instead.
-          "forms": [
-            {
-              "fa": "نگه دارند",
-              "translit": "negah dār-and",
-              "desc": "3pl sbjv."
-            },
-            {
-              "fa": "نگه داشت",
-              "translit": "negah dāšt",
-              "desc": "past 3sg"
-            }
-          ]
-        },
-
-        // --- variant entry (archaic/surface form, not a citation-form lemma) ---
-        {
-          "type": "variant",
-          "persian": "گفتا",
-          "translit": "goftā",
-          "meaning": "archaic narrative past of `گفتن`; see [Grammar: Narrative -ā](#grammar-narrative-a)"
-        },
-
-        // --- grammar note ---
-        {
-          "type": "grammar-note",
-          "title": "Grammar: `ای کاش` + imperfect — wishing construction",
-          "body": "`ای کاش` introduces an unfulfilled wish. The verb takes the **past imperfect**.",
-          "examples": [
-            {
-              "ref": "Verse 9",
-              "ref_anchor": "verse-9",
-              "persian": "ای کاش تو هم می توانستی",
-              "translit": "ey kāš to ham mī-tavānestī",
-              "en": "O that thou mightest…"
-            }
-          ],
-          "closing": "Optional prose after the last example."
-        },
-
-        // --- no new lemmas marker ---
-        {
-          "type": "no-new-lemmas"
-        }
-      ]
-    }
-  ]
-}
-```
-
-**`می`/`نمی` convention**: do **not** create a headword entry for `می` or `نمی`. The imperfective prefix is treated as part of the verb it modifies. In source text rendering, when a `می`/`نمی` token is followed by a verb token that has a vocab entry, both are wrapped in a single `<a>` link to the verb's anchor. In `forms` entries, write `می` and the verb stem together in one backtick group: `` `می بیند` `` (not `` `می` `بیند` ``).
-
----
+`render_json.py` enforces these rules at build time and prints `stderr` warnings for every violation (missing glosses, missing translations, misordered vocab entries, unknown `arabic_form` values, etc.). Aim for a clean render with no warnings before pushing.
 
 ## Content conventions
-
-All editorial rules — what to include, how to write `Etym`/`Family`/`Forms`, grammar-note placement, numerals, ezafe marking, interlinear gloss abbreviations, and more — live in **[CONTENT_RULES.md](CONTENT_RULES.md)**.
 
 ### Transcription scheme
 
