@@ -102,7 +102,13 @@ python3 render_json.py \
   _site/study_guide/01_nephi/ch3.html
 ```
 
-Fix any `unlinked:` or `missing study section:` warnings printed to stderr.
+Fix any warnings printed to stderr (see the full list in the **Running the Renderer** section below). Once the render is clean, verify that all in-page anchor links resolve:
+
+```bash
+python3 check_links.py
+```
+
+`check_links.py` scans every HTML file in `_site/` and reports any `href="#…"` whose target `id="…"` does not exist in the same file. Fix broken links before pushing.
 
 ---
 
@@ -139,6 +145,9 @@ python3 render_json.py \
 
 # Full site
 python3 build_site.py
+
+# Verify all in-page anchor links resolve (run after build_site.py)
+python3 check_links.py
 ```
 
 Warnings printed to stderr:
