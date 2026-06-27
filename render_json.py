@@ -145,6 +145,47 @@ def _build_vocab_map_json(study: dict) -> dict[str, str]:
     return word_map
 
 
+def _build_pos_map_json(study: dict) -> dict[str, str]:
+    """Return {persian_form: pos} from the structured study JSON.
+
+    Mirrors `_build_vocab_map_json` but stores each headword's part of speech
+    (`noun`, `adj`, `propn`, `adp`, …) instead of its anchor, so source tokens
+    can be classified for the editorial-ezafe lint. Registers each headword's
+    `persian` and `id`, plus every full `fa` token in its `forms` array.
+
+    Compound forms are deliberately **not** split into components — a part's POS
+    can differ from the whole lexeme's (e.g. the noun `نصیحت` inside the compound
+    verb `نصیحت کردن`), and a wrong POS would mislead the lint. Diacritic-stripped
+    duplicates are registered as fallbacks, matching `_resolve_anchor`.
+    """
+    pos_map: dict[str, str] = {}
+
+    def _register(form: str, pos: str) -> None:
+        if not form or not pos or form in pos_map:
+            return
+        pos_map[form] = pos
+        clean = _DIACRITICS_RE.sub("", form)
+        if clean != form and clean not in pos_map:
+            pos_map[clean] = pos
+
+    for section in study.get("sections", []):
+        for entry in section.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            pos = entry.get("pos")
+            if not pos:
+                continue
+            _register(entry["persian"], pos)
+            if entry.get("id"):
+                _register(entry["id"], pos)
+            for form in entry.get("forms") or []:
+                fa = form.get("fa")
+                if fa and _PERSIAN_CHAR_RE.search(fa):
+                    _register(fa, pos)
+
+    return pos_map
+
+
 # ---------- source token rendering ----------
 
 def _resolve_anchor(lookup_key: str, word_map: dict[str, str]) -> str | None:
@@ -709,6 +750,254 @@ def _render_section(
     return "\n".join(parts)
 
 
+# ---------- editorial-ezafe lint ----------
+#
+# Persian very rarely juxtaposes a noun and a following noun or adjective with no
+# ezafe linker between them (true noun-noun compounds are uncommon), so an
+# unmarked noun→noun or noun→adjective adjacency is a strong signal that an
+# editorial ezafe (`"e": true`) was missed when the chapter was generated.
+# These checks are heuristic — eyeball each finding before acting on it.
+
+# POS that can host an ezafe (the head of an ezafe phrase) …
+_EZAFE_HEAD_POS = frozenset({"noun", "propn"})
+# … and POS that can follow it as the modifier (possessor noun or adjective).
+_EZAFE_MOD_POS = frozenset({"noun", "propn", "adj"})
+
+# Leipzig labels that mark a token as a (finite or non-finite) verb form. A
+# token glossed with any of these is functioning verbally here, whatever its
+# citation POS — so it is neither an ezafe head nor an ezafe modifier. This also
+# fixes noun/verb homographs that the POS map resolves to the noun (e.g. `هستی`
+# "you are", glossed `be-PRS-2SG`).
+_VERBAL_TAGS = frozenset({
+    "PST", "PRS", "FUT", "SBJV", "PTCP", "COP", "IMPF", "NARR", "PASS", "INF",
+})
+# English gloss stems of the common light/compound-verb operators. A nominal
+# directly before one of these is usually the preverbal element of a compound
+# verb (`فرمان دادن`, `راهی شدن`, `تکان خوردن`), not an ezafe head, so the pair
+# is suppressed.
+_LIGHT_VERB_STEMS = frozenset({
+    "become", "do", "make", "give", "strike", "hit", "beat", "take", "bring",
+    "pull", "draw", "eat", "find", "get", "hold", "throw", "put",
+})
+
+
+def _gloss_labels(gloss: str) -> list[str]:
+    """Split a Leipzig gloss into its labels (on `-`, `=`, and `.` boundaries)."""
+    return [m for m in re.split(r"[-=.]", gloss) if m]
+
+
+def _tok_gloss(tok: dict) -> str:
+    return (tok.get("gloss") or {}).get("gloss", "")
+
+
+def _token_has_ezafe(tok: dict) -> bool:
+    """True when a token already carries ezafe — editorially (`"e": true`), in the
+    interlinear gloss (an `EZ` clitic), or orthographically.
+
+    Orthographic ezafe is visible (and the publisher writes it) on:
+      - `ۀ`  he-ye ezafe on silent-`ه` words (`نگاشتۀ`, `همۀ`)
+      - `ِ`  an explicit kasra
+      - `های` plural + ezafe (the `ی` *is* the ezafe) — covers both fused nouns
+        (`ورقه‌های`, `چیزهای`) and the standalone plural clitic token `های`
+    The orthographic test is also robust to a mis-authored gloss (it does not
+    rely on the `EZ` label being present)."""
+    if tok.get("e"):
+        return True
+    if "EZ" in _gloss_labels(_tok_gloss(tok)):
+        return True
+    fa = tok.get("fa", "")
+    return fa.endswith(("ۀ", "ِ", "های"))
+
+
+def _is_verbal(tok: dict) -> bool:
+    """True when the token's gloss carries any verb-form label."""
+    return any(m in _VERBAL_TAGS for m in _gloss_labels(_tok_gloss(tok)))
+
+
+def _is_light_verb(tok: dict) -> bool:
+    """True for a verb token whose English stem is a common light-verb operator."""
+    labels = _gloss_labels(_tok_gloss(tok))
+    return (any(m in _VERBAL_TAGS for m in labels)
+            and any(m in _LIGHT_VERB_STEMS for m in labels))
+
+
+def _is_copula(tok: dict) -> bool:
+    """True for a copula token (`است`, `بود`, `باشد`, `هست`)."""
+    labels = _gloss_labels(_tok_gloss(tok))
+    return "COP" in labels or "be" in labels
+
+
+def _next_verb(toks: list, i: int) -> dict | None:
+    """The next word token after index `i`, skipping the می/نمی prefix tokens that
+    the publisher writes separately. Returns None if the next word is punctuation
+    or the list ends."""
+    j = i + 1
+    while j < len(toks) and toks[j].get("fa") in _MI_PREFIX:
+        j += 1
+    tok = toks[j] if j < len(toks) else None
+    return tok if tok and "fa" in tok else None
+
+
+def _is_clitic_tail(tok: dict) -> bool:
+    """True for a standalone clitic token that continues a noun group and so can
+    itself host the ezafe — e.g. the plural `های`/`ها` in `ورقه های برنجی`.
+    Detected as a gloss of grammatical labels only (no lexical stem) that
+    includes `PL`."""
+    labels = _gloss_labels(_tok_gloss(tok))
+    if not labels or "PL" not in labels:
+        return False
+    return all(m.isupper() or not m.isalpha() for m in labels)
+
+
+def _object_marker_follows(toks: list, start: int) -> bool:
+    """True if a `را` (ACC) marker appears within the same clause from `start`
+    onward — i.e. before the next verb or punctuation.
+
+    When it does, the noun phrase here is a marked direct object, so a bare noun
+    that precedes it is the clause subject, not the ezafe head: `لابان دارایی ما
+    را دید` is "Laban saw our property", not "*the property of Laban". Without
+    this, subject + object pairs are the lint's main false positive."""
+    for tok in toks[start:]:
+        if "fa" not in tok:          # punctuation closes the clause
+            return False
+        if _is_verbal(tok):          # the verb closes the object region
+            return False
+        if tok["fa"] == "را" or "ACC" in _gloss_labels(_tok_gloss(tok)):
+            return True
+    return False
+
+
+def _lint_ezafe(source: dict, word_map: dict, pos_map: dict, label: str) -> None:
+    """Warn on adjacent nominals with no ezafe between them (likely missing ezafe).
+
+    Findings are aggregated by word pair (like the `unlinked` lint) and printed
+    to stderr with the verses they occur in.
+    """
+    findings: dict[tuple[str, str], list[str]] = {}
+
+    for sec in source.get("sections", []):
+        if _section_type(sec) not in ("verse", "chapter-summary"):
+            continue
+        toks = sec.get("tokens") or []
+        loc = _section_heading(sec)[1]
+        for i in range(len(toks) - 1):
+            a, b = toks[i], toks[i + 1]
+            # Punctuation is its own token, so it breaks adjacency for us.
+            if "fa" not in a or "fa" not in b:
+                continue
+            if _token_has_ezafe(a) or _is_verbal(a) or _is_verbal(b):
+                continue
+            # B must be a real lexical modifier (noun / proper noun / adjective).
+            b_pos = _resolve_anchor(b.get("lemma") or b["fa"], pos_map)
+            if b_pos not in _EZAFE_MOD_POS:
+                continue
+            # A must be able to host the ezafe: a head noun, or a plural clitic
+            # tail continuing a preceding noun group.
+            if (_resolve_anchor(a.get("lemma") or a["fa"], pos_map) not in _EZAFE_HEAD_POS
+                    and not _is_clitic_tail(a)):
+                continue
+            # The verb following B reclassifies the A–B pair, not an ezafe phrase:
+            #   • B + light verb  → compound verb (`فرمان داده`, `راهی شد`)
+            #   • adjective + copula → predicate adjective (`لابان خشمگین بود`)
+            vtok = _next_verb(toks, i + 1)
+            if vtok and (_is_light_verb(vtok) or (b_pos == "adj" and _is_copula(vtok))):
+                continue
+            # B's phrase is a را-marked direct object → A is the subject, not an
+            # ezafe head.
+            if _object_marker_follows(toks, i + 2):
+                continue
+            # Skip components of one multiword lexeme (compound verb, fixed
+            # phrase): both tokens resolve to the same vocab entry.
+            a_anchor = _resolve_anchor(a.get("lemma") or a["fa"], word_map)
+            if a_anchor and a_anchor == _resolve_anchor(b.get("lemma") or b["fa"], word_map):
+                continue
+            findings.setdefault((a["fa"], b["fa"]), []).append(loc)
+
+    for (a_fa, b_fa), locs in sorted(findings.items(), key=lambda kv: -len(kv[1])):
+        count = f" (×{len(locs)})" if len(locs) > 1 else ""
+        uniq = ", ".join(dict.fromkeys(locs))
+        print(f"  {label}possible missing ezafe: {a_fa} → {b_fa}{count} — {uniq}",
+              file=sys.stderr)
+
+
+# ---------- gloss/token alignment lint ----------
+#
+# Each token's `gloss.src` is a romanization of its `fa`, so the two should share
+# the same leading consonant. When a clitic (`اش`, `را`, …) is split into its own
+# `fa` token but glossed as part of the previous fused word, every following
+# gloss shifts by one and the `src` values stop matching their `fa`. A run of
+# consecutive consonant mismatches is a strong signal of such a shift (isolated
+# transliteration quirks never form runs — see calibration in the commit).
+
+# Persian *strong* (unambiguous) consonants → a coarse Latin class. Vowels and
+# the ambiguous/weak letters (ا آ و ی ه ع ء) are deliberately omitted so they
+# never drive the comparison.
+_FA_CONSONANT = {
+    "ب": "b", "پ": "p", "ت": "t", "ط": "t", "د": "d", "ج": "j", "چ": "c",
+    "خ": "x", "ر": "r", "ز": "z", "ژ": "z", "س": "s", "ش": "s", "ص": "s",
+    "ض": "z", "ث": "s", "ذ": "z", "ظ": "z", "ف": "f", "ق": "q", "غ": "q",
+    "ک": "k", "ك": "k", "گ": "g", "ل": "l", "م": "m", "ن": "n",
+}
+# Latin letters used in `src` → the same classes. Includes the scholarly
+# transliteration variants (ṭ ṣ ẓ ż ṡ ṯ ḏ ġ …); the weak/neutral romanizations
+# (ḥ for ح, ʿ ʾ for ع ء) are intentionally absent, mirroring the omitted Persian
+# letters above.
+_SRC_CONSONANT = {
+    "b": "b", "p": "p", "t": "t", "ṭ": "t", "d": "d", "j": "j", "ǰ": "j",
+    "č": "c", "c": "c", "x": "x", "r": "r", "z": "z", "ž": "z", "ż": "z", "ẓ": "z",
+    "ḏ": "z", "s": "s", "š": "s", "ṣ": "s", "ṡ": "s", "ṯ": "s", "f": "f",
+    "q": "q", "ğ": "q", "ġ": "q", "k": "k", "g": "g", "l": "l", "m": "m",
+    "n": "n",
+}
+# A run this long of consecutive consonant mismatches flags the section. Clean
+# sections never exceed 1; real shifts produce runs of 5–25.
+_MISALIGN_RUN = 3
+
+
+def _lead_consonant(text: str, table: dict[str, str]) -> str | None:
+    """First strong consonant class in `text` per `table`, or None if it has none."""
+    for ch in text.lower():
+        if ch in table:
+            return table[ch]
+    return None
+
+
+def _lint_gloss_alignment(source: dict, label: str) -> None:
+    """Warn when a section's `gloss` objects look shifted off their `fa` tokens.
+
+    Walks each section's word tokens and counts the longest run of consecutive
+    tokens whose `fa` and `gloss.src` disagree on their leading consonant.
+    Tokens with no comparable consonant on either side are neutral (skipped,
+    they neither extend nor break a run)."""
+    for sec in source.get("sections", []):
+        toks = sec.get("tokens") or []
+        run = max_run = 0
+        start = max_start = None
+        for tok in toks:
+            if "fa" not in tok:
+                continue
+            fa_c = _lead_consonant(tok["fa"], _FA_CONSONANT)
+            src_c = _lead_consonant((tok.get("gloss") or {}).get("src", ""), _SRC_CONSONANT)
+            if fa_c is None or src_c is None:
+                continue  # neutral — can't compare this token
+            if fa_c == src_c:
+                run = 0
+                start = None
+            else:
+                if run == 0:
+                    start = tok
+                run += 1
+                if run > max_run:
+                    max_run, max_start = run, start
+
+        if max_run >= _MISALIGN_RUN and max_start is not None:
+            loc = _section_heading(sec)[1]
+            bad_src = (max_start.get("gloss") or {}).get("src", "")
+            print(f"  {label}gloss/token misalignment: {loc} — {max_run} consecutive "
+                  f"tokens whose gloss src is off (near `{max_start['fa']}`, "
+                  f"glossed `{bad_src}`)", file=sys.stderr)
+
+
 # ---------- main renderer ----------
 
 def render_chapter(
@@ -721,6 +1010,7 @@ def render_chapter(
 ) -> str:
     """Render chapter source + study JSON to a complete HTML document string."""
     word_map = _build_vocab_map_json(study)
+    pos_map = _build_pos_map_json(study)
     arabic_href = css_href.replace("styles.css", "arabic.html")
     unlinked: list[tuple[str, str]] = []
 
@@ -770,6 +1060,12 @@ def render_chapter(
                     print(f"  {label}gloss missing src: `{fa}` in {sec_desc}", file=sys.stderr)
                 if not g.get("gloss"):
                     print(f"  {label}gloss missing gloss field: `{fa}` in {sec_desc}", file=sys.stderr)
+
+    # Heuristic: flag adjacent nominals with no ezafe between them.
+    _lint_ezafe(source, word_map, pos_map, label)
+
+    # Flag sections whose gloss objects have shifted off their fa tokens.
+    _lint_gloss_alignment(source, label)
 
     body_parts: list[str] = [
         f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>',

@@ -156,3 +156,21 @@ Warnings printed to stderr:
 - `verb missing pres_stem: خواندن` — add `"pres_stem"` to that entry.
 - `noun missing plural: کتاب` — add `"plural"` or `"light_verb"` to that entry.
 - `vocab order: 'بسیار' first appears in Verse 4 but entry is in Verse 11 (too late)` — the headword entry is in the wrong study section. Move it to the section matching where it first appears in source. "too early" means the entry is before the word's first appearance; "too late" means after.
+- `possible missing ezafe: ورقه → برنجی — <location>` — **heuristic** check for unwritten editorial ezafe. A noun is directly followed by another noun/adjective with no ezafe marked between them, which usually means an `"e": true` (or, on a plural, the `ی` of `های`) was missed. Each finding is a candidate to **review, not auto-apply** — adjacent nominals can also be an unrelated subject + object (`لابان دارایی ما را دید` "Laban saw our property") or a fixed phrase (`از این رو` "therefore"), which are not ezafe sites. Add the ezafe if it belongs; otherwise ignore the line.
+- `gloss/token misalignment: <location> — N consecutive tokens whose gloss src is off (near ...)` — the `gloss` objects have shifted out of step with the `fa` tokens, so each token shows a neighbour's gloss. This almost always happens when a clitic (`اش`, `را`, `ش`) is split into its own `fa` token but glossed as part of the previous fused word. For example, the fused gloss `xāne-aš` is left on the `خانه` token, so every later gloss is one slot early:
+
+  ```json
+  {"fa": "خانه", "gloss": {"src": "xāne-aš", "gloss": "house-3SG.POSS"}},
+  {"fa": "اش",   "gloss": {"src": "rā",      "gloss": "ACC"}},
+  {"fa": "را",   "gloss": {"src": "tark",    "gloss": "abandonment"}}
+  ```
+
+  Fix by giving the split-off clitic its own gloss and re-pairing the rest:
+
+  ```json
+  {"fa": "خانه", "gloss": {"src": "xāne",  "gloss": "house"}},
+  {"fa": "اش",   "gloss": {"src": "-aš",   "gloss": "3SG.POSS"}},
+  {"fa": "را",   "gloss": {"src": "rā",    "gloss": "ACC"}}
+  ```
+
+  The check is reliable — it does not fire on a clean section — so always fix these.

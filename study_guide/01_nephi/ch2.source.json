@@ -29,72 +29,72 @@
         {
           "fa": "خانواده",
           "gloss": {
-            "src": "xānevāde-aš",
-            "gloss": "family-3SG.POSS"
+            "src": "xānevāde",
+            "gloss": "family"
           }
         },
         {
           "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "بیابانِ",
           "gloss": {
             "src": "bīyābān=e",
             "gloss": "wilderness=EZ"
           }
         },
         {
-          "fa": "بیابانِ",
+          "fa": "کنار",
+          "e": true,
           "gloss": {
             "src": "kenār=e",
             "gloss": "beside=EZ"
           }
         },
         {
-          "fa": "کنار",
-          "e": true,
+          "fa": "دریای",
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
           }
         },
         {
-          "fa": "دریای",
+          "fa": "سرخ",
           "gloss": {
             "src": "sorx",
             "gloss": "red"
           }
         },
         {
-          "fa": "سرخ",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "بَرد",
           "gloss": {
             "src": "bar-ad",
             "gloss": "carry-PRS-3SG"
-          }
-        },
-        {
-          "fa": "بَرد",
-          "gloss": {
-            "src": "ānhā",
-            "gloss": "they"
           }
         },
         {
@@ -103,51 +103,51 @@
         {
           "fa": "آنها",
           "gloss": {
-            "src": "dārāyī=ye",
-            "gloss": "possessions=EZ"
+            "src": "ānhā",
+            "gloss": "they"
           }
         },
         {
           "fa": "دارایی",
           "e": true,
           "gloss": {
+            "src": "dārāyī=ye",
+            "gloss": "possessions=EZ"
+          }
+        },
+        {
+          "fa": "خود",
+          "gloss": {
             "src": "xod",
             "gloss": "own"
           }
         },
         {
-          "fa": "خود",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "باقی",
           "gloss": {
             "src": "bāqī",
             "gloss": "remaining"
           }
         },
         {
-          "fa": "باقی",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "گذارند",
           "gloss": {
             "src": "gozār-and",
             "gloss": "leave-PRS-3PL"
-          }
-        },
-        {
-          "fa": "گذارند",
-          "gloss": {
-            "src": "Liḥāy",
-            "gloss": "Lehi"
           }
         },
         {
@@ -156,134 +156,134 @@
         {
           "fa": "لیحای",
           "gloss": {
+            "src": "Liḥāy",
+            "gloss": "Lehi"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "سَروَر",
           "gloss": {
             "src": "Sarvar",
             "gloss": "Lord"
           }
         },
         {
-          "fa": "سَروَر",
+          "fa": "یک",
           "gloss": {
             "src": "yek",
             "gloss": "one"
           }
         },
         {
-          "fa": "یک",
+          "fa": "قربانی",
           "gloss": {
             "src": "qorbānī",
             "gloss": "sacrifice"
           }
         },
         {
-          "fa": "قربانی",
+          "fa": "پیشکش",
           "gloss": {
             "src": "pīškeš",
             "gloss": "offering"
           }
         },
         {
-          "fa": "پیشکش",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "کند",
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-PRS-3SG"
           }
         },
         {
-          "fa": "کند",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "پسرانش",
           "gloss": {
             "src": "pesar-ān-aš",
             "gloss": "son-PL-3SG.POSS"
           }
         },
         {
-          "fa": "پسرانش",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "آموزد",
           "gloss": {
             "src": "āmūz-ad",
             "gloss": "teach-PRS-3SG"
           }
         },
         {
-          "fa": "آموزد",
+          "fa": "تا",
           "gloss": {
             "src": "tā",
             "gloss": "so.that"
           }
         },
         {
-          "fa": "تا",
+          "fa": "فرمان",
           "gloss": {
             "src": "farmān",
             "gloss": "command"
           }
         },
         {
-          "fa": "فرمان",
+          "fa": "ها",
           "gloss": {
             "src": "hā",
             "gloss": "PL"
           }
         },
         {
-          "fa": "ها",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "نگه",
           "gloss": {
             "src": "negah",
             "gloss": "guard"
           }
         },
         {
-          "fa": "نگه",
+          "fa": "دارند",
           "gloss": {
             "src": "dār-and",
             "gloss": "hold-SBJV-3PL"
-          }
-        },
-        {
-          "fa": "دارند",
-          "gloss": {
-            "src": "Lāmān",
-            "gloss": "Laman"
           }
         },
         {
@@ -292,57 +292,57 @@
         {
           "fa": "لامان",
           "gloss": {
+            "src": "Lāmān",
+            "gloss": "Laman"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "لموئیل",
           "gloss": {
             "src": "Lamūʾīl",
             "gloss": "Lemuel"
           }
         },
         {
-          "fa": "لموئیل",
+          "fa": "علیه",
           "gloss": {
             "src": "ʿalayhe",
             "gloss": "against"
           }
         },
         {
-          "fa": "علیه",
+          "fa": "پدرشان",
           "gloss": {
             "src": "pedar-ešān",
             "gloss": "father-3PL.POSS"
           }
         },
         {
-          "fa": "پدرشان",
+          "fa": "غُرولند",
           "gloss": {
             "src": "qorolond",
             "gloss": "murmuring"
           }
         },
         {
-          "fa": "غُرولند",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "کنند",
           "gloss": {
             "src": "kon-and",
             "gloss": "do-PRS-3PL"
-          }
-        },
-        {
-          "fa": "کنند",
-          "gloss": {
-            "src": "Nīfāy",
-            "gloss": "Nephi"
           }
         },
         {
@@ -351,64 +351,64 @@
         {
           "fa": "نیفای",
           "gloss": {
+            "src": "Nīfāy",
+            "gloss": "Nephi"
+          }
+        },
+        {
+          "fa": "مُطیع",
+          "gloss": {
             "src": "motīʿ",
             "gloss": "obedient"
           }
         },
         {
-          "fa": "مُطیع",
+          "fa": "است",
           "gloss": {
             "src": "ast",
             "gloss": "COP-3SG"
           }
         },
         {
-          "fa": "است",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "با",
           "gloss": {
             "src": "bā",
             "gloss": "with"
           }
         },
         {
-          "fa": "با",
+          "fa": "ایمان",
           "gloss": {
             "src": "īmān",
             "gloss": "faith"
           }
         },
         {
-          "fa": "ایمان",
+          "fa": "نیایش",
           "gloss": {
             "src": "niyāyeš",
             "gloss": "prayer"
           }
         },
         {
-          "fa": "نیایش",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "کند",
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-PRS-3SG"
-          }
-        },
-        {
-          "fa": "کند",
-          "gloss": {
-            "src": "Sarvar",
-            "gloss": "Lord"
           }
         },
         {
@@ -417,113 +417,113 @@
         {
           "fa": "سَروَر",
           "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
             "src": "bā",
             "gloss": "with"
           }
         },
         {
-          "fa": "با",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "او",
+          "fa": "سخن",
           "gloss": {
             "src": "soxan",
             "gloss": "speech"
           }
         },
         {
-          "fa": "سخن",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "گوید",
           "gloss": {
             "src": "gūy-ad",
             "gloss": "say-PRS-3SG"
           }
         },
         {
-          "fa": "گوید",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "او",
+          "fa": "برگزیده",
           "gloss": {
             "src": "bargozīde",
             "gloss": "chosen"
           }
         },
         {
-          "fa": "برگزیده",
+          "fa": "می",
           "gloss": {
             "src": "mī",
             "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "شود",
           "gloss": {
             "src": "šav-ad",
             "gloss": "become-PASS-3SG"
           }
         },
         {
-          "fa": "شود",
+          "fa": "تا",
           "gloss": {
             "src": "tā",
             "gloss": "so.that"
           }
         },
         {
-          "fa": "تا",
+          "fa": "بر",
           "gloss": {
             "src": "bar",
             "gloss": "over"
           }
         },
         {
-          "fa": "بر",
+          "fa": "برادرانش",
           "gloss": {
             "src": "barādar-ān-aš",
             "gloss": "brother-PL-3SG.POSS"
           }
         },
         {
-          "fa": "برادرانش",
+          "fa": "فرمانروایی",
           "gloss": {
             "src": "farmān-ravāyī",
             "gloss": "reign"
           }
         },
         {
-          "fa": "فرمانروایی",
+          "fa": "کند",
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-SBJV-3SG"
-          }
-        },
-        {
-          "fa": "کند",
-          "gloss": {
-            "src": "nazdīk",
-            "gloss": "near"
           }
         },
         {
@@ -532,40 +532,44 @@
         {
           "fa": "نزدیک",
           "gloss": {
+            "src": "nazdīk",
+            "gloss": "near"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "۶۰۰",
           "gloss": {
             "src": "600",
             "gloss": "600"
           }
         },
         {
-          "fa": "۶۰۰",
+          "fa": "پیش",
           "gloss": {
             "src": "pīš",
             "gloss": "before"
           }
         },
         {
-          "fa": "پیش",
+          "fa": "از",
           "gloss": {
             "src": "az",
             "gloss": "from"
           }
         },
         {
-          "fa": "از",
+          "fa": "میلاد",
           "gloss": {
             "src": "mīlād",
             "gloss": "birth"
           }
-        },
-        {
-          "fa": "میلاد"
         },
         {
           "p": "."
@@ -1179,64 +1183,72 @@
         {
           "fa": "می",
           "gloss": {
-            "src": "mī-bāyestī",
-            "gloss": "IMPF-must-PST.3SG"
+            "src": "mī",
+            "gloss": "IMPF"
           }
         },
         {
           "fa": "بایستی",
           "gloss": {
-            "src": "xānevāde-aš",
-            "gloss": "family-3SG.POSS"
+            "src": "bāyestī",
+            "gloss": "must-PST.3SG"
           }
         },
         {
           "fa": "خانواده",
+          "gloss": {
+            "src": "xānevāde",
+            "gloss": "family"
+          }
+        },
+        {
+          "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "اش",
+          "fa": "بردارد",
           "gloss": {
             "src": "bardār-ad",
             "gloss": "take.up-SBJV.3SG"
           }
         },
         {
-          "fa": "را",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "بردارد",
+          "fa": "راهی",
           "gloss": {
             "src": "rāhī",
             "gloss": "departing"
           }
         },
         {
-          "fa": "و",
+          "fa": "بیابان",
           "gloss": {
             "src": "bīyābān",
             "gloss": "wilderness"
           }
         },
         {
-          "fa": "راهی",
+          "fa": "شود",
           "gloss": {
             "src": "šavad",
             "gloss": "become-SBJV.3SG"
           }
-        },
-        {
-          "fa": "بیابان"
-        },
-        {
-          "fa": "شود"
         },
         {
           "p": "."
@@ -1346,50 +1358,50 @@
         {
           "fa": "آنچنان",
           "gloss": {
-            "src": "az-īn-ru",
-            "gloss": "therefore"
-          }
-        },
-        {
-          "fa": "که",
-          "gloss": {
             "src": "āncenān",
             "gloss": "just.as"
           }
         },
         {
-          "fa": "سَروَر",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "COMP"
           }
         },
         {
-          "fa": "به",
+          "fa": "سَروَر",
           "gloss": {
             "src": "Sarvar",
             "gloss": "Lord"
           }
         },
         {
-          "fa": "او",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "فرمان",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "داد",
+          "fa": "فرمان",
           "gloss": {
             "src": "farmān",
             "gloss": "command"
+          }
+        },
+        {
+          "fa": "داد",
+          "gloss": {
+            "src": "dād",
+            "gloss": "gave-PST.3SG"
           }
         },
         {
@@ -1398,15 +1410,15 @@
         {
           "fa": "انجام",
           "gloss": {
-            "src": "dād",
-            "gloss": "gave-PST.3SG"
+            "src": "anjām",
+            "gloss": "completion"
           }
         },
         {
           "fa": "داد",
           "gloss": {
-            "src": "anjām",
-            "gloss": "completion"
+            "src": "dād",
+            "gloss": "gave-PST.3SG"
           }
         },
         {
@@ -1502,68 +1514,68 @@
         {
           "fa": "خانه",
           "gloss": {
-            "src": "xāne-aš",
-            "gloss": "house-3SG.POSS"
+            "src": "xāne",
+            "gloss": "house"
           }
         },
         {
           "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "ترک",
           "gloss": {
             "src": "tark",
             "gloss": "abandonment"
           }
         },
         {
-          "fa": "ترک",
+          "fa": "کرد",
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
           }
         },
         {
-          "fa": "کرد",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
           "p": "،"
         },
         {
           "fa": "و",
           "gloss": {
-            "src": "sarzamīn=e",
-            "gloss": "land=EZ"
+            "src": "o",
+            "gloss": "and"
           }
         },
         {
           "fa": "سرزمین",
           "e": true,
           "gloss": {
-            "src": "mīrāsī-aš",
-            "gloss": "inherited-3SG.POSS"
+            "src": "sarzamīn=e",
+            "gloss": "land=EZ"
           }
         },
         {
           "fa": "میراثیش",
           "gloss": {
-            "src": "rā",
-            "gloss": "ACC"
+            "src": "mīrāsī-aš",
+            "gloss": "inherited-3SG.POSS"
           }
         },
         {
           "fa": "را",
           "gloss": {
-            "src": "o",
-            "gloss": "and"
+            "src": "rā",
+            "gloss": "ACC"
           }
         },
         {
@@ -1571,16 +1583,40 @@
         },
         {
           "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "طلایش",
           "gloss": {
             "src": "ṭalā-aš",
             "gloss": "gold-3SG.POSS"
           }
         },
         {
-          "fa": "طلایش",
+          "p": "،"
+        },
+        {
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
+          }
+        },
+        {
+          "fa": "نقره",
+          "gloss": {
+            "src": "noqre",
+            "gloss": "silver"
+          }
+        },
+        {
+          "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
           }
         },
         {
@@ -1589,153 +1625,129 @@
         {
           "fa": "و",
           "gloss": {
-            "src": "noqre-aš",
-            "gloss": "silver-3SG.POSS"
-          }
-        },
-        {
-          "fa": "نقره",
-          "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "اش",
+          "fa": "چیزهای",
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "گرانبهایش",
           "gloss": {
             "src": "gerānbahā-aš",
             "gloss": "precious-3SG.POSS"
           }
         },
         {
-          "fa": "چیزهای",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "گرانبهایش",
+          "p": "،"
+        },
+        {
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "را",
+          "fa": "هیچ",
           "gloss": {
             "src": "hīč",
             "gloss": "any"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "چیزی",
           "gloss": {
             "src": "čīzī",
             "gloss": "thing-INDEF"
           }
         },
         {
-          "fa": "هیچ",
+          "fa": "بجز",
           "gloss": {
             "src": "be-joz",
             "gloss": "except"
           }
         },
         {
-          "fa": "چیزی",
+          "fa": "خانواده",
           "gloss": {
-            "src": "xānevāde-aš",
-            "gloss": "family-3SG.POSS"
+            "src": "xānevāde",
+            "gloss": "family"
           }
         },
         {
-          "fa": "بجز",
+          "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "خانواده",
+          "fa": "آذوقه",
           "gloss": {
             "src": "āzuqe",
             "gloss": "provisions"
           }
         },
         {
-          "fa": "اش",
+          "p": "،"
+        },
+        {
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "چادرها",
           "gloss": {
             "src": "čādar-hā",
             "gloss": "tent-PL"
           }
         },
         {
-          "fa": "آذوقه",
+          "fa": "با",
           "gloss": {
             "src": "bā",
             "gloss": "with"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "خودش",
           "gloss": {
             "src": "xod-aš",
             "gloss": "self-3SG"
           }
         },
         {
-          "fa": "چادرها",
+          "fa": "نبرد",
           "gloss": {
             "src": "na-bord",
             "gloss": "NEG-carried-PST.3SG"
-          }
-        },
-        {
-          "fa": "با",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
-          "fa": "خودش",
-          "gloss": {
-            "src": "rāhī",
-            "gloss": "departing"
-          }
-        },
-        {
-          "fa": "نبرد",
-          "gloss": {
-            "src": "bīyābān",
-            "gloss": "wilderness"
           }
         },
         {
@@ -1744,18 +1756,30 @@
         {
           "fa": "و",
           "gloss": {
-            "src": "šod",
-            "gloss": "became-PST.3SG"
+            "src": "o",
+            "gloss": "and"
           }
         },
         {
-          "fa": "راهی"
+          "fa": "راهی",
+          "gloss": {
+            "src": "rāhī",
+            "gloss": "departing"
+          }
         },
         {
-          "fa": "بیابان"
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
         },
         {
-          "fa": "شد"
+          "fa": "شد",
+          "gloss": {
+            "src": "šod",
+            "gloss": "became-PST.3SG"
+          }
         },
         {
           "p": "."
@@ -1973,15 +1997,15 @@
         {
           "fa": "خانواده",
           "gloss": {
-            "src": "xānevāde-aš",
-            "gloss": "family-3SG.POSS"
+            "src": "xānevāde",
+            "gloss": "family"
           }
         },
         {
           "fa": "اش",
           "gloss": {
-            "src": "ke",
-            "gloss": "which"
+            "src": "aš",
+            "gloss": "3SG.POSS"
           }
         },
         {
@@ -1990,26 +2014,36 @@
         {
           "fa": "که",
           "gloss": {
+            "src": "ke",
+            "gloss": "which"
+          }
+        },
+        {
+          "fa": "برگرفته",
+          "gloss": {
             "src": "bargerefte",
             "gloss": "taken-from-PP"
           }
         },
         {
-          "fa": "برگرفته",
+          "fa": "از",
           "gloss": {
             "src": "az",
             "gloss": "from"
           }
         },
         {
-          "fa": "از",
+          "fa": "مادرم",
           "gloss": {
             "src": "mādar-am",
             "gloss": "mother-1SG.POSS"
           }
         },
         {
-          "fa": "مادرم",
+          "p": "،"
+        },
+        {
+          "fa": "ثریّا",
           "gloss": {
             "src": "Ṡarayyā",
             "gloss": "Sariah"
@@ -2019,35 +2053,25 @@
           "p": "،"
         },
         {
-          "fa": "ثریّا",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "برادران",
+          "e": true,
           "gloss": {
             "src": "barādarān=e",
             "gloss": "brother-PL=EZ"
           }
         },
         {
-          "fa": "برادران",
-          "e": true,
+          "fa": "ارشدم",
           "gloss": {
             "src": "aršad-am",
             "gloss": "eldest-1SG.POSS"
-          }
-        },
-        {
-          "fa": "ارشدم",
-          "gloss": {
-            "src": "ke",
-            "gloss": "which"
           }
         },
         {
@@ -2056,15 +2080,15 @@
         {
           "fa": "که",
           "gloss": {
-            "src": "Lāmān",
-            "gloss": "Laman"
+            "src": "ke",
+            "gloss": "which"
           }
         },
         {
           "fa": "لامان",
           "gloss": {
-            "src": "Lamūʾīl",
-            "gloss": "Lemuel"
+            "src": "Lāmān",
+            "gloss": "Laman"
           }
         },
         {
@@ -2073,29 +2097,29 @@
         {
           "fa": "لموئیل",
           "gloss": {
+            "src": "Lamūʾīl",
+            "gloss": "Lemuel"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "سام",
           "gloss": {
             "src": "Sām",
             "gloss": "Sam"
           }
         },
         {
-          "fa": "سام",
+          "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
-        },
-        {
-          "fa": "بودند",
-          "gloss": {
-            "src": "dar",
-            "gloss": "in"
           }
         },
         {
@@ -2104,26 +2128,30 @@
         {
           "fa": "در",
           "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
             "src": "bīyābān",
             "gloss": "wilderness"
           }
         },
         {
-          "fa": "بیابان",
+          "fa": "مسافرت",
           "gloss": {
             "src": "mosāferat",
             "gloss": "journey"
           }
         },
         {
-          "fa": "مسافرت",
+          "fa": "کرد",
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
           }
-        },
-        {
-          "fa": "کرد"
         },
         {
           "p": "."
@@ -2623,15 +2651,15 @@
         {
           "fa": "می",
           "gloss": {
-            "src": "mī-šod",
-            "gloss": "IMPF-became-PST.3SG"
+            "src": "mī",
+            "gloss": "IMPF"
           }
         },
         {
           "fa": "شد",
           "gloss": {
-            "src": "o",
-            "gloss": "and"
+            "src": "šod",
+            "gloss": "became-PST.3SG"
           }
         },
         {
@@ -2640,61 +2668,65 @@
         {
           "fa": "و",
           "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "وادی",
+          "gloss": {
             "src": "vādī",
             "gloss": "valley"
           }
         },
         {
-          "fa": "وادی",
+          "fa": "در",
           "gloss": {
             "src": "dar",
             "gloss": "in"
           }
         },
         {
-          "fa": "در",
+          "fa": "مرزهای",
           "gloss": {
             "src": "marz-hā=ye",
             "gloss": "border-PL=EZ"
           }
         },
         {
-          "fa": "مرزهای",
+          "fa": "نزدیک",
           "gloss": {
             "src": "nazdīk",
             "gloss": "near"
           }
         },
         {
-          "fa": "نزدیک",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "دهانۀ",
           "gloss": {
             "src": "dahāne=ye",
             "gloss": "mouth=EZ"
           }
         },
         {
-          "fa": "دهانۀ",
+          "fa": "آن",
           "gloss": {
             "src": "ān",
             "gloss": "that"
           }
         },
         {
-          "fa": "آن",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
           }
-        },
-        {
-          "fa": "بود"
         },
         {
           "p": "."
@@ -2807,15 +2839,15 @@
         {
           "fa": "می",
           "gloss": {
-            "src": "mī-šodand",
-            "gloss": "IMPF-became-PST.3PL"
+            "src": "mī",
+            "gloss": "IMPF"
           }
         },
         {
           "fa": "شدند",
           "gloss": {
-            "src": "ū",
-            "gloss": "3SG"
+            "src": "šodand",
+            "gloss": "became-PST.3PL"
           }
         },
         {
@@ -2824,36 +2856,36 @@
         {
           "fa": "او",
           "gloss": {
+            "src": "ū",
+            "gloss": "3SG"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
             "src": "bar",
             "gloss": "to"
           }
         },
         {
-          "fa": "بر",
+          "fa": "لامان",
           "gloss": {
             "src": "Lāmān",
             "gloss": "Laman"
           }
         },
         {
-          "fa": "لامان",
+          "fa": "سخن",
           "gloss": {
             "src": "soxan",
             "gloss": "speech"
           }
         },
         {
-          "fa": "سخن",
+          "fa": "گفت",
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
-        },
-        {
-          "fa": "گفت",
-          "gloss": {
-            "src": "goftā",
-            "gloss": "said.he-NARR"
           }
         },
         {
@@ -2862,8 +2894,8 @@
         {
           "fa": "گفتا",
           "gloss": {
-            "src": "ey",
-            "gloss": "O"
+            "src": "goftā",
+            "gloss": "said.he-NARR"
           }
         },
         {
@@ -2872,106 +2904,114 @@
         {
           "fa": "ای",
           "gloss": {
+            "src": "ey",
+            "gloss": "O"
+          }
+        },
+        {
+          "fa": "کاش",
+          "gloss": {
             "src": "kāš",
             "gloss": "would.that"
           }
         },
         {
-          "fa": "کاش",
+          "fa": "تو",
           "gloss": {
             "src": "to",
             "gloss": "2SG"
           }
         },
         {
-          "fa": "تو",
+          "fa": "هم",
           "gloss": {
             "src": "ham",
             "gloss": "also"
           }
         },
         {
-          "fa": "هم",
+          "fa": "می",
           "gloss": {
-            "src": "mī-tavānestī",
-            "gloss": "IMPF-could-PST.2SG"
+            "src": "mī",
+            "gloss": "IMPF"
           }
         },
         {
-          "fa": "می",
+          "fa": "توانستی",
+          "gloss": {
+            "src": "tavānestī",
+            "gloss": "could-PST.2SG"
+          }
+        },
+        {
+          "fa": "مانند",
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
           }
         },
         {
-          "fa": "توانستی",
+          "fa": "این",
           "gloss": {
             "src": "īn",
             "gloss": "this"
           }
         },
         {
-          "fa": "مانند",
+          "fa": "رودخانه",
           "gloss": {
             "src": "rūdxāne",
             "gloss": "river"
           }
         },
         {
-          "fa": "این",
+          "fa": "باشی",
           "gloss": {
             "src": "bāšī",
             "gloss": "be-SBJV.2SG"
           }
         },
         {
-          "fa": "رودخانه",
+          "fa": "پیوسته",
           "gloss": {
             "src": "pīvaste",
             "gloss": "continuously"
           }
         },
         {
-          "fa": "باشی",
+          "fa": "روانه",
           "gloss": {
             "src": "ravāne",
             "gloss": "flowing"
           }
         },
         {
-          "fa": "پیوسته",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "toward"
           }
         },
         {
-          "fa": "روانه",
+          "fa": "سرچشمۀ",
           "gloss": {
             "src": "sarčašme=ye",
             "gloss": "source=EZ"
           }
         },
         {
-          "fa": "به",
+          "fa": "همۀ",
           "gloss": {
             "src": "hame=ye",
             "gloss": "all=EZ"
           }
         },
         {
-          "fa": "سرچشمۀ",
+          "fa": "پرهیزکاریها",
           "gloss": {
             "src": "parhīzkārī-hā",
             "gloss": "righteousness-PL"
           }
-        },
-        {
-          "fa": "همۀ"
-        },
-        {
-          "fa": "پرهیزکاریها"
         },
         {
           "p": "!"
@@ -3073,43 +3113,43 @@
         {
           "fa": "می",
           "gloss": {
-            "src": "mī-tavānestī",
-            "gloss": "IMPF-could-PST.2SG"
+            "src": "mī",
+            "gloss": "IMPF"
           }
         },
         {
           "fa": "توانستی",
+          "gloss": {
+            "src": "tavānestī",
+            "gloss": "could-PST.2SG"
+          }
+        },
+        {
+          "fa": "مانند",
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
           }
         },
         {
-          "fa": "مانند",
+          "fa": "این",
           "gloss": {
             "src": "īn",
             "gloss": "this"
           }
         },
         {
-          "fa": "این",
+          "fa": "وادی",
           "gloss": {
             "src": "vādī",
             "gloss": "valley"
           }
         },
         {
-          "fa": "وادی",
+          "fa": "باشی",
           "gloss": {
             "src": "bāšī",
             "gloss": "be-SBJV.2SG"
-          }
-        },
-        {
-          "fa": "باشی",
-          "gloss": {
-            "src": "pāydār",
-            "gloss": "steadfast"
           }
         },
         {
@@ -3118,22 +3158,22 @@
         {
           "fa": "پایدار",
           "gloss": {
-            "src": "o",
-            "gloss": "and"
+            "src": "pāydār",
+            "gloss": "steadfast"
           }
         },
         {
           "fa": "و",
           "gloss": {
-            "src": "ostovār",
-            "gloss": "firm"
+            "src": "o",
+            "gloss": "and"
           }
         },
         {
           "fa": "استوار",
           "gloss": {
-            "src": "o",
-            "gloss": "and"
+            "src": "ostovār",
+            "gloss": "firm"
           }
         },
         {
@@ -3142,43 +3182,51 @@
         {
           "fa": "و",
           "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پابرجا",
+          "gloss": {
             "src": "pābar-jā",
             "gloss": "standing.firm"
           }
         },
         {
-          "fa": "پابرجا",
+          "fa": "در",
           "gloss": {
             "src": "dar",
             "gloss": "in"
           }
         },
         {
-          "fa": "در",
+          "fa": "نگهداری",
           "gloss": {
             "src": "negah-dārī=ye",
             "gloss": "keeping=EZ"
           }
         },
         {
-          "fa": "نگهداری",
+          "fa": "فرمان",
           "gloss": {
-            "src": "farmān-hā=ye",
-            "gloss": "command-PL=EZ"
+            "src": "farmān",
+            "gloss": "command"
           }
         },
         {
-          "fa": "فرمان",
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
           "gloss": {
             "src": "Sarvar",
             "gloss": "Lord"
           }
-        },
-        {
-          "fa": "های"
-        },
-        {
-          "fa": "سَروَر"
         },
         {
           "p": "!"
@@ -3250,43 +3298,43 @@
         {
           "fa": "خیره",
           "gloss": {
-            "src": "xīre-sarī=ye",
-            "gloss": "stubbornness=EZ"
+            "src": "xīre",
+            "gloss": "stiff"
           }
         },
         {
           "fa": "سری",
+          "gloss": {
+            "src": "sarī=ye",
+            "gloss": "necked=EZ"
+          }
+        },
+        {
+          "fa": "لامان",
           "gloss": {
             "src": "Lāmān",
             "gloss": "Laman"
           }
         },
         {
-          "fa": "لامان",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "لموئیل",
           "gloss": {
             "src": "Lamūʾīl",
             "gloss": "Lemuel"
           }
         },
         {
-          "fa": "لموئیل",
+          "fa": "گفت",
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
-        },
-        {
-          "fa": "گفت",
-          "gloss": {
-            "src": "zīrā",
-            "gloss": "for"
           }
         },
         {
@@ -3295,79 +3343,79 @@
         {
           "fa": "زیرا",
           "gloss": {
+            "src": "zīrā",
+            "gloss": "for"
+          }
+        },
+        {
+          "fa": "بنگرید",
+          "gloss": {
             "src": "benegarīd",
             "gloss": "behold-IMP.2PL"
           }
         },
         {
-          "fa": "بنگرید",
+          "fa": "آنها",
           "gloss": {
             "src": "ānhā",
             "gloss": "they"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "در",
           "gloss": {
             "src": "dar",
             "gloss": "about"
           }
         },
         {
-          "fa": "در",
+          "fa": "مورد",
+          "e": true,
           "gloss": {
             "src": "mord=e",
             "gloss": "matter=EZ"
           }
         },
         {
-          "fa": "مورد",
-          "e": true,
+          "fa": "چیزهای",
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
           }
         },
         {
-          "fa": "چیزهای",
+          "fa": "بسیاری",
           "gloss": {
             "src": "besyār-ī",
             "gloss": "many-INDEF"
           }
         },
         {
-          "fa": "بسیاری",
+          "fa": "علیه",
           "gloss": {
             "src": "ʿalayhe",
             "gloss": "against"
           }
         },
         {
-          "fa": "علیه",
+          "fa": "پدرشان",
           "gloss": {
             "src": "pedar-ešān",
             "gloss": "father-3PL.POSS"
           }
         },
         {
-          "fa": "پدرشان",
+          "fa": "غُرولند",
           "gloss": {
             "src": "qorolond",
             "gloss": "murmuring"
           }
         },
         {
-          "fa": "غُرولند",
+          "fa": "کردند",
           "gloss": {
             "src": "kardand",
             "gloss": "did-PST.3PL"
-          }
-        },
-        {
-          "fa": "کردند",
-          "gloss": {
-            "src": "barāye",
-            "gloss": "for"
           }
         },
         {
@@ -3376,51 +3424,51 @@
         {
           "fa": "برای",
           "gloss": {
+            "src": "barāye",
+            "gloss": "for"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
             "src": "īnke",
             "gloss": "that"
           }
         },
         {
-          "fa": "اینکه",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "او",
+          "fa": "یک",
           "gloss": {
             "src": "yek",
             "gloss": "a"
           }
         },
         {
-          "fa": "یک",
+          "fa": "مرد",
+          "e": true,
           "gloss": {
             "src": "mard",
             "gloss": "man"
           }
         },
         {
-          "fa": "مرد",
-          "e": true,
+          "fa": "رؤیانگر",
           "gloss": {
             "src": "roʾyānegar",
             "gloss": "visionary"
           }
         },
         {
-          "fa": "رؤیانگر",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
-        },
-        {
-          "fa": "بود",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
           }
         },
         {
@@ -3428,189 +3476,189 @@
         },
         {
           "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آنها",
           "gloss": {
             "src": "ānhā",
             "gloss": "them"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "بیرون",
           "gloss": {
             "src": "bīrūn",
             "gloss": "outside"
           }
         },
         {
-          "fa": "بیرون",
+          "fa": "آمدن",
           "gloss": {
             "src": "āmadan=e",
             "gloss": "coming=EZ"
           }
         },
         {
-          "fa": "آمدن",
+          "fa": "از",
           "gloss": {
             "src": "az",
             "gloss": "from"
           }
         },
         {
-          "fa": "از",
+          "fa": "سرزمین",
+          "e": true,
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
           }
         },
         {
-          "fa": "سرزمین",
-          "e": true,
+          "fa": "اورشلیم",
           "gloss": {
             "src": "Orušalīm",
             "gloss": "Jerusalem"
           }
         },
         {
-          "fa": "اورشلیم",
+          "fa": "راهنمایی",
           "gloss": {
             "src": "rāhnamāyī",
             "gloss": "guidance"
           }
         },
         {
-          "fa": "راهنمایی",
+          "fa": "کرده",
           "gloss": {
             "src": "karde",
             "gloss": "done-PP"
           }
         },
         {
-          "fa": "کرده",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
           }
         },
         {
-          "fa": "بود",
-          "gloss": {
-            "src": "tā",
-            "gloss": "so.that"
-          }
-        },
-        {
           "p": "،"
         },
         {
           "fa": "تا",
           "gloss": {
-            "src": "sarzamīn=e",
-            "gloss": "land=EZ"
+            "src": "tā",
+            "gloss": "so.that"
           }
         },
         {
           "fa": "سرزمین",
           "e": true,
           "gloss": {
+            "src": "sarzamīn=e",
+            "gloss": "land=EZ"
+          }
+        },
+        {
+          "fa": "میراثیشان",
+          "gloss": {
             "src": "mīrāsī-šān",
             "gloss": "inherited-3PL.POSS"
           }
         },
         {
-          "fa": "میراثیشان",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "و",
+          "fa": "طلایشان",
           "gloss": {
             "src": "ṭalā-šān",
             "gloss": "gold-3PL.POSS"
           }
         },
         {
-          "fa": "طلایشان",
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
-          }
-        },
-        {
-          "fa": "و",
-          "gloss": {
-            "src": "noqre-šān",
-            "gloss": "silver-3PL.POSS"
           }
         },
         {
           "fa": "نقره",
           "gloss": {
+            "src": "noqre",
+            "gloss": "silver"
+          }
+        },
+        {
+          "fa": "شان",
+          "gloss": {
+            "src": "šān",
+            "gloss": "3PL.POSS"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "fa": "شان",
+          "fa": "چیزهای",
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
           }
         },
         {
-          "fa": "و",
+          "fa": "گرانبهایشان",
           "gloss": {
             "src": "gerānbahā-šān",
             "gloss": "precious-3PL.POSS"
           }
         },
         {
-          "fa": "چیزهای",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "گرانبهایشان",
+          "fa": "باقی",
           "gloss": {
             "src": "bāqī",
             "gloss": "remaining"
           }
         },
         {
-          "fa": "را",
+          "fa": "گذارند",
           "gloss": {
             "src": "gozārand",
             "gloss": "leave-SBJV.3PL"
-          }
-        },
-        {
-          "fa": "باقی",
-          "gloss": {
-            "src": "tā",
-            "gloss": "so.that"
-          }
-        },
-        {
-          "fa": "گذارند",
-          "gloss": {
-            "src": "dar",
-            "gloss": "in"
           }
         },
         {
@@ -3619,36 +3667,36 @@
         {
           "fa": "تا",
           "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
             "src": "bīyābān",
             "gloss": "wilderness"
           }
         },
         {
-          "fa": "در",
+          "fa": "هلاک",
           "gloss": {
             "src": "halāk",
             "gloss": "destruction"
           }
         },
         {
-          "fa": "بیابان",
+          "fa": "شوند",
           "gloss": {
             "src": "šavand",
             "gloss": "become-SBJV.3PL"
-          }
-        },
-        {
-          "fa": "هلاک",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
-          "fa": "شوند",
-          "gloss": {
-            "src": "īn",
-            "gloss": "this"
           }
         },
         {
@@ -3657,103 +3705,115 @@
         {
           "fa": "و",
           "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "این",
+          "fa": "آنها",
           "gloss": {
             "src": "ānhā",
             "gloss": "they"
           }
         },
         {
-          "fa": "را",
+          "fa": "گفتند",
           "gloss": {
             "src": "goftand",
             "gloss": "said-PST.3PL"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "that"
           }
         },
         {
-          "fa": "گفتند",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "که",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "by"
           }
         },
         {
-          "fa": "او",
+          "fa": "سبب",
+          "e": true,
           "gloss": {
             "src": "sabab=e",
             "gloss": "account=EZ"
           }
         },
         {
-          "fa": "به",
+          "fa": "تصوّرهای",
           "gloss": {
             "src": "taṣavvor-hā=ye",
             "gloss": "imagination-PL=EZ"
           }
         },
         {
-          "fa": "سبب",
-          "e": true,
+          "fa": "بی",
           "gloss": {
-            "src": "bī-xerad-āne=ye",
-            "gloss": "senseless=EZ"
+            "src": "bī",
+            "gloss": "without"
           }
         },
         {
-          "fa": "تصوّرهای",
+          "fa": "خِردانۀ",
+          "gloss": {
+            "src": "xerad-āne=ye",
+            "gloss": "wisdom=EZ"
+          }
+        },
+        {
+          "fa": "دلش",
           "gloss": {
             "src": "del-aš",
             "gloss": "heart-3SG.POSS"
           }
         },
         {
-          "fa": "بی",
+          "fa": "انجام",
           "gloss": {
             "src": "anjām",
             "gloss": "completion"
           }
         },
         {
-          "fa": "خِردانۀ",
+          "fa": "داده",
           "gloss": {
             "src": "dāde",
             "gloss": "given-PP"
           }
         },
         {
-          "fa": "دلش",
+          "fa": "است",
           "gloss": {
             "src": "ast",
             "gloss": "COP-3SG"
           }
-        },
-        {
-          "fa": "انجام"
-        },
-        {
-          "fa": "داده"
-        },
-        {
-          "fa": "است"
         },
         {
           "p": "."
@@ -4018,29 +4078,29 @@
         {
           "fa": "نمی",
           "gloss": {
-            "src": "na-mī-kardand",
-            "gloss": "NEG-IMPF-did-PST.3PL"
+            "src": "na-mī",
+            "gloss": "NEG-IMPF"
           }
         },
         {
           "fa": "کردند",
+          "gloss": {
+            "src": "kardand",
+            "gloss": "did-PST.3PL"
+          }
+        },
+        {
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "that"
           }
         },
         {
-          "fa": "که",
+          "fa": "اورشلیم",
           "gloss": {
             "src": "Orušalīm",
             "gloss": "Jerusalem"
-          }
-        },
-        {
-          "fa": "اورشلیم",
-          "gloss": {
-            "src": "ān",
-            "gloss": "that"
           }
         },
         {
@@ -4049,23 +4109,23 @@
         {
           "fa": "آن",
           "gloss": {
-            "src": "šahr=e",
-            "gloss": "city=EZ"
+            "src": "ān",
+            "gloss": "that"
           }
         },
         {
           "fa": "شهر",
           "e": true,
           "gloss": {
-            "src": "bozorg",
-            "gloss": "great"
+            "src": "šahr=e",
+            "gloss": "city=EZ"
           }
         },
         {
           "fa": "بزرگ",
           "gloss": {
-            "src": "bar",
-            "gloss": "on"
+            "src": "bozorg",
+            "gloss": "great"
           }
         },
         {
@@ -4074,51 +4134,51 @@
         {
           "fa": "بر",
           "gloss": {
-            "src": "pāye=ye",
-            "gloss": "basis=EZ"
+            "src": "bar",
+            "gloss": "on"
           }
         },
         {
           "fa": "پایۀ",
           "gloss": {
-            "src": "soxan-ān=e",
-            "gloss": "word-PL=EZ"
+            "src": "pāye=ye",
+            "gloss": "basis=EZ"
           }
         },
         {
           "fa": "سخنان",
           "e": true,
           "gloss": {
+            "src": "soxan-ān=e",
+            "gloss": "word-PL=EZ"
+          }
+        },
+        {
+          "fa": "پیامبران",
+          "gloss": {
             "src": "peyāmbar-ān",
             "gloss": "prophet-PL"
           }
         },
         {
-          "fa": "پیامبران",
+          "fa": "بتواند",
           "gloss": {
             "src": "be-tavānad",
             "gloss": "can-SBJV.3SG"
           }
         },
         {
-          "fa": "بتواند",
+          "fa": "نابود",
           "gloss": {
             "src": "nābūd",
             "gloss": "destroyed"
           }
         },
         {
-          "fa": "نابود",
+          "fa": "شود",
           "gloss": {
             "src": "šavad",
             "gloss": "become-SBJV.3SG"
-          }
-        },
-        {
-          "fa": "شود",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
           }
         },
         {
@@ -4127,64 +4187,64 @@
         {
           "fa": "و",
           "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
             "src": "ānhā",
             "gloss": "they"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "مانند",
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
           }
         },
         {
-          "fa": "مانند",
+          "fa": "یهودیانی",
           "gloss": {
             "src": "yahūdī-yānī",
             "gloss": "Jew-PL-INDEF"
           }
         },
         {
-          "fa": "یهودیانی",
+          "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
           }
         },
         {
-          "fa": "بودند",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "در",
           "gloss": {
             "src": "dar",
             "gloss": "in"
           }
         },
         {
-          "fa": "در",
+          "fa": "اورشلیم",
           "gloss": {
             "src": "Orušalīm",
             "gloss": "Jerusalem"
           }
         },
         {
-          "fa": "اورشلیم",
+          "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
-        },
-        {
-          "fa": "بودند",
-          "gloss": {
-            "src": "kasānī",
-            "gloss": "persons-INDEF"
           }
         },
         {
@@ -4193,69 +4253,73 @@
         {
           "fa": "کسانی",
           "gloss": {
+            "src": "kasānī",
+            "gloss": "persons-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "برآن",
           "gloss": {
             "src": "bar-ān",
             "gloss": "upon-that"
           }
         },
         {
-          "fa": "برآن",
+          "fa": "شده",
           "gloss": {
             "src": "šode",
             "gloss": "become-PP"
           }
         },
         {
-          "fa": "شده",
+          "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
           }
         },
         {
-          "fa": "بودند",
+          "fa": "تا",
           "gloss": {
             "src": "tā",
             "gloss": "so.that"
           }
         },
         {
-          "fa": "تا",
+          "fa": "جان",
+          "e": true,
           "gloss": {
             "src": "jān=e",
             "gloss": "life=EZ"
           }
         },
         {
-          "fa": "جان",
-          "e": true,
+          "fa": "پدرم",
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
           }
         },
         {
-          "fa": "پدرم",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "بگیرند",
           "gloss": {
             "src": "be-gīrand",
             "gloss": "take-SBJV.3PL"
           }
-        },
-        {
-          "fa": "بگیرند"
         },
         {
           "p": "."
@@ -4576,85 +4640,93 @@
         {
           "fa": "از",
           "gloss": {
-            "src": "az-īn-ru",
-            "gloss": "therefore"
+            "src": "az",
+            "gloss": "from"
           }
         },
         {
           "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "رو",
+          "gloss": {
+            "src": "ru",
+            "gloss": "direction"
+          }
+        },
+        {
+          "fa": "آنها",
           "gloss": {
             "src": "ānhā",
             "gloss": "they"
           }
         },
         {
-          "fa": "رو",
+          "fa": "آنچنان",
           "gloss": {
             "src": "āncenān",
             "gloss": "just.as"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "COMP"
           }
         },
         {
-          "fa": "آنچنان",
+          "fa": "او",
           "gloss": {
             "src": "ū",
             "gloss": "3SG"
           }
         },
         {
-          "fa": "که",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "او",
+          "fa": "آنان",
           "gloss": {
             "src": "ānān",
             "gloss": "those.persons"
           }
         },
         {
-          "fa": "به",
+          "fa": "فرمان",
           "gloss": {
             "src": "farmān",
             "gloss": "command"
           }
         },
         {
-          "fa": "آنان",
+          "fa": "داد",
           "gloss": {
             "src": "dād",
             "gloss": "gave-PST.3SG"
           }
         },
         {
-          "fa": "فرمان",
+          "fa": "انجام",
           "gloss": {
             "src": "anjām",
             "gloss": "completion"
           }
         },
         {
-          "fa": "داد",
+          "fa": "دادند",
           "gloss": {
             "src": "dādand",
             "gloss": "gave-PST.3PL"
           }
-        },
-        {
-          "fa": "انجام"
-        },
-        {
-          "fa": "دادند"
         },
         {
           "p": "."
@@ -4790,29 +4862,29 @@
         {
           "fa": "بی",
           "gloss": {
-            "src": "bī-andāze",
-            "gloss": "immeasurably"
+            "src": "bī",
+            "gloss": "without"
           }
         },
         {
           "fa": "اندازه",
+          "gloss": {
+            "src": "andāze",
+            "gloss": "measure"
+          }
+        },
+        {
+          "fa": "جوان",
           "gloss": {
             "src": "javān",
             "gloss": "young"
           }
         },
         {
-          "fa": "جوان",
+          "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
-        },
-        {
-          "fa": "بوده",
-          "gloss": {
-            "src": "bā",
-            "gloss": "with"
           }
         },
         {
@@ -4821,357 +4893,357 @@
         {
           "fa": "با",
           "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
             "src": "īn",
             "gloss": "this"
           }
         },
         {
-          "fa": "این",
+          "fa": "وجود",
           "gloss": {
             "src": "vojūd",
             "gloss": "existence"
           }
         },
         {
-          "fa": "وجود",
+          "fa": "بسیار",
           "gloss": {
             "src": "besyār",
             "gloss": "very"
           }
         },
         {
-          "fa": "بسیار",
+          "fa": "درشت",
           "gloss": {
-            "src": "doroš",
+            "src": "dorošt",
             "gloss": "large"
           }
         },
         {
-          "fa": "درشت",
+          "fa": "قامت",
           "gloss": {
             "src": "qāmat",
             "gloss": "stature"
           }
         },
         {
-          "fa": "قامت",
+          "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
           }
         },
         {
-          "fa": "بوده",
+          "p": "،"
+        },
+        {
+          "fa": "و",
           "gloss": {
             "src": "o",
             "gloss": "and"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "و",
+          "fa": "نیز",
           "gloss": {
             "src": "nīz",
             "gloss": "also"
           }
         },
         {
-          "fa": "نیز",
+          "fa": "میل",
+          "e": true,
           "gloss": {
             "src": "meyl=e",
             "gloss": "desire=EZ"
           }
         },
         {
-          "fa": "میل",
-          "e": true,
+          "fa": "زیادی",
           "gloss": {
             "src": "zīyādī",
             "gloss": "much-INDEF"
           }
         },
         {
-          "fa": "زیادی",
+          "fa": "داشته",
           "gloss": {
             "src": "dāšte",
             "gloss": "had-PP"
           }
         },
         {
-          "fa": "داشته",
+          "fa": "تا",
           "gloss": {
             "src": "tā",
             "gloss": "in.order.to"
           }
         },
         {
-          "fa": "تا",
+          "fa": "رازهای",
           "gloss": {
             "src": "rāz-hā=ye",
             "gloss": "secret-PL=EZ"
           }
         },
         {
-          "fa": "رازهای",
+          "fa": "خدا",
           "gloss": {
             "src": "xodā",
             "gloss": "God"
           }
         },
         {
-          "fa": "خدا",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "بدانم",
           "gloss": {
             "src": "be-dān-am",
             "gloss": "know-SBJV.1SG"
           }
         },
         {
-          "fa": "بدانم",
-          "gloss": {
-            "src": "az-īn-ru",
-            "gloss": "therefore"
-          }
-        },
-        {
           "p": "،"
         },
         {
           "fa": "از",
-          "gloss": {
-            "src": "man",
-            "gloss": "1SG"
-          }
-        },
-        {
-          "fa": "این",
-          "gloss": {
-            "src": "be",
-            "gloss": "to"
-          }
-        },
-        {
-          "fa": "رو",
-          "gloss": {
-            "src": "dargāh=e",
-            "gloss": "threshold=EZ"
-          }
-        },
-        {
-          "p": "،"
-        },
-        {
-          "fa": "من",
-          "gloss": {
-            "src": "Sarvar",
-            "gloss": "Lord"
-          }
-        },
-        {
-          "fa": "به",
-          "gloss": {
-            "src": "zārī",
-            "gloss": "entreaty"
-          }
-        },
-        {
-          "fa": "درگاه",
-          "gloss": {
-            "src": "kardam",
-            "gloss": "did-PST.1SG"
-          }
-        },
-        {
-          "fa": "سَروَر",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
-          "fa": "زاری",
-          "gloss": {
-            "src": "benegarīd",
-            "gloss": "behold-IMP.2PL"
-          }
-        },
-        {
-          "fa": "کردم",
-          "gloss": {
-            "src": "ū",
-            "gloss": "3SG"
-          }
-        },
-        {
-          "p": "،"
-        },
-        {
-          "fa": "و",
-          "gloss": {
-            "src": "marā",
-            "gloss": "1SG.ACC"
-          }
-        },
-        {
-          "fa": "بنگرید",
-          "gloss": {
-            "src": "dīdār",
-            "gloss": "meeting"
-          }
-        },
-        {
-          "fa": "او",
-          "gloss": {
-            "src": "kard",
-            "gloss": "did-PST.3SG"
-          }
-        },
-        {
-          "fa": "مرا",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
-          "fa": "دیدار",
-          "gloss": {
-            "src": "del-am",
-            "gloss": "heart-1SG.POSS"
-          }
-        },
-        {
-          "fa": "کرد",
-          "gloss": {
-            "src": "rā",
-            "gloss": "ACC"
-          }
-        },
-        {
-          "fa": "و",
-          "gloss": {
-            "src": "narm",
-            "gloss": "soft"
-          }
-        },
-        {
-          "fa": "دلم",
-          "gloss": {
-            "src": "kard",
-            "gloss": "made-PST.3SG"
-          }
-        },
-        {
-          "fa": "را",
-          "gloss": {
-            "src": "ke",
-            "gloss": "so.that"
-          }
-        },
-        {
-          "fa": "نرم",
-          "gloss": {
-            "src": "man",
-            "gloss": "1SG"
-          }
-        },
-        {
-          "fa": "کرد",
-          "gloss": {
-            "src": "be",
-            "gloss": "to"
-          }
-        },
-        {
-          "fa": "که",
-          "gloss": {
-            "src": "hame=ye",
-            "gloss": "all=EZ"
-          }
-        },
-        {
-          "fa": "من",
-          "gloss": {
-            "src": "soxan-ānī",
-            "gloss": "word-PL-INDEF"
-          }
-        },
-        {
-          "fa": "به",
-          "gloss": {
-            "src": "ke",
-            "gloss": "REL"
-          }
-        },
-        {
-          "fa": "همۀ",
           "gloss": {
             "src": "az",
             "gloss": "from"
           }
         },
         {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "رو",
+          "gloss": {
+            "src": "ru",
+            "gloss": "direction"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "درگاه",
+          "gloss": {
+            "src": "dargāh=e",
+            "gloss": "threshold=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "زاری",
+          "gloss": {
+            "src": "zārī",
+            "gloss": "entreaty"
+          }
+        },
+        {
+          "fa": "کردم",
+          "gloss": {
+            "src": "kardam",
+            "gloss": "did-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "بنگرید",
+          "gloss": {
+            "src": "benegarīd",
+            "gloss": "behold-IMP.2PL"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "3SG"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "1SG.ACC"
+          }
+        },
+        {
+          "fa": "دیدار",
+          "gloss": {
+            "src": "dīdār",
+            "gloss": "meeting"
+          }
+        },
+        {
+          "fa": "کرد",
+          "gloss": {
+            "src": "kard",
+            "gloss": "did-PST.3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "دلم",
+          "gloss": {
+            "src": "del-am",
+            "gloss": "heart-1SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نرم",
+          "gloss": {
+            "src": "narm",
+            "gloss": "soft"
+          }
+        },
+        {
+          "fa": "کرد",
+          "gloss": {
+            "src": "kard",
+            "gloss": "made-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "همۀ",
+          "gloss": {
+            "src": "hame=ye",
+            "gloss": "all=EZ"
+          }
+        },
+        {
           "fa": "سخنانی",
+          "gloss": {
+            "src": "soxan-ānī",
+            "gloss": "word-PL-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "سوی",
           "gloss": {
             "src": "su=ye",
             "gloss": "side=EZ"
           }
         },
         {
-          "fa": "که",
+          "fa": "پدرم",
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
           }
         },
         {
-          "fa": "از",
+          "fa": "گفته",
           "gloss": {
             "src": "gofte",
             "gloss": "said-PP"
           }
         },
         {
-          "fa": "سوی",
+          "fa": "شده",
           "gloss": {
             "src": "šode",
             "gloss": "become-PP"
           }
         },
         {
-          "fa": "پدرم",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
-        },
-        {
-          "fa": "گفته",
-          "gloss": {
-            "src": "īmān",
-            "gloss": "faith"
-          }
-        },
-        {
-          "fa": "شده",
-          "gloss": {
-            "src": "āvardam",
-            "gloss": "brought-PST.1SG"
-          }
-        },
-        {
-          "fa": "بود",
-          "gloss": {
-            "src": "az-īn-ru",
-            "gloss": "therefore"
           }
         },
         {
@@ -5180,15 +5252,15 @@
         {
           "fa": "ایمان",
           "gloss": {
-            "src": "man",
-            "gloss": "1SG"
+            "src": "īmān",
+            "gloss": "faith"
           }
         },
         {
           "fa": "آوردم",
           "gloss": {
-            "src": "mānand=e",
-            "gloss": "like=EZ"
+            "src": "āvardam",
+            "gloss": "brought-PST.1SG"
           }
         },
         {
@@ -5197,22 +5269,22 @@
         {
           "fa": "از",
           "gloss": {
-            "src": "barādar-ān-am",
-            "gloss": "brother-PL-1SG.POSS"
+            "src": "az",
+            "gloss": "from"
           }
         },
         {
           "fa": "این",
           "gloss": {
-            "src": "ʿalayhe",
-            "gloss": "against"
+            "src": "īn",
+            "gloss": "this"
           }
         },
         {
           "fa": "رو",
           "gloss": {
-            "src": "ū",
-            "gloss": "3SG"
+            "src": "ru",
+            "gloss": "direction"
           }
         },
         {
@@ -5221,31 +5293,51 @@
         {
           "fa": "من",
           "gloss": {
-            "src": "šūreš",
-            "gloss": "rebellion"
+            "src": "man",
+            "gloss": "1SG"
           }
         },
         {
           "fa": "مانند",
           "gloss": {
-            "src": "na-kardam",
-            "gloss": "NEG-did-PST.1SG"
+            "src": "mānand=e",
+            "gloss": "like=EZ"
           }
         },
         {
-          "fa": "برادرانم"
+          "fa": "برادرانم",
+          "gloss": {
+            "src": "barādar-ān-am",
+            "gloss": "brother-PL-1SG.POSS"
+          }
         },
         {
-          "fa": "علیه"
+          "fa": "علیه",
+          "gloss": {
+            "src": "ʿalayhe",
+            "gloss": "against"
+          }
         },
         {
-          "fa": "او"
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "3SG"
+          }
         },
         {
-          "fa": "شورش"
+          "fa": "شورش",
+          "gloss": {
+            "src": "šūreš",
+            "gloss": "rebellion"
+          }
         },
         {
-          "fa": "نکردم"
+          "fa": "نکردم",
+          "gloss": {
+            "src": "na-kardam",
+            "gloss": "NEG-did-PST.1SG"
+          }
         },
         {
           "p": "."
@@ -5634,68 +5726,72 @@
         {
           "fa": "سخت",
           "gloss": {
-            "src": "saxt-delī-hā-yešān",
-            "gloss": "hard-heartedness-PL-3PL.POSS"
+            "src": "saxt",
+            "gloss": "hard"
           }
         },
         {
           "fa": "دلیهایشان",
           "gloss": {
-            "src": "qamdīn",
-            "gloss": "sad"
+            "src": "delī-hā-yešān",
+            "gloss": "heartedness-PL-3PL.POSS"
           }
         },
         {
           "fa": "غمگین",
+          "gloss": {
+            "src": "qamgīn",
+            "gloss": "sad"
+          }
+        },
+        {
+          "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
           }
         },
         {
-          "fa": "بوده",
+          "fa": "برای",
           "gloss": {
             "src": "barāye",
             "gloss": "for"
           }
         },
         {
-          "fa": "برای",
+          "fa": "آنها",
           "gloss": {
             "src": "ānhā",
             "gloss": "them"
           }
         },
         {
-          "fa": "آنها",
+          "fa": "نزد",
           "gloss": {
             "src": "nazdīke",
             "gloss": "near"
           }
         },
         {
-          "fa": "نزد",
+          "fa": "سَروَر",
           "gloss": {
             "src": "Sarvar",
             "gloss": "Lord"
           }
         },
         {
-          "fa": "سَروَر",
+          "fa": "زاری",
           "gloss": {
             "src": "zārī",
             "gloss": "entreaty"
           }
         },
         {
-          "fa": "زاری",
+          "fa": "کردم",
           "gloss": {
             "src": "kardam",
             "gloss": "did-PST.1SG"
           }
-        },
-        {
-          "fa": "کردم"
         },
         {
           "p": "."
@@ -5897,40 +5993,44 @@
         {
           "fa": "افتاده",
           "gloss": {
-            "src": "oftāde-delī",
-            "gloss": "humility"
+            "src": "oftāde",
+            "gloss": "humble"
           }
         },
         {
           "fa": "دلی",
+          "gloss": {
+            "src": "delī",
+            "gloss": "heartedness"
+          }
+        },
+        {
+          "fa": "جویای",
           "gloss": {
             "src": "jūyā=ye",
             "gloss": "seeking=EZ"
           }
         },
         {
-          "fa": "جویای",
+          "fa": "من",
           "gloss": {
             "src": "man",
             "gloss": "1SG"
           }
         },
         {
-          "fa": "من",
+          "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
           }
         },
         {
-          "fa": "بوده",
+          "fa": "ای",
           "gloss": {
             "src": "ī",
             "gloss": "COP.PST-2SG"
           }
-        },
-        {
-          "fa": "ای"
         },
         {
           "p": "."
@@ -5987,37 +6087,37 @@
         {
           "fa": "فرمان",
           "gloss": {
-            "src": "farmān-hā=ye",
-            "gloss": "command-PL=EZ"
+            "src": "farmān",
+            "gloss": "command"
           }
         },
         {
           "fa": "های",
           "e": true,
           "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
             "src": "marā",
             "gloss": "1SG.GEN"
           }
         },
         {
-          "fa": "مرا",
+          "fa": "نگاه",
           "gloss": {
             "src": "negāh",
             "gloss": "guard"
           }
         },
         {
-          "fa": "نگاه",
+          "fa": "داری",
           "gloss": {
             "src": "dārī",
             "gloss": "hold-SBJV.2SG"
-          }
-        },
-        {
-          "fa": "داری",
-          "gloss": {
-            "src": "to",
-            "gloss": "2SG"
           }
         },
         {
@@ -6026,29 +6126,29 @@
         {
           "fa": "تو",
           "gloss": {
+            "src": "to",
+            "gloss": "2SG"
+          }
+        },
+        {
+          "fa": "کامروا",
+          "gloss": {
             "src": "kāmravā",
             "gloss": "prosperous"
           }
         },
         {
-          "fa": "کامروا",
+          "fa": "خواهی",
           "gloss": {
             "src": "xāhī",
             "gloss": "FUT-2SG"
           }
         },
         {
-          "fa": "خواهی",
+          "fa": "شد",
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
-          }
-        },
-        {
-          "fa": "شد",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
           }
         },
         {
@@ -6057,58 +6157,58 @@
         {
           "fa": "و",
           "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
+          "fa": "یک",
           "gloss": {
             "src": "yek",
             "gloss": "a"
           }
         },
         {
-          "fa": "یک",
+          "fa": "سرزمین",
+          "e": true,
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
           }
         },
         {
-          "fa": "سرزمین",
-          "e": true,
+          "fa": "موعود",
           "gloss": {
             "src": "moʿūd",
             "gloss": "promised"
           }
         },
         {
-          "fa": "موعود",
+          "fa": "راهنمایی",
           "gloss": {
             "src": "rāhnamāyī",
             "gloss": "guidance"
           }
         },
         {
-          "fa": "راهنمایی",
+          "fa": "خواهی",
           "gloss": {
             "src": "xāhī",
             "gloss": "FUT-2SG"
           }
         },
         {
-          "fa": "خواهی",
+          "fa": "شد",
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
-          }
-        },
-        {
-          "fa": "شد",
-          "gloss": {
-            "src": "ārī",
-            "gloss": "yea"
           }
         },
         {
@@ -6117,8 +6217,8 @@
         {
           "fa": "آری",
           "gloss": {
-            "src": "yaʿnī",
-            "gloss": "namely"
+            "src": "ārī",
+            "gloss": "yea"
           }
         },
         {
@@ -6127,61 +6227,71 @@
         {
           "fa": "یعنی",
           "gloss": {
+            "src": "yaʿnī",
+            "gloss": "namely"
+          }
+        },
+        {
+          "fa": "سرزمینی",
+          "gloss": {
             "src": "sarzamīnī",
             "gloss": "land-INDEF"
           }
         },
         {
-          "fa": "سرزمینی",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "من",
           "gloss": {
             "src": "man",
             "gloss": "1SG"
           }
         },
         {
-          "fa": "من",
+          "fa": "برای",
           "gloss": {
             "src": "barāye",
             "gloss": "for"
           }
         },
         {
-          "fa": "برای",
+          "fa": "شما",
           "gloss": {
             "src": "šomā",
             "gloss": "2PL"
           }
         },
         {
-          "fa": "شما",
+          "fa": "آماده",
           "gloss": {
             "src": "āmāde",
             "gloss": "ready"
           }
         },
         {
-          "fa": "آماده",
+          "fa": "کرده",
           "gloss": {
             "src": "karde",
             "gloss": "done-PP"
           }
         },
         {
-          "fa": "کرده",
+          "fa": "ام",
           "gloss": {
             "src": "ām",
             "gloss": "COP.PST-1SG"
           }
         },
         {
-          "fa": "ام",
+          "p": "،"
+        },
+        {
+          "fa": "آری",
           "gloss": {
             "src": "ārī",
             "gloss": "yea"
@@ -6191,76 +6301,74 @@
           "p": "،"
         },
         {
-          "fa": "آری",
+          "fa": "سرزمینی",
           "gloss": {
             "src": "sarzamīnī",
             "gloss": "land-INDEF"
           }
         },
         {
-          "p": "،"
-        },
-        {
-          "fa": "سرزمینی",
+          "fa": "که",
           "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "برگزیده",
           "gloss": {
-            "src": "bargozīde-ī",
-            "gloss": "chosen-INDEF"
+            "src": "bargozīde",
+            "gloss": "chosen"
           }
         },
         {
-          "fa": "برگزیده",
+          "fa": "ای",
+          "gloss": {
+            "src": "ī",
+            "gloss": "INDEF"
+          }
+        },
+        {
+          "fa": "برتر",
           "gloss": {
             "src": "bartar",
             "gloss": "superior"
           }
         },
         {
-          "fa": "ای",
+          "fa": "از",
           "gloss": {
             "src": "az",
             "gloss": "than"
           }
         },
         {
-          "fa": "برتر",
+          "fa": "همۀ",
           "gloss": {
             "src": "hame=ye",
             "gloss": "all=EZ"
           }
         },
         {
-          "fa": "از",
+          "fa": "سرزمینهای",
           "gloss": {
             "src": "sarzamīn-hā=ye",
             "gloss": "land-PL=EZ"
           }
         },
         {
-          "fa": "همۀ",
+          "fa": "دیگر",
           "gloss": {
             "src": "dīgar",
             "gloss": "other"
           }
         },
         {
-          "fa": "سرزمینهای",
+          "fa": "است",
           "gloss": {
             "src": "ast",
             "gloss": "COP-3SG"
           }
-        },
-        {
-          "fa": "دیگر"
-        },
-        {
-          "fa": "است"
         },
         {
           "p": "."
@@ -6296,57 +6404,57 @@
         {
           "fa": "جایی",
           "gloss": {
+            "src": "jā-ī",
+            "gloss": "place-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "برادران",
           "gloss": {
             "src": "barādar-ān=e",
             "gloss": "brother-PL=EZ"
           }
         },
         {
-          "fa": "برادران",
+          "fa": "تو",
           "gloss": {
             "src": "to",
             "gloss": "2SG"
           }
         },
         {
-          "fa": "تو",
+          "fa": "علیه",
           "gloss": {
             "src": "ʿalayhe",
             "gloss": "against"
           }
         },
         {
-          "fa": "علیه",
+          "fa": "تو",
           "gloss": {
             "src": "to",
             "gloss": "2SG"
           }
         },
         {
-          "fa": "تو",
+          "fa": "شورش",
           "gloss": {
             "src": "šūreš",
             "gloss": "rebellion"
           }
         },
         {
-          "fa": "شورش",
+          "fa": "کنند",
           "gloss": {
             "src": "konand",
             "gloss": "do-SBJV.3PL"
-          }
-        },
-        {
-          "fa": "کنند",
-          "gloss": {
-            "src": "ānhā",
-            "gloss": "they"
           }
         },
         {
@@ -6355,48 +6463,52 @@
         {
           "fa": "آنها",
           "gloss": {
-            "src": "az",
-            "gloss": "from"
+            "src": "ānhā",
+            "gloss": "they"
           }
         },
         {
           "fa": "از",
           "gloss": {
-            "src": "pīšgāh=e",
-            "gloss": "presence=EZ"
+            "src": "az",
+            "gloss": "from"
           }
         },
         {
           "fa": "پیشگاه",
           "e": true,
           "gloss": {
+            "src": "pīšgāh=e",
+            "gloss": "presence=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
             "src": "Sarvar",
             "gloss": "Lord"
           }
         },
         {
-          "fa": "سَروَر",
+          "fa": "بریده",
           "gloss": {
             "src": "borīde",
             "gloss": "cut-PP"
           }
         },
         {
-          "fa": "بریده",
+          "fa": "خواهند",
           "gloss": {
             "src": "xāhand",
             "gloss": "FUT-3PL"
           }
         },
         {
-          "fa": "خواهند",
+          "fa": "شد",
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
           }
-        },
-        {
-          "fa": "شد"
         },
         {
           "p": "."
@@ -6432,58 +6544,58 @@
         {
           "fa": "جایی",
           "gloss": {
+            "src": "jā-ī",
+            "gloss": "place-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
             "src": "ke",
             "gloss": "REL"
           }
         },
         {
-          "fa": "که",
+          "fa": "تو",
           "gloss": {
             "src": "to",
             "gloss": "2SG"
           }
         },
         {
-          "fa": "تو",
-          "gloss": {
-            "src": "farmān-hā=ye",
-            "gloss": "command-PL=EZ"
-          }
-        },
-        {
           "fa": "فرمان",
           "gloss": {
-            "src": "marā",
-            "gloss": "1SG.GEN"
+            "src": "farmān",
+            "gloss": "command"
           }
         },
         {
           "fa": "های",
           "e": true,
           "gloss": {
-            "src": "negāh",
-            "gloss": "guard"
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
           }
         },
         {
           "fa": "مرا",
           "gloss": {
-            "src": "dārī",
-            "gloss": "hold-SBJV.2SG"
+            "src": "marā",
+            "gloss": "1SG.GEN"
           }
         },
         {
           "fa": "نگاه",
           "gloss": {
-            "src": "to",
-            "gloss": "2SG"
+            "src": "negāh",
+            "gloss": "guard"
           }
         },
         {
           "fa": "داری",
           "gloss": {
-            "src": "yek",
-            "gloss": "a"
+            "src": "dārī",
+            "gloss": "hold-SBJV.2SG"
           }
         },
         {
@@ -6492,64 +6604,72 @@
         {
           "fa": "تو",
           "gloss": {
-            "src": "farmān-ravā",
-            "gloss": "ruler"
+            "src": "to",
+            "gloss": "2SG"
           }
         },
         {
           "fa": "یک",
-          "gloss": {
-            "src": "o",
-            "gloss": "and"
-          }
-        },
-        {
-          "fa": "فرمانروا",
           "gloss": {
             "src": "yek",
             "gloss": "a"
           }
         },
         {
+          "fa": "فرمانروا",
+          "gloss": {
+            "src": "farmān-ravā",
+            "gloss": "ruler"
+          }
+        },
+        {
           "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "یک",
+          "gloss": {
+            "src": "yek",
+            "gloss": "a"
+          }
+        },
+        {
+          "fa": "آموزگار",
           "gloss": {
             "src": "āmūzgār",
             "gloss": "teacher"
           }
         },
         {
-          "fa": "یک",
+          "fa": "بر",
           "gloss": {
             "src": "bar",
             "gloss": "over"
           }
         },
         {
-          "fa": "آموزگار",
+          "fa": "برادرانت",
           "gloss": {
             "src": "barādar-ān-at",
             "gloss": "brother-PL-2SG.POSS"
           }
         },
         {
-          "fa": "بر",
+          "fa": "خواهی",
           "gloss": {
             "src": "xāhī",
             "gloss": "FUT-2SG"
           }
         },
         {
-          "fa": "برادرانت",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "be-INF"
           }
-        },
-        {
-          "fa": "خواهی"
-        },
-        {
-          "fa": "بود"
         },
         {
           "p": "."
@@ -6966,29 +7086,29 @@
         {
           "fa": "تازیانه",
           "gloss": {
-            "src": "tāzīyāne-ī",
-            "gloss": "whip-INDEF"
+            "src": "tāzīyāne",
+            "gloss": "whip"
           }
         },
         {
           "fa": "ای",
+          "gloss": {
+            "src": "ī",
+            "gloss": "INDEF"
+          }
+        },
+        {
+          "fa": "خواهند",
           "gloss": {
             "src": "xāhand",
             "gloss": "FUT-3PL"
           }
         },
         {
-          "fa": "خواهند",
+          "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "be-INF"
-          }
-        },
-        {
-          "fa": "بود",
-          "gloss": {
-            "src": "tā",
-            "gloss": "so.that"
           }
         },
         {
@@ -6997,51 +7117,59 @@
         {
           "fa": "تا",
           "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "آنان",
+          "gloss": {
             "src": "ānān",
             "gloss": "those.persons"
           }
         },
         {
-          "fa": "آنان",
+          "fa": "را",
           "gloss": {
             "src": "rā",
             "gloss": "ACC"
           }
         },
         {
-          "fa": "را",
+          "fa": "به",
           "gloss": {
             "src": "be",
             "gloss": "to"
           }
         },
         {
-          "fa": "به",
-          "gloss": {
-            "src": "rāh-hā=ye",
-            "gloss": "way-PL=EZ"
-          }
-        },
-        {
           "fa": "راه",
           "gloss": {
-            "src": "yādāvarī",
-            "gloss": "remembrance"
+            "src": "rāh",
+            "gloss": "way"
           }
         },
         {
           "fa": "های",
           "e": true,
           "gloss": {
-            "src": "bar-angīzand",
-            "gloss": "rouse-SBJV.3PL"
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
           }
         },
         {
-          "fa": "یادآوری"
+          "fa": "یادآوری",
+          "gloss": {
+            "src": "yādāvarī",
+            "gloss": "remembrance"
+          }
         },
         {
-          "fa": "برانگیزند"
+          "fa": "برانگیزند",
+          "gloss": {
+            "src": "bar-angīzand",
+            "gloss": "rouse-SBJV.3PL"
+          }
         },
         {
           "p": "."
