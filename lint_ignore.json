@@ -1,0 +1,31 @@
+{
+  "_README": "Acknowledged false positives that silence specific heuristic-lint findings so genuine ones stand out. Top-level keys are lint categories (the text right after the location prefix, e.g. 'possible missing ezafe'). Within a category, keys are '<book> <chapter>' (matching the source.json book/chapter) and values list findings to suppress as {pair, reason}. 'pair' must match the 'A → B' shown in the lint output exactly (same arrow, same spacing). Only suppress confirmed false positives — never a real issue you simply haven't fixed yet.",
+  "possible missing ezafe": {
+    "1 Nephi 1": [
+      {"pair": "رؤیا → ستونی", "reason": "در رؤیا 'in vision' (adverbial) then a separate object — not an ezafe phrase"},
+      {"pair": "روزگارم → رنج", "reason": "در روزگارم 'in my days' (adverbial) + رنج as object of the verb"},
+      {"pair": "روزگارم → مورد", "reason": "مورد لطف 'favored'; روزگارم is adverbial, not the ezafe head"},
+      {"pair": "سال → پیامبران", "reason": "'in that year, [many] prophets…' — clause boundary, not ezafe"},
+      {"pair": "پرتوش → فراتر", "reason": "predicate comparative (partaw-aš farātar [bud])"},
+      {"pair": "شمشیر → هلاک", "reason": "با شمشیر + هلاک شدن (to perish) — compound verb"},
+      {"pair": "پدرم → چیزهای", "reason": "subject + object (my father [read] many things)"},
+      {"pair": "فرزندانش → سخن", "reason": "به فرزندانش + سخن گفت (spoke to his children) — compound verb"},
+      {"pair": "اندازه → چیزهای", "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + object"}
+    ],
+    "1 Nephi 2": [
+      {"pair": "بیابان → مسافرت", "reason": "در بیابان + مسافرت کرد (traveled) — compound verb"},
+      {"pair": "پدرشان → غُرولند", "reason": "علیه پدرشان + غرولند کردند (murmured against their father)"},
+      {"pair": "پدرم → سخن", "reason": "پدرم + سخن گفت (my father spoke) — compound verb"},
+      {"pair": "وادی → کنار", "reason": "a valley + کنار رود (beside a river) — separate PP, not ezafe"},
+      {"pair": "دلش → انجام", "reason": "دلش ends the noun phrase; انجام داده است (has done) is the verb"},
+      {"pair": "چادری → ساکن", "reason": "در چادری + ساکن شد (dwelt) — compound verb"},
+      {"pair": "اندازه → جوان", "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + جوان"},
+      {"pair": "دلیهایشان → غمگین", "reason": "سخت‌دلیهایشان + غمگین [بوده] — predicate adjective"},
+      {"pair": "دلی → جویای", "reason": "افتاده‌دلی 'humility' (compound) + جویا (seeking) — separate words"}
+    ],
+    "1 Nephi 3": [
+      {"pair": "رو → لامان", "reason": "از این رو 'therefore' (fixed phrase) + new-clause subject"},
+      {"pair": "لموئیل → سخنان", "reason": "subject + object (Lemuel [heeded] the words…)"}
+    ]
+  }
+}

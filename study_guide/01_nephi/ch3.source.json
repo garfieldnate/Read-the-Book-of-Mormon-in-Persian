@@ -987,8 +987,7 @@
           "gloss": {
             "src": "hā=ye",
             "gloss": "PL=EZ"
-          },
-          "e": true
+          }
         },
         {
           "fa": "یهودیان",
@@ -1085,8 +1084,7 @@
           "gloss": {
             "src": "hā=ye",
             "gloss": "PL=EZ"
-          },
-          "e": true
+          }
         },
         {
           "fa": "برنجی",
@@ -2860,9 +2858,10 @@
         {
           "fa": "درون",
           "gloss": {
-            "src": "darūn",
-            "gloss": "inside"
-          }
+            "src": "darūn=e",
+            "gloss": "inside=EZ"
+          },
+          "e": true
         },
         {
           "fa": "خانۀ",
@@ -2971,9 +2970,10 @@
         {
           "fa": "درون",
           "gloss": {
-            "src": "darūn",
-            "gloss": "inside"
-          }
+            "src": "darūn=e",
+            "gloss": "inside=EZ"
+          },
+          "e": true
         },
         {
           "fa": "خانۀ",
@@ -4350,9 +4350,10 @@
         {
           "fa": "میراثی",
           "gloss": {
-            "src": "mīrāsī",
-            "gloss": "ancestral/inherited"
-          }
+            "src": "mīrāsī=ye",
+            "gloss": "ancestral/inherited=EZ"
+          },
+          "e": true
         },
         {
           "fa": "پدرمان",
@@ -5384,9 +5385,10 @@
         {
           "fa": "پیامبران",
           "gloss": {
-            "src": "payāmbarān",
-            "gloss": "prophets"
-          }
+            "src": "payāmbarān=e",
+            "gloss": "prophets=EZ"
+          },
+          "e": true
         },
         {
           "fa": "مقدّس",

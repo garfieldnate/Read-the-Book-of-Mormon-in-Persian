@@ -174,3 +174,23 @@ Warnings printed to stderr:
   ```
 
   The check is reliable — it does not fire on a clean section — so always fix these.
+- `ezafe double-marked ("e": true on an already-ezafe form): های — <location>` — the token already shows ezafe in its spelling (`ۀ`, the `ی` of `های`, or an explicit kasra), so `"e": true` makes the renderer draw a second kasra. Remove the `"e"` flag (the spelling already carries the ezafe).
+- `ezafe "e": true but gloss has no =EZ: مرد — <location>` — the rendered ezafe and the interlinear gloss disagree. If the word really takes ezafe, add the clitic to the gloss (`"src": "mard=e"`, `"gloss": "man=EZ"`); if not, drop the `"e"` flag.
+- `duplicate anchor: vocab-…` — two headword/variant entries generate the same HTML anchor (a repeated `persian`/`id`), which collides their `id`s and breaks in-page links. Merge the entries or give one a distinct `id`.
+- `headword translit mismatch: گنبد / gombad` — a headword's `translit` does not transliterate its `persian` (a consonant is missing or wrong), usually a typo. The `ن`→`m` assimilation before `ب/پ/م` is allowed, so this fires on genuine mismatches only.
+- `grammar example bad ref_anchor: verse-99 (...)` — a grammar-note example's `ref_anchor` points at a section that doesn't exist; fix it to a real anchor (`verse-N`, `chapter-summary`, …).
+- `grammar example not verbatim from source: فلان (...)` — a grammar-note example contains Persian words that do not appear in the chapter's source text (harakat ignored). Examples must be quoted verbatim from the chapter; correct the wording or pick a real phrase.
+
+### Silencing false positives
+
+The `possible missing ezafe` check is heuristic and will report some non-issues (subject + object, compound verbs, fixed phrases). Once you have **confirmed** a finding is not a real missing ezafe, record it in **`lint_ignore.json`** (repo root) so it stops being reported and the genuine findings stand out. Add an entry under the lint category and the `"<book> <chapter>"` key, with the `pair` copied exactly from the lint output and a short `reason`:
+
+```json
+"possible missing ezafe": {
+  "1 Nephi 2": [
+    {"pair": "پدرم → سخن", "reason": "پدرم + سخن گفت (my father spoke) — compound verb"}
+  ]
+}
+```
+
+Only suppress confirmed false positives — never a real issue you simply haven't fixed yet. See the file's `_README` for the full format.

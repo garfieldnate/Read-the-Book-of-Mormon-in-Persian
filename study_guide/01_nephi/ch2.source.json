@@ -1822,9 +1822,10 @@
         {
           "fa": "کنار",
           "gloss": {
-            "src": "kenār",
-            "gloss": "beside"
-          }
+            "src": "kenār=e",
+            "gloss": "beside=EZ"
+          },
+          "e": true
         },
         {
           "fa": "مرزهای",
@@ -3453,8 +3454,8 @@
           "fa": "مرد",
           "e": true,
           "gloss": {
-            "src": "mard",
-            "gloss": "man"
+            "src": "mard=e",
+            "gloss": "man=EZ"
           }
         },
         {
@@ -6093,7 +6094,6 @@
         },
         {
           "fa": "های",
-          "e": true,
           "gloss": {
             "src": "hā=ye",
             "gloss": "PL=EZ"
@@ -6571,7 +6571,6 @@
         },
         {
           "fa": "های",
-          "e": true,
           "gloss": {
             "src": "hā=ye",
             "gloss": "PL=EZ"
@@ -7151,7 +7150,6 @@
         },
         {
           "fa": "های",
-          "e": true,
           "gloss": {
             "src": "hā=ye",
             "gloss": "PL=EZ"

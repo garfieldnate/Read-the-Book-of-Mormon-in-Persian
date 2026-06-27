@@ -867,6 +867,26 @@ def _object_marker_follows(toks: list, start: int) -> bool:
     return False
 
 
+_LINT_IGNORE_PATH = Path(__file__).resolve().parent / "lint_ignore.json"
+_lint_ignore_data: dict | None = None
+
+
+def _lint_ignored(category: str, book: str, chapter) -> set[str]:
+    """Return acknowledged false-positive keys for a lint category in one chapter.
+
+    Read from `lint_ignore.json` next to this module: a heuristic finding whose
+    key matches an entry there is silently dropped, so genuinely-wrong findings
+    aren't drowned out. See that file's `_README` for the format."""
+    global _lint_ignore_data
+    if _lint_ignore_data is None:
+        try:
+            _lint_ignore_data = json.loads(_LINT_IGNORE_PATH.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _lint_ignore_data = {}
+    entries = (_lint_ignore_data.get(category) or {}).get(f"{book} {chapter}".strip(), [])
+    return {e["pair"] if isinstance(e, dict) else e for e in entries}
+
+
 def _lint_ezafe(source: dict, word_map: dict, pos_map: dict, label: str) -> None:
     """Warn on adjacent nominals with no ezafe between them (likely missing ezafe).
 
@@ -913,7 +933,11 @@ def _lint_ezafe(source: dict, word_map: dict, pos_map: dict, label: str) -> None
                 continue
             findings.setdefault((a["fa"], b["fa"]), []).append(loc)
 
+    ignored = _lint_ignored("possible missing ezafe",
+                            source.get("book", ""), source.get("chapter", ""))
     for (a_fa, b_fa), locs in sorted(findings.items(), key=lambda kv: -len(kv[1])):
+        if f"{a_fa} → {b_fa}" in ignored:
+            continue  # acknowledged false positive (see lint_ignore.json)
         count = f" (×{len(locs)})" if len(locs) > 1 else ""
         uniq = ", ".join(dict.fromkeys(locs))
         print(f"  {label}possible missing ezafe: {a_fa} → {b_fa}{count} — {uniq}",
@@ -998,6 +1022,139 @@ def _lint_gloss_alignment(source: dict, label: str) -> None:
                   f"glossed `{bad_src}`)", file=sys.stderr)
 
 
+# ---------- ezafe-marking consistency lint ----------
+
+def _lint_ezafe_marking(source: dict, label: str) -> None:
+    """Flag inconsistent editorial-ezafe marking on source tokens:
+      • `"e": true` on a token that already shows ezafe orthographically (`ۀ`,
+        `های`, an explicit kasra) — the renderer would draw a second kasra.
+      • `"e": true` but the gloss carries no `=EZ` clitic — the rendered ezafe
+        and the interlinear annotation disagree, so one of them is wrong."""
+    for sec in source.get("sections", []):
+        loc = _section_heading(sec)[1]
+        for tok in sec.get("tokens") or []:
+            if "fa" not in tok or not tok.get("e"):
+                continue
+            fa = tok["fa"]
+            if fa.endswith(("ۀ", "ِ", "های")):
+                print(f"  {label}ezafe double-marked (`\"e\": true` on an already-"
+                      f"ezafe form): {fa} — {loc}", file=sys.stderr)
+            elif "EZ" not in _gloss_labels(_tok_gloss(tok)):
+                print(f"  {label}ezafe `\"e\": true` but gloss has no `=EZ`: "
+                      f"{fa} — {loc}", file=sys.stderr)
+
+
+# ---------- study.json structural lints ----------
+
+def _lint_duplicate_anchors(study: dict, label: str) -> None:
+    """Flag two entries that would generate the same HTML anchor — a duplicate
+    headword/`id` (`vocab-…`) or variant (`gram-…`) — which silently produces
+    colliding `id`s and broken in-page links."""
+    seen: set[str] = set()
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            etype = entry.get("type")
+            if etype == "headword":
+                persian = entry.get("persian", "")
+                anchor = "vocab-" + (entry.get("id") or persian.replace(" ", "_"))
+            elif etype == "variant":
+                anchor = "gram-" + entry.get("persian", "")
+            else:
+                continue
+            if anchor in seen:
+                print(f"  {label}duplicate anchor: {anchor}", file=sys.stderr)
+            seen.add(anchor)
+
+
+# Consonant classes that may trigger ن→m assimilation (gonbad/gombad).
+_LABIAL_CLASSES = frozenset({"b", "p", "m"})
+
+
+def _persian_consonant_sets(text: str) -> list[frozenset]:
+    """Leading-consonant classes for a Persian word, each as a set of acceptable
+    romanization classes. A `ن` directly before a labial may surface as `m`
+    (e.g. `گنبد` → gonbad/gombad), so it accepts either nasal there."""
+    cls = [(_FA_CONSONANT[ch], ch) for ch in text if ch in _FA_CONSONANT]
+    out: list[frozenset] = []
+    for k, (c, ch) in enumerate(cls):
+        if ch == "ن" and k + 1 < len(cls) and cls[k + 1][0] in _LABIAL_CLASSES:
+            out.append(frozenset({"n", "m"}))
+        else:
+            out.append(frozenset({c}))
+    return out
+
+
+def _sets_subsequence(sets: list[frozenset], seq: list[str]) -> bool:
+    """True if each set in `sets` can be matched, in order, by an element of `seq`."""
+    it = iter(seq)
+    return all(any(x in s for x in it) for s in sets)
+
+
+def _lint_headword_translit(study: dict, label: str) -> None:
+    """Flag a headword whose `translit` does not transliterate its `persian` —
+    every strong consonant of the Persian (n/m assimilation aside) should appear,
+    in order, in the romanization. Catches translit typos. Multiword headwords
+    are skipped (their spacing/segmentation varies)."""
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            persian = entry.get("persian", "")
+            translit = entry.get("translit", "")
+            if not persian or not translit or " " in persian:
+                continue
+            fa_sets = _persian_consonant_sets(persian)
+            src_seq = [_SRC_CONSONANT[ch] for ch in translit.lower() if ch in _SRC_CONSONANT]
+            if not _sets_subsequence(fa_sets, src_seq):
+                print(f"  {label}headword translit mismatch: {persian} / {translit}",
+                      file=sys.stderr)
+
+
+# ---------- grammar-note example lints ----------
+
+_ZWNJ = "‌"
+_EXAMPLE_MARKUP_RE = re.compile(r"\{e\}|[`*_]")
+_EXAMPLE_PUNCT_RE = re.compile(r"[،؛.:!؟?\-—()\[\]]")
+
+
+def _example_words(persian: str) -> list[str]:
+    """Persian content words in a grammar example, stripped of `{e}` markers,
+    markdown, punctuation, and split on whitespace and ZWNJ (so a fused
+    `رحمت‌های` matches the separate source tokens `رحمت` and `های`)."""
+    text = _EXAMPLE_MARKUP_RE.sub("", persian).replace(_ZWNJ, " ")
+    text = _EXAMPLE_PUNCT_RE.sub(" ", text)
+    return [w for w in text.split() if _PERSIAN_CHAR_RE.search(w)]
+
+
+def _lint_grammar_examples(source: dict, study: dict, label: str) -> None:
+    """Check each grammar-note example against the source: its `ref_anchor` must
+    target a real section, and its Persian must be taken verbatim from the
+    chapter (every content word, ignoring harakat, appears in the source tokens)."""
+    valid_anchors: set[str] = set()
+    src_words: set[str] = set()
+    for sec in source.get("sections", []):
+        valid_anchors.add(_section_heading(sec)[2])
+        for tok in sec.get("tokens") or []:
+            if "fa" in tok:
+                src_words.add(_DIACRITICS_RE.sub("", tok["fa"]))
+
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            if entry.get("type") != "grammar-note":
+                continue
+            for ex in entry.get("examples") or []:
+                ref = ex.get("ref", "")
+                anchor = ex.get("ref_anchor")
+                if anchor and anchor not in valid_anchors:
+                    print(f"  {label}grammar example bad ref_anchor: {anchor} ({ref})",
+                          file=sys.stderr)
+                missing = [w for w in _example_words(ex.get("persian", ""))
+                           if _DIACRITICS_RE.sub("", w) not in src_words]
+                if missing:
+                    print(f"  {label}grammar example not verbatim from source: "
+                          f"{' '.join(missing)} ({ref})", file=sys.stderr)
+
+
 # ---------- main renderer ----------
 
 def render_chapter(
@@ -1066,6 +1223,12 @@ def render_chapter(
 
     # Flag sections whose gloss objects have shifted off their fa tokens.
     _lint_gloss_alignment(source, label)
+
+    # Ezafe-marking consistency, plus study.json structural / fidelity checks.
+    _lint_ezafe_marking(source, label)
+    _lint_duplicate_anchors(study, label)
+    _lint_headword_translit(study, label)
+    _lint_grammar_examples(source, study, label)
 
     body_parts: list[str] = [
         f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>',
