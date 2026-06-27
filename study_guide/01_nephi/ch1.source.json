@@ -842,9 +842,10 @@
         {
           "fa": "راهی",
           "gloss": {
-            "src": "rāhī",
-            "gloss": "departing"
-          }
+            "src": "rāhī=ye",
+            "gloss": "departing=EZ"
+          },
+          "e": true
         },
         {
           "fa": "بیابان",

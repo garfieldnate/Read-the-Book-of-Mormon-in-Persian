@@ -2535,9 +2535,10 @@
         {
           "fa": "راهی",
           "gloss": {
-            "src": "rāhī",
-            "gloss": "traveler.INDEF"
-          }
+            "src": "rāhī=ye",
+            "gloss": "departing=EZ"
+          },
+          "e": true
         },
         {
           "fa": "سفرمان",
@@ -8320,7 +8321,7 @@
           "fa": "راهی",
           "gloss": {
             "src": "rāhī",
-            "gloss": "traveler"
+            "gloss": "departing"
           }
         },
         {
@@ -8386,7 +8387,7 @@
           "fa": "راهی",
           "gloss": {
             "src": "rāhī",
-            "gloss": "traveler"
+            "gloss": "departing"
           }
         },
         {

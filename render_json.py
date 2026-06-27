@@ -896,7 +896,8 @@ def _lint_ezafe(source: dict, word_map: dict, pos_map: dict, label: str) -> None
     findings: dict[tuple[str, str], list[str]] = {}
 
     for sec in source.get("sections", []):
-        if _section_type(sec) not in ("verse", "chapter-summary"):
+        stype = _section_type(sec)
+        if stype not in ("verse", "chapter-summary") and stype not in _BOOK_SUMMARY_TYPES:
             continue
         toks = sec.get("tokens") or []
         loc = _section_heading(sec)[1]
