@@ -16,3 +16,10 @@ The reference pages in `study_guide/` (`verbs.md`, `word_formation.md`, etc.) ar
 ## Audio (text-to-speech)
 
 Per-section audio players are generated at build time by `generate_audio.py` and committed under `study_guide/audio/<book>/<chap>/`. Regenerating audio needs the ElevenLabs key in `.env` (`11labsApiKey`), a **paid** ElevenLabs plan (the chosen voices are library voices — free tier gives HTTP 402), and `ffmpeg`. The site build itself needs no key. Text-builder rules (verse-number handling, ezafe) live in `tts_text.py`; runtime player logic in `study_guide/player.js`. See the **Audio** section of `README.md` and Step 5 of `GENERATING_CHAPTERS.md`.
+
+## Commit Guidance
+- Create separate commits for separate features/changes, rather than grouping many changes into a single commit.
+- A single file may contain changes belonging to different logical commits. Stage only the relevant pieces of such a file for each commit rather than dumping the whole file into a single commit.
+- If you changed code that has any tests, the tests must pass before committing.
+- The site must build cleanly (no warnings) before committing.
+- Do not credit yourself (claude) in the commit message, nor add yourself (claude) as co-committer.
