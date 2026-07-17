@@ -766,6 +766,102 @@ p.source-text { margin: 0.4em 0 0.6em; }
   text-decoration-style: solid;
 }
 
+/* --------- audio player --------- */
+.audio-player {
+  margin: 0.4em 0 0.6em;
+}
+
+.ap-wave {
+  cursor: pointer;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--meta-bg);
+  padding: 4px 6px;
+}
+
+.ap-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.4em;
+  font-family: var(--font-ui);
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+
+.ap-controls button {
+  font: inherit;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.4em 0.6em;
+  min-width: 2.2em;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.ap-controls button:hover { background: var(--example-bg); }
+.ap-play { min-width: 2.6em; }
+
+.ap-speed-label { display: inline-flex; align-items: center; gap: 0.35em; }
+.ap-speed {
+  font: inherit;
+  padding: 0.25em 0.3em;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.ap-time { margin-inline-start: auto; font-variant-numeric: tabular-nums; }
+
+/* Word currently being spoken (works for both linked and unlinked words). */
+.src-link.ap-active,
+.src-word.ap-active {
+  background: #ffe6a1;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px #ffe6a1;
+}
+
+/* Legacy player draws its waveform into a canvas inside .ap-wave. */
+.ap-canvas { display: block; width: 100%; cursor: pointer; }
+
+/* Word-tap definition popup (shared by both players). */
+.ap-popup {
+  position: absolute;
+  z-index: 1000;
+  max-width: 20em;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 0.6em 0.85em 0.7em;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--text);
+}
+.ap-popup-close {
+  position: absolute; top: 0.15em; right: 0.4em;
+  border: 0; background: transparent; cursor: pointer;
+  font-size: 1.25em; line-height: 1; color: var(--text-muted);
+}
+.ap-popup-fa {
+  font-family: var(--font-fa); font-size: 1.5rem;
+  direction: rtl; text-align: right; margin-bottom: 0.1em; padding-left: 1.2em;
+}
+.ap-popup-tl { font-style: italic; color: var(--translit-color); }
+.ap-popup-df { margin: 0.2em 0 0.55em; }
+.ap-popup-actions { display: flex; gap: 0.7em; align-items: center; }
+.ap-popup-play {
+  font: inherit; font-weight: 600; padding: 0.3em 0.6em;
+  border: 1px solid var(--rule); border-radius: 6px;
+  background: var(--bg); color: var(--accent); cursor: pointer;
+}
+.ap-popup-entry { color: var(--accent); }
+
 /* --------- grammar note blocks --------- */
 .grammar-note-block {
   background: #f0f4ff;
@@ -982,6 +1078,8 @@ ul:not(.vocab) li { margin: 0.25em 0; }
   .example { page-break-inside: avoid; }
   .vocab-entry { page-break-inside: avoid; }
   .toggle-bar { display: none !important; }
+  .audio-player { display: none !important; }
+  .ap-popup { display: none !important; }
   body.show-translations .translation { display: block; }
   body.show-gloss .gloss { display: block; }
 }
