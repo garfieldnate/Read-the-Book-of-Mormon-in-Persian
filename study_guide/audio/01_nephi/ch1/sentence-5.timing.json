@@ -1,0 +1,25 @@
+{
+  "anchor": "sentence-5",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "سرگذشت زجرهایشان.",
+  "duration": 2.744,
+  "tokens": {
+    "0": [
+      0.0,
+      1.04
+    ],
+    "1": [
+      1.24,
+      2.56
+    ],
+    "2": [
+      2.56,
+      2.72
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "anchor": "subtitle",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "فرمانروایی و خدمت او",
+  "duration": 2.326,
+  "tokens": {
+    "0": [
+      0.0,
+      1.04
+    ],
+    "1": [
+      1.16,
+      1.28
+    ],
+    "2": [
+      1.424,
+      2.0
+    ],
+    "3": [
+      2.107,
+      2.32
+    ]
+  }
+}

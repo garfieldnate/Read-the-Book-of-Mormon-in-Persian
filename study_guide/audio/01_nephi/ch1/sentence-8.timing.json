@@ -1,0 +1,45 @@
+{
+  "anchor": "sentence-8",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "زجرها و رنج های آنان در بیابان.",
+  "duration": 3.214,
+  "tokens": {
+    "0": [
+      0.0,
+      0.72
+    ],
+    "1": [
+      0.8,
+      0.88
+    ],
+    "2": [
+      1.0,
+      1.36
+    ],
+    "3": [
+      1.44,
+      1.68
+    ],
+    "4": [
+      1.76,
+      2.08
+    ],
+    "5": [
+      2.16,
+      2.32
+    ],
+    "6": [
+      2.427,
+      3.12
+    ],
+    "7": [
+      3.12,
+      3.2
+    ]
+  }
+}

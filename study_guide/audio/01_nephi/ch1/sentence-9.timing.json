@@ -1,0 +1,29 @@
+{
+  "anchor": "sentence-9",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "راه مسافرت هایشان.",
+  "duration": 1.934,
+  "tokens": {
+    "0": [
+      0.0,
+      0.4
+    ],
+    "1": [
+      0.48,
+      1.28
+    ],
+    "2": [
+      1.34,
+      1.92
+    ],
+    "3": [
+      1.92,
+      1.92
+    ]
+  }
+}

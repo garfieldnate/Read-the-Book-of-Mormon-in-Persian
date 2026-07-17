@@ -1,0 +1,25 @@
+{
+  "anchor": "title",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "نخستین کتاب نیفای",
+  "duration": 2.404,
+  "tokens": {
+    "0": [
+      0.0,
+      0.64
+    ],
+    "1": [
+      0.8,
+      1.44
+    ],
+    "2": [
+      1.64,
+      2.4
+    ]
+  }
+}

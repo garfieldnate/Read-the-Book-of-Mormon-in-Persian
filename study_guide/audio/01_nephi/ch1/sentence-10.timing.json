@@ -1,0 +1,45 @@
+{
+  "anchor": "sentence-10",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "آنها به آب های پهناور می رسند.",
+  "duration": 2.822,
+  "tokens": {
+    "0": [
+      0.0,
+      0.32
+    ],
+    "1": [
+      0.373,
+      0.48
+    ],
+    "2": [
+      0.587,
+      0.8
+    ],
+    "3": [
+      0.88,
+      1.12
+    ],
+    "4": [
+      1.28,
+      2.0
+    ],
+    "5": [
+      2.027,
+      2.08
+    ],
+    "6": [
+      2.187,
+      2.8
+    ],
+    "7": [
+      2.8,
+      2.8
+    ]
+  }
+}

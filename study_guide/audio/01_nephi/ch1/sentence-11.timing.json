@@ -1,0 +1,45 @@
+{
+  "anchor": "sentence-11",
+  "role": "summary",
+  "model": "eleven_v3",
+  "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+  "voice_name": "Zara",
+  "include_ezafe": false,
+  "number_sep": "period",
+  "text": "برادران نیفای علیه او شورش می کنند.",
+  "duration": 3.057,
+  "tokens": {
+    "0": [
+      0.0,
+      0.64
+    ],
+    "1": [
+      0.72,
+      1.2
+    ],
+    "2": [
+      1.296,
+      1.68
+    ],
+    "3": [
+      1.76,
+      1.92
+    ],
+    "4": [
+      2.0,
+      2.4
+    ],
+    "5": [
+      2.427,
+      2.48
+    ],
+    "6": [
+      2.576,
+      2.96
+    ],
+    "7": [
+      2.96,
+      3.04
+    ]
+  }
+}
