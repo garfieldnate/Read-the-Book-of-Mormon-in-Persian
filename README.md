@@ -107,10 +107,39 @@ Both renderers produce the same CSS class taxonomy, documented here. The "Source
 | `.grammar-note-block` | `<div>` | Both   | Grammar note wrapper; light-blue background with left border. |
 | `.grammar-note`     | `<h4>`     | Both   | Title heading inside a grammar note block. |
 | `.ezafe`            | `<span>`   | Both   | Editorial kasra — from `"e": true` on JSON tokens, or `{e}` in prose strings. |
+| `.audio-player`     | `<div>`    | JSON   | Per-section TTS player; `data-audio`/`data-peaks` point at the mp3 / peaks sidecar. Emitted only when a section has generated audio. |
+| `.ap-wave`          | `<div>`    | JSON   | wavesurfer.js waveform container (also the scrub bar). |
+| `.ap-controls`      | `<div>`    | JSON   | Play/pause, ±5s, speed, and time readout row. |
+| `.src-word`         | `<span>`   | JSON   | Wrapper for an unlinked source word that carries `data-t0`/`data-t1` so it can highlight/play. Linked words use `.src-link` with the same attrs. |
+| `.ap-active`        | `<a>`/`<span>` | JSON | Added by `player.js` to the word currently being spoken. |
 
 ### Editing the stylesheet
 
 `styles.css` lives at the project root so every chapter shares one visual identity. Adjust colors, font stacks, or sizes there once and every chapter re-renders with the new look — the HTML doesn't need to change. Print styling lives in `@media print` at the bottom of the file.
+
+## Audio (text-to-speech)
+
+Each source-text section gets a per-section audio player (waveform scrub, speed, ±5s, live word highlight, click-a-word-to-play). Audio is generated **at build time**, not in the browser, and the outputs are committed to the repo so the site build and CI need no API key.
+
+`generate_audio.py` calls the ElevenLabs `/with-timestamps` endpoint (model `eleven_v3` — the only model that speaks Persian), folds the returned character timings onto tokens, and precomputes waveform peaks with ffmpeg. Voices are assigned by section role, mirroring the English recording:
+
+| Role | Voice | ID |
+| --- | --- | --- |
+| verses / main source text | IMan (male, Persian-native) | `3AA408tBxTzz5dPx3TsR` |
+| chapter & book summaries  | Zara (female)               | `jqcCZkN6Knx8BJ5TBdYR` |
+
+**Requirements to (re)generate audio:**
+- **ElevenLabs API key** in `.env` at the repo root, key name `11labsApiKey` (`.env` is gitignored).
+- A **paid ElevenLabs plan** ($5 Starter or higher). The chosen voices are *library* voices — the free tier rejects them via the API with HTTP 402. (`eleven_v3` at 1 credit/char; ~4,900 chars/chapter.)
+- **ffmpeg** on `PATH` (used to precompute waveform peaks; without it the waveform falls back to client-side decoding).
+
+```bash
+# Regenerate one chapter's audio (role-based voices, per-chapter output dir).
+# Cached sections are skipped; use --force to overwrite, --dry-run to preview cost.
+.venv/bin/python generate_audio.py --source study_guide/01_nephi/ch1.source.json
+```
+
+Outputs land in `study_guide/audio/<book>/<chap>/<anchor>.{mp3,timing.json,peaks.json}`. `render_json.py` reads the `*.timing.json` sidecars at build time to stamp per-word timings and emit players; `build_site.py` copies the `mp3`/`peaks.json` (not the build-only `timing.json`), `player.js`, and the vendored `vendor/wavesurfer.esm.js` into `_site/`. The runtime player logic lives in `study_guide/player.js`.
 
 ## Running the toolchain
 
@@ -123,4 +152,4 @@ python3 check_links.py                                             # verify all 
 
 `check_links.py` scans every HTML file in `_site/` and reports any `href="#..."` whose target `id="..."` does not exist in the same file. Run it after `build_site.py` to catch broken vocab links before pushing. Exits 0 if everything is clean, 1 if any broken links are found.
 
-No dependencies beyond the Python 3.10+ standard library. CI runs `python3 build_site.py` and publishes `_site/` to GitHub Pages on every push to `main`/`master`; see `.github/workflows/pages.yml`.
+Building the site needs no dependencies beyond the Python 3.10+ standard library — the committed audio assets mean the build never calls ElevenLabs. Only **regenerating audio** with `generate_audio.py` needs extras (a paid ElevenLabs API key and ffmpeg — see [Audio](#audio-text-to-speech)). CI runs `python3 build_site.py` and publishes `_site/` to GitHub Pages on every push to `main`/`master`; see `.github/workflows/pages.yml`.

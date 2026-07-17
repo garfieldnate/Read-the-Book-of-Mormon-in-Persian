@@ -110,6 +110,24 @@ python3 check_links.py
 
 `check_links.py` scans every HTML file in `_site/` and reports any `href="#…"` whose target `id="…"` does not exist in the same file. Fix broken links before pushing.
 
+### Step 5 — Generate audio (optional, requires a paid ElevenLabs plan)
+
+Each source section can have a text-to-speech player. Generate the audio once and commit it; the site build and CI never call the API.
+
+```bash
+.venv/bin/python generate_audio.py --source study_guide/01_nephi/ch3.source.json
+# --dry-run to preview text + character cost first; --force to overwrite; --section verse-1 for one section
+```
+
+Requirements and behavior:
+- **API key**: read from `.env` at the repo root, key name `11labsApiKey` (`.env` is gitignored — never commit it).
+- **Paid plan required**: the voices (IMan for verses, Zara for summaries) are ElevenLabs *library* voices; the free tier rejects them over the API with **HTTP 402**. Model is `eleven_v3` (the only one that speaks Persian), billed 1 credit/char (~4,900 chars/chapter).
+- **ffmpeg** must be on `PATH` (precomputes the waveform peaks).
+- Voice is chosen automatically by section role (verse → male, summary → female). Verse numbers are spoken and set apart with a period; editorial ezafe is **not** sent to the engine.
+- Outputs: `study_guide/audio/<book>/<chap>/<anchor>.{mp3,timing.json,peaks.json}`. Re-running skips sections that already exist (use `--force` to redo). After generating, re-run `build_site.py` so the players appear.
+
+See the **Audio** section of `README.md` for the full asset flow.
+
 ---
 
 ## JSON schemas and content rules
