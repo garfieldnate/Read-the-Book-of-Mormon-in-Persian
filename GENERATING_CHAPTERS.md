@@ -125,6 +125,7 @@ Requirements and behavior:
 - **ffmpeg** must be on `PATH` (precomputes the waveform peaks).
 - Voice is chosen automatically by section role (verse → male, summary → female). Verse numbers are spoken and set apart with a period; editorial ezafe is **not** sent to the engine.
 - Outputs: `study_guide/audio/<book>/<chap>/<anchor>.{mp3,timing.json,peaks.json}`. Re-running skips sections that already exist (use `--force` to redo). After generating, re-run `build_site.py` so the players appear.
+- If you skip this step, `build_site.py` prints a `missing audio for N section(s) … run: python generate_audio.py …` warning for the chapter, so a chapter never silently ships without audio.
 
 See the **Audio** section of `README.md` for the full asset flow.
 

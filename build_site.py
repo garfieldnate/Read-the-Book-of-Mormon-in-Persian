@@ -315,10 +315,13 @@ def main() -> int:
             book_dir = stem_path.parent.name
             chap = stem_path.name
             audio_dir = ROOT / "study_guide" / "audio" / book_dir / chap
+            # Pass audio_dir even if it doesn't exist yet, so render_chapter can
+            # warn about sections lacking generated audio (reminder to run
+            # generate_audio.py). Missing files simply yield no player.
             html = render_chapter(
                 source_data, study_data,
                 css_href=css_href, source_name=source_name, prev=prev, next=next_,
-                audio_dir=audio_dir if audio_dir.exists() else None,
+                audio_dir=audio_dir,
                 audio_href=f"../audio/{book_dir}/{chap}",
             )
             print(f"  {src_json.relative_to(ROOT)} → {html_path.relative_to(ROOT)} [json]", file=sys.stderr)

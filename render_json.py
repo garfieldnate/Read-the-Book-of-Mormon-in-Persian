@@ -1288,6 +1288,7 @@ def render_chapter(
     #  Lint — source.json checks                                         #
     # ------------------------------------------------------------------ #
     label = f"{source_name}: " if source_name else ""
+    missing_audio: list[str] = []
     for source_sec in source.get("sections", []):
         t = _section_type(source_sec)
         n = source_sec.get("number")
@@ -1301,6 +1302,12 @@ def render_chapter(
         tokens = source_sec.get("tokens")
         if t in ("verse", "chapter-summary") and not tokens:
             print(f"  {label}missing tokens: {sec_desc}", file=sys.stderr)
+
+        # Every token-bearing section should have generated audio. Flag any that
+        # don't so we remember to run generate_audio.py. (Only when a build is
+        # audio-aware — audio_dir is None for standalone renders.)
+        if tokens and audio_dir is not None and not (audio_dir / f"{_section_heading(source_sec)[2]}.timing.json").exists():
+            missing_audio.append(_section_heading(source_sec)[2])
 
         # Verse sections need an English translation.
         if t == "verse" and not source_sec.get("en"):
@@ -1319,6 +1326,12 @@ def render_chapter(
                     print(f"  {label}gloss missing src: `{fa}` in {sec_desc}", file=sys.stderr)
                 if not g.get("gloss"):
                     print(f"  {label}gloss missing gloss field: `{fa}` in {sec_desc}", file=sys.stderr)
+
+    if missing_audio:
+        src_hint = f"study_guide/{audio_dir.parent.name}/{audio_dir.name}.source.json"
+        shown = ", ".join(missing_audio[:8]) + ("…" if len(missing_audio) > 8 else "")
+        print(f"  {label}missing audio for {len(missing_audio)} section(s) [{shown}] — "
+              f"run: python generate_audio.py --source {src_hint}", file=sys.stderr)
 
     # Heuristic: flag adjacent nominals with no ezafe between them.
     _lint_ezafe(source, word_map, pos_map, label)
