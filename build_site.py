@@ -235,6 +235,20 @@ def main() -> int:
     sg_css_dir.mkdir(exist_ok=True)
     shutil.copy2(ROOT / "study_guide" / "styles.css", sg_css_dir / "styles.css")
 
+    # Audio assets + player script + vendored waveform lib. The build-time
+    # *.timing.json sidecars aren't needed at runtime, so they're excluded.
+    audio_src = ROOT / "study_guide" / "audio"
+    if audio_src.exists():
+        shutil.copytree(audio_src, sg_css_dir / "audio",
+                        ignore=shutil.ignore_patterns("*.timing.json"))
+    for js_name in ("word-popup.js", "player.js", "player-legacy.js"):
+        js_path = ROOT / "study_guide" / js_name
+        if js_path.exists():
+            shutil.copy2(js_path, sg_css_dir / js_name)
+    vendor_src = ROOT / "study_guide" / "vendor"
+    if vendor_src.exists():
+        shutil.copytree(vendor_src, sg_css_dir / "vendor")
+
     chapters = discover_chapters(ROOT)
     if not chapters:
         print("warning: no chapters found (looking for study_guide/NN_*/chN.md)", file=sys.stderr)
@@ -298,9 +312,14 @@ def main() -> int:
         if src_json.exists() and stu_json.exists():
             source_data = json.loads(src_json.read_text(encoding="utf-8"))
             study_data  = json.loads(stu_json.read_text(encoding="utf-8"))
+            book_dir = stem_path.parent.name
+            chap = stem_path.name
+            audio_dir = ROOT / "study_guide" / "audio" / book_dir / chap
             html = render_chapter(
                 source_data, study_data,
                 css_href=css_href, source_name=source_name, prev=prev, next=next_,
+                audio_dir=audio_dir if audio_dir.exists() else None,
+                audio_href=f"../audio/{book_dir}/{chap}",
             )
             print(f"  {src_json.relative_to(ROOT)} → {html_path.relative_to(ROOT)} [json]", file=sys.stderr)
         else:

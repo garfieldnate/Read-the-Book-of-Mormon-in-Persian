@@ -983,6 +983,9 @@ DOCUMENT = """<!DOCTYPE html>
   }})();
 }})();
 </script>
+<script src="{word_popup_js}"></script>
+<script type="module" src="{player_js}"></script>
+<script nomodule src="{player_legacy_js}"></script>
 </body>
 </html>
 """
@@ -1029,7 +1032,12 @@ def render(
     )
     up_slot = f'<a href="{index_href}" class="nav-up">↑ Study Guides</a>'
     nav = f'<nav class="up-nav">{prev_slot}{up_slot}{next_slot}</nav>'
-    return DOCUMENT.format(title=plain_title, css=css_href, body=body, body_class=body_class, nav=nav)
+    return DOCUMENT.format(
+        title=plain_title, css=css_href, body=body, body_class=body_class, nav=nav,
+        word_popup_js=css_href.replace("styles.css", "word-popup.js"),
+        player_js=css_href.replace("styles.css", "player.js"),
+        player_legacy_js=css_href.replace("styles.css", "player-legacy.js"),
+    )
 
 
 # ---------- CLI ----------

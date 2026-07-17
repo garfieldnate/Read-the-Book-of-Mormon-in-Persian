@@ -145,6 +145,21 @@ def _build_vocab_map_json(study: dict) -> dict[str, str]:
     return word_map
 
 
+def _build_meaning_map_json(study: dict) -> dict[str, str]:
+    """Return {anchor_id: meaning} from headword entries, for the word popup."""
+    meanings: dict[str, str] = {}
+    for section in study.get("sections", []):
+        for entry in section.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
+            anchor = f"vocab-{entry_id}"
+            meaning = entry.get("meaning", "")
+            if meaning and anchor not in meanings:
+                meanings[anchor] = meaning
+    return meanings
+
+
 def _build_pos_map_json(study: dict) -> dict[str, str]:
     """Return {persian_form: pos} from the structured study JSON.
 
@@ -209,6 +224,8 @@ def _render_tokens(
     word_map: dict[str, str],
     unlinked: list[tuple[str, str]] | None = None,
     location: str = "",
+    token_times: dict[int, list[float]] | None = None,
+    meaning_map: dict[str, str] | None = None,
 ) -> str:
     """Render a source-JSON tokens array to linked HTML.
 
@@ -218,11 +235,42 @@ def _render_tokens(
 
     می/نمی prefix tokens are combined with the immediately following verb token
     into a single <a> link so they read as one unit rather than two separate links.
+
+    When ``token_times`` (token index -> [t0, t1]) is given, each word carries the
+    data the audio player and word-tap popup need: ``data-t0``/``data-t1`` (timing),
+    ``data-tl`` (translit) and ``data-gl`` (gloss) from the token, and ``data-df``
+    (meaning, via ``meaning_map``) when the word has a vocab entry. A merged می unit
+    spans both token indices and uses the verb's gloss/meaning.
     """
     result: list[str] = []
     prev_was_word = False
     tok_list = list(tokens)
     i = 0
+
+    def _combined_times(*idxs: int) -> list[float] | None:
+        if not token_times:
+            return None
+        ts = [token_times[j] for j in idxs if j in token_times]
+        if not ts:
+            return None
+        return [min(t[0] for t in ts), max(t[1] for t in ts)]
+
+    def _word_attrs(gloss: dict | None, anchor: str | None, *idxs: int) -> str:
+        a: list[str] = []
+        times = _combined_times(*idxs)
+        if times:
+            a.append(f'data-t0="{times[0]}"')
+            a.append(f'data-t1="{times[1]}"')
+        if gloss:
+            src = gloss.get("src")
+            if src:
+                a.append(f'data-tl="{html_lib.escape(src, quote=True)}"')
+            gl = gloss.get("gloss")
+            if gl:
+                a.append(f'data-gl="{html_lib.escape(gl, quote=True)}"')
+        if anchor and meaning_map and anchor in meaning_map:
+            a.append(f'data-df="{html_lib.escape(meaning_map[anchor], quote=True)}"')
+        return (" " + " ".join(a)) if a else ""
 
     while i < len(tok_list):
         tok = tok_list[i]
@@ -243,7 +291,8 @@ def _render_tokens(
                     next_anchor = _resolve_anchor(next_fa, word_map)
                 if next_anchor:
                     combined = f'{html_lib.escape(fa)} {html_lib.escape(next_fa)}'
-                    result.append(f'<a href="#{next_anchor}" class="src-link">{combined}</a>')
+                    attrs = _word_attrs(next_tok.get("gloss"), next_anchor, i, i + 1)
+                    result.append(f'<a href="#{next_anchor}" class="src-link"{attrs}>{combined}</a>')
                     if next_tok.get("e"):
                         result.append('<span class="ezafe">ِ</span>')
                     prev_was_word = True
@@ -258,9 +307,14 @@ def _render_tokens(
 
             fa_html = html_lib.escape(fa)
             if anchor:
-                result.append(f'<a href="#{anchor}" class="src-link">{fa_html}</a>')
+                attrs = _word_attrs(tok.get("gloss"), anchor, i)
+                result.append(f'<a href="#{anchor}" class="src-link"{attrs}>{fa_html}</a>')
             else:
-                result.append(fa_html)
+                attrs = _word_attrs(tok.get("gloss"), None, i)
+                if attrs:
+                    result.append(f'<span class="src-word"{attrs}>{fa_html}</span>')
+                else:
+                    result.append(fa_html)
                 if unlinked is not None:
                     unlinked.append((fa, location))
 
@@ -715,12 +769,47 @@ def _build_chapter_toc(source: dict, study: dict) -> str:
 
 # ---------- section rendering ----------
 
+def _load_token_times(audio_dir: Path | None, anchor: str) -> dict[int, list[float]] | None:
+    """Read a section's build-time timing sidecar, or None if there's no audio."""
+    if not audio_dir:
+        return None
+    path = audio_dir / f"{anchor}.timing.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {int(k): v for k, v in data.get("tokens", {}).items()}
+
+
+_AUDIO_PLAYER_TEMPLATE = (
+    '<div class="audio-player" data-audio="{href}/{anchor}.mp3" data-peaks="{href}/{anchor}.peaks.json">'
+    '<div class="ap-wave"></div>'
+    '<div class="ap-controls">'
+    '<button type="button" class="ap-play" aria-label="Play audio">▶</button>'
+    '<button type="button" class="ap-back" aria-label="Back 5 seconds">«&#8202;5s</button>'
+    '<button type="button" class="ap-fwd" aria-label="Forward 5 seconds">5s&#8202;»</button>'
+    '<label class="ap-speed-label"><span>Speed</span> '
+    '<select class="ap-speed">'
+    '<option value="0.5">0.5×</option><option value="0.75">0.75×</option>'
+    '<option value="1" selected>1×</option><option value="1.25">1.25×</option>'
+    '</select></label>'
+    '<span class="ap-time"><span class="ap-cur">0:00</span>&#8201;/&#8201;<span class="ap-dur">0:00</span></span>'
+    '</div></div>'
+)
+
+
+def _audio_player_html(audio_href: str, anchor: str) -> str:
+    return _AUDIO_PLAYER_TEMPLATE.format(href=audio_href, anchor=anchor)
+
+
 def _render_section(
     source_sec: dict,
     study_sec: dict | None,
     word_map: dict[str, str],
     unlinked: list[tuple[str, str]] | None,
     arabic_href: str = "",
+    audio_dir: Path | None = None,
+    audio_href: str = "",
+    meaning_map: dict[str, str] | None = None,
 ) -> str:
     level, heading_text, heading_id = _section_heading(source_sec)
     location = heading_text
@@ -731,8 +820,11 @@ def _render_section(
 
     tokens = source_sec.get("tokens")
     if tokens is not None:
-        tokens_html = _render_tokens(tokens, word_map, unlinked, location)
+        token_times = _load_token_times(audio_dir, heading_id)
+        tokens_html = _render_tokens(tokens, word_map, unlinked, location, token_times, meaning_map)
         parts.append(TOGGLE_BAR_HTML)
+        if token_times is not None:
+            parts.append(_audio_player_html(audio_href, heading_id))
         parts.append(f'<p class="source-text"><code>{tokens_html}</code></p>')
 
     if tokens and any("gloss" in t for t in tokens if "fa" in t):
@@ -1165,10 +1257,19 @@ def render_chapter(
     source_name: str = "",
     prev: tuple[str, str] | None = None,
     next: tuple[str, str] | None = None,
+    audio_dir: Path | None = None,
+    audio_href: str = "",
 ) -> str:
-    """Render chapter source + study JSON to a complete HTML document string."""
+    """Render chapter source + study JSON to a complete HTML document string.
+
+    ``audio_dir`` is the filesystem dir holding this chapter's ``*.timing.json`` /
+    ``*.peaks.json`` / ``*.mp3`` (read at build time to stamp word timings and
+    decide which sections get a player). ``audio_href`` is the URL base from the
+    rendered page to that dir. When ``audio_dir`` is None, no players are emitted.
+    """
     word_map = _build_vocab_map_json(study)
     pos_map = _build_pos_map_json(study)
+    meaning_map = _build_meaning_map_json(study)
     arabic_href = css_href.replace("styles.css", "arabic.html")
     unlinked: list[tuple[str, str]] = []
 
@@ -1269,7 +1370,10 @@ def render_chapter(
                 body_parts.append(_render_prose(bs_intro, word_map=None))
 
         study_sec = study_index.get((t, n))
-        body_parts.append(_render_section(source_sec, study_sec, word_map, unlinked, arabic_href))
+        body_parts.append(_render_section(
+            source_sec, study_sec, word_map, unlinked, arabic_href,
+            audio_dir=audio_dir, audio_href=audio_href, meaning_map=meaning_map,
+        ))
 
 
     body = "\n".join(body_parts)
@@ -1455,6 +1559,9 @@ def render_chapter(
         body=body,
         body_class=body_class,
         nav=nav,
+        word_popup_js=css_href.replace("styles.css", "word-popup.js"),
+        player_js=css_href.replace("styles.css", "player.js"),
+        player_legacy_js=css_href.replace("styles.css", "player-legacy.js"),
     )
 
 
