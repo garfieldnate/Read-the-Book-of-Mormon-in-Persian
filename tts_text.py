@@ -35,6 +35,7 @@ def build_tts_text(
     tokens: list[dict],
     include_ezafe: bool = False,
     number_sep: str | None = ". ",
+    overrides: dict[str, str] | None = None,
 ) -> tuple[str, list[tuple[int, int, int]]]:
     """Return ``(text, spans)`` for a section's token list.
 
@@ -48,6 +49,11 @@ def build_tts_text(
     the first phrase — so ``number_sep`` (e.g. ``". "``) is inserted after it as
     joining text (no span of its own). Set ``number_sep=None`` to omit the verse
     number from the audio entirely. Mid-text numbers are unaffected.
+
+    ``overrides`` maps a token's ``fa`` surface form to a replacement spoken form
+    (e.g. a harakat respelling that fixes a mispronunciation). Only the audio is
+    affected — the token's span still covers the replacement, so word timings
+    map back to the displayed (unchanged) word.
     """
     parts: list[str] = []
     spans: list[tuple[int, int, int]] = []
@@ -65,6 +71,8 @@ def build_tts_text(
                 parts.append(" ")
                 pos += 1
             piece = tok["fa"]
+            if overrides and piece in overrides:
+                piece = overrides[piece]
             if include_ezafe and tok.get("e"):
                 piece += KASRE
             start = pos

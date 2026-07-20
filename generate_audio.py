@@ -65,6 +65,19 @@ def load_api_key() -> str:
     sys.exit("error: 11labsApiKey not found in .env")
 
 
+def load_overrides() -> dict[str, str]:
+    """Load {fa: spoken_form} pronunciation overrides from pronunciations.json.
+
+    Each entry maps a Persian surface form to a corrected spoken form (a harakat
+    respelling under the ``say`` key). Missing file -> no overrides.
+    """
+    path = ROOT / "pronunciations.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {fa: e["say"] for fa, e in data.items() if isinstance(e, dict) and e.get("say")}
+
+
 def _request(method: str, url: str, key: str, data: dict | None = None) -> dict:
     headers = {"xi-api-key": key}
     body = None
@@ -147,9 +160,10 @@ def synthesize(
     model: str,
     key: str,
     number_sep: str | None,
+    overrides: dict[str, str] | None = None,
 ) -> tuple[bytes, dict[int, list[float]], str, float]:
     """Return (mp3_bytes, token_times, text, token_duration)."""
-    text, spans = build_tts_text(tokens, include_ezafe, number_sep=number_sep)
+    text, spans = build_tts_text(tokens, include_ezafe, number_sep=number_sep, overrides=overrides)
     url = f"{API}/text-to-speech/{voice_id}/with-timestamps?output_format={DEFAULT_OUTPUT_FORMAT}"
     resp = _request("POST", url, key, {"text": text, "model_id": model})
     audio = base64.b64decode(resp["audio_base64"])
@@ -237,6 +251,7 @@ def main() -> int:
 
     variants = [("", False), (".ezafe", True)] if args.ab else [("", args.ezafe)]
     number_sep = NUMBER_SEPS[args.number_sep]
+    overrides = load_overrides()
     out_dir = Path(args.out).resolve() if args.out else default_out_dir(source_path)
     tag = f".{args.tag}" if args.tag else ""
 
@@ -247,7 +262,7 @@ def main() -> int:
             role = section_role(sec)
             _, vname = (args.voice, "(override)") if args.voice else ROLE_VOICES[role]
             for suffix, ez in variants:
-                text, _spans = build_tts_text(sec["tokens"], ez, number_sep=number_sep)
+                text, _spans = build_tts_text(sec["tokens"], ez, number_sep=number_sep, overrides=overrides)
                 total += len(text)
                 print(f"[{anchor}{tag}{suffix}] {len(text)} chars  voice={vname}")
                 print(f"    {text}")
@@ -264,12 +279,20 @@ def main() -> int:
         voice_id, vname = (args.voice, "(override)") if args.voice else ROLE_VOICES[role]
         for suffix, ez in variants:
             name = f"{anchor}{tag}{suffix}"
-            if not args.force and (out_dir / f"{name}.timing.json").exists():
-                print(f"[{name}] cached, skipping (use --force to regenerate)")
-                continue
+            timing_path = out_dir / f"{name}.timing.json"
+            want_text, _ = build_tts_text(sec["tokens"], ez, number_sep=number_sep, overrides=overrides)
+            # Text-aware cache: regenerate only when the spoken text changed
+            # (new section, edited tokens, or a new pronunciation override).
+            if not args.force and timing_path.exists():
+                try:
+                    if json.loads(timing_path.read_text(encoding="utf-8")).get("text") == want_text:
+                        print(f"[{name}] up to date, skipping")
+                        continue
+                except (ValueError, OSError):
+                    pass
             print(f"[{name}] synthesizing with {vname}...")
             audio, token_times, text, token_dur = synthesize(
-                sec["tokens"], ez, voice_id, args.model, key, number_sep
+                sec["tokens"], ez, voice_id, args.model, key, number_sep, overrides
             )
             meta = {
                 "anchor": anchor, "role": role, "model": args.model,
