@@ -29,7 +29,7 @@ from pathlib import Path
 import json
 
 from render import render
-from render_json import render_chapter
+from render_json import render_chapter, lint_lexicon
 from check_links import check_file as _check_links_file
 
 ROOT = Path(__file__).resolve().parent
@@ -298,6 +298,7 @@ def main() -> int:
     def _sibling_href(from_path: Path, to_path: Path) -> str:
         return os.path.relpath(to_path, from_path.parent)
 
+    chapter_sources: list[dict] = []
     for i, (html_path, title, stem_path, css_href, source_name) in enumerate(all_pages):
         prev = (
             (_sibling_href(html_path, all_pages[i - 1][0]), all_pages[i - 1][1])
@@ -312,6 +313,7 @@ def main() -> int:
         if src_json.exists() and stu_json.exists():
             source_data = json.loads(src_json.read_text(encoding="utf-8"))
             study_data  = json.loads(stu_json.read_text(encoding="utf-8"))
+            chapter_sources.append(source_data)
             book_dir = stem_path.parent.name
             chap = stem_path.name
             audio_dir = ROOT / "study_guide" / "audio" / book_dir / chap
@@ -331,6 +333,9 @@ def main() -> int:
             html = render(md_text, css_href=css_href, source_name=source_name, prev=prev, next=next_)
             print(f"  {md_file.relative_to(ROOT)} → {html_path.relative_to(ROOT)}", file=sys.stderr)
         html_path.write_text(html, encoding="utf-8")
+
+    # Validate every token against the canonical lexicon (translit + names).
+    lint_lexicon(chapter_sources)
 
     ref_pages = [
         (f"study_guide/{html_path.name}", title)

@@ -963,20 +963,128 @@ _LINT_IGNORE_PATH = Path(__file__).resolve().parent / "lint_ignore.json"
 _lint_ignore_data: dict | None = None
 
 
-def _lint_ignored(category: str, book: str, chapter) -> set[str]:
-    """Return acknowledged false-positive keys for a lint category in one chapter.
-
-    Read from `lint_ignore.json` next to this module: a heuristic finding whose
-    key matches an entry there is silently dropped, so genuinely-wrong findings
-    aren't drowned out. See that file's `_README` for the format."""
+def _load_lint_ignore() -> dict:
+    """Load and cache lint_ignore.json (next to this module)."""
     global _lint_ignore_data
     if _lint_ignore_data is None:
         try:
             _lint_ignore_data = json.loads(_LINT_IGNORE_PATH.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             _lint_ignore_data = {}
-    entries = (_lint_ignore_data.get(category) or {}).get(f"{book} {chapter}".strip(), [])
+    return _lint_ignore_data
+
+
+def _lint_ignored(category: str, book: str, chapter) -> set[str]:
+    """Return acknowledged false-positive keys for a lint category in one chapter.
+
+    Read from `lint_ignore.json` next to this module: a heuristic finding whose
+    key matches an entry there is silently dropped, so genuinely-wrong findings
+    aren't drowned out. See that file's `_README` for the format."""
+    entries = (_load_lint_ignore().get(category) or {}).get(f"{book} {chapter}".strip(), [])
     return {e["pair"] if isinstance(e, dict) else e for e in entries}
+
+
+# Ezafe clitic suffixes appended to a word's transliteration when it heads an
+# ezafe phrase (context-dependent, so not a real inconsistency).
+_EZAFE_TRANSLIT_SUFFIXES = ("=ye", "=e", "-ye")
+
+
+def _norm_translit(src: str) -> str:
+    """Normalize a token transliteration for consistency comparison.
+
+    Removes differences that are segmentation *style*, not pronunciation, so the
+    lint only flags genuine phonetic/spelling drift:
+      * a trailing ezafe clitic (``mādar`` == ``mādar=e``), then
+      * all morpheme/clitic separators (``kard-am`` == ``kardam``,
+        ``be-negar-īd`` == ``benegarīd``).
+    A real difference like ``be-ngar`` vs ``be-negar`` (a dropped vowel) survives.
+    """
+    s = src.strip()
+    for suf in _EZAFE_TRANSLIT_SUFFIXES:
+        if s.endswith(suf):
+            s = s[: -len(suf)]
+            break
+    return s.replace("-", "").replace("=", "")
+
+
+_LEXICON_PATH = Path(__file__).resolve().parent / "lexicon.json"
+_lexicon_data: dict | None = None
+_CLEAN_NAME_RE = re.compile(r"^[A-Z][A-Za-z]+$")
+
+
+def _load_lexicon() -> dict:
+    """Load and cache lexicon.json (canonical per-word translit + proper names)."""
+    global _lexicon_data
+    if _lexicon_data is None:
+        try:
+            _lexicon_data = json.loads(_LEXICON_PATH.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _lexicon_data = {}
+    return _lexicon_data
+
+
+def lint_lexicon(sources: list[dict]) -> None:
+    """Validate every token against lexicon.json — the canonical word list.
+
+    lexicon.json pins the data that must stay constant across chapters. This
+    flags: a token whose transliteration (ezafe/segmentation normalized) isn't
+    the word's canonical ``tl`` (a list allows genuine homographs); a proper
+    noun whose gloss disagrees with the pinned ``name``; and any word missing
+    from the lexicon, so new vocabulary is added deliberately rather than
+    drifting. Contextual definitions are intentionally not checked.
+    """
+    lex = _load_lexicon()
+    if not lex:
+        return
+
+    tl_mismatch: dict[tuple[str, str], list[str]] = {}
+    name_mismatch: dict[tuple[str, str], list[str]] = {}
+    unknown: dict[str, list[str]] = {}
+
+    def _add(store: dict, key, loc: str) -> None:
+        locs = store.setdefault(key, [])
+        if loc not in locs:
+            locs.append(loc)
+
+    for src_data in sources:
+        loc_base = f"{src_data.get('book', '')} {src_data.get('chapter', '')}".strip()
+        for sec in src_data.get("sections", []):
+            loc = f"{loc_base} {_section_heading(sec)[1]}".strip()
+            for tok in sec.get("tokens") or []:
+                if "fa" not in tok:
+                    continue
+                fa = tok["fa"]
+                entry = lex.get(fa)
+                if entry is None:
+                    _add(unknown, fa, loc)
+                    continue
+                g = tok.get("gloss") or {}
+                raw = (g.get("src") or "").strip()
+                if raw:
+                    tl = entry.get("tl")
+                    allowed = {tl} if isinstance(tl, str) else set(tl or [])
+                    if _norm_translit(raw) not in allowed:
+                        _add(tl_mismatch, (fa, raw), loc)
+                name = entry.get("name")
+                gl = g.get("gloss")
+                if name and gl and gl != name and _CLEAN_NAME_RE.match(gl):
+                    _add(name_mismatch, (fa, gl), loc)
+
+    def _locs(locs: list[str]) -> str:
+        return ", ".join(locs[:3]) + ("…" if len(locs) > 3 else "")
+
+    for (fa, raw), locs in sorted(tl_mismatch.items()):
+        tl = lex[fa]["tl"]
+        expected = tl if isinstance(tl, str) else "/".join(tl)
+        print(f"  lexicon translit mismatch: {fa} '{raw}' — expected '{expected}' [{_locs(locs)}]",
+              file=sys.stderr)
+    for (fa, gl), locs in sorted(name_mismatch.items()):
+        print(f"  lexicon name mismatch: {fa} glossed '{gl}' — expected '{lex[fa]['name']}' [{_locs(locs)}]",
+              file=sys.stderr)
+    if unknown:
+        shown = ", ".join(sorted(unknown)[:10]) + ("…" if len(unknown) > 10 else "")
+        print(f"  not in lexicon: {len(unknown)} word(s) — add canonical translit to lexicon.json [{shown}]",
+              file=sys.stderr)
 
 
 def _lint_ezafe(source: dict, word_map: dict, pos_map: dict, label: str) -> None:

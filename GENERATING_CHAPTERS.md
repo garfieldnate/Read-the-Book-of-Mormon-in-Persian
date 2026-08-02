@@ -110,6 +110,8 @@ python3 check_links.py
 
 `check_links.py` scans every HTML file in `_site/` and reports any `href="#…"` whose target `id="…"` does not exist in the same file. Fix broken links before pushing.
 
+**Transliterations and proper names are pinned in `lexicon.json`** (repo root). The build's `lint_lexicon` check flags any token whose `gloss.src` doesn't match the word's canonical `tl`, any proper noun glossed inconsistently with its `name`, and any word **not yet in the lexicon**. When you add a chapter, expect `not in lexicon: N word(s)` warnings — add each new word's canonical transliteration (and `name` for proper nouns) to `lexicon.json`. Use a `tl` list only for genuine homographs (same spelling, different pronunciation by context). This keeps transliteration consistent across chapters without editing prior ones.
+
 ### Step 5 — Generate audio (optional, requires a paid ElevenLabs plan)
 
 Each source section can have a text-to-speech player. Generate the audio once and commit it; the site build and CI never call the API.

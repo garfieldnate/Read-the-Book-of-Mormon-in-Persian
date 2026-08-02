@@ -143,6 +143,21 @@ Each source-text section gets a per-section audio player (waveform scrub, speed,
 
 Outputs land in `study_guide/audio/<book>/<chap>/<anchor>.{mp3,timing.json,peaks.json}`. `render_json.py` reads the `*.timing.json` sidecars at build time to stamp per-word timings and emit players; `build_site.py` copies the `mp3`/`peaks.json` (not the build-only `timing.json`), `player.js`, and the vendored `vendor/wavesurfer.esm.js` into `_site/`. The runtime player logic lives in `study_guide/player.js`.
 
+## Canonical lexicon
+
+`lexicon.json` (repo root) pins the per-word data that must stay constant across every chapter, so transliterations and proper-name translations don't drift as chapters are generated separately:
+
+```json
+"نیفای": { "tl": "Nīfāy", "name": "Nephi" },
+"بود":   { "tl": "būd" },
+"ای":    { "tl": ["ey", "ī"] }
+```
+
+- `tl` — the canonical transliteration, **normalized** (no morpheme hyphens, no trailing ezafe clitic). A **list** marks a genuine homograph with more than one reading (e.g. `ای` = `ey`/`-ī`).
+- `name` — the fixed English rendering of a proper noun.
+
+`build_site.py` runs `lint_lexicon`, which checks every source token against this file and warns on three things: a transliteration that doesn't match the word's `tl`, a proper noun whose gloss disagrees with its `name`, and any word **missing** from the lexicon (so new vocabulary is added deliberately). Contextual definitions are intentionally *not* pinned — only translits and proper-name translations. Add or adjust a word here and the whole corpus is validated against it; there's no per-chapter transliteration index to keep in sync.
+
 ## Running the toolchain
 
 ```bash
