@@ -36,8 +36,10 @@ Rendered HTML is **not committed**. `build_site.py` produces `_site/` containing
 
 ```bash
 python3 build_site.py
-open _site/index.html        # or: python3 -m http.server -d _site
+python3 serve.py             # http://127.0.0.1:8777 (serves _site/)
 ```
+
+Use `serve.py`, not `python -m http.server`, to preview the **audio players**: the stock server ignores HTTP `Range` requests, and Safari/iOS then refuse to seek `<audio>` (the timeline snaps back to 0). `serve.py` answers Range requests with `206 Partial Content`, matching GitHub Pages, so seeking and click-to-play work locally exactly as in production. Opening `_site/index.html` directly (`file://`) won't work at all — ES modules and `fetch` require `http://`.
 
 ## Generating a new chapter
 
