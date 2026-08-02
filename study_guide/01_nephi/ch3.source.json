@@ -977,10 +977,9 @@
         {
           "fa": "نگاشته",
           "gloss": {
-            "src": "negāšte=ye",
-            "gloss": "writing-PL=EZ"
-          },
-          "e": true
+            "src": "negāšte",
+            "gloss": "writing"
+          }
         },
         {
           "fa": "های",
@@ -3139,8 +3138,8 @@
         {
           "fa": "نگاشته",
           "gloss": {
-            "src": "negāšte=ye",
-            "gloss": "writing=EZ"
+            "src": "negāšte",
+            "gloss": "writing"
           }
         },
         {
