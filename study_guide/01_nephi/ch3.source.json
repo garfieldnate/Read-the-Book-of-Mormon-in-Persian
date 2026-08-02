@@ -75,7 +75,7 @@
           "fa": "ورقه",
           "gloss": {
             "src": "varaqe",
-            "gloss": "plate=EZ"
+            "gloss": "plate"
           }
         },
         {
@@ -141,7 +141,7 @@
           "fa": "ورقه",
           "gloss": {
             "src": "varaqe",
-            "gloss": "plate=EZ"
+            "gloss": "plate"
           }
         },
         {
@@ -1074,9 +1074,8 @@
           "fa": "ورقه",
           "gloss": {
             "src": "varaqe",
-            "gloss": "plate=EZ"
-          },
-          "e": true
+            "gloss": "plate"
+          }
         },
         {
           "fa": "های",
@@ -3165,17 +3164,16 @@
         },
         {
           "fa": "ورقه",
-          "e": true,
           "gloss": {
             "src": "varaqe",
-            "gloss": "plate=EZ"
+            "gloss": "plate"
           }
         },
         {
           "fa": "های",
           "gloss": {
-            "src": "hā",
-            "gloss": "PL"
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
           }
         },
         {
@@ -5747,15 +5745,15 @@
         {
           "fa": "فرمان",
           "gloss": {
-            "src": "farmān=e",
-            "gloss": "command=EZ"
+            "src": "farmān",
+            "gloss": "command"
           }
         },
         {
           "fa": "های",
           "gloss": {
-            "src": "hā",
-            "gloss": "PL"
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
           }
         },
         {
@@ -6271,17 +6269,16 @@
         },
         {
           "fa": "ورقه",
-          "e": true,
           "gloss": {
             "src": "varaqe",
-            "gloss": "plate=EZ"
+            "gloss": "plate"
           }
         },
         {
           "fa": "های",
           "gloss": {
-            "src": "hā",
-            "gloss": "PL"
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
           }
         },
         {
