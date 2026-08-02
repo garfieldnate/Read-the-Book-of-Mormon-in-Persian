@@ -1245,6 +1245,49 @@ def _lint_ezafe_marking(source: dict, label: str) -> None:
                       f"{fa} — {loc}", file=sys.stderr)
 
 
+# Standalone plural-clitic surface forms that continue a preceding noun.
+_PLURAL_CLITIC_FA = frozenset({"ها", "های", "هایی"})
+
+
+def _lint_plural_clitic_marking(source: dict, label: str) -> None:
+    """Flag a stem noun that carries plural/ezafe marking belonging to the
+    following standalone plural clitic (`ها`/`های`/`هایی`).
+
+    In `نگاشته های` or `ورقه های برنجی`, the plural `-hā` and any ezafe belong to
+    the clitic token; the stem should be a plain noun (`negāšte`/"writing",
+    `varaqe`/"plate"). A stem that instead carries `"e": true`, a gloss `=EZ`/`PL`
+    label, or a src ending in an ezafe clitic (`=ye`/`=e`) — while the very next
+    token is a plural clitic — is mis-segmented: it draws a stray kasra after the
+    stem and duplicates the clitic in the gloss. Move those markers onto the
+    plural clitic (`hā=ye` / `PL=EZ`)."""
+    for sec in source.get("sections", []):
+        loc = _section_heading(sec)[1]
+        toks = sec.get("tokens") or []
+        for i in range(len(toks) - 1):
+            stem, nxt = toks[i], toks[i + 1]
+            if "fa" not in stem or "fa" not in nxt:
+                continue
+            # Next token must be a standalone plural clitic; stem must be a real
+            # lexical word (not itself a clitic tail).
+            if nxt["fa"] not in _PLURAL_CLITIC_FA and not _is_clitic_tail(nxt):
+                continue
+            if _is_clitic_tail(stem):
+                continue
+            problems = []
+            if stem.get("e"):
+                problems.append('`"e": true`')
+            labels = _gloss_labels(_tok_gloss(stem))
+            if "EZ" in labels or "PL" in labels:
+                problems.append("gloss `=EZ`/`PL`")
+            src = (stem.get("gloss") or {}).get("src") or ""
+            if src.endswith(("=ye", "=e")):
+                problems.append(f"src `{src}`")
+            if problems:
+                print(f"  {label}plural/ezafe marked on stem not clitic: "
+                      f"{stem['fa']} (before {nxt['fa']}) — {', '.join(problems)} "
+                      f"belongs on the plural clitic — {loc}", file=sys.stderr)
+
+
 # ---------- study.json structural lints ----------
 
 def _lint_duplicate_anchors(study: dict, label: str) -> None:
@@ -1449,6 +1492,7 @@ def render_chapter(
 
     # Ezafe-marking consistency, plus study.json structural / fidelity checks.
     _lint_ezafe_marking(source, label)
+    _lint_plural_clitic_marking(source, label)
     _lint_duplicate_anchors(study, label)
     _lint_headword_translit(study, label)
     _lint_grammar_examples(source, study, label)
