@@ -1230,19 +1230,33 @@ def _lint_ezafe_marking(source: dict, label: str) -> None:
       • `"e": true` on a token that already shows ezafe orthographically (`ۀ`,
         `های`, an explicit kasra) — the renderer would draw a second kasra.
       • `"e": true` but the gloss carries no `=EZ` clitic — the rendered ezafe
-        and the interlinear annotation disagree, so one of them is wrong."""
+        and the interlinear annotation disagree, so one of them is wrong.
+      • the gloss carries an `=EZ` clitic but the token draws no ezafe — no
+        `"e": true` and no orthographic ezafe — so the transliteration annotates
+        a linker the rendered Persian silently drops. Orthographic ezafe (which
+        needs no `"e"`) is a final `ۀ`, an explicit kasra, or a final `ی` (the
+        linker `ی` on vowel-stems like `دریای`/`خدای`, plural `های`, and
+        `ی`-final stems); fused ezafe+possessive forms (`خدایمان`, gloss
+        `…-EZ-…POSS`) already spell the linker `ی`, so both are excluded."""
     for sec in source.get("sections", []):
         loc = _section_heading(sec)[1]
         for tok in sec.get("tokens") or []:
-            if "fa" not in tok or not tok.get("e"):
+            if "fa" not in tok:
                 continue
             fa = tok["fa"]
-            if fa.endswith(("ۀ", "ِ", "های")):
-                print(f"  {label}ezafe double-marked (`\"e\": true` on an already-"
-                      f"ezafe form): {fa} — {loc}", file=sys.stderr)
-            elif "EZ" not in _gloss_labels(_tok_gloss(tok)):
-                print(f"  {label}ezafe `\"e\": true` but gloss has no `=EZ`: "
-                      f"{fa} — {loc}", file=sys.stderr)
+            labels = _gloss_labels(_tok_gloss(tok))
+            if tok.get("e"):
+                if fa.endswith(("ۀ", "ِ", "های")):
+                    print(f"  {label}ezafe double-marked (`\"e\": true` on an already-"
+                          f"ezafe form): {fa} — {loc}", file=sys.stderr)
+                elif "EZ" not in labels:
+                    print(f"  {label}ezafe `\"e\": true` but gloss has no `=EZ`: "
+                          f"{fa} — {loc}", file=sys.stderr)
+            elif ("EZ" in labels
+                  and not any("POSS" in m for m in labels)
+                  and not fa.endswith(("ۀ", "ِ", "ی"))):
+                print(f"  {label}ezafe in gloss but not marked on token "
+                      f"(add `\"e\": true`): {fa} — {loc}", file=sys.stderr)
 
 
 # Standalone plural-clitic surface forms that continue a preceding noun.
