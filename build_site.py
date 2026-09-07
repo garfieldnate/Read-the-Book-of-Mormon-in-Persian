@@ -182,6 +182,19 @@ def build_index(
     font-size: 1.15em;
   }}
   .chapter-list a:hover {{ text-decoration: underline; }}
+  .layout-guide {{ margin: 1.2em 0 1.8em; }}
+  .layout-guide dt {{
+    font-weight: 600;
+    margin-top: 0.9em;
+    color: var(--accent);
+  }}
+  .layout-guide dd {{ margin: 0.2em 0 0; line-height: 1.55; }}
+  .layout-guide .fa {{
+    font-family: var(--font-fa);
+    direction: rtl;
+    unicode-bidi: isolate;
+    color: var(--persian-color);
+  }}
 </style>
 </head>
 <body>
@@ -189,9 +202,43 @@ def build_index(
 <h1>Persian Book of Mormon — Study Guides</h1>
 
 <p>Learner-oriented English study guides for the Persian translation of the
-Book of Mormon. Each chapter has a vocabulary section (every distinct lemma,
-grouped by verse) and a grammar section (10–12 tricky points with verbatim
-examples).</p>
+Book of Mormon. Each chapter is self-contained: all vocabulary and grammar are
+re-introduced from scratch, so you can open any chapter and read it on its own.</p>
+
+<h2>How each chapter is laid out</h2>
+<p>Every chapter page follows the same structure — once you know it, you can
+read any chapter without a separate guide:</p>
+<dl class="layout-guide">
+  <dt>Interlinear scripture text</dt>
+  <dd>The Persian of each verse (and the chapter summary), with a word-by-word
+  transliteration and a short grammatical gloss under each word, followed by an
+  English translation. Tap or click any Persian word to jump to its vocabulary
+  entry.</dd>
+
+  <dt>Transliteration &amp; ezafe toggles</dt>
+  <dd>Buttons at the top of each chapter show or hide the romanization and the
+  <em>ezafe</em> linker — the unwritten <span class="fa">ـِ</span> <em>-e</em>
+  that binds a noun to what follows it, drawn here as a small superscript kasra
+  so you can see where it belongs.</dd>
+
+  <dt>Section audio</dt>
+  <dd>Where available, each verse and the summary have a player that reads the
+  Persian aloud and highlights each word as it is spoken.</dd>
+
+  <dt>Vocabulary</dt>
+  <dd>Every distinct word, introduced in the order it first appears and grouped
+  by verse. Each entry gives the dictionary form, transliteration, meaning, and
+  part of speech, plus — where relevant — plurals, verb present-stems,
+  etymology, related word-families, and the inflected forms that occur in the
+  chapter.</dd>
+
+  <dt>Grammar notes</dt>
+  <dd>Short explanations of the key constructions (the <span class="fa">چنین
+  گذشت</span> narrative frame, ezafe chains, the object marker <span
+  class="fa">را</span>, the subjunctive, passives, and so on), each woven in at
+  the point the construction first appears and illustrated with examples quoted
+  verbatim from that chapter.</dd>
+</dl>
 
 {transcription_section}<h2>Chapters</h2>
 <ul class="chapter-list">
