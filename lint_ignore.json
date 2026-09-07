@@ -2,39 +2,170 @@
   "_README": "Acknowledged false positives that silence specific heuristic-lint findings so genuine ones stand out. Top-level keys are lint categories (the text right after the location prefix, e.g. 'possible missing ezafe'). Within a category, keys are '<book> <chapter>' (matching the source.json book/chapter) and values list findings to suppress as {pair, reason}. 'pair' must match the 'A → B' shown in the lint output exactly (same arrow, same spacing). Only suppress confirmed false positives — never a real issue you simply haven't fixed yet.",
   "possible missing ezafe": {
     "1 Nephi 1": [
-      {"pair": "رؤیا → ستونی", "reason": "در رؤیا 'in vision' (adverbial) then a separate object — not an ezafe phrase"},
-      {"pair": "روزگارم → رنج", "reason": "در روزگارم 'in my days' (adverbial) + رنج as object of the verb"},
-      {"pair": "روزگارم → مورد", "reason": "مورد لطف 'favored'; روزگارم is adverbial, not the ezafe head"},
-      {"pair": "سال → پیامبران", "reason": "'in that year, [many] prophets…' — clause boundary, not ezafe"},
-      {"pair": "پرتوش → فراتر", "reason": "predicate comparative (partaw-aš farātar [bud])"},
-      {"pair": "شمشیر → هلاک", "reason": "با شمشیر + هلاک شدن (to perish) — compound verb"},
-      {"pair": "پدرم → چیزهای", "reason": "subject + object (my father [read] many things)"},
-      {"pair": "فرزندانش → سخن", "reason": "به فرزندانش + سخن گفت (spoke to his children) — compound verb"},
-      {"pair": "اندازه → چیزهای", "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + object"}
+      {
+        "pair": "رؤیا → ستونی",
+        "reason": "در رؤیا 'in vision' (adverbial) then a separate object — not an ezafe phrase"
+      },
+      {
+        "pair": "روزگارم → رنج",
+        "reason": "در روزگارم 'in my days' (adverbial) + رنج as object of the verb"
+      },
+      {
+        "pair": "روزگارم → مورد",
+        "reason": "مورد لطف 'favored'; روزگارم is adverbial, not the ezafe head"
+      },
+      {
+        "pair": "سال → پیامبران",
+        "reason": "'in that year, [many] prophets…' — clause boundary, not ezafe"
+      },
+      {
+        "pair": "پرتوش → فراتر",
+        "reason": "predicate comparative (partaw-aš farātar [bud])"
+      },
+      {
+        "pair": "شمشیر → هلاک",
+        "reason": "با شمشیر + هلاک شدن (to perish) — compound verb"
+      },
+      {
+        "pair": "پدرم → چیزهای",
+        "reason": "subject + object (my father [read] many things)"
+      },
+      {
+        "pair": "فرزندانش → سخن",
+        "reason": "به فرزندانش + سخن گفت (spoke to his children) — compound verb"
+      },
+      {
+        "pair": "اندازه → چیزهای",
+        "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + object"
+      }
     ],
     "1 Nephi 2": [
-      {"pair": "بیابان → مسافرت", "reason": "در بیابان + مسافرت کرد (traveled) — compound verb"},
-      {"pair": "پدرشان → غُرولند", "reason": "علیه پدرشان + غرولند کردند (murmured against their father)"},
-      {"pair": "پدرم → سخن", "reason": "پدرم + سخن گفت (my father spoke) — compound verb"},
-      {"pair": "وادی → کنار", "reason": "a valley + کنار رود (beside a river) — separate PP, not ezafe"},
-      {"pair": "دلش → انجام", "reason": "دلش ends the noun phrase; انجام داده است (has done) is the verb"},
-      {"pair": "چادری → ساکن", "reason": "در چادری + ساکن شد (dwelt) — compound verb"},
-      {"pair": "اندازه → جوان", "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + جوان"},
-      {"pair": "دلیهایشان → غمگین", "reason": "سخت‌دلیهایشان + غمگین [بوده] — predicate adjective"},
-      {"pair": "دلی → جویای", "reason": "افتاده‌دلی 'humility' (compound) + جویا (seeking) — separate words"}
+      {
+        "pair": "بیابان → مسافرت",
+        "reason": "در بیابان + مسافرت کرد (traveled) — compound verb"
+      },
+      {
+        "pair": "پدرشان → غُرولند",
+        "reason": "علیه پدرشان + غرولند کردند (murmured against their father)"
+      },
+      {
+        "pair": "پدرم → سخن",
+        "reason": "پدرم + سخن گفت (my father spoke) — compound verb"
+      },
+      {
+        "pair": "وادی → کنار",
+        "reason": "a valley + کنار رود (beside a river) — separate PP, not ezafe"
+      },
+      {
+        "pair": "دلش → انجام",
+        "reason": "دلش ends the noun phrase; انجام داده است (has done) is the verb"
+      },
+      {
+        "pair": "چادری → ساکن",
+        "reason": "در چادری + ساکن شد (dwelt) — compound verb"
+      },
+      {
+        "pair": "اندازه → جوان",
+        "reason": "بیش از اندازه 'exceedingly' (fixed phrase) + جوان"
+      },
+      {
+        "pair": "دلیهایشان → غمگین",
+        "reason": "سخت‌دلیهایشان + غمگین [بوده] — predicate adjective"
+      },
+      {
+        "pair": "دلی → جویای",
+        "reason": "افتاده‌دلی 'humility' (compound) + جویا (seeking) — separate words"
+      }
     ],
     "1 Nephi 3": [
-      {"pair": "رو → لامان", "reason": "از این رو 'therefore' (fixed phrase) + new-clause subject"},
-      {"pair": "لموئیل → سخنان", "reason": "subject + object (Lemuel [heeded] the words…)"}
+      {
+        "pair": "رو → لامان",
+        "reason": "از این رو 'therefore' (fixed phrase) + new-clause subject"
+      },
+      {
+        "pair": "لموئیل → سخنان",
+        "reason": "subject + object (Lemuel [heeded] the words…)"
+      }
     ],
     "1 Nephi 4": [
-      {"pair": "برادرانم → سخن", "reason": "به برادرانم + سخن گفته (spoke to my brothers) — compound verb"},
-      {"pair": "فرعون → بدنبال", "reason": "لشکریان فرعون [subject] + بدنبال آنها رفتند — clause boundary, not ezafe"},
-      {"pair": "زورام → نام", "reason": "زورام نام آن خدمتگزار بود (Zoram was the name…) — subject + predicate noun"},
-      {"pair": "مردی → آزاد", "reason": "مردی آزاد 'a free man' — indefinite -ī + adjective, no ezafe"},
-      {"pair": "مردی → درشت", "reason": "مردی درشت‌قامت 'a man of large stature' — indefinite -ī + adjective, no ezafe"},
-      {"pair": "کلیسا → سخن", "reason": "برادران کلیسا + سخن می‌گفتم (spoke of the church's brethren) — compound verb"},
-      {"pair": "ها → هزارهایش", "reason": "ده‌ها هزار 'tens of thousands' — numeral compound, not ezafe"}
+      {
+        "pair": "برادرانم → سخن",
+        "reason": "به برادرانم + سخن گفته (spoke to my brothers) — compound verb"
+      },
+      {
+        "pair": "فرعون → بدنبال",
+        "reason": "لشکریان فرعون [subject] + بدنبال آنها رفتند — clause boundary, not ezafe"
+      },
+      {
+        "pair": "زورام → نام",
+        "reason": "زورام نام آن خدمتگزار بود (Zoram was the name…) — subject + predicate noun"
+      },
+      {
+        "pair": "مردی → آزاد",
+        "reason": "مردی آزاد 'a free man' — indefinite -ī + adjective, no ezafe"
+      },
+      {
+        "pair": "مردی → درشت",
+        "reason": "مردی درشت‌قامت 'a man of large stature' — indefinite -ī + adjective, no ezafe"
+      },
+      {
+        "pair": "کلیسا → سخن",
+        "reason": "برادران کلیسا + سخن می‌گفتم (spoke of the church's brethren) — compound verb"
+      },
+      {
+        "pair": "ها → هزارهایش",
+        "reason": "ده‌ها هزار 'tens of thousands' — numeral compound, not ezafe"
+      }
+    ],
+    "1 Nephi 5": [
+      {
+        "pair": "خدای → اسرائیل",
+        "reason": "خدایِ اسرائیل (God of Israel) — ezafe already written orthographically on ی-final خدای"
+      },
+      {
+        "pair": "فرمانروایی → صدقیا",
+        "reason": "فرمانرواییِ صدقیا (reign of Zedekiah) — ezafe already orthographic on ی-final فرمانروایی"
+      },
+      {
+        "pair": "مادرم → سخن",
+        "reason": "به مادرم + سخن گفت (spoke to my mother) — compound verb سخن گفتن, not ezafe"
+      },
+      {
+        "pair": "لابان → رهایی",
+        "reason": "از دستِ لابان + رهایی خواهد داد — clause boundary (object of preposition then verb), not ezafe"
+      },
+      {
+        "pair": "پدرم → لیحای",
+        "reason": "پدرم لیحای (my father Lehi) — apposition, not ezafe"
+      },
+      {
+        "pair": "مادرم → ثریّا",
+        "reason": "مادرم ثریّا (my mother Sariah) — apposition, not ezafe"
+      },
+      {
+        "pair": "سوی → اورشلیم",
+        "reason": "به سویِ اورشلیم (toward Jerusalem) — ezafe already orthographic on ی-final سوی"
+      },
+      {
+        "pair": "روی → ورقه",
+        "reason": "بر رویِ ورقه ها (upon the plates) — ezafe already orthographic on ی-final روی"
+      },
+      {
+        "pair": "گونه → پدرم",
+        "reason": "بدین گونه [adverbial] + پدرم [subject] — clause boundary, not ezafe"
+      },
+      {
+        "pair": "زمان → تار",
+        "reason": "با گذرِ زمان + تار خواهند شد — تار is predicate adjective of شدن, not an ezafe modifier"
+      },
+      {
+        "pair": "خِرَدمندی → سَروَر",
+        "reason": "خِرَدمندیِ سَروَر (wisdom of the Lord) — ezafe already orthographic on ی-final خِرَدمندی"
+      },
+      {
+        "pair": "سوی → سرزمین",
+        "reason": "به سویِ سرزمینِ موعود (toward the promised land) — ezafe already orthographic on ی-final سوی"
+      }
     ]
   }
 }
