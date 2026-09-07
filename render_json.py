@@ -1413,6 +1413,55 @@ def _lint_grammar_examples(source: dict, study: dict, label: str) -> None:
                           f"{' '.join(missing)} ({ref})", file=sys.stderr)
 
 
+# Deep-links from chapter prose (etym / family / grammar bodies) into the
+# hand-authored reference pages. Their valid anchors are each heading's slug
+# plus any explicit ``<span id="...">`` — mirroring how ``render.py`` emits
+# them. A mistyped anchor otherwise surfaces only at full-site build; validate
+# it here so the per-chapter render loop catches it.
+_REFERENCE_DIR = Path(__file__).resolve().parent / "study_guide"
+_REFERENCE_LINK_RE = re.compile(r'\.\./([a-z_]+)\.html#([^)\s"\']+)')
+_SPAN_ID_RE = re.compile(r'id="([^"]+)"')
+_HEADING_LINE_RE = re.compile(r'^#{1,6}\s+(.*)$', re.MULTILINE)
+_reference_anchor_cache: dict[str, set[str] | None] = {}
+
+
+def _reference_anchors(page: str) -> set[str] | None:
+    """Valid HTML anchor ids for reference page ``<page>.html``, derived from its
+    Markdown source the way ``render.py`` builds them: each heading's ``_slug``
+    plus every explicit ``id="..."``. Returns ``None`` when the source is absent
+    (nothing to validate against). Cached per page."""
+    if page not in _reference_anchor_cache:
+        md = _REFERENCE_DIR / f"{page}.md"
+        if not md.exists():
+            _reference_anchor_cache[page] = None
+        else:
+            text = md.read_text(encoding="utf-8")
+            ids = set(_SPAN_ID_RE.findall(text))
+            for heading in _HEADING_LINE_RE.findall(text):
+                ids.add(_slug(heading))
+            ids.discard("")
+            _reference_anchor_cache[page] = ids
+    return _reference_anchor_cache[page]
+
+
+def _lint_reference_anchors(study: dict, label: str) -> None:
+    """Flag deep-links to a reference page (``word_formation.html`` etc.) whose
+    ``#anchor`` matches no heading slug or ``id`` on that page — the mistyped
+    cross-page anchor that ``check_links.py`` only catches after a full build."""
+    blob = json.dumps(study, ensure_ascii=False)
+    findings: dict[tuple[str, str], int] = {}
+    for page, anchor in _REFERENCE_LINK_RE.findall(blob):
+        anchors = _reference_anchors(page)
+        if anchors is None:
+            continue  # no local reference source to validate against
+        if anchor not in anchors:
+            findings[(page, anchor)] = findings.get((page, anchor), 0) + 1
+    for (page, anchor), count in sorted(findings.items()):
+        times = f" (×{count})" if count > 1 else ""
+        print(f"  {label}reference anchor not found: ../{page}.html#{anchor}{times}"
+              f" — no matching heading/id in {page}.md", file=sys.stderr)
+
+
 # ---------- main renderer ----------
 
 def render_chapter(
@@ -1510,6 +1559,7 @@ def render_chapter(
     _lint_duplicate_anchors(study, label)
     _lint_headword_translit(study, label)
     _lint_grammar_examples(source, study, label)
+    _lint_reference_anchors(study, label)
 
     body_parts: list[str] = [
         f'<h1 id="{title_slug}">{html_lib.escape(title)}</h1>',

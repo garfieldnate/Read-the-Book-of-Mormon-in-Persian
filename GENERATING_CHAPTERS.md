@@ -202,6 +202,7 @@ Warnings printed to stderr:
 - `headword translit mismatch: گنبد / gombad` — a headword's `translit` does not transliterate its `persian` (a consonant is missing or wrong), usually a typo. The `ن`→`m` assimilation before `ب/پ/م` is allowed, so this fires on genuine mismatches only.
 - `grammar example bad ref_anchor: verse-99 (...)` — a grammar-note example's `ref_anchor` points at a section that doesn't exist; fix it to a real anchor (`verse-N`, `chapter-summary`, …).
 - `grammar example not verbatim from source: فلان (...)` — a grammar-note example contains Persian words that do not appear in the chapter's source text (harakat ignored). Examples must be quoted verbatim from the chapter; correct the wording or pick a real phrase.
+- `reference anchor not found: ../word_formation.html#some-anchor — no matching heading/id in word_formation.md` — an `etym`/`family`/grammar-note deep-link into a hand-authored reference page (`word_formation.md`, `arabic.md`, …) points at an anchor that doesn't exist there. The valid anchors are each heading's slug (lowercase, non-alphanumerics → `-`) plus any explicit `<span id="…">`. Fix the anchor to a real one; if the section you want isn't on the reference page yet, add it (and its anchor) there first. This runs in the per-chapter render, so you no longer have to wait for `build_site.py`/`check_links.py` to catch a mistyped cross-page anchor.
 
 ### Silencing false positives
 
