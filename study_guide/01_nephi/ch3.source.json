@@ -10,7 +10,8 @@
           "gloss": {
             "src": "faṣl=e",
             "gloss": "chapter=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "۳",
@@ -27,7 +28,8 @@
           "gloss": {
             "src": "pesarān=e",
             "gloss": "sons=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لیحای",
@@ -1708,14 +1710,16 @@
           "gloss": {
             "src": "mowred=e",
             "gloss": "object.of=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لطف",
           "gloss": {
             "src": "loṭf=e",
             "gloss": "grace=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "سَروَر",
@@ -2595,7 +2599,8 @@
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "اورشلیم",
@@ -2696,7 +2701,8 @@
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "اورشلیم",
@@ -3648,7 +3654,8 @@
           "gloss": {
             "src": "ḥożūr=e",
             "gloss": "presence=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "او",
@@ -3825,7 +3832,8 @@
           "gloss": {
             "src": "barādarān=e",
             "gloss": "brothers=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "من",
@@ -3867,7 +3875,8 @@
           "gloss": {
             "src": "nazd=e",
             "gloss": "near=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "پدرم",
@@ -4054,7 +4063,8 @@
           "gloss": {
             "src": "nazd=e",
             "gloss": "near=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "پدرمان",
@@ -4180,7 +4190,8 @@
           "gloss": {
             "src": "anjām=e",
             "gloss": "accomplishment=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "رسانده",
@@ -4343,7 +4354,8 @@
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "میراثی",
@@ -4434,7 +4446,8 @@
           "gloss": {
             "src": "gūne=ye",
             "gloss": "kind=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "ثروت",
@@ -4514,7 +4527,8 @@
           "gloss": {
             "src": "sabab=e",
             "gloss": "reason=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "فرمان",
@@ -4632,7 +4646,8 @@
           "gloss": {
             "src": "sabab=e",
             "gloss": "reason=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "نابکاری",
@@ -4715,7 +4730,8 @@
           "gloss": {
             "src": "soxanān=e",
             "gloss": "words=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "پیامبران",
@@ -5228,7 +5244,8 @@
           "gloss": {
             "src": "zabān=e",
             "gloss": "language=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "پدرانمان",
@@ -5371,7 +5388,8 @@
           "gloss": {
             "src": "dahān=e",
             "gloss": "mouth=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "همۀ",
@@ -5438,7 +5456,8 @@
           "gloss": {
             "src": "rūḥ=e",
             "gloss": "spirit=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "مقدّس",
@@ -5459,7 +5478,8 @@
           "gloss": {
             "src": "qodrat=e",
             "gloss": "power=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "خدا",
@@ -5577,7 +5597,8 @@
           "gloss": {
             "src": "zamān=e",
             "gloss": "time=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "کنونی",
@@ -5855,7 +5876,8 @@
           "gloss": {
             "src": "sarzamīn=e",
             "gloss": "land=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "میراثی",
@@ -6664,7 +6686,8 @@
           "gloss": {
             "src": "andāze=ye",
             "gloss": "extent=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "ای",
@@ -6898,7 +6921,8 @@
           "gloss": {
             "src": "xadamatgozārān=e",
             "gloss": "servants=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لابان",
@@ -7128,7 +7152,8 @@
           "gloss": {
             "src": "xadamatgozārān=e",
             "gloss": "servants=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لابان",
@@ -7402,7 +7427,8 @@
           "gloss": {
             "src": "soxanān=e",
             "gloss": "words=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لامان",
@@ -7423,7 +7449,8 @@
           "gloss": {
             "src": "be-guš=e",
             "gloss": "to-ear=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "دل",
@@ -7496,7 +7523,8 @@
           "gloss": {
             "src": "soxanān=e",
             "gloss": "words=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "تُند",
@@ -7534,7 +7562,8 @@
           "gloss": {
             "src": "barādarān=e",
             "gloss": "brothers=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "جوانترشان",
@@ -7589,7 +7618,8 @@
           "gloss": {
             "src": "tarke=ye",
             "gloss": "rod=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "ای",
@@ -7787,7 +7817,8 @@
           "gloss": {
             "src": "barābar=e",
             "gloss": "before=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "آنها",
@@ -7873,7 +7904,8 @@
           "gloss": {
             "src": "barādar=e",
             "gloss": "brother=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "جوانتر",
@@ -8068,7 +8100,8 @@
           "gloss": {
             "src": "sabab=e",
             "gloss": "reason=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "نابکاری",
@@ -8200,7 +8233,8 @@
           "gloss": {
             "src": "dast=e",
             "gloss": "hand=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "شما",
@@ -8540,7 +8574,8 @@
           "gloss": {
             "src": "dast=e",
             "gloss": "hand=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "ما",
@@ -8581,7 +8616,8 @@
           "gloss": {
             "src": "mard=e",
             "gloss": "man=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "توانایی",
