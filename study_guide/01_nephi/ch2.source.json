@@ -10,7 +10,8 @@
           "gloss": {
             "src": "faṣl=e",
             "gloss": "chapter=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "۲",
@@ -2949,7 +2950,8 @@
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "این",
@@ -3130,7 +3132,8 @@
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "این",
@@ -3515,7 +3518,8 @@
           "gloss": {
             "src": "āmadan=e",
             "gloss": "coming=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "از",
@@ -4204,7 +4208,8 @@
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "یهودیانی",
@@ -4508,7 +4513,8 @@
           "gloss": {
             "src": "barābar=e",
             "gloss": "before=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "او",
@@ -4758,7 +4764,8 @@
           "gloss": {
             "src": "pedar=e",
             "gloss": "father=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "من",
@@ -5060,7 +5067,8 @@
           "gloss": {
             "src": "dargāh=e",
             "gloss": "threshold=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "سَروَر",
@@ -5303,7 +5311,8 @@
           "gloss": {
             "src": "mānand=e",
             "gloss": "like=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "برادرانم",
@@ -5439,7 +5448,8 @@
           "gloss": {
             "src": "be-dast=e",
             "gloss": "by.hand=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "روح",
@@ -6420,7 +6430,8 @@
           "gloss": {
             "src": "barādar-ān=e",
             "gloss": "brother-PL=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "تو",
