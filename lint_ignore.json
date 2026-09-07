@@ -166,6 +166,24 @@
         "pair": "سوی → سرزمین",
         "reason": "به سویِ سرزمینِ موعود (toward the promised land) — ezafe already orthographic on ی-final سوی"
       }
+    ],
+    "1 Nephi 6": [
+      {
+        "pair": "سوی → خدای",
+        "reason": "به سویِ خدای (toward the God of …) — ezafe already orthographic on ی-final سوی"
+      },
+      {
+        "pair": "خدای → ابراهیم",
+        "reason": "خدایِ ابراهیم (God of Abraham) — ezafe already orthographic on ی-final خدای"
+      },
+      {
+        "pair": "خدای → اسحاق",
+        "reason": "خدایِ اسحاق (God of Isaac) — ezafe already orthographic on ی-final خدای"
+      },
+      {
+        "pair": "خدای → یعقوب",
+        "reason": "خدایِ یعقوب (God of Jacob) — ezafe already orthographic on ی-final خدای"
+      }
     ]
   }
 }
