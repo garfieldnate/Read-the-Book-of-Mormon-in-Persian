@@ -26,6 +26,15 @@
     "1 Nephi 3": [
       {"pair": "رو → لامان", "reason": "از این رو 'therefore' (fixed phrase) + new-clause subject"},
       {"pair": "لموئیل → سخنان", "reason": "subject + object (Lemuel [heeded] the words…)"}
+    ],
+    "1 Nephi 4": [
+      {"pair": "برادرانم → سخن", "reason": "به برادرانم + سخن گفته (spoke to my brothers) — compound verb"},
+      {"pair": "فرعون → بدنبال", "reason": "لشکریان فرعون [subject] + بدنبال آنها رفتند — clause boundary, not ezafe"},
+      {"pair": "زورام → نام", "reason": "زورام نام آن خدمتگزار بود (Zoram was the name…) — subject + predicate noun"},
+      {"pair": "مردی → آزاد", "reason": "مردی آزاد 'a free man' — indefinite -ī + adjective, no ezafe"},
+      {"pair": "مردی → درشت", "reason": "مردی درشت‌قامت 'a man of large stature' — indefinite -ī + adjective, no ezafe"},
+      {"pair": "کلیسا → سخن", "reason": "برادران کلیسا + سخن می‌گفتم (spoke of the church's brethren) — compound verb"},
+      {"pair": "ها → هزارهایش", "reason": "ده‌ها هزار 'tens of thousands' — numeral compound, not ezafe"}
     ]
   }
 }
