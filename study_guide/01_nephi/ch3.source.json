@@ -4444,10 +4444,9 @@
         {
           "fa": "گونه",
           "gloss": {
-            "src": "gūne=ye",
-            "gloss": "kind=EZ"
-          },
-          "e": true
+            "src": "gūne",
+            "gloss": "kind"
+          }
         },
         {
           "fa": "ثروت",
@@ -6684,10 +6683,9 @@
         {
           "fa": "اندازه",
           "gloss": {
-            "src": "andāze=ye",
-            "gloss": "extent=EZ"
-          },
-          "e": true
+            "src": "andāze",
+            "gloss": "extent"
+          }
         },
         {
           "fa": "ای",
@@ -7616,10 +7614,9 @@
         {
           "fa": "ترکه",
           "gloss": {
-            "src": "tarke=ye",
-            "gloss": "rod=EZ"
-          },
-          "e": true
+            "src": "tarke",
+            "gloss": "rod"
+          }
         },
         {
           "fa": "ای",
