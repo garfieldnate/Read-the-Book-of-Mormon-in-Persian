@@ -1,0 +1,9739 @@
+{
+  "book": "1 Nephi",
+  "chapter": 4,
+  "sections": [
+    {
+      "type": "chapter-summary",
+      "tokens": [
+        {
+          "fa": "فصل",
+          "gloss": {
+            "src": "faṣl=e",
+            "gloss": "chapter=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "۴",
+          "gloss": {
+            "src": "čahār",
+            "gloss": "4"
+          }
+        },
+        {
+          "p": "—"
+        },
+        {
+          "fa": "نیفای",
+          "gloss": {
+            "src": "Nīfāy",
+            "gloss": "Nephi"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "at"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān=e",
+            "gloss": "command=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "کُشد",
+          "gloss": {
+            "src": "koš-ad",
+            "gloss": "kill-PRS-3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آنگاه",
+          "gloss": {
+            "src": "āngāh",
+            "gloss": "then"
+          }
+        },
+        {
+          "fa": "ورقه",
+          "gloss": {
+            "src": "varaqe",
+            "gloss": "plate"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "برنجی",
+          "gloss": {
+            "src": "berenǰī",
+            "gloss": "brass"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ترفند",
+          "gloss": {
+            "src": "tarfand",
+            "gloss": "ruse"
+          }
+        },
+        {
+          "fa": "بدست",
+          "gloss": {
+            "src": "be-dast",
+            "gloss": "into.hand"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "آورد",
+          "gloss": {
+            "src": "āvar-ad",
+            "gloss": "bring-PRS-3SG"
+          }
+        },
+        {
+          "p": "—"
+        },
+        {
+          "fa": "زورام",
+          "gloss": {
+            "src": "Zūrām",
+            "gloss": "Zoram"
+          }
+        },
+        {
+          "fa": "برمی",
+          "gloss": {
+            "src": "bar=mī",
+            "gloss": "PRV=IMPF"
+          }
+        },
+        {
+          "fa": "گزیند",
+          "gloss": {
+            "src": "gozīn-ad",
+            "gloss": "choose-PRS-3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "خانوادۀ",
+          "gloss": {
+            "src": "xānevāde=ye",
+            "gloss": "family=EZ"
+          }
+        },
+        {
+          "fa": "لیحای",
+          "gloss": {
+            "src": "Liḥāy",
+            "gloss": "Lehi"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "بپیوندد",
+          "gloss": {
+            "src": "be-peyvand-ad",
+            "gloss": "SBJV-join-3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "نزدیک",
+          "gloss": {
+            "src": "nazdīk",
+            "gloss": "near"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "۶۰۰",
+          "gloss": {
+            "src": "šešṣad",
+            "gloss": "600"
+          }
+        },
+        {
+          "p": "–"
+        },
+        {
+          "fa": "۵۹۲",
+          "gloss": {
+            "src": "pānsad-o-navad-o-do",
+            "gloss": "592"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "before"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "میلاد",
+          "gloss": {
+            "src": "mīlād",
+            "gloss": "birth"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "Chapter 4 — Nephi slays Laban at the command of the Lord and then obtains the plates of brass by stratagem — Zoram elects to join Lehi's family in the wilderness. About 600–592 B.C."
+    },
+    {
+      "type": "verse",
+      "number": 1,
+      "tokens": [
+        {
+          "fa": "۱",
+          "gloss": {
+            "src": "yek",
+            "gloss": "1"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "برادرانم",
+          "gloss": {
+            "src": "barādarān-am",
+            "gloss": "brothers-1SG.POSS"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفته",
+          "gloss": {
+            "src": "gofte",
+            "gloss": "speak-PTCP"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST-1SG"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "بگذارید",
+          "gloss": {
+            "src": "be-gozār-īd",
+            "gloss": "SBJV-let-2PL"
+          }
+        },
+        {
+          "fa": "دوباره",
+          "gloss": {
+            "src": "dobāre",
+            "gloss": "again"
+          }
+        },
+        {
+          "fa": "بالا",
+          "gloss": {
+            "src": "bālā",
+            "gloss": "up"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "اورشلیم",
+          "gloss": {
+            "src": "Uršalīm",
+            "gloss": "Jerusalem"
+          }
+        },
+        {
+          "fa": "برویم",
+          "gloss": {
+            "src": "be-rav-īm",
+            "gloss": "SBJV-go-1PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "بیایید",
+          "gloss": {
+            "src": "be-āy-īd",
+            "gloss": "SBJV-come-2PL"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "نگه",
+          "gloss": {
+            "src": "negah",
+            "gloss": "guard"
+          }
+        },
+        {
+          "fa": "داشتن",
+          "gloss": {
+            "src": "dāštan",
+            "gloss": "hold-INF"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ایمان",
+          "gloss": {
+            "src": "īmān",
+            "gloss": "faith"
+          }
+        },
+        {
+          "fa": "باشیم",
+          "gloss": {
+            "src": "bāš-īm",
+            "gloss": "be-SBJV-1PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "for/because"
+          }
+        },
+        {
+          "fa": "بنگرید",
+          "gloss": {
+            "src": "be-negar-īd",
+            "gloss": "SBJV-look-2PL"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "همۀ",
+          "gloss": {
+            "src": "hame=ye",
+            "gloss": "all=EZ"
+          }
+        },
+        {
+          "fa": "زمین",
+          "gloss": {
+            "src": "zamīn",
+            "gloss": "earth"
+          }
+        },
+        {
+          "fa": "تواناتر",
+          "gloss": {
+            "src": "tavānā-tar",
+            "gloss": "able-COMP"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "آنگاه",
+          "gloss": {
+            "src": "āngāh",
+            "gloss": "then"
+          }
+        },
+        {
+          "fa": "چرا",
+          "gloss": {
+            "src": "čerā",
+            "gloss": "why"
+          }
+        },
+        {
+          "fa": "نه",
+          "gloss": {
+            "src": "ne",
+            "gloss": "not"
+          }
+        },
+        {
+          "fa": "تواناتر",
+          "gloss": {
+            "src": "tavānā-tar",
+            "gloss": "able-COMP"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پنجاه",
+          "gloss": {
+            "src": "panjāh",
+            "gloss": "50"
+          }
+        },
+        {
+          "fa": "نفرش",
+          "gloss": {
+            "src": "nafar-aš",
+            "gloss": "man-3SG.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yea"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "یا",
+          "gloss": {
+            "src": "yā",
+            "gloss": "or"
+          }
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "ده",
+          "gloss": {
+            "src": "dah",
+            "gloss": "ten"
+          }
+        },
+        {
+          "fa": "ها",
+          "gloss": {
+            "src": "hā",
+            "gloss": "PL"
+          }
+        },
+        {
+          "fa": "هزارهایش",
+          "gloss": {
+            "src": "hezārhā-yaš",
+            "gloss": "thousands-3SG.POSS"
+          }
+        },
+        {
+          "p": "؟"
+        }
+      ],
+      "en": "1 And it came to pass that I spake unto my brethren, saying: Let us go up again unto Jerusalem, and let us be faithful in keeping the commandments of the Lord; for behold he is mightier than all the earth, then why not mightier than Laban and his fifty, yea, or even than his tens of thousands?"
+    },
+    {
+      "type": "verse",
+      "number": 2,
+      "tokens": [
+        {
+          "fa": "۲",
+          "gloss": {
+            "src": "do",
+            "gloss": "2"
+          }
+        },
+        {
+          "fa": "بنابراین",
+          "gloss": {
+            "src": "banābarīn",
+            "gloss": "therefore"
+          }
+        },
+        {
+          "fa": "بگذارید",
+          "gloss": {
+            "src": "be-gozār-īd",
+            "gloss": "SBJV-let-2PL"
+          }
+        },
+        {
+          "fa": "بالا",
+          "gloss": {
+            "src": "bālā",
+            "gloss": "up"
+          }
+        },
+        {
+          "fa": "برویم",
+          "gloss": {
+            "src": "be-rav-īm",
+            "gloss": "SBJV-go-1PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "بگذارید",
+          "gloss": {
+            "src": "be-gozār-īd",
+            "gloss": "SBJV-let-2PL"
+          }
+        },
+        {
+          "fa": "مانند",
+          "gloss": {
+            "src": "mānand",
+            "gloss": "like"
+          }
+        },
+        {
+          "fa": "موسی",
+          "gloss": {
+            "src": "Mūsā",
+            "gloss": "Moses"
+          }
+        },
+        {
+          "fa": "نیرومند",
+          "gloss": {
+            "src": "nīrūmand",
+            "gloss": "strong"
+          }
+        },
+        {
+          "fa": "باشیم",
+          "gloss": {
+            "src": "bāš-īm",
+            "gloss": "be-SBJV-1PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "for/because"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "براستی",
+          "gloss": {
+            "src": "be-rāstī",
+            "gloss": "truly"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "آب",
+          "gloss": {
+            "src": "āb",
+            "gloss": "water"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "دریای",
+          "gloss": {
+            "src": "daryā=ye",
+            "gloss": "sea=EZ"
+          }
+        },
+        {
+          "fa": "سرخ",
+          "gloss": {
+            "src": "sorx",
+            "gloss": "red"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "say-PST.3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "سو",
+          "gloss": {
+            "src": "sū",
+            "gloss": "side"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "سو",
+          "gloss": {
+            "src": "sū",
+            "gloss": "side"
+          }
+        },
+        {
+          "fa": "جدا",
+          "gloss": {
+            "src": "ǰodā",
+            "gloss": "apart"
+          }
+        },
+        {
+          "fa": "شدند",
+          "gloss": {
+            "src": "šod-and",
+            "gloss": "become-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پدرانمان",
+          "gloss": {
+            "src": "pedārān-mān",
+            "gloss": "fathers-1PL.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "بیرون",
+          "gloss": {
+            "src": "bīrūn",
+            "gloss": "out"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "اسارت",
+          "gloss": {
+            "src": "asārat",
+            "gloss": "captivity"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "on"
+          }
+        },
+        {
+          "fa": "زمین",
+          "gloss": {
+            "src": "zamīn=e",
+            "gloss": "ground=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "خشک",
+          "gloss": {
+            "src": "xošk",
+            "gloss": "dry"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "میان",
+          "gloss": {
+            "src": "mīyān",
+            "gloss": "midst"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "رد",
+          "gloss": {
+            "src": "radd",
+            "gloss": "pass"
+          }
+        },
+        {
+          "fa": "شدند",
+          "gloss": {
+            "src": "šod-and",
+            "gloss": "become-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "لشکریان",
+          "gloss": {
+            "src": "laškariyān=e",
+            "gloss": "armies=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "فرعون",
+          "gloss": {
+            "src": "Ferʿown",
+            "gloss": "Pharaoh"
+          }
+        },
+        {
+          "fa": "بدنبال",
+          "gloss": {
+            "src": "be-donbāl=e",
+            "gloss": "in.pursuit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "them"
+          }
+        },
+        {
+          "fa": "رفتند",
+          "gloss": {
+            "src": "raft-and",
+            "gloss": "go-PST-3PL"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "آب",
+          "gloss": {
+            "src": "āb",
+            "gloss": "water"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "دریای",
+          "gloss": {
+            "src": "daryā=ye",
+            "gloss": "sea=EZ"
+          }
+        },
+        {
+          "fa": "سرخ",
+          "gloss": {
+            "src": "sorx",
+            "gloss": "red"
+          }
+        },
+        {
+          "fa": "غرق",
+          "gloss": {
+            "src": "ġarq",
+            "gloss": "drowned"
+          }
+        },
+        {
+          "fa": "شدند",
+          "gloss": {
+            "src": "šod-and",
+            "gloss": "become-PST-3PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "2 Therefore let us go up; let us be strong like unto Moses; for he truly spake unto the waters of the Red Sea and they divided hither and thither, and our fathers came through, out of captivity, on dry ground, and the armies of Pharaoh did follow and were drowned in the waters of the Red Sea."
+    },
+    {
+      "type": "verse",
+      "number": 3,
+      "tokens": [
+        {
+          "fa": "۳",
+          "gloss": {
+            "src": "se",
+            "gloss": "3"
+          }
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now/behold"
+          }
+        },
+        {
+          "fa": "بنگرید",
+          "gloss": {
+            "src": "be-negar-īd",
+            "gloss": "SBJV-look-2PL"
+          }
+        },
+        {
+          "fa": "شما",
+          "gloss": {
+            "src": "šomā",
+            "gloss": "you.PL"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانید",
+          "gloss": {
+            "src": "dān-īd",
+            "gloss": "know-PRS-2PL"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "راست",
+          "gloss": {
+            "src": "rāst",
+            "gloss": "true"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "شما",
+          "gloss": {
+            "src": "šomā",
+            "gloss": "you.PL"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانید",
+          "gloss": {
+            "src": "dān-īd",
+            "gloss": "know-PRS-2PL"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "فرشته",
+          "gloss": {
+            "src": "ferešte",
+            "gloss": "angel"
+          }
+        },
+        {
+          "fa": "ای",
+          "gloss": {
+            "src": "ī",
+            "gloss": "INDEF"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "upon"
+          }
+        },
+        {
+          "fa": "شما",
+          "gloss": {
+            "src": "šomā",
+            "gloss": "you.PL"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفته",
+          "gloss": {
+            "src": "gofte",
+            "gloss": "speak-PTCP"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "رو",
+          "gloss": {
+            "src": "rū",
+            "gloss": "face/reason"
+          }
+        },
+        {
+          "fa": "آیا",
+          "gloss": {
+            "src": "āyā",
+            "gloss": "Q"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "توانید",
+          "gloss": {
+            "src": "tavān-īd",
+            "gloss": "can-PRS-2PL"
+          }
+        },
+        {
+          "fa": "شک",
+          "gloss": {
+            "src": "šak",
+            "gloss": "doubt"
+          }
+        },
+        {
+          "fa": "کنید",
+          "gloss": {
+            "src": "kon-īd",
+            "gloss": "do-PRS-2PL"
+          }
+        },
+        {
+          "p": "؟"
+        },
+        {
+          "fa": "بگذارید",
+          "gloss": {
+            "src": "be-gozār-īd",
+            "gloss": "SBJV-let-2PL"
+          }
+        },
+        {
+          "fa": "بالا",
+          "gloss": {
+            "src": "bālā",
+            "gloss": "up"
+          }
+        },
+        {
+          "fa": "برویم",
+          "gloss": {
+            "src": "be-rav-īm",
+            "gloss": "SBJV-go-1PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "قادر",
+          "gloss": {
+            "src": "qāder",
+            "gloss": "able"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "رهایی",
+          "gloss": {
+            "src": "rahāyī",
+            "gloss": "deliverance"
+          }
+        },
+        {
+          "fa": "دهد",
+          "gloss": {
+            "src": "deh-ad",
+            "gloss": "give-PRS-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "همچون",
+          "gloss": {
+            "src": "hamčūn",
+            "gloss": "just.as"
+          }
+        },
+        {
+          "fa": "پدرانمان",
+          "gloss": {
+            "src": "pedārān-mān",
+            "gloss": "fathers-1PL.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "همچون",
+          "gloss": {
+            "src": "hamčūn",
+            "gloss": "just.as"
+          }
+        },
+        {
+          "fa": "مصریان",
+          "gloss": {
+            "src": "Meṣriyān",
+            "gloss": "Egyptians"
+          }
+        },
+        {
+          "fa": "نابود",
+          "gloss": {
+            "src": "nābūd",
+            "gloss": "destroyed"
+          }
+        },
+        {
+          "fa": "کند",
+          "gloss": {
+            "src": "kon-ad",
+            "gloss": "do-PRS-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "3 Now behold ye know that this is true; and ye also know that an angel hath spoken unto you; wherefore can ye doubt? Let us go up; the Lord is able to deliver us, even as our fathers, and to destroy Laban, even as the Egyptians."
+    },
+    {
+      "type": "verse",
+      "number": 4,
+      "tokens": [
+        {
+          "fa": "۴",
+          "gloss": {
+            "src": "čahār",
+            "gloss": "4"
+          }
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now/behold"
+          }
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "time-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "سخنان",
+          "gloss": {
+            "src": "soxanān",
+            "gloss": "words"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "هنوز",
+          "gloss": {
+            "src": "hanuz",
+            "gloss": "still"
+          }
+        },
+        {
+          "fa": "هم",
+          "gloss": {
+            "src": "ham",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "خشمگین",
+          "gloss": {
+            "src": "xašmgīn",
+            "gloss": "angry"
+          }
+        },
+        {
+          "fa": "بودند",
+          "gloss": {
+            "src": "būd-and",
+            "gloss": "be-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنان",
+          "gloss": {
+            "src": "hamčonān",
+            "gloss": "continually"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "غُرولند",
+          "gloss": {
+            "src": "ġorolond",
+            "gloss": "grumbling"
+          }
+        },
+        {
+          "fa": "کردن",
+          "gloss": {
+            "src": "kardan",
+            "gloss": "do-INF"
+          }
+        },
+        {
+          "fa": "ادامه",
+          "gloss": {
+            "src": "edāme",
+            "gloss": "continuation"
+          }
+        },
+        {
+          "fa": "دادند",
+          "gloss": {
+            "src": "dād-and",
+            "gloss": "give-PST-3PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "وجود",
+          "gloss": {
+            "src": "vojūd",
+            "gloss": "existence"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "پی",
+          "gloss": {
+            "src": "pey",
+            "gloss": "pursuit"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "آمدند",
+          "gloss": {
+            "src": "āmad-and",
+            "gloss": "come-PST-3PL"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "until"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "پشت",
+          "gloss": {
+            "src": "pošt=e",
+            "gloss": "behind=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دیوارهای",
+          "gloss": {
+            "src": "dīvārhā=ye",
+            "gloss": "walls=EZ"
+          }
+        },
+        {
+          "fa": "اورشلیم",
+          "gloss": {
+            "src": "Uršalīm",
+            "gloss": "Jerusalem"
+          }
+        },
+        {
+          "fa": "رسیدیم",
+          "gloss": {
+            "src": "rasīd-īm",
+            "gloss": "reach-PST-1PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "4 Now when I had spoken these words, they were yet wroth, and did still continue to murmur; nevertheless they did follow me up until we came without the walls of Jerusalem."
+    },
+    {
+      "type": "verse",
+      "number": 5,
+      "tokens": [
+        {
+          "fa": "۵",
+          "gloss": {
+            "src": "panj",
+            "gloss": "5"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "شبانگاه",
+          "gloss": {
+            "src": "šabāngāh",
+            "gloss": "night"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "واداشتم",
+          "gloss": {
+            "src": "vā-dāšt-am",
+            "gloss": "compel-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "خود",
+          "gloss": {
+            "src": "xod",
+            "gloss": "self"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "پشت",
+          "gloss": {
+            "src": "pošt=e",
+            "gloss": "behind=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دیوارها",
+          "gloss": {
+            "src": "dīvārhā",
+            "gloss": "walls"
+          }
+        },
+        {
+          "fa": "پنهان",
+          "gloss": {
+            "src": "penhān",
+            "gloss": "hidden"
+          }
+        },
+        {
+          "fa": "کنند",
+          "gloss": {
+            "src": "kon-and",
+            "gloss": "do-SBJV-3PL"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پس",
+          "gloss": {
+            "src": "pas",
+            "gloss": "after"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "خود",
+          "gloss": {
+            "src": "xod",
+            "gloss": "self"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "پنهان",
+          "gloss": {
+            "src": "penhān",
+            "gloss": "hidden"
+          }
+        },
+        {
+          "fa": "کردند",
+          "gloss": {
+            "src": "kard-and",
+            "gloss": "do-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "نیفای",
+          "gloss": {
+            "src": "Nīfāy",
+            "gloss": "Nephi"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "side=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "شهر",
+          "gloss": {
+            "src": "šahr",
+            "gloss": "city"
+          }
+        },
+        {
+          "fa": "خزیدم",
+          "gloss": {
+            "src": "xazīd-am",
+            "gloss": "creep-PST-1SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "side=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "خانۀ",
+          "gloss": {
+            "src": "xāne=ye",
+            "gloss": "house=EZ"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "5 And it was by night; and I caused that they should hide themselves without the walls. And after they had hid themselves, I, Nephi, crept into the city and went forth towards the house of Laban."
+    },
+    {
+      "type": "verse",
+      "number": 6,
+      "tokens": [
+        {
+          "fa": "۶",
+          "gloss": {
+            "src": "šeš",
+            "gloss": "6"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "روح",
+          "gloss": {
+            "src": "rūḥ=e",
+            "gloss": "spirit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مقدّس",
+          "gloss": {
+            "src": "moqaddas",
+            "gloss": "holy"
+          }
+        },
+        {
+          "fa": "راهنمایی",
+          "gloss": {
+            "src": "rāhnamāyī",
+            "gloss": "guidance"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "شدم",
+          "gloss": {
+            "src": "šod-am",
+            "gloss": "become-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "بدون",
+          "gloss": {
+            "src": "bedūn",
+            "gloss": "without"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "beforehand"
+          }
+        },
+        {
+          "fa": "بدانم",
+          "gloss": {
+            "src": "be-dān-am",
+            "gloss": "SBJV-know-1SG"
+          }
+        },
+        {
+          "fa": "چه",
+          "gloss": {
+            "src": "če",
+            "gloss": "what"
+          }
+        },
+        {
+          "fa": "چیزهایی",
+          "gloss": {
+            "src": "čīz-hā-yī",
+            "gloss": "things-INDEF"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyest-ī",
+            "gloss": "must-PST.1SG"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "انجام",
+          "gloss": {
+            "src": "anjām",
+            "gloss": "completion"
+          }
+        },
+        {
+          "fa": "دهم",
+          "gloss": {
+            "src": "deh-am",
+            "gloss": "give-SBJV-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "6 And I was led by the Spirit, not knowing beforehand the things which I should do."
+    },
+    {
+      "type": "verse",
+      "number": 7,
+      "tokens": [
+        {
+          "fa": "۷",
+          "gloss": {
+            "src": "haft",
+            "gloss": "7"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "وجود",
+          "gloss": {
+            "src": "vojūd",
+            "gloss": "existence"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنان",
+          "gloss": {
+            "src": "hamčonān",
+            "gloss": "continually"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "خانۀ",
+          "gloss": {
+            "src": "xāne=ye",
+            "gloss": "house=EZ"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "نزدیک",
+          "gloss": {
+            "src": "nazdīk",
+            "gloss": "near"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "شدم",
+          "gloss": {
+            "src": "šod-am",
+            "gloss": "become-PST-1SG"
+          }
+        },
+        {
+          "fa": "مردی",
+          "gloss": {
+            "src": "mard-ī",
+            "gloss": "man-INDEF"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "دیدم",
+          "gloss": {
+            "src": "dīd-am",
+            "gloss": "see-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "برابر",
+          "gloss": {
+            "src": "barābar",
+            "gloss": "front"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "on"
+          }
+        },
+        {
+          "fa": "زمین",
+          "gloss": {
+            "src": "zamīn",
+            "gloss": "ground"
+          }
+        },
+        {
+          "fa": "افتاده",
+          "gloss": {
+            "src": "oftāde",
+            "gloss": "fall-PTCP"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "for/because"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "مست",
+          "gloss": {
+            "src": "mast",
+            "gloss": "drunk"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "شراب",
+          "gloss": {
+            "src": "šarāb",
+            "gloss": "wine"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "7 Nevertheless I went forth, and as I came near unto the house of Laban I beheld a man, and he had fallen to the earth before me, for he was drunken with wine."
+    },
+    {
+      "type": "verse",
+      "number": 8,
+      "tokens": [
+        {
+          "fa": "۸",
+          "gloss": {
+            "src": "hašt",
+            "gloss": "8"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "time-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "رسیدم",
+          "gloss": {
+            "src": "rasīd-am",
+            "gloss": "reach-PST-1SG"
+          }
+        },
+        {
+          "fa": "دریافتم",
+          "gloss": {
+            "src": "daryāft-am",
+            "gloss": "perceive-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "8 And when I came to him I found that it was Laban."
+    },
+    {
+      "type": "verse",
+      "number": 9,
+      "tokens": [
+        {
+          "fa": "۹",
+          "gloss": {
+            "src": "noh",
+            "gloss": "9"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "شمشیرش",
+          "gloss": {
+            "src": "šamšīr-aš",
+            "gloss": "sword-3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "دیدم",
+          "gloss": {
+            "src": "dīd-am",
+            "gloss": "see-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "نیامش",
+          "gloss": {
+            "src": "niyām-aš",
+            "gloss": "sheath-3SG.POSS"
+          }
+        },
+        {
+          "fa": "برکشیدم",
+          "gloss": {
+            "src": "bar-kešīd-am",
+            "gloss": "PRV-draw-PST.1SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "دستۀ",
+          "gloss": {
+            "src": "daste=ye",
+            "gloss": "hilt=EZ"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "طلای",
+          "gloss": {
+            "src": "ṭalā=ye",
+            "gloss": "gold=EZ"
+          }
+        },
+        {
+          "fa": "خالص",
+          "gloss": {
+            "src": "xāleṣ",
+            "gloss": "pure"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "ساخت",
+          "gloss": {
+            "src": "sāxt",
+            "gloss": "workmanship"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "بی",
+          "gloss": {
+            "src": "bī",
+            "gloss": "without"
+          }
+        },
+        {
+          "fa": "اندازه",
+          "gloss": {
+            "src": "andāze",
+            "gloss": "measure"
+          }
+        },
+        {
+          "fa": "عالی",
+          "gloss": {
+            "src": "ʿālī",
+            "gloss": "excellent"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "دیدم",
+          "gloss": {
+            "src": "dīd-am",
+            "gloss": "see-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "تیغۀ",
+          "gloss": {
+            "src": "tīġe=ye",
+            "gloss": "blade=EZ"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "گرانبهاترین",
+          "gloss": {
+            "src": "gerānbahā-tarīn",
+            "gloss": "precious-SUPERL"
+          }
+        },
+        {
+          "fa": "پولاد",
+          "gloss": {
+            "src": "pūlād",
+            "gloss": "steel"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "9 And I beheld his sword, and I drew it forth from the sheath thereof; and the hilt thereof was of pure gold, and the workmanship thereof was exceedingly fine, and I saw that the blade thereof was of the most precious steel."
+    },
+    {
+      "type": "verse",
+      "number": 10,
+      "tokens": [
+        {
+          "fa": "۱۰",
+          "gloss": {
+            "src": "dah",
+            "gloss": "10"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "side=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "روح",
+          "gloss": {
+            "src": "rūḥ=e",
+            "gloss": "spirit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مقدّس",
+          "gloss": {
+            "src": "moqaddas",
+            "gloss": "holy"
+          }
+        },
+        {
+          "fa": "وادار",
+          "gloss": {
+            "src": "vādār",
+            "gloss": "compelled"
+          }
+        },
+        {
+          "fa": "شدم",
+          "gloss": {
+            "src": "šod-am",
+            "gloss": "become-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyest-ī",
+            "gloss": "must-PST.1SG"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بکشم",
+          "gloss": {
+            "src": "be-koš-am",
+            "gloss": "SBJV-kill-1SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "ولی",
+          "gloss": {
+            "src": "valī",
+            "gloss": "but"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "دلم",
+          "gloss": {
+            "src": "del-am",
+            "gloss": "heart-1SG.POSS"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST-1SG"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "هرگز",
+          "gloss": {
+            "src": "hargez",
+            "gloss": "never"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "هیچ",
+          "gloss": {
+            "src": "hīč",
+            "gloss": "any"
+          }
+        },
+        {
+          "fa": "زمانی",
+          "gloss": {
+            "src": "zamān-ī",
+            "gloss": "time-INDEF"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "خون",
+          "gloss": {
+            "src": "xūn",
+            "gloss": "blood"
+          }
+        },
+        {
+          "fa": "آدمی",
+          "gloss": {
+            "src": "ādamī",
+            "gloss": "man"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نریخته",
+          "gloss": {
+            "src": "na-rīxte",
+            "gloss": "NEG-shed-PTCP"
+          }
+        },
+        {
+          "fa": "ام",
+          "gloss": {
+            "src": "-am",
+            "gloss": "COP.1SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "خود",
+          "gloss": {
+            "src": "xod",
+            "gloss": "self"
+          }
+        },
+        {
+          "fa": "فرو",
+          "gloss": {
+            "src": "forū",
+            "gloss": "down"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST-1SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "خواستم",
+          "gloss": {
+            "src": "xāst-am",
+            "gloss": "want-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نکشم",
+          "gloss": {
+            "src": "na-koš-am",
+            "gloss": "NEG-kill-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "10 And it came to pass that I was constrained by the Spirit that I should kill Laban; but I said in my heart: Never at any time have I shed the blood of man. And I shrunk and would that I might not slay him."
+    },
+    {
+      "type": "verse",
+      "number": 11,
+      "tokens": [
+        {
+          "fa": "۱۱",
+          "gloss": {
+            "src": "yāzdah",
+            "gloss": "11"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "روح",
+          "gloss": {
+            "src": "rūḥ=e",
+            "gloss": "spirit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مقدّس",
+          "gloss": {
+            "src": "moqaddas",
+            "gloss": "holy"
+          }
+        },
+        {
+          "fa": "دوباره",
+          "gloss": {
+            "src": "dobāre",
+            "gloss": "again"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "say-PST-3SG"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "بنگر",
+          "gloss": {
+            "src": "benegar",
+            "gloss": "behold-IMP.2SG"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دست",
+          "gloss": {
+            "src": "dast=e",
+            "gloss": "hand=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "تو",
+          "gloss": {
+            "src": "to",
+            "gloss": "2SG"
+          }
+        },
+        {
+          "fa": "سپرده",
+          "gloss": {
+            "src": "seporde",
+            "gloss": "entrust-PTCP.PST"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yes"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانستم",
+          "gloss": {
+            "src": "dānest-am",
+            "gloss": "know-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "برآن",
+          "gloss": {
+            "src": "bar-ān",
+            "gloss": "upon-that"
+          }
+        },
+        {
+          "fa": "بوده",
+          "gloss": {
+            "src": "būde",
+            "gloss": "be-PTCP.PST"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "جان",
+          "gloss": {
+            "src": "jān=e",
+            "gloss": "life=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "خود",
+          "gloss": {
+            "src": "xod=e",
+            "gloss": "self=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بگیرد",
+          "gloss": {
+            "src": "be-gīr-ad",
+            "gloss": "SBJV-take-3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yes"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "نمی",
+          "gloss": {
+            "src": "ne-mī",
+            "gloss": "NEG-IMPF"
+          }
+        },
+        {
+          "fa": "خواست",
+          "gloss": {
+            "src": "xāst",
+            "gloss": "want-PST-3SG"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بگوش",
+          "gloss": {
+            "src": "be-guš=e",
+            "gloss": "to.ear=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دل",
+          "gloss": {
+            "src": "del",
+            "gloss": "heart"
+          }
+        },
+        {
+          "fa": "بپذیرد",
+          "gloss": {
+            "src": "be-pazīr-ad",
+            "gloss": "SBJV-accept-3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "داراییمان",
+          "gloss": {
+            "src": "dārāyī-mān",
+            "gloss": "possessions-1PL.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "برداشته",
+          "gloss": {
+            "src": "bar-dāšte",
+            "gloss": "take.up-PTCP.PST"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "11 And the Spirit said unto me again: Behold the Lord hath delivered him into thy hands. Yea, and I also knew that he had sought to take away mine own life; yea, and he would not hearken unto the commandments of the Lord; and he had also taken away our property."
+    },
+    {
+      "type": "verse",
+      "number": 12,
+      "tokens": [
+        {
+          "fa": "۱۲",
+          "gloss": {
+            "src": "davāzdah",
+            "gloss": "12"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST-3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "روح",
+          "gloss": {
+            "src": "rūḥ=e",
+            "gloss": "spirit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مقدّس",
+          "gloss": {
+            "src": "moqaddas",
+            "gloss": "holy"
+          }
+        },
+        {
+          "fa": "دوباره",
+          "gloss": {
+            "src": "dobāre",
+            "gloss": "again"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "say-PST-3SG"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بکُش",
+          "gloss": {
+            "src": "be-koš",
+            "gloss": "kill-IMP.2SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "for"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دست",
+          "gloss": {
+            "src": "dast=e",
+            "gloss": "hand=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "تو",
+          "gloss": {
+            "src": "to",
+            "gloss": "2SG"
+          }
+        },
+        {
+          "fa": "سپرده",
+          "gloss": {
+            "src": "seporde",
+            "gloss": "entrust-PTCP.PST"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "12 And it came to pass that the Spirit said unto me again: Slay him, for the Lord hath delivered him into thy hands."
+    },
+    {
+      "type": "verse",
+      "number": 13,
+      "tokens": [
+        {
+          "fa": "۱۳",
+          "gloss": {
+            "src": "sīzdah",
+            "gloss": "13"
+          }
+        },
+        {
+          "fa": "بنگر",
+          "gloss": {
+            "src": "benegar",
+            "gloss": "behold-IMP.2SG"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "نابکاران",
+          "gloss": {
+            "src": "nābkārān",
+            "gloss": "wicked-PL"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "کُشد",
+          "gloss": {
+            "src": "koš-ad",
+            "gloss": "kill-PRS-3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "اهداف",
+          "gloss": {
+            "src": "ahdāf=e",
+            "gloss": "purpose.PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "پرهیزکارانه",
+          "gloss": {
+            "src": "parhīzkārāne",
+            "gloss": "righteous"
+          }
+        },
+        {
+          "fa": "اش",
+          "gloss": {
+            "src": "aš",
+            "gloss": "3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "بَرد",
+          "gloss": {
+            "src": "bar-ad",
+            "gloss": "carry-SBJV-3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "بهتر",
+          "gloss": {
+            "src": "behtar",
+            "gloss": "better"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "یک",
+          "gloss": {
+            "src": "yek",
+            "gloss": "one"
+          }
+        },
+        {
+          "fa": "آدم",
+          "gloss": {
+            "src": "ādam",
+            "gloss": "man"
+          }
+        },
+        {
+          "fa": "هلاک",
+          "gloss": {
+            "src": "halāk",
+            "gloss": "perish"
+          }
+        },
+        {
+          "fa": "گردد",
+          "gloss": {
+            "src": "gard-ad",
+            "gloss": "become-SBJV-3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "than"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "یک",
+          "gloss": {
+            "src": "yek",
+            "gloss": "one"
+          }
+        },
+        {
+          "fa": "ملّت",
+          "gloss": {
+            "src": "mellat",
+            "gloss": "nation"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "بی",
+          "gloss": {
+            "src": "bī",
+            "gloss": "without"
+          }
+        },
+        {
+          "fa": "ایمانی",
+          "gloss": {
+            "src": "īmān-ī",
+            "gloss": "faith-INDEF"
+          }
+        },
+        {
+          "fa": "فرو",
+          "gloss": {
+            "src": "forū",
+            "gloss": "down"
+          }
+        },
+        {
+          "fa": "رود",
+          "gloss": {
+            "src": "rav-ad",
+            "gloss": "go-SBJV-3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "هلاک",
+          "gloss": {
+            "src": "halāk",
+            "gloss": "perish"
+          }
+        },
+        {
+          "fa": "گردد",
+          "gloss": {
+            "src": "gard-ad",
+            "gloss": "become-SBJV-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "13 Behold the Lord slayeth the wicked to bring forth his righteous purposes. It is better that one man should perish than that a nation should dwindle in unbelief and perish."
+    },
+    {
+      "type": "verse",
+      "number": 14,
+      "tokens": [
+        {
+          "fa": "۱۴",
+          "gloss": {
+            "src": "čahārdah",
+            "gloss": "14"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "when"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "نیفای",
+          "gloss": {
+            "src": "Nīfāy",
+            "gloss": "Nephi"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "these"
+          }
+        },
+        {
+          "fa": "سخنان",
+          "gloss": {
+            "src": "soxanān",
+            "gloss": "words"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "شنیدم",
+          "gloss": {
+            "src": "šenīd-am",
+            "gloss": "hear-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "سخنان",
+          "gloss": {
+            "src": "soxan-ān=e",
+            "gloss": "word-PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "یاد",
+          "gloss": {
+            "src": "yād",
+            "gloss": "memory"
+          }
+        },
+        {
+          "fa": "آوردم",
+          "gloss": {
+            "src": "āvard-am",
+            "gloss": "bring-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "say-PST-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "گفتا",
+          "gloss": {
+            "src": "goftā",
+            "gloss": "say-NARR"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "as.far.as"
+          }
+        },
+        {
+          "fa": "جایی",
+          "gloss": {
+            "src": "jāyī",
+            "gloss": "place-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "نوادگان",
+          "gloss": {
+            "src": "navāde-gān=e",
+            "gloss": "descendant-PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "تو",
+          "gloss": {
+            "src": "to",
+            "gloss": "2SG"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "1SG.GEN"
+          }
+        },
+        {
+          "fa": "نگه",
+          "gloss": {
+            "src": "negah",
+            "gloss": "keep"
+          }
+        },
+        {
+          "fa": "دارند",
+          "gloss": {
+            "src": "dār-and",
+            "gloss": "hold-SBJV-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "سرزمین",
+          "gloss": {
+            "src": "sarzamīn=e",
+            "gloss": "land=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "موعود",
+          "gloss": {
+            "src": "mowʿūd",
+            "gloss": "promised"
+          }
+        },
+        {
+          "fa": "کامروا",
+          "gloss": {
+            "src": "kāmravā",
+            "gloss": "prosper"
+          }
+        },
+        {
+          "fa": "خواهند",
+          "gloss": {
+            "src": "xāh-and",
+            "gloss": "FUT-3PL"
+          }
+        },
+        {
+          "fa": "شد",
+          "gloss": {
+            "src": "šod",
+            "gloss": "become-INF.PST"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "14 And now, when I, Nephi, had heard these words, I remembered the words of the Lord which he spake unto me in the wilderness, saying that: Inasmuch as thy seed shall keep my commandments, they shall prosper in the land of promise."
+    },
+    {
+      "type": "verse",
+      "number": 15,
+      "tokens": [
+        {
+          "fa": "۱۵",
+          "gloss": {
+            "src": "pānzdah",
+            "gloss": "15"
+          }
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yes"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "پنداشتم",
+          "gloss": {
+            "src": "pendāšt-am",
+            "gloss": "think-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "نمی",
+          "gloss": {
+            "src": "ne-mī",
+            "gloss": "NEG-IMPF"
+          }
+        },
+        {
+          "fa": "توانند",
+          "gloss": {
+            "src": "tavān-and",
+            "gloss": "can-PRS-3PL"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "on"
+          }
+        },
+        {
+          "fa": "پایۀ",
+          "gloss": {
+            "src": "pāye=ye",
+            "gloss": "basis=EZ"
+          }
+        },
+        {
+          "fa": "قانون",
+          "gloss": {
+            "src": "qānūn=e",
+            "gloss": "law=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "موسی",
+          "gloss": {
+            "src": "Mūsā",
+            "gloss": "Moses"
+          }
+        },
+        {
+          "fa": "نگه",
+          "gloss": {
+            "src": "negah",
+            "gloss": "keep"
+          }
+        },
+        {
+          "fa": "دارند",
+          "gloss": {
+            "src": "dār-and",
+            "gloss": "hold-SBJV-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "مگر",
+          "gloss": {
+            "src": "magar",
+            "gloss": "unless"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "قانون",
+          "gloss": {
+            "src": "qānūn",
+            "gloss": "law"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "داشته",
+          "gloss": {
+            "src": "dāšte",
+            "gloss": "have-PTCP.PST"
+          }
+        },
+        {
+          "fa": "باشند",
+          "gloss": {
+            "src": "bāš-and",
+            "gloss": "be-SBJV-3PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "15 Yea, and I also thought that they could not keep the commandments of the Lord according to the law of Moses, save they should have the law."
+    },
+    {
+      "type": "verse",
+      "number": 16,
+      "tokens": [
+        {
+          "fa": "۱۶",
+          "gloss": {
+            "src": "šānzdah",
+            "gloss": "16"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانستم",
+          "gloss": {
+            "src": "dānest-am",
+            "gloss": "know-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "قانون",
+          "gloss": {
+            "src": "qānūn",
+            "gloss": "law"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "on"
+          }
+        },
+        {
+          "fa": "ورقه",
+          "gloss": {
+            "src": "varaqe",
+            "gloss": "plate"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "برنجی",
+          "gloss": {
+            "src": "berenǰī",
+            "gloss": "brass"
+          }
+        },
+        {
+          "fa": "کنده",
+          "gloss": {
+            "src": "kande",
+            "gloss": "engrave-PTCP"
+          }
+        },
+        {
+          "fa": "کاری",
+          "gloss": {
+            "src": "kārī",
+            "gloss": "work"
+          }
+        },
+        {
+          "fa": "شده",
+          "gloss": {
+            "src": "šode",
+            "gloss": "become-PTCP"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "16 And I also knew that the law was engraven upon the plates of brass."
+    },
+    {
+      "type": "verse",
+      "number": 17,
+      "tokens": [
+        {
+          "fa": "۱۷",
+          "gloss": {
+            "src": "hefdah",
+            "gloss": "17"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "دوباره",
+          "gloss": {
+            "src": "dobāre",
+            "gloss": "again"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانستم",
+          "gloss": {
+            "src": "dānest-am",
+            "gloss": "know-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "for"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "سبب",
+          "gloss": {
+            "src": "sabab",
+            "gloss": "reason"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دست",
+          "gloss": {
+            "src": "dast=e",
+            "gloss": "hand=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "سپرده",
+          "gloss": {
+            "src": "seporde",
+            "gloss": "entrust-PTCP.PST"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "p": "—"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "بتوانم",
+          "gloss": {
+            "src": "be-tavān-am",
+            "gloss": "SBJV-can-1SG"
+          }
+        },
+        {
+          "fa": "نگاشته",
+          "gloss": {
+            "src": "negāšte",
+            "gloss": "record"
+          }
+        },
+        {
+          "fa": "ها",
+          "gloss": {
+            "src": "hā",
+            "gloss": "PL"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "on"
+          }
+        },
+        {
+          "fa": "پایۀ",
+          "gloss": {
+            "src": "pāye=ye",
+            "gloss": "basis=EZ"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "3SG"
+          }
+        },
+        {
+          "fa": "بدست",
+          "gloss": {
+            "src": "bedast",
+            "gloss": "by.hand"
+          }
+        },
+        {
+          "fa": "آورم",
+          "gloss": {
+            "src": "āvar-am",
+            "gloss": "bring-SBJV-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "17 And again, I knew that the Lord had delivered Laban into my hands for this cause—that I might obtain the records according to his commandments."
+    },
+    {
+      "type": "verse",
+      "number": 18,
+      "tokens": [
+        {
+          "fa": "۱۸",
+          "gloss": {
+            "src": "hejdah",
+            "gloss": "18"
+          }
+        },
+        {
+          "fa": "بنابراین",
+          "gloss": {
+            "src": "banābarīn",
+            "gloss": "therefore"
+          }
+        },
+        {
+          "fa": "ندای",
+          "gloss": {
+            "src": "nedā=ye",
+            "gloss": "voice=EZ"
+          }
+        },
+        {
+          "fa": "روح",
+          "gloss": {
+            "src": "rūḥ=e",
+            "gloss": "spirit=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مقدّس",
+          "gloss": {
+            "src": "moqaddas",
+            "gloss": "holy"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "بُردم",
+          "gloss": {
+            "src": "bord-am",
+            "gloss": "carry-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "موی",
+          "gloss": {
+            "src": "mūy=e",
+            "gloss": "hair=EZ"
+          }
+        },
+        {
+          "fa": "سرش",
+          "gloss": {
+            "src": "sar-aš",
+            "gloss": "head-3SG.POSS"
+          }
+        },
+        {
+          "fa": "گرفتم",
+          "gloss": {
+            "src": "gereft-am",
+            "gloss": "take-PST-1SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "سرش",
+          "gloss": {
+            "src": "sar-aš",
+            "gloss": "head-3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "شمشیر",
+          "gloss": {
+            "src": "šamšīr",
+            "gloss": "sword"
+          }
+        },
+        {
+          "fa": "خودش",
+          "gloss": {
+            "src": "xod-aš",
+            "gloss": "self-3SG.POSS"
+          }
+        },
+        {
+          "fa": "زدم",
+          "gloss": {
+            "src": "zad-am",
+            "gloss": "strike-PST-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "18 Therefore I did obey the voice of the Spirit, and took Laban by the hair of the head, and smote off his head with his own sword."
+    },
+    {
+      "type": "verse",
+      "number": 19,
+      "tokens": [
+        {
+          "fa": "۱۹",
+          "gloss": {
+            "src": "nūzdah",
+            "gloss": "19"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پس",
+          "gloss": {
+            "src": "pas",
+            "gloss": "after"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "سرش",
+          "gloss": {
+            "src": "sar-aš",
+            "gloss": "head-3SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "شمشیر",
+          "gloss": {
+            "src": "šamšīr",
+            "gloss": "sword"
+          }
+        },
+        {
+          "fa": "خودش",
+          "gloss": {
+            "src": "xod-aš",
+            "gloss": "self-3SG.POSS"
+          }
+        },
+        {
+          "fa": "زدم",
+          "gloss": {
+            "src": "zad-am",
+            "gloss": "strike-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "تنپوش",
+          "gloss": {
+            "src": "tanpūš",
+            "gloss": "garment"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "برداشتم",
+          "gloss": {
+            "src": "bar-dāšt-am",
+            "gloss": "take.up-PST-1SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "upon"
+          }
+        },
+        {
+          "fa": "بدن",
+          "gloss": {
+            "src": "badan",
+            "gloss": "body"
+          }
+        },
+        {
+          "fa": "خودم",
+          "gloss": {
+            "src": "xod-am",
+            "gloss": "self-1SG.POSS"
+          }
+        },
+        {
+          "fa": "پوشاندم",
+          "gloss": {
+            "src": "pušānd-am",
+            "gloss": "put.on-PST-1SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yes"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "هر",
+          "gloss": {
+            "src": "har",
+            "gloss": "every"
+          }
+        },
+        {
+          "fa": "تکّۀ",
+          "gloss": {
+            "src": "tekke=ye",
+            "gloss": "piece=EZ"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "it"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "زره",
+          "gloss": {
+            "src": "zereh=e",
+            "gloss": "armor=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "3SG"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دور",
+          "gloss": {
+            "src": "dowr=e",
+            "gloss": "around=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "کمرم",
+          "gloss": {
+            "src": "kamar-am",
+            "gloss": "waist-1SG.POSS"
+          }
+        },
+        {
+          "fa": "بستم",
+          "gloss": {
+            "src": "bast-am",
+            "gloss": "bind-PST-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "19 And after I had smitten off his head with his own sword, I took the garments of Laban and put them upon mine own body; yea, even every whit; and I did gird on his armor about my loins."
+    },
+    {
+      "type": "verse",
+      "number": 20,
+      "tokens": [
+        {
+          "fa": "۲۰",
+          "gloss": {
+            "src": "bīst",
+            "gloss": "20"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "پس",
+          "gloss": {
+            "src": "pas",
+            "gloss": "after"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "انجام",
+          "gloss": {
+            "src": "anjām",
+            "gloss": "completion"
+          }
+        },
+        {
+          "fa": "داده",
+          "gloss": {
+            "src": "dāde",
+            "gloss": "give-PTCP.PST"
+          }
+        },
+        {
+          "fa": "بودم",
+          "gloss": {
+            "src": "bud-am",
+            "gloss": "be-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "خزانۀ",
+          "gloss": {
+            "src": "xazāne=ye",
+            "gloss": "treasury=EZ"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST-1SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنان",
+          "gloss": {
+            "src": "hamčonān",
+            "gloss": "as"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "toward=EZ"
+          }
+        },
+        {
+          "fa": "خزانۀ",
+          "gloss": {
+            "src": "xazāne=ye",
+            "gloss": "treasury=EZ"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "بنگرید",
+          "gloss": {
+            "src": "be-negar-īd",
+            "gloss": "SBJV-look-2PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "خدمتگزار",
+          "gloss": {
+            "src": "xedmatgozār=e",
+            "gloss": "servant=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "دیدم",
+          "gloss": {
+            "src": "dīd-am",
+            "gloss": "see-PST-1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "کلیدهای",
+          "gloss": {
+            "src": "kelīd-hā=ye",
+            "gloss": "key-PL=EZ"
+          }
+        },
+        {
+          "fa": "خزانه",
+          "gloss": {
+            "src": "xazāne",
+            "gloss": "treasury"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "داشت",
+          "gloss": {
+            "src": "dāšt",
+            "gloss": "have-PST-3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "صدای",
+          "gloss": {
+            "src": "sedā=ye",
+            "gloss": "voice=EZ"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "دادم",
+          "gloss": {
+            "src": "dād-am",
+            "gloss": "give-PST-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyest-ī",
+            "gloss": "must-PST-3SG"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "1SG"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "خزانه",
+          "gloss": {
+            "src": "xazāne",
+            "gloss": "treasury"
+          }
+        },
+        {
+          "fa": "بیاید",
+          "gloss": {
+            "src": "biyāy-ad",
+            "gloss": "come-SBJV-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "20 And after I had done this, I went forth unto the treasury of Laban. And as I went forth toward the treasury of Laban, behold, I saw the servant of Laban who had the keys of the treasury. And I commanded him in the voice of Laban, that he should come with me into the treasury."
+    },
+    {
+      "type": "verse",
+      "number": 21,
+      "tokens": [
+        {
+          "fa": "۲۱",
+          "gloss": {
+            "src": "bīst-o-yek",
+            "gloss": "21"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "گمان",
+          "gloss": {
+            "src": "gomān",
+            "gloss": "supposition"
+          }
+        },
+        {
+          "fa": "کرد",
+          "gloss": {
+            "src": "kard",
+            "gloss": "do-PST.3SG"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "اربابش",
+          "gloss": {
+            "src": "arbāb-aš",
+            "gloss": "master-3SG.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "باشم",
+          "gloss": {
+            "src": "bāš-am",
+            "gloss": "be-SBJV-1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "because"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "تنپوش",
+          "gloss": {
+            "src": "tanpūš",
+            "gloss": "garment"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "شمشیر",
+          "gloss": {
+            "src": "šamšīr",
+            "gloss": "sword"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بسته",
+          "gloss": {
+            "src": "baste",
+            "gloss": "bind-PTCP"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دور",
+          "gloss": {
+            "src": "dowr=e",
+            "gloss": "around=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "کمرم",
+          "gloss": {
+            "src": "kamar-am",
+            "gloss": "waist-1SG.POSS"
+          }
+        },
+        {
+          "fa": "دید",
+          "gloss": {
+            "src": "dīd",
+            "gloss": "see-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "21 And he supposed me to be his master, Laban, for he beheld the garments and also the sword girt about my loins."
+    },
+    {
+      "type": "verse",
+      "number": 22,
+      "tokens": [
+        {
+          "fa": "۲۲",
+          "gloss": {
+            "src": "bīst-o-do",
+            "gloss": "22"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "دربارۀ",
+          "gloss": {
+            "src": "darbāre=ye",
+            "gloss": "concerning=EZ"
+          }
+        },
+        {
+          "fa": "ارشدان",
+          "gloss": {
+            "src": "aršadān=e",
+            "gloss": "elders=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "یهودیان",
+          "gloss": {
+            "src": "yahūdiyān",
+            "gloss": "Jews"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "speak-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دانست",
+          "gloss": {
+            "src": "dānest",
+            "gloss": "know-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "اربابش",
+          "gloss": {
+            "src": "arbāb-aš",
+            "gloss": "master-3SG.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "شبانگاه",
+          "gloss": {
+            "src": "šabāngāh",
+            "gloss": "by.night"
+          }
+        },
+        {
+          "fa": "بیرون",
+          "gloss": {
+            "src": "bīrūn",
+            "gloss": "out"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "میان",
+          "gloss": {
+            "src": "mīyān=e",
+            "gloss": "midst=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "آنان",
+          "gloss": {
+            "src": "ānān",
+            "gloss": "them"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سر",
+          "gloss": {
+            "src": "sar",
+            "gloss": "head"
+          }
+        },
+        {
+          "fa": "بُرده",
+          "gloss": {
+            "src": "borde",
+            "gloss": "spend-PTCP"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "22 And he spake unto me concerning the elders of the Jews, knowing that his master, Laban, had been out among them by night."
+    },
+    {
+      "type": "verse",
+      "number": 23,
+      "tokens": [
+        {
+          "fa": "۲۳",
+          "gloss": {
+            "src": "bīst-o-se",
+            "gloss": "23"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "fa": "گویی",
+          "gloss": {
+            "src": "gūyī",
+            "gloss": "as.if"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "بودم",
+          "gloss": {
+            "src": "bud-am",
+            "gloss": "be-PST.1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "23 And I spake unto him as if it had been Laban."
+    },
+    {
+      "type": "verse",
+      "number": 24,
+      "tokens": [
+        {
+          "fa": "۲۴",
+          "gloss": {
+            "src": "bīst-o-čahār",
+            "gloss": "24"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyestī",
+            "gloss": "must"
+          }
+        },
+        {
+          "fa": "کنده",
+          "gloss": {
+            "src": "kande",
+            "gloss": "engrave-PTCP"
+          }
+        },
+        {
+          "fa": "کاری",
+          "gloss": {
+            "src": "kārī",
+            "gloss": "work"
+          }
+        },
+        {
+          "fa": "هایی",
+          "gloss": {
+            "src": "hā-ī",
+            "gloss": "PL-INDEF"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "بر",
+          "gloss": {
+            "src": "bar",
+            "gloss": "upon"
+          }
+        },
+        {
+          "fa": "ورقه",
+          "gloss": {
+            "src": "varaqe",
+            "gloss": "plate"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "برنجی",
+          "gloss": {
+            "src": "berenǰī",
+            "gloss": "brass"
+          }
+        },
+        {
+          "fa": "بودند",
+          "gloss": {
+            "src": "būd-and",
+            "gloss": "be-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "نزد",
+          "gloss": {
+            "src": "nazd=e",
+            "gloss": "unto=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "برادران",
+          "gloss": {
+            "src": "barādarān=e",
+            "gloss": "brother.PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ارشدم",
+          "gloss": {
+            "src": "aršad-am",
+            "gloss": "elder-1SG.POSS"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "پشت",
+          "gloss": {
+            "src": "pošt=e",
+            "gloss": "behind=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دیوارها",
+          "gloss": {
+            "src": "dīvār-hā",
+            "gloss": "wall-PL"
+          }
+        },
+        {
+          "fa": "بودند",
+          "gloss": {
+            "src": "būd-and",
+            "gloss": "be-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "ببرم",
+          "gloss": {
+            "src": "be-bar-am",
+            "gloss": "SBJV-carry-1SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "24 And I also spake unto him that I should carry the engravings, which were upon the plates of brass, to my elder brethren, who were without the walls."
+    },
+    {
+      "type": "verse",
+      "number": 25,
+      "tokens": [
+        {
+          "fa": "۲۵",
+          "gloss": {
+            "src": "bīst-o-panj",
+            "gloss": "25"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "دستور",
+          "gloss": {
+            "src": "dastur",
+            "gloss": "order"
+          }
+        },
+        {
+          "fa": "دادم",
+          "gloss": {
+            "src": "dād-am",
+            "gloss": "give-PST.1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyestī",
+            "gloss": "must"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "دنبال",
+          "gloss": {
+            "src": "donbāl=e",
+            "gloss": "after=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "بیاید",
+          "gloss": {
+            "src": "biyāy-ad",
+            "gloss": "SBJV-come-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "25 And I also commanded him that he should follow me."
+    },
+    {
+      "type": "verse",
+      "number": 26,
+      "tokens": [
+        {
+          "fa": "۲۶",
+          "gloss": {
+            "src": "bīst-o-šeš",
+            "gloss": "26"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "گمان",
+          "gloss": {
+            "src": "gomān",
+            "gloss": "supposition"
+          }
+        },
+        {
+          "fa": "کرده",
+          "gloss": {
+            "src": "karde",
+            "gloss": "do-PTCP"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "برادران",
+          "gloss": {
+            "src": "barādarān=e",
+            "gloss": "brother.PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "کلیسا",
+          "gloss": {
+            "src": "kelīsā",
+            "gloss": "church"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "براستی",
+          "gloss": {
+            "src": "berāstī",
+            "gloss": "truly"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "لابانی",
+          "gloss": {
+            "src": "Lābān-ī",
+            "gloss": "Laban-INDEF"
+          }
+        },
+        {
+          "fa": "بودم",
+          "gloss": {
+            "src": "bud-am",
+            "gloss": "be-PST.1SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "کشته",
+          "gloss": {
+            "src": "košte",
+            "gloss": "kill-PTCP"
+          }
+        },
+        {
+          "fa": "بودم",
+          "gloss": {
+            "src": "bud-am",
+            "gloss": "be-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "رو",
+          "gloss": {
+            "src": "rū",
+            "gloss": "face"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "پی",
+          "gloss": {
+            "src": "pey",
+            "gloss": "pursuit"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "آمد",
+          "gloss": {
+            "src": "āmad",
+            "gloss": "come-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "26 And he, supposing that I spake of the brethren of the church, and that I was truly that Laban whom I had slain, wherefore he did follow me."
+    },
+    {
+      "type": "verse",
+      "number": 27,
+      "tokens": [
+        {
+          "fa": "۲۷",
+          "gloss": {
+            "src": "bīst-o-haft",
+            "gloss": "27"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "همچنان",
+          "gloss": {
+            "src": "hamčonān",
+            "gloss": "as"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "toward=EZ"
+          }
+        },
+        {
+          "fa": "برادرانم",
+          "gloss": {
+            "src": "barādarān-am",
+            "gloss": "brother-PL-1SG.POSS"
+          }
+        },
+        {
+          "fa": "پیش",
+          "gloss": {
+            "src": "pīš",
+            "gloss": "forward"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "رفتم",
+          "gloss": {
+            "src": "raft-am",
+            "gloss": "go-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "پشت",
+          "gloss": {
+            "src": "pošt=e",
+            "gloss": "behind=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دیوارها",
+          "gloss": {
+            "src": "dīvār-hā",
+            "gloss": "wall-PL"
+          }
+        },
+        {
+          "fa": "بودند",
+          "gloss": {
+            "src": "būd-and",
+            "gloss": "be-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "چندین",
+          "gloss": {
+            "src": "čandīn",
+            "gloss": "several"
+          }
+        },
+        {
+          "fa": "بار",
+          "gloss": {
+            "src": "bār",
+            "gloss": "time"
+          }
+        },
+        {
+          "fa": "دربارۀ",
+          "gloss": {
+            "src": "darbāre=ye",
+            "gloss": "concerning=EZ"
+          }
+        },
+        {
+          "fa": "ارشدان",
+          "gloss": {
+            "src": "aršadān=e",
+            "gloss": "elders=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "یهودیان",
+          "gloss": {
+            "src": "yahūdiyān",
+            "gloss": "Jews"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفت",
+          "gloss": {
+            "src": "goft",
+            "gloss": "speak-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "27 And he spake unto me many times concerning the elders of the Jews, as I went forth towards my brethren, who were without the walls."
+    },
+    {
+      "type": "verse",
+      "number": 28,
+      "tokens": [
+        {
+          "fa": "۲۸",
+          "gloss": {
+            "src": "bīst-o-hašt",
+            "gloss": "28"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "when"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "لامان",
+          "gloss": {
+            "src": "Lāmān",
+            "gloss": "Laman"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "I.ACC"
+          }
+        },
+        {
+          "fa": "دید",
+          "gloss": {
+            "src": "dīd",
+            "gloss": "see-PST.3SG"
+          }
+        },
+        {
+          "fa": "بی",
+          "gloss": {
+            "src": "bī",
+            "gloss": "without"
+          }
+        },
+        {
+          "fa": "اندازه",
+          "gloss": {
+            "src": "andāze",
+            "gloss": "measure"
+          }
+        },
+        {
+          "fa": "وحشت",
+          "gloss": {
+            "src": "vaḥšat",
+            "gloss": "terror"
+          }
+        },
+        {
+          "fa": "زده",
+          "gloss": {
+            "src": "zade",
+            "gloss": "strike-PTCP"
+          }
+        },
+        {
+          "fa": "شد",
+          "gloss": {
+            "src": "šod",
+            "gloss": "become-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "همچنین",
+          "gloss": {
+            "src": "hamčonīn",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "لموئیل",
+          "gloss": {
+            "src": "Lamūʾīl",
+            "gloss": "Lemuel"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "سام",
+          "gloss": {
+            "src": "Sām",
+            "gloss": "Sam"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "برابر",
+          "gloss": {
+            "src": "barābar=e",
+            "gloss": "front=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "حضور",
+          "gloss": {
+            "src": "ḥożūr=e",
+            "gloss": "presence=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "گریختند",
+          "gloss": {
+            "src": "gorīxt-and",
+            "gloss": "flee-PST-3PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "زیرا",
+          "gloss": {
+            "src": "zīrā",
+            "gloss": "because"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "گمان",
+          "gloss": {
+            "src": "gomān",
+            "gloss": "supposition"
+          }
+        },
+        {
+          "fa": "کردند",
+          "gloss": {
+            "src": "kard-and",
+            "gloss": "do-PST-3PL"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "بودم",
+          "gloss": {
+            "src": "bud-am",
+            "gloss": "be-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "اینکه",
+          "gloss": {
+            "src": "īnke",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "I.ACC"
+          }
+        },
+        {
+          "fa": "کشته",
+          "gloss": {
+            "src": "košte",
+            "gloss": "kill-PTCP"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "برآن",
+          "gloss": {
+            "src": "barān",
+            "gloss": "upon.that"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "جان",
+          "gloss": {
+            "src": "jān=e",
+            "gloss": "life=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "them"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "بگیرد",
+          "gloss": {
+            "src": "be-gīr-ad",
+            "gloss": "SBJV-take-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "28 And it came to pass that when Laman saw me he was exceedingly frightened, and also Lemuel and Sam. And they fled from before my presence; for they supposed it was Laban, and that he had slain me and had sought to take away their lives also."
+    },
+    {
+      "type": "verse",
+      "number": 29,
+      "tokens": [
+        {
+          "fa": "۲۹",
+          "gloss": {
+            "src": "bīst-o-noh",
+            "gloss": "29"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "them"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "فرا",
+          "gloss": {
+            "src": "farā",
+            "gloss": "forth"
+          }
+        },
+        {
+          "fa": "خواندم",
+          "gloss": {
+            "src": "xānd-am",
+            "gloss": "call-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "I.ACC"
+          }
+        },
+        {
+          "fa": "شنیدند",
+          "gloss": {
+            "src": "šenīd-and",
+            "gloss": "hear-PST-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "رو",
+          "gloss": {
+            "src": "rū",
+            "gloss": "face"
+          }
+        },
+        {
+          "fa": "آنها",
+          "gloss": {
+            "src": "ānhā",
+            "gloss": "they"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "گریختن",
+          "gloss": {
+            "src": "gorīxtan",
+            "gloss": "flee-INF"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "حضور",
+          "gloss": {
+            "src": "ḥożūr=e",
+            "gloss": "presence=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "بازایستادند",
+          "gloss": {
+            "src": "bāz-īstād-and",
+            "gloss": "cease-PST-3PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "29 And it came to pass that I called unto them, and they did hearken unto me; wherefore they did cease to flee from my presence."
+    },
+    {
+      "type": "verse",
+      "number": 30,
+      "tokens": [
+        {
+          "fa": "۳۰",
+          "gloss": {
+            "src": "sī",
+            "gloss": "30"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "when"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "خدمتگزار",
+          "gloss": {
+            "src": "xedmatgozār=e",
+            "gloss": "servant=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "برادرانم",
+          "gloss": {
+            "src": "barādarān-am",
+            "gloss": "brother-PL-1SG.POSS"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "دید",
+          "gloss": {
+            "src": "dīd",
+            "gloss": "see-PST.3SG"
+          }
+        },
+        {
+          "fa": "شروع",
+          "gloss": {
+            "src": "šorūʿ",
+            "gloss": "beginning"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "لرزیدن",
+          "gloss": {
+            "src": "larzīdan",
+            "gloss": "tremble-INF"
+          }
+        },
+        {
+          "fa": "نمود",
+          "gloss": {
+            "src": "namūd",
+            "gloss": "do-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "نزدیک",
+          "gloss": {
+            "src": "nazdīk",
+            "gloss": "near"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "برابر",
+          "gloss": {
+            "src": "barābar=e",
+            "gloss": "front=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "me"
+          }
+        },
+        {
+          "fa": "بگریزد",
+          "gloss": {
+            "src": "be-gorīz-ad",
+            "gloss": "SBJV-flee-3SG"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "شهر",
+          "gloss": {
+            "src": "šahr=e",
+            "gloss": "city=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "اورشلیم",
+          "gloss": {
+            "src": "Uršalīm",
+            "gloss": "Jerusalem"
+          }
+        },
+        {
+          "fa": "بازگردد",
+          "gloss": {
+            "src": "bāz-gard-ad",
+            "gloss": "return-SBJV-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "30 And it came to pass that when the servant of Laban beheld my brethren he began to tremble, and was about to flee from before me and return to the city of Jerusalem."
+    },
+    {
+      "type": "verse",
+      "number": 31,
+      "tokens": [
+        {
+          "fa": "۳۱",
+          "gloss": {
+            "src": "sī-o-yek",
+            "gloss": "31"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "نیفای",
+          "gloss": {
+            "src": "Nīfāy",
+            "gloss": "Nephi"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "مردی",
+          "gloss": {
+            "src": "mard-ī",
+            "gloss": "man-INDEF"
+          }
+        },
+        {
+          "fa": "درشت",
+          "gloss": {
+            "src": "dorošt",
+            "gloss": "large"
+          }
+        },
+        {
+          "fa": "قامت",
+          "gloss": {
+            "src": "qāmat",
+            "gloss": "stature"
+          }
+        },
+        {
+          "fa": "بوده",
+          "gloss": {
+            "src": "būde",
+            "gloss": "be-PTCP"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "نیروی",
+          "gloss": {
+            "src": "nīrū=ye",
+            "gloss": "strength=EZ"
+          }
+        },
+        {
+          "fa": "زیادی",
+          "gloss": {
+            "src": "zīyād-ī",
+            "gloss": "much-INDEF"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "دریافت",
+          "gloss": {
+            "src": "daryāft",
+            "gloss": "receipt"
+          }
+        },
+        {
+          "fa": "کرده",
+          "gloss": {
+            "src": "karde",
+            "gloss": "do-PTCP"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "بنابراین",
+          "gloss": {
+            "src": "banābarīn",
+            "gloss": "therefore"
+          }
+        },
+        {
+          "fa": "خدمتگزار",
+          "gloss": {
+            "src": "xedmatgozār=e",
+            "gloss": "servant=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "گرفتم",
+          "gloss": {
+            "src": "gereft-am",
+            "gloss": "seize-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نگه",
+          "gloss": {
+            "src": "negah",
+            "gloss": "keep"
+          }
+        },
+        {
+          "fa": "داشتم",
+          "gloss": {
+            "src": "dāšt-am",
+            "gloss": "hold-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "نگریزد",
+          "gloss": {
+            "src": "na-gorīz-ad",
+            "gloss": "NEG-flee-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "31 And now I, Nephi, being a man large in stature, and also having received much strength of the Lord, therefore I did seize upon the servant of Laban, and held him, that he should not flee."
+    },
+    {
+      "type": "verse",
+      "number": 32,
+      "tokens": [
+        {
+          "fa": "۳۲",
+          "gloss": {
+            "src": "sī-o-do",
+            "gloss": "32"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "اگر",
+          "gloss": {
+            "src": "agar",
+            "gloss": "if"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "سخنان",
+          "gloss": {
+            "src": "soxan-ān=e",
+            "gloss": "word-PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "مرا",
+          "gloss": {
+            "src": "marā",
+            "gloss": "I.ACC"
+          }
+        },
+        {
+          "fa": "بگوش",
+          "gloss": {
+            "src": "be-guš=e",
+            "gloss": "to-ear=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دل",
+          "gloss": {
+            "src": "del",
+            "gloss": "heart"
+          }
+        },
+        {
+          "fa": "بپذیرد",
+          "gloss": {
+            "src": "be-pazīr-ad",
+            "gloss": "SBJV-accept-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "by"
+          }
+        },
+        {
+          "fa": "هستی",
+          "gloss": {
+            "src": "hastī=ye",
+            "gloss": "life=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "by"
+          }
+        },
+        {
+          "fa": "هستی",
+          "gloss": {
+            "src": "hastī=ye",
+            "gloss": "life=EZ"
+          }
+        },
+        {
+          "fa": "خودمان",
+          "gloss": {
+            "src": "xod-mān",
+            "gloss": "self-1PL.POSS"
+          }
+        },
+        {
+          "fa": "سوگند",
+          "gloss": {
+            "src": "sowgand",
+            "gloss": "oath"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "آنچنان",
+          "gloss": {
+            "src": "ānčonān",
+            "gloss": "so"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "اگر",
+          "gloss": {
+            "src": "agar",
+            "gloss": "if"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "سخنان",
+          "gloss": {
+            "src": "soxan-ān=e",
+            "gloss": "word-PL=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "بگوش",
+          "gloss": {
+            "src": "be-guš=e",
+            "gloss": "to-ear=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "دل",
+          "gloss": {
+            "src": "del",
+            "gloss": "heart"
+          }
+        },
+        {
+          "fa": "بپذیرد",
+          "gloss": {
+            "src": "be-pazīr-ad",
+            "gloss": "SBJV-accept-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "we"
+          }
+        },
+        {
+          "fa": "زندگی",
+          "gloss": {
+            "src": "zendegī=ye",
+            "gloss": "life=EZ"
+          }
+        },
+        {
+          "fa": "وی",
+          "gloss": {
+            "src": "vay",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "امان",
+          "gloss": {
+            "src": "amān",
+            "gloss": "quarter"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "دهیم",
+          "gloss": {
+            "src": "deh-īm",
+            "gloss": "give-PRS-1PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "32 And it came to pass that I spake unto him, that if he would hearken unto my words, as the Lord liveth, and as we live, even so that if he would hearken unto our words, we would spare his life."
+    },
+    {
+      "type": "verse",
+      "number": 33,
+      "tokens": [
+        {
+          "fa": "۳۳",
+          "gloss": {
+            "src": "sī-o-se",
+            "gloss": "33"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "حتّی",
+          "gloss": {
+            "src": "ḥattā",
+            "gloss": "even"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "یک",
+          "gloss": {
+            "src": "yek",
+            "gloss": "one"
+          }
+        },
+        {
+          "fa": "سوگند",
+          "gloss": {
+            "src": "sowgand",
+            "gloss": "oath"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "نیازی",
+          "gloss": {
+            "src": "nīyāz-ī",
+            "gloss": "need-INDEF"
+          }
+        },
+        {
+          "fa": "ندارد",
+          "gloss": {
+            "src": "na-dār-ad",
+            "gloss": "NEG-have-3SG"
+          }
+        },
+        {
+          "fa": "بترسد",
+          "gloss": {
+            "src": "be-tars-ad",
+            "gloss": "SBJV-fear-3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "مردی",
+          "gloss": {
+            "src": "mard-ī",
+            "gloss": "man-INDEF"
+          }
+        },
+        {
+          "fa": "آزاد",
+          "gloss": {
+            "src": "āzād",
+            "gloss": "free"
+          }
+        },
+        {
+          "fa": "مانند",
+          "gloss": {
+            "src": "mānand=e",
+            "gloss": "like=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "خواهد",
+          "gloss": {
+            "src": "xāh-ad",
+            "gloss": "FUT-3SG"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-INF.PST"
+          }
+        },
+        {
+          "fa": "اگر",
+          "gloss": {
+            "src": "agar",
+            "gloss": "if"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "پایین",
+          "gloss": {
+            "src": "pāyīn",
+            "gloss": "down"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "بیاید",
+          "gloss": {
+            "src": "biyāy-ad",
+            "gloss": "SBJV-come-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "33 And I spake unto him, even with an oath, that he need not fear; that he should be a free man like unto us if he would come down in the wilderness with us."
+    },
+    {
+      "type": "verse",
+      "number": 34,
+      "tokens": [
+        {
+          "fa": "۳۴",
+          "gloss": {
+            "src": "sī-o-čahār",
+            "gloss": "34"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "سخن",
+          "gloss": {
+            "src": "soxan",
+            "gloss": "speech"
+          }
+        },
+        {
+          "fa": "گفته",
+          "gloss": {
+            "src": "gofte",
+            "gloss": "speak-PTCP"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "p": ":"
+        },
+        {
+          "fa": "بدرستی",
+          "gloss": {
+            "src": "bedorostī",
+            "gloss": "surely"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "داده",
+          "gloss": {
+            "src": "dāde",
+            "gloss": "give-PTCP"
+          }
+        },
+        {
+          "fa": "است",
+          "gloss": {
+            "src": "ast",
+            "gloss": "COP-3SG"
+          }
+        },
+        {
+          "fa": "تا",
+          "gloss": {
+            "src": "tā",
+            "gloss": "so.that"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "کنیم",
+          "gloss": {
+            "src": "kon-īm",
+            "gloss": "do-SBJV-1PL"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "آیا",
+          "gloss": {
+            "src": "āyā",
+            "gloss": "Q"
+          }
+        },
+        {
+          "fa": "نمی",
+          "gloss": {
+            "src": "ne-mī",
+            "gloss": "NEG-IMPF"
+          }
+        },
+        {
+          "fa": "می",
+          "gloss": {
+            "src": "mī",
+            "gloss": "IMPF"
+          }
+        },
+        {
+          "fa": "بایستی",
+          "gloss": {
+            "src": "bāyestī",
+            "gloss": "must"
+          }
+        },
+        {
+          "fa": "در",
+          "gloss": {
+            "src": "dar",
+            "gloss": "in"
+          }
+        },
+        {
+          "fa": "نگاه",
+          "gloss": {
+            "src": "negāh",
+            "gloss": "keeping"
+          }
+        },
+        {
+          "fa": "داری",
+          "gloss": {
+            "src": "dārī",
+            "gloss": "holding"
+          }
+        },
+        {
+          "fa": "فرمان",
+          "gloss": {
+            "src": "farmān",
+            "gloss": "command"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "سَروَر",
+          "gloss": {
+            "src": "Sarvar",
+            "gloss": "Lord"
+          }
+        },
+        {
+          "fa": "کوشا",
+          "gloss": {
+            "src": "kūšā",
+            "gloss": "diligent"
+          }
+        },
+        {
+          "fa": "باشیم",
+          "gloss": {
+            "src": "bāš-īm",
+            "gloss": "be-SBJV-1PL"
+          }
+        },
+        {
+          "p": "؟"
+        },
+        {
+          "fa": "بنابراین",
+          "gloss": {
+            "src": "banābarīn",
+            "gloss": "therefore"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "اگر",
+          "gloss": {
+            "src": "agar",
+            "gloss": "if"
+          }
+        },
+        {
+          "fa": "تو",
+          "gloss": {
+            "src": "to",
+            "gloss": "you"
+          }
+        },
+        {
+          "fa": "پایین",
+          "gloss": {
+            "src": "pāyīn",
+            "gloss": "down"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "نزد",
+          "gloss": {
+            "src": "nazd=e",
+            "gloss": "unto=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "پدرم",
+          "gloss": {
+            "src": "pedar-am",
+            "gloss": "father-1SG.POSS"
+          }
+        },
+        {
+          "fa": "بیایی",
+          "gloss": {
+            "src": "be-yāy-ī",
+            "gloss": "SBJV-come-2SG"
+          }
+        },
+        {
+          "fa": "تو",
+          "gloss": {
+            "src": "to",
+            "gloss": "you"
+          }
+        },
+        {
+          "fa": "جایی",
+          "gloss": {
+            "src": "jāyī",
+            "gloss": "place"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "خواهی",
+          "gloss": {
+            "src": "xāh-ī",
+            "gloss": "FUT-2SG"
+          }
+        },
+        {
+          "fa": "داشت",
+          "gloss": {
+            "src": "dāšt",
+            "gloss": "have-INF.PST"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "34 And I also spake unto him, saying: Surely the Lord hath commanded us to do this thing; and shall we not be diligent in keeping the commandments of the Lord? Therefore, if thou wilt go down into the wilderness to my father thou shalt have place with us."
+    },
+    {
+      "type": "verse",
+      "number": 35,
+      "tokens": [
+        {
+          "fa": "۳۵",
+          "gloss": {
+            "src": "sī-o-panj",
+            "gloss": "35"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "زورام",
+          "gloss": {
+            "src": "Zūrām",
+            "gloss": "Zoram"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "سخنانی",
+          "gloss": {
+            "src": "soxan-ān-ī",
+            "gloss": "word-PL-INDEF"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "REL"
+          }
+        },
+        {
+          "fa": "من",
+          "gloss": {
+            "src": "man",
+            "gloss": "I"
+          }
+        },
+        {
+          "fa": "گفتم",
+          "gloss": {
+            "src": "goft-am",
+            "gloss": "say-PST.1SG"
+          }
+        },
+        {
+          "fa": "شهامت",
+          "gloss": {
+            "src": "šahāmat",
+            "gloss": "courage"
+          }
+        },
+        {
+          "fa": "یافت",
+          "gloss": {
+            "src": "yāft",
+            "gloss": "find-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now"
+          }
+        },
+        {
+          "fa": "زورام",
+          "gloss": {
+            "src": "Zūrām",
+            "gloss": "Zoram"
+          }
+        },
+        {
+          "fa": "نام",
+          "gloss": {
+            "src": "nām=e",
+            "gloss": "name=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "خدمتگزار",
+          "gloss": {
+            "src": "xedmatgozār",
+            "gloss": "servant"
+          }
+        },
+        {
+          "fa": "بود",
+          "gloss": {
+            "src": "būd",
+            "gloss": "be-PST.3SG"
+          }
+        },
+        {
+          "p": "؛"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "قول",
+          "gloss": {
+            "src": "qowl",
+            "gloss": "promise"
+          }
+        },
+        {
+          "fa": "داد",
+          "gloss": {
+            "src": "dād",
+            "gloss": "give-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "پایین",
+          "gloss": {
+            "src": "pāyīn",
+            "gloss": "down"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "نزد",
+          "gloss": {
+            "src": "nazd=e",
+            "gloss": "unto=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "پدرمان",
+          "gloss": {
+            "src": "pedar-mān",
+            "gloss": "father-1PL.POSS"
+          }
+        },
+        {
+          "fa": "بیاید",
+          "gloss": {
+            "src": "biyāy-ad",
+            "gloss": "SBJV-come-3SG"
+          }
+        },
+        {
+          "p": "."
+        },
+        {
+          "fa": "آری",
+          "gloss": {
+            "src": "ārī",
+            "gloss": "yea"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "نزد",
+          "gloss": {
+            "src": "nazd=e",
+            "gloss": "unto=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "سوگند",
+          "gloss": {
+            "src": "sowgand",
+            "gloss": "oath"
+          }
+        },
+        {
+          "fa": "نیز",
+          "gloss": {
+            "src": "nīz",
+            "gloss": "also"
+          }
+        },
+        {
+          "fa": "یاد",
+          "gloss": {
+            "src": "yād",
+            "gloss": "memory"
+          }
+        },
+        {
+          "fa": "کرد",
+          "gloss": {
+            "src": "kard",
+            "gloss": "do-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "از",
+          "gloss": {
+            "src": "az",
+            "gloss": "from"
+          }
+        },
+        {
+          "fa": "آن",
+          "gloss": {
+            "src": "ān",
+            "gloss": "that"
+          }
+        },
+        {
+          "fa": "پس",
+          "gloss": {
+            "src": "pas",
+            "gloss": "after"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "بماند",
+          "gloss": {
+            "src": "be-mān-ad",
+            "gloss": "SBJV-stay-3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "35 And it came to pass that Zoram did take courage at the words which I spake. Now Zoram was the name of the servant; and he promised that he would go down into the wilderness unto our father. Yea, and he also made an oath unto us that he would tarry with us from that time forth."
+    },
+    {
+      "type": "verse",
+      "number": 36,
+      "tokens": [
+        {
+          "fa": "۳۶",
+          "gloss": {
+            "src": "sī-o-šeš",
+            "gloss": "36"
+          }
+        },
+        {
+          "fa": "اینک",
+          "gloss": {
+            "src": "īnak",
+            "gloss": "now"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "we"
+          }
+        },
+        {
+          "fa": "خواستار",
+          "gloss": {
+            "src": "xāstār",
+            "gloss": "desirous"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "بودیم",
+          "gloss": {
+            "src": "būd-īm",
+            "gloss": "be-PST-1PL"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "he"
+          }
+        },
+        {
+          "fa": "با",
+          "gloss": {
+            "src": "bā",
+            "gloss": "with"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "بماند",
+          "gloss": {
+            "src": "be-mān-ad",
+            "gloss": "SBJV-stay-3SG"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "این",
+          "gloss": {
+            "src": "īn",
+            "gloss": "this"
+          }
+        },
+        {
+          "fa": "سبب",
+          "gloss": {
+            "src": "sabab",
+            "gloss": "cause"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "یهودیان",
+          "gloss": {
+            "src": "yahūdiyān",
+            "gloss": "Jews"
+          }
+        },
+        {
+          "fa": "دربارۀ",
+          "gloss": {
+            "src": "darbāre=ye",
+            "gloss": "concerning=EZ"
+          }
+        },
+        {
+          "fa": "گریز",
+          "gloss": {
+            "src": "gorīz=e",
+            "gloss": "flight=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "ندانند",
+          "gloss": {
+            "src": "na-dān-and",
+            "gloss": "NEG-know-3PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "مبادا",
+          "gloss": {
+            "src": "mabādā",
+            "gloss": "lest"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "دنبال",
+          "gloss": {
+            "src": "donbāl",
+            "gloss": "pursue"
+          }
+        },
+        {
+          "fa": "کنند",
+          "gloss": {
+            "src": "kon-and",
+            "gloss": "do-SBJV-3PL"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "نابود",
+          "gloss": {
+            "src": "nābūd",
+            "gloss": "destroyed"
+          }
+        },
+        {
+          "fa": "کنند",
+          "gloss": {
+            "src": "kon-and",
+            "gloss": "do-SBJV-3PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "36 Now we were desirous that he should tarry with us for this cause, that the Jews might not know concerning our flight into the wilderness, lest they should pursue us and destroy us."
+    },
+    {
+      "type": "verse",
+      "number": 37,
+      "tokens": [
+        {
+          "fa": "۳۷",
+          "gloss": {
+            "src": "sī-o-haft",
+            "gloss": "37"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "هنگامی",
+          "gloss": {
+            "src": "hangāmī",
+            "gloss": "when"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "زورام",
+          "gloss": {
+            "src": "Zūrām",
+            "gloss": "Zoram"
+          }
+        },
+        {
+          "fa": "نزد",
+          "gloss": {
+            "src": "nazd=e",
+            "gloss": "unto=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "us"
+          }
+        },
+        {
+          "fa": "سوگندی",
+          "gloss": {
+            "src": "sowgand-ī",
+            "gloss": "oath-INDEF"
+          }
+        },
+        {
+          "fa": "یاد",
+          "gloss": {
+            "src": "yād",
+            "gloss": "memory"
+          }
+        },
+        {
+          "fa": "کرد",
+          "gloss": {
+            "src": "kard",
+            "gloss": "do-PST.3SG"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "ترسمان",
+          "gloss": {
+            "src": "tars-mān",
+            "gloss": "fear-1PL.POSS"
+          }
+        },
+        {
+          "fa": "دربارۀ",
+          "gloss": {
+            "src": "darbāre=ye",
+            "gloss": "concerning=EZ"
+          }
+        },
+        {
+          "fa": "او",
+          "gloss": {
+            "src": "ū",
+            "gloss": "him"
+          }
+        },
+        {
+          "fa": "بازایستاد",
+          "gloss": {
+            "src": "bāz-īstād",
+            "gloss": "cease-PST.3SG"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "37 And it came to pass that when Zoram had made an oath unto us, our fears did cease concerning him."
+    },
+    {
+      "type": "verse",
+      "number": 38,
+      "tokens": [
+        {
+          "fa": "۳۸",
+          "gloss": {
+            "src": "sī-o-hašt",
+            "gloss": "38"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "چنین",
+          "gloss": {
+            "src": "čonīn",
+            "gloss": "thus"
+          }
+        },
+        {
+          "fa": "گذشت",
+          "gloss": {
+            "src": "gozašt",
+            "gloss": "pass-PST.3SG"
+          }
+        },
+        {
+          "fa": "که",
+          "gloss": {
+            "src": "ke",
+            "gloss": "COMP"
+          }
+        },
+        {
+          "fa": "ما",
+          "gloss": {
+            "src": "mā",
+            "gloss": "we"
+          }
+        },
+        {
+          "fa": "ورقه",
+          "gloss": {
+            "src": "varaqe",
+            "gloss": "plate"
+          }
+        },
+        {
+          "fa": "های",
+          "gloss": {
+            "src": "hā=ye",
+            "gloss": "PL=EZ"
+          }
+        },
+        {
+          "fa": "برنجی",
+          "gloss": {
+            "src": "berenǰī",
+            "gloss": "brass"
+          }
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "خدمتگزار",
+          "gloss": {
+            "src": "xedmatgozār=e",
+            "gloss": "servant=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "لابان",
+          "gloss": {
+            "src": "Lābān",
+            "gloss": "Laban"
+          }
+        },
+        {
+          "fa": "را",
+          "gloss": {
+            "src": "rā",
+            "gloss": "ACC"
+          }
+        },
+        {
+          "fa": "برداشتیم",
+          "gloss": {
+            "src": "bar-dāšt-īm",
+            "gloss": "PRV-take-PST-1PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "راهی",
+          "gloss": {
+            "src": "rāhī=ye",
+            "gloss": "bound.for=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "بیابان",
+          "gloss": {
+            "src": "bīyābān",
+            "gloss": "wilderness"
+          }
+        },
+        {
+          "fa": "شدیم",
+          "gloss": {
+            "src": "šod-īm",
+            "gloss": "become-PST-1PL"
+          }
+        },
+        {
+          "p": "،"
+        },
+        {
+          "fa": "و",
+          "gloss": {
+            "src": "o",
+            "gloss": "and"
+          }
+        },
+        {
+          "fa": "به",
+          "gloss": {
+            "src": "be",
+            "gloss": "to"
+          }
+        },
+        {
+          "fa": "سوی",
+          "gloss": {
+            "src": "sūy=e",
+            "gloss": "toward=EZ"
+          }
+        },
+        {
+          "fa": "چادر",
+          "gloss": {
+            "src": "čādr=e",
+            "gloss": "tent=EZ"
+          },
+          "e": true
+        },
+        {
+          "fa": "پدرمان",
+          "gloss": {
+            "src": "pedar-mān",
+            "gloss": "father-1PL.POSS"
+          }
+        },
+        {
+          "fa": "سفر",
+          "gloss": {
+            "src": "safar",
+            "gloss": "journey"
+          }
+        },
+        {
+          "fa": "کردیم",
+          "gloss": {
+            "src": "kard-īm",
+            "gloss": "do-PST-1PL"
+          }
+        },
+        {
+          "p": "."
+        }
+      ],
+      "en": "38 And it came to pass that we took the plates of brass and the servant of Laban, and departed into the wilderness, and journeyed unto the tent of our father."
+    }
+  ]
+}
