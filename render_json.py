@@ -1372,7 +1372,12 @@ def _lint_headword_translit(study: dict, label: str) -> None:
 
 _ZWNJ = "‌"
 _EXAMPLE_MARKUP_RE = re.compile(r"\{e\}|[`*_]")
-_EXAMPLE_PUNCT_RE = re.compile(r"[،؛.:!؟?\-—()\[\]]")
+# Note: an ASCII hyphen is deliberately NOT a separator here. The source
+# tokenizer splits only on whitespace, so a hyphenated compound like
+# `خاندان-نامۀ` is a single token; splitting the example on `-` too would make
+# a verbatim quote of it spuriously fail the not-verbatim check. The em/en
+# dashes (— –) remain separators — they are real punctuation tokens in source.
+_EXAMPLE_PUNCT_RE = re.compile(r"[،؛.:!؟?—–()\[\]]")
 
 
 def _example_words(persian: str) -> list[str]:
