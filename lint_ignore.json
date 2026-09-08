@@ -184,6 +184,32 @@
         "pair": "خدای → یعقوب",
         "reason": "خدایِ یعقوب (God of Jacob) — ezafe already orthographic on ی-final خدای"
       }
+    ],
+    "1 Nephi 7": [
+      {
+        "pair": "سوی → چادر",
+        "reason": "به سویِ چادر — سوی already carries its ezafe (linking ی); not a missing mark"
+      },
+      {
+        "pair": "برادرانش → درخواست",
+        "reason": "برادرانش + درخواست ... می کنند (his brothers request) — subject + compound-verb object"
+      },
+      {
+        "pair": "هایتان → سخت",
+        "reason": "در دل هایتان سخت — سخت is a predicate adjective (… سخت هستید), not an ezafe modifier"
+      },
+      {
+        "pair": "سَروَر → خدایشان",
+        "reason": "سَروَر خدایشان — apposition \"the Lord their God\", not an ezafe phrase"
+      },
+      {
+        "pair": "سَروَر → ایمان",
+        "reason": "به سَروَر ایمان داشته باشند — سَروَر is object of به; ایمان داشتن is a compound verb"
+      },
+      {
+        "pair": "سَروَر → دل",
+        "reason": "سَروَر دلِ اسماعیل ... را نرم کرد — سَروَر is the subject, دل the object head"
+      }
     ]
   }
 }
