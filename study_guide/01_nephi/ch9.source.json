@@ -1,0 +1,2317 @@
+{
+ "book": "1 Nephi",
+ "chapter": 9,
+ "sections": [
+  {
+   "type": "chapter-summary",
+   "tokens": [
+    {
+     "fa": "فصل",
+     "gloss": {
+      "src": "faṣl=e",
+      "gloss": "chapter=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "۹",
+     "gloss": {
+      "src": "noh",
+      "gloss": "9"
+     }
+    },
+    {
+     "fa": "نیفای",
+     "gloss": {
+      "src": "Nīfāy",
+      "gloss": "Nephi"
+     }
+    },
+    {
+     "fa": "دو",
+     "gloss": {
+      "src": "do",
+      "gloss": "two"
+     }
+    },
+    {
+     "fa": "دسته",
+     "gloss": {
+      "src": "daste=ye",
+      "gloss": "set=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "نگاشته",
+     "gloss": {
+      "src": "negāšte",
+      "gloss": "record"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "نگارد",
+     "gloss": {
+      "src": "negār-ad",
+      "gloss": "write-PRS-3SG"
+     }
+    },
+    {
+     "p": "—"
+    },
+    {
+     "fa": "هر",
+     "gloss": {
+      "src": "har",
+      "gloss": "each"
+     }
+    },
+    {
+     "fa": "کدام",
+     "gloss": {
+      "src": "kodām",
+      "gloss": "which"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "نیفای",
+     "gloss": {
+      "src": "Nīfāy",
+      "gloss": "Nephi"
+     }
+    },
+    {
+     "fa": "خوانده",
+     "gloss": {
+      "src": "xānde",
+      "gloss": "call-PTCP.PST"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "شوند",
+     "gloss": {
+      "src": "šav-and",
+      "gloss": "become-PRS-3PL"
+     }
+    },
+    {
+     "p": "—"
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "بزرگتر",
+     "gloss": {
+      "src": "bozorgtar",
+      "gloss": "larger"
+     }
+    },
+    {
+     "fa": "دربر",
+     "gloss": {
+      "src": "darbar",
+      "gloss": "contain"
+     }
+    },
+    {
+     "fa": "گیرندۀ",
+     "gloss": {
+      "src": "gīrande=ye",
+      "gloss": "holder=EZ"
+     }
+    },
+    {
+     "fa": "تاریخ",
+     "gloss": {
+      "src": "tārīx=e",
+      "gloss": "history=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "دنیوی",
+     "gloss": {
+      "src": "donyavī",
+      "gloss": "secular"
+     }
+    },
+    {
+     "fa": "هستند",
+     "gloss": {
+      "src": "hast-and",
+      "gloss": "be-PRS.3PL"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "کوچکترها",
+     "gloss": {
+      "src": "kučaktar-hā",
+      "gloss": "smaller-PL"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "in"
+     }
+    },
+    {
+     "fa": "درجۀ",
+     "gloss": {
+      "src": "daraje=ye",
+      "gloss": "degree=EZ"
+     }
+    },
+    {
+     "fa": "نخست",
+     "gloss": {
+      "src": "noxost",
+      "gloss": "first"
+     }
+    },
+    {
+     "fa": "با",
+     "gloss": {
+      "src": "bā",
+      "gloss": "with"
+     }
+    },
+    {
+     "fa": "چیزهای",
+     "gloss": {
+      "src": "čīzhā=ye",
+      "gloss": "thing.PL=EZ"
+     }
+    },
+    {
+     "fa": "مقدّس",
+     "gloss": {
+      "src": "moqaddas",
+      "gloss": "sacred"
+     }
+    },
+    {
+     "fa": "سر",
+     "gloss": {
+      "src": "sar",
+      "gloss": "head"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "کار",
+     "gloss": {
+      "src": "kār",
+      "gloss": "work"
+     }
+    },
+    {
+     "fa": "دارند",
+     "gloss": {
+      "src": "dār-and",
+      "gloss": "have-PRS.3PL"
+     }
+    },
+    {
+     "p": "."
+    },
+    {
+     "fa": "نزدیک",
+     "gloss": {
+      "src": "nazdīk",
+      "gloss": "about"
+     }
+    },
+    {
+     "fa": "به",
+     "gloss": {
+      "src": "be",
+      "gloss": "to"
+     }
+    },
+    {
+     "fa": "۶۰۰",
+     "gloss": {
+      "src": "šešṣad",
+      "gloss": "600"
+     }
+    },
+    {
+     "p": "–"
+    },
+    {
+     "fa": "۵۹۲",
+     "gloss": {
+      "src": "pānsad-o-navad-o-do",
+      "gloss": "592"
+     }
+    },
+    {
+     "fa": "پیش",
+     "gloss": {
+      "src": "pīš",
+      "gloss": "before"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "میلاد",
+     "gloss": {
+      "src": "mīlād",
+      "gloss": "nativity"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "Chapter 9 — Nephi makes two sets of records—Each is called the plates of Nephi—The larger plates contain the secular history; the smaller ones deal mainly with sacred things. About 600–592 B.C."
+  },
+  {
+   "type": "verse",
+   "number": 1,
+   "tokens": [
+    {
+     "fa": "۱",
+     "gloss": {
+      "src": "yek",
+      "gloss": "1"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "همۀ",
+     "gloss": {
+      "src": "hame=ye",
+      "gloss": "all=EZ"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "چیزها",
+     "gloss": {
+      "src": "čīz-hā",
+      "gloss": "thing-PL"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "پدرم",
+     "gloss": {
+      "src": "pedar-am",
+      "gloss": "father-1SG.POSS"
+     }
+    },
+    {
+     "fa": "همچنان",
+     "gloss": {
+      "src": "hamčonān",
+      "gloss": "likewise"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "REL"
+     }
+    },
+    {
+     "fa": "او",
+     "gloss": {
+      "src": "ū",
+      "gloss": "he"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "in"
+     }
+    },
+    {
+     "fa": "درّۀ",
+     "gloss": {
+      "src": "darre=ye",
+      "gloss": "valley=EZ"
+     }
+    },
+    {
+     "fa": "لموئیل",
+     "gloss": {
+      "src": "Lamūʾīl",
+      "gloss": "Lemuel"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "in"
+     }
+    },
+    {
+     "fa": "یک",
+     "gloss": {
+      "src": "yek",
+      "gloss": "a"
+     }
+    },
+    {
+     "fa": "چادر",
+     "gloss": {
+      "src": "čādr",
+      "gloss": "tent"
+     }
+    },
+    {
+     "fa": "ساکن",
+     "gloss": {
+      "src": "sāken",
+      "gloss": "dwelling"
+     }
+    },
+    {
+     "fa": "بود",
+     "gloss": {
+      "src": "būd",
+      "gloss": "be-PST-3SG"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "دید",
+     "gloss": {
+      "src": "dīd",
+      "gloss": "see-PST-3SG"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "شنید",
+     "gloss": {
+      "src": "šenīd",
+      "gloss": "hear-PST-3SG"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "گفت",
+     "gloss": {
+      "src": "goft",
+      "gloss": "say-PST-3SG"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "همچنین",
+     "gloss": {
+      "src": "hamčonīn",
+      "gloss": "also"
+     }
+    },
+    {
+     "fa": "چیزهای",
+     "gloss": {
+      "src": "čīzhā=ye",
+      "gloss": "thing.PL=EZ"
+     }
+    },
+    {
+     "fa": "بسیار",
+     "gloss": {
+      "src": "besyār",
+      "gloss": "many"
+     }
+    },
+    {
+     "fa": "بزرگِ",
+     "gloss": {
+      "src": "bozorg=e",
+      "gloss": "great=EZ"
+     }
+    },
+    {
+     "fa": "بیشتری",
+     "gloss": {
+      "src": "bīštar-ī",
+      "gloss": "more-INDEF"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "REL"
+     }
+    },
+    {
+     "fa": "نمی",
+     "gloss": {
+      "src": "nemī",
+      "gloss": "NEG.IMPF"
+     }
+    },
+    {
+     "fa": "توانند",
+     "gloss": {
+      "src": "tavān-and",
+      "gloss": "can-PRS.3PL"
+     }
+    },
+    {
+     "fa": "بر",
+     "gloss": {
+      "src": "bar",
+      "gloss": "upon"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "نوشته",
+     "gloss": {
+      "src": "nevešte",
+      "gloss": "write-PTCP.PST"
+     }
+    },
+    {
+     "fa": "شوند",
+     "gloss": {
+      "src": "šav-and",
+      "gloss": "become-PRS-3PL"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "And all these things did my father see, and hear, and speak, as he dwelt in a tent, in the valley of Lemuel, and also a great many more things, which cannot be written upon these plates."
+  },
+  {
+   "type": "verse",
+   "number": 2,
+   "tokens": [
+    {
+     "fa": "۲",
+     "gloss": {
+      "src": "do",
+      "gloss": "2"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "اینک",
+     "gloss": {
+      "src": "īnak",
+      "gloss": "behold"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "همان",
+     "gloss": {
+      "src": "hamān",
+      "gloss": "same"
+     }
+    },
+    {
+     "fa": "گونه",
+     "gloss": {
+      "src": "gūne",
+      "gloss": "manner"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "COMP"
+     }
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "I"
+     }
+    },
+    {
+     "fa": "دربارۀ",
+     "gloss": {
+      "src": "darbāre=ye",
+      "gloss": "about=EZ"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "سخن",
+     "gloss": {
+      "src": "soxan",
+      "gloss": "word"
+     }
+    },
+    {
+     "fa": "گفته",
+     "gloss": {
+      "src": "gofte",
+      "gloss": "say-PTCP"
+     }
+    },
+    {
+     "fa": "ام",
+     "gloss": {
+      "src": "-am",
+      "gloss": "1SG.POSS"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "بنگرید",
+     "gloss": {
+      "src": "be-negar-īd",
+      "gloss": "behold-IMP-2PL"
+     }
+    },
+    {
+     "fa": "آنها",
+     "gloss": {
+      "src": "ānhā",
+      "gloss": "they"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "هایی",
+     "gloss": {
+      "src": "hā-ī",
+      "gloss": "PL-INDEF"
+     }
+    },
+    {
+     "fa": "نیستند",
+     "gloss": {
+      "src": "nīst-and",
+      "gloss": "be.NEG-PRS.3PL"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "REL"
+     }
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "I"
+     }
+    },
+    {
+     "fa": "سرگذشت",
+     "gloss": {
+      "src": "sargozašt=e",
+      "gloss": "account=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "کاملی",
+     "gloss": {
+      "src": "kāmel-ī",
+      "gloss": "full-INDEF"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "of"
+     }
+    },
+    {
+     "fa": "تاریخچۀ",
+     "gloss": {
+      "src": "tārīxče=ye",
+      "gloss": "history=EZ"
+     }
+    },
+    {
+     "fa": "مردمم",
+     "gloss": {
+      "src": "mardom-am",
+      "gloss": "people-1SG.POSS"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "بر",
+     "gloss": {
+      "src": "bar",
+      "gloss": "on"
+     }
+    },
+    {
+     "fa": "آنها",
+     "gloss": {
+      "src": "ānhā",
+      "gloss": "them"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "نگارم",
+     "gloss": {
+      "src": "negār-am",
+      "gloss": "write-PRS-1SG"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "زیرا",
+     "gloss": {
+      "src": "zīrā",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "هایی",
+     "gloss": {
+      "src": "hā-ī",
+      "gloss": "PL-INDEF"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "REL"
+     }
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "I"
+     }
+    },
+    {
+     "fa": "سرگذشت",
+     "gloss": {
+      "src": "sargozašt=e",
+      "gloss": "account=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "کاملی",
+     "gloss": {
+      "src": "kāmel-ī",
+      "gloss": "full-INDEF"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "of"
+     }
+    },
+    {
+     "fa": "تاریخ",
+     "gloss": {
+      "src": "tārīx=e",
+      "gloss": "history=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "مردمم",
+     "gloss": {
+      "src": "mardom-am",
+      "gloss": "people-1SG.POSS"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "بر",
+     "gloss": {
+      "src": "bar",
+      "gloss": "on"
+     }
+    },
+    {
+     "fa": "آنها",
+     "gloss": {
+      "src": "ānhā",
+      "gloss": "them"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "نگارم",
+     "gloss": {
+      "src": "negār-am",
+      "gloss": "write-PRS-1SG"
+     }
+    },
+    {
+     "fa": "نیفای",
+     "gloss": {
+      "src": "Nīfāy",
+      "gloss": "Nephi"
+     }
+    },
+    {
+     "fa": "نام",
+     "gloss": {
+      "src": "nām",
+      "gloss": "name"
+     }
+    },
+    {
+     "fa": "نهاده",
+     "gloss": {
+      "src": "nahāde",
+      "gloss": "place-PTCP"
+     }
+    },
+    {
+     "fa": "ام",
+     "gloss": {
+      "src": "-am",
+      "gloss": "1SG.POSS"
+     }
+    },
+    {
+     "p": "."
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "رو",
+     "gloss": {
+      "src": "rū",
+      "gloss": "reason"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "آنها",
+     "gloss": {
+      "src": "ānhā",
+      "gloss": "they"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "in"
+     }
+    },
+    {
+     "fa": "پی",
+     "gloss": {
+      "src": "pey=e",
+      "gloss": "after=EZ"
+     }
+    },
+    {
+     "fa": "نام",
+     "gloss": {
+      "src": "nām=e",
+      "gloss": "name=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "خودم",
+     "gloss": {
+      "src": "xod-am",
+      "gloss": "self-1SG.POSS"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "نیفای",
+     "gloss": {
+      "src": "Nīfāy",
+      "gloss": "Nephi"
+     }
+    },
+    {
+     "fa": "خوانده",
+     "gloss": {
+      "src": "xānde",
+      "gloss": "call-PTCP.PST"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "شوند",
+     "gloss": {
+      "src": "šav-and",
+      "gloss": "become-PRS-3PL"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "نیز",
+     "gloss": {
+      "src": "nīz",
+      "gloss": "also"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "نیفای",
+     "gloss": {
+      "src": "Nīfāy",
+      "gloss": "Nephi"
+     }
+    },
+    {
+     "fa": "خوانده",
+     "gloss": {
+      "src": "xānde",
+      "gloss": "call-PTCP.PST"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "شوند",
+     "gloss": {
+      "src": "šav-and",
+      "gloss": "become-PRS-3PL"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "And now, as I have spoken concerning these plates, behold they are not the plates upon which I make a full account of the history of my people; for the plates upon which I make a full account of my people I have given the name of Nephi; wherefore, they are called the plates of Nephi, after mine own name; and these plates also are called the plates of Nephi."
+  },
+  {
+   "type": "verse",
+   "number": 3,
+   "tokens": [
+    {
+     "fa": "۳",
+     "gloss": {
+      "src": "se",
+      "gloss": "3"
+     }
+    },
+    {
+     "fa": "با",
+     "gloss": {
+      "src": "bā",
+      "gloss": "with"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "وجود",
+     "gloss": {
+      "src": "vojūd",
+      "gloss": "existence"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "I"
+     }
+    },
+    {
+     "fa": "فرمانی",
+     "gloss": {
+      "src": "farmān-ī",
+      "gloss": "commandment-INDEF"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "سَروَر",
+     "gloss": {
+      "src": "Sarvar",
+      "gloss": "Lord"
+     }
+    },
+    {
+     "fa": "دریافت",
+     "gloss": {
+      "src": "daryāft",
+      "gloss": "receipt"
+     }
+    },
+    {
+     "fa": "کرده",
+     "gloss": {
+      "src": "karde",
+      "gloss": "do-PTCP"
+     }
+    },
+    {
+     "fa": "ام",
+     "gloss": {
+      "src": "-am",
+      "gloss": "1SG.POSS"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "COMP"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "بایستی",
+     "gloss": {
+      "src": "bāyestī",
+      "gloss": "must"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "درست",
+     "gloss": {
+      "src": "dorost",
+      "gloss": "make"
+     }
+    },
+    {
+     "fa": "کنم",
+     "gloss": {
+      "src": "kon-am",
+      "gloss": "do-SBJV-1SG"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "برای",
+     "gloss": {
+      "src": "barāye",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "هدف",
+     "gloss": {
+      "src": "hadaf=e",
+      "gloss": "purpose=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "ویژه",
+     "gloss": {
+      "src": "vīže",
+      "gloss": "special"
+     }
+    },
+    {
+     "fa": "ای",
+     "gloss": {
+      "src": "-ī",
+      "gloss": "INDEF"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "COMP"
+     }
+    },
+    {
+     "fa": "سرگذشتِ",
+     "gloss": {
+      "src": "sargozašt=e",
+      "gloss": "account=EZ"
+     }
+    },
+    {
+     "fa": "خدمت",
+     "gloss": {
+      "src": "xedmat",
+      "gloss": "ministry"
+     }
+    },
+    {
+     "fa": "به",
+     "gloss": {
+      "src": "be",
+      "gloss": "to"
+     }
+    },
+    {
+     "fa": "مردمم",
+     "gloss": {
+      "src": "mardom-am",
+      "gloss": "people-1SG.POSS"
+     }
+    },
+    {
+     "fa": "کنده",
+     "gloss": {
+      "src": "kande",
+      "gloss": "engrave-PTCP"
+     }
+    },
+    {
+     "fa": "کاری",
+     "gloss": {
+      "src": "kārī",
+      "gloss": "work"
+     }
+    },
+    {
+     "fa": "شده",
+     "gloss": {
+      "src": "šode",
+      "gloss": "become-PTCP"
+     }
+    },
+    {
+     "fa": "موجود",
+     "gloss": {
+      "src": "mowjūd",
+      "gloss": "present"
+     }
+    },
+    {
+     "fa": "باشد",
+     "gloss": {
+      "src": "bāš-ad",
+      "gloss": "be-SBJV-3SG"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "Wherefore, I, Nephi, received a commandment of the Lord that I should make these plates, for the special purpose that there should be an account engraven of the ministry of my people."
+  },
+  {
+   "type": "verse",
+   "number": 4,
+   "tokens": [
+    {
+     "fa": "۴",
+     "gloss": {
+      "src": "čahār",
+      "gloss": "4"
+     }
+    },
+    {
+     "fa": "بر",
+     "gloss": {
+      "src": "bar",
+      "gloss": "on"
+     }
+    },
+    {
+     "fa": "روی",
+     "gloss": {
+      "src": "rūy=e",
+      "gloss": "upon=EZ"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "دیگر",
+     "gloss": {
+      "src": "dīgar",
+      "gloss": "other"
+     }
+    },
+    {
+     "fa": "سرگذشتِ",
+     "gloss": {
+      "src": "sargozašt=e",
+      "gloss": "account=EZ"
+     }
+    },
+    {
+     "fa": "فرمانروایی",
+     "gloss": {
+      "src": "farmānravāyī=ye",
+      "gloss": "reign=EZ"
+     }
+    },
+    {
+     "fa": "پادشاهان",
+     "gloss": {
+      "src": "pādešāh-ān",
+      "gloss": "king-PL"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "جنگها",
+     "gloss": {
+      "src": "jang-hā",
+      "gloss": "war-PL"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "درگیری",
+     "gloss": {
+      "src": "dargīrī",
+      "gloss": "contention"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "مردمم",
+     "gloss": {
+      "src": "mardom-am",
+      "gloss": "people-1SG.POSS"
+     }
+    },
+    {
+     "fa": "کنده",
+     "gloss": {
+      "src": "kande",
+      "gloss": "engrave-PTCP"
+     }
+    },
+    {
+     "fa": "کاری",
+     "gloss": {
+      "src": "kārī",
+      "gloss": "work"
+     }
+    },
+    {
+     "fa": "خواهد",
+     "gloss": {
+      "src": "xāh-ad",
+      "gloss": "FUT-3SG"
+     }
+    },
+    {
+     "fa": "شد",
+     "gloss": {
+      "src": "šod",
+      "gloss": "become-INF.PST"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "رو",
+     "gloss": {
+      "src": "rū",
+      "gloss": "reason"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "بیشتر",
+     "gloss": {
+      "src": "bīštar",
+      "gloss": "more"
+     }
+    },
+    {
+     "fa": "برای",
+     "gloss": {
+      "src": "barāye",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "بخش",
+     "gloss": {
+      "src": "baxš=e",
+      "gloss": "part=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "خدمتگزاری",
+     "gloss": {
+      "src": "xedmatgozārī",
+      "gloss": "ministry"
+     }
+    },
+    {
+     "fa": "هستند",
+     "gloss": {
+      "src": "hast-and",
+      "gloss": "be-PRS.3PL"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "دیگر",
+     "gloss": {
+      "src": "dīgar",
+      "gloss": "other"
+     }
+    },
+    {
+     "fa": "بیشتر",
+     "gloss": {
+      "src": "bīštar",
+      "gloss": "more"
+     }
+    },
+    {
+     "fa": "برای",
+     "gloss": {
+      "src": "barāye",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "بخش",
+     "gloss": {
+      "src": "baxš=e",
+      "gloss": "part=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "فرمانروایی",
+     "gloss": {
+      "src": "farmānravāyī=ye",
+      "gloss": "reign=EZ"
+     }
+    },
+    {
+     "fa": "پادشاهان",
+     "gloss": {
+      "src": "pādešāh-ān",
+      "gloss": "king-PL"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "جنگ",
+     "gloss": {
+      "src": "jang",
+      "gloss": "war"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "درگیری",
+     "gloss": {
+      "src": "dargīrī",
+      "gloss": "contention"
+     }
+    },
+    {
+     "fa": "های",
+     "gloss": {
+      "src": "hā=ye",
+      "gloss": "PL=EZ"
+     }
+    },
+    {
+     "fa": "مردمم",
+     "gloss": {
+      "src": "mardom-am",
+      "gloss": "people-1SG.POSS"
+     }
+    },
+    {
+     "fa": "هستند",
+     "gloss": {
+      "src": "hast-and",
+      "gloss": "be-PRS.3PL"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "And upon the other plates should be engraven an account of the reign of the kings, and the wars and contentions of my people; wherefore these plates are for the more part of the ministry; and the other plates are for the more part of the reign of the kings, and the wars and contentions of my people."
+  },
+  {
+   "type": "verse",
+   "number": 5,
+   "tokens": [
+    {
+     "fa": "۵",
+     "gloss": {
+      "src": "panj",
+      "gloss": "5"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "رو",
+     "gloss": {
+      "src": "rū",
+      "gloss": "reason"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "سَروَر",
+     "gloss": {
+      "src": "Sarvar",
+      "gloss": "Lord"
+     }
+    },
+    {
+     "fa": "به",
+     "gloss": {
+      "src": "be",
+      "gloss": "to"
+     }
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "me"
+     }
+    },
+    {
+     "fa": "فرمان",
+     "gloss": {
+      "src": "farmān",
+      "gloss": "command"
+     }
+    },
+    {
+     "fa": "داده",
+     "gloss": {
+      "src": "dāde",
+      "gloss": "give-PTCP"
+     }
+    },
+    {
+     "fa": "است",
+     "gloss": {
+      "src": "ast",
+      "gloss": "COP-3SG"
+     }
+    },
+    {
+     "fa": "تا",
+     "gloss": {
+      "src": "tā",
+      "gloss": "so.that"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "these"
+     }
+    },
+    {
+     "fa": "ورقه",
+     "gloss": {
+      "src": "varaqe",
+      "gloss": "plate"
+     }
+    },
+    {
+     "fa": "ها",
+     "gloss": {
+      "src": "hā",
+      "gloss": "PL"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "برای",
+     "gloss": {
+      "src": "barāye",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "هدف",
+     "gloss": {
+      "src": "hadaf=e",
+      "gloss": "purpose=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "خِرَدمندانۀ",
+     "gloss": {
+      "src": "xeradmandāne=ye",
+      "gloss": "wise=EZ"
+     }
+    },
+    {
+     "fa": "او",
+     "gloss": {
+      "src": "ū",
+      "gloss": "his"
+     }
+    },
+    {
+     "fa": "بسازم",
+     "gloss": {
+      "src": "be-sāz-am",
+      "gloss": "make-SBJV-1SG"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "هدفی",
+     "gloss": {
+      "src": "hadaf-ī",
+      "gloss": "purpose-INDEF"
+     }
+    },
+    {
+     "fa": "که",
+     "gloss": {
+      "src": "ke",
+      "gloss": "REL"
+     }
+    },
+    {
+     "fa": "من",
+     "gloss": {
+      "src": "man",
+      "gloss": "I"
+     }
+    },
+    {
+     "fa": "نمی",
+     "gloss": {
+      "src": "nemī",
+      "gloss": "NEG.IMPF"
+     }
+    },
+    {
+     "fa": "دانم",
+     "gloss": {
+      "src": "dān-am",
+      "gloss": "know-PRS-1SG"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "Nevertheless, the Lord hath commanded me to make these plates for a wise purpose in him, which purpose I know not."
+  },
+  {
+   "type": "verse",
+   "number": 6,
+   "tokens": [
+    {
+     "fa": "۶",
+     "gloss": {
+      "src": "šeš",
+      "gloss": "6"
+     }
+    },
+    {
+     "fa": "ولی",
+     "gloss": {
+      "src": "valī",
+      "gloss": "but"
+     }
+    },
+    {
+     "fa": "سَروَر",
+     "gloss": {
+      "src": "Sarvar",
+      "gloss": "Lord"
+     }
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "آغاز",
+     "gloss": {
+      "src": "āġāz",
+      "gloss": "beginning"
+     }
+    },
+    {
+     "fa": "همه",
+     "gloss": {
+      "src": "hame",
+      "gloss": "all"
+     }
+    },
+    {
+     "fa": "چیز",
+     "gloss": {
+      "src": "čīz",
+      "gloss": "thing"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "داند",
+     "gloss": {
+      "src": "dān-ad",
+      "gloss": "know-PRS-3SG"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "از",
+     "gloss": {
+      "src": "az",
+      "gloss": "from"
+     }
+    },
+    {
+     "fa": "این",
+     "gloss": {
+      "src": "īn",
+      "gloss": "this"
+     }
+    },
+    {
+     "fa": "رو",
+     "gloss": {
+      "src": "rū",
+      "gloss": "reason"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "او",
+     "gloss": {
+      "src": "ū",
+      "gloss": "he"
+     }
+    },
+    {
+     "fa": "راهی",
+     "gloss": {
+      "src": "rāh-ī",
+      "gloss": "way-INDEF"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "برای",
+     "gloss": {
+      "src": "barāye",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "به",
+     "gloss": {
+      "src": "be",
+      "gloss": "to"
+     }
+    },
+    {
+     "fa": "انجام",
+     "gloss": {
+      "src": "anjām",
+      "gloss": "accomplishment"
+     }
+    },
+    {
+     "fa": "رساندن",
+     "gloss": {
+      "src": "rasāndan=e",
+      "gloss": "bring.INF=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "همۀ",
+     "gloss": {
+      "src": "hame=ye",
+      "gloss": "all=EZ"
+     }
+    },
+    {
+     "fa": "کارهایش",
+     "gloss": {
+      "src": "kār-hā-yaš",
+      "gloss": "work-PL-3SG.POSS"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "among"
+     }
+    },
+    {
+     "fa": "میان",
+     "gloss": {
+      "src": "mīyān=e",
+      "gloss": "midst=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "فرزندان",
+     "gloss": {
+      "src": "farzand-ān=e",
+      "gloss": "child-PL=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "آدمی",
+     "gloss": {
+      "src": "ādamī",
+      "gloss": "man"
+     }
+    },
+    {
+     "fa": "آماده",
+     "gloss": {
+      "src": "āmāde",
+      "gloss": "ready"
+     }
+    },
+    {
+     "fa": "می",
+     "gloss": {
+      "src": "mī",
+      "gloss": "IMPF"
+     }
+    },
+    {
+     "fa": "کند",
+     "gloss": {
+      "src": "kon-ad",
+      "gloss": "do-PRS-3SG"
+     }
+    },
+    {
+     "p": "؛"
+    },
+    {
+     "fa": "زیرا",
+     "gloss": {
+      "src": "zīrā",
+      "gloss": "for"
+     }
+    },
+    {
+     "fa": "بنگرید",
+     "gloss": {
+      "src": "be-negar-īd",
+      "gloss": "behold-IMP-2PL"
+     }
+    },
+    {
+     "p": "،"
+    },
+    {
+     "fa": "او",
+     "gloss": {
+      "src": "ū",
+      "gloss": "he"
+     }
+    },
+    {
+     "fa": "قدرتِ",
+     "gloss": {
+      "src": "qodrat=e",
+      "gloss": "power=EZ"
+     }
+    },
+    {
+     "fa": "تمام",
+     "gloss": {
+      "src": "tamām",
+      "gloss": "all"
+     }
+    },
+    {
+     "fa": "در",
+     "gloss": {
+      "src": "dar",
+      "gloss": "in"
+     }
+    },
+    {
+     "fa": "برآورده",
+     "gloss": {
+      "src": "barāvarde",
+      "gloss": "fulfill-PTCP"
+     }
+    },
+    {
+     "fa": "کردن",
+     "gloss": {
+      "src": "kardan=e",
+      "gloss": "do.INF=EZ"
+     },
+     "e": true
+    },
+    {
+     "fa": "همۀ",
+     "gloss": {
+      "src": "hame=ye",
+      "gloss": "all=EZ"
+     }
+    },
+    {
+     "fa": "سخنانش",
+     "gloss": {
+      "src": "soxan-ān-aš",
+      "gloss": "word-PL-3SG.POSS"
+     }
+    },
+    {
+     "fa": "را",
+     "gloss": {
+      "src": "rā",
+      "gloss": "ACC"
+     }
+    },
+    {
+     "fa": "دارد",
+     "gloss": {
+      "src": "dār-ad",
+      "gloss": "have-PRS-3SG"
+     }
+    },
+    {
+     "p": "."
+    },
+    {
+     "fa": "و",
+     "gloss": {
+      "src": "o",
+      "gloss": "and"
+     }
+    },
+    {
+     "fa": "بدین",
+     "gloss": {
+      "src": "bedīn",
+      "gloss": "by.this"
+     }
+    },
+    {
+     "fa": "گونه",
+     "gloss": {
+      "src": "gūne",
+      "gloss": "manner"
+     }
+    },
+    {
+     "fa": "است",
+     "gloss": {
+      "src": "ast",
+      "gloss": "COP-3SG"
+     }
+    },
+    {
+     "p": "."
+    },
+    {
+     "fa": "آمین",
+     "gloss": {
+      "src": "āmīn",
+      "gloss": "amen"
+     }
+    },
+    {
+     "p": "."
+    }
+   ],
+   "en": "For the Lord knoweth all things from the beginning; wherefore, he prepareth a way to accomplish all his works among the children of men; for behold, he hath all power unto the fulfilling of all his words. And thus it is. Amen."
+  }
+ ]
+}

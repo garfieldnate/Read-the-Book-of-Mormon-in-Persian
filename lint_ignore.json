@@ -264,6 +264,16 @@
     "pair": "سوی → رود",
     "reason": "سوی is ی-final; ezafe already orthographic (آن سویِ رود)"
    }
+  ],
+  "1 Nephi 9": [
+   {
+    "pair": "ها → بیشتر",
+    "reason": "ورقه‌ها + بیشتر (mostly) — بیشتر is adverbial, ورقه‌ها is subject"
+   },
+   {
+    "pair": "ها → سخن",
+    "reason": "دربارۀ این ورقه‌ها + سخن گفتن (speak of) — compound verb, not ezafe"
+   }
   ]
  }
 }
