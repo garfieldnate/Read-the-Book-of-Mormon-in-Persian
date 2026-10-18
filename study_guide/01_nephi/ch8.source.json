@@ -910,7 +910,7 @@
      "fa": "گفتا",
      "gloss": {
       "src": "goft-ā",
-      "gloss": "say-NARR"
+      "gloss": "say.PST-NARR"
      },
      "tr": "he said (saying)"
     },
@@ -3912,7 +3912,8 @@
       "src": "dūr-tar",
       "gloss": "far-CMPR"
      },
-     "tr": "farther off"
+     "tr": "farther off",
+     "lemma": "دور_far"
     },
     {
      "fa": "دیدم",
@@ -8538,8 +8539,8 @@
     {
      "fa": "بسیاری",
      "gloss": {
-      "src": "besyārī",
-      "gloss": "many"
+      "src": "besyār-ī",
+      "gloss": "many-INDEF"
      },
      "tr": "many"
     },
@@ -8594,8 +8595,8 @@
     {
      "fa": "بسیاری",
      "gloss": {
-      "src": "besyārī",
-      "gloss": "many"
+      "src": "besyār-ī",
+      "gloss": "many-INDEF"
      },
      "tr": "many"
     },
@@ -9680,9 +9681,10 @@
     {
      "fa": "دور",
      "gloss": {
-      "src": "dowr",
-      "gloss": "away"
-     }
+      "src": "dūr",
+      "gloss": "far"
+     },
+     "lemma": "دور_far"
     },
     {
      "fa": "انداخته",
@@ -10119,8 +10121,8 @@
     {
      "fa": "بسیاری",
      "gloss": {
-      "src": "besyārī",
-      "gloss": "many"
+      "src": "besyār-ī",
+      "gloss": "many-INDEF"
      },
      "tr": "many"
     },

@@ -541,12 +541,7 @@
       "arabic_form": "Form I verbal noun",
       "root": "d-w-r"
      },
-     "forms": [
-      {
-       "fa": "دورتر",
-       "desc": "`دورتر` _dūr-tar_ (far-CMPR) ([verse 14](#verse-14))"
-      }
-     ]
+     "warning": "Homograph: `دور` is also _dūr_ \"far\" (see `دورتر` [verse 14](#verse-14)). _dowr_ \"around\" usually comes in `به دور` / `دور و بر`."
     },
     {
      "type": "headword",
@@ -3223,6 +3218,21 @@
      "translit": "bāyad",
      "meaning": "must, ought [modal; indeclinable]",
      "pos": "particle"
+    },
+    {
+     "type": "headword",
+     "id": "دور_far",
+     "persian": "دور",
+     "translit": "dūr",
+     "meaning": "far, distant; away (`دور انداختن` to cast away)",
+     "pos": "adj",
+     "warning": "Homograph of `دور` _dowr_ \"around\" — same spelling, different word.",
+     "forms": [
+      {
+       "fa": "دورتر",
+       "desc": "comparative `دورتر` _dūr-tar_ \"farther\" ([verse 14](#verse-14))"
+      }
+     ]
     }
    ]
   },

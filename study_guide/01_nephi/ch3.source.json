@@ -777,7 +777,7 @@
           "fa": "گفتا",
           "gloss": {
             "src": "goft-ā",
-            "gloss": "say-NARR"
+            "gloss": "say.PST-NARR"
           },
           "tr": "he said (saying)"
         },
@@ -8193,8 +8193,8 @@
         {
           "fa": "گفتا",
           "gloss": {
-            "src": "goftā",
-            "gloss": "say.PST.3SG.QUOT"
+            "src": "goft-ā",
+            "gloss": "say.PST-NARR"
           },
           "tr": "he said (saying)"
         },

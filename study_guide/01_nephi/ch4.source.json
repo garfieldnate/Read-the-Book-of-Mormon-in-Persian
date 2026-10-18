@@ -4312,8 +4312,8 @@
         {
           "fa": "گفتا",
           "gloss": {
-            "src": "goftā",
-            "gloss": "say.NARR"
+            "src": "goft-ā",
+            "gloss": "say.PST-NARR"
           },
           "tr": "he said (saying)"
         },
@@ -5885,8 +5885,8 @@
         {
           "fa": "بیاید",
           "gloss": {
-            "src": "biyāy-ad",
-            "gloss": "come.SBJV-3SG"
+            "src": "bi-yāy-ad",
+            "gloss": "SBJV-come-3SG"
           },
           "tr": "(he) come"
         },
@@ -9056,7 +9056,7 @@
         {
           "fa": "بیایی",
           "gloss": {
-            "src": "be-yāy-ī",
+            "src": "bi-yāy-ī",
             "gloss": "SBJV-come-2SG"
           },
           "tr": "you (sg.) come"

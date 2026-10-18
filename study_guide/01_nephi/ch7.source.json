@@ -912,7 +912,7 @@
      "fa": "گفتا",
      "gloss": {
       "src": "goft-ā",
-      "gloss": "say-NARR"
+      "gloss": "say.PST-NARR"
      },
      "tr": "saying"
     },
@@ -3600,7 +3600,7 @@
      "fa": "آوریم",
      "gloss": {
       "src": "āvar-īm",
-      "gloss": "obtain-SBJV.1PL"
+      "gloss": "bring.SBJV-1PL"
      },
      "tr": "(that we) bring (obtain)"
     },
