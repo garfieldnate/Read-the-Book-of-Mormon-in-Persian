@@ -1012,6 +1012,15 @@ _lexicon_data: dict | None = None
 _CLEAN_NAME_RE = re.compile(r"^[A-Z][A-Za-z]+$")
 
 
+def _has_midword_capital(tl: str) -> bool:
+    """True when a capital letter follows another letter (``xeRadmandī``).
+
+    Capitals are only for the first letter of a proper noun; one mid-word is a
+    typo. A capital after ``ʿ``/``ʾ`` (``ʾAḇrāhām``) is a word-initial capital."""
+    return any(c.isupper() and prev.isalpha() and prev not in "ʿʾ"
+               for prev, c in zip(tl, tl[1:]))
+
+
 def _load_lexicon() -> dict:
     """Load and cache lexicon.json (canonical per-word translit + proper names)."""
     global _lexicon_data
@@ -1036,6 +1045,14 @@ def lint_lexicon(sources: list[dict]) -> None:
     lex = _load_lexicon()
     if not lex:
         return
+
+    for fa, entry in lex.items():
+        if not isinstance(entry, dict):
+            continue
+        tl = entry.get("tl")
+        for t in [tl] if isinstance(tl, str) else tl or []:
+            if _has_midword_capital(t):
+                print(f"  lexicon translit has a mid-word capital: {fa} '{t}'", file=sys.stderr)
 
     tl_mismatch: dict[tuple[str, str], list[str]] = {}
     name_mismatch: dict[tuple[str, str], list[str]] = {}
@@ -1352,13 +1369,17 @@ def _lint_headword_translit(study: dict, label: str) -> None:
     """Flag a headword whose `translit` does not transliterate its `persian` —
     every strong consonant of the Persian (n/m assimilation aside) should appear,
     in order, in the romanization. Catches translit typos. Multiword headwords
-    are skipped (their spacing/segmentation varies)."""
+    are skipped (their spacing/segmentation varies). Also flags a stray mid-word
+    capital (``xeRadmandī``)."""
     for sec in study.get("sections", []):
         for entry in sec.get("entries", []):
             if entry.get("type") != "headword":
                 continue
             persian = entry.get("persian", "")
             translit = entry.get("translit", "")
+            if _has_midword_capital(translit):
+                print(f"  {label}headword translit has a mid-word capital: {persian} / {translit}",
+                      file=sys.stderr)
             if not persian or not translit or " " in persian:
                 continue
             fa_sets = _persian_consonant_sets(persian)
