@@ -126,21 +126,29 @@ def _build_vocab_map_json(study: dict) -> dict[str, str]:
             elif etype == "variant":
                 _register(entry["persian"], f"gram-{entry['persian']}")
 
-    # Pass 2: register form tokens (including split components of compound forms).
-    # Headwords from pass 1 already hold their slots, so first-wins is safe.
-    for section in study.get("sections", []):
-        for entry in section.get("entries", []):
-            if entry.get("type") == "headword":
-                entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
-                anchor = f"vocab-{entry_id}"
-                for form in entry.get("forms") or []:
-                    fa = form.get("fa")
-                    if fa and _PERSIAN_CHAR_RE.search(fa):
-                        _register(fa, anchor)
-                        if " " in fa:
-                            for tok in fa.split():
-                                if tok and tok not in _MI_PREFIX and _PERSIAN_CHAR_RE.search(tok):
-                                    _register(tok, anchor)
+    # Pass 2: register whole form tokens. Headwords from pass 1 already hold
+    # their slots, so first-wins is safe.
+    def _forms():
+        for section in study.get("sections", []):
+            for entry in section.get("entries", []):
+                if entry.get("type") == "headword":
+                    entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
+                    for form in entry.get("forms") or []:
+                        fa = form.get("fa")
+                        if fa and _PERSIAN_CHAR_RE.search(fa):
+                            yield fa, f"vocab-{entry_id}"
+
+    for fa, anchor in _forms():
+        _register(fa, anchor)
+
+    # Pass 3: split components of multiword forms, as a last resort — so a
+    # light verb lifted out of a compound (`شد` from `خوشحال شد`) can't
+    # claim a slot that a later entry's own form (`شدن`'s `شد`) should hold.
+    for fa, anchor in _forms():
+        if " " in fa:
+            for tok in fa.split():
+                if tok and tok not in _MI_PREFIX and _PERSIAN_CHAR_RE.search(tok):
+                    _register(tok, anchor)
 
     return word_map
 

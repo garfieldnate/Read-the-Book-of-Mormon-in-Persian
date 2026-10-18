@@ -848,6 +848,38 @@
               "note": "`یک` before a noun functions as an indefinite article: `یک فرشته` _yek ferešte_ \"an angel\". The standalone cardinal is also `یک` _yek_."
             }
           ]
+        },
+        {
+          "type": "headword",
+          "persian": "شدن",
+          "translit": "šodan",
+          "meaning": "to become; (passive auxiliary) to be (done)",
+          "pos": "aux",
+          "pres_stem": {
+            "fa": "شو",
+            "translit": "šav-"
+          },
+          "forms": [
+            {
+              "fa": "شد",
+              "desc": "3sg past `شد` _šod_ (throughout)"
+            },
+            {
+              "fa": "شدیم",
+              "desc": "1pl past `شدیم` _šodīm_ ([verse 9](#verse-9))"
+            },
+            {
+              "fa": "شوند",
+              "desc": "3pl pres. subj. `شوند` _šavand_"
+            },
+            {
+              "fa": "می شود",
+              "desc": "3sg impf. `می شود` ([verse 17](#verse-17))"
+            },
+            {
+              "note": "As passive auxiliary: past participle + `شدن` = passive construction. As main verb: `راهی شدن` = \"to set out\"; `خوشحال شدن` = \"to become happy\"."
+            }
+          ]
         }
       ]
     },
@@ -1344,6 +1376,54 @@
               "desc": "1sg past `سخن گفتم` ([verse 7](#verse-7))"
             }
           ]
+        },
+        {
+          "type": "headword",
+          "persian": "بودن",
+          "translit": "budan",
+          "meaning": "to be (existential and copular)",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "باش",
+            "translit": "bāš-"
+          },
+          "forms": [
+            {
+              "fa": "باشید",
+              "desc": "2pl subj. `باشید` _bāšīd_ ([verse 4](#verse-4))"
+            },
+            {
+              "fa": "بود",
+              "desc": "3sg past `بود` _bud_ (throughout)"
+            },
+            {
+              "fa": "بودیم",
+              "desc": "1pl past `بودیم` _budīm_"
+            },
+            {
+              "fa": "بودند",
+              "desc": "3pl past `بودند` _budand_"
+            },
+            {
+              "fa": "است",
+              "desc": "3sg pres. copula `است` _ast_ / enclitic `-st` after vowels"
+            },
+            {
+              "fa": "باشد",
+              "desc": "3sg subj. `باشد` _bāšad_ (throughout)"
+            },
+            {
+              "fa": "باشیم",
+              "desc": "1pl subj. `باشیم` _bāšīm_ ([verses 15, 16](#verse-15))"
+            },
+            {
+              "note": "Extremely frequent. The present indicative of بودن as copula is the enclitic suffix `-ast/-st` (written `است` when separate). As the full existential verb \"there is\" it remains `است`."
+            },
+            {
+              "fa": "باشند",
+              "desc": "3pl subj. `باشند` _bāšand_ ([verse 21](#verse-21))"
+            }
+          ]
         }
       ]
     },
@@ -1628,54 +1708,6 @@
         },
         {
           "type": "headword",
-          "persian": "بودن",
-          "translit": "budan",
-          "meaning": "to be (existential and copular)",
-          "pos": "verb",
-          "pres_stem": {
-            "fa": "باش",
-            "translit": "bāš-"
-          },
-          "forms": [
-            {
-              "fa": "باشید",
-              "desc": "2pl subj. `باشید` _bāšīd_ ([verse 4](#verse-4))"
-            },
-            {
-              "fa": "بود",
-              "desc": "3sg past `بود` _bud_ (throughout)"
-            },
-            {
-              "fa": "بودیم",
-              "desc": "1pl past `بودیم` _budīm_"
-            },
-            {
-              "fa": "بودند",
-              "desc": "3pl past `بودند` _budand_"
-            },
-            {
-              "fa": "است",
-              "desc": "3sg pres. copula `است` _ast_ / enclitic `-st` after vowels"
-            },
-            {
-              "fa": "باشد",
-              "desc": "3sg subj. `باشد` _bāšad_ (throughout)"
-            },
-            {
-              "fa": "باشیم",
-              "desc": "1pl subj. `باشیم` _bāšīm_ ([verses 15, 16](#verse-15))"
-            },
-            {
-              "note": "Extremely frequent. The present indicative of بودن as copula is the enclitic suffix `-ast/-st` (written `است` when separate). As the full existential verb \"there is\" it remains `است`."
-            },
-            {
-              "fa": "باشند",
-              "desc": "3pl subj. `باشند` _bāšand_ ([verse 21](#verse-21))"
-            }
-          ]
-        },
-        {
-          "type": "headword",
           "persian": "آوردن",
           "translit": "āvardan",
           "meaning": "to bring, carry",
@@ -1922,6 +1954,46 @@
           "translit": "balke",
           "meaning": "rather, but rather; on the contrary",
           "pos": "cconj"
+        },
+        {
+          "type": "headword",
+          "persian": "کردن",
+          "translit": "kardan",
+          "meaning": "to do, make; (light verb) performs the action named by the preceding noun",
+          "pos": "verb",
+          "pres_stem": {
+            "fa": "کن",
+            "translit": "kon-"
+          },
+          "forms": [
+            {
+              "fa": "نکرده ای",
+              "desc": "2sg neg. perfect `نکرده ای` _na-karde-ī_ ([verse 6](#verse-6))"
+            },
+            {
+              "fa": "کردم",
+              "desc": "1sg past `کردم` _kardam_"
+            },
+            {
+              "fa": "کرد",
+              "desc": "3sg past `کرد` _kard_ (throughout)"
+            },
+            {
+              "fa": "کردیم",
+              "desc": "1pl past `کردیم` _kardīm_"
+            },
+            {
+              "fa": "کنیم",
+              "desc": "1pl subj. `کنیم` _konīm_"
+            },
+            {
+              "fa": "کنند",
+              "desc": "3pl subj. `کنند` _konand_"
+            },
+            {
+              "note": "The most common light verb in Persian. Dozens of Arabic nouns combine with `کردن` to form compound verbs: `قبول کردن` (to accept), `نصیحت کردن` (to advise), `تلاش کردن` (to try), etc."
+            }
+          ]
         }
       ]
     },
@@ -3108,38 +3180,6 @@
             {
               "fa": "به نزد",
               "desc": "`به نزد` _be nazd-e_ \"to (go to someone)\" ([verse 14](#verse-14), [verse 15](#verse-15))"
-            }
-          ]
-        },
-        {
-          "type": "headword",
-          "persian": "شدن",
-          "translit": "šodan",
-          "meaning": "to become; (passive auxiliary) to be (done)",
-          "pos": "aux",
-          "pres_stem": {
-            "fa": "شو",
-            "translit": "šav-"
-          },
-          "forms": [
-            {
-              "fa": "شد",
-              "desc": "3sg past `شد` _šod_ (throughout)"
-            },
-            {
-              "fa": "شدیم",
-              "desc": "1pl past `شدیم` _šodīm_ ([verse 9](#verse-9))"
-            },
-            {
-              "fa": "شوند",
-              "desc": "3pl pres. subj. `شوند` _šavand_"
-            },
-            {
-              "fa": "می شود",
-              "desc": "3sg impf. `می شود` ([verse 17](#verse-17))"
-            },
-            {
-              "note": "As passive auxiliary: past participle + `شدن` = passive construction. As main verb: `راهی شدن` = \"to set out\"; `خوشحال شدن` = \"to become happy\"."
             }
           ]
         }
@@ -4949,46 +4989,6 @@
           "forms": [
             {
               "note": "`نه` at the end of a sentence in a rhetorical context = \"isn't it?\" or \"then why not us?\": `آنگاه چرا ما را نه؟` = \"then why not us?\" ([verse 31](#verse-31))"
-            }
-          ]
-        },
-        {
-          "type": "headword",
-          "persian": "کردن",
-          "translit": "kardan",
-          "meaning": "to do, make; (light verb) performs the action named by the preceding noun",
-          "pos": "verb",
-          "pres_stem": {
-            "fa": "کن",
-            "translit": "kon-"
-          },
-          "forms": [
-            {
-              "fa": "نکرده ای",
-              "desc": "2sg neg. perfect `نکرده ای` _na-karde-ī_ ([verse 6](#verse-6))"
-            },
-            {
-              "fa": "کردم",
-              "desc": "1sg past `کردم` _kardam_"
-            },
-            {
-              "fa": "کرد",
-              "desc": "3sg past `کرد` _kard_ (throughout)"
-            },
-            {
-              "fa": "کردیم",
-              "desc": "1pl past `کردیم` _kardīm_"
-            },
-            {
-              "fa": "کنیم",
-              "desc": "1pl subj. `کنیم` _konīm_"
-            },
-            {
-              "fa": "کنند",
-              "desc": "3pl subj. `کنند` _konand_"
-            },
-            {
-              "note": "The most common light verb in Persian. Dozens of Arabic nouns combine with `کردن` to form compound verbs: `قبول کردن` (to accept), `نصیحت کردن` (to advise), `تلاش کردن` (to try), etc."
             }
           ]
         }
