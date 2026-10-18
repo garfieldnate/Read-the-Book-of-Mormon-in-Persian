@@ -3209,7 +3209,8 @@
           "gloss": {
             "src": "negah-dārī=ye",
             "gloss": "keeping=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "فرمان",
@@ -3311,7 +3312,8 @@
           "gloss": {
             "src": "sarī=ye",
             "gloss": "necked=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "لامان",

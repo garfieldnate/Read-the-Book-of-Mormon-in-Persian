@@ -1017,7 +1017,8 @@
      "gloss": {
       "src": "pey=e",
       "gloss": "after=EZ"
-     }
+     },
+     "e": true
     },
     {
      "fa": "نام",
@@ -1478,7 +1479,8 @@
      "gloss": {
       "src": "farmānravāyī=ye",
       "gloss": "reign=EZ"
-     }
+     },
+     "e": true
     },
     {
      "fa": "پادشاهان",
@@ -1696,7 +1698,8 @@
      "gloss": {
       "src": "farmānravāyī=ye",
       "gloss": "reign=EZ"
-     }
+     },
+     "e": true
     },
     {
      "fa": "پادشاهان",

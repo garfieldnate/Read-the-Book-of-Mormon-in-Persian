@@ -269,7 +269,8 @@
           "gloss": {
             "src": "dārāyī=ye",
             "gloss": "possessions=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "آنها",
@@ -3987,7 +3988,8 @@
           "gloss": {
             "src": "hastī=ye",
             "gloss": "existence=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "سَروَر",
@@ -4018,7 +4020,8 @@
           "gloss": {
             "src": "hastī=ye",
             "gloss": "existence=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "خودمان",
@@ -4274,7 +4277,8 @@
           "gloss": {
             "src": "negahdārī=ye",
             "gloss": "keeping=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "فرمان",
@@ -4653,7 +4657,8 @@
           "gloss": {
             "src": "nābekārī=ye",
             "gloss": "wickedness=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "مردم",
@@ -5142,7 +5147,8 @@
           "gloss": {
             "src": "xeradmandī=ye",
             "gloss": "wisdom=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "خداست",
@@ -5760,7 +5766,8 @@
           "gloss": {
             "src": "negahdārī=ye",
             "gloss": "keeping=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "فرمان",
@@ -5883,7 +5890,8 @@
           "gloss": {
             "src": "mīrāsī=ye",
             "gloss": "inherited=EZ"
-          }
+          },
+          "e": true
         },
         {
           "fa": "خود",
