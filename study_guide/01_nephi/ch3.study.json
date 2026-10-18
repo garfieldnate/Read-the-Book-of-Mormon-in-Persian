@@ -1452,7 +1452,7 @@
         {
           "type": "headword",
           "persian": "نیاکان",
-          "translit": "nīyākān",
+          "translit": "niyākān",
           "meaning": "ancestors, forefathers",
           "pos": "noun",
           "plural": {
@@ -2389,7 +2389,7 @@
           "forms": [
             {
               "fa": "برکت یافته بودم",
-              "desc": "pluperfect passive `برکت یافته بودم` _barakat yāfte budam_ \"I had been blessed\" ([verse 8](#verse-8))"
+              "desc": "pluperfect passive `برکت یافته بودم` _barakat yāfte būdam_ \"I had been blessed\" ([verse 8](#verse-8))"
             }
           ]
         },
@@ -2406,7 +2406,7 @@
           "forms": [
             {
               "fa": "یافته بودم",
-              "desc": "1sg pluperfect `یافته بودم` _yāfte budam_ ([verse 8](#verse-8))"
+              "desc": "1sg pluperfect `یافته بودم` _yāfte būdam_ ([verse 8](#verse-8))"
             }
           ]
         },
