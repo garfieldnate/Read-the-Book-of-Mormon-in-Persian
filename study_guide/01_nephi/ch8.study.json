@@ -2250,7 +2250,7 @@
     {
      "type": "headword",
      "persian": "برای",
-     "translit": "barā-ye",
+     "translit": "barāye",
      "meaning": "for, for the sake of",
      "pos": "prep"
     },
@@ -3146,7 +3146,7 @@
     {
      "type": "headword",
      "persian": "سرچشمه",
-     "translit": "sarčašme",
+     "translit": "sarčešme",
      "meaning": "source, fountainhead, headwaters",
      "pos": "noun",
      "plural": {
@@ -3164,7 +3164,7 @@
      "forms": [
       {
        "fa": "سرچشمۀ",
-       "desc": "`سرچشمۀ` _sarčašme=ye_ (fountain=EZ) ([verse 14](#verse-14))"
+       "desc": "`سرچشمۀ` _sarčešme=ye_ (fountain=EZ) ([verse 14](#verse-14))"
       }
      ]
     },
@@ -3264,7 +3264,7 @@
     {
      "type": "headword",
      "persian": "تکان",
-     "translit": "tekān",
+     "translit": "takān",
      "meaning": "shake, tremor",
      "pos": "noun",
      "plural": {
@@ -3346,7 +3346,7 @@
     {
      "type": "headword",
      "persian": "نزد",
-     "translit": "nazdīk / _nazdē_",
+     "translit": "nazd",
      "meaning": "near, with, before, in the presence of (preposition)",
      "pos": "prep"
     }
@@ -3508,7 +3508,7 @@
     {
      "type": "headword",
      "persian": "۲۰",
-     "translit": "bist",
+     "translit": "bīst",
      "meaning": "Persian numeral 20 (`بیست` — a separate word, not \"two-zero\")",
      "pos": "num"
     },

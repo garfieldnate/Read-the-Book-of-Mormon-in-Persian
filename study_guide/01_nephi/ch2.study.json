@@ -2087,7 +2087,7 @@
 						},
 						{
 							"persian": "باور نمی کردند که اورشلیم … بتواند نابود شود",
-							"translit": "bāvar na-mī-kardand ke Orušalīm … be-tavānad nābūd šavad",
+							"translit": "bāvar na-mī-kardand ke Uršalīm … be-tavānad nābūd šavad",
 							"en": "They believed not that Jerusalem could be destroyed. [`که` + modal subjunctive]",
 							"ref": "Verse 13",
 							"ref_anchor": "verse-13"
@@ -2173,7 +2173,7 @@
 					"type": "headword",
 					"id": "رو",
 					"persian": "رو",
-					"translit": "ru",
+					"translit": "rū",
 					"meaning": "face; direction; reason (in `از این رو` = \"therefore, for this reason, wherefore\")",
 					"pos": "other",
 					"tags": [],
@@ -2192,7 +2192,7 @@
 					"type": "headword",
 					"id": "آنچنان",
 					"persian": "آنچنان",
-					"translit": "āncenān",
+					"translit": "ānčonān",
 					"meaning": "just as, in that way, in such a manner",
 					"pos": "adv",
 					"tags": [],
@@ -2460,7 +2460,7 @@
 					"type": "headword",
 					"id": "چادر",
 					"persian": "چادر",
-					"translit": "čādar",
+					"translit": "čādor",
 					"meaning": "tent; (also) chador (full-body garment)",
 					"pos": "noun",
 					"tags": [],
@@ -2475,11 +2475,11 @@
 					"forms": [
 						{
 							"fa": "چادرها",
-							"desc": "pl. `چادرها` _čādarhā_ [verse 4]"
+							"desc": "pl. `چادرها` _čādorhā_ [verse 4]"
 						},
 						{
 							"fa": "چادرش",
-							"desc": "with suffix `چادرش` _čādar-aš_ \"his tent\" [verse 6]"
+							"desc": "with suffix `چادرش` _čādor-aš_ \"his tent\" [verse 6]"
 						}
 					]
 				},
@@ -3205,7 +3205,7 @@
 					"type": "headword",
 					"id": "سرچشمه",
 					"persian": "سرچشمه",
-					"translit": "sarčašme",
+					"translit": "sarčešme",
 					"meaning": "source, fountainhead, headwaters",
 					"pos": "noun",
 					"tags": [],
@@ -3224,7 +3224,7 @@
 					"forms": [
 						{
 							"fa": "سرچشمۀ",
-							"desc": "ezafe form `سرچشمۀ` _sarčašme-ye_ (visible ezafe ۀ: `سرچشمۀ دریای سرخ` \"the fountain of the Red Sea\")"
+							"desc": "ezafe form `سرچشمۀ` _sarčešme-ye_ (visible ezafe ۀ: `سرچشمۀ دریای سرخ` \"the fountain of the Red Sea\")"
 						}
 					]
 				},
@@ -3538,7 +3538,7 @@
 					"type": "headword",
 					"id": "مورد",
 					"persian": "مورد",
-					"translit": "mord",
+					"translit": "mowred",
 					"meaning": "matter, case, subject, instance",
 					"pos": "noun",
 					"tags": [],
@@ -3665,7 +3665,7 @@
 					"type": "headword",
 					"id": "اورشلیم",
 					"persian": "اورشلیم",
-					"translit": "Orušalīm",
+					"translit": "Uršalīm",
 					"meaning": "Jerusalem",
 					"pos": "proper",
 					"tags": [
@@ -3856,7 +3856,7 @@
 					"type": "headword",
 					"id": "گونه",
 					"persian": "گونه",
-					"translit": "gune",
+					"translit": "gūne",
 					"meaning": "manner, kind, sort; (also) cheek (body part)",
 					"pos": "noun",
 					"tags": [],
@@ -4772,7 +4772,7 @@
 					"type": "headword",
 					"id": "سوی",
 					"persian": "سوی",
-					"translit": "su / _suy_",
+					"translit": "sūy",
 					"meaning": "side, direction; `از سوی` \"from, on behalf of, by\" (used in passives)",
 					"pos": "other",
 					"tags": []
@@ -4868,7 +4868,7 @@
 					"type": "headword",
 					"id": "پدیدار",
 					"persian": "پدیدار",
-					"translit": "pedīdār",
+					"translit": "padīdār",
 					"meaning": "manifest, apparent, visible; revealed",
 					"pos": "adj",
 					"tags": [],
@@ -5070,7 +5070,7 @@
 					"type": "headword",
 					"id": "نزد",
 					"persian": "نزد",
-					"translit": "nazdīk / _nazdē_",
+					"translit": "nazd",
 					"meaning": "near, with, before, in the presence of (preposition)",
 					"pos": "prep",
 					"tags": [],
@@ -5241,7 +5241,7 @@
 					"type": "headword",
 					"id": "موعود",
 					"persian": "موعود",
-					"translit": "moʿūd",
+					"translit": "mowʿūd",
 					"meaning": "promised, pledged",
 					"pos": "adj",
 					"tags": [],
@@ -5678,7 +5678,7 @@
 			]
 		}
 	],
-	"intro": "## Intro\nChapter 2 of 1 Nephi follows directly from chapter 1: Lehi has received a dream in which the Lord warned him that the Jews seek his life, and he is now commanded to take his family and flee into the wilderness. In twenty-four verses the narrative moves through five episodes: the family's departure from Jerusalem southward to the Red Sea (vv. 1–6); Lehi's erection of a stone altar and sacrifice of thanksgiving (v. 7); his impassioned wish that Laman and Lemuel would be as faithful as the river and as constant as the valley (vv. 8–10); their murmuring explained and contrasted with young Nephi's prayer (vv. 11–18); and a personal revelation to Nephi that commissions him as future ruler and teacher — or warns that the brothers will become a scourge if they persist in rebellion (vv. 19–24).\nVocabulary spans six domains: **journey / wilderness** (بیابان _bīyābān_، دریای سرخ _daryā-ye sorx_، وادی _vādī_، رود _rūd_), **possessions / leaving** (دارایی _dārāyī_، طلا _ṭalā_، نقره _noqre_، چادر _čādar_), **sacrifice / worship** (قربانگاه _qorbān-gāh_، قربانی _qorbānī_، پیشکش _pīškeš_، سپاسگزاری _sepāsgozārī_), **commandment / obedience** (فرمان _farmān_، مطیع _motīʿ_، نگه داشتن _negah dāštan_), **murmuring / stubbornness** (غرولند _qorolond_، خیره سری _xīre-sarī_، سخت دلی _saxt-delī_), and **revelation / promise** (نیایش _niyāyeš_، ایمان _īmān_، برگزیدن _bargozīdan_، فرمانروایی _farmān-ravāyī_). Grammar highlights unique to this chapter include the wishing construction _ای کاش_ (_ey kāš_) + imperfect (vv. 9–10) and the conditional _تا جایی که_ (_tā jāyī ke_) + subjunctive (vv. 20–22).",
+	"intro": "## Intro\nChapter 2 of 1 Nephi follows directly from chapter 1: Lehi has received a dream in which the Lord warned him that the Jews seek his life, and he is now commanded to take his family and flee into the wilderness. In twenty-four verses the narrative moves through five episodes: the family's departure from Jerusalem southward to the Red Sea (vv. 1–6); Lehi's erection of a stone altar and sacrifice of thanksgiving (v. 7); his impassioned wish that Laman and Lemuel would be as faithful as the river and as constant as the valley (vv. 8–10); their murmuring explained and contrasted with young Nephi's prayer (vv. 11–18); and a personal revelation to Nephi that commissions him as future ruler and teacher — or warns that the brothers will become a scourge if they persist in rebellion (vv. 19–24).\nVocabulary spans six domains: **journey / wilderness** (بیابان _bīyābān_، دریای سرخ _daryā-ye sorx_، وادی _vādī_، رود _rūd_), **possessions / leaving** (دارایی _dārāyī_، طلا _ṭalā_، نقره _noqre_، چادر _čādor_), **sacrifice / worship** (قربانگاه _qorbān-gāh_، قربانی _qorbānī_، پیشکش _pīškeš_، سپاسگزاری _sepāsgozārī_), **commandment / obedience** (فرمان _farmān_، مطیع _motīʿ_، نگه داشتن _negah dāštan_), **murmuring / stubbornness** (غرولند _qorolond_، خیره سری _xīre-sarī_، سخت دلی _saxt-delī_), and **revelation / promise** (نیایش _niyāyeš_، ایمان _īmān_، برگزیدن _bargozīdan_، فرمانروایی _farmān-ravāyī_). Grammar highlights unique to this chapter include the wishing construction _ای کاش_ (_ey kāš_) + imperfect (vv. 9–10) and the conditional _تا جایی که_ (_tā jāyī ke_) + subjunctive (vv. 20–22).",
 	"vocab_intro": "Organized in **order of first appearance**, grouped by the chapter summary and then verse-by-verse. Every distinct lemma in the chapter is introduced at its first occurrence — including all function words. Inflected forms of a verb already introduced are not re-listed as fresh entries; they are handled by the _Forms_ sub-bullet on the original entry. Proper nouns are listed where they first appear, tagged `[proper]`. Verbs include the infinitive and present stem.",
 	"reading_tip": "Chapter 2 is built on two opposing grammatical registers. The narrative framework — `چنین گذشت که` opening eleven verses — trains the reader to scan for that phrase as a scene-marker; once recognized, parsing the clause that follows becomes automatic. Within that frame, two constructions do the theological work: `ای کاش + imperfect` (vv. 9–10), which casts Lehi's wish for his sons as explicitly unfulfilled, and `تا جایی که + subjunctive / future` (vv. 20–22), which frames Nephi's commission as conditional rather than absolute. Mastering these three patterns — the narrative frame, the unfulfilled wish, and the conditional promise — gives you the skeleton of almost every scene in the book. As a study habit, read each `چنین گذشت که` clause and identify the verb in the trailing clause before moving to the vocabulary; that single step will double your reading speed across 1 Nephi."
 }

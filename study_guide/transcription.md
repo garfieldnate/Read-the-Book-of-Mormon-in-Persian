@@ -15,6 +15,7 @@ These study guides use academic transliteration with macrons for long vowels.
 | ع                                                                           | `ʿ`                                     |
 | ء / hamza                                                                   | `ʾ`                                     |
 | ق                                                                           | `q`                                     |
+| غ                                                                           | `ġ`                                     |
 | Arabic emphatics (`ص` · `ظ`/`ض` · `ح` · `ط`)                              | `ṣ ẓ ḥ ṭ` (see below)                   |
 | Ezafe (`–ـِ` / `–ی`)                                                        | `-e` after consonant, `-ye` after vowel |
 | Object marker (`–را`)                                                       | `-rā`                                   |

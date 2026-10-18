@@ -357,13 +357,13 @@
     {
      "type": "headword",
      "persian": "برنجی",
-     "translit": "berenǰī",
+     "translit": "berenjī",
      "meaning": "of brass, brazen",
      "pos": "adj",
      "etym": {
-      "prose": "`برنج` berenǰ \"brass\" + [`-ی`](../word_formation.html#the-adjectival-suffix-i) relational suffix \"made of.\""
+      "prose": "`برنج` berenj \"brass\" + [`-ی`](../word_formation.html#the-adjectival-suffix-i) relational suffix \"made of.\""
      },
-     "family": "برنج _berenǰ_ brass (also \"rice,\" a homograph)"
+     "family": "برنج _berenj_ brass (also \"rice,\" a homograph)"
     },
     {
      "type": "headword",
@@ -2510,7 +2510,7 @@
     {
      "type": "headword",
      "persian": "چادر",
-     "translit": "čādr",
+     "translit": "čādor",
      "meaning": "tent; (also) veil, chador",
      "pos": "noun",
      "plural": {
@@ -3880,7 +3880,7 @@
     {
      "type": "headword",
      "persian": "نه",
-     "translit": "ne",
+     "translit": "na",
      "meaning": "no, not; nor, neither",
      "pos": "part"
     },

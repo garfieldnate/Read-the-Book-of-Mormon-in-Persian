@@ -2290,7 +2290,7 @@
     {
      "type": "headword",
      "persian": "چادر",
-     "translit": "čādar",
+     "translit": "čādor",
      "meaning": "tent; (also) chador (full-body garment)",
      "pos": "noun",
      "tags": [],
@@ -2381,7 +2381,7 @@
     {
      "type": "headword",
      "persian": "علیه",
-     "translit": "ʿalayhi",
+     "translit": "ʿalayhe",
      "meaning": "against",
      "pos": "prep",
      "tags": [],
@@ -2837,7 +2837,7 @@
     {
      "type": "headword",
      "persian": "فرشته",
-     "translit": "farešte",
+     "translit": "ferešte",
      "meaning": "angel",
      "pos": "noun",
      "tags": [],
@@ -4040,7 +4040,7 @@
     {
      "type": "headword",
      "persian": "نزد",
-     "translit": "nazdīk / _nazdē_",
+     "translit": "nazd",
      "meaning": "near, with, before, in the presence of (preposition)",
      "pos": "prep",
      "tags": []
@@ -4324,7 +4324,7 @@
      "type": "headword",
      "id": "۲۰",
      "persian": "۲۰",
-     "translit": "bist",
+     "translit": "bīst",
      "meaning": "Persian numeral 20 (`بیست` — a separate word, not \"two-zero\")",
      "pos": "num",
      "tags": []
@@ -4360,7 +4360,7 @@
     {
      "type": "headword",
      "persian": "نابکاری",
-     "translit": "nā-bekārī",
+     "translit": "nābekārī",
      "meaning": "wickedness, iniquity",
      "pos": "other",
      "tags": [],

@@ -98,7 +98,7 @@
         {
           "type": "headword",
           "persian": "اورشلیم",
-          "translit": "Oršalīm",
+          "translit": "Uršalīm",
           "meaning": "Jerusalem",
           "pos": "propn",
           "tags": [
@@ -173,7 +173,7 @@
         {
           "type": "headword",
           "persian": "برنجی",
-          "translit": "berenǰī",
+          "translit": "berenjī",
           "meaning": "brass, made of brass",
           "pos": "adj",
           "etym": {
@@ -231,7 +231,7 @@
               "ref": "Chapter summary",
               "ref_anchor": "chapter-summary",
               "persian": "بازمی گردند تا ورقه‌های برنجی را بدست آورند",
-              "translit": "bāzmī-gardand tā varaqe-hā-ye berenǰī rā be-dast āvarand",
+              "translit": "bāzmī-gardand tā varaqe-hā-ye berenjī rā be-dast āvarand",
               "en": "they return in order to obtain the brass plates"
             },
             {
@@ -540,7 +540,7 @@
         {
           "type": "headword",
           "persian": "لموئیل",
-          "translit": "Lamūīl",
+          "translit": "Lamūʾīl",
           "meaning": "Lemuel (Nephi's second eldest brother)",
           "pos": "propn",
           "tags": [
@@ -602,7 +602,7 @@
         {
           "type": "headword",
           "persian": "سوی",
-          "translit": "su / suy",
+          "translit": "sūy",
           "meaning": "side, direction; از سوی — from, by, on behalf of",
           "pos": "noun",
           "plural": {
@@ -718,7 +718,7 @@
           "type": "headword",
           "id": "۶۰۰",
           "persian": "۶۰۰",
-          "translit": "šeṣad",
+          "translit": "šešṣad",
           "meaning": "Persian numeral 600 (`ششصد` — `شش` \"six\" × `صد` \"hundred\")",
           "pos": "num",
           "etym": {
@@ -729,7 +729,7 @@
           "type": "headword",
           "id": "۵۹۲",
           "persian": "۵۹۲",
-          "translit": "pānsad-o-navad-o-do",
+          "translit": "pānṣad-o-navad-o-do",
           "meaning": "Persian numeral 592 (`پانصد و نود و دو` — five-hundred and ninety and two)",
           "pos": "num"
         },
@@ -904,7 +904,7 @@
               "ref": "Verse 1",
               "ref_anchor": "verse-1",
               "persian": "و چنین گذشت که من، نیفای، پس از سخن گفتن با سَروَر، به چادر پدرم بازگشتم",
-              "translit": "o čonīn gozašt ke man, Nīfāy, pas az soxan goftan bā Sarvar, be čādar-e pedar-am bāzgaštam",
+              "translit": "o čonīn gozašt ke man, Nīfāy, pas az soxan goftan bā Sarvar, be čādor-e pedar-am bāzgaštam",
               "en": "And it came to pass that I, Nephi, having spoken with the Lord, returned to my father's tent"
             }
           ]
@@ -1005,7 +1005,7 @@
         {
           "type": "headword",
           "persian": "چادر",
-          "translit": "čādar",
+          "translit": "čādor",
           "meaning": "tent; veil, chador (woman's head covering)",
           "pos": "noun",
           "plural": {
@@ -1019,7 +1019,7 @@
           "forms": [
             {
               "fa": "چادرهایمان",
-              "desc": "pl. + 1pl poss. `چادرهایمان` _čādarhā-ye-mān_ \"our tents\" ([verse 9](#verse-9))"
+              "desc": "pl. + 1pl poss. `چادرهایمان` _čādorhā-ye-mān_ \"our tents\" ([verse 9](#verse-9))"
             }
           ]
         },
@@ -1158,7 +1158,7 @@
         {
           "type": "headword",
           "persian": "او",
-          "translit": "u",
+          "translit": "ū",
           "meaning": "he, she, it (3sg pronoun)",
           "pos": "pron",
           "forms": [
@@ -1576,7 +1576,7 @@
         {
           "type": "headword",
           "persian": "روی",
-          "translit": "ru / ruy",
+          "translit": "rūy",
           "meaning": "face, surface; on (+ ezafe)",
           "pos": "noun",
           "plural": {
@@ -1741,7 +1741,7 @@
         {
           "type": "headword",
           "persian": "پایین",
-          "translit": "pāīn",
+          "translit": "pāyīn",
           "meaning": "down, below, downward; lower",
           "pos": "adv"
         },
@@ -2012,7 +2012,7 @@
         {
           "type": "headword",
           "persian": "بنابراین",
-          "translit": "bonābarin",
+          "translit": "banābarīn",
           "meaning": "therefore, thus, consequently",
           "pos": "adv"
         },
@@ -3057,7 +3057,7 @@
         {
           "type": "headword",
           "persian": "بیرون",
-          "translit": "bīrun",
+          "translit": "bīrūn",
           "meaning": "outside, out; outward",
           "pos": "adv",
           "forms": [
@@ -3547,14 +3547,14 @@
           "type": "headword",
           "id": "۱۷",
           "persian": "۱۷",
-          "translit": "hevdah",
+          "translit": "hefdah",
           "meaning": "Persian numeral 17 (`هفده`)",
           "pos": "num"
         },
         {
           "type": "headword",
           "persian": "نابکاری",
-          "translit": "nābakārī",
+          "translit": "nābekārī",
           "meaning": "wickedness, iniquity, transgression",
           "pos": "noun",
           "plural": {
@@ -3626,7 +3626,7 @@
           "type": "headword",
           "id": "۱۸",
           "persian": "۱۸",
-          "translit": "heždah",
+          "translit": "hejdah",
           "meaning": "Persian numeral 18 (`هجده`)",
           "pos": "num"
         },
@@ -4295,7 +4295,7 @@
         {
           "type": "headword",
           "persian": "خدمتگزار",
-          "translit": "xadamatgozār",
+          "translit": "xedmatgozār",
           "meaning": "servant, attendant, aide",
           "pos": "noun",
           "plural": {
@@ -4312,7 +4312,7 @@
           "forms": [
             {
               "fa": "خدمتگزارانش",
-              "desc": "pl. + 3sg poss. `خدمتگزارانش` _xadamatgozārān-aš_ \"his servants\" ([verse 25](#verse-25), [verse 26](#verse-26))"
+              "desc": "pl. + 3sg poss. `خدمتگزارانش` _xedmatgozārān-aš_ \"his servants\" ([verse 25](#verse-25), [verse 26](#verse-26))"
             }
           ]
         },
@@ -4423,7 +4423,7 @@
         {
           "type": "headword",
           "persian": "صخره",
-          "translit": "saxre",
+          "translit": "ṣaxre",
           "meaning": "rock, boulder, cliff",
           "pos": "noun",
           "plural": {
@@ -4540,7 +4540,7 @@
         {
           "type": "headword",
           "persian": "بسیار",
-          "translit": "besīār",
+          "translit": "besyār",
           "meaning": "very, much, many, a great deal",
           "pos": "adv"
         },

@@ -100,7 +100,7 @@
               "ref": "Chapter summary",
               "ref_anchor": "chapter-summary",
               "persian": "ورقه های برنجی را ... بدست می آورد",
-              "translit": "varaqe-hā-ye berenǰī rā ... be-dast mī-āvarad",
+              "translit": "varaqe-hā-ye berenjī rā ... be-dast mī-āvarad",
               "en": "obtains the plates of brass"
             }
           ]
@@ -243,13 +243,13 @@
         {
           "type": "headword",
           "persian": "برنجی",
-          "translit": "berenǰī",
+          "translit": "berenjī",
           "meaning": "brass, of brass",
           "pos": "adj",
           "etym": {
-            "prose": "`برنج` _berenǰ_ \"brass\" + [`-ی`](../word_formation.html#the-adjectival-suffix-i) relational-adjective suffix."
+            "prose": "`برنج` _berenj_ \"brass\" + [`-ی`](../word_formation.html#the-adjectival-suffix-i) relational-adjective suffix."
           },
-          "family": "`برنج` _berenǰ_ \"brass\" (also \"rice\", a homograph)."
+          "family": "`برنج` _berenj_ \"brass\" (also \"rice\", a homograph)."
         },
         {
           "type": "headword",
@@ -468,7 +468,7 @@
           "type": "headword",
           "id": "۵۹۲",
           "persian": "۵۹۲",
-          "translit": "pānsad-o-navad-o-do",
+          "translit": "pānṣad-o-navad-o-do",
           "meaning": "Persian numeral 592 (`پانصد و نود و دو` — five-hundred and ninety and two)",
           "pos": "num"
         },
@@ -650,7 +650,7 @@
               "ref": "Verse 1",
               "ref_anchor": "verse-1",
               "persian": "پنجاه نفرش",
-              "translit": "panǰāh nafar-aš",
+              "translit": "panjāh nafar-aš",
               "en": "his fifty"
             },
             {
@@ -739,7 +739,7 @@
               "ref": "Chapter summary",
               "ref_anchor": "chapter-summary",
               "persian": "ورقه های برنجی را با ترفند بدست می آورد",
-              "translit": "varaqe-hā-ye berenǰī rā bā tarfand be-dast mī-āvarad",
+              "translit": "varaqe-hā-ye berenjī rā bā tarfand be-dast mī-āvarad",
               "en": "obtains the plates of brass by stratagem"
             }
           ]
@@ -1062,18 +1062,18 @@
         {
           "type": "headword",
           "persian": "نه",
-          "translit": "ne",
+          "translit": "na",
           "meaning": "no, not",
           "pos": "part"
         },
         {
           "type": "headword",
           "persian": "پنجاه",
-          "translit": "panǰāh",
+          "translit": "panjāh",
           "meaning": "fifty",
           "pos": "num",
           "etym": {
-            "prose": "native Persian; `پنج` _panǰ_ \"five\" + the tens suffix `-اه`."
+            "prose": "native Persian; `پنج` _panj_ \"five\" + the tens suffix `-اه`."
           }
         },
         {
@@ -1373,7 +1373,7 @@
           ],
           "forms": [
             {
-              "note": "`جدا شدن` \"to be separated / divided, part\" — compound verb; 3pl past `جدا شدند` _ǰodā šodand_ \"they were parted\" ([verse 2](#verse-2))."
+              "note": "`جدا شدن` \"to be separated / divided, part\" — compound verb; 3pl past `جدا شدند` _jodā šodand_ \"they were parted\" ([verse 2](#verse-2))."
             }
           ]
         },
@@ -1547,7 +1547,7 @@
         {
           "type": "headword",
           "persian": "فرعون",
-          "translit": "Farʿūn",
+          "translit": "Ferʿown",
           "meaning": "Pharaoh (the king of Egypt)",
           "pos": "propn",
           "tags": [
@@ -1984,7 +1984,7 @@
         {
           "type": "headword",
           "persian": "همچون",
-          "translit": "hamčon",
+          "translit": "hamčūn",
           "meaning": "like, as, just as",
           "pos": "adp",
           "etym": {
@@ -2518,7 +2518,7 @@
               "ref": "Verse 16",
               "ref_anchor": "verse-16",
               "persian": "قانون بر ورقه های برنجی کنده کاری شده بود",
-              "translit": "qānūn bar varaqe-hā-ye berenǰī kande-kārī šode būd",
+              "translit": "qānūn bar varaqe-hā-ye berenjī kande-kārī šode būd",
               "en": "the law was engraven upon the plates of brass"
             }
           ]
@@ -2880,7 +2880,7 @@
         {
           "type": "headword",
           "persian": "طلا",
-          "translit": "talā",
+          "translit": "ṭalā",
           "meaning": "gold",
           "pos": "noun",
           "forms": [
@@ -5792,7 +5792,7 @@
         {
           "type": "headword",
           "persian": "چادر",
-          "translit": "čādr",
+          "translit": "čādor",
           "meaning": "tent; veil, chador",
           "pos": "noun",
           "plural": {
@@ -5806,7 +5806,7 @@
           "forms": [
             {
               "fa": "چادر",
-              "desc": "ezafe `چادر پدرمان` _čādr-e pedar-emān_ \"the tent of our father\" ([verse 38](#verse-38))"
+              "desc": "ezafe `چادر پدرمان` _čādor-e pedar-emān_ \"the tent of our father\" ([verse 38](#verse-38))"
             }
           ]
         }

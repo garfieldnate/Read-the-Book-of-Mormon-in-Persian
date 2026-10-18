@@ -1465,6 +1465,29 @@ def _lint_possessive_linker(source: dict, label: str) -> None:
                       f"{tok['fa']} '{src}' — {loc}", file=sys.stderr)
 
 
+def _lint_headword_lexicon(study: dict, label: str) -> None:
+    """Flag a headword whose `translit` disagrees with its lexicon.json `tl`
+    (the canonical form the source tokens are held to). Alternatives written
+    `a / b` pass if any one matches; a `(pres. …)` note is ignored."""
+    lex = _load_lexicon()
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            if entry.get("type") != "headword":
+                continue
+            fa = entry.get("persian", "")
+            lx = lex.get(fa) or lex.get(_DIACRITICS_RE.sub("", fa))
+            if not isinstance(lx, dict) or not lx.get("tl"):
+                continue
+            tl = lx["tl"]
+            allowed = {t.replace(" ", "") for t in ([tl] if isinstance(tl, str) else tl)}
+            translit = re.sub(r"\s*\(.*\)$", "", entry.get("translit", ""))
+            alts = [_norm_translit(a.strip(" _")).replace(" ", "") for a in translit.split("/")]
+            if not any(a in allowed for a in alts):
+                expected = tl if isinstance(tl, str) else "/".join(tl)
+                print(f"  {label}headword translit differs from lexicon: {fa} "
+                      f"'{entry.get('translit')}' — lexicon has '{expected}'", file=sys.stderr)
+
+
 def _lint_token_translations(source: dict, study: dict, word_map: dict[str, str],
                              label: str) -> None:
     """Flag a token with no `tr` (contextual translation) that needs one.
@@ -1724,6 +1747,7 @@ def render_chapter(
     _lint_token_translations(source, study, word_map, label)
     _lint_possessive_linker(source, label)
     _lint_gloss_segmentation(source, label)
+    _lint_headword_lexicon(study, label)
     _lint_grammar_examples(source, study, label)
     _lint_reference_anchors(study, label)
 
