@@ -104,9 +104,12 @@
 
   // The lemma block: headword line (only when the tapped form differs from
   // the headword), then plural, compound verbs, etym, family, notes, warning.
-  function lemmaHtml(d, sameAsLemma) {
+  function lemmaHtml(d, sameAsLemma, trShown) {
     var h = '';
-    if (!sameAsLemma) {
+    if (sameAsLemma && trShown && d.df) {
+      // The form's own translation took the top line; keep the entry's meaning.
+      h += '<div class="ap-popup-head">' + d.df + '</div>';
+    } else if (!sameAsLemma) {
       h += '<div class="ap-popup-head"><span class="persian">' + d.fa + '</span>' +
         (d.tl ? ' <em class="translit">' + d.tl + '</em>' : '') +
         (d.df ? ' — ' + d.df : '') + '</div>';
@@ -152,7 +155,7 @@
     }
 
     var lemEl = pop.querySelector('.ap-popup-lemma');
-    lemEl.innerHTML = d ? lemmaHtml(d, sameAsLemma) : '';
+    lemEl.innerHTML = d ? lemmaHtml(d, sameAsLemma, !!tr) : '';
     lemEl.style.display = lemEl.innerHTML ? '' : 'none';
     pop.querySelector('.ap-popup-body').scrollTop = 0;
 
