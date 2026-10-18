@@ -145,19 +145,52 @@ def _build_vocab_map_json(study: dict) -> dict[str, str]:
     return word_map
 
 
-def _build_meaning_map_json(study: dict) -> dict[str, str]:
-    """Return {anchor_id: meaning} from headword entries, for the word popup."""
-    meanings: dict[str, str] = {}
+def _build_popup_data(study: dict, word_map: dict[str, str]) -> dict[str, dict]:
+    """Return {anchor_id: {...}} — the lemma details the word-tap popup shows.
+
+    Keys (each omitted when empty): ``fa``/``tl`` the headword and its translit,
+    ``df`` its meaning, and pre-rendered HTML for ``pl`` (plural line), ``lv``
+    (compound verbs), ``etym``, ``family``, ``warn`` and ``plnote``, plus
+    ``notes`` (the prose notes from ``forms``). The surface forms themselves
+    are deliberately left out — the popup stays a quick view."""
+    data: dict[str, dict] = {}
     for section in study.get("sections", []):
         for entry in section.get("entries", []):
             if entry.get("type") != "headword":
                 continue
             entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
             anchor = f"vocab-{entry_id}"
-            meaning = entry.get("meaning", "")
-            if meaning and anchor not in meanings:
-                meanings[anchor] = meaning
-    return meanings
+            if anchor in data:
+                continue
+            d: dict[str, str] = {"fa": entry["persian"]}
+            if entry.get("translit"):
+                d["tl"] = _inline(entry["translit"], {})
+            if entry.get("meaning"):
+                d["df"] = _inline(entry["meaning"], word_map)
+            pl = _render_plural_line(entry.get("plural"), word_map)
+            if pl:
+                d["pl"] = pl
+            lv = _render_light_verb_line(entry)
+            if lv:
+                d["lv"] = lv
+            etym = entry.get("etym")
+            prose = etym.get("prose", "") if isinstance(etym, dict) else etym
+            if prose:
+                d["etym"] = _inline(prose, word_map)
+            for key, field in (("family", "family"), ("warn", "warning")):
+                if isinstance(entry.get(field), str) and entry[field]:
+                    d[key] = _inline(entry[field], word_map)
+            # Prose notes from `forms` explain the lemma's behaviour (paradigm
+            # quirks, usage) — kept; the surface forms themselves are not.
+            notes = [_inline(f["note"], word_map)
+                     for f in entry.get("forms") or [] if f.get("note")]
+            if notes:
+                d["notes"] = notes
+            plural_note = (entry.get("plural") or {}).get("note")
+            if plural_note:
+                d["plnote"] = _inline(plural_note, word_map)
+            data[anchor] = d
+    return data
 
 
 def _build_pos_map_json(study: dict) -> dict[str, str]:
@@ -225,7 +258,6 @@ def _render_tokens(
     unlinked: list[tuple[str, str]] | None = None,
     location: str = "",
     token_times: dict[int, list[float]] | None = None,
-    meaning_map: dict[str, str] | None = None,
 ) -> str:
     """Render a source-JSON tokens array to linked HTML.
 
@@ -238,9 +270,10 @@ def _render_tokens(
 
     When ``token_times`` (token index -> [t0, t1]) is given, each word carries the
     data the audio player and word-tap popup need: ``data-t0``/``data-t1`` (timing),
-    ``data-tl`` (translit) and ``data-gl`` (gloss) from the token, and ``data-df``
-    (meaning, via ``meaning_map``) when the word has a vocab entry. A merged می unit
-    spans both token indices and uses the verb's gloss/meaning.
+    ``data-tl`` (translit), ``data-gl`` (gloss) and ``data-tr`` (the token's
+    contextual translation, ``tr``) from the token. The popup looks up the
+    lemma details by the word's ``href`` anchor. A merged می unit spans both
+    token indices and uses the verb's gloss/translation.
     """
     result: list[str] = []
     prev_was_word = False
@@ -255,12 +288,13 @@ def _render_tokens(
             return None
         return [min(t[0] for t in ts), max(t[1] for t in ts)]
 
-    def _word_attrs(gloss: dict | None, anchor: str | None, *idxs: int) -> str:
+    def _word_attrs(tok: dict, *idxs: int) -> str:
         a: list[str] = []
         times = _combined_times(*idxs)
         if times:
             a.append(f'data-t0="{times[0]}"')
             a.append(f'data-t1="{times[1]}"')
+        gloss = tok.get("gloss")
         if gloss:
             src = gloss.get("src")
             if src:
@@ -268,8 +302,8 @@ def _render_tokens(
             gl = gloss.get("gloss")
             if gl:
                 a.append(f'data-gl="{html_lib.escape(gl, quote=True)}"')
-        if anchor and meaning_map and anchor in meaning_map:
-            a.append(f'data-df="{html_lib.escape(meaning_map[anchor], quote=True)}"')
+        if tok.get("tr"):
+            a.append(f'data-tr="{html_lib.escape(tok["tr"], quote=True)}"')
         return (" " + " ".join(a)) if a else ""
 
     while i < len(tok_list):
@@ -291,7 +325,7 @@ def _render_tokens(
                     next_anchor = _resolve_anchor(next_fa, word_map)
                 if next_anchor:
                     combined = f'{html_lib.escape(fa)} {html_lib.escape(next_fa)}'
-                    attrs = _word_attrs(next_tok.get("gloss"), next_anchor, i, i + 1)
+                    attrs = _word_attrs(next_tok, i, i + 1)
                     result.append(f'<a href="#{next_anchor}" class="src-link"{attrs}>{combined}</a>')
                     if next_tok.get("e"):
                         result.append('<span class="ezafe">ِ</span>')
@@ -307,10 +341,10 @@ def _render_tokens(
 
             fa_html = html_lib.escape(fa)
             if anchor:
-                attrs = _word_attrs(tok.get("gloss"), anchor, i)
+                attrs = _word_attrs(tok, i)
                 result.append(f'<a href="#{anchor}" class="src-link"{attrs}>{fa_html}</a>')
             else:
-                attrs = _word_attrs(tok.get("gloss"), None, i)
+                attrs = _word_attrs(tok, i)
                 if attrs:
                     result.append(f'<span class="src-word"{attrs}>{fa_html}</span>')
                 else:
@@ -809,7 +843,6 @@ def _render_section(
     arabic_href: str = "",
     audio_dir: Path | None = None,
     audio_href: str = "",
-    meaning_map: dict[str, str] | None = None,
     next_link: tuple[str, str] | None = None,
 ) -> str:
     """Render one source section. ``next_link`` is (href, label) for the
@@ -828,7 +861,7 @@ def _render_section(
     tokens = source_sec.get("tokens")
     if tokens is not None:
         token_times = _load_token_times(audio_dir, heading_id)
-        tokens_html = _render_tokens(tokens, word_map, unlinked, location, token_times, meaning_map)
+        tokens_html = _render_tokens(tokens, word_map, unlinked, location, token_times)
         parts.append(TOGGLE_BAR_HTML)
         if token_times is not None:
             parts.append(_audio_player_html(audio_href, heading_id))
@@ -1537,7 +1570,7 @@ def render_chapter(
     """
     word_map = _build_vocab_map_json(study)
     pos_map = _build_pos_map_json(study)
-    meaning_map = _build_meaning_map_json(study)
+    popup_data = _build_popup_data(study, word_map)
     arabic_href = css_href.replace("styles.css", "arabic.html")
     unlinked: list[tuple[str, str]] = []
 
@@ -1663,10 +1696,18 @@ def render_chapter(
         study_sec = study_index.get((t, n))
         body_parts.append(_render_section(
             source_sec, study_sec, word_map, unlinked, arabic_href,
-            audio_dir=audio_dir, audio_href=audio_href, meaning_map=meaning_map,
+            audio_dir=audio_dir, audio_href=audio_href,
             next_link=next_link,
         ))
 
+
+    # Lemma details for the word-tap popup, keyed by vocab anchor ("</" escaped
+    # so entry HTML can't close the script element).
+    popup_json = json.dumps(popup_data, ensure_ascii=False, separators=(",", ":"))
+    body_parts.append(
+        '<script type="application/json" id="vocab-data">'
+        + popup_json.replace("</", "<\\/") + "</script>"
+    )
 
     body = "\n".join(body_parts)
 
