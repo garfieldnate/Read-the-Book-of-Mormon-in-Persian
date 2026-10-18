@@ -293,6 +293,22 @@ The Persian BoM source rarely writes the unstressed ezafe linker (`-e` / `-ye`) 
 
 ---
 
+## Contextual translation (`tr`)
+
+Each source token whose surface form differs from its headword carries a `tr`: a short English translation of **this form as used in this verse**. The word-tap popup shows it between the gloss and the lemma's dictionary meaning.
+
+```json
+{"fa": "پدرانمان", "gloss": {"src": "pedarān-mān", "gloss": "fathers-1PL.POSS"}, "tr": "our fathers"}
+```
+
+- **Which tokens:** every word token except a bare headword (its `meaning` already is the translation), a separate `می`/`نمی` prefix, and pure grammatical clitics whose gloss has no lexical stem (`را` ACC, `ها` PL). The `token missing tr` lint enforces this.
+- **Translate the form, not the lemma:** carry person, number, tense, mood, possessives, plural, indefinite. `بنگرید` → `behold! (you pl.)`, `بازگشتم` → `I returned`, `بروید` (SBJV) → `(that) you (pl.) go`, `خوابی` → `a dream`, `مرا` → `me (object)`, `خداست` → `is God`.
+- **می + verb** renders as one unit, so the verb's `tr` covers both: `می گفت` → `was saying`.
+- **Compound-verb parts** get their literal sense in context (`بدست` → `into (their) hands`, `نصیحت` → `counsel`); the popup shows the compound's meaning below.
+- No "of"/"the" for ezafe. Short (1–4 words, ~8 max), no final period, lowercase except proper names, God/Lord and "I". Parenthesize an implied pronoun subject when the verse names the subject elsewhere. Plain modern English (`you`, not `thou`); `(sg.)`/`(pl.)` only on "you".
+
+---
+
 ## Interlinear gloss format
 
 Each token in `source.json` may carry a `gloss` sub-object with `src` (romanized transliteration with morphological boundaries) and `gloss` (Leipzig gloss label):

@@ -75,7 +75,7 @@ Build an array of sections matching the chapter structure. Write 3–5 sections 
 }
 ```
 
-Then fill in `"sections"` incrementally.
+Then fill in `"sections"` incrementally. Give each inflected token its `tr` (contextual translation) as you go — see **Contextual translation** in [CONTENT_RULES.md](CONTENT_RULES.md#contextual-translation-tr).
 
 ### Step 3 — Create `chN.study.json` (in chunks)
 
@@ -198,6 +198,7 @@ Warnings printed to stderr:
 - `ezafe double-marked ("e": true on an already-ezafe form): های — <location>` — the token already shows ezafe in its spelling (`ۀ`, the `ی` of `های`, or an explicit kasra), so `"e": true` makes the renderer draw a second kasra. Remove the `"e"` flag (the spelling already carries the ezafe).
 - `ezafe "e": true but gloss has no =EZ: مرد — <location>` — the rendered ezafe and the interlinear gloss disagree. If the word really takes ezafe, add the clitic to the gloss (`"src": "mard=e"`, `"gloss": "man=EZ"`); if not, drop the `"e"` flag.
 - `ezafe in gloss but not marked on token (add "e": true): مورد — <location>` — the **converse** of the previous check: the interlinear gloss annotates an ezafe (`=EZ` clitic, e.g. `"src": "mowred=e"`) but the token has no `"e": true`, so the transliteration shows a linker the rendered Persian silently drops. Add `"e": true` to the token. Words whose ezafe is already orthographic — a final `ۀ`, an explicit kasra, or a final `ی` that is itself the linker (vowel-stems like `دریای`/`خدای`, the `ی` of plural `های`) — and fused ezafe+possessive forms (`خدایمان`, glossed `…-EZ-…POSS`, which already spell the `ی`) are correctly **not** flagged. A final `ی` that belongs to the stem (the src ends in `ī` or `ey` before the ezafe: `xeradmandī=ye`, `pey=e`) does not spell the ezafe, so those tokens **are** flagged.
+- `token missing tr (contextual translation) — N: پدرانمان (Verse 19), …` — these tokens have no `tr`, so tapping them shows no translation of the form. Add a `tr` to each. The rules for which tokens need one, and how to write it, are in CONTENT_RULES.md.
 - `duplicate anchor: vocab-…` — two headword/variant entries generate the same HTML anchor (a repeated `persian`/`id`), which collides their `id`s and breaks in-page links. Merge the entries or give one a distinct `id`.
 - `headword translit mismatch: گنبد / gombad` — a headword's `translit` does not transliterate its `persian` (a consonant is missing or wrong), usually a typo. The `ن`→`m` assimilation before `ب/پ/م` is allowed, so this fires on genuine mismatches only.
 - `grammar example bad ref_anchor: verse-99 (...)` — a grammar-note example's `ref_anchor` points at a section that doesn't exist; fix it to a real anchor (`verse-N`, `chapter-summary`, …).

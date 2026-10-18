@@ -1434,6 +1434,43 @@ def _sets_subsequence(sets: list[frozenset], seq: list[str]) -> bool:
     return all(any(x in s for x in it) for s in sets)
 
 
+def _lint_token_translations(source: dict, study: dict, word_map: dict[str, str],
+                             label: str) -> None:
+    """Flag a token with no `tr` (contextual translation) that needs one.
+
+    The word popup shows `tr` as the meaning of the tapped form. A token
+    needs it unless it is the bare headword (whose meaning already is the
+    translation), a می/نمی prefix (its verb's `tr` covers the unit), or a
+    pure grammatical clitic whose gloss has no lexical stem (`را` ACC,
+    `ها` PL)."""
+    headword_fa: dict[str, str] = {}
+    for sec in study.get("sections", []):
+        for entry in sec.get("entries", []):
+            if entry.get("type") == "headword":
+                entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
+                headword_fa.setdefault(f"vocab-{entry_id}", entry["persian"])
+    missing: list[str] = []
+    for sec in source.get("sections", []):
+        loc = _section_heading(sec)[1]
+        for tok in sec.get("tokens") or []:
+            fa = tok.get("fa")
+            if not fa or fa in _MI_PREFIX or tok.get("tr"):
+                continue
+            labels = _gloss_labels(_tok_gloss(tok))
+            if labels and all(m.isupper() or not m.isalpha() for m in labels):
+                continue
+            lookup = tok.get("lemma") or fa
+            anchor = _resolve_anchor(lookup, word_map) or _resolve_anchor(fa, word_map)
+            if anchor and (_DIACRITICS_RE.sub("", fa)
+                           == _DIACRITICS_RE.sub("", headword_fa.get(anchor, ""))):
+                continue
+            missing.append(f"{fa} ({loc})")
+    if missing:
+        shown = ", ".join(missing[:8]) + ("…" if len(missing) > 8 else "")
+        print(f"  {label}token missing tr (contextual translation) — {len(missing)}: {shown}",
+              file=sys.stderr)
+
+
 def _lint_headword_translit(study: dict, label: str) -> None:
     """Flag a headword whose `translit` does not transliterate its `persian` —
     every strong consonant of the Persian (n/m assimilation aside) should appear,
@@ -1653,6 +1690,7 @@ def render_chapter(
     _lint_plural_clitic_marking(source, label)
     _lint_duplicate_anchors(study, label)
     _lint_headword_translit(study, label)
+    _lint_token_translations(source, study, word_map, label)
     _lint_grammar_examples(source, study, label)
     _lint_reference_anchors(study, label)
 
