@@ -761,7 +761,7 @@ def _build_chapter_toc(source: dict, study: dict) -> str:
 
 
     return (
-        '<nav class="toc"><p class="toc-title">Contents</p><ul>'
+        '<nav class="toc" id="contents"><p class="toc-title">Contents</p><ul>'
         + "".join(items)
         + "</ul></nav>"
     )
@@ -810,12 +810,19 @@ def _render_section(
     audio_dir: Path | None = None,
     audio_href: str = "",
     meaning_map: dict[str, str] | None = None,
+    next_link: tuple[str, str] | None = None,
 ) -> str:
+    """Render one source section. ``next_link`` is (href, label) for the
+    "next" link placed after the section's text (the next section, or the
+    next chapter after the last one)."""
     level, heading_text, heading_id = _section_heading(source_sec)
     location = heading_text
 
+    # The heading doubles as a jump back to the chapter's table of contents.
     parts: list[str] = [
-        f'<h{level} id="{heading_id}">{html_lib.escape(heading_text)}</h{level}>'
+        f'<h{level} id="{heading_id}"><a href="#contents" class="heading-toc-link"'
+        f' title="Back to contents">{html_lib.escape(heading_text)}'
+        f'<span class="toc-up" aria-hidden="true">↑</span></a></h{level}>'
     ]
 
     tokens = source_sec.get("tokens")
@@ -833,6 +840,12 @@ def _render_section(
     en = source_sec.get("en")
     if en:
         parts.append(f'<div class="translation translation-en">{_inline(en, word_map)}</div>')
+
+    if tokens and next_link:
+        parts.append(
+            f'<p class="next-section"><a href="{next_link[0]}">'
+            f'{html_lib.escape(next_link[1])}</a></p>'
+        )
 
     if study_sec is not None:
         entries_html = _render_entries(study_sec.get("entries") or [], word_map, arabic_href)
@@ -1627,7 +1640,15 @@ def render_chapter(
         body_parts.append(_render_prose(vocab_intro, word_map=None))
 
     book_summary_emitted = False
-    for source_sec in source.get("sections", []):
+    source_secs = source.get("sections", [])
+    for sec_idx, source_sec in enumerate(source_secs):
+        if sec_idx + 1 < len(source_secs):
+            _, nxt_text, nxt_id = _section_heading(source_secs[sec_idx + 1])
+            next_link = (f"#{nxt_id}", f"Next: {nxt_text} ↓")
+        elif next:
+            next_link = (next[0], f"Next chapter: {next[1]} →")
+        else:
+            next_link = None
         t = _section_type(source_sec)
         n = source_sec.get("number")
 
@@ -1643,6 +1664,7 @@ def render_chapter(
         body_parts.append(_render_section(
             source_sec, study_sec, word_map, unlinked, arabic_href,
             audio_dir=audio_dir, audio_href=audio_href, meaning_map=meaning_map,
+            next_link=next_link,
         ))
 
 

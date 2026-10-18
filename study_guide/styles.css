@@ -90,6 +90,24 @@ h3 {
   color: var(--accent);
 }
 
+/* Section headings link back to the chapter's table of contents. */
+.heading-toc-link { color: inherit; text-decoration: none; }
+.heading-toc-link .toc-up {
+  font-size: 0.75em; font-weight: 400; margin-left: 0.4em;
+  color: var(--text-muted); opacity: 0.6;
+}
+.heading-toc-link:hover .toc-up { opacity: 1; }
+
+/* "Next: Verse N" link after each section's text, to skip its vocab. */
+.next-section {
+  font-family: var(--font-ui);
+  font-size: 0.85em;
+  text-align: right;
+  margin: 0.4em 0 0.8em;
+}
+.next-section a { color: var(--accent); text-decoration: none; }
+.next-section a:hover { text-decoration: underline; }
+
 /* Source-line markers within a vocab section: small uppercase muted label
    with a subtle dashed rule above. Visible enough to track which line you're on
    in the PDF, quiet enough not to compete with verse/section headings. */
