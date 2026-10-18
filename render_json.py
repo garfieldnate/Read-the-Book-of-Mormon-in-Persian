@@ -92,6 +92,25 @@ _MI_PREFIX: frozenset[str] = frozenset({"می", "نمی"})
 
 # ---------- vocab map construction ----------
 
+# Standalone clitic tokens the publisher writes apart from their host word:
+# the indefinite / 2SG `ای`, perfect auxiliaries, possessives, plural, را.
+_CLITIC_FA = frozenset({"ای", "ام", "ایم", "اید", "اند", "اش", "ات", "مان", "تان",
+                        "شان", "ها", "های", "هایی", "را", "است"})
+
+
+# Of those, the ones that attach to the preceding word (not را / است, which
+# are words in their own right).
+_HOST_CLITIC_FA = _CLITIC_FA - {"را", "است"}
+
+
+def _is_host_clitic(tok: dict) -> bool:
+    """A standalone clitic token glossed with grammatical labels only — so the
+    vocative `ای` "O!" (glossed lexically) is not one."""
+    labels = [m for m in re.split(r"[-=.]", _tok_gloss(tok)) if m]
+    return (tok.get("fa") in _HOST_CLITIC_FA and bool(labels)
+            and all(m.isupper() or not m.isalpha() for m in labels))
+
+
 def _build_vocab_map_json(study: dict) -> dict[str, str]:
     """Return {persian_form: anchor_id} from the structured study JSON.
 
@@ -144,10 +163,13 @@ def _build_vocab_map_json(study: dict) -> dict[str, str]:
     # Pass 3: split components of multiword forms, as a last resort — so a
     # light verb lifted out of a compound (`شد` from `خوشحال شد`) can't
     # claim a slot that a later entry's own form (`شدن`'s `شد`) should hold.
+    # A bare clitic (`ای` from `فرشته ای`, `ام` from `دیده ام`) is never a
+    # component worth linking: it would send every `ای` to "angel".
     for fa, anchor in _forms():
         if " " in fa:
             for tok in fa.split():
-                if tok and tok not in _MI_PREFIX and _PERSIAN_CHAR_RE.search(tok):
+                if (tok and tok not in _MI_PREFIX and tok not in _CLITIC_FA
+                        and _PERSIAN_CHAR_RE.search(tok)):
                     _register(tok, anchor)
 
     return word_map
@@ -294,6 +316,7 @@ def _render_tokens(
     """
     result: list[str] = []
     prev_was_word = False
+    prev_anchor: str | None = None   # host word for a following standalone clitic
     tok_list = list(tokens)
     i = 0
 
@@ -347,14 +370,20 @@ def _render_tokens(
                     if next_tok.get("e"):
                         result.append('<span class="ezafe">ِ</span>')
                     prev_was_word = True
+                    prev_anchor = next_anchor
                     i += 2
                     continue
                 # Next token has no anchor — fall through and render می unlinked below
 
-            # Normal token: look up in vocab map with suffix-stripping fallback
-            anchor = _resolve_anchor(lookup_key, word_map)
-            if anchor is None and lookup_key != fa:
-                anchor = _resolve_anchor(fa, word_map)
+            # A standalone clitic (`ورقه ها`, `فرشته ای`, `دیده ام`) belongs to
+            # the word before it, so it links to that word's entry.
+            if _is_host_clitic(tok) and prev_anchor and not tok.get("lemma"):
+                anchor = prev_anchor
+            else:
+                # Normal token: look up in vocab map with suffix-stripping fallback
+                anchor = _resolve_anchor(lookup_key, word_map)
+                if anchor is None and lookup_key != fa:
+                    anchor = _resolve_anchor(fa, word_map)
 
             fa_html = html_lib.escape(fa)
             if anchor:
@@ -373,12 +402,14 @@ def _render_tokens(
                 result.append('<span class="ezafe">ِ</span>')
 
             prev_was_word = True
+            prev_anchor = anchor
 
         elif "p" in tok:
             result.append(html_lib.escape(tok["p"]))
             # Space after sentence/clause-ending punctuation; not after em-dash
             # or other separators that intentionally run words together.
             prev_was_word = tok["p"] in (".", "،", "؛", ":", "!", "؟", "?")
+            prev_anchor = None
 
         i += 1
 
