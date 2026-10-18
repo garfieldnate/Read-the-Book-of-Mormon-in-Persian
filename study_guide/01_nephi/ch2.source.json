@@ -75,7 +75,8 @@
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
-          }
+          },
+          "tr": "sea"
         },
         {
           "fa": "سرخ",
@@ -96,7 +97,8 @@
           "gloss": {
             "src": "bar-ad",
             "gloss": "carry-PRS-3SG"
-          }
+          },
+          "tr": "takes"
         },
         {
           "p": "."
@@ -149,7 +151,8 @@
           "gloss": {
             "src": "gozār-and",
             "gloss": "leave-PRS-3PL"
-          }
+          },
+          "tr": "(they) leave"
         },
         {
           "p": "—"
@@ -208,7 +211,8 @@
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-PRS-3SG"
-          }
+          },
+          "tr": "(he) does (offers)"
         },
         {
           "fa": "و",
@@ -229,7 +233,8 @@
           "gloss": {
             "src": "pesar-ān-aš",
             "gloss": "son-PL-3SG.POSS"
-          }
+          },
+          "tr": "his sons"
         },
         {
           "fa": "می",
@@ -243,7 +248,8 @@
           "gloss": {
             "src": "āmūz-ad",
             "gloss": "teach-PRS-3SG"
-          }
+          },
+          "tr": "teaches"
         },
         {
           "fa": "تا",
@@ -278,14 +284,16 @@
           "gloss": {
             "src": "negah",
             "gloss": "guard"
-          }
+          },
+          "tr": "guard (keep)"
         },
         {
           "fa": "دارند",
           "gloss": {
             "src": "dār-and",
             "gloss": "hold-SBJV-3PL"
-          }
+          },
+          "tr": "(that) they hold (keep)"
         },
         {
           "p": "—"
@@ -323,7 +331,8 @@
           "gloss": {
             "src": "pedar-ešān",
             "gloss": "father-3PL.POSS"
-          }
+          },
+          "tr": "their father"
         },
         {
           "fa": "غُرولند",
@@ -344,7 +353,8 @@
           "gloss": {
             "src": "kon-and",
             "gloss": "do-PRS-3PL"
-          }
+          },
+          "tr": "(they) do (murmur)"
         },
         {
           "p": "—"
@@ -410,7 +420,8 @@
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-PRS-3SG"
-          }
+          },
+          "tr": "(he) does (prays)"
         },
         {
           "p": "؛"
@@ -455,7 +466,8 @@
           "gloss": {
             "src": "gūy-ad",
             "gloss": "say-PRS-3SG"
-          }
+          },
+          "tr": "speaks"
         },
         {
           "fa": "و",
@@ -476,7 +488,8 @@
           "gloss": {
             "src": "bargozīde",
             "gloss": "chosen"
-          }
+          },
+          "tr": "chosen"
         },
         {
           "fa": "می",
@@ -490,7 +503,8 @@
           "gloss": {
             "src": "šav-ad",
             "gloss": "become-PASS-3SG"
-          }
+          },
+          "tr": "is (passive aux.)"
         },
         {
           "fa": "تا",
@@ -511,7 +525,8 @@
           "gloss": {
             "src": "barādar-ān-aš",
             "gloss": "brother-PL-3SG.POSS"
-          }
+          },
+          "tr": "his brothers"
         },
         {
           "fa": "فرمانروایی",
@@ -525,7 +540,8 @@
           "gloss": {
             "src": "kon-ad",
             "gloss": "do-SBJV-3SG"
-          }
+          },
+          "tr": "(that he) do (rule)"
         },
         {
           "p": "."
@@ -601,7 +617,8 @@
           "gloss": {
             "src": "benegarīd",
             "gloss": "behold-IMP.2PL"
-          }
+          },
+          "tr": "behold! (you pl.)"
         },
         {
           "p": "،"
@@ -618,7 +635,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -646,7 +664,8 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "سخن",
@@ -660,7 +679,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": "،"
@@ -732,7 +752,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "said"
         },
         {
           "p": ":"
@@ -749,7 +770,8 @@
           "gloss": {
             "src": "yāfte",
             "gloss": "found-PP"
-          }
+          },
+          "tr": "received (blessed)"
         },
         {
           "fa": "هستی",
@@ -795,7 +817,8 @@
           "gloss": {
             "src": "kār-hā-yī",
             "gloss": "deed-PL-INDEF"
-          }
+          },
+          "tr": "(the) deeds"
         },
         {
           "fa": "که",
@@ -823,7 +846,8 @@
           "gloss": {
             "src": "dāde",
             "gloss": "given-PP"
-          }
+          },
+          "tr": "done (given)"
         },
         {
           "fa": "ای",
@@ -882,7 +906,8 @@
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "been"
         },
         {
           "fa": "ای",
@@ -924,7 +949,8 @@
           "gloss": {
             "src": "čīz-hā-yī",
             "gloss": "thing-PL-INDEF"
-          }
+          },
+          "tr": "(the) things"
         },
         {
           "fa": "را",
@@ -973,7 +999,8 @@
           "gloss": {
             "src": "dādam",
             "gloss": "gave-PST.1SG"
-          }
+          },
+          "tr": "I gave (commanded)"
         },
         {
           "fa": "اعلام",
@@ -987,7 +1014,8 @@
           "gloss": {
             "src": "namūde",
             "gloss": "shown-PP"
-          }
+          },
+          "tr": "done (declared)"
         },
         {
           "fa": "ای",
@@ -1004,7 +1032,8 @@
           "gloss": {
             "src": "benegar",
             "gloss": "behold-IMP.2SG"
-          }
+          },
+          "tr": "behold! (you sg.)"
         },
         {
           "p": "،"
@@ -1089,7 +1118,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -1110,7 +1140,8 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "را",
@@ -1131,7 +1162,8 @@
           "gloss": {
             "src": "dād",
             "gloss": "gave-PST.3SG"
-          }
+          },
+          "tr": "gave (commanded)"
         },
         {
           "p": "،"
@@ -1193,7 +1225,8 @@
           "gloss": {
             "src": "bāyestī",
             "gloss": "must-PST.3SG"
-          }
+          },
+          "tr": "should, ought to"
         },
         {
           "fa": "خانواده",
@@ -1221,7 +1254,8 @@
           "gloss": {
             "src": "bardār-ad",
             "gloss": "take.up-SBJV.3SG"
-          }
+          },
+          "tr": "(that) he take"
         },
         {
           "fa": "و",
@@ -1249,7 +1283,8 @@
           "gloss": {
             "src": "šavad",
             "gloss": "become-SBJV.3SG"
-          }
+          },
+          "tr": "(that he) become (depart)"
         },
         {
           "p": "."
@@ -1287,7 +1322,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -1330,7 +1366,8 @@
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "was"
         },
         {
           "p": "؛"
@@ -1403,7 +1440,8 @@
           "gloss": {
             "src": "dād",
             "gloss": "gave-PST.3SG"
-          }
+          },
+          "tr": "gave (commanded)"
         },
         {
           "p": "،"
@@ -1420,7 +1458,8 @@
           "gloss": {
             "src": "dād",
             "gloss": "gave-PST.3SG"
-          }
+          },
+          "tr": "(he) gave (did)"
         },
         {
           "p": "."
@@ -1458,7 +1497,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -1493,7 +1533,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "became-PST.3SG"
-          }
+          },
+          "tr": "became (departed)"
         },
         {
           "p": "."
@@ -1545,7 +1586,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (left)"
         },
         {
           "p": "،"
@@ -1570,7 +1612,8 @@
           "gloss": {
             "src": "mīrāsī-aš",
             "gloss": "inherited-3SG.POSS"
-          }
+          },
+          "tr": "his inheritance"
         },
         {
           "fa": "را",
@@ -1594,7 +1637,8 @@
           "gloss": {
             "src": "ṭalā-aš",
             "gloss": "gold-3SG.POSS"
-          }
+          },
+          "tr": "his gold"
         },
         {
           "p": "،"
@@ -1635,14 +1679,16 @@
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
-          }
+          },
+          "tr": "things"
         },
         {
           "fa": "گرانبهایش",
           "gloss": {
             "src": "gerānbahā-aš",
             "gloss": "precious-3SG.POSS"
-          }
+          },
+          "tr": "his precious (things)"
         },
         {
           "fa": "را",
@@ -1673,7 +1719,8 @@
           "gloss": {
             "src": "čīzī",
             "gloss": "thing-INDEF"
-          }
+          },
+          "tr": "thing (nothing)"
         },
         {
           "fa": "بجز",
@@ -1728,7 +1775,8 @@
           "gloss": {
             "src": "čādar-hā",
             "gloss": "tent-PL"
-          }
+          },
+          "tr": "tents"
         },
         {
           "fa": "با",
@@ -1742,14 +1790,16 @@
           "gloss": {
             "src": "xod-aš",
             "gloss": "self-3SG"
-          }
+          },
+          "tr": "himself"
         },
         {
           "fa": "نبرد",
           "gloss": {
             "src": "na-bord",
             "gloss": "NEG-carried-PST.3SG"
-          }
+          },
+          "tr": "he did not take"
         },
         {
           "p": "،"
@@ -1780,7 +1830,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "became-PST.3SG"
-          }
+          },
+          "tr": "became (departed)"
         },
         {
           "p": "."
@@ -1833,7 +1884,8 @@
           "gloss": {
             "src": "marz-hā=ye",
             "gloss": "border-PL=EZ"
-          }
+          },
+          "tr": "borders"
         },
         {
           "fa": "نزدیک",
@@ -1848,14 +1900,16 @@
           "gloss": {
             "src": "karāne=ye",
             "gloss": "shore=EZ"
-          }
+          },
+          "tr": "shore"
         },
         {
           "fa": "دریای",
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
-          }
+          },
+          "tr": "sea"
         },
         {
           "fa": "سرخ",
@@ -1869,7 +1923,8 @@
           "gloss": {
             "src": "āmad",
             "gloss": "came-PST.3SG"
-          }
+          },
+          "tr": "came"
         },
         {
           "p": "؛"
@@ -1914,7 +1969,8 @@
           "gloss": {
             "src": "marz-hā-yī",
             "gloss": "border-PL-INDEF"
-          }
+          },
+          "tr": "(the) borders"
         },
         {
           "fa": "که",
@@ -1928,7 +1984,8 @@
           "gloss": {
             "src": "nazdīk-tar",
             "gloss": "near-COMP"
-          }
+          },
+          "tr": "nearer"
         },
         {
           "fa": "به",
@@ -1942,7 +1999,8 @@
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
-          }
+          },
+          "tr": "sea"
         },
         {
           "fa": "سرخ",
@@ -1970,7 +2028,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (traveled)"
         },
         {
           "p": "؛"
@@ -2025,7 +2084,8 @@
           "gloss": {
             "src": "bargerefte",
             "gloss": "taken-from-PP"
-          }
+          },
+          "tr": "consisting (of)"
         },
         {
           "fa": "از",
@@ -2039,7 +2099,8 @@
           "gloss": {
             "src": "mādar-am",
             "gloss": "mother-1SG.POSS"
-          }
+          },
+          "tr": "my mother"
         },
         {
           "p": "،"
@@ -2067,14 +2128,16 @@
           "gloss": {
             "src": "barādarān=e",
             "gloss": "brother-PL=EZ"
-          }
+          },
+          "tr": "brothers"
         },
         {
           "fa": "ارشدم",
           "gloss": {
             "src": "aršad-am",
             "gloss": "eldest-1SG.POSS"
-          }
+          },
+          "tr": "my elder"
         },
         {
           "p": "،"
@@ -2122,7 +2185,8 @@
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
+          },
+          "tr": "were"
         },
         {
           "p": "،"
@@ -2153,7 +2217,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (traveled)"
         },
         {
           "p": "."
@@ -2191,7 +2256,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -2205,7 +2271,8 @@
           "gloss": {
             "src": "hangāmī",
             "gloss": "when"
-          }
+          },
+          "tr": "when (a time)"
         },
         {
           "fa": "که",
@@ -2261,7 +2328,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "had (traveled)"
         },
         {
           "p": "،"
@@ -2271,7 +2339,8 @@
           "gloss": {
             "src": "čādar-aš",
             "gloss": "tent-3SG.POSS"
-          }
+          },
+          "tr": "his tent"
         },
         {
           "fa": "را",
@@ -2345,7 +2414,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (pitched)"
         },
         {
           "p": "."
@@ -2383,7 +2453,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -2432,7 +2503,8 @@
           "gloss": {
             "src": "sāxt",
             "gloss": "built-PST.3SG"
-          }
+          },
+          "tr": "built"
         },
         {
           "p": "،"
@@ -2449,7 +2521,8 @@
           "gloss": {
             "src": "pīškeš-ī",
             "gloss": "offering-INDEF"
-          }
+          },
+          "tr": "an offering"
         },
         {
           "fa": "برای",
@@ -2470,7 +2543,8 @@
           "gloss": {
             "src": "gozāšt",
             "gloss": "placed-PST.3SG"
-          }
+          },
+          "tr": "placed (made)"
         },
         {
           "p": "،"
@@ -2494,7 +2568,8 @@
           "gloss": {
             "src": "xodā-ye-mān",
             "gloss": "God-EZ-1PL.POSS"
-          }
+          },
+          "tr": "our God"
         },
         {
           "fa": "سَروَر",
@@ -2515,7 +2590,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (gave thanks)"
         },
         {
           "p": "."
@@ -2553,7 +2629,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -2603,7 +2680,8 @@
           "gloss": {
             "src": "xānd",
             "gloss": "called-PST.3SG"
-          }
+          },
+          "tr": "called"
         },
         {
           "p": "،"
@@ -2634,7 +2712,8 @@
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
-          }
+          },
+          "tr": "sea"
         },
         {
           "fa": "سرخ",
@@ -2662,7 +2741,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "became-PST.3SG"
-          }
+          },
+          "tr": "was becoming (emptied)"
         },
         {
           "p": "؛"
@@ -2693,7 +2773,8 @@
           "gloss": {
             "src": "marz-hā=ye",
             "gloss": "border-PL=EZ"
-          }
+          },
+          "tr": "borders"
         },
         {
           "fa": "نزدیک",
@@ -2714,7 +2795,8 @@
           "gloss": {
             "src": "dahāne=ye",
             "gloss": "mouth=EZ"
-          }
+          },
+          "tr": "mouth"
         },
         {
           "fa": "آن",
@@ -2728,7 +2810,8 @@
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "was"
         },
         {
           "p": "."
@@ -2759,7 +2842,8 @@
           "gloss": {
             "src": "hangāmī",
             "gloss": "when"
-          }
+          },
+          "tr": "when (a time)"
         },
         {
           "fa": "که",
@@ -2773,14 +2857,16 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "دید",
           "gloss": {
             "src": "dīd",
             "gloss": "saw-PST.3SG"
-          }
+          },
+          "tr": "saw"
         },
         {
           "fa": "که",
@@ -2794,7 +2880,8 @@
           "gloss": {
             "src": "āb-hā=ye",
             "gloss": "water-PL=EZ"
-          }
+          },
+          "tr": "waters"
         },
         {
           "fa": "رودخانه",
@@ -2815,14 +2902,16 @@
           "gloss": {
             "src": "sarčašme=ye",
             "gloss": "source=EZ"
-          }
+          },
+          "tr": "fountain"
         },
         {
           "fa": "دریای",
           "gloss": {
             "src": "daryā=ye",
             "gloss": "sea=EZ"
-          }
+          },
+          "tr": "sea"
         },
         {
           "fa": "سرخ",
@@ -2850,7 +2939,8 @@
           "gloss": {
             "src": "šodand",
             "gloss": "became-PST.3PL"
-          }
+          },
+          "tr": "were becoming (emptied)"
         },
         {
           "p": "،"
@@ -2888,7 +2978,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": "،"
@@ -2898,7 +2989,8 @@
           "gloss": {
             "src": "goftā",
             "gloss": "said.he-NARR"
-          }
+          },
+          "tr": "he said (saying)"
         },
         {
           "p": ":"
@@ -2943,7 +3035,8 @@
           "gloss": {
             "src": "tavānestī",
             "gloss": "could-PST.2SG"
-          }
+          },
+          "tr": "you (sg.) could"
         },
         {
           "fa": "مانند",
@@ -2972,7 +3065,8 @@
           "gloss": {
             "src": "bāšī",
             "gloss": "be-SBJV.2SG"
-          }
+          },
+          "tr": "(that) you (sg.) be"
         },
         {
           "fa": "پیوسته",
@@ -3000,21 +3094,24 @@
           "gloss": {
             "src": "sarčašme=ye",
             "gloss": "source=EZ"
-          }
+          },
+          "tr": "fountain"
         },
         {
           "fa": "همۀ",
           "gloss": {
             "src": "hame=ye",
             "gloss": "all=EZ"
-          }
+          },
+          "tr": "all"
         },
         {
           "fa": "پرهیزکاریها",
           "gloss": {
             "src": "parhīzkārī-hā",
             "gloss": "righteousness-PL"
-          }
+          },
+          "tr": "righteousness(es)"
         },
         {
           "p": "!"
@@ -3080,7 +3177,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": ":"
@@ -3125,7 +3223,8 @@
           "gloss": {
             "src": "tavānestī",
             "gloss": "could-PST.2SG"
-          }
+          },
+          "tr": "you (sg.) could"
         },
         {
           "fa": "مانند",
@@ -3154,7 +3253,8 @@
           "gloss": {
             "src": "bāšī",
             "gloss": "be-SBJV.2SG"
-          }
+          },
+          "tr": "(that) you (sg.) be"
         },
         {
           "p": "،"
@@ -3313,7 +3413,8 @@
             "src": "sarī=ye",
             "gloss": "necked=EZ"
           },
-          "e": true
+          "e": true,
+          "tr": "headedness (stiffneckedness)"
         },
         {
           "fa": "لامان",
@@ -3341,7 +3442,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": "؛"
@@ -3358,7 +3460,8 @@
           "gloss": {
             "src": "benegarīd",
             "gloss": "behold-IMP.2PL"
-          }
+          },
+          "tr": "behold! (you pl.)"
         },
         {
           "fa": "آنها",
@@ -3387,14 +3490,16 @@
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
-          }
+          },
+          "tr": "things"
         },
         {
           "fa": "بسیاری",
           "gloss": {
             "src": "besyār-ī",
             "gloss": "many-INDEF"
-          }
+          },
+          "tr": "many"
         },
         {
           "fa": "علیه",
@@ -3408,7 +3513,8 @@
           "gloss": {
             "src": "pedar-ešān",
             "gloss": "father-3PL.POSS"
-          }
+          },
+          "tr": "their father"
         },
         {
           "fa": "غُرولند",
@@ -3422,7 +3528,8 @@
           "gloss": {
             "src": "kardand",
             "gloss": "did-PST.3PL"
-          }
+          },
+          "tr": "did (murmur)"
         },
         {
           "p": "،"
@@ -3475,7 +3582,8 @@
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "was"
         },
         {
           "p": "،"
@@ -3557,14 +3665,16 @@
           "gloss": {
             "src": "karde",
             "gloss": "done-PP"
-          }
+          },
+          "tr": "done (led)"
         },
         {
           "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "had"
         },
         {
           "p": "،"
@@ -3589,7 +3699,8 @@
           "gloss": {
             "src": "mīrāsī-šān",
             "gloss": "inherited-3PL.POSS"
-          }
+          },
+          "tr": "their inheritance"
         },
         {
           "fa": "و",
@@ -3603,7 +3714,8 @@
           "gloss": {
             "src": "ṭalā-šān",
             "gloss": "gold-3PL.POSS"
-          }
+          },
+          "tr": "their gold"
         },
         {
           "fa": "و",
@@ -3638,14 +3750,16 @@
           "gloss": {
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
-          }
+          },
+          "tr": "things"
         },
         {
           "fa": "گرانبهایشان",
           "gloss": {
             "src": "gerānbahā-šān",
             "gloss": "precious-3PL.POSS"
-          }
+          },
+          "tr": "their precious (things)"
         },
         {
           "fa": "را",
@@ -3666,7 +3780,8 @@
           "gloss": {
             "src": "gozārand",
             "gloss": "leave-SBJV.3PL"
-          }
+          },
+          "tr": "(that) they leave"
         },
         {
           "p": "،"
@@ -3704,7 +3819,8 @@
           "gloss": {
             "src": "šavand",
             "gloss": "become-SBJV.3PL"
-          }
+          },
+          "tr": "(that they) become (perish)"
         },
         {
           "p": "."
@@ -3742,7 +3858,8 @@
           "gloss": {
             "src": "goftand",
             "gloss": "said-PST.3PL"
-          }
+          },
+          "tr": "they said"
         },
         {
           "fa": "که",
@@ -3778,7 +3895,8 @@
           "gloss": {
             "src": "taṣavvor-hā=ye",
             "gloss": "imagination-PL=EZ"
-          }
+          },
+          "tr": "imaginations"
         },
         {
           "fa": "بی",
@@ -3792,14 +3910,16 @@
           "gloss": {
             "src": "xerad-āne=ye",
             "gloss": "wisdom=EZ"
-          }
+          },
+          "tr": "wise (foolish)"
         },
         {
           "fa": "دلش",
           "gloss": {
             "src": "del-aš",
             "gloss": "heart-3SG.POSS"
-          }
+          },
+          "tr": "his heart"
         },
         {
           "fa": "انجام",
@@ -3813,7 +3933,8 @@
           "gloss": {
             "src": "dāde",
             "gloss": "given-PP"
-          }
+          },
+          "tr": "done (given)"
         },
         {
           "fa": "است",
@@ -3889,14 +4010,16 @@
           "gloss": {
             "src": "aršad-tarīn",
             "gloss": "eldest-SUPERL"
-          }
+          },
+          "tr": "the eldest"
         },
         {
           "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "being"
         },
         {
           "p": "،"
@@ -3913,7 +4036,8 @@
           "gloss": {
             "src": "pedar-ešān",
             "gloss": "father-3PL.POSS"
-          }
+          },
+          "tr": "their father"
         },
         {
           "fa": "غُرولند",
@@ -3927,7 +4051,8 @@
           "gloss": {
             "src": "kardand",
             "gloss": "did-PST.3PL"
-          }
+          },
+          "tr": "did (murmur)"
         },
         {
           "p": "."
@@ -3958,7 +4083,8 @@
           "gloss": {
             "src": "kardand",
             "gloss": "did-PST.3PL"
-          }
+          },
+          "tr": "did (murmur)"
         },
         {
           "fa": "برای",
@@ -3986,7 +4112,8 @@
           "gloss": {
             "src": "kār-hā=ye",
             "gloss": "deed-PL=EZ"
-          }
+          },
+          "tr": "dealings"
         },
         {
           "fa": "آن",
@@ -4000,7 +4127,8 @@
           "gloss": {
             "src": "xodā-yī",
             "gloss": "God-INDEF"
-          }
+          },
+          "tr": "God"
         },
         {
           "fa": "که",
@@ -4028,14 +4156,16 @@
           "gloss": {
             "src": "āfarīde",
             "gloss": "created-PP"
-          }
+          },
+          "tr": "created"
         },
         {
           "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "had"
         },
         {
           "fa": "آگاهی",
@@ -4049,7 +4179,8 @@
           "gloss": {
             "src": "na-dāštand",
             "gloss": "NEG-had-PST.3PL"
-          }
+          },
+          "tr": "they did not have (know)"
         },
         {
           "p": "."
@@ -4094,7 +4225,8 @@
           "gloss": {
             "src": "kardand",
             "gloss": "did-PST.3PL"
-          }
+          },
+          "tr": "did (believe)"
         },
         {
           "fa": "که",
@@ -4150,7 +4282,8 @@
           "gloss": {
             "src": "pāye=ye",
             "gloss": "basis=EZ"
-          }
+          },
+          "tr": "basis (according to)"
         },
         {
           "fa": "سخنان",
@@ -4158,21 +4291,24 @@
           "gloss": {
             "src": "soxan-ān=e",
             "gloss": "word-PL=EZ"
-          }
+          },
+          "tr": "words"
         },
         {
           "fa": "پیامبران",
           "gloss": {
             "src": "peyāmbar-ān",
             "gloss": "prophet-PL"
-          }
+          },
+          "tr": "(the) prophets"
         },
         {
           "fa": "بتواند",
           "gloss": {
             "src": "be-tavānad",
             "gloss": "can-SBJV.3SG"
-          }
+          },
+          "tr": "(that it) could"
         },
         {
           "fa": "نابود",
@@ -4186,7 +4322,8 @@
           "gloss": {
             "src": "šavad",
             "gloss": "become-SBJV.3SG"
-          }
+          },
+          "tr": "become (be destroyed)"
         },
         {
           "p": "."
@@ -4218,14 +4355,16 @@
           "gloss": {
             "src": "yahūdiyān-ī",
             "gloss": "Jew-PL-INDEF"
-          }
+          },
+          "tr": "(the) Jews"
         },
         {
           "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
+          },
+          "tr": "(they) were"
         },
         {
           "fa": "که",
@@ -4253,7 +4392,8 @@
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
+          },
+          "tr": "were"
         },
         {
           "p": "،"
@@ -4263,7 +4403,8 @@
           "gloss": {
             "src": "kasānī",
             "gloss": "persons-INDEF"
-          }
+          },
+          "tr": "those (who)"
         },
         {
           "fa": "که",
@@ -4277,21 +4418,24 @@
           "gloss": {
             "src": "bar-ān",
             "gloss": "upon-that"
-          }
+          },
+          "tr": "upon that (resolved)"
         },
         {
           "fa": "شده",
           "gloss": {
             "src": "šode",
             "gloss": "become-PP"
-          }
+          },
+          "tr": "become"
         },
         {
           "fa": "بودند",
           "gloss": {
             "src": "būdand",
             "gloss": "were-PST.3PL"
-          }
+          },
+          "tr": "had"
         },
         {
           "fa": "تا",
@@ -4313,7 +4457,8 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "را",
@@ -4327,7 +4472,8 @@
           "gloss": {
             "src": "be-gīrand",
             "gloss": "take-SBJV.3PL"
-          }
+          },
+          "tr": "(that) they take"
         },
         {
           "p": "."
@@ -4365,7 +4511,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -4379,7 +4526,8 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "در",
@@ -4435,7 +4583,8 @@
           "gloss": {
             "src": "šode",
             "gloss": "become-PP"
-          }
+          },
+          "tr": "become (filled)"
         },
         {
           "fa": "از",
@@ -4477,7 +4626,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": "،"
@@ -4501,7 +4651,8 @@
           "gloss": {
             "src": "peykar-hā-yešān",
             "gloss": "body-PL-3PL.POSS"
-          }
+          },
+          "tr": "their frames"
         },
         {
           "fa": "در",
@@ -4537,7 +4688,8 @@
           "gloss": {
             "src": "xord",
             "gloss": "received-PST.3SG"
-          }
+          },
+          "tr": "received (did shake)"
         },
         {
           "p": "."
@@ -4582,7 +4734,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "made-PST.3SG"
-          }
+          },
+          "tr": "made (confounded)"
         },
         {
           "p": "،"
@@ -4613,7 +4766,8 @@
           "gloss": {
             "src": "na-kardand",
             "gloss": "NEG-did-PST.3PL"
-          }
+          },
+          "tr": "they did not (dare)"
         },
         {
           "fa": "علیه",
@@ -4634,14 +4788,16 @@
           "gloss": {
             "src": "čīzī",
             "gloss": "thing-INDEF"
-          }
+          },
+          "tr": "anything"
         },
         {
           "fa": "بگویند",
           "gloss": {
             "src": "be-gūyand",
             "gloss": "say-SBJV.3PL"
-          }
+          },
+          "tr": "(that) they say"
         },
         {
           "p": "؛"
@@ -4721,7 +4877,8 @@
           "gloss": {
             "src": "dād",
             "gloss": "gave-PST.3SG"
-          }
+          },
+          "tr": "gave (commanded)"
         },
         {
           "fa": "انجام",
@@ -4735,7 +4892,8 @@
           "gloss": {
             "src": "dādand",
             "gloss": "gave-PST.3PL"
-          }
+          },
+          "tr": "they did"
         },
         {
           "p": "."
@@ -4788,7 +4946,8 @@
           "gloss": {
             "src": "čādarī",
             "gloss": "tent-INDEF"
-          }
+          },
+          "tr": "a tent"
         },
         {
           "fa": "ساکن",
@@ -4802,7 +4961,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "became-PST.3SG"
-          }
+          },
+          "tr": "became (dwelt)"
         },
         {
           "p": "."
@@ -4840,7 +5000,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -4895,7 +5056,8 @@
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "being"
         },
         {
           "p": "،"
@@ -4947,7 +5109,8 @@
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "being"
         },
         {
           "p": "،"
@@ -4979,14 +5142,16 @@
           "gloss": {
             "src": "zīyādī",
             "gloss": "much-INDEF"
-          }
+          },
+          "tr": "great"
         },
         {
           "fa": "داشته",
           "gloss": {
             "src": "dāšte",
             "gloss": "had-PP"
-          }
+          },
+          "tr": "having"
         },
         {
           "fa": "تا",
@@ -5000,7 +5165,8 @@
           "gloss": {
             "src": "rāz-hā=ye",
             "gloss": "secret-PL=EZ"
-          }
+          },
+          "tr": "mysteries"
         },
         {
           "fa": "خدا",
@@ -5021,7 +5187,8 @@
           "gloss": {
             "src": "be-dān-am",
             "gloss": "know-SBJV.1SG"
-          }
+          },
+          "tr": "(that) I know"
         },
         {
           "p": "،"
@@ -5091,7 +5258,8 @@
           "gloss": {
             "src": "kardam",
             "gloss": "did-PST.1SG"
-          }
+          },
+          "tr": "I did (cry)"
         },
         {
           "p": "،"
@@ -5108,7 +5276,8 @@
           "gloss": {
             "src": "benegarīd",
             "gloss": "behold-IMP.2PL"
-          }
+          },
+          "tr": "behold! (you pl.)"
         },
         {
           "fa": "او",
@@ -5136,7 +5305,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "did-PST.3SG"
-          }
+          },
+          "tr": "did (visit)"
         },
         {
           "fa": "و",
@@ -5150,7 +5320,8 @@
           "gloss": {
             "src": "del-am",
             "gloss": "heart-1SG.POSS"
-          }
+          },
+          "tr": "my heart"
         },
         {
           "fa": "را",
@@ -5171,7 +5342,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "made-PST.3SG"
-          }
+          },
+          "tr": "made (softened)"
         },
         {
           "fa": "که",
@@ -5199,14 +5371,16 @@
           "gloss": {
             "src": "hame=ye",
             "gloss": "all=EZ"
-          }
+          },
+          "tr": "all"
         },
         {
           "fa": "سخنانی",
           "gloss": {
             "src": "soxan-ānī",
             "gloss": "word-PL-INDEF"
-          }
+          },
+          "tr": "(the) words"
         },
         {
           "fa": "که",
@@ -5234,28 +5408,32 @@
           "gloss": {
             "src": "pedar-am",
             "gloss": "father-1SG.POSS"
-          }
+          },
+          "tr": "my father"
         },
         {
           "fa": "گفته",
           "gloss": {
             "src": "gofte",
             "gloss": "said-PP"
-          }
+          },
+          "tr": "spoken"
         },
         {
           "fa": "شده",
           "gloss": {
             "src": "šode",
             "gloss": "become-PP"
-          }
+          },
+          "tr": "been (passive aux.)"
         },
         {
           "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "had"
         },
         {
           "p": "،"
@@ -5272,7 +5450,8 @@
           "gloss": {
             "src": "āvardam",
             "gloss": "brought-PST.1SG"
-          }
+          },
+          "tr": "I brought (believed)"
         },
         {
           "p": "."
@@ -5321,7 +5500,8 @@
           "gloss": {
             "src": "barādar-ān-am",
             "gloss": "brother-PL-1SG.POSS"
-          }
+          },
+          "tr": "my brothers"
         },
         {
           "fa": "علیه",
@@ -5349,7 +5529,8 @@
           "gloss": {
             "src": "na-kardam",
             "gloss": "NEG-did-PST.1SG"
-          }
+          },
+          "tr": "I did not (rebel)"
         },
         {
           "p": "."
@@ -5408,7 +5589,8 @@
           "gloss": {
             "src": "goftam",
             "gloss": "said-PST.1SG"
-          }
+          },
+          "tr": "I spoke"
         },
         {
           "fa": "و",
@@ -5422,7 +5604,8 @@
           "gloss": {
             "src": "čīz-hā-yī",
             "gloss": "thing-PL-INDEF"
-          }
+          },
+          "tr": "(the) things"
         },
         {
           "fa": "را",
@@ -5451,7 +5634,8 @@
             "src": "be-dast=e",
             "gloss": "by.hand=EZ"
           },
-          "e": true
+          "e": true,
+          "tr": "by the hand (by)"
         },
         {
           "fa": "روح",
@@ -5466,7 +5650,8 @@
           "gloss": {
             "src": "moqaddas-aš",
             "gloss": "holy-3SG.POSS"
-          }
+          },
+          "tr": "his Holy"
         },
         {
           "fa": "بر",
@@ -5494,14 +5679,16 @@
           "gloss": {
             "src": "karde",
             "gloss": "done-PP"
-          }
+          },
+          "tr": "made (manifested)"
         },
         {
           "fa": "بود",
           "gloss": {
             "src": "būd",
             "gloss": "was-PST.3SG"
-          }
+          },
+          "tr": "had"
         },
         {
           "fa": "بر",
@@ -5529,7 +5716,8 @@
           "gloss": {
             "src": "kard-am",
             "gloss": "made-PST.1SG"
-          }
+          },
+          "tr": "I made (known)"
         },
         {
           "p": "."
@@ -5553,7 +5741,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -5582,7 +5771,8 @@
           "gloss": {
             "src": "soxan-ān=e",
             "gloss": "word-PL=EZ"
-          }
+          },
+          "tr": "words"
         },
         {
           "fa": "من",
@@ -5603,7 +5793,8 @@
           "gloss": {
             "src": "āvord",
             "gloss": "brought-PST.3SG"
-          }
+          },
+          "tr": "he brought (believed)"
         },
         {
           "p": "."
@@ -5634,7 +5825,8 @@
           "gloss": {
             "src": "benegarīd",
             "gloss": "behold-IMP.2PL"
-          }
+          },
+          "tr": "behold! (you pl.)"
         },
         {
           "p": "،"
@@ -5665,7 +5857,8 @@
           "gloss": {
             "src": "na-xāstand",
             "gloss": "NEG-wanted-PST.3PL"
-          }
+          },
+          "tr": "they would not"
         },
         {
           "fa": "سخنان",
@@ -5673,7 +5866,8 @@
           "gloss": {
             "src": "soxan-ān=e",
             "gloss": "word-PL=EZ"
-          }
+          },
+          "tr": "words"
         },
         {
           "fa": "مرا",
@@ -5688,7 +5882,8 @@
           "gloss": {
             "src": "be-guš=e",
             "gloss": "to.ear=EZ"
-          }
+          },
+          "tr": "to the ear"
         },
         {
           "fa": "دل",
@@ -5702,7 +5897,8 @@
           "gloss": {
             "src": "be-pazīrand",
             "gloss": "accept-SBJV.3PL"
-          }
+          },
+          "tr": "(that they) accept"
         },
         {
           "p": "؛"
@@ -5748,21 +5944,24 @@
           "gloss": {
             "src": "delī-hā-yešān",
             "gloss": "heartedness-PL-3PL.POSS"
-          }
+          },
+          "tr": "their heartedness (hardness)"
         },
         {
           "fa": "غمگین",
           "gloss": {
             "src": "qamgīn",
             "gloss": "sad"
-          }
+          },
+          "tr": "grieved"
         },
         {
           "fa": "بوده",
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "being"
         },
         {
           "fa": "برای",
@@ -5804,7 +6003,8 @@
           "gloss": {
             "src": "kardam",
             "gloss": "did-PST.1SG"
-          }
+          },
+          "tr": "I did (cry)"
         },
         {
           "p": "."
@@ -5842,7 +6042,8 @@
           "gloss": {
             "src": "gozašt",
             "gloss": "passed-PST.3SG"
-          }
+          },
+          "tr": "passed (came to pass)"
         },
         {
           "fa": "که",
@@ -5884,7 +6085,8 @@
           "gloss": {
             "src": "goft",
             "gloss": "said-PST.3SG"
-          }
+          },
+          "tr": "spoke"
         },
         {
           "p": "،"
@@ -5894,7 +6096,8 @@
           "gloss": {
             "src": "goftā",
             "gloss": "said.he-NARR"
-          }
+          },
+          "tr": "he said (saying)"
         },
         {
           "p": ":"
@@ -5911,7 +6114,8 @@
           "gloss": {
             "src": "yāfte",
             "gloss": "found-PP"
-          }
+          },
+          "tr": "received (blessed)"
         },
         {
           "fa": "هستی",
@@ -5960,7 +6164,8 @@
           "gloss": {
             "src": "īmān-at",
             "gloss": "faith-2SG.POSS"
-          }
+          },
+          "tr": "your (sg.) faith"
         },
         {
           "p": "،"
@@ -5991,7 +6196,8 @@
           "gloss": {
             "src": "kūšāyī",
             "gloss": "diligence"
-          }
+          },
+          "tr": "diligence"
         },
         {
           "p": "،"
@@ -6008,21 +6214,24 @@
           "gloss": {
             "src": "oftāde",
             "gloss": "humble"
-          }
+          },
+          "tr": "humble (lowly)"
         },
         {
           "fa": "دلی",
           "gloss": {
             "src": "delī",
             "gloss": "heartedness"
-          }
+          },
+          "tr": "heartedness"
         },
         {
           "fa": "جویای",
           "gloss": {
             "src": "jūyā=ye",
             "gloss": "seeking=EZ"
-          }
+          },
+          "tr": "seeking"
         },
         {
           "fa": "من",
@@ -6036,7 +6245,8 @@
           "gloss": {
             "src": "būde",
             "gloss": "been-PP"
-          }
+          },
+          "tr": "been"
         },
         {
           "fa": "ای",
@@ -6081,7 +6291,8 @@
           "gloss": {
             "src": "jāyī",
             "gloss": "place-INDEF"
-          }
+          },
+          "tr": "a place (inasmuch)"
         },
         {
           "fa": "که",
@@ -6123,14 +6334,16 @@
           "gloss": {
             "src": "negāh",
             "gloss": "guard"
-          }
+          },
+          "tr": "guard (keep)"
         },
         {
           "fa": "داری",
           "gloss": {
             "src": "dārī",
             "gloss": "hold-SBJV.2SG"
-          }
+          },
+          "tr": "(that) you (sg.) hold (keep)"
         },
         {
           "p": "،"
@@ -6161,7 +6374,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
-          }
+          },
+          "tr": "become (prosper)"
         },
         {
           "p": "،"
@@ -6221,7 +6435,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
-          }
+          },
+          "tr": "be (passive aux.)"
         },
         {
           "p": "؛"
@@ -6248,7 +6463,8 @@
           "gloss": {
             "src": "sarzamīnī",
             "gloss": "land-INDEF"
-          }
+          },
+          "tr": "a land"
         },
         {
           "fa": "که",
@@ -6290,7 +6506,8 @@
           "gloss": {
             "src": "karde",
             "gloss": "done-PP"
-          }
+          },
+          "tr": "made (prepared)"
         },
         {
           "fa": "ام",
@@ -6317,7 +6534,8 @@
           "gloss": {
             "src": "sarzamīnī",
             "gloss": "land-INDEF"
-          }
+          },
+          "tr": "a land"
         },
         {
           "fa": "که",
@@ -6331,7 +6549,8 @@
           "gloss": {
             "src": "bargozīde",
             "gloss": "chosen"
-          }
+          },
+          "tr": "chosen (choice)"
         },
         {
           "fa": "ای",
@@ -6359,14 +6578,16 @@
           "gloss": {
             "src": "hame=ye",
             "gloss": "all=EZ"
-          }
+          },
+          "tr": "all"
         },
         {
           "fa": "سرزمینهای",
           "gloss": {
             "src": "sarzamīn-hā=ye",
             "gloss": "land-PL=EZ"
-          }
+          },
+          "tr": "lands"
         },
         {
           "fa": "دیگر",
@@ -6418,7 +6639,8 @@
           "gloss": {
             "src": "jāyī",
             "gloss": "place-INDEF"
-          }
+          },
+          "tr": "a place (inasmuch)"
         },
         {
           "fa": "که",
@@ -6433,7 +6655,8 @@
             "src": "barādar-ān=e",
             "gloss": "brother-PL=EZ"
           },
-          "e": true
+          "e": true,
+          "tr": "brothers"
         },
         {
           "fa": "تو",
@@ -6468,7 +6691,8 @@
           "gloss": {
             "src": "konand",
             "gloss": "do-SBJV.3PL"
-          }
+          },
+          "tr": "(they) do (rebel)"
         },
         {
           "p": "،"
@@ -6507,7 +6731,8 @@
           "gloss": {
             "src": "borīde",
             "gloss": "cut-PP"
-          }
+          },
+          "tr": "cut off"
         },
         {
           "fa": "خواهند",
@@ -6521,7 +6746,8 @@
           "gloss": {
             "src": "šod",
             "gloss": "become-INF"
-          }
+          },
+          "tr": "be (passive aux.)"
         },
         {
           "p": "."
@@ -6559,7 +6785,8 @@
           "gloss": {
             "src": "jāyī",
             "gloss": "place-INDEF"
-          }
+          },
+          "tr": "a place (inasmuch)"
         },
         {
           "fa": "که",
@@ -6601,14 +6828,16 @@
           "gloss": {
             "src": "negāh",
             "gloss": "guard"
-          }
+          },
+          "tr": "guard (keep)"
         },
         {
           "fa": "داری",
           "gloss": {
             "src": "dārī",
             "gloss": "hold-SBJV.2SG"
-          }
+          },
+          "tr": "(that) you (sg.) hold (keep)"
         },
         {
           "p": "،"
@@ -6667,7 +6896,8 @@
           "gloss": {
             "src": "barādar-ān-at",
             "gloss": "brother-PL-2SG.POSS"
-          }
+          },
+          "tr": "your (sg.) brothers"
         },
         {
           "fa": "خواهی",
@@ -6681,7 +6911,8 @@
           "gloss": {
             "src": "būd",
             "gloss": "be-INF"
-          }
+          },
+          "tr": "be"
         },
         {
           "p": "."
@@ -6712,7 +6943,8 @@
           "gloss": {
             "src": "benegar",
             "gloss": "behold-IMP.2SG"
-          }
+          },
+          "tr": "behold! (you sg.)"
         },
         {
           "p": "،"
@@ -6736,7 +6968,8 @@
           "gloss": {
             "src": "rūzī",
             "gloss": "day-INDEF"
-          }
+          },
+          "tr": "day"
         },
         {
           "fa": "که",
@@ -6778,7 +7011,8 @@
           "gloss": {
             "src": "konand",
             "gloss": "do-SBJV.3PL"
-          }
+          },
+          "tr": "(they) do (rebel)"
         },
         {
           "p": "،"
@@ -6823,7 +7057,8 @@
           "gloss": {
             "src": "kard",
             "gloss": "do-INF"
-          }
+          },
+          "tr": "do (curse)"
         },
         {
           "fa": "یعنی",
@@ -6844,14 +7079,16 @@
           "gloss": {
             "src": "nafrīnī",
             "gloss": "curse-INDEF"
-          }
+          },
+          "tr": "a curse"
         },
         {
           "fa": "دردناک",
           "gloss": {
             "src": "dard-nāk",
             "gloss": "painful"
-          }
+          },
+          "tr": "painful (sore)"
         },
         {
           "p": "،"
@@ -6882,7 +7119,8 @@
           "gloss": {
             "src": "qodratī",
             "gloss": "power-INDEF"
-          }
+          },
+          "tr": "(any) power"
         },
         {
           "fa": "بر",
@@ -6897,7 +7135,8 @@
           "gloss": {
             "src": "navāde-gān=e",
             "gloss": "descendant-PL=EZ"
-          }
+          },
+          "tr": "descendants (seed)"
         },
         {
           "fa": "تو",
@@ -6918,7 +7157,8 @@
           "gloss": {
             "src": "dāšt",
             "gloss": "have-INF"
-          }
+          },
+          "tr": "have"
         },
         {
           "fa": "جز",
@@ -6974,7 +7214,8 @@
           "gloss": {
             "src": "konand",
             "gloss": "do-SBJV.3PL"
-          }
+          },
+          "tr": "(they) do (rebel)"
         },
         {
           "p": "."
@@ -7019,7 +7260,8 @@
           "gloss": {
             "src": "bāšad",
             "gloss": "be-SBJV.3SG"
-          }
+          },
+          "tr": "(it) be"
         },
         {
           "fa": "که",
@@ -7061,7 +7303,8 @@
           "gloss": {
             "src": "konand",
             "gloss": "do-SBJV.3PL"
-          }
+          },
+          "tr": "(they) do (rebel)"
         },
         {
           "p": "،"
@@ -7086,7 +7329,8 @@
           "gloss": {
             "src": "navāde-gān=e",
             "gloss": "descendant-PL=EZ"
-          }
+          },
+          "tr": "descendants (seed)"
         },
         {
           "fa": "تو",
@@ -7121,7 +7365,8 @@
           "gloss": {
             "src": "būd",
             "gloss": "be-INF"
-          }
+          },
+          "tr": "be"
         },
         {
           "p": "،"
@@ -7173,14 +7418,16 @@
           "gloss": {
             "src": "yādāvarī",
             "gloss": "remembrance"
-          }
+          },
+          "tr": "remembrance"
         },
         {
           "fa": "برانگیزند",
           "gloss": {
             "src": "bar-angīzand",
             "gloss": "rouse-SBJV.3PL"
-          }
+          },
+          "tr": "(that) they stir up"
         },
         {
           "p": "."

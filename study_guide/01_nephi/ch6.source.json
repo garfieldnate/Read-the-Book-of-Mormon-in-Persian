@@ -43,7 +43,8 @@
       "src": "omūr=e",
       "gloss": "affairs=EZ"
      },
-     "e": true
+     "e": true,
+     "tr": "things, affairs"
     },
     {
      "fa": "خدا",
@@ -64,7 +65,8 @@
      "gloss": {
       "src": "nevīs-ad",
       "gloss": "write-PRS-3SG"
-     }
+     },
+     "tr": "writes"
     },
     {
      "p": "—"
@@ -110,7 +112,8 @@
      "gloss": {
       "src": "ādamiyān",
       "gloss": "men"
-     }
+     },
+     "tr": "men (people)"
     },
     {
      "fa": "را",
@@ -131,7 +134,8 @@
      "gloss": {
       "src": "kon-ad",
       "gloss": "do-SBJV-3SG"
-     }
+     },
+     "tr": "(that) he may do (persuade)"
     },
     {
      "fa": "تا",
@@ -152,14 +156,16 @@
      "gloss": {
       "src": "sūy",
       "gloss": "toward"
-     }
+     },
+     "tr": "direction (toward)"
     },
     {
      "fa": "خدای",
      "gloss": {
       "src": "xodā",
       "gloss": "God"
-     }
+     },
+     "tr": "God"
     },
     {
      "fa": "ابراهیم",
@@ -173,7 +179,8 @@
      "gloss": {
       "src": "āy-and",
       "gloss": "come-SBJV-3PL"
-     }
+     },
+     "tr": "(that) they come"
     },
     {
      "fa": "و",
@@ -194,7 +201,8 @@
      "gloss": {
       "src": "yāb-and",
       "gloss": "find-SBJV-3PL"
-     }
+     },
+     "tr": "(that) they find (be saved)"
     },
     {
      "p": "."
@@ -314,14 +322,16 @@
      "gloss": {
       "src": "xāndān-nāme=ye",
       "gloss": "genealogy=EZ"
-     }
+     },
+     "tr": "genealogy"
     },
     {
      "fa": "پدرانم",
      "gloss": {
       "src": "pedarān-am",
       "gloss": "fathers-1SG.POSS"
-     }
+     },
+     "tr": "my fathers"
     },
     {
      "fa": "را",
@@ -384,7 +394,8 @@
      "gloss": {
       "src": "āvar-am",
       "gloss": "bring-PRS-1SG"
-     }
+     },
+     "tr": "give (set down)"
     },
     {
      "p": "؛"
@@ -422,7 +433,8 @@
      "gloss": {
       "src": "dīgar-ī",
       "gloss": "other-INDEF"
-     }
+     },
+     "tr": "other"
     },
     {
      "fa": "آن",
@@ -485,7 +497,8 @@
      "gloss": {
       "src": "nevīs-am",
       "gloss": "write-PRS-1SG"
-     }
+     },
+     "tr": "I am writing"
     },
     {
      "fa": "خواهم",
@@ -499,7 +512,8 @@
      "gloss": {
       "src": "āvord",
       "gloss": "bring-INF.PST"
-     }
+     },
+     "tr": "give (set down)"
     },
     {
      "p": "؛"
@@ -544,14 +558,16 @@
      "gloss": {
       "src": "āvarde",
       "gloss": "bring-PTCP"
-     }
+     },
+     "tr": "given (set down)"
     },
     {
      "fa": "شده",
      "gloss": {
       "src": "šode",
       "gloss": "become-PTCP"
-     }
+     },
+     "tr": "become (passive aux.)"
     },
     {
      "fa": "که",
@@ -580,7 +596,8 @@
      "gloss": {
       "src": "pedar-am",
       "gloss": "father-1SG.POSS"
-     }
+     },
+     "tr": "my father"
     },
     {
      "fa": "نگارش",
@@ -594,7 +611,8 @@
      "gloss": {
       "src": "šode",
       "gloss": "become-PTCP"
-     }
+     },
+     "tr": "become (passive aux.)"
     },
     {
      "fa": "است",
@@ -684,7 +702,8 @@
      "gloss": {
       "src": "nevīs-am",
       "gloss": "write-PRS-1SG"
-     }
+     },
+     "tr": "write"
     },
     {
      "p": "."
@@ -743,7 +762,8 @@
      "gloss": {
       "src": "be-gūy-am",
       "gloss": "SBJV-say-1SG"
-     }
+     },
+     "tr": "(that) I say"
     },
     {
      "fa": "که",
@@ -772,7 +792,8 @@
       "src": "navādegān=e",
       "gloss": "descendants=EZ"
      },
-     "e": true
+     "e": true,
+     "tr": "descendants"
     },
     {
      "fa": "یوسف",
@@ -786,7 +807,8 @@
      "gloss": {
       "src": "hast-īm",
       "gloss": "be-PRS.1PL"
-     }
+     },
+     "tr": "we are"
     },
     {
      "p": "."
@@ -838,7 +860,8 @@
      "gloss": {
       "src": "nīst",
       "gloss": "be.NEG-PRS.3SG"
-     }
+     },
+     "tr": "is not"
     },
     {
      "fa": "که",
@@ -875,7 +898,8 @@
      "gloss": {
       "src": "kāmel-ī",
       "gloss": "complete-INDEF"
-     }
+     },
+     "tr": "a full"
     },
     {
      "fa": "از",
@@ -889,7 +913,8 @@
      "gloss": {
       "src": "hame=ye",
       "gloss": "all=EZ"
-     }
+     },
+     "tr": "all"
     },
     {
      "fa": "امور",
@@ -897,35 +922,40 @@
       "src": "omūr=e",
       "gloss": "affairs=EZ"
      },
-     "e": true
+     "e": true,
+     "tr": "things"
     },
     {
      "fa": "پدرم",
      "gloss": {
       "src": "pedar-am",
       "gloss": "father-1SG.POSS"
-     }
+     },
+     "tr": "my father"
     },
     {
      "fa": "نکته",
      "gloss": {
       "src": "nokte",
       "gloss": "point"
-     }
+     },
+     "tr": "point"
     },
     {
      "fa": "بین",
      "gloss": {
       "src": "bīn",
       "gloss": "seeing"
-     }
+     },
+     "tr": "seeing"
     },
     {
      "fa": "باشم",
      "gloss": {
       "src": "bāš-am",
       "gloss": "be-SBJV-1SG"
-     }
+     },
+     "tr": "(that) I be"
     },
     {
      "p": "،"
@@ -956,7 +986,8 @@
      "gloss": {
       "src": "tavān-and",
       "gloss": "can-PRS-3PL"
-     }
+     },
+     "tr": "(they) can"
     },
     {
      "fa": "روی",
@@ -998,7 +1029,8 @@
      "gloss": {
       "src": "šav-and",
       "gloss": "become-SBJV-3PL"
-     }
+     },
+     "tr": "be (written)"
     },
     {
      "fa": "زیرا",
@@ -1019,7 +1051,8 @@
      "gloss": {
       "src": "xāstār-am",
       "gloss": "desirous-COP.1SG"
-     }
+     },
+     "tr": "I desire"
     },
     {
      "fa": "تا",
@@ -1041,7 +1074,8 @@
       "src": "omūr=e",
       "gloss": "affairs=EZ"
      },
-     "e": true
+     "e": true,
+     "tr": "things"
     },
     {
      "fa": "خدا",
@@ -1069,7 +1103,8 @@
      "gloss": {
       "src": "be-nevīs-am",
       "gloss": "SBJV-write-1SG"
-     }
+     },
+     "tr": "(that) I write"
     },
     {
      "p": "."
@@ -1144,7 +1179,8 @@
      "gloss": {
       "src": "ādamiyān",
       "gloss": "men"
-     }
+     },
+     "tr": "men"
     },
     {
      "fa": "را",
@@ -1165,7 +1201,8 @@
      "gloss": {
       "src": "kon-am",
       "gloss": "do-SBJV-1SG"
-     }
+     },
+     "tr": "(that) I do (persuade)"
     },
     {
      "fa": "تا",
@@ -1186,14 +1223,16 @@
      "gloss": {
       "src": "sūy",
       "gloss": "toward"
-     }
+     },
+     "tr": "direction (toward)"
     },
     {
      "fa": "خدای",
      "gloss": {
       "src": "xodā",
       "gloss": "God"
-     }
+     },
+     "tr": "God"
     },
     {
      "fa": "ابراهیم",
@@ -1217,7 +1256,8 @@
      "gloss": {
       "src": "xodā",
       "gloss": "God"
-     }
+     },
+     "tr": "God"
     },
     {
      "fa": "اسحاق",
@@ -1241,7 +1281,8 @@
      "gloss": {
       "src": "xodā",
       "gloss": "God"
-     }
+     },
+     "tr": "God"
     },
     {
      "fa": "یعقوب",
@@ -1255,7 +1296,8 @@
      "gloss": {
       "src": "āy-and",
       "gloss": "come-SBJV-3PL"
-     }
+     },
+     "tr": "(that) they come"
     },
     {
      "p": "،"
@@ -1279,7 +1321,8 @@
      "gloss": {
       "src": "yāb-and",
       "gloss": "find-SBJV-3PL"
-     }
+     },
+     "tr": "(that) they find (be saved)"
     },
     {
      "p": "."
@@ -1327,7 +1370,8 @@
      "gloss": {
       "src": "čīzhā-yī",
       "gloss": "things-INDEF"
-     }
+     },
+     "tr": "things"
     },
     {
      "fa": "که",
@@ -1362,7 +1406,8 @@
      "gloss": {
       "src": "hast-and",
       "gloss": "be-PRS.3PL"
-     }
+     },
+     "tr": "are"
     },
     {
      "fa": "را",
@@ -1390,7 +1435,8 @@
      "gloss": {
       "src": "nevīs-am",
       "gloss": "write-PRS-1SG"
-     }
+     },
+     "tr": "I write"
     },
     {
      "p": "،"
@@ -1407,7 +1453,8 @@
      "gloss": {
       "src": "čīzhā-yī",
       "gloss": "things-INDEF"
-     }
+     },
+     "tr": "things"
     },
     {
      "fa": "که",
@@ -1442,7 +1489,8 @@
      "gloss": {
       "src": "kasān-ī",
       "gloss": "persons-INDEF"
-     }
+     },
+     "tr": "those"
     },
     {
      "fa": "که",
@@ -1470,7 +1518,8 @@
      "gloss": {
       "src": "nīst-and",
       "gloss": "be.NEG-PRS-3PL"
-     }
+     },
+     "tr": "are not"
     },
     {
      "fa": "دلپذیر",
@@ -1484,7 +1533,8 @@
      "gloss": {
       "src": "hast-and",
       "gloss": "be-PRS.3PL"
-     }
+     },
+     "tr": "are"
     },
     {
      "p": "."
@@ -1546,7 +1596,8 @@
      "gloss": {
       "src": "navādegān-am",
       "gloss": "descendants-1SG.POSS"
-     }
+     },
+     "tr": "my descendants (seed)"
     },
     {
      "fa": "فرمان",
@@ -1567,7 +1618,8 @@
      "gloss": {
       "src": "deh-am",
       "gloss": "give-PRS-1SG"
-     }
+     },
+     "tr": "I give (command)"
     },
     {
      "p": "،"
@@ -1626,7 +1678,8 @@
      "gloss": {
       "src": "čīzhā-yī",
       "gloss": "things-INDEF"
-     }
+     },
+     "tr": "things"
     },
     {
      "fa": "که",
@@ -1648,7 +1701,8 @@
       "src": "farzandān=e",
       "gloss": "children=EZ"
      },
-     "e": true
+     "e": true,
+     "tr": "children"
     },
     {
      "fa": "آدمی",
@@ -1676,7 +1730,8 @@
      "gloss": {
       "src": "nīst-and",
       "gloss": "be.NEG-PRS-3PL"
-     }
+     },
+     "tr": "are not"
     },
     {
      "fa": "پُر",
@@ -1690,7 +1745,8 @@
      "gloss": {
       "src": "na-kon-and",
       "gloss": "NEG-do-SBJV-3PL"
-     }
+     },
+     "tr": "(that) they not make (fill)"
     },
     {
      "p": "."
