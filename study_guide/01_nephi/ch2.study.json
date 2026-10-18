@@ -1365,7 +1365,7 @@
 					"type": "headword",
 					"id": "نگریستن",
 					"persian": "نگریستن",
-					"translit": "negerīstan",
+					"translit": "negarīstan",
 					"meaning": "to look, behold, gaze",
 					"pos": "verb",
 					"tags": [],
@@ -1384,7 +1384,7 @@
 						},
 						{
 							"fa": "نگریست",
-							"desc": "3sg past `نگریست` _negerīst_"
+							"desc": "3sg past `نگریست` _negarīst_"
 						},
 						{
 							"fa": "می نگرد",
@@ -3576,7 +3576,7 @@
 						"suffixes": [
 							{
 								"persian": "رؤیانگران",
-								"translit": "roʾyā-negerān",
+								"translit": "roʾyā-negarān",
 								"note": "standard"
 							},
 							{
