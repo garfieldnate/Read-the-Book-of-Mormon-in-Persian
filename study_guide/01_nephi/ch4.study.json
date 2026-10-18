@@ -819,8 +819,7 @@
               "fa": "می رفتم",
               "desc": "1sg impf. past `می رفتم` _mī-raftam_ ([verse 20](#verse-20), [verse 27](#verse-27))"
             }
-          ],
-          "note": null
+          ]
         },
         {
           "type": "headword",
@@ -853,8 +852,7 @@
               "fa": "بیایی",
               "desc": "2sg subj. `بیایی` _bīyāyī_ ([verse 34](#verse-34))"
             }
-          ],
-          "warning": null
+          ]
         },
         {
           "type": "headword",
@@ -1200,9 +1198,7 @@
             {
               "fa": "خواهی داشت",
               "desc": "2sg future `خواهی داشت` _xāhī dāšt_ \"thou shalt have\" ([verse 34](#verse-34))"
-            }
-          ],
-          "note": [
+            },
             {
               "note": "`داشتن` drops `می-` in the present indicative: `دارد`, never `*می‌دارد`. Its prefixed compounds (`برداشتن`, `نگه داشتن`) behave differently."
             }
@@ -1979,9 +1975,7 @@
             {
               "fa": "داده",
               "desc": "past participle `داده` _dāde_ — in `فرمان داده است`, `انجام داده بودم` ([verse 20](#verse-20), [verse 34](#verse-34))"
-            }
-          ],
-          "note": [
+            },
             {
               "note": "Suppletive present stem `ده-` _deh-_, not derived from the past stem `داد-`."
             }
@@ -2595,14 +2589,12 @@
             {
               "fa": "نمی",
               "desc": "verse 34's source reads `نمی می بایستی` — a dittography of `می`; the `نمی` negates the modal, i.e. `نمی‌بایستی` \"ought not\" ([verse 34](#verse-34))"
-            }
-          ],
-          "id": "بایستن",
-          "note": [
+            },
             {
               "note": "An impersonal verb: it does not inflect for the subject. The logical subject's action follows in the subjunctive."
             }
-          ]
+          ],
+          "id": "بایستن"
         },
         {
           "type": "headword",
@@ -3223,11 +3215,9 @@
             {
               "fa": "خواهی",
               "desc": "2sg future aux. `خواهی` _xāhī_ — `خواهی داشت` \"thou shalt have\" ([verse 34](#verse-34))"
-            }
-          ],
-          "note": [
+            },
             {
-              "note": "Two uses: (1) full verb \"to want\" (`خواستم` \"I wanted\"); (2) future auxiliary — present stem `خواه-` + past-stem infinitive, no `بـ-`/`می-` (`خواهد بود` \"will be\"). See [Grammar: Future tense](#grammar-future-tense)."
+              "note": "Two uses: (1) full verb \"to want\" (`خواستم` \"I wanted\"); (2) future auxiliary — present stem `خواه-` + past-stem infinitive, no `بـ-`/`می-` (`خواهد بود` \"will be\"). See [Grammar: Future tense](#grammar-future-tense-past-stem-infinitive)."
             }
           ]
         },
@@ -3390,14 +3380,12 @@
             {
               "fa": "برداشتیم",
               "desc": "1pl past `برداشتیم` _bar-dāštīm_ \"we took\" ([verse 38](#verse-38))"
-            }
-          ],
-          "id": "برداشتن",
-          "note": [
+            },
             {
               "note": "Prefixed compound of `داشتن`. Unlike bare `داشتن` (which drops `می-`), the separable-prefix compounds take `می-`: `برمی دارم` \"I take up.\""
             }
-          ]
+          ],
+          "id": "برداشتن"
         },
         {
           "type": "headword",
@@ -3565,7 +3553,6 @@
           "translit": "behtar",
           "meaning": "better",
           "pos": "adj",
-          "note": null,
           "family": "Suppletive comparative of `خوب` _xūb_ / `به` _beh_ \"good.\" Superlative `بهترین` _behtarīn_ \"best.\""
         },
         {

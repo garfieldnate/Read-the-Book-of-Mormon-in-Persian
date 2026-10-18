@@ -1769,6 +1769,14 @@ def render_chapter(
                 pos = entry.get("pos")
                 persian = entry.get("persian", "?")
 
+                # Prose notes belong in `forms` as {"note": …}; an entry-level
+                # `note` (or a null `warning`) is never rendered.
+                if "note" in entry:
+                    print(f"  {label}headword has entry-level note (move it into forms): {persian}",
+                          file=sys.stderr)
+                if "warning" in entry and not isinstance(entry["warning"], str):
+                    print(f"  {label}headword warning is not a string: {persian}", file=sys.stderr)
+
                 # Required scalar fields
                 if not entry.get("translit"):
                     print(f"  {label}headword missing translit: {persian}", file=sys.stderr)
