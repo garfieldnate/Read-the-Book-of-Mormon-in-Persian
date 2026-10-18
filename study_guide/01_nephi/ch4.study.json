@@ -1428,7 +1428,7 @@
           "forms": [
             {
               "fa": "پدرانمان",
-              "desc": "pl. + 1pl poss. `پدرانمان` _pedarān-mān_ \"our fathers\" ([verse 2](#verse-2), [verse 3](#verse-3))"
+              "desc": "pl. + 1pl poss. `پدرانمان` _pedarān-emān_ \"our fathers\" ([verse 2](#verse-2), [verse 3](#verse-3))"
             },
             {
               "fa": "پدرم",
@@ -1436,7 +1436,7 @@
             },
             {
               "fa": "پدرمان",
-              "desc": "1pl poss. `پدرمان` _pedar-mān_ \"our father\" ([verse 35](#verse-35), [verse 38](#verse-38))"
+              "desc": "1pl poss. `پدرمان` _pedar-emān_ \"our father\" ([verse 35](#verse-35), [verse 38](#verse-38))"
             }
           ]
         },
@@ -2309,7 +2309,7 @@
             },
             {
               "fa": "خودمان",
-              "desc": "`خودمان` _xod-mān_ \"ourselves, our own\" ([verse 32](#verse-32))"
+              "desc": "`خودمان` _xod-emān_ \"ourselves, our own\" ([verse 32](#verse-32))"
             }
           ]
         },
@@ -5716,7 +5716,7 @@
           "forms": [
             {
               "fa": "ترسمان",
-              "desc": "+ 1pl poss. `ترسمان` _tars-mān_ \"our fear\" ([verse 37](#verse-37))"
+              "desc": "+ 1pl poss. `ترسمان` _tars-emān_ \"our fear\" ([verse 37](#verse-37))"
             }
           ],
           "family": "`ترسیدن` _tarsīdan_ \"to fear\" ([verse 33](#verse-33))."
@@ -5806,7 +5806,7 @@
           "forms": [
             {
               "fa": "چادر",
-              "desc": "ezafe `چادر پدرمان` _čādr-e pedar-mān_ \"the tent of our father\" ([verse 38](#verse-38))"
+              "desc": "ezafe `چادر پدرمان` _čādr-e pedar-emān_ \"the tent of our father\" ([verse 38](#verse-38))"
             }
           ]
         }

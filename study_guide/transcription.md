@@ -19,7 +19,9 @@ These study guides use academic transliteration with macrons for long vowels.
 | Ezafe (`–ـِ` / `–ی`)                                                        | `-e` after consonant, `-ye` after vowel |
 | Object marker (`–را`)                                                       | `-rā`                                   |
 | Indefinite (`–ی`)                                                           | `-ī`                                    |
-| Possessive suffixes (`–م` · `–ت` · `–ش` · `–مان` · `–تان` · `–شان`)       | `-am -at -aš -mān -tān -šān`            |
+| Possessive suffixes (`–م` · `–ت` · `–ش` · `–مان` · `–تان` · `–شان`)       | `-am -at -aš -emān -etān -ešān` (`-mān -tān -šān` after a vowel) |
+
+The plural possessives take a linking `-e-` after a consonant, as in `پدرمان` _pedar-emān_ "our father" or `پسرانشان` _pesarān-ešān_ "their sons". After a vowel they attach directly: `خانه‌مان` _xāne-mān_ "our house".
 
 Long vowels always get macrons; short vowels never do. Write clitics with a hyphen. Capitalize proper nouns.
 

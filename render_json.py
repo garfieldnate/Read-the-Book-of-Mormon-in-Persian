@@ -1434,6 +1434,21 @@ def _sets_subsequence(sets: list[frozenset], seq: list[str]) -> bool:
     return all(any(x in s for x in it) for s in sets)
 
 
+_POSS_NO_LINKER_RE = re.compile(r"[^aeiouāīūy\-]-(mān|tān|šān)$")
+
+
+def _lint_possessive_linker(source: dict, label: str) -> None:
+    """Flag a plural possessive written without its linking `-e-` after a
+    consonant (`pedar-mān` for `pedar-emān`)."""
+    for sec in source.get("sections", []):
+        loc = _section_heading(sec)[1]
+        for tok in sec.get("tokens") or []:
+            src = ((tok.get("gloss") or {}).get("src") or "").strip()
+            if "POSS" in _tok_gloss(tok) and _POSS_NO_LINKER_RE.search(src):
+                print(f"  {label}possessive after a consonant needs -e-: "
+                      f"{tok['fa']} '{src}' — {loc}", file=sys.stderr)
+
+
 def _lint_token_translations(source: dict, study: dict, word_map: dict[str, str],
                              label: str) -> None:
     """Flag a token with no `tr` (contextual translation) that needs one.
@@ -1691,6 +1706,7 @@ def render_chapter(
     _lint_duplicate_anchors(study, label)
     _lint_headword_translit(study, label)
     _lint_token_translations(source, study, word_map, label)
+    _lint_possessive_linker(source, label)
     _lint_grammar_examples(source, study, label)
     _lint_reference_anchors(study, label)
 

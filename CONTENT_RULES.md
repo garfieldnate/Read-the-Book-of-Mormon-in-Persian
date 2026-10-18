@@ -258,7 +258,7 @@ Grammar notes do not get a separate top-level section — they are entries woven
 - Indefinite marker `-ī` on nouns
 - Direct-object marker `را` and its position after a noun phrase
 - Compound verbs (noun/adjective + `کردن` / `شدن`)
-- Possessive / pronominal suffixes `-am -at -aš -mān -tān -šān`
+- Possessive / pronominal suffixes `-am -at -aš -emān -etān -ešān` (plural ones without the `-e-` after a vowel: `xāne-mān`)
 - Archaic / biblical register: `گفتا` narrative `-ā`, `آری`, `بنگرید`, `سرور` for "the Lord", bookish verbs like `نگاشتن`, `نیایش کردن`, `بانگ برآوردن`
 - Relative clauses with `که`
 - Imperfective `می-` and its negation `نمی-`
@@ -298,7 +298,7 @@ The Persian BoM source rarely writes the unstressed ezafe linker (`-e` / `-ye`) 
 Each source token whose surface form differs from its headword carries a `tr`: a short English translation of **this form as used in this verse**. The word-tap popup shows it between the gloss and the lemma's dictionary meaning.
 
 ```json
-{"fa": "پدرانمان", "gloss": {"src": "pedarān-mān", "gloss": "fathers-1PL.POSS"}, "tr": "our fathers"}
+{"fa": "پدرانمان", "gloss": {"src": "pedarān-emān", "gloss": "fathers-1PL.POSS"}, "tr": "our fathers"}
 ```
 
 - **Which tokens:** every word token except a bare headword (its `meaning` already is the translation), a separate `می`/`نمی` prefix, and pure grammatical clitics whose gloss has no lexical stem (`را` ACC, `ها` PL). The `token missing tr` lint enforces this.

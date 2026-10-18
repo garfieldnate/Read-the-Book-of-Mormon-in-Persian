@@ -224,7 +224,7 @@
      "forms": [
       {
        "fa": "پسرانشان",
-       "desc": "`پسرانشان` _pesarān-šān_ \"their sons\" ([summary](#chapter-summary))"
+       "desc": "`پسرانشان` _pesarān-ešān_ \"their sons\" ([summary](#chapter-summary))"
       },
       {
        "fa": "پسرانم",
@@ -901,7 +901,7 @@
      "forms": [
       {
        "fa": "پدرمان",
-       "desc": "`پدرمان` _pedar-mān_ \"our father\" ([verse 1](#verse-1))"
+       "desc": "`پدرمان` _pedar-emān_ \"our father\" ([verse 1](#verse-1))"
       },
       {
        "fa": "پدرم",
@@ -1255,7 +1255,7 @@
        "ref": "Verse 1",
        "ref_anchor": "verse-1",
        "persian": "پدرمان",
-       "translit": "pedar-mān",
+       "translit": "pedar-emān",
        "en": "our father"
       },
       {
@@ -1269,7 +1269,7 @@
        "ref": "Chapter summary",
        "ref_anchor": "chapter-summary",
        "persian": "پسرانشان",
-       "translit": "pesarān-šān",
+       "translit": "pesarān-ešān",
        "en": "their sons"
       }
      ]
@@ -4052,7 +4052,7 @@
      "forms": [
       {
        "fa": "فرزندانمان",
-       "desc": "`فرزندانمان` _farzandān-mān_ \"our children\" ([verse 21](#verse-21))"
+       "desc": "`فرزندانمان` _farzandān-emān_ \"our children\" ([verse 21](#verse-21))"
       }
      ]
     }
