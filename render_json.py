@@ -164,6 +164,15 @@ def _build_popup_data(study: dict, word_map: dict[str, str]) -> dict[str, dict]:
     data: dict[str, dict] = {}
     for section in study.get("sections", []):
         for entry in section.get("entries", []):
+            if entry.get("type") == "variant":
+                anchor = f"gram-{entry['persian']}"
+                d = {"fa": entry["persian"]}
+                if entry.get("translit"):
+                    d["tl"] = html_lib.escape(entry["translit"])
+                if entry.get("meaning"):
+                    d["df"] = _inline(entry["meaning"], word_map)
+                data.setdefault(anchor, d)
+                continue
             if entry.get("type") != "headword":
                 continue
             entry_id = entry.get("id") or entry["persian"].replace(" ", "_")
