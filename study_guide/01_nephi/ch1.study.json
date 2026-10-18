@@ -1294,41 +1294,6 @@
 				},
 				{
 					"type": "headword",
-					"id": "داشتن",
-					"persian": "داشتن",
-					"translit": "dāštan",
-					"meaning": "to have, to hold",
-					"pos": "verb",
-					"tags": [],
-					"pres_stem": {
-						"fa": null,
-						"translit": "dār-"
-					},
-					"forms": [
-						{
-							"fa": "داشتن",
-							"desc": "in modern Persian the present indicative of `داشتن` **drops** `می-`, so 3sg is just _`دارد` dārad_ \"has\" ([book summary, sentence 4](#sentence-4)), 3pl _`دارند` dārand_ ([book summary, sentence 7](#sentence-7)) — never `می‌دارد`. Past _`داشت` dāšt_ ([verse 14](#verse-14): `روا نخواهی داشت`)"
-						},
-						{
-							"fa": "داشته",
-							"desc": "pp. _`داشته` dāšte_"
-						},
-						{
-							"fa": "دارد",
-							"desc": "3sg pres. _dārad_"
-						},
-						{
-							"fa": "دارند",
-							"desc": "3pl pres. _dārand_"
-						},
-						{
-							"fa": "داشت",
-							"desc": "past 3sg _dāšt_"
-						}
-					]
-				},
-				{
-					"type": "headword",
 					"id": "پی",
 					"persian": "پی",
 					"translit": "pey",
@@ -1555,7 +1520,39 @@
 			"number": 7,
 			"entries": [
 				{
-					"type": "no-new-lemmas"
+					"type": "headword",
+					"id": "داشتن",
+					"persian": "داشتن",
+					"translit": "dāštan",
+					"meaning": "to have, to hold",
+					"pos": "verb",
+					"tags": [],
+					"pres_stem": {
+						"fa": null,
+						"translit": "dār-"
+					},
+					"forms": [
+						{
+							"fa": "داشتن",
+							"desc": "in modern Persian the present indicative of `داشتن` **drops** `می-`, so 3sg is just _`دارد` dārad_ \"has\" ([book summary, sentence 4](#sentence-4)), 3pl _`دارند` dārand_ ([book summary, sentence 7](#sentence-7)) — never `می‌دارد`. Past _`داشت` dāšt_ ([verse 14](#verse-14): `روا نخواهی داشت`)"
+						},
+						{
+							"fa": "داشته",
+							"desc": "pp. _`داشته` dāšte_"
+						},
+						{
+							"fa": "دارد",
+							"desc": "3sg pres. _dārad_"
+						},
+						{
+							"fa": "دارند",
+							"desc": "3pl pres. _dārand_"
+						},
+						{
+							"fa": "داشت",
+							"desc": "past 3sg _dāšt_"
+						}
+					]
 				}
 			]
 		},

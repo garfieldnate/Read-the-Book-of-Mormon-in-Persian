@@ -4055,6 +4055,17 @@
        "desc": "`فرزندانمان` _farzandān-emān_ \"our children\" ([verse 21](#verse-21))"
       }
      ]
+    },
+    {
+     "type": "headword",
+     "persian": "خواستنی",
+     "translit": "xāstanī",
+     "meaning": "desirable",
+     "pos": "adj",
+     "etym": {
+      "prose": "← `خواستن` _xāstan_ \"to want\" + [`-ی`](../word_formation.html#the-adjectival-suffix-i) → \"worth wanting.\""
+     },
+     "family": "`خواستن` _xāstan_ \"to want\""
     }
    ]
   },

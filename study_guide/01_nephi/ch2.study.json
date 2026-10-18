@@ -2482,25 +2482,6 @@
 							"desc": "with suffix `چادرش` _čādor-aš_ \"his tent\" [verse 6]"
 						}
 					]
-				},
-				{
-					"type": "headword",
-					"id": "بسیار",
-					"persian": "بسیار",
-					"translit": "besyār",
-					"meaning": "many, much, very, a great deal",
-					"pos": "adv",
-					"tags": [],
-					"forms": [
-						{
-							"fa": "چیزهای بسیاری",
-							"desc": "`چیزهای بسیاری` \"very many things\""
-						},
-						{
-							"fa": "بسیار",
-							"desc": "`بسیار` as adverb = \"very, greatly.\""
-						}
-					]
 				}
 			]
 		},
@@ -3822,6 +3803,25 @@
 						{
 							"fa": "سخت دلی",
 							"desc": "seen in compounds `سخت دلی` \"hard-heartedness\", `افتاده دلی` \"humility.\""
+						}
+					]
+				},
+				{
+					"type": "headword",
+					"id": "بسیار",
+					"persian": "بسیار",
+					"translit": "besyār",
+					"meaning": "many, much, very, a great deal",
+					"pos": "adv",
+					"tags": [],
+					"forms": [
+						{
+							"fa": "چیزهای بسیاری",
+							"desc": "`چیزهای بسیاری` \"very many things\""
+						},
+						{
+							"fa": "بسیار",
+							"desc": "`بسیار` as adverb = \"very, greatly.\""
 						}
 					]
 				}

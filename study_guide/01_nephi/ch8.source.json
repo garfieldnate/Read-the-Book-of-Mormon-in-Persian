@@ -3617,7 +3617,7 @@
      "fa": "آبی",
      "gloss": {
       "src": "āb-ī",
-      "gloss": "water-ADJ"
+      "gloss": "water-INDEF"
      },
      "tr": "of water"
     },
@@ -4266,9 +4266,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "من",
@@ -4459,9 +4460,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "من",
@@ -4925,9 +4927,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "من",
@@ -8907,8 +8910,8 @@
     {
      "fa": "آنهایی",
      "gloss": {
-      "src": "ānhāyī",
-      "gloss": "those"
+      "src": "ānhā-yī",
+      "gloss": "they-INDEF"
      },
      "tr": "those"
     },

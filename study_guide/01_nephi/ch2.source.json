@@ -1610,7 +1610,7 @@
         {
           "fa": "میراثیش",
           "gloss": {
-            "src": "mīrāsī-aš",
+            "src": "mīrāsī-yaš",
             "gloss": "inherited-3SG.POSS"
           },
           "tr": "his inheritance"
@@ -1635,7 +1635,7 @@
         {
           "fa": "طلایش",
           "gloss": {
-            "src": "ṭalā-aš",
+            "src": "ṭalā-yaš",
             "gloss": "gold-3SG.POSS"
           },
           "tr": "his gold"
@@ -1680,12 +1680,13 @@
             "src": "čīz-hā=ye",
             "gloss": "thing-PL=EZ"
           },
-          "tr": "things"
+          "tr": "things",
+          "lemma": "چیز"
         },
         {
           "fa": "گرانبهایش",
           "gloss": {
-            "src": "gerānbahā-aš",
+            "src": "gerānbahā-yaš",
             "gloss": "precious-3SG.POSS"
           },
           "tr": "his precious (things)"
@@ -1720,7 +1721,8 @@
             "src": "čīz-ī",
             "gloss": "thing-INDEF"
           },
-          "tr": "thing (nothing)"
+          "tr": "thing (nothing)",
+          "lemma": "چیز"
         },
         {
           "fa": "بجز",
@@ -5791,7 +5793,7 @@
         {
           "fa": "آورد",
           "gloss": {
-            "src": "āvord",
+            "src": "āvard",
             "gloss": "bring.PST.3SG"
           },
           "tr": "he brought (believed)"

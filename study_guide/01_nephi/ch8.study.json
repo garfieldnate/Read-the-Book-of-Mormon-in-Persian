@@ -4246,6 +4246,21 @@
        "desc": "`افتادند` _oftād-and_ (fall-PST-3PL) ([verse 28](#verse-28))"
       }
      ]
+    },
+    {
+     "type": "headword",
+     "persian": "بدر",
+     "translit": "bedar",
+     "meaning": "out, away (literary); `از راه بدر شدن` \"to go astray, wander from the path\"",
+     "pos": "adv",
+     "etym": {
+      "prose": "`به` _be_ \"to\" + `در` _dar_ \"door\" — literally \"to the door,\" i.e. out."
+     },
+     "forms": [
+      {
+       "note": "Not the preposition `در` _dar_ \"in\": in `از راه بدر شدن` the `بـ-` and `در` \"door\" fuse into one adverb."
+      }
+     ]
     }
    ]
   },

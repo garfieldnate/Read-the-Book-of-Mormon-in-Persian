@@ -576,9 +576,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "پدرمان",
@@ -1979,9 +1980,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "ما",
@@ -2000,7 +2002,7 @@
     {
      "fa": "آورد",
      "gloss": {
-      "src": "āvord",
+      "src": "āvard",
       "gloss": "bring.INF.PST"
      },
      "tr": "bring"
@@ -3167,8 +3169,8 @@
     {
      "fa": "خدای",
      "gloss": {
-      "src": "xodā",
-      "gloss": "God"
+      "src": "xodā=ye",
+      "gloss": "God=EZ"
      },
      "tr": "God"
     },
@@ -3256,8 +3258,8 @@
     {
      "fa": "خدای",
      "gloss": {
-      "src": "xodā",
-      "gloss": "God"
+      "src": "xodā=ye",
+      "gloss": "God=EZ"
      },
      "tr": "God"
     },
@@ -4282,7 +4284,7 @@
      "fa": "یوسفی",
      "gloss": {
       "src": "Yūsof-ī",
-      "gloss": "Joseph-DEM"
+      "gloss": "Joseph-INDEF"
      },
      "tr": "that Joseph (who)"
     },
@@ -5224,9 +5226,10 @@
     {
      "fa": "نزد",
      "gloss": {
-      "src": "nazd",
-      "gloss": "unto"
-     }
+      "src": "nazd=e",
+      "gloss": "near=EZ"
+     },
+     "e": true
     },
     {
      "fa": "همۀ",
