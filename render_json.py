@@ -1242,6 +1242,18 @@ def _lint_gloss_alignment(source: dict, label: str) -> None:
 
 # ---------- ezafe-marking consistency lint ----------
 
+def _stem_ends_in_i(tok: dict) -> bool:
+    """True when a token's `ی` is part of its stem rather than the ezafe linker:
+    the transliteration, minus its ezafe clitic, ends in `ī` (`xeradmandī=ye`)
+    or the `ey` diphthong (`pey=e`)."""
+    src = ((tok.get("gloss") or {}).get("src") or "").strip()
+    for suf in _EZAFE_TRANSLIT_SUFFIXES:
+        if src.endswith(suf):
+            src = src[: -len(suf)]
+            break
+    return src.endswith(("ī", "ey"))
+
+
 def _lint_ezafe_marking(source: dict, label: str) -> None:
     """Flag inconsistent editorial-ezafe marking on source tokens:
       • `"e": true` on a token that already shows ezafe orthographically (`ۀ`,
@@ -1251,10 +1263,12 @@ def _lint_ezafe_marking(source: dict, label: str) -> None:
       • the gloss carries an `=EZ` clitic but the token draws no ezafe — no
         `"e": true` and no orthographic ezafe — so the transliteration annotates
         a linker the rendered Persian silently drops. Orthographic ezafe (which
-        needs no `"e"`) is a final `ۀ`, an explicit kasra, or a final `ی` (the
-        linker `ی` on vowel-stems like `دریای`/`خدای`, plural `های`, and
-        `ی`-final stems); fused ezafe+possessive forms (`خدایمان`, gloss
-        `…-EZ-…POSS`) already spell the linker `ی`, so both are excluded."""
+        needs no `"e"`) is a final `ۀ`, an explicit kasra, or a final `ی` that
+        *is* the linker (vowel-stems like `دریای`/`خدای`, plural `های`); fused
+        ezafe+possessive forms (`خدایمان`, gloss `…-EZ-…POSS`) already spell the
+        linker `ی`, so both are excluded. A final `ی` that belongs to the stem
+        (`-ī` words like `خردمندی` _xeradmandī-ye_, or `پی` _pey-e_) does not
+        write the ezafe, so it still needs `"e": true`."""
     for sec in source.get("sections", []):
         loc = _section_heading(sec)[1]
         for tok in sec.get("tokens") or []:
@@ -1271,7 +1285,8 @@ def _lint_ezafe_marking(source: dict, label: str) -> None:
                           f"{fa} — {loc}", file=sys.stderr)
             elif ("EZ" in labels
                   and not any("POSS" in m for m in labels)
-                  and not fa.endswith(("ۀ", "ِ", "ی"))):
+                  and not fa.endswith(("ۀ", "ِ"))
+                  and (not fa.endswith("ی") or _stem_ends_in_i(tok))):
                 print(f"  {label}ezafe in gloss but not marked on token "
                       f"(add `\"e\": true`): {fa} — {loc}", file=sys.stderr)
 

@@ -287,6 +287,7 @@ The Persian BoM source rarely writes the unstressed ezafe linker (`-e` / `-ye`) 
 **Do not mark ezafe when** it is already visible in the spelling:
 - `ۀ` on words ending in silent `ه` (e.g. `نگاشتۀ`, `همۀ`) — publisher already wrote it.
 - `ی` on words ending in long `ا` / `و` (e.g. `خدای قادر`, `روی زمین`).
+  This does **not** cover words whose own stem ends in `ی` — `-ī` nouns/adjectives (`خردمندی` _xeradmandī-ye_, `میراثی` _mīrāsī-ye_) and `پی` _pey-e_. There the `ی` is part of the word and the ezafe is still unwritten, so mark it.
 - `های` (plural + ezafe) on plural-marked nouns (e.g. `رحمت‌های مهرآمیز`).
 - An explicit kasra the publisher wrote in the original (e.g. `کتابِ نبوّت`). Leave it unstyled.
 
