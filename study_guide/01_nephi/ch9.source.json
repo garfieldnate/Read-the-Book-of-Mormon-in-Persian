@@ -60,7 +60,7 @@
      "fa": "نگارد",
      "gloss": {
       "src": "negār-ad",
-      "gloss": "write-PRS-3SG"
+      "gloss": "write.PRS-3SG"
      },
      "tr": "writes (makes)"
     },
@@ -106,7 +106,7 @@
      "fa": "خوانده",
      "gloss": {
       "src": "xānde",
-      "gloss": "call-PTCP.PST"
+      "gloss": "call.PTCP"
      },
      "tr": "called"
     },
@@ -121,7 +121,7 @@
      "fa": "شوند",
      "gloss": {
       "src": "šav-and",
-      "gloss": "become-PRS-3PL"
+      "gloss": "become.PRS-3PL"
      },
      "tr": "are (called)"
     },
@@ -464,7 +464,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST-3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "was (dwelt)"
     },
@@ -475,7 +475,7 @@
      "fa": "دید",
      "gloss": {
       "src": "dīd",
-      "gloss": "see-PST-3SG"
+      "gloss": "see.PST.3SG"
      },
      "tr": "(he) saw"
     },
@@ -490,7 +490,7 @@
      "fa": "شنید",
      "gloss": {
       "src": "šenīd",
-      "gloss": "hear-PST-3SG"
+      "gloss": "hear.PST.3SG"
      },
      "tr": "(he) heard"
     },
@@ -505,7 +505,7 @@
      "fa": "گفت",
      "gloss": {
       "src": "goft",
-      "gloss": "say-PST-3SG"
+      "gloss": "say.PST.3SG"
      },
      "tr": "(he) spoke"
     },
@@ -610,14 +610,14 @@
      "fa": "نوشته",
      "gloss": {
       "src": "nevešte",
-      "gloss": "write-PTCP.PST"
+      "gloss": "write.PTCP"
      }
     },
     {
      "fa": "شوند",
      "gloss": {
       "src": "šav-and",
-      "gloss": "become-PRS-3PL"
+      "gloss": "become.PRS-3PL"
      },
      "tr": "be (written)"
     },
@@ -723,7 +723,7 @@
      "fa": "گفته",
      "gloss": {
       "src": "gofte",
-      "gloss": "say-PTCP"
+      "gloss": "say.PTCP"
      },
      "tr": "spoken"
     },
@@ -731,7 +731,7 @@
      "fa": "ام",
      "gloss": {
       "src": "-am",
-      "gloss": "1SG.POSS"
+      "gloss": "COP.1SG"
      }
     },
     {
@@ -859,7 +859,7 @@
      "fa": "نگارم",
      "gloss": {
       "src": "negār-am",
-      "gloss": "write-PRS-1SG"
+      "gloss": "write.PRS-1SG"
      },
      "tr": "I write (make)"
     },
@@ -972,7 +972,7 @@
      "fa": "نگارم",
      "gloss": {
       "src": "negār-am",
-      "gloss": "write-PRS-1SG"
+      "gloss": "write.PRS-1SG"
      },
      "tr": "I write (make)"
     },
@@ -994,7 +994,7 @@
      "fa": "نهاده",
      "gloss": {
       "src": "nahāde",
-      "gloss": "place-PTCP"
+      "gloss": "place.PTCP"
      },
      "tr": "placed (given)"
     },
@@ -1002,7 +1002,7 @@
      "fa": "ام",
      "gloss": {
       "src": "-am",
-      "gloss": "1SG.POSS"
+      "gloss": "COP.1SG"
      }
     },
     {
@@ -1098,7 +1098,7 @@
      "fa": "خوانده",
      "gloss": {
       "src": "xānde",
-      "gloss": "call-PTCP.PST"
+      "gloss": "call.PTCP"
      },
      "tr": "called"
     },
@@ -1113,7 +1113,7 @@
      "fa": "شوند",
      "gloss": {
       "src": "šav-and",
-      "gloss": "become-PRS-3PL"
+      "gloss": "become.PRS-3PL"
      },
      "tr": "are (called)"
     },
@@ -1180,7 +1180,7 @@
      "fa": "خوانده",
      "gloss": {
       "src": "xānde",
-      "gloss": "call-PTCP.PST"
+      "gloss": "call.PTCP"
      },
      "tr": "called"
     },
@@ -1195,7 +1195,7 @@
      "fa": "شوند",
      "gloss": {
       "src": "šav-and",
-      "gloss": "become-PRS-3PL"
+      "gloss": "become.PRS-3PL"
      },
      "tr": "are (called)"
     },
@@ -1280,7 +1280,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done (received)"
     },
@@ -1288,7 +1288,7 @@
      "fa": "ام",
      "gloss": {
       "src": "-am",
-      "gloss": "1SG.POSS"
+      "gloss": "COP.1SG"
      }
     },
     {
@@ -1352,7 +1352,7 @@
      "fa": "کنم",
      "gloss": {
       "src": "kon-am",
-      "gloss": "do-SBJV-1SG"
+      "gloss": "do.SBJV-1SG"
      },
      "tr": "(that) I make"
     },
@@ -1428,7 +1428,7 @@
      "fa": "کنده",
      "gloss": {
       "src": "kande",
-      "gloss": "engrave-PTCP"
+      "gloss": "engrave.PTCP"
      },
      "tr": "engraved"
     },
@@ -1444,7 +1444,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become (passive aux.)"
     },
@@ -1459,7 +1459,7 @@
      "fa": "باشد",
      "gloss": {
       "src": "bāš-ad",
-      "gloss": "be-SBJV-3SG"
+      "gloss": "be.SBJV-3SG"
      },
      "tr": "(that) it be"
     },
@@ -1586,7 +1586,7 @@
      "fa": "کنده",
      "gloss": {
       "src": "kande",
-      "gloss": "engrave-PTCP"
+      "gloss": "engrave.PTCP"
      },
      "tr": "engraved"
     },
@@ -1609,7 +1609,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-INF.PST"
+      "gloss": "become.INF.PST"
      },
      "tr": "be (passive aux.)"
     },
@@ -1895,7 +1895,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -1903,7 +1903,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -2015,7 +2015,7 @@
      "fa": "دانم",
      "gloss": {
       "src": "dān-am",
-      "gloss": "know-PRS-1SG"
+      "gloss": "know.PRS-1SG"
      },
      "tr": "I know"
     },
@@ -2096,7 +2096,7 @@
      "fa": "داند",
      "gloss": {
       "src": "dān-ad",
-      "gloss": "know-PRS-3SG"
+      "gloss": "know.PRS-3SG"
      },
      "tr": "knows"
     },
@@ -2242,7 +2242,7 @@
      "fa": "کند",
      "gloss": {
       "src": "kon-ad",
-      "gloss": "do-PRS-3SG"
+      "gloss": "do.PRS-3SG"
      },
      "tr": "(he) makes (prepares)"
     },
@@ -2299,7 +2299,7 @@
      "fa": "برآورده",
      "gloss": {
       "src": "barāvarde",
-      "gloss": "fulfill-PTCP"
+      "gloss": "fulfill.PTCP"
      }
     },
     {
@@ -2337,7 +2337,7 @@
      "fa": "دارد",
      "gloss": {
       "src": "dār-ad",
-      "gloss": "have-PRS-3SG"
+      "gloss": "have.PRS-3SG"
      },
      "tr": "(he) has"
     },
@@ -2369,7 +2369,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {

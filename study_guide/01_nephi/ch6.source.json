@@ -64,7 +64,7 @@
      "fa": "نویسد",
      "gloss": {
       "src": "nevīs-ad",
-      "gloss": "write-PRS-3SG"
+      "gloss": "write.PRS-3SG"
      },
      "tr": "writes"
     },
@@ -97,7 +97,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -133,7 +133,7 @@
      "fa": "کند",
      "gloss": {
       "src": "kon-ad",
-      "gloss": "do-SBJV-3SG"
+      "gloss": "do.SBJV-3SG"
      },
      "tr": "(that) he may do (persuade)"
     },
@@ -178,7 +178,7 @@
      "fa": "آیند",
      "gloss": {
       "src": "āy-and",
-      "gloss": "come-SBJV-3PL"
+      "gloss": "come.SBJV-3PL"
      },
      "tr": "(that) they come"
     },
@@ -200,7 +200,7 @@
      "fa": "یابند",
      "gloss": {
       "src": "yāb-and",
-      "gloss": "find-SBJV-3PL"
+      "gloss": "find.SBJV-3PL"
      },
      "tr": "(that) they find (be saved)"
     },
@@ -321,7 +321,7 @@
      "fa": "خاندان-نامۀ",
      "gloss": {
       "src": "xāndān-nāme=ye",
-      "gloss": "genealogy=EZ"
+      "gloss": "family-record=EZ"
      },
      "tr": "genealogy"
     },
@@ -393,7 +393,7 @@
      "fa": "آورم",
      "gloss": {
       "src": "āvar-am",
-      "gloss": "bring-PRS-1SG"
+      "gloss": "bring.PRS-1SG"
      },
      "tr": "give (set down)"
     },
@@ -496,7 +496,7 @@
      "fa": "نویسم",
      "gloss": {
       "src": "nevīs-am",
-      "gloss": "write-PRS-1SG"
+      "gloss": "write.PRS-1SG"
      },
      "tr": "I am writing"
     },
@@ -511,7 +511,7 @@
      "fa": "آورد",
      "gloss": {
       "src": "āvord",
-      "gloss": "bring-INF.PST"
+      "gloss": "bring.INF.PST"
      },
      "tr": "give (set down)"
     },
@@ -557,7 +557,7 @@
      "fa": "آورده",
      "gloss": {
       "src": "āvarde",
-      "gloss": "bring-PTCP"
+      "gloss": "bring.PTCP"
      },
      "tr": "given (set down)"
     },
@@ -565,7 +565,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become (passive aux.)"
     },
@@ -610,7 +610,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become (passive aux.)"
     },
@@ -618,7 +618,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -701,7 +701,7 @@
      "fa": "نویسم",
      "gloss": {
       "src": "nevīs-am",
-      "gloss": "write-PRS-1SG"
+      "gloss": "write.PRS-1SG"
      },
      "tr": "write"
     },
@@ -747,7 +747,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -859,7 +859,7 @@
      "fa": "نیست",
      "gloss": {
       "src": "nīst",
-      "gloss": "be.NEG-PRS.3SG"
+      "gloss": "be.NEG.PRS.3SG"
      },
      "tr": "is not"
     },
@@ -953,7 +953,7 @@
      "fa": "باشم",
      "gloss": {
       "src": "bāš-am",
-      "gloss": "be-SBJV-1SG"
+      "gloss": "be.SBJV-1SG"
      },
      "tr": "(that) I be"
     },
@@ -985,7 +985,7 @@
      "fa": "توانند",
      "gloss": {
       "src": "tavān-and",
-      "gloss": "can-PRS-3PL"
+      "gloss": "can.PRS-3PL"
      },
      "tr": "(they) can"
     },
@@ -1021,14 +1021,14 @@
      "fa": "نوشته",
      "gloss": {
       "src": "nevešte",
-      "gloss": "write-PTCP"
+      "gloss": "write.PTCP"
      }
     },
     {
      "fa": "شوند",
      "gloss": {
       "src": "šav-and",
-      "gloss": "become-SBJV-3PL"
+      "gloss": "become.SBJV-3PL"
      },
      "tr": "be (written)"
     },
@@ -1164,7 +1164,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -1200,7 +1200,7 @@
      "fa": "کنم",
      "gloss": {
       "src": "kon-am",
-      "gloss": "do-SBJV-1SG"
+      "gloss": "do.SBJV-1SG"
      },
      "tr": "(that) I do (persuade)"
     },
@@ -1295,7 +1295,7 @@
      "fa": "آیند",
      "gloss": {
       "src": "āy-and",
-      "gloss": "come-SBJV-3PL"
+      "gloss": "come.SBJV-3PL"
      },
      "tr": "(that) they come"
     },
@@ -1320,7 +1320,7 @@
      "fa": "یابند",
      "gloss": {
       "src": "yāb-and",
-      "gloss": "find-SBJV-3PL"
+      "gloss": "find.SBJV-3PL"
      },
      "tr": "(that) they find (be saved)"
     },
@@ -1434,7 +1434,7 @@
      "fa": "نویسم",
      "gloss": {
       "src": "nevīs-am",
-      "gloss": "write-PRS-1SG"
+      "gloss": "write.PRS-1SG"
      },
      "tr": "I write"
     },
@@ -1517,7 +1517,7 @@
      "fa": "نیستند",
      "gloss": {
       "src": "nīst-and",
-      "gloss": "be.NEG-PRS-3PL"
+      "gloss": "be.NEG.PRS-3PL"
      },
      "tr": "are not"
     },
@@ -1617,7 +1617,7 @@
      "fa": "دهم",
      "gloss": {
       "src": "deh-am",
-      "gloss": "give-PRS-1SG"
+      "gloss": "give.PRS-1SG"
      },
      "tr": "I give (command)"
     },
@@ -1729,7 +1729,7 @@
      "fa": "نیستند",
      "gloss": {
       "src": "nīst-and",
-      "gloss": "be.NEG-PRS-3PL"
+      "gloss": "be.NEG.PRS-3PL"
      },
      "tr": "are not"
     },
@@ -1744,7 +1744,7 @@
      "fa": "نکنند",
      "gloss": {
       "src": "na-kon-and",
-      "gloss": "NEG-do-SBJV-3PL"
+      "gloss": "NEG-do.SBJV-3PL"
      },
      "tr": "(that) they not make (fill)"
     },

@@ -1434,6 +1434,22 @@ def _sets_subsequence(sets: list[frozenset], seq: list[str]) -> bool:
     return all(any(x in s for x in it) for s in sets)
 
 
+def _lint_gloss_segmentation(source: dict, label: str) -> None:
+    """Flag a token whose gloss has a different number of `-`/`=` slots than
+    its src (CONTENT_RULES: boundaries in src must match the gloss). Spelled-out
+    numerals, glossed as one figure, are exempt."""
+    for sec in source.get("sections", []):
+        loc = _section_heading(sec)[1]
+        for tok in sec.get("tokens") or []:
+            g = tok.get("gloss") or {}
+            src, gl = (g.get("src") or "").strip("-"), (g.get("gloss") or "").strip("-")
+            if not src or not gl or re.fullmatch(r"[\d–-]+", gl):
+                continue
+            if len(re.split(r"[-=]", src)) != len(re.split(r"[-=]", gl)):
+                print(f"  {label}gloss segmentation doesn't match src: {tok['fa']} "
+                      f"'{g.get('src')}' / '{g.get('gloss')}' — {loc}", file=sys.stderr)
+
+
 _POSS_NO_LINKER_RE = re.compile(r"[^aeiouāīūy\-]-(mān|tān|šān)$")
 
 
@@ -1707,6 +1723,7 @@ def render_chapter(
     _lint_headword_translit(study, label)
     _lint_token_translations(source, study, word_map, label)
     _lint_possessive_linker(source, label)
+    _lint_gloss_segmentation(source, label)
     _lint_grammar_examples(source, study, label)
     _lint_reference_anchors(study, label)
 

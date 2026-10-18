@@ -326,23 +326,28 @@ Abbreviations follow [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/reso
 | `ACC` | accusative (`را`) | `"rā"` / `"ACC"` |
 | `CL` | classifier / counter | `"tā=ye"` / `"CL=EZ"` |
 | `COMP` | complementizer `که` (clause) | `"ke"` / `"COMP"` |
-| `COP` | copula (`است`, enclitic) | `"ast"` / `"COP-3SG"` |
+| `ADJ` | adjective-forming suffix (`-ī`, `-nāk`) | `"pedar-ī"` / `"father-ADJ"` |
+| `COP` | copula (`است`, enclitic) | `"ast"` / `"COP.3SG"` |
 | `EZ` | ezafe linker | `"ketāb=e"` / `"book=EZ"` |
 | `FUT` | future auxiliary (`خواه-`) | `"xāh-am"` / `"FUT-1SG"` |
 | `IMPF` | imperfective prefix (`می-`) | `"mī"` / `"IMPF"` |
+| `IMP` | imperative prefix (`بـ-`) | `"be-negar-īd"` / `"IMP-behold-2PL"` |
 | `INDEF` | indefinite suffix (`-ī`) | `"ketāb-ī"` / `"book-INDEF"` |
-| `INF.PST` | past-stem infinitive (future constructions) | `"negāšt"` / `"write-INF.PST"` |
+| `INF.PST` | past-stem infinitive (future constructions) | `"negāšt"` / `"write.INF.PST"` |
+| `IRR` | archaic irrealis `-ī` (`بایستی`) | `"bāyest-ī"` / `"must.PST-IRR"` |
 | `NEG` | negative prefix | `"na-xāh-am"` / `"NEG-FUT-1SG"` |
-| `NARR` | narrative suffix (`-ā` on گفتا) | `"goft-ā"` / `"say-NARR"` |
-| `PASS` | passive (pp + شدن) | `"šav-ad"` / `"become-PASS-3SG"` |
+| `NARR` | narrative suffix (`-ā` on گفتا) | `"goft-ā"` / `"say.PST-NARR"` |
+| `NMLZ` | nominalizing suffix (`-ī`) | `"sepīd-ī"` / `"white-NMLZ"` |
+| `PASS` | passive (pp + شدن) | `"šav-ad"` / `"become.PASS-3SG"` |
 | `PL` | plural (`-hā`) | `"hā=ye"` / `"PL=EZ"` |
 | `POSS` | possessive enclitic | `"hamsar-aš"` / `"wife-3SG.POSS"` |
-| `PRS` | present tense | `"kon-ad"` / `"do-PRS-3SG"` |
+| `PRS` | present tense (present stem) | `"kon-ad"` / `"do.PRS-3SG"` |
 | `PRV` | preverb (separable prefix) | `"bar-mī"` / `"PRV=IMPF"` |
-| `PST` | past tense | `"kard"` / `"do-PST-3SG"` |
-| `PTCP` | participle | `"xānde"` / `"call-PTCP.PST"` |
+| `PST` | past tense (past stem) | `"kard"` / `"do.PST.3SG"`; `"goft-am"` / `"say.PST-1SG"` |
+| `PTCP` | (past) participle | `"xānde"` / `"call.PTCP"` |
 | `REL` | relative particle `که` | `"ke"` / `"REL"` |
-| `SBJV` | subjunctive | `"šav-and"` / `"become-SBJV-3PL"` |
+| `SBJV` | subjunctive (`بـ-` prefix, or fused when there is none) | `"be-rav-and"` / `"SBJV-go-3PL"`; `"bāš-ad"` / `"be.SBJV-3SG"` |
+| `SUPL` | superlative (`-tarīn`) | `"aršad-tarīn"` / `"elder-SUPL"` |
 | `SG` | singular | used in person+number combos: `1SG`, `3SG` |
 | `VOC` | vocative | `"Sarvar-ā"` / `"Lord-VOC"` |
 
@@ -350,4 +355,4 @@ Abbreviations follow [Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/reso
 
 **`می`/`نمی` tokens.** The publisher writes the imperfective prefix with a space before the verb stem, so each is a separate token in the `tokens` array with its own `gloss` sub-object: `{"fa": "می", "gloss": {"src": "mī", "gloss": "IMPF"}}`. In `forms` items, write them together in one `fa` value: `"می دهد"` (not two separate items).
 
-**Source slot boundaries.** Use `-` for bound morphemes (`hamsar-aš`, `šod-and`); use `=` for clitics (`ketāb=e`, `sarzamīn=e`). Ezafe is always a clitic (`=EZ`). Boundaries in `src` must match the segmentation in `gloss`.
+**Source slot boundaries.** Use `-` for bound morphemes (`hamsar-aš`, `šod-and`); use `=` for clitics (`ketāb=e`, `sarzamīn=e`). Ezafe is always a clitic (`=EZ`). Boundaries in `src` must match the segmentation in `gloss`. A meaning with no separate Persian morpheme fuses onto its slot with `.` instead of taking a `-` slot of its own: the past and present stems (`kard` → `do.PST.3SG`, `kon-ad` → `do.PRS-3SG`), the zero 3SG past ending, a participle (`do.PTCP`), a subjunctive or imperative with no `بـ-` (`be.SBJV-3SG`), the copula's person (`COP.3SG`). Overt affixes do get a slot, and the `src` is segmented to match (`barādar-ān=e` / `brother-PL=EZ`, `hangām-ī` / `time-INDEF`). Gloss the lexical stem in its English base form (`say.PST`, not `said-PST`). Spelled-out numerals (`bīst-o-yek` / `21`) are the one exception. The `gloss segmentation` lint checks this.

@@ -62,7 +62,7 @@
      "fa": "کند",
      "gloss": {
       "src": "kon-ad",
-      "gloss": "do-PRS-3SG"
+      "gloss": "do.PRS-3SG"
      },
      "tr": "(she) makes"
     },
@@ -125,7 +125,7 @@
      "fa": "کنند",
      "gloss": {
       "src": "kon-and",
-      "gloss": "do-PRS-3PL"
+      "gloss": "do.PRS-3PL"
      },
      "tr": "(they) make"
     },
@@ -171,7 +171,7 @@
      "fa": "کنند",
      "gloss": {
       "src": "kon-and",
-      "gloss": "do-PRS-3PL"
+      "gloss": "do.PRS-3PL"
      },
      "tr": "(they) make"
     },
@@ -260,7 +260,7 @@
      "fa": "دارند",
      "gloss": {
       "src": "dār-and",
-      "gloss": "have-PRS-3PL"
+      "gloss": "have.PRS-3PL"
      },
      "tr": "(they) hold"
     },
@@ -342,7 +342,7 @@
      "fa": "کنند",
      "gloss": {
       "src": "kon-and",
-      "gloss": "do-PRS-3PL"
+      "gloss": "do.PRS-3PL"
      },
      "tr": "(they) make"
     },
@@ -419,7 +419,7 @@
      "fa": "کند",
      "gloss": {
       "src": "kon-ad",
-      "gloss": "do-PRS-3SG"
+      "gloss": "do.PRS-3SG"
      },
      "tr": "(he) does"
     },
@@ -513,7 +513,7 @@
      "fa": "گذشت",
      "gloss": {
       "src": "gozašt",
-      "gloss": "pass-PST.3SG"
+      "gloss": "pass.PST.3SG"
      },
      "tr": "passed (came to pass)"
     },
@@ -542,7 +542,7 @@
      "fa": "آنکه",
      "gloss": {
       "src": "ān-ke",
-      "gloss": "that"
+      "gloss": "that-COMP"
      }
     },
     {
@@ -592,7 +592,7 @@
      "fa": "آمدیم",
      "gloss": {
       "src": "āmad-īm",
-      "gloss": "come-PST-1PL"
+      "gloss": "come.PST-1PL"
      },
      "tr": "we came"
     },
@@ -603,7 +603,7 @@
      "fa": "بنگرید",
      "gloss": {
       "src": "be-negar-īd",
-      "gloss": "behold-2PL"
+      "gloss": "IMP-behold-2PL"
      },
      "tr": "behold! (you pl.)"
     },
@@ -642,7 +642,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "(he) became"
     },
@@ -709,7 +709,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "(she) became"
     },
@@ -770,7 +770,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -778,7 +778,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "(she) had"
     },
@@ -824,7 +824,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -832,7 +832,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "(she) had"
     },
@@ -875,7 +875,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become"
     },
@@ -883,7 +883,7 @@
      "fa": "ایم",
      "gloss": {
       "src": "-īm",
-      "gloss": "be-PRS.1PL"
+      "gloss": "COP.1PL"
      },
      "tr": "(we) have"
     },
@@ -937,7 +937,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -945,7 +945,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "(she) had"
     },
@@ -970,7 +970,7 @@
      "fa": "گفته",
      "gloss": {
       "src": "gofte",
-      "gloss": "say-PTCP"
+      "gloss": "say.PTCP"
      },
      "tr": "told"
     },
@@ -978,7 +978,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "(she) had"
     },
@@ -1022,7 +1022,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -1043,7 +1043,7 @@
      "fa": "بنگر",
      "gloss": {
       "src": "be-negar",
-      "gloss": "behold"
+      "gloss": "IMP-behold.2SG"
      },
      "tr": "behold! (you sg.)"
     },
@@ -1116,7 +1116,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -1124,7 +1124,7 @@
      "fa": "ای",
      "gloss": {
       "src": "-ī",
-      "gloss": "be-PRS.2SG"
+      "gloss": "COP.2SG"
      },
      "tr": "you (sg.) have"
     },
@@ -1154,7 +1154,7 @@
      "fa": "نیستند",
      "gloss": {
       "src": "nīst-and",
-      "gloss": "be.NEG-PRS-3PL"
+      "gloss": "be.NEG.PRS-3PL"
      },
      "tr": "(they) are not"
     },
@@ -1207,7 +1207,7 @@
      "fa": "شویم",
      "gloss": {
       "src": "šav-īm",
-      "gloss": "become-PRS-1PL"
+      "gloss": "become.PRS-1PL"
      },
      "tr": "(we) become"
     },
@@ -1301,7 +1301,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -1309,7 +1309,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "(she) had"
     },
@@ -1348,7 +1348,7 @@
      "fa": "گذشته",
      "gloss": {
       "src": "gozašte",
-      "gloss": "pass-PTCP"
+      "gloss": "pass.PTCP"
      },
      "tr": "passed (come to pass)"
     },
@@ -1356,7 +1356,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "had"
     },
@@ -1401,7 +1401,7 @@
      "fa": "گفت",
      "gloss": {
       "src": "goft",
-      "gloss": "say-PST.3SG"
+      "gloss": "say.PST.3SG"
      },
      "tr": "(he) spoke"
     },
@@ -1430,7 +1430,7 @@
      "fa": "دانم",
      "gloss": {
       "src": "dān-am",
-      "gloss": "know-PRS-1SG"
+      "gloss": "know.PRS-1SG"
      },
      "tr": "I know"
     },
@@ -1529,7 +1529,7 @@
      "fa": "ندیده",
      "gloss": {
       "src": "na-dīde",
-      "gloss": "NEG-see-PTCP"
+      "gloss": "NEG-see.PTCP"
      },
      "tr": "not seen"
     },
@@ -1537,7 +1537,7 @@
      "fa": "بودم",
      "gloss": {
       "src": "būd-am",
-      "gloss": "be-PST-1SG"
+      "gloss": "be.PST-1SG"
      },
      "tr": "I had"
     },
@@ -1581,7 +1581,7 @@
      "fa": "شدم",
      "gloss": {
       "src": "šod-am",
-      "gloss": "become-PST-1SG"
+      "gloss": "become.PST-1SG"
      },
      "tr": "(I) would have become"
     },
@@ -1613,7 +1613,7 @@
      "fa": "مانده",
      "gloss": {
       "src": "mānde",
-      "gloss": "remain-PTCP"
+      "gloss": "remain.PTCP"
      },
      "tr": "remained"
     },
@@ -1621,7 +1621,7 @@
      "fa": "بودم",
      "gloss": {
       "src": "būd-am",
-      "gloss": "be-PST-1SG"
+      "gloss": "be.PST-1SG"
      },
      "tr": "(I) would have"
     },
@@ -1658,7 +1658,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become"
     },
@@ -1666,7 +1666,7 @@
      "fa": "بودم",
      "gloss": {
       "src": "būd-am",
-      "gloss": "be-PST-1SG"
+      "gloss": "be.PST-1SG"
      },
      "tr": "(I) would have"
     },
@@ -1698,7 +1698,7 @@
      "fa": "بنگر",
      "gloss": {
       "src": "be-negar",
-      "gloss": "behold"
+      "gloss": "IMP-behold.2SG"
      },
      "tr": "behold! (you sg.)"
     },
@@ -1738,7 +1738,7 @@
      "fa": "بدست",
      "gloss": {
       "src": "be-dast",
-      "gloss": "in.hand"
+      "gloss": "into-hand"
      },
      "tr": "into (my) hand"
     },
@@ -1746,7 +1746,7 @@
      "fa": "آورده",
      "gloss": {
       "src": "āvarde",
-      "gloss": "bring-PTCP"
+      "gloss": "bring.PTCP"
      },
      "tr": "brought"
     },
@@ -1754,7 +1754,7 @@
      "fa": "ام",
      "gloss": {
       "src": "-am",
-      "gloss": "be-PRS.1SG"
+      "gloss": "COP.1SG"
      },
      "tr": "I have"
     },
@@ -1815,7 +1815,7 @@
      "fa": "کنم",
      "gloss": {
       "src": "kon-am",
-      "gloss": "do-PRS-1SG"
+      "gloss": "do.PRS-1SG"
      },
      "tr": "(I) do"
     },
@@ -1857,7 +1857,7 @@
      "fa": "دانم",
      "gloss": {
       "src": "dān-am",
-      "gloss": "know-PRS-1SG"
+      "gloss": "know.PRS-1SG"
      },
      "tr": "I know"
     },
@@ -1930,7 +1930,7 @@
      "fa": "داد",
      "gloss": {
       "src": "dād",
-      "gloss": "give-INF.PST"
+      "gloss": "give.INF.PST"
      },
      "tr": "give"
     },
@@ -2001,7 +2001,7 @@
      "fa": "آورد",
      "gloss": {
       "src": "āvord",
-      "gloss": "bring-INF.PST"
+      "gloss": "bring.INF.PST"
      },
      "tr": "bring"
     },
@@ -2131,7 +2131,7 @@
      "fa": "داد",
      "gloss": {
       "src": "dād",
-      "gloss": "give-PST.3SG"
+      "gloss": "give.PST.3SG"
      },
      "tr": "was giving"
     },
@@ -2220,7 +2220,7 @@
      "fa": "کردیم",
      "gloss": {
       "src": "kard-īm",
-      "gloss": "do-PST-1PL"
+      "gloss": "do.PST-1PL"
      },
      "tr": "(we) were doing"
     },
@@ -2264,7 +2264,7 @@
      "fa": "بدست",
      "gloss": {
       "src": "be-dast",
-      "gloss": "in.hand"
+      "gloss": "into-hand"
      },
      "tr": "into (our) hand(s)"
     },
@@ -2272,7 +2272,7 @@
      "fa": "آوریم",
      "gloss": {
       "src": "āvar-īm",
-      "gloss": "bring-SBJV-1PL"
+      "gloss": "bring.SBJV-1PL"
      },
      "tr": "(that) we bring"
     },
@@ -2360,7 +2360,7 @@
      "fa": "بنگرید",
      "gloss": {
       "src": "be-negar-īd",
-      "gloss": "behold-2PL"
+      "gloss": "IMP-behold-2PL"
      },
      "tr": "behold! (you pl.)"
     },
@@ -2389,7 +2389,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "became"
     },
@@ -2419,7 +2419,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "became"
     },
@@ -2465,7 +2465,7 @@
      "fa": "گفت",
      "gloss": {
       "src": "goft",
-      "gloss": "say-PST.3SG"
+      "gloss": "say.PST.3SG"
      },
      "tr": "(she) spoke"
     },
@@ -2515,7 +2515,7 @@
      "fa": "دانم",
      "gloss": {
       "src": "dān-am",
-      "gloss": "know-PRS-1SG"
+      "gloss": "know.PRS-1SG"
      },
      "tr": "I know"
     },
@@ -2559,7 +2559,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -2567,7 +2567,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -2651,7 +2651,7 @@
      "fa": "دانم",
      "gloss": {
       "src": "dān-am",
-      "gloss": "know-PRS-1SG"
+      "gloss": "know.PRS-1SG"
      },
      "tr": "I know"
     },
@@ -2695,7 +2695,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -2753,7 +2753,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -2761,7 +2761,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -2799,7 +2799,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -2807,7 +2807,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -2893,7 +2893,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -2901,7 +2901,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -2983,7 +2983,7 @@
      "fa": "گفت",
      "gloss": {
       "src": "goft",
-      "gloss": "say-PST.3SG"
+      "gloss": "say.PST.3SG"
      },
      "tr": "(she) spoke"
     },
@@ -3022,7 +3022,7 @@
      "fa": "گذشت",
      "gloss": {
       "src": "gozašt",
-      "gloss": "pass-PST.3SG"
+      "gloss": "pass.PST.3SG"
      },
      "tr": "passed (came to pass)"
     },
@@ -3065,7 +3065,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -3136,7 +3136,7 @@
      "fa": "کردند",
      "gloss": {
       "src": "kard-and",
-      "gloss": "do-PST-3PL"
+      "gloss": "do.PST-3PL"
      },
      "tr": "(they) made"
     },
@@ -3190,7 +3190,7 @@
      "fa": "کردند",
      "gloss": {
       "src": "kard-and",
-      "gloss": "do-PST-3PL"
+      "gloss": "do.PST-3PL"
      },
      "tr": "(they) made"
     },
@@ -3279,7 +3279,7 @@
      "fa": "کردند",
      "gloss": {
       "src": "kard-and",
-      "gloss": "do-PST-3PL"
+      "gloss": "do.PST-3PL"
      },
      "tr": "(they) made"
     },
@@ -3383,7 +3383,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become (passive aux.)"
     },
@@ -3391,7 +3391,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "had"
     },
@@ -3456,7 +3456,7 @@
      "fa": "کرد",
      "gloss": {
       "src": "kard",
-      "gloss": "do-PST.3SG"
+      "gloss": "do.PST.3SG"
      },
      "tr": "(he) did"
     },
@@ -3495,7 +3495,7 @@
      "fa": "دید",
      "gloss": {
       "src": "dīd",
-      "gloss": "see-PST.3SG"
+      "gloss": "see.PST.3SG"
      },
      "tr": "(he) saw"
     },
@@ -3560,7 +3560,7 @@
      "fa": "داشتند",
      "gloss": {
       "src": "dāšt-and",
-      "gloss": "have-PST-3PL"
+      "gloss": "have.PST-3PL"
      },
      "tr": "(they) held"
     },
@@ -3614,7 +3614,7 @@
      "fa": "داد",
      "gloss": {
       "src": "dād",
-      "gloss": "give-PST.3SG"
+      "gloss": "give.PST.3SG"
      },
      "tr": "was giving"
     },
@@ -3706,7 +3706,7 @@
      "fa": "بودند",
      "gloss": {
       "src": "būd-and",
-      "gloss": "be-PST-3PL"
+      "gloss": "be.PST-3PL"
      },
      "tr": "were"
     },
@@ -4024,7 +4024,7 @@
      "fa": "گفته",
      "gloss": {
       "src": "gofte",
-      "gloss": "say-PTCP"
+      "gloss": "say.PTCP"
      },
      "tr": "spoken"
     },
@@ -4032,7 +4032,7 @@
      "fa": "شده",
      "gloss": {
       "src": "šode",
-      "gloss": "become-PTCP"
+      "gloss": "become.PTCP"
      },
      "tr": "become (passive aux.)"
     },
@@ -4040,7 +4040,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -4078,7 +4078,7 @@
      "fa": "گذشت",
      "gloss": {
       "src": "gozašt",
-      "gloss": "pass-PST.3SG"
+      "gloss": "pass.PST.3SG"
      },
      "tr": "passed (came to pass)"
     },
@@ -4142,7 +4142,7 @@
      "fa": "خاندان-نامۀ",
      "gloss": {
       "src": "xāndān-nāme=ye",
-      "gloss": "genealogy=EZ"
+      "gloss": "family-record=EZ"
      },
      "tr": "genealogy"
     },
@@ -4172,7 +4172,7 @@
      "fa": "یافت",
      "gloss": {
       "src": "yāft",
-      "gloss": "find-PST.3SG"
+      "gloss": "find.PST.3SG"
      },
      "tr": "(he) found"
     },
@@ -4204,7 +4204,7 @@
      "fa": "دانست",
      "gloss": {
       "src": "dānest",
-      "gloss": "know-PST.3SG"
+      "gloss": "know.PST.3SG"
      },
      "tr": "(he) knew"
     },
@@ -4248,7 +4248,7 @@
      "fa": "است",
      "gloss": {
       "src": "ast",
-      "gloss": "COP-3SG"
+      "gloss": "COP.3SG"
      }
     },
     {
@@ -4312,7 +4312,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "was"
     },
@@ -4344,7 +4344,7 @@
      "fa": "فروخته",
      "gloss": {
       "src": "forūxte",
-      "gloss": "sell-PTCP"
+      "gloss": "sell.PTCP"
      },
      "tr": "sold"
     },
@@ -4352,7 +4352,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "became (passive aux.)"
     },
@@ -4414,7 +4414,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "became (passive aux.)"
     },
@@ -4519,7 +4519,7 @@
      "fa": "شدن",
      "gloss": {
       "src": "šodan",
-      "gloss": "become-INF"
+      "gloss": "become.INF"
      }
     },
     {
@@ -4547,7 +4547,7 @@
      "fa": "کند",
      "gloss": {
       "src": "kon-ad",
-      "gloss": "do-PRS-3SG"
+      "gloss": "do.PRS-3SG"
      },
      "tr": "(that he) do"
     },
@@ -4650,7 +4650,7 @@
      "fa": "شدند",
      "gloss": {
       "src": "šod-and",
-      "gloss": "become-PST-3PL"
+      "gloss": "become.PST-3PL"
      },
      "tr": "(they) became (passive aux.)"
     },
@@ -4661,7 +4661,7 @@
      "fa": "بدست",
      "gloss": {
       "src": "be-dast",
-      "gloss": "by.hand"
+      "gloss": "by-hand"
      },
      "tr": "by (the) hand"
     },
@@ -4675,7 +4675,7 @@
     {
      "fa": "خدایی",
      "gloss": {
-      "src": "xodāyī",
+      "src": "xodā-yī",
       "gloss": "God-INDEF"
      },
      "tr": "God (who)"
@@ -4712,7 +4712,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -4720,7 +4720,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "had"
     },
@@ -4787,7 +4787,7 @@
      "fa": "خاندان-نامۀ",
      "gloss": {
       "src": "xāndān-nāme=ye",
-      "gloss": "genealogy=EZ"
+      "gloss": "family-record=EZ"
      },
      "tr": "genealogy"
     },
@@ -4810,7 +4810,7 @@
      "fa": "یافت",
      "gloss": {
       "src": "yāft",
-      "gloss": "find-PST.3SG"
+      "gloss": "find.PST.3SG"
      },
      "tr": "(he) found"
     },
@@ -4873,7 +4873,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "was"
     },
@@ -4956,7 +4956,7 @@
      "fa": "داشته",
      "gloss": {
       "src": "dāšte",
-      "gloss": "hold-PTCP"
+      "gloss": "hold.PTCP"
      },
      "tr": "held"
     },
@@ -4964,7 +4964,7 @@
      "fa": "بودند",
      "gloss": {
       "src": "būd-and",
-      "gloss": "be-PST-3PL"
+      "gloss": "be.PST-3PL"
      },
      "tr": "(they) had"
     },
@@ -5056,7 +5056,7 @@
      "fa": "دید",
      "gloss": {
       "src": "dīd",
-      "gloss": "see-PST.3SG"
+      "gloss": "see.PST.3SG"
      },
      "tr": "saw"
     },
@@ -5103,7 +5103,7 @@
      "fa": "گشت",
      "gloss": {
       "src": "gašt",
-      "gloss": "become-PST.3SG"
+      "gloss": "become.PST.3SG"
      },
      "tr": "(he) became"
     },
@@ -5158,7 +5158,7 @@
      "fa": "نمود",
      "gloss": {
       "src": "namūd",
-      "gloss": "do-PST.3SG"
+      "gloss": "do.PST.3SG"
      },
      "tr": "(he) made"
     },
@@ -5319,7 +5319,7 @@
      "fa": "بودند",
      "gloss": {
       "src": "būd-and",
-      "gloss": "be-PST-3PL"
+      "gloss": "be.PST-3PL"
      },
      "tr": "were"
     },
@@ -5341,7 +5341,7 @@
      "fa": "رفت",
      "gloss": {
       "src": "raft",
-      "gloss": "go-INF.PST"
+      "gloss": "go.INF.PST"
      },
      "tr": "go"
     },
@@ -5397,7 +5397,7 @@
      "fa": "گفت",
      "gloss": {
       "src": "goft",
-      "gloss": "say-PST.3SG"
+      "gloss": "say.PST.3SG"
      },
      "tr": "(he) said"
     },
@@ -5468,7 +5468,7 @@
      "fa": "رفت",
      "gloss": {
       "src": "raft",
-      "gloss": "go-INF.PST"
+      "gloss": "go.INF.PST"
      },
      "tr": "go"
     },
@@ -5529,7 +5529,7 @@
      "fa": "شد",
      "gloss": {
       "src": "šod",
-      "gloss": "become-INF.PST"
+      "gloss": "become.INF.PST"
      },
      "tr": "become"
     },
@@ -5600,7 +5600,7 @@
      "fa": "نمود",
      "gloss": {
       "src": "namūd",
-      "gloss": "do-PST.3SG"
+      "gloss": "do.PST.3SG"
      },
      "tr": "(he) did"
     },
@@ -5639,7 +5639,7 @@
      "fa": "گذشت",
      "gloss": {
       "src": "gozašt",
-      "gloss": "pass-PST.3SG"
+      "gloss": "pass.PST.3SG"
      },
      "tr": "passed (came to pass)"
     },
@@ -5760,7 +5760,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -5768,7 +5768,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "had"
     },
@@ -5784,7 +5784,7 @@
      "fa": "داشته",
      "gloss": {
       "src": "dāšte",
-      "gloss": "hold-PTCP"
+      "gloss": "hold.PTCP"
      },
      "tr": "held"
     },
@@ -5792,7 +5792,7 @@
      "fa": "بودیم",
      "gloss": {
       "src": "būd-īm",
-      "gloss": "be-PST-1PL"
+      "gloss": "be.PST-1PL"
      },
      "tr": "(we) had"
     },
@@ -5880,7 +5880,7 @@
      "fa": "داده",
      "gloss": {
       "src": "dāde",
-      "gloss": "give-PTCP"
+      "gloss": "give.PTCP"
      },
      "tr": "given"
     },
@@ -5888,7 +5888,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "had"
     },
@@ -5896,7 +5896,7 @@
      "fa": "بدست",
      "gloss": {
       "src": "be-dast",
-      "gloss": "in.hand"
+      "gloss": "into-hand"
      },
      "tr": "into (our) hand(s)"
     },
@@ -5904,7 +5904,7 @@
      "fa": "آورده",
      "gloss": {
       "src": "āvarde",
-      "gloss": "bring-PTCP"
+      "gloss": "bring.PTCP"
      },
      "tr": "brought"
     },
@@ -5912,7 +5912,7 @@
      "fa": "بودیم",
      "gloss": {
       "src": "būd-īm",
-      "gloss": "be-PST-1PL"
+      "gloss": "be.PST-1PL"
      },
      "tr": "(we) had"
     },
@@ -5951,7 +5951,7 @@
      "fa": "کرده",
      "gloss": {
       "src": "karde",
-      "gloss": "do-PTCP"
+      "gloss": "do.PTCP"
      },
      "tr": "done"
     },
@@ -5959,7 +5959,7 @@
      "fa": "بودیم",
      "gloss": {
       "src": "būd-īm",
-      "gloss": "be-PST-1PL"
+      "gloss": "be.PST-1PL"
      },
      "tr": "(we) had"
     },
@@ -5974,7 +5974,7 @@
      "fa": "دریافته",
      "gloss": {
       "src": "daryāfte",
-      "gloss": "perceive-PTCP"
+      "gloss": "perceive.PTCP"
      },
      "tr": "found"
     },
@@ -5982,7 +5982,7 @@
      "fa": "بودیم",
      "gloss": {
       "src": "būd-īm",
-      "gloss": "be-PST-1PL"
+      "gloss": "be.PST-1PL"
      },
      "tr": "(we) had"
     },
@@ -6012,7 +6012,7 @@
      "fa": "بودند",
      "gloss": {
       "src": "būd-and",
-      "gloss": "be-PST-3PL"
+      "gloss": "be.PST-3PL"
      },
      "tr": "(they) were"
     },
@@ -6120,7 +6120,7 @@
      "fa": "توانستیم",
      "gloss": {
       "src": "tavānest-īm",
-      "gloss": "can-PST-1PL"
+      "gloss": "can.PST-1PL"
      },
      "tr": "(we) could"
     },
@@ -6178,7 +6178,7 @@
      "fa": "کنیم",
      "gloss": {
       "src": "kon-īm",
-      "gloss": "do-SBJV-1PL"
+      "gloss": "do.SBJV-1PL"
      },
      "tr": "(that we) do"
     },
@@ -6255,7 +6255,7 @@
      "fa": "بود",
      "gloss": {
       "src": "būd",
-      "gloss": "be-PST.3SG"
+      "gloss": "be.PST.3SG"
      },
      "tr": "was"
     },
@@ -6352,7 +6352,7 @@
      "fa": "کردیم",
      "gloss": {
       "src": "kard-īm",
-      "gloss": "do-PST-1PL"
+      "gloss": "do.PST-1PL"
      },
      "tr": "(we) were doing"
     },
@@ -6413,7 +6413,7 @@
      "fa": "بردیم",
      "gloss": {
       "src": "bord-īm",
-      "gloss": "carry-PST-1PL"
+      "gloss": "carry.PST-1PL"
      },
      "tr": "(we) carry"
     },
