@@ -278,6 +278,84 @@
     "pair": "ها → سخن",
     "reason": "دربارۀ این ورقه‌ها + سخن گفتن (speak of) — compound verb, not ezafe"
    }
+  ],
+  "Mosiah 24": [
+   {
+    "pair": "سَروَر → خدایشان",
+    "reason": "سَروَر خدایشان 'the Lord their God' — apposition, not ezafe"
+   },
+   {
+    "pair": "سَروَر → خدا",
+    "reason": "سَروَر خدا 'the Lord God' — apposition, not ezafe"
+   },
+   {
+    "pair": "بندگی → رهایی",
+    "reason": "از بندگی + رهایی دادن (to deliver) — compound verb"
+   },
+   {
+    "pair": "لامانیان → شروع",
+    "reason": "subject لامانیان + predicate شروع … نمودن/شد"
+   },
+   {
+    "pair": "لامانیان → مورد",
+    "reason": "subject phrase ends at لامانیان; مورد لطف قرار گرفت is the predicate"
+   },
+   {
+    "pair": "لامانیان → لامان",
+    "reason": "نام پادشاه لامانیان [subject] + لامان بود [predicate]"
+   },
+   {
+    "pair": "برادرانش → آموزگارانِ",
+    "reason": "subject او و برادرانش + predicate آموزگاران … باشند"
+   },
+   {
+    "pair": "ها → پادشاهانی",
+    "reason": "برای همۀ این سرزمین ها (adverbial) + object پادشاهانی"
+   },
+   {
+    "pair": "گونه → زبان",
+    "reason": "بدین گونه 'thus' (adverbial) + subject زبان"
+   },
+   {
+    "pair": "گونه → لامانیان",
+    "reason": "بدین گونه 'thus' (adverbial) + subject لامانیان"
+   },
+   {
+    "pair": "خدایشان → هیچ",
+    "reason": "دربارۀ سَروَر خدایشان (adverbial) + object هیچ چیزی"
+   },
+   {
+    "pair": "جهان → مردمی",
+    "reason": "از نظر خرَدمندی جهان (adverbial) + predicate مردمی …"
+   },
+   {
+    "pair": "مردمی → حیله",
+    "reason": "مردمی حیله گر — indefinite -ī + adjective, no ezafe"
+   },
+   {
+    "pair": "خوابی → عمیق",
+    "reason": "خوابی عمیق — indefinite -ī + adjective, no ezafe"
+   },
+   {
+    "pair": "مردمم → پیمان",
+    "reason": "با مردمم (adverbial) + پیمان بستن (compound verb)"
+   },
+   {
+    "pair": "سَروَر → گردن",
+    "reason": "خواست سَروَر (object of به) + گردن نهادن (compound verb)"
+   },
+   {
+    "pair": "بامداد → سَروَر",
+    "reason": "در بامداد (adverbial) + subject سَروَر"
+   },
+   {
+    "pair": "مردمش → روانۀ",
+    "reason": "subject آلما و مردمش + predicate روانۀ بیابان شدند"
+   },
+   {
+    "pair": "وادی → نگه",
+    "reason": "در این وادی (adverbial) + نگه داشتن (compound verb)"
+   }
   ]
  }
 }
